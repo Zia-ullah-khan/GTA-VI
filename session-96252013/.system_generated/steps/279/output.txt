@@ -1,0 +1,16 @@
+
+The command exited with code 1.
+Output:
+Generating GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png...
+Saved to artifact dir: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png
+Generating GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png...
+Saved to artifact dir: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png
+Copied GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png to workspace and Downloads.
+Traceback (most recent call last):
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py", line 500, in <module>
+    shutil.copyfile(src, dst_ws)
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png'
+

@@ -1,0 +1,197 @@
+
+The command exited with code 0.
+Output:
+=== COM_KBOS_CLEAN ===
+{
+  "id": "COM_KBOS_CLEAN",
+  "display_name": "Don Gone",
+  "protagonist": "Jason",
+  "story_list_position": 18,
+  "replay_menu_position": 17,
+  "triggers": [
+    {
+      "source": "pack/story000/story000.rpf @ 0x3e2372000 (PSO, 2,166,996 bytes inflated)",
+      "position": [
+        -2683.746,
+        -6050.11,
+        4.356
+      ],
+      "required_player_hash": "0x56D7FE7A",
+      "required_player": "Jason",
+      "contact_hash": "0x2913C629",
+      "contact_name": "brian",
+      "hour_start": null,
+      "hour_end": null,
+      "flags": 256
+    },
+    {
+      "source": "levels.rpf @ 0x11bb116000 (PSO, 1,498,864 bytes inflated)",
+      "position": [
+        -2683.746,
+        -6050.11,
+        4.356
+      ],
+      "required_player_hash": "0x56D7FE7A",
+      "required_player": "Jason",
+      "contact_hash": "0x2913C629",
+      "contact_name": "brian",
+      "hour_start": null,
+      "hour_end": null,
+      "flags": null
+    }
+  ],
+  "available_hours": [],
+  "recap_description": "With Donnie dead, Brian asks Jason to visit Donnie's trailer and make it look like he skipped town.",
+  "objective_description": "Clean up Donnie's trailer by removing any evidence of his connection to Brian.",
+  "auto_flagged_when": [
+    {
+      "flag_added_for": [
+        "MTL_WAKE"
+      ],
+      "unless_already_flagged": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572995 (0x10BE4C94 = joaat('com_kbos_clean'))"
+      ]
+    }
+  ]
+}
+=== HO_PAR_KEYCO ===
+{
+  "id": "HO_PAR_KEYCO",
+  "display_name": "Recalibration",
+  "protagonist": "Jason",
+  "story_list_position": 19,
+  "replay_menu_position": 18,
+  "triggers": [
+    {
+      "source": "pack/story000/story000.rpf @ 0x3e2372000 (PSO, 2,166,996 bytes inflated)",
+      "position": [
+        -2351.89,
+        -5529.382,
+        7.933
+      ],
+      "required_player_hash": "0x56D7FE7A",
+      "required_player": "Jason",
+      "contact_hash": "0xD058819F",
+      "contact_name": "player_lucia",
+      "hour_start": null,
+      "hour_end": null,
+      "flags": 256
+    },
+    {
+      "source": "levels.rpf @ 0x11bb116000 (PSO, 1,498,864 bytes inflated)",
+      "position": [
+        -2351.89,
+        -5529.382,
+        7.933
+      ],
+      "required_player_hash": "0x56D7FE7A",
+      "required_player": "Jason",
+      "contact_hash": "0xD058819F",
+      "contact_name": "player_lucia",
+      "hour_start": null,
+      "hour_end": null,
+      "flags": null
+    }
+  ],
+  "available_hours": [],
+  "recap_description": "Cal is depressed after Donnie's death. Jason and Lucia take him fishing to cheer him up and pay their respects to their fallen friend.",
+  "objective_description": "Take Cal fishing to help him clear his head after Donnie's death.",
+  "auto_flagged_when": [
+    {
+      "flag_added_for": [
+        "MTL_WAKE"
+      ],
+      "unless_already_flagged": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572999 (0x420623AF = joaat('ho_par_keyco'))"
+      ]
+    }
+  ]
+}
+=== BIL_PICK ===
+{
+  "id": "BIL_PICK",
+  "display_name": "Swamped (Kingfishers Smugglers Meet)",
+  "protagonist": "Jason",
+  "story_list_position": 20,
+  "replay_menu_position": 19,
+  "triggers": [],
+  "available_hours": [],
+  "recap_description": "Mattia says the pick-up job is on. Jason and Lucia, disguised as Mattia and Kat, take the bag out of a locker at the Grassriver Visitor Center, but are quickly arrested. Everyone is then attacked by dirty cops and Jason is badly wounded. They manage to get out with the bag and Cal takes Jason to hospital.",
+  "objective_description": "Follow Mattia's instructions and make the pick-up from Grassrivers Visitor Center.",
+  "auto_flagged_when": []
+}
+=== BIL_HOUSE ===
+{
+  "id": "BIL_HOUSE",
+  "display_name": "Find Donnie's Package (Hamlet House)",
+  "protagonist": "Lucia",
+  "story_list_position": 21,
+  "replay_menu_position": 20,
+  "triggers": [
+    {
+      "source": "pack/story000/story000.rpf @ 0x3e2372000 (PSO, 2,166,996 bytes inflated)",
+      "position": [
+        -2351.278,
+        -5523.381,
+        5.989
+      ],
+      "required_player_hash": "0x4E21D02A",
+      "required_player": "Lucia",
+      "contact_hash": "0x86199A43",
+      "contact_name": null,
+      "hour_start": null,
+      "hour_end": null,
+      "flags": 256
+    },
+    {
+      "source": "levels.rpf @ 0x11bb116000 (PSO, 1,498,864 bytes inflated)",
+      "position": [
+        -2351.278,
+        -5523.381,
+        5.989
+      ],
+      "required_player_hash": "0x4E21D02A",
+      "required_player": "Lucia",
+      "contact_hash": "0x86199A43",
+      "contact_name": null,
+      "hour_start": null,
+      "hour_end": null,
+      "flags": null
+    }
+  ],
+  "available_hours": [],
+  "recap_description": "With Jason on his way to hospital, Lucia returns home to grab his stash, but is attacked by masked men searching for the bag from the locker. She escapes but their house is burnt down.",
+  "objective_description": "Collect some of Jason's belongings before the two of you skip town.",
+  "auto_flagged_when": []
+}
+=== BIL_WHEEL ===
+{
+  "id": "BIL_WHEEL",
+  "display_name": "Doin' Gone (Donnie's Trailer Climax)",
+  "protagonist": null,
+  "story_list_position": 22,
+  "replay_menu_position": 21,
+  "triggers": [],
+  "available_hours": [],
+  "recap_description": "Lucia rushes to see Jason in Vice City Hospital, but the dirty cops and masked men are there and want them dead. They fight their way out of the building and flee west to Kelly County.",
+  "objective_description": "Get Jason to safety before whoever torched the house tracks him down.",
+  "auto_flagged_when": []
+}
+=== MTL_WAKE ===
+{
+  "id": "MTL_WAKE",
+  "display_name": "What's in the Bag? (Starlet Motel Arrival)",
+  "protagonist": null,
+  "story_list_position": 23,
+  "replay_menu_position": 0,
+  "triggers": [],
+  "available_hours": [],
+  "recap_description": "Jason wakes up in a Port Gellhorn motel room Lucia has checked them into. The dirty cop from the Visitor Center, Captain M\u00c3\u00a9ndez, is on the news blaming them for the attack. They look in the bag they took from the locker and see it contains an old statue and a hard drive.",
+  "objective_description": "Examine the contents of the bag from the Visitor Center.",
+  "auto_flagged_when": []
+}
+

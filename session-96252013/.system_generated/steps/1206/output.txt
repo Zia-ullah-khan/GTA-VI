@@ -1,0 +1,41 @@
+Created At: 2026-11-25T17:54:38-05:00
+Completed At: 2026-11-25T17:54:45-05:00
+Command exited with code 0.
+
+Command output:
+=== sub_1409df9d0 (PSIN parser) ===
+  0x1409df9d0: push     r15
+  0x1409df9d2: push     r14
+  0x1409df9d4: push     r13
+  0x1409df9d6: push     r12
+  0x1409df9d8: push     rsi
+  0x1409df9d9: push     rdi
+  0x1409df9da: push     rbp
+  0x1409df9db: push     rbx
+  0x1409df9dc: sub      rsp, 0x58
+  0x1409df9e0: mov      qword ptr [rdx], 0
+  0x1409df9e7: mov      rdi, rcx
+  0x1409df9ea: mov      r12, qword ptr [rip + 0xa1ed84f]
+  0x1409df9f1: mov      ebx, r9d
+  0x1409df9f4: mov      r14, r8
+  0x1409df9f7: mov      rsi, rdx
+  0x1409df9fa: mov      eax, dword ptr [rip + 0x642912c]
+  0x1409dfa00: mov      rcx, qword ptr gs:[0x58]
+  0x1409dfa09: mov      rax, qword ptr [rcx + rax*8]
+  0x1409dfa0d: cmp      byte ptr [rax + 8], 0
+  0x1409dfa14: je       0x1409dfb7e
+  0x1409dfa1a: mov      rax, qword ptr gs:[0x58]
+  0x1409dfa23: mov      rax, qword ptr [rax]
+  0x1409dfa26: lea      r13, [rax + 0x1258]
+  0x1409dfa2d: mov      rax, qword ptr [r13]
+  0x1409dfa31: test     rax, rax
+  0x1409dfa34: jne      0x1409dfb4a
+  0x1409dfa3a: add      r12, 0x68
+  0x1409dfa3e: xor      eax, eax
+  0x1409dfa40: vmovups  xmm0, xmmword ptr [r12 + 8]
+  0x1409dfa47: lea      rbp, [rip + 0x5c9d6f2]
+  0x1409dfa4e: movabs   r15, 0x200000000
+  0x1409dfa58: vmovups  xmmword ptr [rsp + 0x38], xmm0
+  0x1409dfa5e: mov      qword ptr [rsp + 0x30], rbp
+  0x1409dfa63: mov      ecx, dword ptr [rip + 0x64290c3]
+  0x1409dfa69: mov      rdx, qword ptr gs:[0x58]

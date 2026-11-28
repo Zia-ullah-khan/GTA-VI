@@ -1,0 +1,45 @@
+
+The command exited with code 0.
+Output:
+L572830:         VmValues v_10AB81_6 = null!;
+L572831:         VmValue v_10AB85_7 = default;
+L572832:         VmValues v_10AB99_8 = null!;
+L572833:         VmValue v_10AB9D_9 = default;
+L572834:         VmValues v_10ABB1_10 = null!;
+L572835:         VmValue v_10ABB5_11 = default;
+L572836:         VmValues v_10ABC9_12 = null!;
+L572837:         VmValue v_10ABCD_13 = default;
+L572838:         VmValues v_10ABE1_14 = null!;
+L572839:         VmValue v_10ABE5_15 = default;
+L572840:         VmValues v_10ABF9_16 = null!;
+L572841:         VmValue v_10ABFD_17 = default;
+L572842:         VmValues v_10AC13_0 = null!;
+L572843:         VmValue v_10AC17_1 = default;
+L572844:         VmValues v_10AC2B_2 = null!;
+L572845:         VmValue v_10AC2F_3 = default;
+L572846:         VmValue v_10AC34_4 = default;
+L572847:         VmValues v_10AC46_0 = null!;
+L572848:         VmValue v_10AC4A_1 = default;
+L572849:         VmValue v_10AC4F_2 = default;
+L572850:         VmValues v_10AC61_0 = null!;
+L572851:         VmValue v_10AC65_1 = default;
+L572852:         VmValues v_10AC79_0 = null!;
+L572853:         VmValue v_10AC7D_1 = default;
+L572854:         VmValue v_10AC82_2 = default;
+L572855:         VmValues v_10AC94_0 = null!;
+L572856:         VmValue v_10AC98_1 = default;
+L572857:         VmValue v_10AC9D_2 = default;
+L572858:         VmValues v_10ACAF_0 = null!;
+L572859:         VmValue v_10ACB3_1 = default;
+L572860:         VmValues v_10ACC7_0 = null!;
+L572861:         VmValue v_10ACCB_1 = default;
+L572862:         VmValues v_10ACDE_0 = null!;
+L572863:         label_10AA55: ;
+L572864:         local_1 = p1;
+L572865:         store_i32(Vm.Address(locals, 2), 0x0, 0x702D5A0C);
+L572866:         store_i32(Vm.Address(locals, 2), 0x4, 0);
+L572867:         store_i32(Vm.Address(locals, 2), 0x8, 0x5B5EEFFE);
+L572868:         v_10AA7F_0 = Native.STATS.STAT_ID_IS_VALID(Vm.Address(locals, 2)); // RVA: 0x04463F40
+L572869:         if (((as_u32(v_10AA7F_0) != 0)))
+L572870:         {
+

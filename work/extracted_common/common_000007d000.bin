@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedFormationInfoManager>
+  <aPedFormationInfos>
+    <Item>
+      <Name>STANDARD_PED</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="3.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="20.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>STANDARD_QUADRUPED</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="15.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="0.750000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="0.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="true" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="true" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="true" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>Dog</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="15.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="0.750000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="0.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="true" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="true" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="true" />
+      <PreventFollowingIntoInteriors value="true" />
+    </Item>
+    <Item>
+      <Name>HORSE</Name>
+      <DefaultMoveFollowLeaderRunDistance value="10.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="20.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="8.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="15.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="3.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="20.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="true" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>USE_SMALL_SLOPE</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>Simple</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>SMALL_ANIMAL</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>LARGE_PREDATOR</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>SIMPLE_NO_AVOIDANCE</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>WATER_ONLY</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>Amphibian</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>	
+    <Item>
+      <Name>FLIGHT_CAPABLE</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>duck</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>PELICAN</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>Seagull</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+    <Item>
+      <Name>GOOSE</Name>
+      <DefaultMoveFollowLeaderRunDistance value="6.000000" />
+      <DefaultMoveFollowLeaderSprintDistance value="9.000000" />
+      <DesiredMbrLowerBoundInMoveFollowLeader value="1.000000" />
+      <FollowLeaderSeekEntityWalkSpeedRange value="10.000000" />
+      <FollowLeaderSeekEntityRunSpeedRange value="20.000000" />
+      <StillLeaderSpacingEpsilon value="0.000000" />
+      <MoveFollowLeaderHeadingTolerance value="0.000000" />
+      <FollowLeaderLookaheadTime value="1.000000" />
+      <FollowLeaderMinimumLookaheadDistance value="0.000000" />
+      <FollowLeaderMaximumLookaheadDistance value="0.000000" />
+      <NonGroupMinDistToAdjustSpeed value="3.000000" />
+      <NonGroupMaxDistToAdjustSpeed value="16.000000" />
+      <CanSprintInFollowLeaderSeekEntity value="false" />
+      <UseAdaptiveMbrInMoveFollowLeader value="false" />
+      <AlwaysKeepMovingWhilstFollowingLeaderPath value="false" />
+      <IgnoreMovingTowardsLeaderTargetRadiusExpansion value="false" />
+      <UseSimpleFollowMBRCalculation value="false" />
+      <PreventFollowingIntoInteriors value="false" />
+    </Item>
+  </aPedFormationInfos>
+</CPedFormationInfoManager>

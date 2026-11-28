@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPairedPedDataBlock>
+  <SpacingData>
+    <Item>
+      <Name>Casual</Name>
+      <PairedPedSpacing>		
+        <Spacing x="0.7" y="1.4"/>
+        <MiddleSpacing x="1.0" y="1.75"/>		
+        <MinSpacing x="0.42" y="0.98"/>		
+        <MinSpacing_Crossing x="0.42" y="0.56"/>		
+		<MinMiddleSpacing x="0.575" y="1.225"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.7"/> 
+        <MaxSpacing x="1.0" y="1.6"/>	
+        <OffsetVariation x="0.18" y="0.22"/>		
+        <MinOffsetTolerance x="0.00" y="0.05"/>
+        <MaxOffsetTolerance x="0.2" y="0.25"/>
+        <MaxOffsetTolerance2Rows x="0.1" y="0.1"/>
+		<SupportHandhold value="false" />
+		<ConsiderCouple value="false" />
+      </PairedPedSpacing>
+    </Item>
+    <Item>
+      <Name>Couple</Name>
+      <PairedPedSpacing>	  
+		<Spacing x="0.47" y="1.35"/>
+        <MiddleSpacing x="0.64" y="1.7"/>
+        <MinSpacing x="0.4" y="0.945"/>		
+        <MinSpacing_Crossing x="0.4" y="0.56"/>		
+		<MinMiddleSpacing x="0.544" y="1.19"/>		
+        <MinMiddleSpacing_Crossing x="0.512" y="0.68"/>	
+        <MaxSpacing x="0.65" y="1.4"/>
+        <OffsetVariation x="0.1" y="0.1"/>			
+        <MinOffsetTolerance x="0.00" y="0.05"/>
+        <MaxOffsetTolerance x="0.1" y="0.2"/>
+        <MaxOffsetTolerance2Rows x="0.1" y="0.1"/>
+		<SupportHandhold value="false" />
+		<ConsiderCouple value="true" />
+		<FallbackSpacing>Casual</FallbackSpacing>
+      </PairedPedSpacing>
+    </Item>
+    <Item>
+      <Name>Business</Name>
+      <PairedPedSpacing>
+		<Spacing x="0.875" y="1.65"/>
+        <MiddleSpacing x="1.2" y="2.25"/>			
+        <MinSpacing x="0.48" y="1.23"/>			
+        <MinSpacing_Crossing x="0.4375" y="0.5775"/>	
+		<MinMiddleSpacing x="0.48" y="1.68"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.78"/>	
+        <MaxSpacing x="1.1" y="2.0"/>			
+        <OffsetVariation x="0.18" y="0.25"/>		
+        <MinOffsetTolerance x="0.00" y="0.05"/>
+        <MaxOffsetTolerance x="0.25" y="0.3"/>
+        <MaxOffsetTolerance2Rows x="0.2" y="0.2"/>
+		<SupportHandhold value="false" />	
+		<ConsiderCouple value="false" />
+      </PairedPedSpacing>
+    </Item>	
+	<Item>
+      <Name>Handhold</Name>
+      <PairedPedSpacing> 
+		<Spacing x="0.35" y="0.8"/>
+        <MiddleSpacing x="1.2" y="0.8"/>			
+        <MinSpacing x="0.3" y="0.8"/>			
+        <MinSpacing_Crossing x="0.3" y="0.8"/>	
+		<MinMiddleSpacing x="0.48" y="0.8"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.78"/>	
+        <MaxSpacing x="0.35" y="0.8"/>								
+        <OffsetVariation x="0.0" y="0.0"/>			
+        <MinOffsetTolerance x="0.0" y="0.0"/>
+        <MaxOffsetTolerance x="0.0" y="0.0"/>
+        <MaxOffsetTolerance2Rows x="0.0" y="0.0"/>
+		<SupportHandhold value="true" />
+		<ConsiderCouple value="false" />
+		<FallbackSpacing>Casual</FallbackSpacing>
+      </PairedPedSpacing>
+    </Item>
+  </SpacingData>
+  <BespokeSpacingData>
+    <Item>
+      <Name>Confront</Name>
+      <PairedPedSpacing> 
+        <Spacing x="0.8" y="0.9"/>
+        <MiddleSpacing x="1.0" y="0.9"/>		
+        <MinSpacing x="0.7" y="0.8"/>		
+        <MinSpacing_Crossing x="0.42" y="0.56"/>		
+        <MinMiddleSpacing x="0.575" y="1.225"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.7"/> 
+        <MaxSpacing x="0.8" y="0.9"/>	
+        <OffsetVariation x="0.0" y="0.0"/>		
+        <MinOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance2Rows x="0.1" y="0.1"/>
+        <SupportHandhold value="false" />
+        <ConsiderCouple value="false" />
+      </PairedPedSpacing>
+    </Item>
+    <Item>
+      <Name>Confront_Surround</Name>
+      <PairedPedSpacing> 
+        <Spacing x="1.2" y="0.9"/>
+        <MiddleSpacing x="1.0" y="0.9"/>		
+        <MinSpacing x="0.7" y="0.8"/>		
+        <MinSpacing_Crossing x="0.42" y="0.56"/>		
+        <MinMiddleSpacing x="0.575" y="1.225"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.7"/> 
+        <MaxSpacing x="0.8" y="0.9"/>	
+        <OffsetVariation x="0.0" y="0.0"/>		
+        <MinOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance2Rows x="0.1" y="0.1"/>
+        <SupportHandhold value="false" />
+        <ConsiderCouple value="false" />
+        <DisableWaitingWhenCloseToLeader value="true" />
+      </PairedPedSpacing>
+    </Item>
+  </BespokeSpacingData>
+  <VehicleSpacingData>
+	<Item>
+      <Name>Vehicle</Name>
+      <PairedPedSpacing> 
+		<Spacing x="0.7" y="1.2"/>
+        <MiddleSpacing x="1.0" y="0.9"/>		
+        <MinSpacing x="0.3" y="1.0"/>		
+        <MinSpacing_Crossing x="0.9" y="0.9"/>		
+		<MinMiddleSpacing x="0.575" y="1.225"/>		
+        <MinMiddleSpacing_Crossing x="0.6" y="0.7"/> 
+        <MaxSpacing x="0.7" y="1.2"/>	
+        <OffsetVariation x="0.0" y="0.0"/>		
+        <MinOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance x="0.05" y="0.1"/>
+        <MaxOffsetTolerance2Rows x="0.1" y="0.1"/>
+		<SupportHandhold value="false" />
+		<ConsiderCouple value="false" />
+      </PairedPedSpacing>
+    </Item>
+  </VehicleSpacingData>
+  <AmbientFormationData>
+    <Item>
+      <Name>Pairs</Name>
+      <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1.0" y="0.0"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="2"/>
+        <UseMiddleSpacing value="true"/>
+        <AlignFormationToX value="false"/>
+		<SupportsOffsetVariation value="true" />
+		<AllowShuffleLeaderPosition value="true" />
+      </PairedPedFormation>
+    </Item>
+    <Item>
+      <Name>Threes</Name>
+      <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1.0" y="0.0"/>
+          </Item>
+          <Item>
+            <Pos x="2.0" y="0.0"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="3"/>
+        <UseMiddleSpacing value="false"/>
+        <AlignFormationToX value="true"/>
+		<SupportsOffsetVariation value="true" />
+		<AllowShuffleLeaderPosition value="true" />
+		<ExtraSpaceBuffer value="1.25" />		
+		<MaxNumberOfPeds value="3" /> 
+		<MinNumberOfPeds value="3" />
+      </PairedPedFormation>  
+      <FallbackFormation>Pairs</FallbackFormation>
+    </Item>
+	 <Item>
+      <Name>Diamond</Name>
+      <PairedPedFormation>
+        <Positions>                  
+		   <Item>
+            <Pos x="0.75" y="0.5"/>
+          </Item>
+		  <Item>
+            <Pos x="-0.75" y="0.5"/>
+          </Item>
+          <Item>
+            <Pos x="0.0" y="1.0"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="-1"/>
+        <UseMiddleSpacing value="true"/>
+        <AlignFormationToX value="false"/>
+		<SupportsOffsetVariation value="false" />
+		<AllowShuffleLeaderPosition value="false" />
+		<MinNumberOfPeds value="3" />	
+		<MaxNumberOfPeds value="4" /> 		
+		<UseFallbackForMinNumber value="true" />
+      </PairedPedFormation>
+      <FallbackFormation>Pairs</FallbackFormation>
+    </Item>
+  </AmbientFormationData>
+  <BespokeFormationData>
+    <Item>
+      <Name>Confront</Name>
+      <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1.0" y="1.0"/>
+          </Item>
+          <Item>
+            <Pos x="-1.0" y="1.0"/>
+          </Item>
+          <Item>
+            <Pos x="2.0" y="1.0"/>
+          </Item>
+          <Item>
+            <Pos x="-2.0" y="1.0"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="4"/>
+        <UseMiddleSpacing value="false"/>
+        <AlignFormationToX value="false"/>
+        <SupportsOffsetVariation value="false" />
+        <AllowShuffleLeaderPosition value="false" />
+        <AllowRelaxedWaitPositions value="false" />  
+        <PositionsToCheckForShuffle value="2"/>
+      </PairedPedFormation>
+    </Item>
+    <Item>
+      <Name>Confront_Surround</Name>
+      <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1" y="-1.0"/>
+          </Item>
+          <Item>
+            <Pos x="-1" y="-1.0"/>
+          </Item>
+          <Item>
+            <Pos x="2.0" y="0.0"/>
+          </Item>
+          <Item>
+            <Pos x="-2.0" y="0.0"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="-1"/>
+        <UseMiddleSpacing value="false"/>
+        <AlignFormationToX value="false"/>
+        <SupportsOffsetVariation value="false" />
+        <AllowShuffleLeaderPosition value="false" />
+        <AllowRelaxedWaitPositions value="false" />
+        <PositionsToCheckForShuffle value="2"/>
+      </PairedPedFormation>
+    </Item>
+    <Item>
+      <Name>Leading</Name>
+      <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1.0" y="0.5"/>
+          </Item>
+          <Item>
+            <Pos x="1.75" y="0.25"/>
+          </Item>
+          <Item>
+            <Pos x="0.0" y="1.5"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="-1"/>
+        <UseMiddleSpacing value="true"/>
+        <AlignFormationToX value="true"/>	
+		<MaxNumberOfPeds value="4" /> 
+		<SupportsOffsetVariation value="false" />
+		<AllowShuffleLeaderPosition value="false" />
+        <FallbackFormation>Pairs</FallbackFormation>
+      </PairedPedFormation>
+    </Item>
+  </BespokeFormationData>
+  <VehicleFormationData>
+    <Item>
+      <Name>LeadingVehicle</Name>
+     <PairedPedFormation>
+        <Positions>
+          <Item>
+            <Pos x="1.0" y="0.75"/>
+          </Item>
+        </Positions>
+        <NumberOfPedsInRow value="-1"/>
+        <UseMiddleSpacing value="false"/>
+        <AlignFormationToX value="true"/>
+		<SupportsOffsetVariation value="false" />
+		<AllowShuffleLeaderPosition value="false" />
+		<ExtraSpaceBuffer value="1.0" />		
+      </PairedPedFormation>
+    </Item>
+  </VehicleFormationData>
+</CPairedPedDataBlock>

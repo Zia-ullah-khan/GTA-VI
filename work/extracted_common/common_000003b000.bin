@@ -1,0 +1,3628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CLassoDataManager>
+  <LassoHogtieFlagSets>
+    <Item key="ATTACKING_ANIMAL">CanBeLassoed CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers CanRunPrimaryLassoReactTask ShouldAttackOnAttach CanPullOverPlayer</Item>
+    <Item key="DEFAULT_HORSE">CanBeLassoed CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers CanRunPrimaryLassoReactTask CanPullOverPlayer</Item>
+    <Item key="DEFAULT_HUMAN_NON_PLAYER">CanBeLassoed CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanRunPrimaryLassoReactTask</Item>
+    <Item key="DEFAULT_PLAYER">CanBeLassoed CanBeLassoedWhenDead CanRunPrimaryLassoReactTask</Item>
+    <Item key="FLEEING_ANIMAL">CanBeLassoed CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers CanRunPrimaryLassoReactTask ShouldFleeOnAttach CanPullOverPlayer</Item>
+    <Item key="FLEEING_EXTRALARGE_ANIMAL">CanBeLassoed CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers CanRunPrimaryLassoReactTask ShouldFleeOnAttach CanPullOverPlayer CanBeLassoedWhenDeadInWater</Item>
+    <Item key="LASSOABLE_WHEN_DEAD">CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers </Item>
+    <Item key="FLEEING_ANIMAL_SMALL">CanBeLassoed CanBeLassoedWhenDead CanBeLassoedByFriendlyAI CanBeLassoedByFriendlyPlayers CanRunPrimaryLassoReactTask ShouldFleeOnAttach</Item>
+  </LassoHogtieFlagSets>
+  <ModelToLassoHogtieFlagsKey>
+    <Item key="A_C_Alligator_01">LASSOABLE_WHEN_DEAD</Item>
+    <Item key="A_C_Alligator_03">LASSOABLE_WHEN_DEAD</Item>
+    <Item key="A_C_BearBlack_01">LASSOABLE_WHEN_DEAD</Item>
+    <Item key="A_C_BigHornRam_01">ATTACKING_ANIMAL</Item>
+    <Item key="A_C_BIGHORNRAM_01_f">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Boar_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Buck_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Buffalo_01">FLEEING_EXTRALARGE_ANIMAL</Item>
+    <Item key="A_C_Buffalo_Tatanka_01">FLEEING_EXTRALARGE_ANIMAL</Item>
+    <Item key="A_C_Bull_01">ATTACKING_ANIMAL</Item>
+    <Item key="A_C_Cow">FLEEING_ANIMAL</Item>
+    <Item key="A_C_DEER_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_DEERMANGY_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_ELK_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_ELK_01_F">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Goat_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Javelina_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_MOOSE_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_MOOSE_01_F">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Ox_01">ATTACKING_ANIMAL</Item>
+    <Item key="A_C_Pig_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_ProngHorn_01">FLEEING_ANIMAL</Item>
+    <Item key="A_C_Sheep_01">FLEEING_ANIMAL_SMALL</Item>
+    <Item key="A_C_SheepBlack_01">FLEEING_ANIMAL_SMALL</Item>
+  </ModelToLassoHogtieFlagsKey>
+  <DefaultPlayerLassoFlagsSet>DEFAULT_PLAYER</DefaultPlayerLassoFlagsSet>
+  <DefaultHumanLassoFlagsSet>DEFAULT_HUMAN_NON_PLAYER</DefaultHumanLassoFlagsSet>
+  <DefaultHorseLassoFlagsSet>DEFAULT_HORSE</DefaultHorseLassoFlagsSet>
+  <LassoAttachments>
+    <Item key="ALLIGATOR_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.097500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.062500" y="-0.330000" z="0.110000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.035000" y="0.295000" z="-0.125000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.177500" y="0.000000" z="0.102500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.210000" y="0.095000" z="-0.040000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.197500" y="-0.167500" z="-0.200000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.192500" y="0.000000" z="-0.160000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.160000" y="-0.045000" z="0.097500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.195000" y="0.075000" z="-0.167500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.162500" y="0.000000" z="0.120000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.085000" y="0.030000" z="0.200000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.025000" y="-0.190000" z="0.115000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="ALLIGATOR_NECK2">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.257500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.062500" y="-0.467500" z="0.165000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.035000" y="0.597500" z="-0.060000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.177500" y="0.000000" z="0.357500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.210000" y="0.282500" z="0.102500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.197500" y="-0.337500" z="-0.165000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.192500" y="0.000000" z="-0.012500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.160000" y="-0.010000" z="0.365000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.195000" y="0.132500" z="0.052500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.162500" y="0.000000" z="0.410000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.085000" y="0.292500" z="0.405000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.025000" y="-0.237500" z="0.242500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="ALLIGATOR_NECK3">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.007500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.040000" z="0.022500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.075000" z="0.000000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.015000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.035000" z="0.000000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.015000" z="0.000000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.010000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.040000" z="0.000000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.020000" z="0.000000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.017500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.035000" z="0.000000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.102500" z="0.000000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="BEAR_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.200000" z="-0.010000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.200000" z="-0.010000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="4" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="BOAR_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.045000" y="-0.142500" z="0.047500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.030000" y="0.172500" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.190000" z="-0.040000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.022500" y="-0.115000" z="-0.130000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.040000" y="-0.182500" z="-0.107500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.015000" y="0.215000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.035000" y="0.132500" z="0.050000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.155000" z="-0.020000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="BUFFALO_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.027500" y="0.030000" z="0.095000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.027500" y="-0.227500" z="-0.002500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.115000" y="0.162500" z="0.027500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.065000" y="0.250000" z="0.130000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.035000" y="-0.220000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="-0.032500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.095000" y="-0.277500" z="0.105000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.050000" y="0.225000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="BULL_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.000000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.087500" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.107500" z="-0.055000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.027500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.190000" y="0.097500" z="-0.015000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.032500" z="0.047500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.122500" y="0.000000" z="-0.017500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.162500" y="-0.065000" z="-0.197500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.202500" z="0.040000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.000000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.137500" z="0.012500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.095000" z="-0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="COW_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.000000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.055000" y="-0.092500" z="0.000000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.067500" y="0.090000" z="-0.095000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.027500" y="-0.010000" z="0.022500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.092500" z="0.000000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.055000" y="-0.125000" z="-0.045000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.000000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.002500" y="-0.070000" z="0.037500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.055000" y="0.087500" z="-0.102500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.027500" y="0.000000" z="0.022500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.025000" y="0.157500" z="-0.050000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.035000" y="-0.102500" z="-0.082500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="ELK_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.200000" z="-0.010000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.200000" z="-0.010000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="4" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="DEER_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.025000" z="0.032500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.025000" z="0.033000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.037500" z="0.042500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.030000" z="0.037500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="4" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="DONKEY_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.022500" z="0.150000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.042500" y="-0.100000" z="0.047500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.135000" y="0.155000" z="0.122500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.090000" y="0.222500" z="-0.007500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.077500" y="-0.162500" z="-0.165000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.027500" z="0.072500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.067500" y="-0.235000" z="-0.027500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.105000" y="0.252500" z="-0.132500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.035000" y="0.132500" z="0.050000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.155000" z="-0.020000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="GOAT_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.015000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.142500" z="-0.052500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.022500" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.025000" z="0.037500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.030000" z="0.000000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.012500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.015000" z="0.037500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.020000" z="0.027500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.015000" y="0.020000" z="0.030000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.015000" z="0.055000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.010000" z="0.045000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="4" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HORSE_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.200000" z="-0.010000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.200000" z="-0.010000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HUMAN_ANKLES">
+      <Flags>DisableOnMount DisableInVehicle DisableWhenSitting BindAnkles</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_L_FOOT</Item>
+        <Item>SKEL_L_THIGH</Item>
+        <Item>SKEL_R_THIGH</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.090000" y="0.050000" z="-0.000000" />
+              <BoneTag>SKEL_L_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_L_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.025000" y="0.030000" z="-0.045000" />
+              <BoneTag>SKEL_L_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_L_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.025000" y="0.010000" z="-0.035000" />
+              <BoneTag>SKEL_L_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_L_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.050000" y="0.000000" z="-0.000000" />
+              <BoneTag>SKEL_L_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_L_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.050000" y="0.000000" z="0.000000" />
+              <BoneTag>SKEL_R_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_R_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.025000" y="0.010000" z="0.035000" />
+              <BoneTag>SKEL_R_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_R_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.025000" y="0.030000" z="0.045000" />
+              <BoneTag>SKEL_R_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_R_CALF</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.090000" y="0.050000" z="0.000000" />
+              <BoneTag>SKEL_R_FOOT</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_R_CALF</ConstraintBoneTag>
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="5.000000" />
+    </Item>
+    <Item key="HUMAN_NECK">
+      <Flags />
+      <TargetBoneTags>
+        <Item>SKEL_NECK0</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.010000" y="0.070000" z="0.000000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.010000" y="0.050000" z="-0.050000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.010000" y="0.000000" z="-0.070000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.050000" z="-0.050000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.010000" y="-0.080000" z="0.000000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.050000" z="0.050000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.010000" y="0.000000" z="0.070000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.010000" y="0.040000" z="0.050000" />
+              <BoneTag>SKEL_NECK1</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HUMAN_TORSO">
+      <Flags>DisableInVehicle BindElbows</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_SPINE1</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.180000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.105000" y="0.100000" z="0.047500" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.175000" y="0.122500" z="0.060000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.125000" y="-0.045000" z="0.050000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.112500" y="-0.072500" z="-0.037500" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.215000" y="-0.102500" z="-0.002500" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.202500" y="0.000000" z="-0.022500" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.112500" y="0.072500" z="-0.037500" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.215000" y="0.102500" z="-0.002500" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.093000" y="0.045000" z="0.050000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.105000" y="-0.100000" z="0.047500" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.175000" y="-0.122500" z="0.060000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag>SKEL_SPINE3</ConstraintBoneTag>
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="-0.250000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HUMAN_TORSO_BOLAS">
+      <Flags>DisableInVehicle BindElbows</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_SPINE1</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.000000" z="-0.020000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.100000" z="-0.030000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>	
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.060000" z="-0.020000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.180000" y="0.150000" z="0.030000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.060000" z="-0.020000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.015000" z="0.005000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.000000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.000000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.120000" y="-0.100000" z="0.085000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="-0.070000" z="0.055000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.000000" z="0.065000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.070000" z="0.055000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.045000" z="0.000000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.120000" y="0.100000" z="0.085000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.045000" z="0.000000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.015000" z="0.005000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.060000" z="-0.020000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.060000" z="-0.020000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.180000" y="-0.150000" z="0.030000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="-0.100000" z="-0.030000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.000000" z="-0.020000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.020000" z="-0.025000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="-0.250000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HUMAN_TORSO_WITH_COAT_BOLAS">
+      <Flags>DisableInVehicle BindElbows</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_SPINE1</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.168000" y="0.000000" z="-0.013000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.100000" z="-0.000000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>	
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.060000" z="-0.003000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.180000" y="0.150000" z="0.053000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.090000" z="-0.050000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.015000" z="0.035000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.035000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.030000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.120000" y="-0.100000" z="0.100000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="-0.070000" z="0.095000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.000000" z="0.113000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.070000" z="0.105000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.040000" y="0.060000" z="0.053000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.120000" y="0.100000" z="0.105000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.045000" z="0.033000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.018000" z="0.035000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.080000" z="0.003000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.085000" z="0.003000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.180000" y="-0.150000" z="0.040000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="-0.100000" z="0.005000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.000000" z="0.013000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.020000" z="0.010000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="-0.250000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="HUMAN_TORSO_WITH_SHIRT_BOLAS">
+      <Flags>DisableInVehicle BindElbows</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_SPINE1</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.000000" z="0.008000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.100000" z="-0.010000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>	
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.025000" y="0.080000" z="0.000000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.170000" y="0.165000" z="0.028000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.040000" y="0.080000" z="0.008000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.015000" z="0.040000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.030000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.045000" z="0.035000" />
+              <BoneTag>CP_L_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.088000" y="-0.150000" z="0.115000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="-0.070000" z="0.098000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.000000" z="0.098000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.120000" y="0.070000" z="0.088000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.045000" z="0.035000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.120000" y="0.100000" z="0.105000" />
+              <BoneTag>CP_CHEST</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="0.045000" z="0.040000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.025000" z="0.033000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.085000" z="-0.018000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.050000" y="-0.128000" z="-0.023000" />
+              <BoneTag>CP_R_UPPERARM</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.128000" y="-0.178000" z="0.040000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="-0.100000" z="0.005000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.000000" z="0.010000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.170000" y="0.020000" z="0.010000" />
+              <BoneTag>CP_BACK</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="-1" />
+      <MinAttachingZOffset value="-0.250000" />
+      <MaxAttachingZOffset value="0.400000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="JAVELINA_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.045000" y="-0.142500" z="0.047500" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.030000" y="0.172500" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.065000" y="0.230000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.030000" y="-0.187500" z="-0.130000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.005000" z="0.057500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.042500" y="-0.212500" z="-0.072500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.042500" y="0.215000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.035000" y="0.132500" z="0.050000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.155000" z="-0.020000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="MOOSE_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.200000" z="-0.010000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.200000" z="-0.010000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="4" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="OX_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="-0.000000" y="-0.125000" z="0.050000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.102500" y="0.137500" z="-0.017500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.085000" y="0.232500" z="-0.075000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.022500" y="-0.225000" z="-0.132500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.082500" y="-0.282500" z="-0.052500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="-0.060000" y="0.240000" z="-0.132500" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.005000" y="0.042500" z="0.082500" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.112500" y="-0.137500" z="-0.087500" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+    <Item key="SHEEP_NECK">
+      <Flags>SphericalInterpolation</Flags>
+      <TargetBoneTags>
+        <Item>SKEL_NECK2</Item>
+      </TargetBoneTags>
+      <AttachPoints>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.060000" y="0.000000" z="0.050000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="-0.150000" z="-0.020000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.200000" z="-0.010000" />
+              <BoneTag>CP_R_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="-0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.020000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="-0.200000" z="-0.010000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.000000" y="0.145000" z="-0.100000" />
+              <BoneTag>CP_B_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.000000" y="0.000000" z="0.025000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="1.000000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+        <Item>
+          <Bones>
+            <Item>
+              <Offset x="0.020000" y="0.150000" z="-0.020000" />
+              <BoneTag>CP_L_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+            <Item>
+              <Offset x="0.050000" y="-0.100000" z="-0.040000" />
+              <BoneTag>CP_F_NECKLASSO</BoneTag>
+              <Weight value="0.500000" />
+            </Item>
+          </Bones>
+          <ConstraintBoneTag />
+        </Item>
+      </AttachPoints>
+      <KnotAttachPointIndex value="0" />
+      <MinAttachingZOffset value="0.000000" />
+      <MaxAttachingZOffset value="-1.000000" />
+      <MinRange value="-1.000000" />
+    </Item>
+  </LassoAttachments>
+  <EntityLassoAttachInfo>
+    <Item key="ALLIGATOR_DEFAULT">
+      <Attachments>
+        <Item>ALLIGATOR_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>SHEEP_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@SHEEP@AGITATED@WALK@ONE_STEP@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="ALLIGATOR_DEFAULT2">
+      <Attachments>
+        <Item>ALLIGATOR_NECK2</Item>
+      </Attachments>
+      <DefaultAttachment>SHEEP_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@SHEEP@AGITATED@WALK@ONE_STEP@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="ALLIGATOR_DEFAULT3">
+      <Attachments>
+        <Item>ALLIGATOR_NECK3</Item>
+      </Attachments>
+      <DefaultAttachment>SHEEP_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@SHEEP@AGITATED@WALK@ONE_STEP@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="BEAR_DEFAULT">
+      <Attachments>
+        <Item>BEAR_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>BEAR_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.302500" y="-0.600000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.042500" y="-0.390000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.450000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.500000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="4.500000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="BOAR_DEFAULT">
+      <Attachments>
+        <Item>BOAR_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>BOAR_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@BOAR@AGITATED@WALK@ONE_STEP@TIRED@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="2.2500000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="BUFFALO_DEFAULT">
+      <Attachments>
+        <Item>BUFFALO_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>BUFFALO_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="3.500000" />
+      <MinTension value="0.500000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="4.500000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="BULL_DEFAULT">
+      <Attachments>
+        <Item>BULL_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>BULL_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="3.500000" />
+      <MinTension value="0.500000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="-1.000000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="COW_DEFAULT">
+      <Attachments>
+        <Item>COW_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>COW_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.000000" y="-0.000000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.650000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.000000" y="-0.000000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.650000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="0.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="10.000000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="DEER_DEFAULT">
+      <Attachments>
+        <Item>DEER_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>DEER_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.302500" y="-0.600000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.042500" y="-0.390000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.450000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="DONKEY_DEFAULT">
+      <Attachments>
+        <Item>DONKEY_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>DONKEY_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.302500" y="-0.600000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.042500" y="-0.390000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.450000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="ELK_DEFAULT">
+      <Attachments>
+        <Item>ELK_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>DEER_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.302500" y="-0.600000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.042500" y="-0.390000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.450000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.500000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="8.000000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="GOAT_DEFAULT">
+      <Attachments>
+        <Item>GOAT_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>DEER_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@GOAT@AGITATED@WALK@ONE_STEP@TIRED@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="2.2500000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="HORSE_DEFAULT">
+      <Attachments>
+        <Item>HORSE_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>HORSE_NECK</DefaultAttachment>
+      <ClothCollision>
+        <Item>
+          <OwnerName>HorseNeckCapsule</OwnerName>
+          <Offset x="0.450000" y="0.075000" z="0.000000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.000000" y="0.000000" z="0.707107" w="0.707107" />
+          <CapsuleRadius value="0.200000" />
+          <CapsuleRadius2 value="0.200000" />
+          <CapsuleLen value="0.700000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="14284" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_NECK1</BoneTag>
+          <Flags>
+            <Item>OwnsLasso ConstrantAndLoopRope Idle</Item>
+          </Flags>
+          <SoftCollisionMult value="0.800000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="true" />
+          <PreventCoilToLoopWrapAround value="true" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+        <Item>
+          <OwnerName>HorseSaddleCapsule</OwnerName>
+          <Offset x="-0.020000" y="0.100000" z="0.030000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.000000" y="0.707107" z="0.000000" w="0.707107" />
+          <CapsuleRadius value="0.250000" />
+          <CapsuleRadius2 value="0.250000" />
+          <CapsuleLen value="0.500000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="29245" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_SADDLE</BoneTag>
+          <Flags>
+            <Item>OwnsLasso Mounted</Item>
+          </Flags>
+          <SoftCollisionMult value="1.000000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="false" />
+          <PreventCoilToLoopWrapAround value="false" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+        <Item>
+          <OwnerName>HorseSaddleHornCapsule</OwnerName>
+          <Offset x="-0.020000" y="0.380000" z="0.200000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.707107" y="0.000000" z="0.000000" w="0.707107" />
+          <CapsuleRadius value="0.050000" />
+          <CapsuleRadius2 value="0.050000" />
+          <CapsuleLen value="0.200000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="29245" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_SADDLE</BoneTag>
+          <Flags>
+            <Item>OwnsLasso Mounted</Item>
+          </Flags>
+          <SoftCollisionMult value="1.000000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="false" />
+          <PreventCoilToLoopWrapAround value="false" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+        <Item>
+          <OwnerName>HorseSatchelCapsule</OwnerName>
+          <Offset x="0.030000" y="0.060000" z="0.000000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.000000" y="0.707107" z="0.000000" w="0.707107" />
+          <CapsuleRadius value="0.150000" />
+          <CapsuleRadius2 value="0.150000" />
+          <CapsuleLen value="0.000000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="34484" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_R_SATCHELROOT</BoneTag>
+          <Flags>
+            <Item>OwnsLasso Mounted</Item>
+          </Flags>
+          <SoftCollisionMult value="1.000000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="false" />
+          <PreventCoilToLoopWrapAround value="false" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+      </ClothCollision>
+      <AttachingStartPoint>
+        <Offset x="-0.170000" y="0.157500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.250000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.085000" y="0.240000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.700000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="0.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="-1.000000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="Human_Default">
+      <Attachments>
+        <Item>HUMAN_NECK</Item>
+        <Item>HUMAN_ANKLES</Item>
+        <Item>HUMAN_TORSO</Item>
+      </Attachments>
+      <DefaultAttachment>HUMAN_TORSO</DefaultAttachment>
+      <ClothCollision>
+        <Item>
+          <OwnerName>OwnerMainCapsuleLoop</OwnerName>
+          <Offset x="0.000000" y="-0.030000" z="-0.475000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.707107" y="0.000000" z="0.000000" w="0.707107" />
+          <CapsuleRadius value="0.250000" />
+          <CapsuleRadius2 value="0.250000" />
+          <CapsuleLen value="1.000000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="14415" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_SPINE5</BoneTag>
+          <Flags>
+            <Item>OwnsLasso ConstrantAndLoopRope Idle</Item>
+          </Flags>
+          <SoftCollisionMult value="0.800000" />
+          <EntitySpaceOffset value="true" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="true" />
+          <PreventCoilToLoopWrapAround value="true" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+        <Item>
+          <OwnerName>LeftThigh</OwnerName>
+          <Offset x="0.250000" y="0.025000" z="0.000000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.000000" y="0.000000" z="0.684137" w="0.729353" />
+          <CapsuleRadius value="0.100000" />
+          <CapsuleRadius2 value="0.100000" />
+          <CapsuleLen value="0.380000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="65478" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_L_THIGH</BoneTag>
+          <Flags>
+            <Item>OwnsLasso</Item>
+          </Flags>
+          <SoftCollisionMult value="1.000000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="true" />
+          <PreventCoilToLoopWrapAround value="false" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+        <Item>
+          <OwnerName>LeftCalf</OwnerName>
+          <Offset x="0.200000" y="0.000000" z="0.000000" />
+          <Position x="0.000000" y="0.000000" z="0.000000" />
+          <Normal x="0.000000" y="0.000000" z="0.000000" />
+          <Rotation x="0.000000" y="0.000000" z="0.707107" w="0.707107" />
+          <CapsuleRadius value="0.080000" />
+          <CapsuleRadius2 value="0.080000" />
+          <CapsuleLen value="0.380000" />
+          <CapsuleHalfHeight value="0.000000" />
+          <CapsuleHalfWidth value="0.000000" />
+          <BoneIndex value="-1" />
+          <BoneId value="55120" />
+          <UserData1 value="-1" />
+          <UserData2 value="-1" />
+          <IsEnabled value="true" />
+          <IsVehicle value="false" />
+          <IsRing value="false" />
+          <IsMinMax value="false" />
+          <IsForceNameMatch value="false" />
+          <MetapedTag />
+          <BoneTag>SKEL_L_CALF</BoneTag>
+          <Flags>
+            <Item>OwnsLasso CoilRope OnFoot</Item>
+          </Flags>
+          <SoftCollisionMult value="1.000000" />
+          <EntitySpaceOffset value="false" />
+          <UseEntityBounds value="false" />
+          <PreventLoopWrapAround value="true" />
+          <PreventCoilToLoopWrapAround value="false" />
+          <UseFirstPersonCameraMatrix value="false" />
+        </Item>
+      </ClothCollision>
+      <AttachingStartPoint>
+        <Offset x="0.250000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.850000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_PELVIS</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.500000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_SPINE0</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="0.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="-1.000000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="JAVELINA_DEFAULT">
+      <Attachments>
+        <Item>JAVELINA_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>BOAR_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@BOAR@AGITATED@WALK@ONE_STEP@TIRED@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+    <Item key="MOOSE_DEFAULT">
+      <Attachments>
+        <Item>MOOSE_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>MOOSE_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.302500" y="-0.600000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.450000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.042500" y="-0.390000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.450000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="3.000000" />
+      <MinDistance value="2.500000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="4.500000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="OX_DEFAULT">
+      <Attachments>
+        <Item>OX_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>OX_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId />
+      <MeleeActionRange value="4.000000" />
+      <MinDistance value="3.500000" />
+      <MinTension value="0.500000" />
+      <MaxTension value="1.000000" />
+      <StruggleTime value="4.500000" />
+      <PauseStruggleTimerWhileReeling value="false" />
+    </Item>
+    <Item key="SHEEP_DEFAULT">
+      <Attachments>
+        <Item>SHEEP_NECK</Item>
+      </Attachments>
+      <DefaultAttachment>SHEEP_NECK</DefaultAttachment>
+      <ClothCollision />
+      <AttachingStartPoint>
+        <Offset x="-0.230000" y="-0.750000" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingStartPoint>
+      <AttachingStartLoopRadius value="0.100000" />
+      <AttachingStartVariationDistance value="0.750000" />
+      <AttachingInterpolationTargetPoint>
+        <Offset x="0.015000" y="-0.702500" z="0.000000" />
+        <BoneTag>SKEL_HEAD</BoneTag>
+      </AttachingInterpolationTargetPoint>
+      <AttachingInterpolationTargetLoopRadius value="0.850000" />
+      <AttachingFallbackTargetPoint>
+        <Offset x="0.000000" y="0.000000" z="0.000000" />
+        <BoneTag>SKEL_NECK2</BoneTag>
+      </AttachingFallbackTargetPoint>
+      <PullForwardClipSetId>CLIPSET@CREATURES_MAMMAL@SHEEP@AGITATED@WALK@ONE_STEP@FORWARD</PullForwardClipSetId>
+      <MeleeActionRange value="2.2500000" />
+      <MinDistance value="2.000000" />
+      <MinTension value="0.000000" />
+      <MaxTension value="0.500000" />
+      <StruggleTime value="5.000000" />
+      <PauseStruggleTimerWhileReeling value="true" />
+    </Item>
+  </EntityLassoAttachInfo>
+  <DefaultHumanEnityLassoAttachInfo>Human_Default</DefaultHumanEnityLassoAttachInfo>
+  <DefaultHorseEnityLassoAttachInfo>HORSE_DEFAULT</DefaultHorseEnityLassoAttachInfo>
+  <ModelNameToEntityLassoAttachInfo>
+    <Item key="A_C_Alligator_01">ALLIGATOR_DEFAULT</Item>
+    <Item key="A_C_Alligator_02">ALLIGATOR_DEFAULT2</Item>
+    <Item key="A_C_Alligator_03">ALLIGATOR_DEFAULT3</Item>
+    <Item key="A_C_BearBlack_01">BEAR_DEFAULT</Item>
+    <Item key="A_C_BigHornRam_01">DEER_DEFAULT</Item>
+    <Item key="A_C_BIGHORNRAM_01_f">DEER_DEFAULT</Item>
+    <Item key="A_C_Boar_01">BOAR_DEFAULT</Item>
+    <Item key="A_C_Buck_01">DEER_DEFAULT</Item>
+    <Item key="A_C_Buffalo_01">BUFFALO_DEFAULT</Item>
+    <Item key="A_C_Buffalo_Tatanka_01">BUFFALO_DEFAULT</Item>
+    <Item key="A_C_Bull_01">BULL_DEFAULT</Item>
+    <Item key="A_C_Cow">COW_DEFAULT</Item>
+    <Item key="A_C_DEER_01">DEER_DEFAULT</Item>
+    <Item key="A_C_DEERMANGY_01">DEER_DEFAULT</Item>
+    <Item key="A_C_Donkey_01">DONKEY_DEFAULT</Item>
+    <Item key="A_C_ELK_01">ELK_DEFAULT</Item>
+    <Item key="A_C_ELK_01_F">ELK_DEFAULT</Item>
+    <Item key="A_C_Goat_01">GOAT_DEFAULT</Item>
+    <Item key="A_C_Javelina_01">JAVELINA_DEFAULT</Item>
+    <Item key="A_C_MOOSE_01">MOOSE_DEFAULT</Item>
+    <Item key="A_C_MOOSE_01_F">MOOSE_DEFAULT</Item>
+    <Item key="A_C_Ox_01">OX_DEFAULT</Item>
+    <Item key="A_C_Pig_01">BOAR_DEFAULT</Item>
+    <Item key="A_C_ProngHorn_01">DEER_DEFAULT</Item>
+    <Item key="A_C_Sheep_01">SHEEP_DEFAULT</Item>
+    <Item key="A_C_SheepBlack_01">SHEEP_DEFAULT</Item>
+  </ModelNameToEntityLassoAttachInfo>
+  <LassoWeaponLoopBoneTags>
+    <Item>w_melee_lasso03x_Bone_16</Item>
+    <Item>w_melee_lasso03x_Bone_15</Item>
+    <Item>w_melee_lasso03x_Bone_14</Item>
+    <Item>w_melee_lasso03x_Bone_13</Item>
+    <Item>w_melee_lasso03x_Bone_12</Item>
+    <Item>w_melee_lasso03x_Bone_11</Item>
+    <Item>w_melee_lasso03x_Bone_10</Item>
+    <Item>w_melee_lasso03x_Bone_09</Item>
+    <Item>w_melee_lasso03x_Bone_08</Item>
+    <Item>w_melee_lasso03x_Bone_07</Item>
+    <Item>w_melee_lasso03x_Bone_06</Item>
+    <Item>w_melee_lasso03x_Bone_05</Item>
+    <Item>w_melee_lasso03x_Bone_04</Item>
+    <Item>FACIAL_R_LipCorner</Item>
+    <Item>w_melee_lasso03x_Bone_02</Item>
+  </LassoWeaponLoopBoneTags>
+</CLassoDataManager>

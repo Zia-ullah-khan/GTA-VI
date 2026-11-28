@@ -1,0 +1,259 @@
+Created At: 2026-11-25T18:08:13-05:00
+Completed At: 2026-11-25T18:08:19-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x140931630 ===
+  0x140931630: push rsi
+  0x140931631: push rdi
+  0x140931632: push rbx
+  0x140931633: sub rsp, 0x40
+  0x140931637: mov rsi, r8
+  0x14093163a: mov rdi, rdx
+  0x14093163d: mov ebx, ecx
+  0x14093163f: call 0x1420acb30
+  0x140931644: lea rcx, [rip + 0x5c6cfd5]
+  0x14093164b: mov edx, 0x13
+  0x140931650: mov r8d, ebx
+  0x140931653: mov r9, rdi
+  0x140931656: mov qword ptr [rsp + 0x20], rsi
+  0x14093165b: mov qword ptr [rsp + 0x30], 0x10
+  0x140931664: mov qword ptr [rsp + 0x28], rcx
+  0x140931669: mov rcx, rax
+  0x14093166c: call 0x140613660
+  0x140931671: nop 
+  0x140931672: add rsp, 0x40
+  0x140931676: pop rbx
+  0x140931677: pop rdi
+  0x140931678: pop rsi
+  0x140931679: ret 
+=== 0x140613720 ===
+  0x140613720: test rcx, rcx
+  0x140613723: je 0x14061372f
+  0x140613725: mov rax, qword ptr [rcx]
+  0x140613728: mov rax, qword ptr [rax + 0x18]
+  0x14061372c: jmp rax
+  0x14061372f: xor eax, eax
+  0x140613731: ret 
+=== 0x144c11250 ===
+  0x144c11250: push rsi
+  0x144c11251: push rdi
+  0x144c11252: sub rsp, 0x28
+  0x144c11256: mov rsi, rcx
+  0x144c11259: cmp edx, 0x16
+  0x144c1125c: ja 0x144c11335
+  0x144c11262: mov eax, edx
+  0x144c11264: lea rcx, [rip + 0x1b602c1]
+  0x144c1126b: movsxd rax, dword ptr [rcx + rax*4]
+  0x144c1126f: add rax, rcx
+  0x144c11272: jmp rax
+  0x144c11274: int3 
+  0x144c11275: xor eax, eax
+  0x144c11277: jmp 0x144c11328
+  0x144c1127c: lea rdi, [rsp + 0x20]
+  0x144c11281: mov rcx, rdi
+  0x144c11284: call 0x144c114e0
+  0x144c11289: jmp 0x144c11325
+  0x144c1128e: lea rdi, [rsp + 0x20]
+  0x144c11293: mov rcx, rdi
+  0x144c11296: call 0x14171fd00
+  0x144c1129b: jmp 0x144c11325
+  0x144c112a0: lea rdi, [rsp + 0x20]
+  0x144c112a5: mov dl, 1
+  0x144c112a7: jmp 0x144c112f0
+  0x144c112a9: lea rdi, [rsp + 0x20]
+  0x144c112ae: mov rcx, rdi
+  0x144c112b1: call 0x144c11380
+  0x144c112b6: jmp 0x144c11325
+  0x144c112b8: lea rdi, [rsp + 0x20]
+  0x144c112bd: mov dl, 3
+  0x144c112bf: jmp 0x144c112f0
+  0x144c112c1: mov ecx, 0x40
+  0x144c112c6: call 0x144f97130
+  0x144c112cb: test rax, rax
+  0x144c112ce: je 0x144c11275
+  0x144c112d0: vxorps xmm0, xmm0, xmm0
+  0x144c112d4: lea rcx, [rip + 0x1aec895]
+  0x144c112db: vmovups ymmword ptr [rax], ymm0
+  0x144c112df: vmovups ymmword ptr [rax + 0x20], ymm0
+  0x144c112e4: mov qword ptr [rax], rcx
+  0x144c112e7: jmp 0x144c11328
+  0x144c112e9: lea rdi, [rsp + 0x20]
+  0x144c112ee: mov dl, 2
+  0x144c112f0: mov rcx, rdi
+  0x144c112f3: call 0x145e90390
+  0x144c112f8: jmp 0x144c11325
+  0x144c112fa: lea rdi, [rsp + 0x20]
+  0x144c112ff: mov rcx, rdi
+  0x144c11302: call 0x144c11430
+  0x144c11307: jmp 0x144c11325
+  0x144c11309: lea rdi, [rsp + 0x20]
+  0x144c1130e: mov rcx, rdi
+  0x144c11311: call 0x144c11590
+  0x144c11316: jmp 0x144c11325
+  0x144c11318: lea rdi, [rsp + 0x20]
+  0x144c1131d: mov rcx, rdi
+  0x144c11320: call 0x1419056f0
+  0x144c11325: mov rax, qword ptr [rdi]
+  0x144c11328: mov qword ptr [rsi], rax
+  0x144c1132b: add rsp, 0x28
+  0x144c1132f: pop rdi
+  0x144c11330: pop rsi
+  0x144c11331: vzeroupper 
+  0x144c11334: ret 
+=== 0x140575b40 ===
+  0x140575b40: push r15
+  0x140575b42: push r14
+  0x140575b44: push r13
+  0x140575b46: push r12
+  0x140575b48: push rsi
+  0x140575b49: push rdi
+  0x140575b4a: push rbp
+  0x140575b4b: push rbx
+  0x140575b4c: sub rsp, 0x28
+  0x140575b50: mov eax, dword ptr [rcx]
+  0x140575b52: mov rbx, rdx
+  0x140575b55: mov rsi, rcx
+  0x140575b58: movabs r13, 0xffffffff00000000
+  0x140575b62: lea rdi, [rcx + 8]
+  0x140575b66: movabs r12, 0x100000000
+  0x140575b70: lea r14, [rsp + 0x20]
+  0x140575b75: mov r15d, eax
+  0x140575b78: test eax, 0x1ff0000
+  0x140575b7d: je 0x140575bc6
+  0x140575b7f: lea ecx, [r15 + 0x100]
+  0x140575b86: mov eax, r15d
+  0x140575b89: lock cmpxchg dword ptr [rsi], ecx
+  0x140575b8d: jne 0x140575b75
+  0x140575b8f: mov rdx, qword ptr [rdi]
+  0x140575b92: mov rcx, qword ptr [rdi]
+  0x140575b95: shr edx, 7
+  0x140575b98: and edx, 0xffffff
+  0x140575b9e: je 0x140575bd5
+  0x140575ba0: cmp rcx, r12
+  0x140575ba3: jl 0x140575bbf
+  0x140575ba5: lea r8, [rcx + r13]
+  0x140575ba9: mov rax, rcx
+  0x140575bac: lock cmpxchg qword ptr [rdi], r8
+  0x140575bb1: cmp rcx, rax
+  0x140575bb4: mov rcx, rax
+  0x140575bb7: je 0x140575c0d
+  0x140575bb9: dec edx
+  0x140575bbb: jne 0x140575ba0
+  0x140575bbd: jmp 0x140575bd5
+  0x140575bbf: pause 
+  0x140575bc1: mov rcx, qword ptr [rdi]
+  0x140575bc4: jmp 0x140575bb9
+  0x140575bc6: lea ecx, [r15 + 1]
+  0x140575bca: mov eax, r15d
+  0x140575bcd: lock cmpxchg dword ptr [rsi], ecx
+  0x140575bd1: jne 0x140575b75
+  0x140575bd3: jmp 0x140575c15
+  0x140575bd5: mov rax, qword ptr [rdi]
+  0x140575bd8: mov qword ptr [rsp + 0x20], rax
+  0x140575bdd: cmp rax, r12
+  0x140575be0: jge 0x140575bfd
+  0x140575be2: mov rcx, rdi
+  0x140575be5: mov edx, 1
+  0x140575bea: mov r8, r14
+  0x140575bed: call 0x140006180
+  0x140575bf2: test al, al
+  0x140575bf4: jne 0x140575c0d
+  0x140575bf6: mov rax, qword ptr [rsp + 0x20]
+  0x140575bfb: jmp 0x140575bdd
+  0x140575bfd: lea rcx, [rax + r13]
+  0x140575c01: lock cmpxchg qword ptr [rdi], rcx
+  0x140575c06: cmp qword ptr [rsp + 0x20], rax
+  0x140575c0b: jne 0x140575bd8
+  0x140575c0d: mov eax, r15d
+  0x140575c10: jmp 0x140575b75
+  0x140575c15: mov r15d, dword ptr [rsi + 0x18]
+  0x140575c19: test r15, r15
+  0x140575c1c: je 0x140575d05
+  0x140575c22: mov rax, rbx
+  0x140575c25: movabs rcx, 0xff51afd7ed558ccd
+  0x140575c2f: mov r13, qword ptr [rsi + 0x20]
+  0x140575c33: shr rax, 0x21
+  0x140575c37: xor rax, rbx
+  0x140575c3a: imul rcx, rax
+  0x140575c3e: mov rax, rcx
+  0x140575c41: shr rax, 0x21
+  0x140575c45: xor rax, rcx
+  0x140575c48: movabs rcx, 0xc4ceb9fe1a85ec53
+  0x140575c52: imul rcx, rax
+  0x140575c56: mov rax, rcx
+  0x140575c59: shr rax, 0x21
+  0x140575c5d: xor rax, rcx
+  0x140575c60: lea ecx, [r15 - 1]
+  0x140575c64: mov edx, eax
+  0x140575c66: shr eax, 7
+  0x140575c69: and dl, 0x7f
+  0x140575c6c: vmovd xmm0, edx
+  0x140575c70: vpbroadcastb xmm0, xmm0
+  0x140575c75: and eax, ecx
+  0x140575c77: imul rdx, rax, 0x310
+  0x140575c7e: vmovdqa xmm1, xmmword ptr [r13 + rdx]
+  0x140575c85: vpcmpeqb xmm2, xmm1, xmm0
+  0x140575c89: vpmovmskb r8d, xmm2
+  0x140575c8d: test r8d, r8d
+  0x140575c90: je 0x140575cb8
+  0x140575c92: add rdx, r13
+  0x140575c95: movzx r8d, r8w
+  0x140575c99: add rdx, 0x10
+  0x140575c9d: tzcnt ebp, r8d
+  0x140575ca2: lea r9, [rbp + rbp*2]
+  0x140575ca7: shl r9d, 4
+  0x140575cab: cmp qword ptr [rdx + r9], rbx
+  0x140575caf: je 0x140575cc9
+  0x140575cb1: blsr r8d, r8d
+  0x140575cb6: jne 0x140575c9d
+  0x140575cb8: vpsignb xmm1, xmm1, xmm1
+0x14659e619: dddceeee7c0000335d6ed43e362bfae61a28e5d16cfd6400
+  [ 0] f0=0x0000000102000000 ptr=0x1466e5b40 len=0x10f4
+      blob[:32]= 8e9b3b4e42e9423adad3b7ef88b3b03ade3696d1de450881a070e9d84e0fed0e
+  [ 1] f0=0x0000000302000000 ptr=0x1466e5b40 len=0x10f4
+      blob[:32]= 8e9b3b4e42e9423adad3b7ef88b3b03ade3696d1de450881a070e9d84e0fed0e
+  [ 2] f0=0xfffffffe00000000 ptr=0x1466e6c40 len=0x20
+  [ 3] f0=0x1000000402000000 ptr=0x1466e6c60 len=0x10f4
+      blob[:32]= 7e53314154aa7a0b5d654b77a931bdd5ebe24d3f33a2820e41e19f7e50aeb5bb
+  [ 4] f0=0x1000001502000000 ptr=0x1466e7d60 len=0x10f4
+      blob[:32]= 8e9b3b4ed5137f2a46adc0b01f1448866fde304e099c497252f2f7352c775274
+  [ 5] f0=0x1000001602000000 ptr=0x1466e8e60 len=0x10f4
+      blob[:32]= 8e9b3b4e108753e45652a971b3f39118d8232e697de2379dcaced23157685444
+  [ 6] f0=0x1000001702000000 ptr=0x1466e9f60 len=0x10f4
+      blob[:32]= 8e9b3b4e4c3a09d65eacaedfd868d587603af314086b5b6fba7ef57bca3e946b
+  [ 7] f0=0x1000001802000000 ptr=0x1466eb060 len=0x10f4
+      blob[:32]= 8e9b3b4e5999253814bb26c035a09a0f0f7be8b18bcf602eb00a85e5128199b3
+  [ 8] f0=0x1000001902000000 ptr=0x1466ec160 len=0x10f4
+      blob[:32]= 8e9b3b4eda333014461bc879b2a884deb28f549ded02a3be22ae3fed1394b8a7
+  [ 9] f0=0x1000001a02000000 ptr=0x1466ed260 len=0x10f4
+      blob[:32]= 8e9b3b4e8da11f1ee2473e06c900fca4189152eb5580ef20a511c85d39b33a12
+  [10] f0=0x1000000102000000 ptr=0x1466ee360 len=0x10f4
+      blob[:32]= 8e9b3b4e1fee121f5f0085df73400e44d46305125643d5ecbb347a3eadaf9eb2
+  [11] f0=0x1000000202000000 ptr=0x1466ef460 len=0x10f4
+      blob[:32]= 8e9b3b4e402866969ae50f6192d86a80658882347b7e1488a3f4adb67557a55b
+  [12] f0=0x1000002902000000 ptr=0x1466f0560 len=0x10f4
+      blob[:32]= 5dce1827a2475f90c6097787dc626121fdf78df34c6fff8ae36178949d238bc0
+  [13] f0=0x1000002a02000000 ptr=0x1466f1660 len=0x10f4
+      blob[:32]= 5dce1827b150eb4ff80d00652c077e9ee40b645ae0da9da2f39b40257374e898
+  [14] f0=0x1000002b02000000 ptr=0x1466f2760 len=0x10f4
+      blob[:32]= 5dce18275adc8b417689f14a4d12e9028870998b9da61d00976a0a28ff03389c
+  [15] f0=0x1000002c02000000 ptr=0x1466f3860 len=0x10f4
+      blob[:32]= 5dce1827d7b85a066ac3944cb89b8a6b0cce173d1b49c6982dda6030291ea67f
+  [16] f0=0x1000002d02000000 ptr=0x1466f4960 len=0x10f4
+      blob[:32]= 5dce1827702677ddf124c7551a404aa190cd23e83fc1410eae93df048089d79d
+  [17] f0=0x1000002e02000000 ptr=0x1466f5a60 len=0x10f4
+      blob[:32]= 5dce1827251152377b72f0a72be6c3c94fa719b4c9e6f9f6971f62930d732d2b
+  [18] f0=0x1000002f02000000 ptr=0x1466f6b60 len=0x10f4
+      blob[:32]= 5dce18279e39b11aec76459f5bb57759311595c046d51f69a5eead6ec2e89b9d
+  [19] f0=0x1000003002000000 ptr=0x1466f7c60 len=0x10f4
+      blob[:32]= 5dce18279f7f10f92a048ef542d5e15b68b765bc919e2f4d8de655ae239fd6d1
+  [20] f0=0x1000000e02000000 ptr=0x1466f8d60 len=0x10f4
+      blob[:32]= 504f865ec29892aaf8c4c5a9f52d99460c5c87412549e549215bbf5f54230045
+  [21] f0=0x1000000e03000000 ptr=0x1466f9e60 len=0x10f4
+      blob[:32]= 44ab246fb891fbc84b5d8c3ac45f040e0e4959aff7a708ec6e3732a33d5e520f
+  [22] f0=0x000000c302000000 ptr=0x1466faf60 len=0x10f4
+      blob[:32]= fb4bf43f1ed7f5d3d24c233d3bae63437de4ac939769093e773fcf136dce56f3
+  [23] f0=0x000000c303000000 ptr=0x1466fc060 len=0x10f4
+      blob[:32]= aa38aa576a92182028754f541505d9c302ae56fa1b40b257aecdd3f70c269af2
+  [24] f0=0x3a42e9424e3b9b8e ptr=0x3ab0b388efb7d3da len=0x810845ded19636de

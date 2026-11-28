@@ -1,0 +1,98 @@
+Created At: 2026-11-25T17:54:59-05:00
+Completed At: 2026-11-25T17:55:03-05:00
+Command exited with code 0.
+
+Command output:
+=== story000.ysc.cs L47477 ===
+  47467:         store_i32(local_31, 0x0, local_32);
+  47468:         Virtual.type_C3FAC74FA51D6868.Method_8(v_0231A0_1, v_02319C_0[0]);
+  47469:         v_0231BC_2 = zero_slots(1);
+  47470:         v_0231C0_3 = load_u64(p0, 0x38);
+  47471:         local_34 = 0xFFFFFFFFBCA7BFCF;
+  47472:         local_33 = Vm.Address(v_0231BC_2, 0);
+  47473:         store_i32(local_33, 0x0, local_34);
+  47474:         Virtual.type_C3FAC74FA51D6868.Method_39(v_0231C0_3, v_0231BC_2[0], ((1UL << unchecked((int)(4)))));
+  47475:         v_0231DE_4 = zero_slots(1);
+  47476:         v_0231E2_5 = p0;
+  47477:         local_36 = 0x3DA2E1FE;
+  47478:         local_35 = Vm.Address(v_0231DE_4, 0);
+  47479:         store_i32(local_35, 0x0, local_36);
+  47480:         v_0231F3_6 = p1;
+  47481:         local_40 = 4;
+  47482:         local_39 = v_0231F3_6;
+  47483:         local_38 = v_0231DE_4[0];
+  47484:         local_37 = v_0231E2_5;
+  47485:         store_i32(local_37, 0xB8, local_38);
+  47486:         store_i32(Vm.Address(locals, 41), 0x0, local_38);
+  47487:         store_i32(Vm.Address(locals, 41), 0x4, ((1UL << unchecked((int)(20)))));
+  47488:         store_i32(Vm.Address(locals, 41), 0x8, ((1UL << unchecked((int)(12)))));
+  47489:         store_u8(Vm.Address(locals, 41), 0xD, local_39);
+  47490:         store_u8(Vm.Address(locals, 41), 0xE, 0);
+  47491:         store_i32(Vm.Address(locals, 41), 0x10, 0);
+  47492:         store_u8(Vm.Address(locals, 41), 0xC, 0);
+  47493:         v_02324C_7 = Virtual.type_948054520D6CC58F.Method_0(load_u64(local_37, 0x78), local_41, local_42, local_43);
+  47494:         goto label_023254;
+  47495:         label_023254: ;
+  47496:         return;
+=== story000.ysc.cs L48754 ===
+  48744:         local_43 = 0x1F0465A6;
+  48745:         local_42 = Vm.Address(v_024115_8, 0);
+  48746:         store_i32(Vm.Address(v_024115_8, 0), 0x0, local_43);
+  48747:         store_i32(Vm.Address(locals, 13), 0x28, v_024115_8[0]);
+  48748:         v_024131_9 = zero_slots(1);
+  48749:         local_45 = 0xFFFFFFFFB0966A89;
+  48750:         local_44 = Vm.Address(v_024131_9, 0);
+  48751:         store_i32(Vm.Address(v_024131_9, 0), 0x0, local_45);
+  48752:         store_i32(Vm.Address(locals, 13), 0x2C, v_024131_9[0]);
+  48753:         v_02414D_10 = zero_slots(1);
+  48754:         local_47 = 0xFFFFFFFFFFAACFBF;
+  48755:         local_46 = Vm.Address(v_02414D_10, 0);
+  48756:         store_i32(Vm.Address(v_02414D_10, 0), 0x0, local_47);
+  48757:         store_i32(Vm.Address(locals, 13), 0x30, v_02414D_10[0]);
+  48758:         v_024169_11 = zero_slots(1);
+  48759:         local_49 = 0x6A9B9AAE;
+  48760:         local_48 = Vm.Address(v_024169_11, 0);
+  48761:         store_i32(Vm.Address(v_024169_11, 0), 0x0, local_49);
+  48762:         store_i32(Vm.Address(locals, 13), 0x34, v_024169_11[0]);
+  48763:         v_024185_12 = zero_slots(1);
+  48764:         local_51 = 0x341F4BE1;
+  48765:         local_50 = Vm.Address(v_024185_12, 0);
+  48766:         store_i32(Vm.Address(v_024185_12, 0), 0x0, local_51);
+  48767:         store_i32(Vm.Address(locals, 13), 0x3C, v_024185_12[0]);
+  48768:         v_0241A1_13 = zero_slots(1);
+  48769:         local_53 = 0xFFFFFFFFEAE6BE9F;
+  48770:         local_52 = Vm.Address(v_0241A1_13, 0);
+  48771:         store_i32(Vm.Address(v_0241A1_13, 0), 0x0, local_53);
+  48772:         store_i32(Vm.Address(locals, 13), 0x40, v_0241A1_13[0]);
+  48773:         v_0241BD_14 = zero_slots(1);
+=== story000.ysc.cs L52616 ===
+  52606:                             v_026B8D_0 = zero_slots(1);
+  52607:                             local_30 = 0xFFFFFFFFF6A87A9A;
+  52608:                             local_29 = Vm.Address(v_026B8D_0, 0);
+  52609:                             store_i32(local_29, 0x0, local_30);
+  52610:                             return v_026B8D_0[0];
+  52611:                         }
+  52612:                     }
+  52613:                     else
+  52614:                     {
+  52615:                         v_026B4C_0 = zero_slots(1);
+  52616:                         local_24 = 0x7928834D;
+  52617:                         local_23 = Vm.Address(v_026B4C_0, 0);
+  52618:                         store_i32(local_23, 0x0, local_24);
+  52619:                         return v_026B4C_0[0];
+  52620:                     }
+  52621:                 }
+  52622:                 else
+  52623:                 {
+  52624:                     v_026B0B_0 = zero_slots(1);
+  52625:                     local_18 = 0xFFFFFFFFEB6EC7DB;
+  52626:                     local_17 = Vm.Address(v_026B0B_0, 0);
+  52627:                     store_i32(local_17, 0x0, local_18);
+  52628:                     return v_026B0B_0[0];
+  52629:                 }
+  52630:             }
+  52631:             else
+  52632:             {
+  52633:                 v_026ACA_0 = zero_slots(1);
+  52634:                 local_12 = 0x7761AF83;
+  52635:                 local_11 = Vm.Address(v_026ACA_0, 0);

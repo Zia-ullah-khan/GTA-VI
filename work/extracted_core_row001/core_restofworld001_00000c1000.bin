@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CDataFileMgr__ContentChangeSetDef>
+  <!--Auto-Generated. Do not manually edit! Please contact Tools for assistance.-->
+  <id>core_restofworld001_ttdb</id>
+  <registrationGroup />
+  <fileList>
+    <Item>
+      <filename>$(target)/ttdb/globalduplicates</filename>
+      <fileType>TILED_TEXTURE_DUPE_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_DEFAULT</contents>
+    </Item>
+    <Item>
+      <filename>$(target)/ttdb/ui/ttdb_ui</filename>
+      <fileType>TILED_TEXTURE_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_DEFAULT</contents>
+    </Item>
+  </fileList>
+  <flags>Default</flags>
+  <changesetIncludeFlags />
+  <mapAddAtPhase value="0" />
+  <mapRemoveAtPhase value="0" />
+  <executionConditions>
+    <activeChangesetConditions />
+    <genericConditions />
+  </executionConditions>
+</CDataFileMgr__ContentChangeSetDef>

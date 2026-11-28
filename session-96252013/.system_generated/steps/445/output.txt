@@ -1,0 +1,41 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -822,7 +822,7 @@
+     ]
+     for t, s, ct, cy in c1_cards:
+         draw_card(ax, c1_x, cy, pw, 1.25, t, s, card_type=ct, fontsize=7.6)
+-    draw_arrow(ax, (c1_x + pw, 10.4), (cols_x[1] + 0.2, 32.2), color="#f43f5e", rad=-0.25, lw=2.0)
++    draw_column_bridge(ax, c1_x + pw, 10.4, cols_x[1] + 0.2, 32.4, 5.6, "CH. 2 NEXT ▲", color="#f43f5e")
+     
+     # Col 2: Chapter 2
+     c2_x = cols_x[1] + 0.2
+@@ -836,7 +836,7 @@
+     ]
+     for t, s, ct, cy in c2_cards:
+         draw_card(ax, c2_x, cy, pw, 1.35, t, s, card_type=ct, fontsize=7.6)
+-    draw_arrow(ax, (c2_x + pw, 16.8), (cols_x[2] + 0.2, 32.2), color="#fbbf24", rad=-0.25, lw=2.0)
++    draw_column_bridge(ax, c2_x + pw, 13.8, cols_x[2] + 0.2, 32.4, 10.6, "CH. 3 NEXT ▲", color="#fbbf24")
+     
+     # Col 3: Chapter 3
+     c3_x = cols_x[2] + 0.2
+@@ -851,7 +851,7 @@
+     ]
+     for t, s, ct, cy in c3_cards:
+         draw_card(ax, c3_x, cy, pw, 1.45 if "TRACKS" in t else 1.3, t, s, card_type=ct, fontsize=7.5)
+-    draw_arrow(ax, (c3_x + pw, 16.3), (cols_x[3] + 0.2, 32.2), color="#a855f7", rad=-0.25, lw=2.0)
++    draw_column_bridge(ax, c3_x + pw, 13.6, cols_x[3] + 0.2, 32.4, 15.6, "CH. 4 NEXT ▲", color="#a855f7")
+     
+     # Col 4: Chapter 4
+     c4_x = cols_x[3] + 0.2
+@@ -865,7 +865,7 @@
+     ]
+     for t, s, ct, cy in c4_cards:
+         draw_card(ax, c4_x, cy, pw, 1.3, t, s, card_type=ct, fontsize=7.5)
+-    draw_arrow(ax, (c4_x + pw, 13.6), (cols_x[4] + 0.2, 32.2), color="#ef4444", rad=-0.25, lw=2.0)
++    draw_column_bridge(ax, c4_x + pw, 13.6, cols_x[4] + 0.2, 32.4, 20.6, "CH. 5 NEXT ▲", color="#ef4444")
+     
+     # Col 5: Chapter 5
+     c5_x = cols_x[4] + 0.2
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

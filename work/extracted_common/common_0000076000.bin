@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiffractionProfiles>
+  <ProfileList>
+	<Item>
+	  <ProfileName>display_OLED_mediumD</ProfileName>
+	  <ProfileIndex value="0" />
+      <GratingSlitWidth x="60" y="60" />
+      <GratingSpaceWidth x="15" y="5" />
+      <GratingN value="5" />
+      <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>display_OLED_highD</ProfileName>
+	  <ProfileIndex value="1" />
+      <GratingSlitWidth x="80" y="80" />
+      <GratingSpaceWidth x="15" y="5" />
+      <GratingN value="5" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>display_LCD_mediumD</ProfileName>
+	  <ProfileIndex value="2" />
+      <GratingSlitWidth x="50" y="50" />
+      <GratingSpaceWidth x="5" y="5" />
+      <GratingN value="5" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>display_LCD_highD</ProfileName>
+	  <ProfileIndex value="3" />
+      <GratingSlitWidth x="80" y="80" />
+      <GratingSpaceWidth x="20" y="20" />
+      <GratingN value="15" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Patterned_Sparse2D</ProfileName>
+	  <ProfileIndex value="8" />
+      <GratingSlitWidth x="0.3" y="0.3" />
+      <GratingSpaceWidth x="0.4" y="0.4" />
+      <GratingN value="7" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Patterned_Default2D</ProfileName>
+	  <ProfileIndex value="9" />
+      <GratingSlitWidth x="0.5" y="0.5" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="7" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Patterned_Dense2D</ProfileName>
+	  <ProfileIndex value="10" />
+      <GratingSlitWidth x="2" y="2" />
+      <GratingSpaceWidth x="2" y="2" />
+      <GratingN value="7" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Plain_Sparse2D</ProfileName>
+	  <ProfileIndex value="11" />
+      <GratingSlitWidth x="1" y="1" />
+      <GratingSpaceWidth x="1.5" y="1.5" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Plain_Default2D</ProfileName>
+	  <ProfileIndex value="12" />
+      <GratingSlitWidth x="1" y="1" />
+      <GratingSpaceWidth x="3" y="3" />
+      <GratingN value="8" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Plain_Dense2D</ProfileName>
+	  <ProfileIndex value="13" />
+      <GratingSlitWidth x="1.5" y="1.5" />
+      <GratingSpaceWidth x="5" y="5" />
+      <GratingN value="7" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Patterned_Default2D_Boosted</ProfileName>
+	  <ProfileIndex value="14" />
+      <GratingSlitWidth x="0.5" y="0.5" />
+      <GratingSpaceWidth x="0.3" y="0.3" />
+      <GratingN value="4" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Large_Base</ProfileName>
+	  <ProfileIndex value="15" />
+      <GratingSlitWidth x="0.8" y="0.8" />
+      <GratingSpaceWidth x="0.2" y="0.2" />
+      <GratingN value="8" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Medium_Base</ProfileName>
+	  <ProfileIndex value="16" />
+      <GratingSlitWidth x="1.5" y="1.5" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Small_Base</ProfileName>
+	  <ProfileIndex value="17" />
+      <GratingSlitWidth x="3" y="3" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Large_CC</ProfileName>
+	  <ProfileIndex value="18" />
+      <GratingSlitWidth x="0.8" y="0.8" />
+      <GratingSpaceWidth x="0.2" y="0.2" />
+      <GratingN value="8" />
+	  <GratingIsOnClearCoat value="true" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Medium_CC</ProfileName>
+	  <ProfileIndex value="19" />
+      <GratingSlitWidth x="1.5" y="1.5" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="true" />
+    </Item>
+	<Item>
+	  <ProfileName>CD</ProfileName>
+	  <ProfileIndex value="20" />
+      <GratingSlitWidth x="0.5" y="2.16" />
+      <GratingSpaceWidth x="1.1" y="2.16" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_grid_Small_CC</ProfileName>
+	  <ProfileIndex value="21" />
+      <GratingSlitWidth x="3" y="3" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="10" />
+	  <GratingIsOnClearCoat value="true" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_rainbow_linear_soft_Base</ProfileName>
+	  <ProfileIndex value="22" />
+      <GratingSlitWidth x="1.5" y="0" />
+      <GratingSpaceWidth x="0.5" y="0" />
+      <GratingN value="100" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_rainbow_linear_soft_CC</ProfileName>
+	  <ProfileIndex value="23" />
+      <GratingSlitWidth x="1.5" y="0" />
+      <GratingSpaceWidth x="0.5" y="0" />
+      <GratingN value="40" />
+	  <GratingIsOnClearCoat value="true" />
+    </Item>
+	<Item>
+	  <ProfileName>Ped_Garment_Subtle</ProfileName>
+	  <ProfileIndex value="25" />
+      <GratingSlitWidth x="1" y="1" />
+      <GratingSpaceWidth x="0.5" y="0.5" />
+      <GratingN value="7" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Ped_Garment_Default</ProfileName>
+	  <ProfileIndex value="26" />
+      <GratingSlitWidth x="1" y="1" />
+      <GratingSpaceWidth x="0.3" y="0.3" />
+      <GratingN value="5" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+  	<Item>
+	  <ProfileName>Ped_Garment_Strong</ProfileName>
+	  <ProfileIndex value="27" />
+      <GratingSlitWidth x="1" y="1" />
+      <GratingSpaceWidth x="0.1" y="0.1" />
+      <GratingN value="3" />
+	  <GratingIsOnClearCoat value="false" />
+    </Item>
+	<Item>
+	  <ProfileName>Veh_rainbow_circular_soft</ProfileName>
+	  <ProfileIndex value="32" />
+      <GratingSlitWidth x="1.5" y="0" />
+      <GratingSpaceWidth x="0.7" y="0" />
+      <GratingN value="5" />
+	  <GratingIsOnClearCoat value="true" />
+    </Item>
+  </ProfileList>
+</DiffractionProfiles>

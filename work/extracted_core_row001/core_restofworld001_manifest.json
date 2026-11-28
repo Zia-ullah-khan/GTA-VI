@@ -1,0 +1,32 @@
+[
+ {
+  "offset": 0,
+  "kind": "rpf9_header",
+  "stored_size": 4096,
+  "inflated_size": 0,
+  "chunks": 0,
+  "magic": "9FPR",
+  "sha256": "a89a530bf4e9b12008735835533265f7ec309c5e155d2fe4e71ec590987ed5dd",
+  "output": ""
+ },
+ {
+  "offset": 4096,
+  "kind": "rpf9_header",
+  "stored_size": 786432,
+  "inflated_size": 0,
+  "chunks": 0,
+  "magic": "9FPR",
+  "sha256": "44debe4d5ba47918048100ef4c021084c6d96c9ef6121aab90458ccbd89d76e0",
+  "output": ""
+ },
+ {
+  "offset": 790528,
+  "kind": "zlib",
+  "stored_size": 448,
+  "inflated_size": 961,
+  "chunks": 1,
+  "magic": "hex:efbbbf3c",
+  "sha256": "b38255fe029a44ca5d98bfe7255c7b372093f7e57bedc0a1d2bbef33c0c83e25",
+  "output": "core_restofworld001_00000c1000.bin"
+ }
+]

@@ -1,0 +1,150 @@
+Created At: 2026-11-25T18:13:56-05:00
+Completed At: 2026-11-25T18:14:00-05:00
+Command exited with code 0.
+
+Command output:
+Line 48321:     public static void func_01660F(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4, VmValue arg5, VmValue arg6) // 0x01660F
+  48321:     public static void func_01660F(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4, VmValue arg5, VmValue arg6) // 0x01660F
+  48322:     {
+  48323:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3, arg4, arg5, arg6 };
+  48324:         VmValue[] locals = new VmValue[29];
+  48325:         ref VmValue p0 = ref parameters[0];
+  48326:         ref VmValue p1 = ref parameters[1];
+  48327:         ref VmValue p2 = ref parameters[2];
+  48328:         ref VmValue p3 = ref parameters[3];
+  48329:         ref VmValue p4 = ref parameters[4];
+  48330:         ref VmValue p5 = ref parameters[5];
+  48331:         ref VmValue p6 = ref parameters[6];
+  48332:         ref VmValue local_0 = ref locals[0];
+  48333:         ref VmValue local_1 = ref locals[1];
+  48334:         ref VmValue local_2 = ref locals[2];
+  48335:         ref VmValue local_3 = ref locals[3];
+  48336:         ref VmValue local_4 = ref locals[4];
+  48337:         ref VmValue local_5 = ref locals[5];
+  48338:         ref VmValue local_6 = ref locals[6];
+  48339:         ref VmValue local_7 = ref locals[7];
+  48340:         ref VmValue local_8 = ref locals[8];
+  48341:         ref VmValue local_9 = ref locals[9];
+  48342:         ref VmValue local_10 = ref locals[10];
+  48343:         ref VmValue local_11 = ref locals[11];
+  48344:         ref VmValue local_12 = ref locals[12];
+  48345:         ref VmValue local_13 = ref locals[13];
+  48346:         ref VmValue local_14 = ref locals[14];
+  48347:         ref VmValue local_15 = ref locals[15];
+  48348:         ref VmValue local_16 = ref locals[16];
+  48349:         ref VmValue local_17 = ref locals[17];
+  48350:         ref VmValue local_18 = ref locals[18];
+  48351:         ref VmValue local_19 = ref locals[19];
+  48352:         ref VmValue local_20 = ref locals[20];
+  48353:         ref VmValue local_21 = ref locals[21];
+  48354:         ref VmValue local_22 = ref locals[22];
+  48355:         ref VmValue local_23 = ref locals[23];
+  48356:         ref VmValue local_24 = ref locals[24];
+  48357:         ref VmValue local_25 = ref locals[25];
+  48358:         ref VmValue local_26 = ref locals[26];
+  48359:         ref VmValue local_27 = ref locals[27];
+  48360:         ref VmValue local_28 = ref locals[28];
+  48361:         VmValue stack_01675E_0 = default;
+  48362:         VmValue stack_01675E_1 = default;
+  48363:         VmValue stack_01676A_0 = default;
+  48364:         VmValue stack_01676A_1 = default;
+  48365:         VmValue stack_016772_0 = default;
+  48366:         VmValue stack_016772_1 = default;
+  48367:         VmValue stack_016772_2 = default;
+  48368:         VmValue stack_0167D6_0 = default;
+  48369:         VmValue stack_016886_0 = default;
+  48370:         VmValue v_016615_0 = default;
+  48371:         VmValue v_01663B_1 = default;
+  48372:         VmValue v_01663B_2 = default;
+  48373:         VmValue v_01664B_3 = default;
+  48374:         VmValue v_016661_4 = default;
+  48375:         VmValue v_016661_5 = default;
+  48376:         VmValue v_016689_6 = default;
+  48377:         VmValue v_016689_7 = default;
+  48378:         VmValue v_0166A0_8 = default;
+  48379:         VmValue v_0166B4_9 = default;
+  48380:         VmValue v_0166C8_10 = default;
+  48381:         VmValue v_0166DF_0 = default;
+  48382:         VmValue v_0166E6_1 = default;
+  48383:         VmValue v_016705_2 = default;
+  48384:         VmValue v_01670E_3 = default;
+  48385:         VmValue v_01672D_0 = default;
+  48386:         VmValue v_016745_0 = default;
+  48387:         VmValue v_01674B_1 = default;
+  48388:         VmValue v_016761_0 = default;
+  48389:         VmValue v_01676C_0 = default;
+  48390:         VmValue v_016789_0 = default;
+  48391:         VmValue v_0167C7_0 = default;
+Line 67099:     public static VmValue func_01EE2F(VmValue arg0, VmValue arg1, VmValue arg2) // 0x01EE2F
+  67099:     public static VmValue func_01EE2F(VmValue arg0, VmValue arg1, VmValue arg2) // 0x01EE2F
+  67100:     {
+  67101:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2 };
+  67102:         VmValue[] locals = new VmValue[9];
+  67103:         ref VmValue p0 = ref parameters[0];
+  67104:         ref VmValue p1 = ref parameters[1];
+  67105:         ref VmValue p2 = ref parameters[2];
+  67106:         ref VmValue local_0 = ref locals[0];
+  67107:         ref VmValue local_1 = ref locals[1];
+  67108:         ref VmValue local_2 = ref locals[2];
+  67109:         ref VmValue local_3 = ref locals[3];
+  67110:         ref VmValue local_4 = ref locals[4];
+  67111:         ref VmValue local_5 = ref locals[5];
+  67112:         ref VmValue local_6 = ref locals[6];
+  67113:         ref VmValue local_7 = ref locals[7];
+  67114:         ref VmValue local_8 = ref locals[8];
+  67115:         VmValue stack_01EE66_0 = default;
+  67116:         VmValue stack_01EE73_0 = default;
+  67117:         VmValue stack_01EE77_0 = default;
+  67118:         VmValue stack_01EE77_1 = default;
+  67119:         VmValue stack_01EE77_2 = default;
+  67120:         VmValue v_01EE36_0 = default;
+  67121:         VmValues v_01EE36_1 = null!;
+  67122:         VmValue v_01EE49_2 = default;
+  67123:         VmValue v_01EE49_3 = default;
+  67124:         VmValues v_01EE68_0 = null!;
+  67125:         VmValue v_01EE7D_0 = default;
+  67126:         VmValues v_01EE89_1 = null!;
+  67127:         VmValue v_01EE91_2 = default;
+  67128:         VmValues v_01EE9E_0 = null!;
+  67129:         VmValues v_01EEA2_1 = null!;
+  67130:         VmValues v_01EEAF_2 = null!;
+  67131:         VmValues v_01EEC1_0 = null!;
+  67132:         VmValue v_01EEC9_1 = default;
+  67133:         VmValues v_01EEE0_0 = null!;
+  67134:         VmValues v_01EEE4_1 = null!;
+  67135:         VmValues v_01EEF1_2 = null!;
+  67136:         v_01EE36_0 = p0;
+  67137:         v_01EE36_1 = Native._0xCFF4391AEED220A9(p1); // RVA: 0x04BD3B00
+  67138:         local_1 = v_01EE36_1[0];
+  67139:         local_2 = v_01EE36_1[1];
+  67140:         v_01EE49_2 = local_1;
+  67141:         v_01EE49_3 = local_2;
+  67142:         zero_bytes(Vm.Address(locals, 3), 16);
+  67143:         local_7 = local_3;
+  67144:         local_8 = local_4;
+  67145:         local_5 = v_01EE49_2;
+  67146:         local_6 = v_01EE49_3;
+  67147:         if (((as_u32(Operations.bytes_equal_16(Vm.Address(locals, 5), Vm.Address(locals, 7))) == 0)))
+  67148:         {
+  67149:             stack_01EE73_0 = v_01EE36_0;
+  67150:             (stack_01EE77_0, stack_01EE77_1, stack_01EE77_2) = (stack_01EE73_0, local_1, local_2);
+  67151:         }
+  67152:         else
+  67153:         {
+  67154:             stack_01EE66_0 = v_01EE36_0;
+  67155:             v_01EE68_0 = Native.PERSCHAR._CREATE_PERSISTENT_CHARACTER(p1); // RVA: 0x04BC9120
+  67156:             (stack_01EE77_0, stack_01EE77_1, stack_01EE77_2) = (stack_01EE66_0, v_01EE68_0[0], v_01EE68_0[1]);
+  67157:         }
+  67158:         store_bytes(stack_01EE77_0, 0x0, 16, new VmValues(stack_01EE77_1, stack_01EE77_2));
+  67159:         v_01EE7D_0 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+  67160:         local_0 = v_01EE7D_0;
+  67161:         v_01EE89_1 = load_bytes(p0, 0x0, 16);
+  67162:         v_01EE91_2 = Native._0x9AD9ECF1F2C77EED(v_01EE89_1[0], v_01EE89_1[1], local_0, p2); // RVA: 0x04BC98A0
+  67163:         if (((as_u32(v_01EE91_2) == 0)))
+  67164:         {
+  67165:             v_01EEC1_0 = load_bytes(p0, 0x0, 16);
+  67166:             v_01EEC9_1 = Native._0x57C323B6CFB9608F(v_01EEC1_0[0], v_01EEC1_0[1], local_0, p2); // RVA: 0x04BDC750
+  67167:             if (((as_u32(v_01EEC9_1) != 0)))
+  67168:             {
+  67169:                 v_01EEE0_0 = load_bytes(p0, 0x0, 16);
+Line 107385:         func_01660F(v_032482_1, v_032482_2, v_032482_3, p2, p3, p4, p5);

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CScenicViewManager>
+  <Volumes>
+    <Item>
+      <Name>FirstScenicViewPlayerVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-108.6" y="901.4" z="200.5" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="20.000000" y="20.000000" z="10.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>FirstScenicViewSpawnVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-262.000000" y="787.000" z="118.000000" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="100.000000" y="100.000000" z="20.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>WildlifeViewPlayerVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="761.3" y="-46.3" z="158.6" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="20.000000" y="20.000000" z="10.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>WildlifeViewSpawnVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="1005.000000" y="-62.000" z="101.200000" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="300.000000" y="300.000000" z="75.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>MD1Initial_PlayerVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-178.956573" y="-23.220543" z="94.000000" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="15.000000" y="40.000000" z="7.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>MD1Initial_SpawnVolume</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Cylinder</VolumeType>
+          <Position x="-259.241760" y="73.789406" z="63.679104" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="75.000000" y="75.000000" z="25.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Cylinder</VolumeType>
+          <Position x="-337.923279" y="2.281566" z="63.679108" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="75.000000" y="75.000000" z="25.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Cylinder</VolumeType>
+          <Position x="-291.877594" y="-95.118019" z="73.490356" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="100.000000" y="100.000000" z="35.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>Sniper_SpawnVolume</Name>
+      <AttachToCamera value="true" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="0.0" y="200.0" z="0.000000" />
+          <Orientation x="0.000000" y="0.000000" z="0.000000" />
+          <Scale x="175.000000" y="225.000000" z="175.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>CumberlandRidge_ValentineView_Player</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-12.685628" y="825.928345" z="200.000000" />
+          <Orientation x="0.000000" y="0.000000" z="-20.999998" />
+          <Scale x="55.000000" y="55.000000" z="40.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-61.726650" y="865.995178" z="200.000000" />
+          <Orientation x="0.000000" y="0.000000" z="27.000008" />
+          <Scale x="55.000000" y="129.000000" z="40.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-78.232460" y="922.308899" z="200.000000" />
+          <Orientation x="0.000000" y="0.000000" z="-28.000002" />
+          <Scale x="55.000000" y="55.000000" z="40.000000" />
+        </Item>
+      </PrimitiveVolumes>
+    </Item>
+    <Item>
+      <Name>CumberlandRidge_ValentineView_Spawn</Name>
+      <AttachToCamera value="false" />
+      <PrimitiveVolumes>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-269.265839" y="896.128784" z="130.000000" />
+          <Orientation x="0.000000" y="0.000000" z="-16.000010" />
+          <Scale x="100.000000" y="175.000000" z="50.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-364.436340" y="687.319031" z="130.000000" />
+          <Orientation x="0.000000" y="0.000000" z="31.999981" />
+          <Scale x="175.000000" y="50.000000" z="50.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-246.043228" y="660.748474" z="130.000000" />
+          <Orientation x="0.000000" y="0.000000" z="-35.000000" />
+          <Scale x="185.000000" y="100.000000" z="50.000000" />
+        </Item>
+        <Item>
+          <VolumeType>Box</VolumeType>
+          <Position x="-301.570923" y="773.853027" z="130.000000" />
+          <Orientation x="0.000000" y="0.000000" z="7.999989" />
+          <Scale x="185.000000" y="115.000000" z="50.000000" />
+         </Item>
+      </PrimitiveVolumes>
+    </Item>
+  </Volumes>
+  <ScenicViews>
+    <Item>
+      <Name>FirstScenicView</Name>
+      <PlayerVolume>FirstScenicViewPlayerVolume</PlayerVolume>
+      <SpawnVolume>FirstScenicViewSpawnVolume</SpawnVolume>
+      <Disabled value="true" />
+    </Item>
+    <Item>
+      <Name>WildlifeScenicView</Name>
+      <PlayerVolume>WildlifeViewPlayerVolume</PlayerVolume>
+      <SpawnVolume>WildlifeViewSpawnVolume</SpawnVolume>
+      <Disabled value="true" />
+    </Item>
+    <Item>
+      <Name>MD1Initial</Name>
+      <PlayerVolume>MD1Initial_PlayerVolume</PlayerVolume>
+      <SpawnVolume>MD1Initial_SpawnVolume</SpawnVolume>
+      <Disabled value="true" />
+    </Item>
+    <Item>
+      <Name>CumberlandRidge_ValentineView</Name>
+      <PlayerVolume>CumberlandRidge_ValentineView_Player</PlayerVolume>
+      <SpawnVolume>CumberlandRidge_ValentineView_Spawn</SpawnVolume>
+      <Disabled value="false" />
+    </Item>
+    <Item>
+      <Name>Sniper</Name>
+      <Condition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionEquippedWeaponHasScope" />
+          <Item type="CAIConditionEquippedWeaponInfoFlags">
+            <WeaponInfoFlags>ScopedKit</WeaponInfoFlags>
+          </Item>
+        </Conditions>
+      </Condition>
+      <PlayerVolume />
+      <SpawnVolume>Sniper_SpawnVolume</SpawnVolume>
+      <Disabled value="false" />
+    </Item>
+  </ScenicViews>
+</CScenicViewManager>

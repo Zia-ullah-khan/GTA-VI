@@ -1,0 +1,15 @@
+
+The command exited with code 0.
+Output:
+<truncated 8 lines>
+=== extracted/script_manifest.json (size: 179270) ===
+List with 706 items. Sample first 3:
+  {'offset': 0, 'kind': 'rpf9_header', 'stored_size': 4096, 'inflated_size': 0, 'chunks': 0, 'magic': '9FPR', 'sha256': '23b71621c81f27a5070a8f93a767a8404e7e95ad107c30e975a4b964267ec596', 'output': ''}
+  {'offset': 4096, 'kind': 'rpf9_header', 'stored_size': 335872, 'inflated_size': 0, 'chunks': 0, 'magic': '9FPR', 'sha256': 'f3af001f9e084feba45780a00891ae6bf64423b245ee6b685dc9aec3d581fba5', 'output': ''}
+  {'offset': 339968, 'kind': 'zlib', 'stored_size': 461648, 'inflated_size': 2702384, 'chunks': 42, 'magic': 'hex:00000000', 'sha256': '592afd44c211a8d07ca7f90ef3f8659d272b2d271b5a9a85ed735a5ed80c3c82', 'output': 'script_0000053000.bin'}
+=== extracted/story000_script_manifest.json (size: 620783) ===
+List with 2345 items. Sample first 3:
+  {'offset': 0, 'kind': 'rpf9_header', 'stored_size': 4096, 'inflated_size': 0, 'chunks': 0, 'magic': '9FPR', 'sha256': '1c8998bc0f2dcaf3004bdff5c6ef37fc756d090520fc01562cab7083dc41fe58', 'output': ''}
+  {'offset': 4096, 'kind': 'rpf9_header', 'stored_size': 94208, 'inflated_size': 0, 'chunks': 0, 'magic': '9FPR', 'sha256': '9bd539e187eb9a34f6ffdb947d22d71d4560c53afecb1dd4b648262ac0387dfa', 'output': ''}
+  {'offset': 98304, 'kind': 'rpf9_header', 'stored_size': 356352, 'inflated_size': 0, 'chunks': 0, 'magic': '9FPR', 'sha256': 'eac8edc984b95caffe3c29025f8a71fdcf22fc62b55f7626ced62e58d10c3c71', 'output': ''}
+

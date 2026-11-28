@@ -1,0 +1,86 @@
+Created At: 2026-11-25T18:11:38-05:00
+Completed At: 2026-11-25T18:11:49-05:00
+Command exited with code 0.
+
+Command output:
+2634865:         v_48BB10_2 = zero_slots(1);
+2634866:         store_i32(Vm.Address(v_48BB10_2, 0), 0x0, 0xFFFFFFFF90E5141B);
+2634867:         local_30 = v_48BB10_2[0];
+2634868:         local_29 = v_48BB04_1;
+2634869:         if (((as_u32(((as_i32(local_29) == as_i32(local_30)))) != 0)))
+2634870:         {
+2634871:         goto label_48BB4B;
+2634872:         }
+2634873:         else
+2634874:         {
+2634875:         goto label_48BB26;
+2634876:         }
+2634877:         label_48BB26: ;
+2634878:         v_48BB29_0 = Virtual.type_0F367E61B700FE22.Method_13(load_u64(p0, 0x28));
+2634879:         v_48BB35_1 = zero_slots(1);
+2634880:         store_i32(Vm.Address(v_48BB35_1, 0), 0x0, 0xFFFFFFFFE8C67B7D);
+2634881:         local_32 = v_48BB35_1[0];
+2634882:         local_31 = v_48BB29_0;
+2634883:         if (((as_u32(((as_i32(local_31) == as_i32(local_32)))) == 0)))
+2634884:         {
+2634885:         goto label_48BB60;
+2634886:         }
+2634887:         else
+2634888:         {
+2634889:         goto label_48BB4B;
+2634890:         }
+2634891:         label_48BB4B: ;
+2634892:         v_48BB51_0 = Native._0xD0D3FDB70A5FEE95(0xFFFFFFFFD93496CA); // RVA: 0x03CCF7C0
+2634893:         stack_48BB62_0 = ((as_i32(v_48BB51_0) == as_i32(0)));
+2634894:         goto label_48BB62;
+2634895:         label_48BB60: ;
+2634896:         stack_48BB62_0 = 0;
+2634897:         goto label_48BB62;
+2634898:         label_48BB62: ;
+2634899:         local_6 = stack_48BB62_0;
+2634900:         if (((as_u32(load_u8(load_u64(p0, 0x8), 0xC)) != 0)))
+2634901:         {
+2634902:         goto label_48BBF1;
+2634903:         }
+2634904:         else
+2634905:         {
+2634906:         goto label_48BB70;
+2634907:         }
+2634908:         label_48BB70: ;
+2634909:         v_48BB7A_0 = local_0;
+2634910:         v_48BB7A_1 = local_1;
+2634911:         local_36 = Vm.Address(locals, 16);
+2634912:         local_35 = Vm.Address(locals, 14);
+2634913:         local_33 = v_48BB7A_0;
+2634914:         local_34 = v_48BB7A_1;
+2634915:         Native.ENTITY._GET_ENTITY_WORLD_POSITION_OF_DIMENSIONS(local_33, local_34, Vm.Address(locals, 38), Vm.Address(locals, 40)); // RVA: 0x03C0AB20
+2634916:         store_bytes(local_35, 0x0, 16, new VmValues(local_38, local_39));
+2634917:         store_bytes(local_36, 0x0, 16, new VmValues(local_40, local_41));
+2634918:         v_48BBB1_2 = extract_bytes(new VmValues(local_16, local_17), 8, 8);
+2634919:         v_48BBB8_3 = extract_bytes(new VmValues(local_14, local_15), 8, 8);
+2634920:         v_48BBC3_4 = ((as_f32(((as_f32(as_i32(v_48BBB1_2)) - as_f32(as_i32(v_48BBB8_3))))) / as_f32(((1UL << unchecked((int)(30)))))));
+2634921:         local_42 = ((as_f32(((as_f32(as_i32(v_48BBB1_2)) - as_f32(as_i32(v_48BBB8_3))))) / as_f32(((1UL << unchecked((int)(30)))))));
+2634922:         v_48BBC6_5 = load_bytes(Vm.GlobalAddress(0x48391B87U, 0x120), 0x0, 16);
+2634923:         v_48BBCD_6 = Operations.packed_vector_scale(v_48BBC3_4, v_48BBC6_5[0], v_48BBC6_5[1]);
+2634924:         local_4 = v_48BBCD_6[0];
+2634925:         local_5 = v_48BBCD_6[1];
+2634926:         if (((as_u32(local_6) == 0)))
+2634927:         {
+2634928:         goto label_48BBF1;
+2634929:         }
+2634930:         else
+2634931:         {
+2634932:         goto label_48BBD7;
+2634933:         }
+2634934:         label_48BBD7: ;
+2634935:         Vm.Intrinsic("replication_barrier_464", 0, 0, 0, 4, 0);
+2634936:         store_i32(Vm.Address(locals, 4), 0x0, ((as_f32(load_i32(Vm.Address(locals, 4), 0x0)) - as_f32(0x3E19999A))));
+2634937:         goto label_48BBF1;
+2634938:         label_48BBF1: ;
+2634939:         v_48BBF9_0 = p2;
+2634940:         v_48BBF9_1 = Native.ENTITY.GET_ENTITY_COORDS(local_0, local_1, 0); // RVA: 0x03C09D00
+2634941:         v_48BC04_2 = Operations.packed_vector_add(v_48BBF9_1[0], v_48BBF9_1[1], local_4, local_5);
+2634942:         store_bytes(v_48BBF9_0, 0x0, 16, new VmValues(v_48BC04_2[0], v_48BC04_2[1]));
+2634943:         if ((!((as_f32(Operations.abs_f32(local_2)) > as_f32(0x3C23D70A)))))
+2634944:         {
+2634945:         goto label_48BC35;

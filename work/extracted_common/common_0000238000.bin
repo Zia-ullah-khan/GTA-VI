@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTacticalAnalysisDistributionStore>
+
+	<Distributions>
+
+		<Item key="DefaultNavmesh" type="CTacticalAnalysisDistributionDefault">
+			<Name>DefaultNavmesh</Name>
+			<Flags>Default</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>LOW</CoverLoadingAreaPriority>
+			<NavmeshClearance value="1.0"/>
+		</Item>
+
+		<Item key="DefaultCover" type="CTacticalAnalysisDistributionDefault">
+			<Name>DefaultCover</Name>
+			<Flags>Default ProvidesCover</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>LOW</CoverLoadingAreaPriority>
+		</Item>
+
+		<Item key="SmallDefensiveAreas" type="CTacticalAnalysisDistributionDefArea">
+			<Name>SmallDefensiveAreas</Name>
+			<Flags>DefensiveArea SmallDefensiveArea</Flags>
+			<NoConflictDistanceSq value="0.25" />
+			<ForSmallDefAreas value="true" />
+			<ExtraPoints value="2" />
+		</Item>
+
+		<Item key="LargeDefensiveAreas" type="CTacticalAnalysisDistributionDefArea">
+			<Name>LargeDefensiveAreas</Name>
+			<Flags>DefensiveArea LargeDefensiveArea</Flags>
+			<NoConflictDistanceSq value="0.25" />
+			<ForSmallDefAreas value="false" />
+			<ExtraPoints value="2" />
+		</Item>
+
+		<Item key="SearchForTargetPoints" type="CTacticalAnalysisDistributionTarget">
+			<Name>SearchForTargetPoints</Name>
+			<Flags>TheTargetPosition</Flags>
+			<ValidationDistanceSq value="4.0" />
+			<OnlyWhenPositionUnknown value="true" />
+		</Item>
+
+		<Item key="PursuitPoints" type="CTacticalAnalysisDistributionPursuit"> 
+			<Name>PursuitPoints</Name>
+			<Flags>PursuitPoint</Flags>
+			<ValidationDistanceSq value="4.0" />
+			<MinDistanceToThreat value="10" />
+			<MaxDistanceToThreat value="50" />
+			<OffsetToRoadNode value="3.0" />
+			<Percent value="20" />
+		</Item>
+
+		<Item key="RoadPoints" type="CTacticalAnalysisDistributionPursuit"> 
+			<Name>RoadPoints</Name>
+			<Flags>RoadPoint</Flags>
+			<ValidationDistanceSq value="4.0" />
+			<MinDistanceToThreat value="0" />
+			<MaxDistanceToThreat value="50" />
+			<MaxDegreesFromPursuitDirection value="180" />
+			<Percent value="50" />
+			<MustBeRoadNode value="true" />
+		</Item>
+
+		<Item key="SwatHeliLanding" type="CTacticalAnalysisDistributionDefault">
+			<Name>RoadPoints</Name>
+			<Flags>Default ClearArea</Flags>
+			<NavmeshClearance value="6.5"/>
+			<Percent value="10" />
+		</Item>
+
+		<Item key="CompanionAIPoints" type="CTacticalAnalysisDistributionCompanionAI"> 
+			<Name>CompanionAIPoints</Name>
+			<Flags>CompanionAIPoint</Flags>
+			<ValidationDistanceSq value="4.0" />
+			<m_MinDistanceToSearchPosition value="5" />
+			<m_MaxDistanceToSearchPosition value="25" />
+			<Percent value="50" />
+		</Item>
+
+		<Item key="InteriorPoints" type="CTacticalAnalysisDistributionCircle">
+			<Name>InteriorPoints</Name>
+			<Flags>CloseToTarget InteriorPoints</Flags>
+			<CoverFlagsToLoad>COVFLAG_INTERIOR_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="1.5" />
+			<MaxDistanceToThreat value="10" />
+			<Percent value="20" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<CoverStatusFlags></CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTarget" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTarget</Name>
+			<Flags>CloseToTarget</Flags>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="3" />
+			<MaxDistanceToThreat value="15" />
+			<MaxSlopeAngleDegrees value="15" />
+			<Percent value="20" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToActualTarget" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToActualTarget</Name>
+			<Flags>CloseToActualTarget</Flags>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="3" />
+			<MaxDistanceToThreat value="10" />
+			<Percent value="5" />
+			<MaxSlopeAngleDegrees value="15" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<RelativeToActualTargetPosition value="true" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTargetCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTargetCover</Name>
+			<Flags>CloseToTarget ProvidesCover</Flags>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="5" />
+			<MaxDistanceToThreat value="22" />
+			<Percent value="50" />
+			<MaxSlopeAngleDegrees value="15" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTargetNavMesh" type="CTacticalAnalysisCirclePointGenerator">
+			<Name>CloseToTargetNavMesh</Name>
+			<Flags>CloseToTarget</Flags>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="5" />
+			<MaxDistanceToThreat value="22" />
+			<MaxSlopeAngleDegrees value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<ConsiderCover value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTargetExteriorCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTargetExteriorCover</Name>
+			<Flags>CloseToTarget ProvidesCover ExteriorPoints</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT COVFLAG_INTERIOR_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="15" />
+			<MaxSlopeAngleDegrees value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="false" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTargetInteriorCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTargetInteriorCover</Name>
+			<Flags>CloseToTarget ProvidesCover InteriorPoints</Flags>
+			<CoverFlagsToLoad>COVFLAG_INTERIOR_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="30" />
+			<Percent value="20" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToTargetInteriorNavmesh" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTargetInteriorNavmesh</Name>
+			<Flags>CloseToTarget InteriorPoints</Flags>
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="15" />
+			<Percent value="20" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<CoverStatusFlags></CoverStatusFlags>
+			<ConsiderCover value="false" />
+		</Item>
+
+		<Item key="CloseToTargetExteriorNavmesh" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToTargetExteriorNavmesh</Name>
+			<Flags>CloseToTarget ExteriorPoints</Flags>
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="15" />
+			<Percent value="20" />
+			<MaxSlopeAngleDegrees value="15" />
+			<ConsiderInteriors value="false" />
+			<ConsiderExteriors value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+			<ConsiderCover value="false" />
+		</Item>
+
+		<Item key="VantagePoints" type="CTacticalAnalysisDistributionVantage">
+			<Name>VantagePoints</Name>
+			<Flags>VantagePoints</Flags>
+			<CoverFlagsToLoad>COVFLAG_VANTAGE_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+		</Item>
+
+		<Item key="CloseToAlliesInteriorCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CTacticalAnalysisDistributionCircle</Name>
+			<Flags>CloseToAllies ProvidesCover InteriorPoints</Flags>
+			<CoverFlagsToLoad>COVFLAG_INTERIOR_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<ConsiderNavmesh value="false" />
+			<RelativeToAllies value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToAlliesInteriorNavmesh" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToAlliesInteriorNavmesh</Name>
+			<Flags>InteriorPoints CloseToAllies</Flags>
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<CoverStatusFlags></CoverStatusFlags>
+			<ConsiderCover value="false" />
+			<RelativeToAllies value="true" />
+		</Item>
+
+		<Item key="CloseToAlliesExteriorCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToAlliesExteriorCover</Name>
+			<Flags>CloseToAllies ExteriorPoints ProvidesCover</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="false" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<RelativeToAllies value="true" />
+			<RelativeToLeader value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToAlliesExteriorNavmesh" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToAlliesExteriorNavmesh</Name>
+			<Flags>CloseToAllies ExteriorPoints</Flags>
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="15" />
+			<Percent value="50" />
+			<ConsiderInteriors value="false" />
+			<ConsiderExteriors value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+			<ConsiderCover value="false" />
+			<RelativeToAllies value="true" />
+		</Item>
+
+		<Item key="CloseToLeaderCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToLeaderCover</Name>
+			<Flags>CloseToLeader</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="25.0" />
+			<MaxZDistanceToAllies value="6.0" />
+			<Percent value="70" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<RelativeToAllies value="false" />
+			<RelativeToLeader value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+		</Item>
+		
+		<Item key="CloseToLeaderNavMesh" type="CTacticalAnalysisCirclePointGenerator">
+			<Name>CloseToLeaderNavMesh</Name>
+			<Flags>CloseToLeader</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="12.5" />
+			<RelativeToLeader value="true" />
+		</Item>
+
+		<Item key="CloseToLeaderCoverStealth" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToLeaderCoverStealth</Name>
+			<Flags>CloseToLeaderCoverStealth</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="-1.0" />
+			<MaxDistanceToAllies value="7.5" />
+			<MaxSlopeAngleDegrees value="30" />
+			<Percent value="70" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<RelativeToAllies value="false" />
+			<RelativeToLeader value="true" />
+			<UseDistScoring value="true" />
+			<AllowHighWallToBoth value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+		</Item>
+
+		<Item key="BreachInteriorPoints" type="CTacticalAnalysisDistributionBreacherPoints">
+			<Name>BreachInteriorPoints</Name>
+			<Flags>BreacherBreachPoints</Flags>
+			<CoverFlagsToLoad>COVFLAG_INTERIOR_POINT COVFLAG_DOOR COVFLAG_INTERIOR_THRESHOLD</CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_VANTAGE_POINT COVFLAG_ROOF</CoverFlagsToAvoid>
+			<ValidationDistanceSq value="4.0" />
+			<NoConflictDistanceSq value="1.8225" />
+		</Item>
+
+		<Item key="SurroundInteriorPoints" type="CTacticalAnalysisDistributionSurroundInterior">
+			<Name>SurroundInteriorPoints</Name>
+			<Flags>SurroundInterior</Flags>
+			<ValidationDistanceSq value="4.0" />
+			<NoConflictDistanceSq value="1.8225" />
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="15" />
+			<Percent value="50" />
+			<CoverMustProvideCover value="false" />
+		</Item>
+
+		<Item key="TacticalAdvance" type="CTacticalAnalysisDistributionCircle">
+			<Name>TacticalAdvance</Name>
+			<Flags>TacticalAdvance</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT COVFLAG_INTERIOR_POINT</CoverFlagsToAvoid>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="-1.0" />
+			<MaxDistanceToThreat value="100.0" />
+			<MaxDistanceToAllies value="30" />
+			<Percent value="75" />
+			<ConsiderInteriors value="false" />
+			<ConsiderExteriors value="true" />
+			<ConsiderNavmesh value="false" />
+			<RelativeToAllies value="true" />
+			<RelativeToLeader value="false" />
+			<RelativeToActualTargetPosition value = "true" />
+			<CoverStatusFlags>CoverToAnyThreats</CoverStatusFlags>
+			<GenerateForAdvance value="true" />
+		</Item>
+
+		<Item key="TacticalAdvanceIntoCave" type="CTacticalAnalysisDistributionCircle">
+			<Name>TacticalAdvanceIntoCave</Name>
+			<Flags>TacticalAdvance</Flags>
+			<CoverFlagsToLoad>COVFLAG_INTERIOR_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="5" />
+			<MaxDistanceToThreat value="120" />
+			<Percent value="20" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="false" />
+			<ConsiderNavmesh value="false" />
+			<ConsiderCover value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+		</Item>
+
+		<Item key="ArrestSupport" type="CTacticalAnalysisDistributionCircle">
+			<Name>ArrestSupport</Name>
+			<Flags>ArrestSupport</Flags>
+			<NoConflictDistanceSq value="1.69" />
+			<MinDistanceToThreat value="4" />
+			<MaxDistanceToThreat value="24" />
+			<Percent value="70" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<CoverStatusFlags></CoverStatusFlags>
+			<ConsiderCover value="false" />
+			<RelativeToAllies value="false" />
+			<RelativeToLeader value="false" />
+			<RelativeToActualTargetPosition value="true" />
+		</Item>
+
+		<Item key="ArrestSupport_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">			
+			<Name>ArrestSupport_PointGenerator</Name>
+			<Flags>ArrestSupport</Flags>
+			<Percent value="70" />
+		</Item>
+
+		<Item key="DefaultMountedNavmesh" type="CTacticalAnalysisDistributionDefault">
+			<Name>DefaultMountedNavmesh</Name>
+			<Flags>Default ClearArea</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>LOW</CoverLoadingAreaPriority>
+			<NavmeshClearance value="1.5"/>
+			<Percent value="30" />
+		</Item>
+
+		<Item key="MovingTrainCombat" type="CTacticalAnalysisDistributionCircle">
+			<Name>MovingTrainCombat</Name>
+			<Flags>CloseToActualTarget</Flags>
+			<CoverFlagsToLoad>COVFLAG_DYNAMIC_NAVMESH_POINT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid></CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<NoConflictDistanceSq value="2.25" />
+			<MinDistanceToThreat value="0.5" />
+			<MaxDistanceToThreat value="40" />
+			<Percent value="75" />
+			<MaxSlopeAngleDegrees value="85" />
+			<ConsiderInteriors value="true" />
+			<ConsiderExteriors value="true" />
+			<RelativeToActualTargetPosition value="true" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="RangeAttack" type="CTacticalAnalysisDistributionDefault">
+			<Name>RangeAttack</Name>
+			<Flags>Default ClearArea</Flags>
+			<CoverFlagsToLoad></CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>LOW</CoverLoadingAreaPriority>
+			<NavmeshClearance value="1.5"/>
+			<Percent value="30" />
+		</Item>
+
+		<Item key="CG_Defend" type="CTacticalAnalysisDistributionCombatGoals">
+			<Name>CG_Defend</Name>
+			<Flags>CG_Defend</Flags>
+			<CoverSearchRatio value="1.4"/>
+		</Item>
+
+		<Item key="CG_Attack" type="CTacticalAnalysisDistributionCombatGoals">
+			<Name>CG_Attack</Name>
+			<Flags>CG_Attack</Flags>
+			<CoverSearchRatio value="1.5"/>
+		</Item>
+
+		<Item key="CG_HoldGround" type="CTacticalAnalysisDistributionCombatGoals">
+			<Name>CG_HoldGround</Name>
+			<Flags>CG_HoldGround</Flags>
+			<CoverSearchRatio value="1"/>
+		</Item>
+
+		<Item key="CG_AggressiveAttack" type="CTacticalAnalysisDistributionCombatGoals">
+			<Name>CG_AggressiveAttack</Name>
+			<Flags>CG_AggressiveAttack</Flags>
+			<CoverSearchRatio value="1.5"/>
+		</Item>
+
+		<Item key="NearLastVehicle_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>NearLastVehicle_PointGenerator</Name>
+			<Flags>NearLastVehicle</Flags>
+			<NoConflictDistanceSq value="2.25" />
+		</Item>
+
+		<Item key="MusterPoint_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>MusterPoint_PointGenerator</Name>
+			<Flags>MusterPoint</Flags>
+			<NoConflictDistanceSq value="2.25" />
+		</Item>
+
+		<Item key="CloseToTarget_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>CloseToTarget_PointGenerator</Name>
+			<Flags>CloseToActualTarget</Flags>
+			<NoConflictDistanceSq value="2.25" />
+		</Item>
+
+
+		<Item key="CloseToTarget_PointGenerator_Close" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>CloseToTarget_PointGenerator_Close</Name>
+			<Flags>CloseToActualTarget</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<PointClearance value=".3"/>
+		</Item>
+
+		<Item key="CloseToTarget_PointGenerator_DynamicNavmesh" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>CloseToTarget_PointGenerator_DynamicNavmesh</Name>
+			<Flags>OnTargetDynamicNavmesh</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<PointClearance value=".1"/>
+			<ConstrainToDynamicNavmesh value="true"/>
+		</Item>
+
+		<Item key="PursuitBreadcrumbs_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>PursuitBreadcrumbs_PointGenerator</Name>
+			<Flags>PursuitPoint</Flags>
+			<NoConflictDistanceSq value="2.25" />
+			<PointClearance value=".3"/>
+		</Item>
+
+		<Item key="CloseToPed_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>CloseToPed_PointGenerator</Name>
+			<Flags>CloseToPed</Flags>
+			<NoConflictDistanceSq value="2.25" />
+		</Item>
+
+		<Item key="Rooftop_PointGenerator" type="CTacticalAnalysisDistributionRooftop">
+			<Name>Rooftop_PointGenerator</Name>
+			<Flags>Rooftop</Flags>
+			<NoConflictDistanceSq value="4" />
+			<PointClearance value=".3"/>
+		</Item>
+		
+		<Item key="SurroundInterior_PointGenerator" type="CTacticalAnalysisDistributionWithPointGenerator">
+			<Name>SurroundInterior_PointGenerator</Name>
+			<ConsiderInteriors value="false"/>
+			<Flags>SurroundInterior</Flags>
+		</Item>
+
+		<Item key="PoliceAdvanceFlank" type="CTacticalAnalysisDistributionRing">		
+			<Name>PoliceAdvanceFlank</Name>
+			<Flags>AdvanceFlank</Flags>
+			<InnerRadius value="8.0"/>
+			<OuterRadius value="16.0"/>
+			<InstanceCount value="9"/>
+			<PointsPerInstance value="3"/>
+		</Item>
+
+		<Item key="NearLastVehicleCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>NearLastVehicleCover</Name>
+			<Flags>NearLastVehicle</Flags>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<MaxDistanceToThreat value="-1.0"/>
+			<Percent value="25" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="CloseToPed_Cover" type="CTacticalAnalysisDistributionCircle">
+			<Name>CloseToPed_Cover</Name>
+			<Flags>CloseToPed</Flags>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<MaxDistanceToThreat value="-1.0"/>
+			<Percent value="40" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+		</Item>
+
+		<Item key="NearbyVehicles" type="CTacticalAnalysisDistributionNearbyVehicles">
+			<Name>NearbyVehicles</Name>
+			<Flags>NearVehicle</Flags>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<ConsiderUsers value="true"/>
+		</Item>
+
+		<Item key="NearLastVehicleDoorCover" type="CTacticalAnalysisDistributionCircle">
+			<Name>NearLastVehicleDoorCover</Name>
+			<Flags>NearLastVehicle CarDoorCover</Flags>
+			<CoverFlagsToLoad>COVFLAG_TRANSIENT</CoverFlagsToLoad>
+			<CoverFlagsToAvoid>COVFLAG_ROOF COVFLAG_VANTAGE_POINT</CoverFlagsToAvoid>
+			<CoverLoadingAreaPriority>HIGH</CoverLoadingAreaPriority>
+			<MaxDistanceToThreat value="-1.0"/>
+			<Percent value="25" />
+			<ConsiderNavmesh value="false" />
+			<CoverStatusFlags>CoverToClosestThreat</CoverStatusFlags>
+			<RequestTimeSensitiveSearchOnNewRequest value="true" />
+		</Item>
+		
+	</Distributions>
+
+</CTacticalAnalysisDistributionStore>

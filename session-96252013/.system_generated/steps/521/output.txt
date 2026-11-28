@@ -1,0 +1,87 @@
+
+The command exited with code 0.
+Output:
+Total .cs files: 746
+Named .cs files (56):
+  arcadegamesurvivor.ysc.cs (12,581,822 bytes)
+  compoundcriminalcartheftring.ysc.cs (1,805,713 bytes)
+  compoundcriminaldrugkingpin.ysc.cs (1,507,267 bytes)
+  compoundcriminalecstasygarage.ysc.cs (524,400 bytes)
+  compoundcriminalgraffitilab.ysc.cs (1,064,408 bytes)
+  compoundcriminalindustrialweedgrow.ysc.cs (529,548 bytes)
+  compoundcriminalmushroomgrow.ysc.cs (700,281 bytes)
+  compoundcriminalnarcoboatrunner.ysc.cs (520,896 bytes)
+  compoundcriminalvehiclechopshop.ysc.cs (401,381 bytes)
+  compoundcriminalweaponsexport.ysc.cs (687,358 bytes)
+  compoundfinalchaptercarwash.ysc.cs (177,869 bytes)
+  compoundfinalchapterclubhouse.ysc.cs (811,388 bytes)
+  compoundfinalchaptermethfacility.ysc.cs (1,524,340 bytes)
+  compoundguardiabrothersboatyard.ysc.cs (1,436,045 bytes)
+  compoundguardiabrothersdistributioncenter.ysc.cs (691,477 bytes)
+  compoundguardiabrothersstagingpoint.ysc.cs (999,339 bytes)
+  compoundkingfishersbreedingcamp.ysc.cs (1,648,162 bytes)
+  compoundkingfishersfishingshacks.ysc.cs (774,799 bytes)
+  compoundkingfishersseedymotel.ysc.cs (831,705 bytes)
+  compoundkoltabandonedhotel.ysc.cs (845,679 bytes)
+  compoundkoltbowlingalley.ysc.cs (1,574,387 bytes)
+  compoundkoltstashhouse.ysc.cs (2,832,905 bytes)
+  compoundkoltworkvangarage.ysc.cs (1,213,438 bytes)
+  compoundlapolillanegrafishwarehouse.ysc.cs (808,639 bytes)
+  compoundlapolillanegrasafehouse.ysc.cs (679,603 bytes)
+  compoundm7junkyard.ysc.cs (1,292,933 bytes)
+  compoundm7weedgrow.ysc.cs (2,099,647 bytes)
+  compoundpttyabandonedcommunitycenter.ysc.cs (1,367,136 bytes)
+  compoundpttyhouselockup.ysc.cs (312,196 bytes)
+  compoundpttyillegalgoodsstore.ysc.cs (585,168 bytes)
+  compoundsan4sandrughouse.ysc.cs (620,471 bytes)
+  compoundsan4sanimportgarage.ysc.cs (879,116 bytes)
+  compoundsan4sanrecordingstudio.ysc.cs (1,598,376 bytes)
+  compoundsan4santowerblock.ysc.cs (2,028,457 bytes)
+  discoverables.ysc.cs (10,085,434 bytes)
+  escapetime.ysc.cs (3,211,194 bytes)
+  finalchapterwindowtoss.ysc.cs (1,402,650 bytes)
+  finalecredits.ysc.cs (206,502 bytes)
+  frontexoticanimals.ysc.cs (2,173,847 bytes)
+  frontsan4sanrareshoes.ysc.cs (2,349,825 bytes)
+  gunnut.ysc.cs (1,237,779 bytes)
+  gym.ysc.cs (77,885 bytes)
+  introcredits.ysc.cs (144,487 bytes)
+  minigolf.ysc.cs (434,057 bytes)
+  native.ysc.cs (4,762,492 bytes)
+  photomode.ysc.cs (10,773 bytes)
+  pianist.ysc.cs (1,310,607 bytes)
+  pool.ysc.cs (32,424 bytes)
+  psychic.ysc.cs (1,430,169 bytes)
+  realestate.ysc.cs (225,460 bytes)
+  regions.ysc.cs (787,468 bytes)
+  robbergetawaydriverprep.ysc.cs (1,211,556 bytes)
+  shared.ysc.cs (204,791,688 bytes)
+  shootingrange.ysc.cs (2,888,841 bytes)
+  smashandgrab.ysc.cs (4,526,490 bytes)
+  story000.ysc.cs (6,288,061 bytes)
+
+Hash-named files: 690
+
+Scanning named files for string literals and interesting identifiers...
+
+=== Hits for 'cal' ===
+  arcadegamesurvivor.ysc.cs:21: VmValue[] locals = new VmValue[0];
+  arcadegamesurvivor.ysc.cs:31: VmValue[] locals = new VmValue[0];
+  arcadegamesurvivor.ysc.cs:41: VmValue[] locals = new VmValue[0];
+  arcadegamesurvivor.ysc.cs:53: VmValue[] locals = new VmValue[18];
+  arcadegamesurvivor.ysc.cs:56: ref VmValue local_0 = ref locals[0];
+
+=== Hits for 'mission' ===
+  arcadegamesurvivor.ysc.cs:26395: v_00C7E4_0 = Native.ENTITY.IS_ENTITY_A_MISSION_ENTITY(p1, p2); // RVA: 0x03C0D820
+  arcadegamesurvivor.ysc.cs:26540: v_00C9A0_0 = Native.ENTITY.IS_ENTITY_A_MISSION_ENTITY(local_5, local_6); // RVA: 0x03C0D820
+  arcadegamesurvivor.ysc.cs:164944: v_0517AB_4 = Native.ENTITY.IS_ENTITY_A_MISSION_ENTITY(local_4, local_5); // RVA: 0x03C0D820
+  arcadegamesurvivor.ysc.cs:231386: v_079964_0 = Native.ENTITY.IS_ENTITY_A_MISSION_ENTITY(local_14, local_15); // RVA: 0x03C0D820
+  arcadegamesurvivor.ysc.cs:258149: v_089DB8_1 = Native.ENTITY.IS_ENTITY_A_MISSION_ENTITY(v_089DB4_0[0], v_089DB4_0[1]); // RVA: 0x03C0D
+
+=== Hits for 'objective' ===
+  compoundcriminaldrugkingpin.ysc.cs:18279: Native.UILOG._UILOG_CLEAR_CACHED_OBJECTIVE(); // RVA: 0x044BC7A0
+  compoundcriminaldrugkingpin.ysc.cs:18306: Native.UILOG._UILOG_CLEAR_CACHED_OBJECTIVE(); // RVA: 0x044BC7A0
+  compoundcriminaldrugkingpin.ysc.cs:18315: Native.UILOG._UILOG_CLEAR_CACHED_OBJECTIVE(); // RVA: 0x044BC7A0
+  compoundcriminaldrugkingpin.ysc.cs:18353: Native.UILOG._UILOG_PRINT_CACHED_OBJECTIVE(7500); // RVA: 0x044CCCA0
+  compoundcriminaldrugkingpin.ysc.cs:18426: Native.UILOG._UILOG_CLEAR_CACHED_OBJECTIVE(); // RVA: 0x044BC7A0
+

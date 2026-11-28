@@ -1,0 +1,331 @@
+Created At: 2026-11-25T17:53:29-05:00
+Completed At: 2026-11-25T17:53:33-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x0CB4AD0F8360F51B.ysc.cs (lines=176764) ===
+  61965:         label_01CB22: ;
+  61966:         if (((as_i32(local_0) == as_i32(0xFFFFFFFFDBB4D5E2))))
+  61967:         {
+  61968:         goto label_01CDFC;
+  61969:         }
+  61970:         else
+  61971:         {
+  61972:         goto label_01CB30;
+  61973:         }
+  61974:         label_01CB30: ;
+  61975:         if (((as_i32(local_0) == as_i32(0xFFFFFFFFDFA7F6E3))))
+  61976:         {
+  61977:         goto label_01CDFC;
+  61978:         }
+  61979:         else
+  61980:         {
+  61981:         goto label_01CB3E;
+  61982:         }
+  61983:         label_01CB3E: ;
+  61984:         if (((as_i32(local_0) == as_i32(0xFFFFFFFFE34ACBC8))))
+  61985:         {
+  61986:         goto label_01CDFC;
+  61987:         }
+  61988:         else
+  61989:         {
+  61990:         goto label_01CB4C;
+  61991:         }
+  61992:         label_01CB4C: ;
+  61993:         goto label_01CE00;
+  61994:         label_01CB52: ;
+  61995:         if (((as_i32(local_0) > as_i32(0xFFFFFFFFE72AF09F))))
+  61996:         {
+  61997:         goto label_01CB90;
+  61998:         }
+  61999:         else
+---
+=== 0xD50CE03DE879CABC.ysc.cs (lines=27155) ===
+  2596:             v_00137A_2 = local_1;
+  2597:             local_3 = 0x4C481189;
+  2598:             local_2 = Vm.Address(v_001376_0, 0);
+  2599:             store_i32(local_2, 0x0, local_3);
+  2600:             v_001387_3 = Native.DECORATOR.DECOR_SET_INT(v_00137A_1, v_00137A_2, v_001376_0[0], 0); // RVA: 0x03CDA220
+  2601:             v_0013A5_4 = zero_slots(1);
+  2602:             v_0013A9_5 = load_u64(p0, 0x260);
+  2603:             local_5 = 0x50F6730A;
+  2604:             local_4 = Vm.Address(v_0013A5_4, 0);
+  2605:             store_i32(local_4, 0x0, local_5);
+  2606:             Virtual.type_F337B470D91B81CC.Method_0(v_0013A9_5, 0xFFFFFFFFDFA7F6E3, 1, v_0013A5_4[0]);
+  2607:             Native.PED.SET_PED_RELATIONSHIP_GROUP_HASH(local_0, local_1, 0xFFFFFFFFA448EF1C); // RVA: 0x04BDA5D0
+  2608:             Native._0xFBAFD3343AD46B39(local_0, local_1, 0); // RVA: 0x03CD5410
+  2609:             Native.WEAPON.SET_CURRENT_PED_WEAPON(local_0, local_1, 2.0542994E+13f, 1E-45f, 0f, 0f, 0, 4); // RVA: 0x04A8ECA0
+  2610:             Native.WEAPON._HIDE_PED_WEAPONS(local_0, local_1, 2, 1); // RVA: 0x04A885A0
+  2611:             Native.TASK.TASK_PERSISTENT_CHARACTER(local_0, local_1); // RVA: 0x044C7850
+  2612:             Native.PED.SET_PED_CONFIG_FLAG(local_0, local_1, 98, 1); // RVA: 0x04BD8670
+  2613:             Native.PED.SET_PED_CONFIG_FLAG(local_0, local_1, 771, 1); // RVA: 0x04BD8670
+  2614:             Native.AUDIO.STOP_PED_SPEAKING(local_0, local_1, 1); // RVA: 0x04BF8B40
+  2615:             return;
+  2616:         }
+  2617:         else
+  2618:         {
+  2619:             if (((as_i32(p1) == as_i32(0xFFFFFFFFEE585CB3))))
+  2620:             {
+  2621:                 store_bytes(p0, 0x290, 16, new VmValues(local_0, local_1));
+  2622:                 v_001463_0 = zero_slots(1);
+  2623:                 v_001467_1 = local_0;
+  2624:                 v_001467_2 = local_1;
+  2625:                 local_7 = 0x4C481189;
+  2626:                 local_6 = Vm.Address(v_001463_0, 0);
+  2627:                 store_i32(local_6, 0x0, local_7);
+  2628:                 v_001475_3 = Native.DECORATOR.DECOR_SET_INT(v_001467_1, v_001467_2, v_001463_0[0], 0); // RVA: 0x03CDA220
+  2629:                 v_001493_4 = zero_slots(1);
+  2630:                 v_001497_5 = load_u64(p0, 0x260);
+---
+  2624:                 v_001467_2 = local_1;
+  2625:                 local_7 = 0x4C481189;
+  2626:                 local_6 = Vm.Address(v_001463_0, 0);
+  2627:                 store_i32(local_6, 0x0, local_7);
+  2628:                 v_001475_3 = Native.DECORATOR.DECOR_SET_INT(v_001467_1, v_001467_2, v_001463_0[0], 0); // RVA: 0x03CDA220
+  2629:                 v_001493_4 = zero_slots(1);
+  2630:                 v_001497_5 = load_u64(p0, 0x260);
+  2631:                 local_9 = 0x50F6730A;
+  2632:                 local_8 = Vm.Address(v_001493_4, 0);
+  2633:                 store_i32(local_8, 0x0, local_9);
+  2634:                 Virtual.type_F337B470D91B81CC.Method_0(v_001497_5, 0xFFFFFFFFDFA7F6E3, 1, v_001493_4[0]);
+  2635:                 Native.PED.SET_PED_RELATIONSHIP_GROUP_HASH(local_0, local_1, 0xFFFFFFFFA448EF1C); // RVA: 0x04BDA5D0
+  2636:                 Native._0xFBAFD3343AD46B39(local_0, local_1, 0); // RVA: 0x03CD5410
+  2637:                 return;
+  2638:             }
+  2639:             else
+  2640:             {
+  2641:                 return;
+  2642:             }
+  2643:         }
+  2644:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+  2645:     }
+  2646: 
+  2647:     [VmFunction(0x0014CC)]
+  2648:     public static void func_0014CC(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3) // 0x0014CC
+  2649:     {
+  2650:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3 };
+  2651:         VmValue[] locals = new VmValue[5];
+  2652:         ref VmValue p0 = ref parameters[0];
+  2653:         ref VmValue p1 = ref parameters[1];
+  2654:         ref VmValue p2 = ref parameters[2];
+  2655:         ref VmValue p3 = ref parameters[3];
+  2656:         ref VmValue local_0 = ref locals[0];
+  2657:         ref VmValue local_1 = ref locals[1];
+  2658:         ref VmValue local_2 = ref locals[2];
+---
+  2996:         ref VmValue local_0 = ref locals[0];
+  2997:         ref VmValue local_1 = ref locals[1];
+  2998:         VmValues v_001821_0 = null!;
+  2999:         VmValue v_001825_1 = default;
+  3000:         VmValues v_001837_2 = null!;
+  3001:         v_001821_0 = zero_slots(1);
+  3002:         v_001825_1 = load_u64(p0, 0x260);
+  3003:         local_1 = 0x50F6730A;
+  3004:         local_0 = Vm.Address(v_001821_0, 0);
+  3005:         store_i32(Vm.Address(v_001821_0, 0), 0x0, local_1);
+  3006:         Virtual.type_F337B470D91B81CC.Method_0(v_001825_1, 0xFFFFFFFFDFA7F6E3, 1, v_001821_0[0]);
+  3007:         v_001837_2 = load_bytes(p0, 0x280, 16);
+  3008:         Native.PED.SET_PED_CONFIG_FLAG(v_001837_2[0], v_001837_2[1], 98, 1); // RVA: 0x04BD8670
+  3009:         return;
+  3010:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+  3011:     }
+  3012: 
+  3013:     [VmFunction(0x00184C)]
+  3014:     public static VmValue func_00184C(VmValue arg0) // 0x00184C
+  3015:     {
+  3016:         VmValue[] parameters = new VmValue[] { arg0 };
+  3017:         VmValue[] locals = new VmValue[0];
+  3018:         ref VmValue p0 = ref parameters[0];
+  3019:         VmValue v_001861_0 = default;
+  3020:         if (((as_u64(load_u64(p0, 0x2E0)) == 0)))
+  3021:         {
+  3022:             return 0;
+  3023:         }
+  3024:         else
+  3025:         {
+  3026:             v_001861_0 = Virtual.type_B024FA79E9AF7269.Method_8(load_u64(p0, 0x2E0));
+  3027:             return v_001861_0;
+  3028:         }
+  3029:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+  3030:     }
+---
+  11139:             Native._0x39D4C7A1A4BE6172(v_006449_3); // RVA: 0x044FD1D0
+  11140:             v_006459_4 = Native.PLAYER.GET_PLAYER_INDEX(); // RVA: 0x04501320
+  11141:             Native.PLAYER._DISABLE_PLAYER_INTERACTIVE_FOCUS_PRESET(v_006459_4, local_1); // RVA: 0x044FE410
+  11142:             v_00646E_5 = load_u64(p0, 0x8);
+  11143:             local_5 = load_u64(p0, 0x8);
+  11144:             v_006483_6 = zero_slots(1);
+  11145:             v_006487_7 = load_u64(v_00646E_5, 0x260);
+  11146:             local_7 = 0x50F6730A;
+  11147:             local_6 = Vm.Address(v_006483_6, 0);
+  11148:             store_i32(local_6, 0x0, local_7);
+  11149:             Virtual.type_F337B470D91B81CC.Method_0(v_006487_7, 0xFFFFFFFFDFA7F6E3, 1, v_006483_6[0]);
+  11150:             v_00649B_8 = load_bytes(local_5, 0x280, 16);
+  11151:             Native.PED.SET_PED_CONFIG_FLAG(v_00649B_8[0], v_00649B_8[1], 98, 1); // RVA: 0x04BD8670
+  11152:             v_0064B0_9 = load_bytes(p0, 0x10, 16);
+  11153:             v_0064BA_10 = zero_slots(1);
+  11154:             local_9 = 0x4C481189;
+  11155:             local_8 = Vm.Address(v_0064BA_10, 0);
+  11156:             store_i32(local_8, 0x0, local_9);
+  11157:             v_0064CD_11 = Native.DECORATOR.DECOR_SET_INT(v_0064B0_9[0], v_0064B0_9[1], v_0064BA_10[0], 8); // RVA: 0x03CDA220
+  11158:             return;
+  11159:         }
+  11160:         else
+  11161:         {
+  11162:             return;
+  11163:         }
+  11164:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+  11165:     }
+  11166: 
+  11167:     [VmFunction(0x0064D9)]
+  11168:     public static void func_0064D9(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3) // 0x0064D9
+  11169:     {
+  11170:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3 };
+  11171:         VmValue[] locals = new VmValue[18];
+  11172:         ref VmValue p0 = ref parameters[0];
+  11173:         ref VmValue p1 = ref parameters[1];
+---
+  18969:         VmValue v_00B36C_1 = default;
+  18970:         VmValue v_00B37A_2 = default;
+  18971:         VmValues v_00B38E_0 = null!;
+  18972:         VmValue v_00B395_1 = default;
+  18973:         VmValue v_00B39D_2 = default;
+  18974:         VmValue v_00B3A8_0 = default;
+  18975:         VmValues v_00B3BB_1 = null!;
+  18976:         VmValue v_00B3C2_2 = default;
+  18977:         VmValues v_00B3F5_3 = null!;
+  18978:         VmValue v_00B3FC_4 = default;
+  18979:         v_00AFFE_0 = Imports.module_0x0CB4AD0F8360F51B.func_01EE2F(byte_offset(p0, 0x238), 0xFFFFFFFFDFA7F6E3, 0);
+  18980:         if (((as_u64(as_u64(Vm.Globals(0x9534292AU)[0x0])) == 0)))
+  18981:         {
+  18982:             v_00B01E_0 = zero_slots(1);
+  18983:             local_1 = 0x3CBE2860;
+  18984:             local_0 = Vm.Address(v_00B01E_0, 0);
+  18985:             store_i32(Vm.Address(v_00B01E_0, 0), 0x0, local_1);
+  18986:             v_00B02C_1 = Native._0xB8F41C8FCC445A9F(v_00B01E_0[0]); // RVA: 0x03CD1B00
+  18987:             Vm.Globals(0x9534292AU)[0x0] = as_u64(v_00B02C_1);
+  18988:             stack_00B03A_0 = v_00B02C_1;
+  18989:         }
+  18990:         else
+  18991:         {
+  18992:             stack_00B03A_0 = as_u64(Vm.Globals(0x9534292AU)[0x0]);
+  18993:         }
+  18994:         local_9 = 1;
+  18995:         local_8 = stack_00B03A_0;
+  18996:         v_00B042_0 = Vm.NewObject(new VmType("type_5236DDF1E4BA6ABC", 12, 31478U, 0x00080003U));
+  18997:         local_11 = v_00B042_0;
+  18998:         local_10 = v_00B042_0;
+  18999:         store_i32(v_00B042_0, 0x8, ((as_u32(load_i32(local_10, 0x8)) | as_u32(((1UL << unchecked((int)(20))))))));
+  19000:         if (((as_u32(local_9) == 0)))
+  19001:         {
+  19002:         }
+  19003:         else
+---
+  19389:         VmValue v_00BC96_0 = default;
+  19390:         VmValue v_00BC96_1 = default;
+  19391:         VmValue v_00BCAD_0 = default;
+  19392:         VmValue v_00BCCC_0 = default;
+  19393:         label_00B41B: ;
+  19394:         v_00B435_0 = zero_slots(1);
+  19395:         v_00B439_1 = load_u64(p0, 0x260);
+  19396:         local_2 = 0x50F6730A;
+  19397:         local_1 = Vm.Address(v_00B435_0, 0);
+  19398:         store_i32(Vm.Address(v_00B435_0, 0), 0x0, local_2);
+  19399:         Virtual.type_F337B470D91B81CC.Method_0(v_00B439_1, 0xFFFFFFFFDFA7F6E3, 0, v_00B435_0[0]);
+  19400:         v_00B44F_2 = Native._0x622C67FF3C2BDB16(0x70AB8806); // RVA: 0x03CCF6A0
+  19401:         v_00B462_3 = Vm.NewObject(new VmType("System.Delegate", 48, 0x80000002U, 0x000C2000U));
+  19402:         Builtins.System.Delegate.Ctor(v_00B462_3, p0, Vm.Function(0x9534292AU, 0x00D823));
+  19403:         local_3 = v_00B462_3;
+  19404:         v_00B471_4 = load_u64(p0, 0x88);
+  19405:         v_00B471_5 = Builtins.System.Type.GetTypeFromHandle(1.4858E-41f);
+  19406:         v_00B478_6 = Imports.shared.func_3B06B6(v_00B471_5, Vm.Address(locals, 4));
+  19407:         if (((as_u32(v_00B478_6) != 0)))
+  19408:         {
+  19409:         stack_00B487_0 = v_00B471_4;
+  19410:         goto label_00B487;
+  19411:         }
+  19412:         else
+  19413:         {
+  19414:         stack_00B482_0 = v_00B471_4;
+  19415:         goto label_00B482;
+  19416:         }
+  19417:         label_00B482: ;
+  19418:         (stack_00B4D6_0, stack_00B4D6_1) = (stack_00B482_0, 0);
+  19419:         goto label_00B4D6;
+  19420:         label_00B487: ;
+  19421:         v_00B491_0 = Vm.NewObject(new VmType("type_555E3E4141CE6B06", 16, 10566U, 0x00000022U));
+  19422:         v_00B498_1 = local_4;
+  19423:         local_8 = local_3;
+---
+  25923:         Native.WEAPON._HIDE_PED_WEAPONS(v_00F5E8_1[0], v_00F5E8_1[1], 2, 0); // RVA: 0x04A885A0
+  25924:         v_00F5FA_2 = load_bytes(local_0, 0x10, 16);
+  25925:         v_00F604_3 = Native._0x0C201D841C5F1050(0x34CCFB5A); // RVA: 0x044677F0
+  25926:         zero_bytes(Vm.Address(locals, 4), 4);
+  25927:         Native.TASK.TASK_USE_SCENARIO_POINT(v_00F5FA_2[0], v_00F5FA_2[1], v_00F604_3[0], v_00F604_3[1], local_4, 0, 1, 0, 0, 0f, (-1f), 0f, 0f); // RVA: 0x044C8B70
+  25928:         v_00F649_4 = zero_slots(1);
+  25929:         v_00F64D_5 = load_u64(p0, 0x260);
+  25930:         local_17 = 0x50F6730A;
+  25931:         local_16 = Vm.Address(v_00F649_4, 0);
+  25932:         store_i32(local_16, 0x0, local_17);
+  25933:         Virtual.type_F337B470D91B81CC.Method_0(v_00F64D_5, 0xFFFFFFFFDFA7F6E3, 1, v_00F649_4[0]);
+  25934:         v_00F662_6 = load_bytes(p0, 0x280, 16);
+  25935:         Native.PED.SET_PED_CONFIG_FLAG(v_00F662_6[0], v_00F662_6[1], 98, 1); // RVA: 0x04BD8670
+  25936:         v_00F677_7 = load_bytes(local_0, 0x10, 16);
+  25937:         v_00F681_8 = zero_slots(1);
+  25938:         local_19 = 0x4C481189;
+  25939:         local_18 = Vm.Address(v_00F681_8, 0);
+  25940:         store_i32(local_18, 0x0, local_19);
+  25941:         v_00F694_9 = Native.DECORATOR.DECOR_SET_INT(v_00F677_7[0], v_00F677_7[1], v_00F681_8[0], 2); // RVA: 0x03CDA220
+  25942:         return;
+  25943:         label_00F6A0: ;
+  25944:         v_00F6A6_0 = load_i32(p0, 0x3E0);
+  25945:         local_5 = load_i32(p0, 0x3E0);
+  25946:         switch (as_i32(((as_i32(v_00F6A6_0) - 1))))
+  25947:         {
+  25948:         case 0:
+  25949:         goto label_00F70D;
+  25950:         case 1:
+  25951:         goto label_00FF3B;
+  25952:         case 2:
+  25953:         goto label_00F6E2;
+  25954:         case 3:
+  25955:         goto label_00F6B7;
+  25956:         default:
+  25957:         goto label_00F6B5;
+---
+  26279:         local_114 = v_00FBD3_0;
+  26280:         v_00FBDA_1 = Native.PLAYER.GET_PLAYER_INDEX(); // RVA: 0x04501320
+  26281:         Native._0x39D4C7A1A4BE6172(v_00FBDA_1); // RVA: 0x044FD1D0
+  26282:         v_00FBEA_2 = Native.PLAYER.GET_PLAYER_INDEX(); // RVA: 0x04501320
+  26283:         Native.PLAYER._DISABLE_PLAYER_INTERACTIVE_FOCUS_PRESET(v_00FBEA_2, local_4); // RVA: 0x044FE410
+  26284:         v_00FC10_3 = zero_slots(1);
+  26285:         v_00FC14_4 = load_u64(p0, 0x260);
+  26286:         local_116 = 0x50F6730A;
+  26287:         local_115 = Vm.Address(v_00FC10_3, 0);
+  26288:         store_i32(local_115, 0x0, local_116);
+  26289:         Virtual.type_F337B470D91B81CC.Method_0(v_00FC14_4, 0xFFFFFFFFDFA7F6E3, 1, v_00FC10_3[0]);
+  26290:         v_00FC29_5 = load_bytes(p0, 0x280, 16);
+  26291:         Native.PED.SET_PED_CONFIG_FLAG(v_00FC29_5[0], v_00FC29_5[1], 98, 1); // RVA: 0x04BD8670
+  26292:         v_00FC42_6 = load_i32(p0, 0x3BC);
+  26293:         local_117 = load_i32(p0, 0x3BC);
+  26294:         switch (as_i32(v_00FC42_6))
+  26295:         {
+  26296:         case 0:
+  26297:         case 2:
+  26298:         case 3:
+  26299:         case 4:
+  26300:         goto label_00FCCC;
+  26301:         case 1:
+  26302:         goto label_00FC52;
+  26303:         default:
+  26304:         goto label_00FC4F;
+  26305:         }
+  26306:         label_00FC4F: ;
+  26307:         goto label_00FCCC;
+  26308:         label_00FC52: ;
+  26309:         v_00FC52_0 = Vm.NewObject(new VmType("type_F79823E305B0C2BC", 16, 38U, 0x00100002U));
+  26310:         local_118 = v_00FC52_0;
+  26311:         store_ref(v_00FC52_0, 0x8, p0);
+  26312:         store_ref(local_118, 0x10, load_u64(p0, 0x368));
+  26313:         if (((as_i32(load_i32(load_u64(local_118, 0x10), 0x8)) != as_i32(4))))
+---

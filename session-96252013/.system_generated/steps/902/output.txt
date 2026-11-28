@@ -1,0 +1,9 @@
+
+The command exited with code 1.
+Output:
+Traceback (most recent call last):
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\inspect_ch1_metadata.py", line 24, in <module>
+    print(f"{m:16} | title: {title:22} | char: {str(char):8} | tod: {str(tod):20} | replay: {str(replay):4} | auto_flag: {auto_flag}")
+                            ^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+

@@ -1,0 +1,54 @@
+
+The command exited with code 0.
+Output:
+// import 1: program_0x08D17348, types [6957, 36265)
+// import 2: program_0x17CA1D94, types [36265, 42499)
+// import 3: program_0x48391B87, types [42499, 46527)
+// import 4: program_0xB6CB0CEB, types [46527, 57548)
+// import 5: program_0xC3607FD5, types [57548, 58705)
+// import 6: program_0xE435BF6C, types [58705, 60923)
+using Rage.ScriptDecompiler.GTA6.Runtime;
+using static Rage.ScriptDecompiler.GTA6.Runtime.Vm;
+#nullable enable
+#pragma warning disable CS0162, CS0164, CS0219
+namespace Americas.Decompiled;
+[VmProgram(0x0E8E47D1U)]
+public static class Program_0E8E47D1
+{
+    private static VmValues GuidEmpty => VmValues.Zero(2);
+    [VmFunction(0x000000)]
+    public static void func_000000(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3) // 0x000000
+    {
+        VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3 };
+        VmValue[] locals = new VmValue[0];
+        ref VmValue p0 = ref parameters[0];
+        ref VmValue p1 = ref parameters[1];
+        ref VmValue p2 = ref parameters[2];
+        ref VmValue p3 = ref parameters[3];
+        store_ref(p0, 0x0, p1);
+        store_ref(p0, 0x8, p2);
+        store_ref(p0, 0x10, p3);
+        return;
+        throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+    }
+
+    [VmFunction(0x00001A)]
+    public static void func_00001A(VmValue arg0, VmValue arg1) // 0x00001A
+    {
+        VmValue[] parameters = new VmValue[] { arg0, arg1 };
+        VmValue[] locals = new VmValue[3];
+        ref VmValue p0 = ref parameters[0];
+        ref VmValue p1 = ref parameters[1];
+        ref VmValue local_0 = ref locals[0];
+        ref VmValue local_1 = ref locals[1];
+        ref VmValue local_2 = ref locals[2];
+        VmValue v_000024_0 = default;
+        VmValue v_000029_1 = default;
+        VmValue v_000038_2 = default;
+        local_0 = load_u64(p0, 0x8);
+        while (Truth(true))
+        {
+            v_000024_0 = local_0;
+            local_1 = local_0;
+            v_000029_1 = Builtins.System.Delegate.Combine(v_000024_0, p1);
+

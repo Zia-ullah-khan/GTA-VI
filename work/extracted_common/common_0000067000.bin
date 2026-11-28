@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<naSpeechEventTypeBatchRequestParams>
+	<RequestParams>
+		<Item>
+			<EventType>naSET_Veh_Collision</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Collision_Hit_Ped</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Collision_High</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Collision_Horse</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Collision_Wagon</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Collision_Player_Reaction</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Airborne</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Disabled</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Stuck</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Jacking</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Targeting</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="false" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Too_Far_Away</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Ejected_Mount</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Draft_Animal_Detached</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Blocking_Ped</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="false" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Going_Wrong_Direction</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_On_Phone_While_Driving</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Offroad</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Speed</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Speed_Slow</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Speed_Fast</EventType>
+			<Priority>naSETRP_Default</Priority>
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Stop_Moving_Vehicle</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Operate_Badly</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Operate_Badly_Horse</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Operate_Badly_Wagon</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Companion_Horse_Spur</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Companion_Horse_Slow</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Ambient_Horse_Spur</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Ambient_Horse_Slow</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Ambient_Combat_Taunt</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Melee_Taunt</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Melee_Victory_Flourish</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Wanted_Level</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Segue</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Mount_Horse</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Horse_Comment</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Lasso_Comment</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Companion_Shot_Enemy_Dialogue</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Enemy_Spotted_Dialogue</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Friendly_Fire_React</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Pickup_Dialogue</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Pickup_Object</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Looting_Comments</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Cower_Loop </EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Combat</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Combat_Shot_At</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Robbery</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Robbery_Got_Everything</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_BreakIn</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Robbery_Opened_Element</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Seige</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_On_Foot_Ambient</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Idle</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Ally_Item_Interaction</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Combat_Riff</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_RadioComments</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_RadioComments_ComplimentMusic</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_RadioComments_ChangeMusic</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_RadioComments_TurnOnMusic</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_RadioComments_TurnOffMusic</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_WhereIsVehicle</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="false"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_WhereIsVehicleFollowUp</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="false"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Drinking_While_Driving</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Smoking_While_Driving</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Opening_Car_Roof_While_Raining</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Honking</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Vehicle_FlipBird</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Combat_Riff_Buddy</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="false"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Veh_Rough_Road</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Combat_Callout_Buddy</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Wanted_Loitering</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Staring</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Player_Bump_Ped</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Combat_Taunt</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Remind_Lose_Law_Recognition</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+		<Item>
+			<EventType>naSET_Weapon_Fired_Human</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Buddy_Weapon_Equipped</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Auto_Player_Exit_Robbery_Location_Thanks</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true" />
+		</Item>
+		<Item>
+			<EventType>naSET_Wanted_Level_Change</EventType>
+			<Priority>naSETRP_Default</Priority>
+			<IsEnabled value="true"/>
+		</Item>
+	</RequestParams>
+</naSpeechEventTypeBatchRequestParams>

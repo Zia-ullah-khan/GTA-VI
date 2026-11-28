@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridAtlasInfo>
+	<type>GS_TYPE_2D_TEXTURE_ATLAS</type>
+	<clientSystemName>waterfogatlas2</clientSystemName>
+	<tileTextureNamePrefix>waterfogatlas-</tileTextureNamePrefix>
+	<tileTextureNameSuffix>waterfog2</tileTextureNameSuffix>
+	<hasOwnGlobalFallback value="true"/>
+	<globalFallbackTextureName>waterfogatlas_gfb2</globalFallbackTextureName>
+	<useGlobalFallback value="true" />
+	<origin x="-5120.0" y="7680.0" z="0.0" />
+	<width value="16384" />
+	<height value="33792" />
+	<tileSize value="512" />
+	<streamRadius value="512.0" />
+	<zInflation value="1000.0" />
+	<sectorOverrides>
+		<Item>
+			<sectorName>mapswap_tblux</sectorName>
+			<sectorOverrideGlobalFallbackName>waterfogatlas_tblux_gfb2</sectorOverrideGlobalFallbackName>
+			<suffix>tblux-</suffix>
+			<sectors>
+				<Item>
+					<SectorStartX value="0"/>
+					<SectorStartY value="0"/>
+					<SectorSpanX value="32"/>
+					<SectorSpanY value="66"/>
+				</Item>
+			</sectors>
+		</Item>
+	</sectorOverrides>
+</GridAtlasInfo>

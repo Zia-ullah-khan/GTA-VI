@@ -1,0 +1,27 @@
+Created At: 2026-11-25T17:56:58-05:00
+Completed At: 2026-11-25T17:57:13-05:00
+Command exited with code 0.
+
+Command output:
+=== story000.ysc.cs: 2 hits ===
+  L110840: v_05352C_0 = Native.UNLOCK.UNLOCK_IS_UNLOCKED(0xFFFFFFFFB1A8AA5D, 0); // RVA: 0x044CB870
+  L110858: v_053580_0 = Native.UNLOCK.UNLOCK_IS_UNLOCKED(0xFFFFFFFFA853E619, 0); // RVA: 0x044CB870
+=== 0x947D998BD81F7AC1.ysc.cs: 3 hits ===
+  L882485: local_6 = 0xFFFFFFFFD244CB70;
+  L882490: local_8 = 0xFFFFFFFFE48C934A;
+  L1368537: store_i32(p0, 0xB4, 0xFFFFFFFFDFA7F6E3);
+=== 0xD2601E252151E04B.ysc.cs: 7 hits ===
+  L571370: if (((as_i32(local_1) == as_i32(0xFFFFFFFFD244CB70))))
+  L571524: if (((as_i32(local_1) > as_i32(0xFFFFFFFFE48C934A))))
+  L571542: if (((as_i32(local_1) == as_i32(0xFFFFFFFFE48C934A))))
+  L571796: if (((as_i32(local_1) > as_i32(0x3DA4607))))
+  L571814: if (((as_i32(local_1) == as_i32(0x3DA4607))))
+  L572975: store_i32(Vm.Address(v_10AB39_0, 0), 0x0, 0xFFFFFFFFE48C934A);
+  L667046: local_1 = 0x3DA4607;
+=== 0x224CF31C94E0534D.ysc.cs: 5 hits ===
+  L3189: [VmFunction(0x001EB5)]
+  L3190: public static void func_001EB5(VmValue arg0) // 0x001EB5
+  L3369: local_34 = 0xFFFFFFFFD244CB70;
+  L4386: func_001EB5(v_00275D_4);
+  L6119: v_0035ED_7 = Virtual.type_21EAE09A8DBFBD2E.Method_2(v_0035A2_2, 0, v_00359E_0[0], v_0035AB_3[0], 0xFFFFFFFFDFA7F6E3, v_0035C8_4[0], 12, v_0035DE_5, v_0035E7_6, 
+=== 0x0468EC077B536C3C.ysc.cs: 0 hits ===

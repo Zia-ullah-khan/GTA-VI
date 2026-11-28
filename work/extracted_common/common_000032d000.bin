@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="int_grg_10_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_yht_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_int_yht_1</item>
+      <item>Sub_Opt_Int_int_yht_1_Rough</item>
+    </submodifiers>
+    <light_interior_tint_r>0.313726 1.000000</light_interior_tint_r>
+    <light_interior_tint_g>0.631373 1.000000</light_interior_tint_g>
+    <light_interior_tint_b>0.643137 1.000000</light_interior_tint_b>
+  </modifier>
+  <modifier
+    name="int_del_14_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Opt_Int_int_del_14</item>
+      <item>Sub_Opt_Int_int_del_14_Rough</item>
+    </submodifiers>
+    <postfx_exposure>1.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_del_5_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_exposure>1.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_del_10"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RoughnessCut_Hard</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.750000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="int_hng_3"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_fen_1_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>1.000000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure_compensation_ev_cp0_x>-13.891682 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.629145 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.197168 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.488968 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-3.721062 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.352094 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.032566 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.741475 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.193977 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-0.965688 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.555398 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-1.894041 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.720354 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-2.018643 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="int_bct_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_bct_4_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_bct_6_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_bct_3_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+      <item>Sub_AlphaRough_Cut_Low</item>
+    </submodifiers>
+    <postfx_exposure>-1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_bct_7_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_bct_5_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_bct_8_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_FEN_2"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ash_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>-0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_drg_2_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="int_grg_2_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>0.850000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.700000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_lounge_kitchen_area"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.755000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.100000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.809000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_masterbedroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.755000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.100000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.809000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_corridor_area"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.965833 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.991483 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_guest_bedroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.966531 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.965164 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_masterbathroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Warm</item>
+      <item>Humidity_highControl_High</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>0.950000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>1.000000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="Int_hsb_1_guest_bathroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.755000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.950000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.800000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfa</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <light_shadow_static_fade_scsize_mult>0.860000 0.000000</light_shadow_static_fade_scsize_mult>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfc_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfa_bespoke_arrivals1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfa</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke_leg1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfb</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke_security1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfb</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_local_exposure_blur_lum_amount>0.970000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>1.000000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_exposure_compensation_ev_cp0_x>-14.991649 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>5.001884 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.914387 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.955395 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-5.538147 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.674105 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.034708 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.464295 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.342045 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.139904 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>8.750485 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-1.567690 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>12.570004 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-2.545487 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke_connector"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfb</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke_stairs"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfb</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.750000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfb_bespoke_prelobby1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_int_ter_1_gfb</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.800000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfc_bespoke_concourse"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+      <item>Sub_Opt_int_ter_1_gfc</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfc_bespoke_gate"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_drg_3_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_ter_1_gfc_bespoke_concourGF"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+      <item>Sub_Opt_int_ter_1_gfc</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_mod_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Int_ter_2_gfb"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_FFD_1_Retail"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_clt_7_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Hard</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Opt_Int_int_clt_7</item>
+      <item>Sub_Opt_Int_int_clt_7_Rough</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.200000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.600000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="int_clt_3_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_clt_2_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+    </submodifiers>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="int_mod_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.030000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_lowlights_percent>0.800000 0.000000</postfx_exposure_lowlights_percent>
+  </modifier>
+  <modifier
+    name="INT_MOD_3_modshop"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_SHO_2_store"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.500000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>2.000000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="int_igm_1_bespoke_Whose_Dicks"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid_Bright</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="int_del_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="int_del_18_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="int_del_19_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="int_del_2_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RefBudget_Opaque_Alpha</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_exposure>0.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_ffd_5_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RefBudget_Opaque_Alpha</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_25_bespoke_TC"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="INT_LBH_1_GFA"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.015000 0.000000</postfx_intensity_bloom>
+    <indirect_light_multiplier>0.000000 0.000000</indirect_light_multiplier>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <sky_new_intensity_sky>0.000000 0.000000</sky_new_intensity_sky>
+    <postfx_exposure_min>2.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>2.000000 0.000000</postfx_exposure_max>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+  </modifier>
+  <modifier
+    name="int_con_4_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.030000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="int_del_7"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>sub_opt_Int_del_7</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.600000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name=" INT_SHO_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Int_Fog_Mid</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_middle_col_mult>1.200000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>2.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.200000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="int_drg_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Hard</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="borescope_INT"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+    </submodifiers>
+    <postfx_exposure_max>-3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-3.000000 0.000000</postfx_exposure_min>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+  </modifier>
+  <modifier
+    name="int_del_16_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.750000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="int_del_12"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="int_grg_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_portal_width_multiplier>1.500000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_local_exposure_blur_lum_amount>1.000000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="int_del_23"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="int_del_3"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="int_del_4"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="int_del_6"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="INT_DEL_11_store"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_local_exposure_sh_contrast>0.650000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="int_del_15_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_17_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_Fog_Mid</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="INT_SHO_04"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_sho_3"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>0.750000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.100000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.600000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_sh_contrast>0.700000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="int_clt_6"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_lok_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.090000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_albedo_free_luminance_amount>0.500000 0.000000</postfx_exposure_albedo_free_luminance_amount>
+  </modifier>
+  <modifier
+    name="int_pns_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Mod_Shop_Headlights_Falloff</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.883000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.719000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="int_grg_6"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_7"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_trl_5"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_4"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_14"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_9_tc"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>int_del_9_sub_mod</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="INT_GRG_9_Garage"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_apt_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_brm_2"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_brm_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_brm_3"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_8"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="int_yht_1_Back"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Opt_Int_int_yht_1</item>
+      <item>Sub_Opt_Int_int_yht_1_Rough</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <light_interior_tint_r>0.313726 1.000000</light_interior_tint_r>
+    <light_interior_tint_g>0.631373 1.000000</light_interior_tint_g>
+    <light_interior_tint_b>0.643137 1.000000</light_interior_tint_b>
+  </modifier>
+  <modifier
+    name="INT_TER_3_WalkWay"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_INT_TER_3</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+  </modifier>
+  <modifier
+    name="int_trl_3_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_int_trl_3</item>
+      <item>Sub_Opt_Int_int_trl_3_Rough</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_man_7_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_int_man_7</item>
+      <item>Sub_Opt_Int_int_man_7_Rough</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_hng_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_3"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_trl_6"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_DEL_21_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RefBudget_Opaque_Alpha</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_lab_2_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Temp_midControl_Cool</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_8_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_abd_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.700000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="int_bas_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_pot_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_15_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Humidity_lowControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_RefBudget_Opaque</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_PNS_1_Garage"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Mod_Shop_Headlights_Falloff</item>
+    </submodifiers>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.150000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>0.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.884444 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.050000 0.000000</postfx_exposure_luminance_depth_weight_max>
+  </modifier>
+  <modifier
+    name="INT_LOK_4_warehouse"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_pot_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_RoughnessCut_Hard</item>
+      <item>Sub_Int_Fog_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>0.961207 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.961207 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="int_igm_1_bespoke_TestBed"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-14.000000 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>4.500000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-12.027260 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.644459 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-10.354068 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>2.119535 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.027272 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.518142 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>6.361889 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.127634 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>44.204845 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-10.756693 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>64.000000 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-20.000000 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.900000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_exposure>3.000000 0.000000</postfx_exposure>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_pollution_bounce_multiplier>0.000000 0.000000</indirect_light_pollution_bounce_multiplier>
+    <sky_new_intensity_sky>0.000000 0.000000</sky_new_intensity_sky>
+    <indirect_light_pollution_multiplier>0.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_multiplier>0.000000 0.000000</indirect_light_multiplier>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="INT_HSE_9_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_HSE_9_BathRoom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_HSE_9_BedRoom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_igm_1_gfa_I_Need_A_Bitch"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_hse_3_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_ship_3_gfa_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_IGM_2_Bespoke_Juice_loose"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_lowControl_Mid</item>
+      <item>EXP_Generic_Bright</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_SHP_3_GFB_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_SHP_3_F1A_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_SHP_3_F1B_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_clt_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_shp_4_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_grg_13"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_igm_int_del_26_telenovela"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_clt_5_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_AlphaRough_Cut_Hard</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_lok_5_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_HSE_14_GFA_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+    <indirect_light_opt_object_bvh_angular_falloff_mult>0.600000 0.000000</indirect_light_opt_object_bvh_angular_falloff_mult>
+    <dir_shadow_expanded_coverage_scale>2.000000 0.000000</dir_shadow_expanded_coverage_scale>
+    <light_sensor_max_output_intensity>1.000000 0.000000</light_sensor_max_output_intensity>
+  </modifier>
+  <modifier
+    name="INT_HSE_15_GFA_main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_IGM_2_Basketball_Stadium"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_lowControl_High</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_exposure_max>-5.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-6.000000 0.000000</postfx_exposure_min>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="int_hng_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Int_shp_2_Cargo_Area"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_LowControl_Warm</item>
+      <item>Humidity_lowControl_High</item>
+      <item>Sub_Opt_Int_Int_shp_2</item>
+      <item>Sub_Opt_Int_Rough_Int_shp_2</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_22_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_lowControl_High</item>
+      <item>Temp_LowControl_Warm</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_OFF_3_President_Office"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_IGM_2_Doctor_Show"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="IGM_INT_SHT_Shopping"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_13_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.650000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="INT_HSE_16_LivingRoom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_hot_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_hse_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.986953 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.831926 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="INT_TER_3_GFA_Stairs"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Opt_Int_INT_TER_3</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_TER_3_GFE_WalkWay"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Opt_Int_INT_TER_3</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="int_ter_3_gfb_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Opt_Int_INT_TER_3</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_ter_3_gfc_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Sub_Opt_int_ter_1_gfc</item>
+      <item>Sub_Opt_Int_Rough_ter_1_gfa</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_HSE_17_Main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="INT_HSE_15_Telenovella_House"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_lowControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_del_20"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>EXP_Generic_Mid_Bright</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-14.043041 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.985309 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-12.538144 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.987629 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.933686 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.579305 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.009536 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.603866 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>8.060825 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.827320 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>8.009536 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.968299 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.009536 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.968299 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="int_bnk_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Temp_highControl_Mid</item>
+      <item>Humidity_highControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Opt_Int_int_bnk_1</item>
+      <item>Sub_Opt_Int_int_bnk_1_Rough</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_Int_shp_2"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.800000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_Rough_Int_shp_2"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_Rough_ter_1_gfa"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.600000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+  </modifier>
+  <modifier
+    name="int_igm_2_gfa_bespoke_testbed"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_yht_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_yht_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.200000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_int_ter_1_gfc"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.300000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_int_ter_1_gfb"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_int_ter_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.253188 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.112933 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_INT_TER_3"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="int_hse_2_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_bnk_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Sub_Opt_Int_int_bnk_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.291379 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+  </modifier>
+  <modifier
+    name="int_lok_3_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_RoughnessCut_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+      <item>Sub_Int_RefBudget_Opaque</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_man_7"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Sub_Opt_Int_int_man_7_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_del_14"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Sub_Opt_Int_int_del_14_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.700000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_clt_7"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_clt_7_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Sub_Opt_Int_int_trl_3"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_int_trl_3_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="int_del_9_sub_mod"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="257"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.600000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="int_hse_5"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Int_RoughnessCut_Low</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_Fog_Hard</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="INT_HSE_9_BedRoom_02"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="int_bct_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Int_Fog_Mid</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="int_con_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Int_RoughnessCut_Low</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Int_Fog_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="sub_opt_Int_del_7"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="257"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+  </modifier>
+  <modifier
+    name="INT_PNS_GI_Refresh"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_refresh>2.000000 0.000000</indirect_light_refresh>
+    <indirect_light_diffuse_responsiveness>0.250000 0.000000</indirect_light_diffuse_responsiveness>
+    <indirect_light_probe_ray_refresh>2.000000 0.000000</indirect_light_probe_ray_refresh>
+  </modifier>
+  <modifier
+    name="int_lab_2_clean"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MKU_breathe</item>
+      <item>MKU_breatheDOF</item>
+      <item>int_lab_2_clean_animation</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>1.000000 1.000000</indirect_light_local_lights_multiplier>
+    <light_override_mapdata_color_mult_r>1.000000 1.000000</light_override_mapdata_color_mult_r>
+    <light_override_mapdata_color_mult_g>1.000000 1.000000</light_override_mapdata_color_mult_g>
+    <light_override_mapdata_color_mult_b>1.000000 1.000000</light_override_mapdata_color_mult_b>
+    <light_override_mapdata_blend_value>0.307505 1.000000</light_override_mapdata_blend_value>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_grad_bottom_col_fade>2.000000 1.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_top_dynamic_mult>1.000000 1.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>2.000000 1.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_temporal_rate>0.010000 1.000000</postfx_grad_temporal_rate>
+    <postfx_lens_flares_intensity>1.000000 1.000000</postfx_lens_flares_intensity>
+    <postfx_lens_flares_preset_id>1.000000 1.000000</postfx_lens_flares_preset_id>
+    <postfx_white_balance_auto_mode_blend_tint_scale>2.000000 1.000000</postfx_white_balance_auto_mode_blend_tint_scale>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.168196 1.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_white_balance_auto_mode_blend_scale>0.000000 1.000000</postfx_white_balance_auto_mode_blend_scale>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 1.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_exposure>3.000000 1.000000</postfx_exposure>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <light_override_mapdata_blend_color_r>1.000000 1.000000</light_override_mapdata_blend_color_r>
+    <light_override_mapdata_blend_color_g>1.000000 1.000000</light_override_mapdata_blend_color_g>
+    <light_override_mapdata_blend_color_b>1.000000 1.000000</light_override_mapdata_blend_color_b>
+    <postfx_vignette_intensity>1.000000 1.000000</postfx_vignette_intensity>
+    <indirect_light_near_light_luminance_r>1.500000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>1.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.500000 0.000000</indirect_light_near_light_luminance_b>
+    <indirect_light_near_light_distance_min>0.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>50.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>0.000000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>8.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <postfx_vignette_bloom_intensity>0.500000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_bloom_luminance_filter_multiplier_1>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_1>
+    <postfx_bloom_luminance_filter_multiplier_2>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_2>
+    <postfx_bloom_luminance_filter_multiplier_3>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_3>
+    <postfx_motionblur_strength_scale>2.000000 0.000000</postfx_motionblur_strength_scale>
+    <postfx_screen_trails_intensity>0.200000 0.000000</postfx_screen_trails_intensity>
+    <voltage_fluctuation_range>10.000000 0.000000</voltage_fluctuation_range>
+    <voltage_fluctuation_time_multiplier>1.000000 0.000000</voltage_fluctuation_time_multiplier>
+    <voltage_fluctuation_use_player_as_origin>1.000000 0.000000</voltage_fluctuation_use_player_as_origin>
+    <voltage_fluctuation_origin_x>0.000000 0.000000</voltage_fluctuation_origin_x>
+    <voltage_fluctuation_origin_y>0.000000 0.000000</voltage_fluctuation_origin_y>
+    <voltage_fluctuation_origin_z>0.000000 0.000000</voltage_fluctuation_origin_z>
+  </modifier>
+  <modifier
+    name="int_lab_2_dirty_right"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MKU_breathe</item>
+      <item>MKU_breatheDOF</item>
+      <item>int_lab_2_dirty_right_animation</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>1.000000 1.000000</indirect_light_local_lights_multiplier>
+    <light_override_mapdata_color_mult_r>1.000000 1.000000</light_override_mapdata_color_mult_r>
+    <light_override_mapdata_color_mult_g>1.000000 1.000000</light_override_mapdata_color_mult_g>
+    <light_override_mapdata_color_mult_b>1.000000 1.000000</light_override_mapdata_color_mult_b>
+    <light_override_mapdata_blend_color_r>0.000000 1.000000</light_override_mapdata_blend_color_r>
+    <light_override_mapdata_blend_color_g>1.000000 1.000000</light_override_mapdata_blend_color_g>
+    <light_override_mapdata_blend_color_b>0.564706 1.000000</light_override_mapdata_blend_color_b>
+    <light_override_mapdata_blend_value>0.307505 1.000000</light_override_mapdata_blend_value>
+    <postfx_grad_bottom_col_fade>2.000000 1.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_top_dynamic_mult>1.000000 1.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>2.000000 1.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_temporal_rate>0.010000 1.000000</postfx_grad_temporal_rate>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 1.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_exposure>-1.000000 1.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 1.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>1.000000 1.000000</postfx_lens_flares_intensity>
+    <postfx_lens_flares_preset_id>1.000000 1.000000</postfx_lens_flares_preset_id>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 1.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_white_balance_auto_mode_blend_scale>0.000000 1.000000</postfx_white_balance_auto_mode_blend_scale>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.234146 1.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_white_balance_auto_mode_blend_tint_scale>0.000000 1.000000</postfx_white_balance_auto_mode_blend_tint_scale>
+    <indirect_light_near_light_luminance_r>0.500000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>2.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>1.000000 0.000000</indirect_light_near_light_luminance_b>
+    <indirect_light_near_light_distance_min>10.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>30.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>0.000000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>6.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+  </modifier>
+  <modifier
+    name="int_lab_2_dirty_left"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MKU_breatheDOF</item>
+      <item>MKU_breathe</item>
+      <item>int_lab_2_dirty_left_animation</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>1.000000 1.000000</indirect_light_local_lights_multiplier>
+    <light_override_mapdata_color_mult_r>1.000000 1.000000</light_override_mapdata_color_mult_r>
+    <light_override_mapdata_color_mult_g>1.000000 1.000000</light_override_mapdata_color_mult_g>
+    <light_override_mapdata_color_mult_b>1.000000 1.000000</light_override_mapdata_color_mult_b>
+    <light_override_mapdata_blend_color_r>0.000000 1.000000</light_override_mapdata_blend_color_r>
+    <light_override_mapdata_blend_color_g>1.000000 1.000000</light_override_mapdata_blend_color_g>
+    <light_override_mapdata_blend_color_b>0.564706 1.000000</light_override_mapdata_blend_color_b>
+    <light_override_mapdata_blend_value>0.307505 1.000000</light_override_mapdata_blend_value>
+    <postfx_grad_bottom_col_fade>2.000000 1.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_top_dynamic_mult>1.000000 1.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>2.000000 1.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_temporal_rate>0.010000 1.000000</postfx_grad_temporal_rate>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 1.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_exposure>-1.000000 1.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 1.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>1.000000 1.000000</postfx_lens_flares_intensity>
+    <postfx_lens_flares_preset_id>1.000000 1.000000</postfx_lens_flares_preset_id>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 1.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_white_balance_auto_mode_blend_scale>0.000000 1.000000</postfx_white_balance_auto_mode_blend_scale>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.234146 1.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_white_balance_auto_mode_blend_tint_scale>0.000000 1.000000</postfx_white_balance_auto_mode_blend_tint_scale>
+    <indirect_light_near_light_distance_min>0.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>20.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>1.000000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>8.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <indirect_light_near_light_luminance_r>1.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>2.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>1.000000 0.000000</indirect_light_near_light_luminance_b>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+  </modifier>
+  <modifier
+    name="int_lab_2_dirty_left_animation"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="3"
+  >
+    <axis controlValue="breathRatio">
+      <keyframe_t_value>0.000000 0.111448 1.000000</keyframe_t_value>
+      <voltage_fluctuation_range>20.000000 25.000000 5.000000</voltage_fluctuation_range>
+      <voltage_fluctuation_active>1.000000 1.000000 1.000000</voltage_fluctuation_active>
+      <voltage_fluctuation_time_multiplier>1.000000 1.000000 1.000000</voltage_fluctuation_time_multiplier>
+      <voltage_fluctuation_use_player_as_origin>1.000000 0.000000 0.000000</voltage_fluctuation_use_player_as_origin>
+    </axis>
+    <axis controlValue="player_speed" input_min="0.020000" input_max="0.040000">
+      <voltage_fluctuation_range>20.000000 25.000000 5.000000</voltage_fluctuation_range>
+      <voltage_fluctuation_active>1.000000 1.000000 1.000000</voltage_fluctuation_active>
+      <voltage_fluctuation_time_multiplier>1.000000 1.000000 1.000000</voltage_fluctuation_time_multiplier>
+      <voltage_fluctuation_use_player_as_origin>1.000000 0.100000 0.000000</voltage_fluctuation_use_player_as_origin>
+    </axis>
+  </modifier>
+  <modifier
+    name="int_lab_2_dirty_right_animation"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="3"
+  >
+    <axis controlValue="breathRatio">
+      <keyframe_t_value>0.000000 0.111448 1.000000</keyframe_t_value>
+      <voltage_fluctuation_range>200.000000 25.000000 5.000000</voltage_fluctuation_range>
+      <voltage_fluctuation_active>1.000000 1.000000 1.000000</voltage_fluctuation_active>
+      <voltage_fluctuation_time_multiplier>1.000000 1.000000 1.000000</voltage_fluctuation_time_multiplier>
+      <voltage_fluctuation_use_player_as_origin>1.000000 0.000000 0.000000</voltage_fluctuation_use_player_as_origin>
+    </axis>
+    <axis controlValue="player_speed" input_min="0.020000" input_max="0.040000">
+      <voltage_fluctuation_range>200.000000 25.000000 5.000000</voltage_fluctuation_range>
+      <voltage_fluctuation_active>1.000000 1.000000 1.000000</voltage_fluctuation_active>
+      <voltage_fluctuation_time_multiplier>1.000000 1.000000 1.000000</voltage_fluctuation_time_multiplier>
+      <voltage_fluctuation_use_player_as_origin>1.000000 0.100000 0.000000</voltage_fluctuation_use_player_as_origin>
+    </axis>
+  </modifier>
+  <modifier
+    name="int_lab_2_clean_animation"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="3"
+  >
+    <axis controlValue="breathRatio">
+      <keyframe_t_value>0.000000 0.147654 1.000000</keyframe_t_value>
+      <voltage_fluctuation_range>200.000000 25.000000 5.000000</voltage_fluctuation_range>
+      <voltage_fluctuation_origin_x>-5731.000000 -5731.000000 -5731.000000</voltage_fluctuation_origin_x>
+      <voltage_fluctuation_origin_y>-1504.000000 -1504.000000 -1504.000000</voltage_fluctuation_origin_y>
+      <voltage_fluctuation_origin_z>-17.000000 -17.000000 -17.000000</voltage_fluctuation_origin_z>
+      <voltage_fluctuation_active>1.000000 0.000000 0.000000</voltage_fluctuation_active>
+    </axis>
+  </modifier>
+</timecycle_modifier_data>

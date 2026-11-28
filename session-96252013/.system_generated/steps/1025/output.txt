@@ -1,0 +1,24 @@
+
+The command exited with code 0.
+Output:
+### Chapter 1: Chapter 1: Just Like Paradise (Leonida Keys) (14 Missions)
+
+| # | In-Game Mission Name | Internal Engine ID | Strand / Role | Speedrun Classification |
+|---|---|---|---|---|
+| 1 | **Prologue (Counselor Interview)** | `m.INT_PROLO` | **BOTTLENECK GATE** (Campaign Opening Prologue Gate) | Mandatory Story Progression |
+| 2 | **Gone Fishing (Boat Drop)** | `m.INT_CHASE` | Main Story Core (Prologue) | Core Linear Sequence |
+| 3 | **Coming Home (Lucia Prison Release)** | `m.INT_PRISO` | **BRANCHING POINT** (trigger_timing_variant) | Critical Any% Decision Fork |
+| 4 | **Coming Home** | `m.INT_PRISO_TRIGGER_EARLY` | Main Story Core (Prologue) | Core Linear Sequence |
+| 5 | **Coming Home** | `m.INT_PRISO_TRIGGER_LATE` | Main Story Core (Prologue) | Core Linear Sequence |
+| 6 | **Buck Me (Banking App Setup)** | `m.INT_BANK` | **BOTTLENECK GATE** (Prologue Heist Climax / Transition Gate) | Mandatory Story Progression |
+| 7 | **Clear Skies / Having Some Fun (Dirt Bike)** | `m.BIL_FUN` | Main Story Core (Billy Narrative Arc) | Core Linear Sequence |
+| 8 | **Down to Earth (Plane Crash Shoot)** | `m.INT_PLNSH` | Main Story Core (Prologue) | Core Linear Sequence |
+| 9 | **Vice City Airstrip** | `m.INT_AIR` | Main Story Core (Prologue) | Core Linear Sequence |
+| 10 | **Swamped (Kingfishers Smugglers Meet)** | `m.BIL_PICK` | **BRANCHING POINT** (time_of_day_variant) | Critical Any% Decision Fork |
+| 11 | **Tourist Trap** | `m.BIL_PICK_DAY_TIME_START` | Main Story Core (Billy Narrative Arc) | Core Linear Sequence |
+| 12 | **Tourist Trap** | `m.BIL_PICK_NIGHT_TIME_START` | Main Story Core (Billy Narrative Arc) | Core Linear Sequence |
+| 13 | **Find Donnie's Package (Hamlet House)** | `m.BIL_HOUSE` | Main Story Core (Billy Narrative Arc) | Core Linear Sequence |
+| 14 | **Doin' Gone (Donnie's Trailer Climax)** | `m.BIL_WHEEL` | Main Story Core (Billy Narrative Arc) | Core Linear Sequence |
+
+
+

@@ -1,0 +1,13 @@
+Created At: 2026-11-25T17:46:25-05:00
+Completed At: 2026-11-25T17:46:29-05:00
+Command exited with code 1.
+
+Command output:
+rg : The term 'rg' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:122
++ ... ); [Console]::OutputEncoding = $OutputEncoding } catch {}; rg -n "con ...
++                                                                ~~
+    + CategoryInfo          : ObjectNotFound: (rg:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

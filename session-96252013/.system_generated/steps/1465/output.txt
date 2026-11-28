@@ -1,0 +1,51 @@
+Command exited with code 0.
+
+Command output:
+=== 0x224CF31C94E0534D.ysc.cs (34) ===
+  14: [VmProgram(0x90670B40U)]
+  15: public static class Program_90670B40
+  335: local_9 = 0xFFFFFFFF90670B40;
+  370: v_0003C2_0 = load_bytes(Vm.GlobalAddress(0x90670B40U, 0x10), 0x0, 4);
+  875: store_ref(local_0, 0x8, as_u64(Vm.Globals(0x90670B40U)[0x8]));
+  986: v_00090A_0 = load_bytes(Vm.GlobalAddress(0x90670B40U, 0x14), 0x0, 4);
+  3501: store_ref(p0, 0x8, as_u64(Vm.Globals(0x90670B40U)[0x8]));
+  3536: (stack_0021F3_0, stack_0021F3_1) = (stack_0021ED_0, as_u64(Vm.Globals(0x90670B40U)[0x8]));
+  4385: v_00275D_4 = Vm.NewObject(new VmType("type_54B927FEDB139048", 784, 8U, 0x00000002U));
+  4391: Builtins.System.Delegate.Ctor(v_00278C_6, local_0, Vm.Function(0x90670B40U, 0x0024AB));
+  6872: Builtins.System.Delegate.Ctor(v_003F40_1, p0, Vm.Function(0x90670B40U, 0x000A94));
+  6876: Builtins.System.Delegate.Ctor(v_003F59_3, p0, Vm.Function(0x90670B40U, 0x000B36));
+  6880: Builtins.System.Delegate.Ctor(v_003F72_5, p0, Vm.Function(0x90670B40U, 0x0020DE));
+  6914: Builtins.System.Delegate.Ctor(v_003F97_1, p0, Vm.Function(0x90670B40U, 0x000A94));
+  6918: Builtins.System.Delegate.Ctor(v_003FB0_3, p0, Vm.Function(0x90670B40U, 0x000B36));
+=== 0x3D9897741AACE500.ysc.cs (77) ===
+  14: [VmProgram(0xCD3C3C04U)]
+  15: public static class Program_CD3C3C04
+  75: local_9 = 0xFFFFFFFFCD3C3C04;
+  866: store_ref(local_0, 0x8, as_u64(Vm.Globals(0xCD3C3C04U)[0x8]));
+  10841: store_ref(p0, 0x8, as_u64(Vm.Globals(0xCD3C3C04U)[0x8]));
+  10876: (stack_005C75_0, stack_005C75_1) = (stack_005C6F_0, as_u64(Vm.Globals(0xCD3C3C04U)[0x8]));
+  11659: Virtual.type_8A88C9AFFF7C31D3.Method_4(load_u64(v_00612D_1, 0x290), as_u64(Vm.Globals(0xCD3C3C04U)[0x0]));
+  18193: Builtins.System.Delegate.Ctor(v_009AEF_11, local_0, Vm.Function(0xCD3C3C04U, 0x005B36));
+  18331: Virtual.type_8A88C9AFFF7C31D3.Method_4(load_u64(v_009C33_1, 0x290), as_u64(Vm.Globals(0xCD3C3C04U)[0x0]));
+  20320: Builtins.System.Delegate.Ctor(v_00AE4B_1, p0, Vm.Function(0xCD3C3C04U, 0x0056B0));
+  21612: Builtins.System.Delegate.Ctor(v_00BF11_2, p0, Vm.Function(0xCD3C3C04U, 0x0056BD));
+  22935: Builtins.System.Delegate.Ctor(v_00C811_2, p0, Vm.Function(0xCD3C3C04U, 0x004774));
+  22978: Builtins.System.Delegate.Ctor(v_00C8F6_2, p0, Vm.Function(0xCD3C3C04U, 0x004774));
+  23077: Builtins.System.Delegate.Ctor(v_00CA5F_2, p0, Vm.Function(0xCD3C3C04U, 0x004774));
+  24325: Builtins.System.Delegate.Ctor(v_00D6DD_18, p0, Vm.Function(0xCD3C3C04U, 0x0042F9));
+=== 0x4B2597A83EC83FE0.ysc.cs (91) ===
+  14: [VmProgram(0xFD01A51AU)]
+  15: public static class Program_FD01A51A
+  1158: v_0007EA_8 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x0), 0x0, 4);
+  1167: v_0008CA_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x0), 0x0, 4);
+  1323: v_0009E2_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x0), 0x0, 4);
+  1366: v_000A51_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x0), 0x0, 4);
+  1828: v_000EC1_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0x0, 16);
+  1849: v_000EF3_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0x0, 16);
+  2012: local_9 = 0xFFFFFFFFFD01A51A;
+  2802: store_ref(local_0, 0x8, as_u64(Vm.Globals(0xFD01A51AU)[0x18]));
+  2981: v_001936_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x0), 0x0, 4);
+  6134: v_0039DB_0 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0x0, 16);
+  6149: store_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0, 16, new VmValues(v_003A08_0[0], v_003A08_0[1]));
+  6150: v_003A15_1 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0x0, 16);
+  6219: v_003B62_17 = load_bytes(Vm.GlobalAddress(0xFD01A51AU, 0x8), 0x0, 16);

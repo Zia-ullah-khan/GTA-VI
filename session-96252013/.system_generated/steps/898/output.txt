@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 1
+    import json; data = json.load(open(r'C:\Users\<user>\Downloads\antigravity_version\mission_order.json')); missions = data.get('missions', {}); ch1_ids = ['INT_PROLO', 'INT_CHASE', 'FT_AMUCO', 'FT_KMODSHP', 'COM_KBOS_SHOP', 'COM_KMODSHP', 'COM_KBOS_COLAT', 'COM_KBOS_RADR', 'COM_SFH_MVFN', 'CSC_TRH_CHART', 'CTI_PIL_RD_SH', 'INT_PRISO', 'INT_BANK', 'COM_KBOS_PLNDATE', 'BIL_FUN', 'INT_PLNSH', 'COM_SFH_FLTPK', 'INT_AIR', 'COM_KBOS_CLEAN', 'HO_PAR_KEYCO', 'BIL_PICK', 'BIL_HOUSE', 'BIL_WHEEL', 'MTL_WAKE']; print('\n'.join([f'{m}: title={missions.get(m, {}).get(" title\)}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
+SyntaxError: unterminated string literal (detected at line 1)
+

@@ -1,0 +1,60 @@
+Created At: 2026-11-25T17:54:07-05:00
+Completed At: 2026-11-25T17:54:11-05:00
+Command exited with code 0.
+
+Command output:
+  0x14564a280: aesdec     xmm2, xmm9
+  0x14564a286: aesdec     xmm3, xmm9
+  0x14564a28c: aesdec     xmm4, xmm9
+  0x14564a292: aesdec     xmm1, xmm10
+  0x14564a298: aesdec     xmm2, xmm10
+  0x14564a29e: aesdec     xmm3, xmm10
+  0x14564a2a4: aesdec     xmm4, xmm10
+  0x14564a2aa: jb         0x14564a2f7
+  0x14564a2ac: movdqa     xmm9, xmmword ptr [rcx + 0xc0]
+  0x14564a2b5: movdqa     xmm10, xmmword ptr [rcx + 0xd0]
+  0x14564a2be: movdqa     xmm11, xmmword ptr [rcx + 0xe0]
+  0x14564a2c7: aesdec     xmm1, xmm9
+  0x14564a2cd: aesdec     xmm2, xmm9
+  0x14564a2d3: aesdec     xmm3, xmm9
+  0x14564a2d9: aesdec     xmm4, xmm9
+  0x14564a2df: aesdec     xmm1, xmm10
+  0x14564a2e5: aesdec     xmm2, xmm10
+  0x14564a2eb: aesdec     xmm3, xmm10
+  0x14564a2f1: aesdec     xmm4, xmm10
+  0x14564a2f7: add        rdi, 0x40
+  0x14564a2fb: add        rsi, 0x40
+  0x14564a2ff: dec        rdx
+  0x14564a302: aesdeclast xmm1, xmm11
+  0x14564a308: aesdeclast xmm2, xmm11
+  0x14564a30e: aesdeclast xmm3, xmm11
+  0x14564a314: aesdeclast xmm4, xmm11
+  0x14564a31a: movdqu     xmmword ptr [rsi], xmm1
+  0x14564a31e: movdqu     xmmword ptr [rsi + 0x10], xmm2
+  0x14564a323: movdqu     xmmword ptr [rsi + 0x20], xmm3
+  0x14564a328: movdqu     xmmword ptr [rsi + 0x30], xmm4
+  0x14564a32d: jne        0x14564a108
+  0x14564a333: add        rsi, 0x40
+  0x14564a337: cmp        r10, 0
+  0x14564a33b: je         0x14564a3e7
+  0x14564a341: movdqu     xmm1, xmmword ptr [rdi]
+  0x14564a345: add        rdi, 0x10
+  0x14564a349: pxor       xmm1, xmmword ptr [rcx]
+  0x14564a34d: movdqu     xmm2, xmmword ptr [rcx + 0xa0]
+  0x14564a355: cmp        r8d, 0xc
+  0x14564a359: aesdec     xmm1, xmmword ptr [rcx + 0x10]
+  0x14564a35f: aesdec     xmm1, xmmword ptr [rcx + 0x20]
+  0x14564a365: aesdec     xmm1, xmmword ptr [rcx + 0x30]
+  0x14564a36b: aesdec     xmm1, xmmword ptr [rcx + 0x40]
+  0x14564a371: aesdec     xmm1, xmmword ptr [rcx + 0x50]
+  0x14564a377: aesdec     xmm1, xmmword ptr [rcx + 0x60]
+  0x14564a37d: aesdec     xmm1, xmmword ptr [rcx + 0x70]
+  0x14564a383: aesdec     xmm1, xmmword ptr [rcx + 0x80]
+  0x14564a38c: aesdec     xmm1, xmmword ptr [rcx + 0x90]
+  0x14564a395: jb         0x14564a3d1
+  0x14564a397: cmp        r8d, 0xe
+  0x14564a39b: movdqu     xmm2, xmmword ptr [rcx + 0xc0]
+  0x14564a3a3: aesdec     xmm1, xmmword ptr [rcx + 0xa0]
+  0x14564a3ac: aesdec     xmm1, xmmword ptr [rcx + 0xb0]
+  0x14564a3b5: jb         0x14564a3d1
+  0x14564a3b7: movdqu     xmm2, xmmword ptr [rcx + 0xe0]

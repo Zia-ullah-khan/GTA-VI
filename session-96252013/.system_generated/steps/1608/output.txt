@@ -1,0 +1,9 @@
+Created At: 2026-11-25T18:19:01-05:00
+Completed At: 2026-11-25T18:19:04-05:00
+Command exited with code 1.
+
+Command output:
+  File "<string>", line 7
+    words = struct.unpack(<8I, hdr[:32])
+                           ^
+SyntaxError: invalid decimal literal

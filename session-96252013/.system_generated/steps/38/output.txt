@@ -1,0 +1,47 @@
+The search for ""RPF8" rdr2 archive format specification OR header" returned the following summary:
+The **RPF8** archive format is a proprietary package format utilized by Rockstar Games for **Red Dead Redemption 2 (RDR2)** on PC (running on the RAGE engine)[1][2]. It builds directly upon the architecture of GTA V’s **RPF7** format[3] while introducing specific structural shifts—most notably replacing plain text filename strings in the table of contents with **hash-based keys**[4].
+
+---
+
+### 1. General Header Structure (First 16 Bytes)
+Like preceding RAGE package formats (RPF7), the file begins with a 16-byte header consisting of four little-endian 32-bit unsigned integers (`uint32`)[4]:
+
+| Offset | Size | Field Name | Description / Value |
+| :--- | :--- | :--- | :--- |
+| `0x00` | 4 bytes | **Magic** | `RPF8` (`0x38465052` little-endian)[1][5] |
+| `0x04` | 4 bytes | **Entry Count** | Total number of file/directory entries contained in the archive table of contents. |
+| `0x08` | 4 bytes | **Names Length / Table Size** | Length or data size allocated for the metadata/nametables. |
+| `0x0c` | 4 bytes | **Encryption Type** | Indicates encryption mode flags (e.g., `OPEN`, `AES`, `NG`)[4]. |
+
+---
+
+### 2. Core Differences from RPF7 (GTA V)
+While RPF7 and RPF8 share a very similar node-based virtual file system layout (utilizing 16-byte Table of Contents entries split into directories, binary files, and resource files)[6], RPF8 diverges significantly in how it handles file identity:
+
+* **No Filename String Blob:** Unlike RPF7—which embeds a raw string block containing paths and file names right after the TOC entries—RPF8 entries are **keyed entirely by hashes** instead of embedded filenames[4]. 
+* **External Nametables:** Because file paths are hashed directly into identifiers within the binary structure, human-readable file names are absent from the retail archives themselves. Modern open-source toolchains (`rage-cli`, `rdr2x`) recover these names via external lookup tables (nametables) generated from reverse-engineering efforts[7][4][8].
+
+---
+
+### 3. Archive Layout Sequence
+1. **Header:** 16 bytes (`RPF8` magic + counts + flags)[4].
+2. **Table of Contents (TOC):** A flat array of 16-byte entries mapping directories, binary blobs, and resource structures[6]. 
+3. **Data Block:** Sector-aligned payload data (often compressed using Zlib/Deflate or structured as **RSC7 / RSC-family** resource files featuring system and graphics pages)[9][10].
+
+### 4. Implementation Reference Libraries
+If you are writing a parser or looking for programmatic specs, open-source implementations handle the RPF8 layout natively:
+* **`rpf-archive` (Rust):** Provides read support for `RPF0` through `RPF8` formats, handling the directory trees, entry decoding, and extraction layers[11].
+* **`rage-cli` / `rdr2x`:** Open-source utilities used for inspecting, extracting, and mapping RDR2's RPF8 structures and hashing conventions[7][8].
+
+Sources:
+[1] [file-extension.info](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMHaUBQq8Ffwjl_MMbcvY5-QjEkRWV6bUP8RSOzj40mdkBUmaHY1N3sG2lykqri6XkRagOYuom_ofN0rOlorszwDLurxVAZ4OsmJ0box71oOp1Kaar_AnPglYV6otTQA4=)
+[2] [openiv.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGgoWBxFOkY9QVBPq3RbJ3diXLKAxxEfOv1v6ZGHh86t1Ww-T8ECpuWD4_Ny0ZvmjECOMc8LFPRVV-3oi_IC_UrLX4_XpQxy5SB19MYI-G-Zmu-16uKLdpcjJ6ngkJTt-IwEK1st0UL14VqcfasKTEvJyv5d0cH4yaagXA-KUmbFRePBYrGaB4Q2xCJZqvvrVXfTTIHl67WsnkT1EjNz-I-zXYWwo=)
+[3] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfa-lP70OKeYSlOc82YJc_8LBL77zzLZV4QVSqn1-6wGPtT09xr7glryQD4A9WlcIjCC445_Ywe_NVJGbdT3J9CY6mRCj2_XB_YrCyQO7rgCdvceVGYQ68NNAZU1rhd-Xb-OZpYDt9x85xxTGV0BEn3NrUnViIbKdT1S3MR6VzuT1mmFklgDPmjZ1W4CPwzKqkXZsqbYWRPTFSJ97H5SPCexk=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzSRU-VXzHEYHN0dWpL4AvWRzxJvsKx2WBRRNjUJBdTYJrgel7Xpn64aMAOZUNSq57u4K0TjafdC-ZKlpU55SUZeoCRXSepuzi6tYF5x9LE0fVKISBtNCeFATtc0DpWXqfPTz_Mc2myugpR5Ojvw2lSKHmc9xk_Y1JInpLsCzXW5E=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzSRU-VXzHEYHN0dWpL4AvWRzxJvsKx2WBRRNjUJBdTYJrgel7Xpn64aMAOZUNSq57u4K0TjafdC-ZKlpU55SUZeoCRXSepuzi6tYF5x9LE0fVKISBtNCeFATtc0DpWXqfPTz_Mc2myugpR5Ojvw2lSKHmc9xk_Y1JInpLsCzXW5E=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzSRU-VXzHEYHN0dWpL4AvWRzxJvsKx2WBRRNjUJBdTYJrgel7Xpn64aMAOZUNSq57u4K0TjafdC-ZKlpU55SUZeoCRXSepuzi6tYF5x9LE0fVKISBtNCeFATtc0DpWXqfPTz_Mc2myugpR5Ojvw2lSKHmc9xk_Y1JInpLsCzXW5E=)
+[7] [nexusmods.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHp6MZv5k3UJ5r9Pi2QyrJ0MK97xDSx4Oln-lOUAPT2UGeXuU1ZdXFr4nT3dMcmCbLFep4Cdzy2rz74jn6vPnntOzKQ9QOM3VYLOtTI0wEjO0uYI6IKGnTIZdodTyKCmQebIJ5ZhtZBN8AwPfZ)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt_XGRV3I2I8KLcjkOq4L91FzfBxZO8DzCo9SbL5Ysa_lKX1Fiq3tTVsx2giqG42sjJZ8adkCak5qvRkcWvDgVDzoEkFQ-Gk96-f49wQ7t5LX_HTNUkIs)
+[9] [file-extension.info](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuiqKDSGgEnRMAM8v5gOSF7NvAPEdJ5SbqqSrJrr-47NiDXwH926lDHV5NPI1CCks8TuOPvSPz3-UnHnIr-K4D-ORBCo6nOaaBKpKJGXlCtidl0R7JFYZuWD1fc-1hUUs=)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt_XGRV3I2I8KLcjkOq4L91FzfBxZO8DzCo9SbL5Ysa_lKX1Fiq3tTVsx2giqG42sjJZ8adkCak5qvRkcWvDgVDzoEkFQ-Gk96-f49wQ7t5LX_HTNUkIs)
+[11] [libraries.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHABfZ7Vq7_aO2lXdVo7kd4m7fAu9uRFVT4HFA8lokO9rZXO5i71eVMIu3MSmLp0FzyVWyZ3fWoygPq3OcUQyRF6tl9xkZKIu6LQRdKUJtUtBRv-QbSXuxaDQw3sw==)

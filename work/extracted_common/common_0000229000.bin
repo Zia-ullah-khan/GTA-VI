@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHeadbobConditionManager>
+	<Conditions>
+		<Item type="CHeadbobCondition" key="STANDING">
+			<pCondition type="CAIConditionNot">
+				<Condition type="CAIConditionArePedConfigFlagsSet">
+					<ConfigFlags>CPED_CONFIG_FLAG_IsSitting</ConfigFlags>
+					<Ped>PrimaryEntity</Ped>
+				</Condition>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="SITTING">
+			<pCondition type="CAIConditionArePedConfigFlagsSet">
+				<ConfigFlags>CPED_CONFIG_FLAG_IsSitting</ConfigFlags>
+				<Ped>PrimaryEntity</Ped>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="HEAD_IN_USE">
+			<pCondition type="CAIConditionBodyAnimConstraintInfoStateSet">
+				<BodyAnimConstraintInfoStateSet>head_inuse</BodyAnimConstraintInfoStateSet>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="LEFT_HAND_SMALL_HEAD_IN_USE">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>head_inuse</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_HAND_SMALL_HEAD_IN_USE">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>head_inuse</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>head_inuse</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionOr">
+						<Conditions>
+							<Item type="CAIConditionAnd">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+							<Item type="CAIConditionAnd">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_arm_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+							<Item type="CAIConditionAnd">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+							<Item type="CAIConditionAnd">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_arm_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="BOTH_HANDS_IN_USE_SPINE_PINNED">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionOr">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_hand_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>left_hand_verysmall</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+							<Item type="CAIConditionOr">
+								<Conditions>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_hand_medium</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+									</Item>
+									<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+										<BodyAnimConstraintInfoStateSet>right_hand_verysmall</BodyAnimConstraintInfoStateSet>
+									</Item>
+								</Conditions>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="BOTH_HANDS_IN_USE_SMALL">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned_heavy</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned_heavy</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="LEFT_ARM_SPINE_PINNED">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="LEFT_ARM_SPINE_PINNED_RIGHT_ARM_IN_USE">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_ARM_IN_USE_SPINE_PINNED">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_ARM_SPINE_PINNED">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_ARM_SPINE_PINNED_LEFT_ARM_IN_USE">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+					<Item type="CAIConditionAnd">
+						<Conditions>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+							</Item>
+							<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+								<BodyAnimConstraintInfoStateSet>left_hand_medium</BodyAnimConstraintInfoStateSet>
+							</Item>
+						</Conditions>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="BOTH_ARMS_SPINE_PINNED">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>spine_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="BOTH_ARMS_PINNED">
+			<pCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="RIGHT_ARM_IN_USE">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_arm_medium</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>right_hand_small</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+		<Item type="CHeadbobCondition" key="LEFT_ARM_IN_USE">
+			<pCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_arm_medium</BodyAnimConstraintInfoStateSet>
+					</Item>
+					<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+						<BodyAnimConstraintInfoStateSet>left_hand_small</BodyAnimConstraintInfoStateSet>
+					</Item>
+				</Conditions>
+			</pCondition>
+		</Item>
+	</Conditions>
+</CHeadbobConditionManager>

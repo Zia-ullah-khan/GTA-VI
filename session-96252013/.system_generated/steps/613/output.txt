@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 27
+    print(f'0x{h:08X} -> {hash_to_str.get(h, " UNKNOWN\)}')
+                                             ^
+SyntaxError: unterminated string literal (detected at line 27)
+

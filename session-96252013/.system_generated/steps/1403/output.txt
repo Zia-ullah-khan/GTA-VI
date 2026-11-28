@@ -1,0 +1,96 @@
+Created At: 2026-11-25T18:05:28-05:00
+Completed At: 2026-11-25T18:05:38-05:00
+Command exited with code 0.
+
+Command output:
+=== keyloader_0x1456c9600 ===
+  0x1456c9600 lea rax, [rip + 0x101c2f9]
+  0x1456c9607 mov qword ptr [rcx], rax
+  0x1456c960a mov dword ptr [rcx + 8], 0x18
+  0x1456c9611 ret 
+  0x1456c9612 int3 
+  0x1456c9613 int3 
+  0x1456c9614 int3 
+  0x1456c9615 int3 
+  0x1456c9616 int3 
+  0x1456c9617 int3 
+  0x1456c9618 int3 
+  0x1456c9619 int3 
+  0x1456c961a int3 
+  0x1456c961b int3 
+  0x1456c961c int3 
+  0x1456c961d int3 
+  0x1456c961e int3 
+  0x1456c961f int3 
+  0x1456c9620 and byte ptr [rcx + 0x3c], 0xf7
+  0x1456c9624 ret 
+  0x1456c9625 int3 
+  0x1456c9626 int3 
+  0x1456c9627 int3 
+  0x1456c9628 int3 
+  0x1456c9629 int3 
+  0x1456c962a int3 
+  0x1456c962b int3 
+  0x1456c962c int3 
+  0x1456c962d int3 
+  0x1456c962e int3 
+  0x1456c962f int3 
+  0x1456c9630 push rsi
+  0x1456c9631 push rdi
+  0x1456c9632 push rbx
+  0x1456c9633 sub rsp, 0x120
+  0x1456c963a mov rdi, rcx
+  0x1456c963d lea rbx, [rsp + 0x20]
+  0x1456c9642 mov rsi, rdx
+  0x1456c9645 mov r8d, 0xb0
+  0x1456c964b mov rcx, rbx
+  0x1456c964e mov rdx, rdi
+  0x1456c9651 call 0x145f40560
+  0x1456c9656 lea rcx, [rbx + 0xb0]
+  0x1456c965d lea rdx, [rdi + 0xb0]
+  0x1456c9664 call 0x145419390
+  0x1456c9669 mov r8d, 0x100
+  0x1456c966f mov rcx, rdi
+  0x1456c9672 mov rdx, rsi
+  0x1456c9675 call 0x145f40560
+  0x1456c967a mov r8d, 0x100
+  0x1456c9680 mov rcx, rsi
+  0x1456c9683 mov rdx, rbx
+  0x1456c9686 call 0x145f40560
+  0x1456c968b nop 
+  0x1456c968c add rsp, 0x120
+  0x1456c9693 pop rbx
+  0x1456c9694 pop rdi
+  0x1456c9695 pop rsi
+  0x1456c9696 ret 
+  0x1456c9697 int3 
+  0x1456c9698 int3 
+  0x1456c9699 int3 
+  0x1456c969a int3 
+  0x1456c969b int3 
+  0x1456c969c int3 
+  0x1456c969d int3 
+  0x1456c969e int3 
+  0x1456c969f int3 
+  0x1456c96a0 sub rsp, 0x28
+  0x1456c96a4 call 0x140c202a0
+  0x1456c96a9 mov ecx, eax
+  0x1456c96ab add rsp, 0x28
+  0x1456c96af jmp 0x14058ea60
+  0x1456c96b4 int3 
+  0x1456c96b5 int3 
+  0x1456c96b6 int3 
+  0x1456c96b7 int3 
+  0x1456c96b8 int3 
+  0x1456c96b9 int3 
+  0x1456c96ba int3 
+  0x1456c96bb int3 
+  0x1456c96bc int3 
+  0x1456c96bd int3 
+  0x1456c96be int3 
+  0x1456c96bf int3 
+  0x1456c96c0 push rsi
+  0x1456c96c1 push rdi
+  0x1456c96c2 sub rsp, 0xa8
+  0x1456c96c9 mov dword ptr [rcx + 0x9dc], 0xffffffff
+  0x1456c96d3 vxorps xmm0, xmm0, xmm0

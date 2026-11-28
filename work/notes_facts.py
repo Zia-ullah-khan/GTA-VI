@@ -1,0 +1,40 @@
+"""Print the facts cited in SPEEDRUN_ROUTING_NOTES.md straight from output/mission_order.json."""
+
+import argparse
+import json
+import sys
+from collections import Counter
+from pathlib import Path
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("mission_order", type=Path)
+    args = parser.parse_args()
+
+    if not args.mission_order.is_file():
+        print(f"Not a file: {args.mission_order}", file=sys.stderr)
+        return 1
+
+    document = json.loads(args.mission_order.read_text(encoding="utf-8"))
+    missions = document["missions"]
+    print("per chapter: " + str(dict(Counter(m["chapter_or_act"] for m in missions))))
+    print("chapter sources disagree: " + ", ".join(
+        f"{m['id']} (menu {m['chapter_or_act']}, texture CH{m['texture_chapter_tag']})"
+        for m in missions if not m["chapter_sources_agree"]))
+    print("label names a different table id: " + ", ".join(
+        f"{m['id']} -> {m['label_names_different_cmissions_id']}"
+        for m in missions if m["label_names_different_cmissions_id"]))
+    print("not in CMissions: " + ", ".join(m["id"] for m in missions if not m["in_cmissions_table"]))
+    print("missions with name-prefixed variant entries:")
+    for mission in missions:
+        if mission["name_prefixed_variant_entries"]:
+            print(f"   {mission['id']}: {', '.join(mission['name_prefixed_variant_entries'])}")
+
+    loose = [e["id"] for e in document["cmissions_entries_not_in_replay_menu"] if not e["name_prefix_of_listed_mission"]]
+    print(f"table-only entries with no listed name prefix ({len(loose)}): " + ", ".join(loose))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

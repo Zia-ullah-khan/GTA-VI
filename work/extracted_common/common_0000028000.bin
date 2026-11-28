@@ -1,0 +1,5320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CConversationDictionary>
+
+	<!-- The ConversationResponseMap stores both CConversationResponse or CConversationTopic objects (yay inheritance!). -->
+	<!-- Make sure to specify what type of object you are defining (type="CConversationTopic", etc.) -->
+	
+	<!-- The following member is only used in CConversationTransition objects.
+		TransitionChance
+	
+	The following members are only used in CConversationTopic objects. You can define these for a CConversationResponse, but it will do nothing.
+		ResponseCondition
+		SupporterCondition
+		MinGlobalRepeatTime
+		MinPerPedRepeatTime
+		Priority
+		
+	The following members are common to both CConversationResponse or CConversationTopic objects:
+		ResponseRoles
+		BehaviorFlags -->
+
+	<ConversationResponseMap>
+
+		<Item key="PHONE_INTERJECT_RESUME_SEGUE" type="CConversationResponse">
+			<!-- === Topic Data === -->
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneInterjectResumeSegue</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="MOBILE_PHONE_AGITATED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			<Adjectives>CA_Emotional</Adjectives>
+			<MindsetData>
+				<MindsetName>AGITATED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+			</MindsetData>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_Mobile_Template_5_Lines_Plus_PostCallDialogue</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvAgitated</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="MOBILE_PHONE_AGITATED2" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			<Adjectives>CA_Emotional</Adjectives>
+			<MindsetData>
+				<MindsetName>AGITATED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+			</MindsetData>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_Mobile_Template_5_Lines_Plus_PostCallDialogue</ResponseName>
+					<SpeechRuleSet>MobilePhoneConv2Agitated</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_AGITATED_FX_INTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvAgitatedFXIntro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_AGITATED_FX_OUTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvAgitatedFXOutro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_AGITATED_FX" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			<Adjectives>CA_Emotional</Adjectives>
+			<AllowTransitionRepeat value="true"/>
+			<MindsetData>
+				<MindsetName>AGITATED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+			</MindsetData>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_5_Lines</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvAgitatedFX</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="MOBILE_PHONE_FX_INTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvFXIntro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_FX_OUTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvFXOutro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_FX" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			<AllowTransitionRepeat value="true"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_5_Lines</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvFX</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="MOBILE_PHONE_LISTENING_INTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvListeningIntro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_LISTENING_OUTRO" type="CConversationResponse">
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvListeningOutro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="MOBILE_PHONE_LISTENING" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			<AllowTransitionRepeat value="true"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_5_Lines</ResponseName>
+					<SpeechRuleSet>MobilePhoneConvListening</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PEDTYPE_DIALOGUE_TOPIC" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="0"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Convo_PedtypeDialogue_Initiator</ResponseName>
+				</Item>
+				<Item key="RESPONDER">
+					<ResponseName>Convo_PedtypeDialogue_Responder</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="GENERIC_EXIT_SCENARIO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionInSameGroup">
+							<PedA>PrimaryEntity</PedA>
+							<PedB>SecondaryEntity</PedB>
+							<GroupTypes>GROUP_FLAG_Ped</GroupTypes>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>PED_IS_IN_BAD_WEATHER</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="5000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="0"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_4Lines_Initiator</ResponseName>
+					<SpeechRuleSet>GenericTailOffOutro</SpeechRuleSet>
+				</Item>
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_4Lines_Responder</ResponseName>
+					<SpeechRuleSet>GenericTailOffOutro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="LETS_HEAD_OUT_EXIT_SCENARIO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionInSameGroup">
+						<PedA>PrimaryEntity</PedA>
+						<PedB>SecondaryEntity</PedB>
+						<GroupTypes>GROUP_FLAG_Ped</GroupTypes>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>PED_IS_IN_BAD_WEATHER</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="5000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="0"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>LetsHeadOutOutro</SpeechRuleSet>
+				</Item>
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>LetsHeadOutOutro</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="BAD_WEATHER_EXIT_SCENARIO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>PED_IS_IN_BAD_WEATHER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="5000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="3"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>BadWeatherExitScenario</SpeechRuleSet>
+				</Item>
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>BadWeatherExitScenario</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_AGITATED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionNot">
+				<Condition type="CAIConditionLocationName">
+					<LocationName>club</LocationName>
+				</Condition>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			<Adjectives>CA_Emotional</Adjectives>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatAgitated_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>AGITATED_POST_CONV</MindsetName>
+						<Priority value="2"/>
+					</MindsetData>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatAgitated_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_CREW_FEMALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionIsFemale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatCrewFemale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatBored_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_BEACH_LISTENING_CREW_FEMALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>Beach</LocationName>
+					</Condition>
+					<Condition type="CAIConditionIsFemale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="6"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBeachCrewFemale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_CREW_MALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionIsMale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatCrewMale_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatBored_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_BEACH_LISTENING_CREW_MALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>Beach</LocationName>
+					</Condition>
+					<Condition type="CAIConditionIsMale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="6"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBeachCrewMale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_COUPLE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_PED_COUPLE</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="90000"/>
+			<Priority value="7"/> <!-- bumped up a bit due to the couple requirements -->
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatCouple_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatCouple_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_GROUP" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionGroupMemberCount">
+				<LowerBound value="3" />
+				<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatGroup_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatBored_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_BEACH_LISTENING_GROUP" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>Beach</LocationName>
+					</Condition>
+					<Condition type="CAIConditionGroupMemberCount">
+						<LowerBound value="3" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="6"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBeachGroup_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_BEACH_LISTENING_SWIM" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>Beach</LocationName>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInWater">
+							<MustBeOcean value="true"/>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="6"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBeachSwim_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_BEACH_LISTENING_FUN_SWIM" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>Beach</LocationName>
+					</Condition>
+					<Condition type="CAIConditionIsInWater">
+						<MustBeOcean value="true"/>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="6"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBeachFunSwim_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_MOTELYES" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatMotelSetupYes_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatYes_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_MOTELNO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatMotelSetupNo_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatNo_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_DANNYYES" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPersChar">
+				<Ped>SecondaryEntity</Ped>
+				<Name>Danny</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatDannyYes_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatYes_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_DANNYNO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPersChar">
+				<Ped>SecondaryEntity</Ped>
+				<Name>Danny</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatDannyNo_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatNo_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_LINDAYES" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPersChar">
+				<Ped>SecondaryEntity</Ped>
+				<Name>Linda</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatLindaYes_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatYes_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_LINDANO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPersChar">
+				<Ped>SecondaryEntity</Ped>
+				<Name>Linda</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatLindaNo_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatNo_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_MOTELMEAN" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatMotelMean_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatMean_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_JAYLAHMEAN" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatJaylahMean_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatMean_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_BAYSIDEGOSSIP" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatBaysideGossip_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatBaysideGossip_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_CSRELAXED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatCSRelaxed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_BAYSIDE_DAY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionOr">
+				<Conditions>
+					<Item type="CAIConditionReferenced">
+						<Name>IS_MORNING</Name>
+					</Item>
+					<Item type="CAIConditionReferenced">
+						<Name>IS_MIDDAY</Name>
+					</Item>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffBaysideDay</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="RIFF_SOLO_BAYSIDE_NIGHT" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_NIGHT</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffBaysideNight</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PENTHOUSE_BALCONY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>Penthouse</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffPenthouseBalcony</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PENTHOUSE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>Penthouse</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffPenthouseInside</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PIANO_BREAK" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffPianoBreak</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_CS_COUPLE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCSCouple</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MUSIC_PROD" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPedSitting">
+				<Ped>PrimaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMusicProd</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MUSIC_MUTTER" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsPedSitting">
+				<Ped>PrimaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMusicMutter</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_HOMELESS_LISTENING_GROUP" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionGroupMemberCount">
+						<LowerBound value="3" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="10"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningHomelessChatGroup_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatBored_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_HOMELESS_LISTENING_NO_RESPONSE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="10"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningHomelessChatNoResponse_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_1Line_Responder</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_KEYS_LISTENING_GOSSIP" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>KeyLento</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="10"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningKeyLentoGossip_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningKeyLentoGossip_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_HURRIED_LOCO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionPedSpeedHash">
+				<SpeedDataHash>Brisk</SpeedDataHash>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="15"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatHurriedLoco_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_1Line_Responder</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_MEAN" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+					<Name>IS_PED_COUPLE</Name>
+				</Condition>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatMean_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatMean_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_NO_RESPONSE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatNoResponse_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_1Line_Responder</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_LISTENING_RELAXED_SCENARIO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionLocationName">
+							<LocationName>Club</LocationName>
+						</Condition>
+					</Condition>
+					<!-- We are relaxing or smoking -->
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_RELAXING_SCENARIO</Name>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>PED_IS_SMOKING_ANYTHING</Name>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<!-- friend is relaxing or smoking -->
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_RELAXING_SCENARIO</Name>
+								<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>PED_IS_SMOKING_ANYTHING</Name>
+								<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_LISTENING_RELAXED_WANDERING" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionPedSpeedHash">
+				<SpeedDataHash>Meander</SpeedDataHash>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_CHAT_LISTENING_BIG_ACCUSED_FEMALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsFemale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningBigAccusedFemale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningBigAccusedFemale_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_CHAT_LISTENING_BIG_ACCUSED_MALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsMale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningBigAccusedMale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningBigAccusedMale_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<!-- Note: Post-conversation greets has some dependencies here now so will need to update greets if this is changed - lklein 2024-06-20 -->
+		<Item key="TOPIC_CHAT_LISTENING_BIG_FUNNY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningBigFunny_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningBigFunny_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<!-- Note: Post-conversation greets has some dependencies here now so will need to update greets if this is changed - lklein 2024-06-20 -->
+		<Item key="TOPIC_CHAT_LISTENING_BIG_OUTRAGE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningBigOutrage_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningBigOutrage_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<!-- START DANCER CONVERSATIONS -->
+		<!-- Keeping dancer checks here in case we move these topics into other conversation structs -->
+		<Item key="TOPIC_DANCER_LISTENING_NO" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningDancerSetupNo_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningDancerSetupNo_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_DANCER_LISTENING_YES" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningDancerSetupYes_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningDancerSetupYes_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_DANCER_LISTENING_MEAN" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningDancerMean_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningDancerMean_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_DANCER_LISTENING_W_BARTENDER" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Bartender</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningDancerToBartender_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningDancerToBartender_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_DANCER_LISTENING_W_BOUNCER" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Bouncer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningDancerToBouncer_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningDancerToBouncer_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_DANCER_LISTENING_W_PATRON" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<ResponseCondition type="CAIConditionGroupMemberCount">
+						<UpperBound value="2" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</ResponseCondition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Bartender</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Dancer</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Bouncer</Tag>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatDancerRelaxed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_DANCER_LISTENING_GROUP_PATRON" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<ResponseCondition type="CAIConditionGroupMemberCount">
+						<LowerBound value="3" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</ResponseCondition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Bartender</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Bouncer</Tag>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatDancerGroup_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_PATRON_LISTENING_NO_DANCER" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<ResponseCondition type="CAIConditionGroupMemberCount">
+						<UpperBound value="2" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</ResponseCondition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>PrimaryEntity</Ped>
+							<Tag>GC_Bartender</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>PrimaryEntity</Ped>
+							<Tag>GC_Bouncer</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Dancer</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatNoResponse_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatDancer_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_PATRON_LISTENING_RELAXED_DANCER" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<ResponseCondition type="CAIConditionGroupMemberCount">
+						<UpperBound value="2" />
+						<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+					</ResponseCondition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>PrimaryEntity</Ped>
+							<Tag>GC_Bartender</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>PrimaryEntity</Ped>
+							<Tag>GC_Bouncer</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="AICondition__Ped__HasProfileTag">
+							<Ped>SecondaryEntity</Ped>
+							<Tag>GC_Dancer</Tag>
+						</Condition>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Dancer</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningChatRelaxed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningChatDancer_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		<!-- END DANCER CONVERSATIONS -->
+
+		<Item key="TOPIC_GANG_LISTENING_BIG_ACCUSED_FEMALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsFemale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningGangBigAccusedFemale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningGangBigAccusedFemale_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GANG_LISTENING_BIG_ACCUSED_MALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsMale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningGangBigAccusedMale_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningGangBigAccusedMale_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GANG_LISTENING_BIG_FUNNY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningGangBigFunny_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningGangBigFunny_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GANG_LISTENING_BIG_OUTRAGE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Initiator</ResponseName>
+					<SpeechRuleSet>ListeningGangBigOutrage_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_7Lines_Responder</ResponseName>
+					<SpeechRuleSet>ListeningGangBigOutrage_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+	
+		<Item key="TOPIC_RANDOM_GROUP_1" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="30000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group1_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group1_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_RANDOM_GROUP_2" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="30000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group2_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group2_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_RANDOM_GROUP_3" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="30000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group3_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group3_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_RANDOM_GROUP_4" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="30000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group4_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group4_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_RANDOM_GROUP_5" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="30000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group5_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group5_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_GANG_AMBIENT" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionNot">
+				<Condition type="CAIConditionInPedBehaviorShapeWithFlags">
+					<Flags>EnableCompoundChats</Flags>
+				</Condition>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_Gang_Ambient_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_Gang_Ambient_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_GANG_COMPOUND" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionInPedBehaviorShapeWithFlags">
+				<Flags>EnableCompoundChats</Flags>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="10"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_Gang_Compound_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_Gang_Compound_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_WEALTHY" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			 <!-- Make sure everyone is rich -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionAffluence">
+						<Affluence>AFF_RICH</Affluence>
+					</Condition>
+					<Condition type="CAIConditionAffluence">
+						<Ped>SecondaryEntity</Ped>
+						<Affluence>AFF_RICH</Affluence>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_Wealthy_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_Wealthy_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_KEYSFUN" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_KeysFun_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_KeysFun_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_COOLSCENE" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_VC_CoolScene_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_VC_CoolScene_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_PARTYSCENE" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionNot">
+				<Condition type="CAIConditionLocationName">
+					<LocationName>Club</LocationName>
+				</Condition>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			<Adjectives>CA_Party</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_VC_PartyScene_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_VC_PartyScene_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_HOOKUPGIRLS" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionIsFemale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_VC_HookupGirls_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_VC_HookupGirls_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_HOOKUPGUYS" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionIsMale">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionReferenced">
+							<Name>IS_PED_COUPLE</Name>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			<Adjectives>CA_Party</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_VC_HookupGuys_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_VC_HookupGuys_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_CONSPIRACIES" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_Conspiracies_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_Conspiracies_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_MOTELGOSSIP" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_MotelGossip_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_MotelGossip_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TOPIC_GROUP_CHAT_MOTELPROBLEMS" type="CConversationTopic">
+
+			<!-- === Topic Data === -->
+			<ResponseCondition/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Group_MotelProblems_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_8Lines_Responder</ResponseName>
+					<SpeechRuleSet>Group_MotelProblems_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TRANSITION_SILENT" type="CConversationTransition">
+			<!-- === Transition Data === -->
+			<SwitchesDirection value="false"/>
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="0"/>
+			<Priority value="5"/>
+			<Adjectives>CA_Party</Adjectives>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TRANSITION_SILENT_SWITCH" type="CConversationTransition">
+			<!-- === Transition Data === -->
+			<SwitchesDirection value="true"/>
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="0"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="AGITATED_RESUME_SEGUE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionOr">
+				<Conditions>
+					<Condition type="CAIConditionPedHasSimpleMemory">
+						<Ped>PrimaryEntity</Ped>
+						<MemoryType>ReactedWithExtremeDialogue</MemoryType>
+						<QueryTimeMS value="60000" />
+					</Condition>
+					<Condition type="CAIConditionPedHasSimpleMemory">
+						<Ped>PrimaryEntity</Ped>
+						<MemoryType>DisputeEnded</MemoryType>
+						<QueryTimeMS value="15000" />
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="45000"/>
+			<MinPerPedRepeatTime value="0"/>
+			<Priority value="10"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Responder</ResponseName>
+					<SpeechRuleSet>AgitatedSegue</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>AgitatedSegue</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="GENERIC_RESUME_SEGUE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="0"/>
+			<MinPerPedRepeatTime value="0"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Responder</ResponseName>
+					<SpeechRuleSet>GenericSegue</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>GenericSegue</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_LEISURE_PRAGMATIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Leisure CA_RelPragnatic</Adjectives>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisurePragmatic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisurePragmatic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_LEISURE_ROMANTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Leisure CA_RelRomantic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureRomantic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureRomantic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_LEISURE_CHAOTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Leisure CA_Chaotic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureChaotic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureChaotic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_LEISURE_COOL_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Leisure CA_Cool</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureCool</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterLeisureCool</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_CRIME_PRAGMATIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Criminal CA_RelPragnatic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimePragmatic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimePragmatic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_CRIME_ROMANTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Criminal CA_RelRomantic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeRomantic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeRomantic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_CRIME_CHAOTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Criminal CA_Chaotic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeChaotic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeChaotic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_CRIME_COOL_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Criminal CA_Cool</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeCool</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterCrimeCool</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_FLOW_PRAGMATIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Blackmail CA_RelPragnatic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowPragmatic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowPragmatic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_FLOW_ROMANTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Blackmail CA_RelRomantic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowRomantic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowRomantic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_FLOW_CHAOTIC_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Destructive CA_Chaotic</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowChaotic</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowChaotic</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="VEHICLE_BANTER_FLOW_COOL_CONVO" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<Adjectives>CA_InVehicle CA_Destructive CA_Cool</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Initiator</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowCool</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+					<SpeechRuleSet>VehicleBanterFlowCool</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="POST_DISPUTE_WARN_NEUTRAL" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>WarnAboutPlayerNeutral</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="POST_DISPUTE_WARN_MALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIBehaviourConditionLastPlayerAgitatorWasMale"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>WarnAboutPlayerMale</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="POST_DISPUTE_WARN_FEMALE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIBehaviourConditionLastPlayerAgitatorWasFemale"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="30"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>WarnAboutPlayerFemale</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT" type="CConversationTopic">
+			<!-- === Topic Data === -->
+				<ResponseCondition type="CAIConditionAnd">
+					<Conditions>
+						<Condition type="CAIConditionOr">
+							<Conditions>
+								<Condition type="CAIConditionDistanceBetweenEntities">
+									<EntityA>PrimaryEntity</EntityA>
+									<EntityB>TertiaryEntity</EntityB>
+									<LowerBound value="5.0" />
+								</Condition>
+								<Condition type="CAIConditionAnd">
+									<Conditions>
+										<Condition type="CAIConditionIsPedMovingAway">
+											<Ped>TertiaryEntity</Ped>
+											<Target>PrimaryEntity</Target>
+											<MinMBR value="1.000000" />
+											<DotThreshold value="0.000000" />
+										</Condition>
+										<Condition type="CAIConditionDistanceBetweenEntities">
+											<EntityA>PrimaryEntity</EntityA>
+											<EntityB>TertiaryEntity</EntityB>
+											<LowerBound value="3.0" />
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+						<Condition type="CAIConditionOr">
+							<Conditions>
+								<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+									<Ped>SecondaryEntity</Ped>
+									<PlayerPed>TertiaryEntity</PlayerPed>
+									<MemoryType>DefusedByPlayer</MemoryType>
+									<QueryTimeMS value="40000" />
+									<MinTimeMS value="100" />
+								</Condition>
+								<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+									<Ped>SecondaryEntity</Ped>
+									<PlayerPed>TertiaryEntity</PlayerPed>
+									<MemoryType>GreetedByPlayer</MemoryType>
+									<QueryTimeMS value="40000" />
+									<MinTimeMS value="100" />
+								</Condition>
+							</Conditions>
+						</Condition>
+						<Condition type="CAIConditionPedHasSimpleMemoryForPlayer"> <!-- If the interaction is over -->
+							<Ped>SecondaryEntity</Ped>
+							<PlayerPed>TertiaryEntity</PlayerPed>
+							<MemoryType>InteractionEnded</MemoryType>
+							<QueryTimeMS value="40000" />
+							<MinTimeMS value="200" />
+						</Condition>
+						<Condition type="CAIConditionPedHasSimpleMemoryForPlayer"> <!-- If the responding ped was the one spoken to -->
+							<Ped>SecondaryEntity</Ped>
+							<PlayerPed>TertiaryEntity</PlayerPed>
+							<MemoryType>SpokenToByPlayer</MemoryType>
+							<QueryTimeMS value="40000" />
+							<MinTimeMS value="200" />
+						</Condition>
+						<Condition type="CAIConditionNot"> <!-- Not a ped we had a serious dispute with -->
+							<Condition type="CAIConditionOr">
+								<Conditions>
+									<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+										<Ped>SecondaryEntity</Ped>
+										<PlayerPed>TertiaryEntity</PlayerPed>
+										<MemoryType>DisputeEscalated</MemoryType>
+										<QueryTimeMS value="40000" />
+										<MinTimeMS value="200" />
+									</Condition>
+									<Condition type="CAIConditionPedHasSimpleMemory">
+										<Ped>SecondaryEntity</Ped>
+										<MemoryType>ReactedWithExtremeDialogue</MemoryType>
+										<QueryTimeMS value="40000" />
+										<MinTimeMS value="200" />
+									</Condition>
+								</Conditions>
+							</Condition>
+						</Condition>
+					</Conditions>
+				</ResponseCondition>
+				<SupporterCondition type="NULL"/>
+				<MinGlobalRepeatTime value="10000"/>
+				<MinPerPedRepeatTime value="30000"/>
+				<Priority value="35"/>
+				
+				<!-- === Response Data === -->
+				<ResponseRoles>
+					<Item key="INITIATOR">
+						<ResponseName>Conversation_TopicTemplate_3Lines_Wait_Initiator</ResponseName>
+						<SpeechRuleSet>GroupInteractionEndedTeaseResumeInterject_Initiator</SpeechRuleSet>
+					</Item>
+					
+					<Item key="RESPONDER">
+						<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+						<SpeechRuleSet>GroupInteractionEndedTease_Responder</SpeechRuleSet>
+					</Item>
+				</ResponseRoles>
+		</Item>
+
+		<Item key="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH" type="CConversationTopic">
+			<!-- Switch version for when the entities of the initiator and responder are switched -->
+			<!-- === Topic Data === -->
+				<ResponseCondition type="CAIConditionAnd">
+					<Conditions>
+						<Condition type="CAIConditionOr">
+							<Conditions>
+								<Condition type="CAIConditionDistanceBetweenEntities">
+									<EntityA>PrimaryEntity</EntityA>
+									<EntityB>TertiaryEntity</EntityB>
+									<LowerBound value="5.0" />
+								</Condition>
+								<Condition type="CAIConditionAnd">
+									<Conditions>
+										<Condition type="CAIConditionIsPedMovingAway">
+											<Ped>TertiaryEntity</Ped>
+											<Target>PrimaryEntity</Target>
+											<MinMBR value="1.000000" />
+											<DotThreshold value="0.000000" />
+										</Condition>
+										<Condition type="CAIConditionDistanceBetweenEntities">
+											<EntityA>PrimaryEntity</EntityA>
+											<EntityB>TertiaryEntity</EntityB>
+											<LowerBound value="3.0" />
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+						<Condition type="CAIConditionOr">
+							<Conditions>
+								<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+									<Ped>PrimaryEntity</Ped>
+									<PlayerPed>TertiaryEntity</PlayerPed>
+									<MemoryType>DefusedByPlayer</MemoryType>
+									<QueryTimeMS value="40000" />
+									<MinTimeMS value="100" />
+								</Condition>
+								<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+									<Ped>PrimaryEntity</Ped>
+									<PlayerPed>TertiaryEntity</PlayerPed>
+									<MemoryType>GreetedByPlayer</MemoryType>
+									<QueryTimeMS value="40000" />
+									<MinTimeMS value="100" />
+								</Condition>
+							</Conditions>
+						</Condition>
+						<Condition type="CAIConditionPedHasSimpleMemoryForPlayer"> <!-- If the interaction is over -->
+							<Ped>PrimaryEntity</Ped>
+							<PlayerPed>TertiaryEntity</PlayerPed>
+							<MemoryType>InteractionEnded</MemoryType>
+							<QueryTimeMS value="40000" />
+							<MinTimeMS value="200" />
+						</Condition>
+						<Condition type="CAIConditionPedHasSimpleMemoryForPlayer"> <!-- If the responding ped was the one spoken to -->
+							<Ped>PrimaryEntity</Ped>
+							<PlayerPed>TertiaryEntity</PlayerPed>
+							<MemoryType>SpokenToByPlayer</MemoryType>
+							<QueryTimeMS value="40000" />
+							<MinTimeMS value="200" />
+						</Condition>
+						<Condition type="CAIConditionNot"> <!-- Not a ped we had a serious dispute with -->
+							<Condition type="CAIConditionOr">
+								<Conditions>
+									<Condition type="CAIConditionPedHasSimpleMemoryForPlayer">
+										<Ped>PrimaryEntity</Ped>
+										<PlayerPed>TertiaryEntity</PlayerPed>
+										<MemoryType>DisputeEscalated</MemoryType>
+										<QueryTimeMS value="40000" />
+										<MinTimeMS value="200" />
+									</Condition>
+									<Condition type="CAIConditionPedHasSimpleMemory">
+										<Ped>PrimaryEntity</Ped>
+										<MemoryType>ReactedWithExtremeDialogue</MemoryType>
+										<QueryTimeMS value="40000" />
+										<MinTimeMS value="200" />
+									</Condition>
+								</Conditions>
+							</Condition>
+						</Condition>
+					</Conditions>
+				</ResponseCondition>
+				<SupporterCondition type="NULL"/>
+				<MinGlobalRepeatTime value="10000"/>
+				<MinPerPedRepeatTime value="30000"/>
+				<Priority value="35"/>
+				
+				<!-- === Response Data === -->
+				<ResponseRoles>
+					<Item key="INITIATOR">
+						<ResponseName>Conversation_TopicTemplate_3Lines_Responder</ResponseName>
+						<SpeechRuleSet>GroupInteractionEndedTease_Responder</SpeechRuleSet>
+					</Item>
+					
+					<Item key="RESPONDER">
+						<ResponseName>Conversation_TopicTemplate_3Lines_Wait_Initiator</ResponseName>
+						<SpeechRuleSet>GroupInteractionEndedTeaseResumeInterject_Initiator</SpeechRuleSet>
+					</Item>
+				</ResponseRoles>
+		</Item>
+
+		<Item key="CHAT_DOGWALKER_WALK_WITH_DOG" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionSpeed">
+				<Ped>PrimaryEntity</Ped>
+				<Speed>Walk</Speed>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ChatDogwalkerWalk</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="CHAT_DOGWALKER_JOG_WITH_DOG" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionSpeed">
+				<Ped>PrimaryEntity</Ped>
+				<Speed>Run</Speed>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>ChatDogwalkerJog</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="DOGWALKER_WALK_YELL_AT_DOG" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionSpeed">
+				<Ped>PrimaryEntity</Ped>
+				<Speed>Walk</Speed>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>DogwalkerWalkYell</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="DOGWALKER_BLATHERING" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>BlatheringDogwalker</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+
+		<!-- BEGIN RIFFS -->
+		<Item key="RIFF_SOLO_WORKOUT_CREW" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionPedIsInBusiness">
+				<Ped>PrimaryEntity</Ped>
+				<Type>gym</Type>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffWorkoutCrew</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_WORKOUT_CREW" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionPedIsInBusiness">
+						<Ped>PrimaryEntity</Ped>
+						<Type>gym</Type>
+					</Condition>
+					<Condition type="CAIConditionPedIsInBusiness">
+						<Ped>SecondaryEntity</Ped>
+						<Type>gym</Type>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinGlobalRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffWorkoutCrew_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffWorkoutCrew_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ATV" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>ATVArea</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffATV_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ATV" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>ATVArea</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinGlobalRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffATV_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffATV_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ELDERLY" type="CConversationTopic">
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ELDERLY" type="CConversationTopic">
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinGlobalRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffElderly_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ELDERLY_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_RELAXING_SCENARIO</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Depressant</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Depress_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ELDERLY_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Depressant</Adjectives>
+			<MindsetData>
+				<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Depress_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffElderly_Depress_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ELDERLY_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionScenarioActivityTypeCheck">
+				<Ped>PrimaryEntity</Ped>
+				<ActivityType>Workout</ActivityType>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Stim</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Stim_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>STIMMED_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ELDERLY_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>PrimaryEntity</Ped>
+						<ActivityType>Workout</ActivityType>
+					</Condition>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>SecondaryEntity</Ped>
+						<ActivityType>Workout</ActivityType>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Stim</Adjectives>
+			<MindsetData>
+				<MindsetName>STIMMED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Stim_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffElderly_Stim_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ELDERLY_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>PED_IS_SMOKING_ANYTHING</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Weed</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Weed_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ELDERLY_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Weed</Adjectives>
+			<MindsetData>
+				<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffElderly_Weed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffElderly_Weed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_HOMELESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_HOMELESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_HOMELESS_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Depressant</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Depress_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_HOMELESS_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Depressant</Adjectives>
+			<MindsetData>
+				<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Depress_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Depress_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_HOMELESS_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<!-- these homeless stim versions will be for when they are walking around -->
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Stim</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Stim_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>STIMMED_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_HOMELESS_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<!-- these homeless stim versions will be for when they are walking around -->
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Stim</Adjectives>
+			<MindsetData>
+				<MindsetName>STIMMED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Stim_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Stim_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_HOMELESS_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Weed</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Weed_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_HOMELESS_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Homeless</Tag>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Weed</Adjectives>
+			<MindsetData>
+				<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Weed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffHomeless_Weed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_TWEAKER" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Tweaker</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Tweaker</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffTweaker_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_TWEAKER" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>PrimaryEntity</Ped>
+						<Tag>GC_Tweaker</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>GC_Tweaker</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffTweaker_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffTweaker_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_KEYS_FAM" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>KeyLento</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffKeyLentoFamiliar</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_RUSTY_ANCHOR" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>RustyAnchor</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="15000"/>
+			<MinPerPedRepeatTime value="300000"/>
+			<Priority value="25"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffRustyAnchor</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_CONSTRUCTION" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>ConstructionSite</LocationName>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Tag>Construction</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffConstruction_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_CONSTRUCTION" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionLocationName">
+						<LocationName>ConstructionSite</LocationName>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Tag>Construction</Tag>
+					</Condition>
+					<Condition type="AICondition__Ped__HasProfileTag">
+						<Ped>SecondaryEntity</Ped>
+						<Tag>Construction</Tag>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffConstruction_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffConstruction_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_GANG_GUARDING" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionHasScenarioDialogueOverride">
+				<SpeechRuleSet>Guarding</SpeechRuleSet>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGangGuarding</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_GANG_GUARDING" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionHasScenarioDialogueOverride">
+						<SpeechRuleSet>Guarding</SpeechRuleSet>
+					</Condition>
+					<Condition type="CAIConditionHasScenarioDialogueOverride">
+						<Ped>SecondaryEntity</Ped>
+						<SpeechRuleSet>Guarding</SpeechRuleSet>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGangGuarding_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffGangGuarding_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_GANG_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_RELAXING_SCENARIO</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Depressant</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Depress_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_GANG_DEPRESS" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_RELAXING_SCENARIO</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Depressant</Adjectives>
+			<MindsetData>
+				<MindsetName>DEPRESSANT_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Depress_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffGang_Depress_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_GANG_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionScenarioActivityTypeCheck">
+				<Ped>PrimaryEntity</Ped>
+				<ActivityType>Workout</ActivityType>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Stim</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Stim_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>STIMMED_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_GANG_STIM" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>PrimaryEntity</Ped>
+						<ActivityType>Workout</ActivityType>
+					</Condition>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>SecondaryEntity</Ped>
+						<ActivityType>Workout</ActivityType>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Stim</Adjectives>
+			<MindsetData>
+				<MindsetName>STIMMED_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Stim_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffGang_Stim_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_GANG_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>PED_IS_SMOKING_ANYTHING</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Weed</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Weed_Initiator</SpeechRuleSet>
+					<MindsetData>
+						<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+						<Priority value="2"/>
+						<TimeToLiveMS value="60000"/>
+					</MindsetData>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_GANG_WEED" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_IS_SMOKING_ANYTHING</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+			<Adjectives>CA_Weed</Adjectives>
+			<MindsetData>
+				<MindsetName>WEEDHIGH_POST_CONV</MindsetName>
+				<Priority value="2"/>
+				<TimeToLiveMS value="60000"/>
+			</MindsetData>
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffGang_Weed_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffGang_Weed_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATROL" type="CConversationTopic">
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCop_Patrol_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_PATROL" type="CConversationTopic">
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCop_Patrol_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffCop_Patrol_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_CRIMESCENE" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionBlackboardBool">
+				<Name>NIE_Cops</Name>
+				<Section>Script</Section>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCop_CrimeScene_Low_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_CRIMESCENE" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionBlackboardBool">
+						<Name>NIE_Cops</Name>
+						<Section>Script</Section>
+					</Condition>
+					<Condition type="CAIConditionBlackboardBool">
+						<Ped>SecondaryEntity</Ped>
+						<Name>NIE_Cops</Name>
+						<Section>Script</Section>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCop_CrimeScene_Low_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>RiffCop_CrimeScene_Low_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MILITARY" type="CConversationTopic">
+			<Condition type="CAIConditionPlayerIsInRegionOfType">
+				<Player>TertiaryEntity</Player>
+				<Region>CityTown</Region>
+				<RegionName>REGION_MILEZERO_AIRBASE_NAME</RegionName>
+			</Condition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffCop_Military_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloor_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR" type="CConversationTopic">
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloor_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR_BUSY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DANCER_IN_BUSY_PLACE</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorBusy_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR_BUSY" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DANCER_IN_BUSY_PLACE</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorBusy_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR_SLOW" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_JOH_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionCheckMapStateConfig">
+						<Selector>JACKOFHEARTS</Selector>
+						<Config>LowActivity</Config>
+						<CheckCurrentConfig value="true" />
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorSlow_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR_SLOW" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_JOH_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionCheckMapStateConfig">
+						<Selector>JACKOFHEARTS</Selector>
+						<Config>LowActivity</Config>
+						<CheckCurrentConfig value="true" />
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorSlow_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR_N1N" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_N1N_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorN1N_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR_N1N" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_N1N_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorN1N_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR_JOH" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_JOH_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorJOH_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR_JOH" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_JOH_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorJOH_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_FLOOR_DEL" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DEL_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorDEL_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_FLOOR_DEL" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DEL_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnFloorDEL_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_BREAK" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionOr">
+				<Conditions>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>PrimaryEntity</Ped>
+						<ActivityType>Cellphone</ActivityType>
+					</Condition>
+					<Condition type="CAIConditionScenarioActivityTypeCheck">
+						<Ped>PrimaryEntity</Ped>
+						<ActivityType>Smoking</ActivityType>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreak_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_BREAK" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreak_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_BREAK_N1N" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_N1N_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakN1N_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_BREAK_N1N" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_N1N_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakN1N_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_BREAK_JOH" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_JOH_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakJOH_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_BREAK_JOH" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_JOH_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakJOH_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_ON_BREAK_DEL" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_DEL_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakDEL_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_DUO_ON_BREAK_DEL" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_DEL_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>PrimaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Cellphone</ActivityType>
+							</Condition>
+							<Condition type="CAIConditionScenarioActivityTypeCheck">
+								<Ped>SecondaryEntity</Ped>
+								<ActivityType>Smoking</ActivityType>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_OnBreakDEL_Initiator</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_2Lines_Responder</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_BoredCool_Responder</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON_BUSY" type="CConversationTopic">
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DANCER_IN_BUSY_PLACE</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_Busy_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON_SLOW" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_JOH_DANCER</Name>
+					</Condition>
+					<Condition type="CAIConditionCheckMapStateConfig">
+						<Selector>JACKOFHEARTS</Selector>
+						<Config>LowActivity</Config>
+						<CheckCurrentConfig value="true" />
+					</Condition>
+				</Conditions>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_Slow_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON_N1N" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_N1N_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_N1N_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON_JOH" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_JOH_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_JOH_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_PATRON_DEL" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_DEL_DANCER</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="15"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>Riff_Dancer_Patron_DEL_Initiator</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="RIFF_SOLO_MOTEL_DAY" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+					<Name>IS_NIGHT</Name>
+				</Condition>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMotelDay</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MOTEL_NIGHT" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionReferenced">
+				<Name>IS_NIGHT</Name>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMotelNight</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MOTEL_OFFICE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>Office</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMotelOffice</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="RIFF_SOLO_MOTEL_POOL" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionLocationName">
+				<LocationName>Pool</LocationName>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="20"/>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>RiffMotelPool</SpeechRuleSet>
+				</Item>
+
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<!-- END RIFFS -->
+
+		<Item key="PHONE_MUTTER_AMUSED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterAmused</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_BORED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterBored</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_DISGUSTED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterDisgusted</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_WORRIED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterWorried</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_MOCK" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterMock</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_SYMPATHIZE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterSympathize</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_CHORTLE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterChortle</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_INTERESTED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterInterested</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_EXCITED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterExcited</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_DISAPPOINTED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterDisappointed</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_IMPRESSED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_MobileTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterImpressed</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+
+		<Item key="PHONE_MUTTER_NOT_IMPRESSED" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="120000"/>
+			<Priority value="5"/>
+			
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_1Line_Initiator</ResponseName>
+					<SpeechRuleSet>PhoneMutterNotImpressed</SpeechRuleSet>
+				</Item>
+			</ResponseRoles>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING_ANYWHERE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>BlatheringAnywhere</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING2_ANYWHERE" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="NULL"/>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Blathering2Anywhere</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING_ANYWHERE_MALETARGET" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsMale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>BlatheringAnywhereMaleTarget</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING2_ANYWHERE_MALETARGET" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsMale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Blathering2AnywhereMaleTarget</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING_ANYWHERE_FEMALETARGET" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsFemale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>BlatheringAnywhereFemaleTarget</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+		
+		<Item key="TOPIC_BLATHERING2_ANYWHERE_FEMALETARGET" type="CConversationTopic">
+			<!-- === Topic Data === -->
+			<ResponseCondition type="CAIConditionIsFemale">
+				<Ped>SecondaryEntity</Ped>
+			</ResponseCondition>
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<!-- === Response Data === -->
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Blathering2AnywhereFemaleTarget</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+
+		<Item key="TOPIC_BLATHERING1_COUPLE" type="CConversationTopic">
+			<ResponseCondition />
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Blathering1Couple</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+
+		<Item key="TOPIC_BLATHERING2_COUPLE" type="CConversationTopic">
+			<ResponseCondition />
+			<SupporterCondition type="NULL"/>
+			<MinGlobalRepeatTime value="20000"/>
+			<MinPerPedRepeatTime value="600000"/>
+			<Priority value="15"/>
+			<Adjectives>CA_Blather</Adjectives>
+
+			<ResponseRoles>
+				<Item key="INITIATOR">
+					<ResponseName>Conversation_TopicTemplate_2-0Lines_Initiator</ResponseName>
+					<SpeechRuleSet>Blathering2Couple</SpeechRuleSet>
+				</Item>
+				
+				<Item key="RESPONDER">
+					<ResponseName>Conversation_TopicTemplate_0Line</ResponseName>
+				</Item>
+			</ResponseRoles>
+			<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+		</Item>
+
+	</ConversationResponseMap>
+	
+</CConversationDictionary>

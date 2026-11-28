@@ -1,0 +1,31 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\print_mission_order.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -10,10 +10,10 @@
+ 
+ print("\n=== MISSIONS IN REPLAY MENU (97) ===")
+ for m in d["missions"]:
+-    idx = m.get("unique_mission_index")
+-    mid = m.get("id")
+-    ch = m.get("texture_chapter_tag")
+-    pos = m.get("replay_menu_position")
++    idx = m.get("unique_mission_index") or -1
++    mid = m.get("id") or ""
++    ch = m.get("texture_chapter_tag") or 0
++    pos = m.get("replay_menu_position") if m.get("replay_menu_position") is not None else -1
+     name = m.get("name", "")
+     print(f"Ch{ch} [Idx {idx:3d} | Pos {pos:2d}] {mid:25s} -> {name}")
+ 
+@@ -20,6 +20,7 @@
+ for item in d["cmissions_entries_not_in_replay_menu"]:
+-    idx = item.get("unique_mission_index")
+-    mid = item.get("id")
+-    ch = item.get("texture_chapter_tag")
++    idx = item.get("unique_mission_index") or -1
++    mid = item.get("id") or ""
++    ch = item.get("texture_chapter_tag") or 0
+     print(f"Ch{ch} [Idx {idx:3d}] {mid}")
++
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

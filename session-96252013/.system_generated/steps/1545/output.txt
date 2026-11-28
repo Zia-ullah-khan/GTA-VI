@@ -1,0 +1,169 @@
+Created At: 2026-11-25T18:13:33-05:00
+Completed At: 2026-11-25T18:13:44-05:00
+Command exited with code 0.
+
+Command output:
+Hit line 341688:     [VmFunction(0x09C713)]
+341688:     [VmFunction(0x09C713)]
+341689:     public static VmValue func_09C713(VmValue arg0, VmValue arg1) // 0x09C713
+341690:     {
+341691:         VmValue[] parameters = new VmValue[] { arg0, arg1 };
+341692:         VmValue[] locals = new VmValue[0];
+341693:         ref VmValue p0 = ref parameters[0];
+341694:         ref VmValue p1 = ref parameters[1];
+341695:         VmValue v_09C71B_0 = default;
+341696:         VmValue v_09C71B_1 = default;
+341697:         v_09C71B_0 = p1;
+341698:         v_09C71B_1 = func_08BDD4(load_u64(p0, 0x8));
+341699:         store_ref(v_09C71B_0, 0x0, v_09C71B_1);
+341700:         return 1;
+341701:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+341702:     }
+341703: 
+341704:     [VmFunction(0x09C728)]
+341705:     public static VmValue func_09C728(VmValue arg0, VmValue arg1, VmValue arg2) // 0x09C728
+341706:     {
+341707:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2 };
+341708:         VmValue[] locals = new VmValue[0];
+341709:         ref VmValue p0 = ref parameters[0];
+341710:         ref VmValue p1 = ref parameters[1];
+341711:         ref VmValue p2 = ref parameters[2];
+341712:         VmValue v_09C743_0 = default;
+341713:         if (((as_u64(p1) == 0)))
+341714:         {
+341715:             if (((as_u64(p2) == 0)))
+341716:             {
+341717:                 return 1;
+341718:             }
+341719:             else
+341720:             {
+341721:                 return 0;
+341722:             }
+341723:         }
+341724:         else
+341725:         {
+341726:             if (((as_u64(p2) == 0)))
+341727:             {
+341728:                 return 0;
+341729:             }
+341730:             else
+341731:             {
+341732:                 v_09C743_0 = Virtual.System_Object.Method_3(load_u64(Vm.Address(parameters, 1), 0), p2);
+341733:                 return v_09C743_0;
+341734:             }
+341735:         }
+341736:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+341737:     }
+341738: 
+341739:     [VmFunction(0x09C75E)]
+341740:     public static VmValue func_09C75E(VmValue arg0, VmValue arg1) // 0x09C75E
+341741:     {
+341742:         VmValue[] parameters = new VmValue[] { arg0, arg1 };
+341743:         VmValue[] locals = new VmValue[0];
+341744:         ref VmValue p0 = ref parameters[0];
+341745:         ref VmValue p1 = ref parameters[1];
+341746:         VmValue v_09C773_0 = default;
+341747:         if (((as_u64(p1) != 0)))
+341748:         {
+341749:             v_09C773_0 = Virtual.System_Object.Method_2(load_u64(Vm.Address(parameters, 1), 0));
+341750:             return v_09C773_0;
+341751:         }
+341752:         else
+341753:         {
+341754:             return 0;
+341755:         }
+341756:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+341757:     }
+341758: 
+341759:     [VmFunction(0x09C77A)]
+341760:     public static VmValue func_09C77A(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4) // 0x09C77A
+341761:     {
+341762:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3, arg4 };
+341763:         VmValue[] locals = new VmValue[3];
+341764:         ref VmValue p0 = ref parameters[0];
+341765:         ref VmValue p1 = ref parameters[1];
+341766:         ref VmValue p2 = ref parameters[2];
+341767:         ref VmValue p3 = ref parameters[3];
+341768:         ref VmValue p4 = ref parameters[4];
+Hit line 485210:     [VmFunction(0x0DE590)]
+485210:     [VmFunction(0x0DE590)]
+485211:     public static void func_0DE590(VmValue arg0) // 0x0DE590
+485212:     {
+485213:         VmValue[] parameters = new VmValue[] { arg0 };
+485214:         VmValue[] locals = new VmValue[15];
+485215:         ref VmValue p0 = ref parameters[0];
+485216:         ref VmValue local_0 = ref locals[0];
+485217:         ref VmValue local_1 = ref locals[1];
+485218:         ref VmValue local_2 = ref locals[2];
+485219:         ref VmValue local_3 = ref locals[3];
+485220:         ref VmValue local_4 = ref locals[4];
+485221:         ref VmValue local_5 = ref locals[5];
+485222:         ref VmValue local_6 = ref locals[6];
+485223:         ref VmValue local_7 = ref locals[7];
+485224:         ref VmValue local_8 = ref locals[8];
+485225:         ref VmValue local_9 = ref locals[9];
+485226:         ref VmValue local_10 = ref locals[10];
+485227:         ref VmValue local_11 = ref locals[11];
+485228:         ref VmValue local_12 = ref locals[12];
+485229:         ref VmValue local_13 = ref locals[13];
+485230:         ref VmValue local_14 = ref locals[14];
+485231:         VmValue v_0DE599_0 = default;
+485232:         VmValue v_0DE5A5_0 = default;
+485233:         VmValues v_0DE5D7_0 = null!;
+485234:         VmValues v_0DE5F2_1 = null!;
+485235:         VmValue v_0DE604_2 = default;
+485236:         VmValue v_0DE60F_0 = default;
+485237:         VmValues v_0DE639_0 = null!;
+485238:         VmValue v_0DE64F_1 = default;
+485239:         VmValue v_0DE668_0 = default;
+485240:         VmValue v_0DE68B_1 = default;
+485241:         VmValue v_0DE694_2 = default;
+485242:         VmValue v_0DE6AC_3 = default;
+485243:         label_0DE590: ;
+485244:         v_0DE599_0 = Operations.invoke_delegate__2_1(load_u64(p0, 0x8), Vm.Address(locals, 0));
+485245:         if (((as_u32(v_0DE599_0) != 0)))
+485246:         {
+485247:         goto label_0DE662;
+485248:         }
+485249:         else
+485250:         {
+485251:         goto label_0DE5A5;
+485252:         }
+485253:         label_0DE5A5: ;
+485254:         v_0DE5A5_0 = Native.MISC._GET_GAME_TIMER_NON_SCALED_CLIPPED(); // RVA: 0x03E857D0
+485255:         local_1 = ((as_i32(v_0DE5A5_0) - as_i32(load_i32(p0, 0x10))));
+485256:         if (((as_u32(load_u8(p0, 0x14)) != 0)))
+485257:         {
+485258:         goto label_0DE660;
+485259:         }
+485260:         else
+485261:         {
+485262:         goto label_0DE5BF;
+485263:         }
+485264:         label_0DE5BF: ;
+485265:         if (((as_i32(local_1) <= as_i32(load_i32(p0, 0x18)))))
+485266:         {
+485267:         goto label_0DE660;
+485268:         }
+485269:         else
+485270:         {
+485271:         goto label_0DE5CA;
+485272:         }
+485273:         label_0DE5CA: ;
+485274:         store_u8(p0, 0x14, 1);
+485275:         v_0DE5D7_0 = zero_slots(1);
+485276:         local_3 = 0xFFFFFFFFD40DED2E;
+485277:         local_2 = Vm.Address(v_0DE5D7_0, 0);
+485278:         store_i32(Vm.Address(v_0DE5D7_0, 0), 0x0, local_3);
+485279:         local_5 = load_i32(p0, 0x18);
+485280:         local_4 = v_0DE5D7_0[0];
+485281:         v_0DE5F2_1 = zero_slots(1);
+485282:         local_9 = 0x66ADA297;
+485283:         local_8 = Vm.Address(v_0DE5F2_1, 0);
+485284:         store_i32(Vm.Address(v_0DE5F2_1, 0), 0x0, local_9);
+485285:         v_0DE604_2 = Native._0x455AEFACDC8EA909(v_0DE5F2_1[0], 0); // RVA: 0x04C17EA0
+485286:         if (((as_u32(v_0DE604_2) == 0)))
+485287:         {
+485288:         goto label_0DE633;
+485289:         }
+485290:         else

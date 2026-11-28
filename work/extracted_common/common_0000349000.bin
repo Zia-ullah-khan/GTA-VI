@@ -1,0 +1,3124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="Bespoke_test"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="Car_Cam_001"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp0_x>-8.408826 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.537044 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.818511 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.364248 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.188173 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.711463 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.229819 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.093294 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.861408 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.020503 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.863481 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.994369 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.914279 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.030959 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <ped_light_falloff>0.000000 1.000000</ped_light_falloff>
+    <ped_light_falloff_start>0.500000 1.000000</ped_light_falloff_start>
+    <ped_light_wrap_min>0.200000 1.000000</ped_light_wrap_min>
+  </modifier>
+  <modifier
+    name="CLB_MEET_MCS1_GET_KEYS_post"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_desaturation>1.200000 0.000000</postfx_desaturation>
+    <postfx_lens_flares_intensity>0.050000 0.000000</postfx_lens_flares_intensity>
+  </modifier>
+  <modifier
+    name="Creepy_Clown_Elevator"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>-7.000000 0.000000</postfx_exposure>
+    <postfx_grad_top_col_r>0.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>0.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>0.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>0.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>0.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>0.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>0.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>0.000000 0.000000</postfx_grad_bottom_col_b>
+    <indirect_light_refresh>1.000000 0.000000</indirect_light_refresh>
+  </modifier>
+  <modifier
+    name="Creepy_Clown_Elevator_blackout"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_refresh>1.000000 0.000000</indirect_light_refresh>
+  </modifier>
+  <modifier
+    name="Jason_Lucia_Pause_Menu"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.250000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.950000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure_max>-8.250000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-8.250000 0.000000</postfx_exposure_min>
+    <wind_speed_mult>0.000000 0.000000</wind_speed_mult>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <postfx_desaturation>1.050000 0.000000</postfx_desaturation>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.257339 0.000000</postfx_noise_size>
+    <postfx_noise>0.225000 0.000000</postfx_noise>
+    <postfx_weather_color_correction>0.000000 0.000000</postfx_weather_color_correction>
+    <postfx_correct_col_r>1.000000 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>1.000000 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>1.000000 0.000000</postfx_correct_col_b>
+    <postfx_color_grading_global_offset_r>0.000000 0.000000</postfx_color_grading_global_offset_r>
+    <postfx_color_grading_global_offset_g>0.000000 0.000000</postfx_color_grading_global_offset_g>
+    <postfx_color_grading_global_offset_b>0.000000 0.000000</postfx_color_grading_global_offset_b>
+    <postfx_color_grading_global_offset_a>0.000000 0.000000</postfx_color_grading_global_offset_a>
+    <postfx_local_exposure_dt_contrast>1.000000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_color_grading_enabled>0.000000 0.000000</postfx_color_grading_enabled>
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.104376 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_lens_flares_intensity>1.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_contrast_amount>1.000000 0.000000</postfx_contrast_amount>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_dst_color_temp>5000.000000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_src_color_temp>5000.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_auto_mode_blend_scale>0.700000 0.000000</postfx_white_balance_auto_mode_blend_scale>
+    <postfx_white_balance_auto_mode_blend_bias>-0.050000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_vignette_axis_scale_x>0.750000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_outer_radius>732.979431 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_intensity>3809.034912 0.000000</postfx_vignette_intensity>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+  </modifier>
+  <modifier
+    name="CS_FBK_MCS1_THEY_MEET"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_override_mapdata_color_mult_r>1.000000 0.000000</light_override_mapdata_color_mult_r>
+    <light_override_mapdata_color_mult_g>0.596078 0.000000</light_override_mapdata_color_mult_g>
+    <light_override_mapdata_color_mult_b>0.149020 0.000000</light_override_mapdata_color_mult_b>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_vignette_intensity>0.500000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <wind_speed_mult>0.200000 0.000000</wind_speed_mult>
+    <sky_scattering_moon_illuminance>0.100000 0.000000</sky_scattering_moon_illuminance>
+    <postfx_noise_size>0.411514 0.000000</postfx_noise_size>
+    <postfx_noise>0.300000 0.000000</postfx_noise>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+  </modifier>
+  <modifier
+    name="UFOARA_IG3_BAD_END_IGSC"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_max>-3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-9.000000 0.000000</postfx_exposure_min>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="MISSION_bilConfrInt_SunPos1"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.245031 0.000000</sun_direction_x>
+    <sun_direction_y>0.159115 0.000000</sun_direction_y>
+    <sun_direction_z>0.065925 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <light_dir_col_r>0.890000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.675000 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392000 1.000000</light_dir_col_b>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="MISSION_bilConfrInt_SunPos2"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.245031 0.000000</sun_direction_x>
+    <sun_direction_y>0.099386 0.000000</sun_direction_y>
+    <sun_direction_z>0.065925 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <light_dir_col_r>0.890000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.675000 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392000 1.000000</light_dir_col_b>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="MISSION_bilConfrInt_SunPos3"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.280461 0.000000</sun_direction_x>
+    <sun_direction_y>0.098386 0.000000</sun_direction_y>
+    <sun_direction_z>0.065925 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <light_dir_col_r>0.890000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.675000 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392000 1.000000</light_dir_col_b>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="MISSION_bilConfrInt_SunPos4"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.174443 0.000000</sun_direction_x>
+    <sun_direction_y>0.077667 0.000000</sun_direction_y>
+    <sun_direction_z>0.065925 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <light_dir_col_r>0.890000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.675000 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392000 1.000000</light_dir_col_b>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="FBK_robbery"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.600000 0.000000</sun_direction_x>
+    <sun_direction_y>0.200000 0.000000</sun_direction_y>
+    <sun_direction_z>0.300000 0.000000</sun_direction_z>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_intensity>0.200000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <dir_shadow_softness>-1.000000 0.000000</dir_shadow_softness>
+    <postfx_exposure_adaption_step_mult>4.000000 0.000000</postfx_exposure_adaption_step_mult>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+  </modifier>
+  <modifier
+    name="FBK_robbery_fadeIn"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="8"
+    userFlags="0"
+  >
+    <postfx_dof_override_fnumber_blend>1.000000 0.000000</postfx_dof_override_fnumber_blend>
+    <postfx_dof_override_focal_length_blend>1.000000 0.000000</postfx_dof_override_focal_length_blend>
+    <postfx_dof_override_focus_distance_blend>1.000000 0.000000</postfx_dof_override_focus_distance_blend>
+    <postfx_dof_fnumber>2.119171 0.000000</postfx_dof_fnumber>
+    <postfx_dof_focal_length>300.000000 0.000000</postfx_dof_focal_length>
+    <postfx_dof_focus_distance>100.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_exposure_min>-3.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_adaption_step_mult>4.000000 0.000000</postfx_exposure_adaption_step_mult>
+    <postfx_intensity_bloom>2.880000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="fbk_vcVista"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>0.453877 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.629214 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <local_atmosphere_cloud_map_position_x>0.150000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.530000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_wind_shear>0.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>599.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>31.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-205.690002 0.000000</local_atmosphere_cloud_noise_position_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_x>0.869471 0.000000</moon_direction_x>
+    <moon_direction_y>-0.634518 0.000000</moon_direction_y>
+    <moon_direction_z>0.240029 0.000000</moon_direction_z>
+    <sun_fade_threshold>0.000000 0.000000</sun_fade_threshold>
+    <moon_fade_threshold>180.000000 0.000000</moon_fade_threshold>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <postfx_exposure_min>-1.300000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-1.300000 0.000000</postfx_exposure_max>
+    <sky_scattering_moon_illuminance>0.500000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_direct_light_intensity>3.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <sky_new_mie_phase_eccentricity>0.903408 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_fog_density>0.000100 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff>2508.831055 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.001000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_intensity_multiscattering>0.500000 0.000000</sky_new_intensity_multiscattering>
+    <sky_new_intensity_multiscattering_volume>1.000000 0.000000</sky_new_intensity_multiscattering_volume>
+    <sky_scattering_sun_illuminance>20000.000000 0.000000</sky_scattering_sun_illuminance>
+    <postfx_grad_top_col_r>0.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.262745 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>0.611765 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>0.717647 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_bloom_luminance_filter_multiplier_1>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_1>
+    <postfx_bloom_luminance_filter_multiplier_2>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_2>
+    <postfx_bloom_luminance_filter_multiplier_3>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_3>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_motionblur_strength_scale>1.800000 0.000000</postfx_motionblur_strength_scale>
+    <postfx_screen_trails_intensity>0.703219 0.000000</postfx_screen_trails_intensity>
+    <postfx_desaturation>1.204761 0.000000</postfx_desaturation>
+    <sky_new_ozo_extinction_intensity>0.503898 0.000000</sky_new_ozo_extinction_intensity>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_z>-0.129956 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <postfx_local_exposure_dt_contrast>1.972045 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+  </modifier>
+  <modifier
+    name="fbk_vcVista_firstFrame"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>0.453877 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.629214 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <local_atmosphere_cloud_map_position_x>0.150000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.530000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_wind_shear>0.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>599.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>31.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-205.690002 0.000000</local_atmosphere_cloud_noise_position_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_x>0.869471 0.000000</moon_direction_x>
+    <moon_direction_y>-0.634518 0.000000</moon_direction_y>
+    <moon_direction_z>0.240029 0.000000</moon_direction_z>
+    <sun_fade_threshold>0.000000 0.000000</sun_fade_threshold>
+    <moon_fade_threshold>180.000000 0.000000</moon_fade_threshold>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <postfx_exposure_min>-1.300000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-1.300000 0.000000</postfx_exposure_max>
+    <sky_scattering_moon_illuminance>0.500000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_direct_light_intensity>3.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <sky_new_mie_phase_eccentricity>0.903408 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_fog_density>0.000100 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff>2508.831055 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.001000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_intensity_multiscattering>0.500000 0.000000</sky_new_intensity_multiscattering>
+    <sky_new_intensity_multiscattering_volume>1.000000 0.000000</sky_new_intensity_multiscattering_volume>
+    <sky_scattering_sun_illuminance>20000.000000 0.000000</sky_scattering_sun_illuminance>
+    <postfx_grad_top_col_r>0.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.262745 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>0.611765 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>0.717647 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_bloom_luminance_filter_multiplier_1>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_1>
+    <postfx_bloom_luminance_filter_multiplier_2>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_2>
+    <postfx_bloom_luminance_filter_multiplier_3>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_3>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_motionblur_strength_scale>1.800000 0.000000</postfx_motionblur_strength_scale>
+    <postfx_desaturation>1.204761 0.000000</postfx_desaturation>
+    <sky_new_ozo_extinction_intensity>0.503898 0.000000</sky_new_ozo_extinction_intensity>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_z>-0.129956 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <postfx_local_exposure_dt_contrast>1.972045 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+  </modifier>
+  <modifier
+    name="fbk_mattiaDriveAlong"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_x>-0.237128 0.000000</moon_direction_x>
+    <moon_direction_y>-0.973894 0.000000</moon_direction_y>
+    <moon_direction_z>0.361856 0.000000</moon_direction_z>
+    <sky_scattering_height_min_multiplier>4.397389 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.070000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.690000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>599.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>31.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-200.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_wind_shear>0.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_direct_light_intensity>3.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_grad_top_col_mult>3.076277 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.720607 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <sky_new_ray_scattering_col_r>0.070588 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.317647 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.949020 0.000000</sky_new_ray_scattering_col_b>
+    <postfx_grad_right_col_mult>1.674982 0.000000</postfx_grad_right_col_mult>
+    <postfx_grad_left_col_mult>0.000000 0.000000</postfx_grad_left_col_mult>
+    <postfx_grad_center_col_mult>1.000000 0.000000</postfx_grad_center_col_mult>
+    <sky_scattering_sun_illuminance>1000.000000 0.000000</sky_scattering_sun_illuminance>
+    <sky_new_mie_scattering_intensity>0.000000 0.000000</sky_new_mie_scattering_intensity>
+    <postfx_grad_middle_bottom_midpoint>0.591577 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_local_exposure_dt_contrast>1.531285 0.000000</postfx_local_exposure_dt_contrast>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_z>-0.080000 0.000000</sun_direction_z>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sky_new_intensity_multiscattering>1.000000 0.000000</sky_new_intensity_multiscattering>
+    <sky_new_ozo_extinction_intensity>2.036717 0.000000</sky_new_ozo_extinction_intensity>
+    <postfx_white_balance_auto_mode_blend_scale>0.000000 0.000000</postfx_white_balance_auto_mode_blend_scale>
+    <postfx_white_balance_auto_mode_blend_bias>-0.088986 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_grad_top_col_r>0.015686 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.466667 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>0.701961 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>0.392157 0.000000</postfx_grad_bottom_col_b>
+  </modifier>
+  <modifier
+    name="fbk_mattiaDrivetowards"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <moon_direction_x>-0.047816 0.000000</moon_direction_x>
+    <moon_direction_y>-0.951094 0.000000</moon_direction_y>
+    <moon_direction_z>0.160904 0.000000</moon_direction_z>
+    <sky_new_intensity_aerial>1.000000 0.000000</sky_new_intensity_aerial>
+    <sky_scattering_height_min_multiplier>4.397389 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.040000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.459999 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>343.609985 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>577.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>328.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_wind_shear>0.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_direct_light_intensity>3.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_grad_top_col_mult>2.148706 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.402091 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <sky_scattering_sun_illuminance>5000.000000 0.000000</sky_scattering_sun_illuminance>
+    <light_override_vehicle_intensity>0.100000 0.000000</light_override_vehicle_intensity>
+    <postfx_grad_right_dynamic_mult>0.000000 0.000000</postfx_grad_right_dynamic_mult>
+    <postfx_grad_center_dynamic_mult>0.000000 0.000000</postfx_grad_center_dynamic_mult>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.500000 0.000000</postfx_vignette_outer_radius>
+    <sky_scattering_moon_illuminance>0.300000 0.000000</sky_scattering_moon_illuminance>
+    <sky_new_mie_scattering_intensity>0.000000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_intensity_multiscattering>1.000000 0.000000</sky_new_intensity_multiscattering>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <sky_new_ray_scattering_col_r>0.070588 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.317647 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.949020 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_ozo_extinction_intensity>1.536621 0.000000</sky_new_ozo_extinction_intensity>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_light_pollution_emissive_color_r>1.000000 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>1.000000 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>1.000000 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <postfx_grad_center_col_mult>1.000000 0.000000</postfx_grad_center_col_mult>
+    <postfx_grad_left_col_mult>0.973992 0.000000</postfx_grad_left_col_mult>
+    <postfx_grad_right_col_mult>0.713914 0.000000</postfx_grad_right_col_mult>
+    <postfx_grad_left_dynamic_mult>0.000000 0.000000</postfx_grad_left_dynamic_mult>
+    <postfx_local_exposure_dt_contrast>1.707902 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_motionblur_strength_scale>2.877262 0.000000</postfx_motionblur_strength_scale>
+    <postfx_screen_trails_intensity>0.276108 0.000000</postfx_screen_trails_intensity>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_desaturation>1.254738 0.000000</postfx_desaturation>
+    <sun_direction_z>-0.039942 0.000000</sun_direction_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <postfx_grad_top_col_r>0.207843 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.584314 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_white_balance_auto_mode_blend_bias>-0.405889 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.149182 0.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_grad_middle_col_r>0.823529 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>0.650980 0.000000</postfx_grad_middle_col_b>
+  </modifier>
+  <modifier
+    name="fbk_bonding"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <indirect_light_sky_multiplier_coverage>10.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_sky_multiplier>0.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_global_multiplier>3.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_local_lights_multiplier>0.500000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.167292 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <light_override_mapdata_intensity>0.300000 0.000000</light_override_mapdata_intensity>
+  </modifier>
+  <modifier
+    name="fbk_valentina"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.230000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.311995 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_y>-0.535896 0.000000</sun_direction_y>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <sun_direction_z>0.446701 0.000000</sun_direction_z>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <wind_gust_speed_max_kmh>0.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_gust_speed_min_kmh>0.000000 0.000000</wind_gust_speed_min_kmh>
+  </modifier>
+  <modifier
+    name="fbk_natebyPool"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="fbk_raulAtDock"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.240001 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.270000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_x>-71.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>-190.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>187.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_cirrostratus_density>0.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+    <local_atmosphere_custom_cloud_group_0_index>2.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.010000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>6126.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>10500.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+  </modifier>
+  <modifier
+    name="fbk_dreOutsideJOH"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.171793 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_dof_focal_length>54.217617 0.000000</postfx_dof_focal_length>
+    <postfx_dof_fnumber>1.000000 0.000000</postfx_dof_fnumber>
+    <postfx_dof_override_focus_distance_blend>1.000000 0.000000</postfx_dof_override_focus_distance_blend>
+    <postfx_dof_override_focal_length_blend>1.000000 0.000000</postfx_dof_override_focal_length_blend>
+    <postfx_dof_focus_distance>20.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_dof_override_fnumber_blend>1.000000 0.000000</postfx_dof_override_fnumber_blend>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+  </modifier>
+  <modifier
+    name="fbk_sunset"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-0.164612 0.000000</sun_direction_y>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_z>0.026106 0.000000</sun_direction_z>
+    <light_direction_override_overrides_sun>1.000000 0.000000</light_direction_override_overrides_sun>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <light_intensity_mult>15.803834 0.000000</light_intensity_mult>
+    <local_atmosphere_cloud_map_position_x>0.540000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.140000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-42.410004 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <sky_scattering_height_min_multiplier>12.260406 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>100.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density>0.000300 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_cloud_altitude_max>1.000000 0.000000</local_atmosphere_cloud_altitude_max>
+    <wind_override_prevailing_wind_angle>1.000000 0.000000</wind_override_prevailing_wind_angle>
+    <wind_prevailing_wind_angle>0.000000 0.000000</wind_prevailing_wind_angle>
+    <sky_new_ray_scattering_col_r>0.137255 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.301961 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.729412 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_intensity_aerial>0.191443 0.000000</sky_new_intensity_aerial>
+    <local_atmosphere_direct_light_intensity>0.300000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_grad_bottom_col_mult>0.089128 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>0.324192 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>0.000000 0.000000</postfx_grad_top_col_mult>
+    <light_dir_mult>0.700000 1.000000</light_dir_mult>
+    <sky_scattering_sun_disk_intensity_multiplier>256.000000 0.000000</sky_scattering_sun_disk_intensity_multiplier>
+    <light_vehicle_nighttime_anim_prob>1.000000 0.000000</light_vehicle_nighttime_anim_prob>
+    <direct_light_haze_blend_scale>0.000000 0.000000</direct_light_haze_blend_scale>
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.525490 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.407843 1.000000</light_dir_col_b>
+    <sky_scattering_diffusion_intensity>278.283478 0.000000</sky_scattering_diffusion_intensity>
+  </modifier>
+  <modifier
+    name="fbk_dunk"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <light_direction_override_overrides_sun>1.000000 0.000000</light_direction_override_overrides_sun>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.021030 0.000000</sun_direction_y>
+    <sun_direction_z>0.026106 0.000000</sun_direction_z>
+    <local_atmosphere_fog_density>0.005000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>100.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.540000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.140000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-42.410004 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_altitude_max>1.000000 0.000000</local_atmosphere_cloud_altitude_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_override_prevailing_wind_angle>1.000000 0.000000</wind_override_prevailing_wind_angle>
+    <wind_prevailing_wind_angle>0.000000 0.000000</wind_prevailing_wind_angle>
+    <sun_fade_threshold>180.000000 0.000000</sun_fade_threshold>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-0.233308 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <postfx_dof_focal_length>36.000000 0.000000</postfx_dof_focal_length>
+    <postfx_dof_fnumber>4.000000 0.000000</postfx_dof_fnumber>
+    <postfx_dof_override_focus_distance_blend>1.000000 0.000000</postfx_dof_override_focus_distance_blend>
+    <postfx_dof_override_focal_length_blend>1.000000 0.000000</postfx_dof_override_focal_length_blend>
+    <postfx_dof_override_fnumber_blend>1.000000 0.000000</postfx_dof_override_fnumber_blend>
+    <postfx_dof_focus_distance>10.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.499510 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.471107 0.000000</postfx_grad_middle_col_mult>
+    <sky_scattering_height_min_multiplier>7.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sun_moon_crossfade>1.000000 0.000000</sun_moon_crossfade>
+  </modifier>
+  <modifier
+    name="fbk_gellyVista"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_map_position_x>0.490000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_x>0.000000 0.000000</moon_direction_x>
+    <moon_direction_y>0.239957 0.000000</moon_direction_y>
+    <moon_direction_z>0.081218 0.000000</moon_direction_z>
+    <sky_new_intensity_aerial>0.282088 0.000000</sky_new_intensity_aerial>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <light_dir_mult>0.300000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.005000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff>7.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_height>5.000000 0.000000</local_atmosphere_fog_height>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_middle_col_mult>1.293470 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.576941 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_right_dynamic_mult>0.000000 0.000000</postfx_grad_right_dynamic_mult>
+    <postfx_grad_center_dynamic_mult>0.000000 0.000000</postfx_grad_center_dynamic_mult>
+    <postfx_grad_left_dynamic_mult>0.000000 0.000000</postfx_grad_left_dynamic_mult>
+    <postfx_grad_right_col_mult>0.207630 0.000000</postfx_grad_right_col_mult>
+    <postfx_grad_center_col_mult>1.234776 0.000000</postfx_grad_center_col_mult>
+    <postfx_grad_left_col_mult>0.706530 0.000000</postfx_grad_left_col_mult>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>1.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_intensity>0.200000 0.000000</postfx_vignette_intensity>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <light_vehicle_lod_light_distance>75.000000 0.000000</light_vehicle_lod_light_distance>
+  </modifier>
+  <modifier
+    name="fbk_motoMudPark"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-0.125281 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <local_atmosphere_cloud_raymarch_step_exponent_bias>4.000000 0.000000</local_atmosphere_cloud_raymarch_step_exponent_bias>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_lens_flares_intensity>0.020000 0.000000</postfx_lens_flares_intensity>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_y>-0.031182 0.000000</sun_direction_y>
+    <sun_direction_z>0.131617 0.000000</sun_direction_z>
+    <sun_direction_x>-0.182741 0.000000</sun_direction_x>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>0.588639 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="fbk_wyman"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.043510 0.000000</sun_direction_x>
+    <sun_direction_y>0.493836 0.000000</sun_direction_y>
+    <sun_direction_z>0.816171 0.000000</sun_direction_z>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_lens_flares_intensity>0.020000 0.000000</postfx_lens_flares_intensity>
+    <local_atmosphere_cloud_cirrus_position_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_position_x>
+    <local_atmosphere_cloud_cirrus_position_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_position_y>
+    <local_atmosphere_cloud_cirrus_position_override>1.000000 0.000000</local_atmosphere_cloud_cirrus_position_override>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+  </modifier>
+  <modifier
+    name="fbk_kenton"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_ocean_fetch>100.000000 0.000000</water_ocean_fetch>
+    <water_ocean_beaufort_scale>1.500000 0.000000</water_ocean_beaufort_scale>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-0.860465 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <light_dir_mult>1.300000 1.000000</light_dir_mult>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_x>-0.736041 0.000000</sun_direction_x>
+    <sun_direction_y>0.325598 0.000000</sun_direction_y>
+    <sun_direction_z>1.000000 0.000000</sun_direction_z>
+    <local_atmosphere_custom_cloud_group_0_index>-0.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>1518.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>-20100.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_1_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_1_index>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>0.500000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.500000 0.000000</postfx_vignette_outer_radius>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.091954 0.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_white_balance_auto_mode_blend_bias>0.033716 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_exposure_min>-12.800000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-12.800000 0.000000</postfx_exposure_max>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>1031.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>360.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>207.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sky_new_intensity_aerial>0.500000 0.000000</sky_new_intensity_aerial>
+    <postfx_grad_left_dynamic_mult>0.000000 0.000000</postfx_grad_left_dynamic_mult>
+    <postfx_grad_center_dynamic_mult>0.000000 0.000000</postfx_grad_center_dynamic_mult>
+    <postfx_grad_right_dynamic_mult>0.000000 0.000000</postfx_grad_right_dynamic_mult>
+    <postfx_grad_left_col_mult>0.559795 0.000000</postfx_grad_left_col_mult>
+    <postfx_grad_center_col_mult>1.234776 0.000000</postfx_grad_center_col_mult>
+    <postfx_grad_right_col_mult>0.618489 0.000000</postfx_grad_right_col_mult>
+    <postfx_contrast_amount>1.100000 0.000000</postfx_contrast_amount>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+  </modifier>
+  <modifier
+    name="fbk_kentonDive"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_direction_override_overrides_sun>1.000000 0.000000</light_direction_override_overrides_sun>
+    <sun_direction_x>-0.055112 0.000000</sun_direction_x>
+    <sun_direction_y>-0.103698 0.000000</sun_direction_y>
+    <sun_direction_z>0.127629 0.000000</sun_direction_z>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_lens_flares_intensity>0.100000 0.000000</postfx_lens_flares_intensity>
+    <postfx_vignette_tint_r>0.439216 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.439216 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.439216 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+  </modifier>
+  <modifier
+    name="fbk_lighthouse"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.339999 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.070000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.014503 0.000000</sun_direction_x>
+    <sun_direction_y>-0.727339 0.000000</sun_direction_y>
+    <sun_direction_z>0.699057 0.000000</sun_direction_z>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure>-0.500000 0.000000</postfx_exposure>
+    <postfx_exposure_min>-13.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-13.000000 0.000000</postfx_exposure_max>
+    <sky_new_ray_scattering_col_r>0.086275 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.329412 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.956863 0.000000</sky_new_ray_scattering_col_b>
+    <postfx_white_balance_auto_mode_blend_bias>-0.095019 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.012061 0.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <wind_override_prevailing_wind_angle>0.000000 0.000000</wind_override_prevailing_wind_angle>
+    <wind_prevailing_wind_angle>0.000000 0.000000</wind_prevailing_wind_angle>
+    <wind_speed_mult>1.000000 0.000000</wind_speed_mult>
+    <water_ocean_beaufort_scale>1.669049 0.000000</water_ocean_beaufort_scale>
+    <water_ocean_fetch>200.000000 0.000000</water_ocean_fetch>
+    <local_atmosphere_cloud_cirrostratus_density>0.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <sky_scattering_height_min_multiplier>7.000000 0.000000</sky_scattering_height_min_multiplier>
+    <postfx_contrast_amount>1.100000 0.000000</postfx_contrast_amount>
+    <postfx_grad_top_col_mult>0.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.526045 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_midpoint>0.689288 0.000000</postfx_grad_midpoint>
+  </modifier>
+  <modifier
+    name="fbk_delights"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>-0.719430 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-0.062266 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.744368 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>2.000000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="fbk_boobie"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>2.000000 0.000000</postfx_exposure>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_lens_flares_intensity>0.100000 0.000000</postfx_lens_flares_intensity>
+  </modifier>
+  <modifier
+    name="fbk_vickiShots"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>0.499256 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_left_col_mult>1.763957 0.000000</postfx_grad_left_col_mult>
+    <postfx_grad_center_col_mult>1.000000 0.000000</postfx_grad_center_col_mult>
+    <postfx_grad_right_col_mult>0.559256 0.000000</postfx_grad_right_col_mult>
+    <temperature_target>35.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="fbk_cityArt"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.335907 0.000000</sun_direction_y>
+    <sun_direction_z>0.002901 0.000000</sun_direction_z>
+    <sun_fade_threshold>180.000000 0.000000</sun_fade_threshold>
+    <moon_fade_threshold>0.000000 0.000000</moon_fade_threshold>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>1.263045 0.000000</dir_shadow_quality>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.300000 0.000000</postfx_local_exposure_dt_contrast>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density>0.001000 0.000000</local_atmosphere_fog_density>
+    <indirect_light_sky_multiplier_coverage>200.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_sky_multiplier>0.200000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <sun_moon_crossfade>0.500000 0.000000</sun_moon_crossfade>
+    <sky_scattering_sun_illuminance>30000.000000 0.000000</sky_scattering_sun_illuminance>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>
+  </modifier>
+  <modifier
+    name="fbk_hotelPanUp"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.129007 0.000000</sun_direction_x>
+    <sun_direction_y>0.160261 0.000000</sun_direction_y>
+    <sun_direction_z>0.130529 0.000000</sun_direction_z>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.400000 0.000000</postfx_local_exposure_dt_contrast>
+    <color_temperature_target>0.575780 0.000000</color_temperature_target>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <postfx_lens_flares_intensity>0.100000 0.000000</postfx_lens_flares_intensity>
+    <sky_scattering_height_min_multiplier>3.000000 0.000000</sky_scattering_height_min_multiplier>
+    <postfx_dof_focus_distance>17.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_dof_focal_length>54.694473 0.000000</postfx_dof_focal_length>
+    <postfx_dof_fnumber>4.000000 0.000000</postfx_dof_fnumber>
+    <postfx_dof_override_focus_distance_blend>1.000000 0.000000</postfx_dof_override_focus_distance_blend>
+    <postfx_dof_override_focal_length_blend>1.000000 0.000000</postfx_dof_override_focal_length_blend>
+    <postfx_dof_override_fnumber_blend>1.000000 0.000000</postfx_dof_override_fnumber_blend>
+    <postfx_bloom_luminance_filter_multiplier_2>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_2>
+    <postfx_bloom_luminance_filter_multiplier_0>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_0>
+    <postfx_bloom_luminance_filter_multiplier_1>0.000000 0.000000</postfx_bloom_luminance_filter_multiplier_1>
+    <indirect_light_directional_multiplier>3.000000 0.000000</indirect_light_directional_multiplier>
+    <postfx_exposure_min>-12.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-12.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="MISSION_coastgaurdRiad_outro"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_x>-0.620000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.410000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+    <local_atmosphere_custom_cloud_group_0_index>-0.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>10100.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>3400.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_1_index>7.000000 0.000000</local_atmosphere_custom_cloud_group_1_index>
+    <local_atmosphere_custom_cloud_group_1_density>1.010000 0.000000</local_atmosphere_custom_cloud_group_1_density>
+    <local_atmosphere_custom_cloud_group_1_position_x>13100.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_x>
+    <local_atmosphere_custom_cloud_group_1_position_y>23100.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_y>
+    <local_atmosphere_fog_density>0.003000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>200.107224 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.100000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>10.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_custom_cloud_group_2_index>1.000000 0.000000</local_atmosphere_custom_cloud_group_2_index>
+    <local_atmosphere_custom_cloud_group_2_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_2_density>
+    <local_atmosphere_custom_cloud_group_2_position_x>6100.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_x>
+    <local_atmosphere_custom_cloud_group_2_position_y>-3000.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_y>
+    <minimum_wetness>0.000000 0.000000</minimum_wetness>
+    <maximum_wetness>0.517241 0.000000</maximum_wetness>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>1.470953 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>0.647836 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.586941 0.000000</postfx_grad_top_col_mult>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>1.500000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <local_atmosphere_cloud_shadow_alpha>0.500000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_fog_shadow_intensity>1.000000 0.000000</local_atmosphere_fog_shadow_intensity>
+    <local_atmosphere_rain_shadow_intensity>0.000000 0.000000</local_atmosphere_rain_shadow_intensity>
+    <local_atmosphere_rain_probabiliy>0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>0.000000 0.000000</gpu_fx_density>
+  </modifier>
+  <modifier
+    name="MISSION_coastgaurdRiad_outro2"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density>0.003000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>200.107224 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.100000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>10.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.620000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.410000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_custom_cloud_group_0_index>-0.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>10100.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>3400.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_1_index>7.000000 0.000000</local_atmosphere_custom_cloud_group_1_index>
+    <local_atmosphere_custom_cloud_group_1_density>1.010000 0.000000</local_atmosphere_custom_cloud_group_1_density>
+    <local_atmosphere_custom_cloud_group_1_position_x>13100.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_x>
+    <local_atmosphere_custom_cloud_group_1_position_y>23100.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_y>
+    <local_atmosphere_custom_cloud_group_2_index>1.000000 0.000000</local_atmosphere_custom_cloud_group_2_index>
+    <local_atmosphere_custom_cloud_group_2_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_2_density>
+    <local_atmosphere_custom_cloud_group_2_position_x>6100.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_x>
+    <local_atmosphere_custom_cloud_group_2_position_y>-3000.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_y>
+    <postfx_grad_top_col_mult>2.878210 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.765224 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.470953 0.000000</postfx_local_exposure_dt_contrast>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+    <minimum_wetness>0.000000 0.000000</minimum_wetness>
+    <maximum_wetness>0.517241 0.000000</maximum_wetness>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>1.500000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.000000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <local_atmosphere_cloud_shadow_alpha>0.000000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_shadow_intensity>1.000000 0.000000</local_atmosphere_fog_shadow_intensity>
+    <local_atmosphere_rain_shadow_intensity>1.000000 0.000000</local_atmosphere_rain_shadow_intensity>
+    <local_atmosphere_rain_probabiliy>0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>0.000000 0.000000</gpu_fx_density>
+  </modifier>
+  <modifier
+    name="MISSION_coastgaurdRiad_blend2outro"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.000000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <local_atmosphere_cloud_shadow_alpha>0.000000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_fog_shadow_intensity>1.000000 0.000000</local_atmosphere_fog_shadow_intensity>
+    <local_atmosphere_rain_shadow_intensity>1.000000 0.000000</local_atmosphere_rain_shadow_intensity>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>0.790255 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>2.878210 0.000000</postfx_grad_top_col_mult>
+    <local_atmosphere_fog_density>0.003000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff_layer_1>10.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_cloud_map_position_x>-0.620000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.410000 0.000000</local_atmosphere_cloud_map_position_y>
+  </modifier>
+  <modifier
+    name="CS_antiqueSearch_moon_01"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <moon_direction_x>0.749521 0.000000</moon_direction_x>
+    <moon_direction_y>1.000000 0.000000</moon_direction_y>
+    <moon_direction_z>0.900000 0.000000</moon_direction_z>
+    <sky_moon_disc_size>1.000000 0.000000</sky_moon_disc_size>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <sky_scattering_moon_illuminance>1.000000 0.000000</sky_scattering_moon_illuminance>
+    <sky_scattering_sun_illuminance>0.000000 0.000000</sky_scattering_sun_illuminance>
+    <sun_fade_threshold>90.000000 0.000000</sun_fade_threshold>
+    <indirect_light_emissive_multiplier>0.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <postfx_exposure>-0.500000 0.000000</postfx_exposure>
+    <sky_moon_iten>1.000000 0.000000</sky_moon_iten>
+  </modifier>
+  <modifier
+    name="MISSION_trainMontage_clouds01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.340000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.690000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="MISSION_trainMontage_clouds02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.590000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.830000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="BIL_PRECI_IG8_CONVOY_INT"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <camera_light_enable>0.000000 0.000000</camera_light_enable>
+  </modifier>
+  <modifier
+    name="CS_Timelapse_EXP"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_adaption_step_mult>300.000000 0.000000</postfx_exposure_adaption_step_mult>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <local_atmosphere_cloud_wind_velocity_scale>32.000000 0.000000</local_atmosphere_cloud_wind_velocity_scale>
+    <local_atmosphere_cirrus_wind_velocity_scale>64.000000 0.000000</local_atmosphere_cirrus_wind_velocity_scale>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>8.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <local_atmosphere_cloud_wind_noise_velocity_up>-16.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_up>
+  </modifier>
+  <modifier
+    name="OUTRO_credits_overwatch"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_height>20.497709 0.000000</local_atmosphere_fog_height>
+    <sun_direction_x>-0.589517 0.000000</sun_direction_x>
+    <sun_direction_y>-0.073002 0.000000</sun_direction_y>
+    <sun_direction_z>0.020062 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_atmosphere_fog_density>0.053169 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="OUTRO_leaving"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.290000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.110000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_cafeteria"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.230181 0.000000</sun_direction_x>
+    <sun_direction_y>0.129491 0.000000</sun_direction_y>
+    <sun_direction_z>0.055530 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_benches"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>0.120000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.030000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_working"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.689824 0.000000</sun_direction_x>
+    <sun_direction_y>-0.135343 0.000000</sun_direction_y>
+    <sun_direction_z>0.019525 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.010000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.010000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="OUTRO_meeting_suite"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_z>0.088848 0.000000</sun_direction_z>
+    <sun_direction_y>0.307728 0.000000</sun_direction_y>
+    <sun_direction_x>0.111060 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="MISSION_clubLaunchParty_beachSun"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.959695 0.000000</sun_direction_x>
+    <sun_direction_y>0.111942 0.000000</sun_direction_y>
+    <sun_direction_z>0.002000 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>-1.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.810000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_cell_reading"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>0.130000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.050000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <light_col_mult_r>0.623529 1.000000</light_col_mult_r>
+    <light_col_mult_g>1.000000 1.000000</light_col_mult_g>
+    <light_col_mult_b>0.219608 1.000000</light_col_mult_b>
+  </modifier>
+  <modifier
+    name="OUTRO_driving"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_z>0.350950 0.000000</sun_direction_z>
+    <sun_direction_y>-0.369762 0.000000</sun_direction_y>
+    <sun_direction_x>-0.057915 0.000000</sun_direction_x>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.090000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.070000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>261.280029 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sky_new_intensity_aerial>3.244421 0.000000</sky_new_intensity_aerial>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <direct_light_haze_intensity>0.000000 0.000000</direct_light_haze_intensity>
+    <indirect_light_sky_multiplier>0.250000 0.000000</indirect_light_sky_multiplier>
+    <force_all_vehicles_wet>1.000000 0.000000</force_all_vehicles_wet>
+    <no_wet_peds>1.000000 0.000000</no_wet_peds>
+    <spatter_intensity_override>0.673877 0.000000</spatter_intensity_override>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_fog_type_5_height_multiplier>2.000000 0.000000</local_fog_type_5_height_multiplier>
+    <local_atmosphere_direct_light_intensity>1.500000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_exposure>0.150000 0.000000</postfx_exposure>
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <color_temperature_target>0.600000 0.000000</color_temperature_target>
+    <humidity>0.000000 0.000000</humidity>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_gift_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>0.090000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.360000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.089311 0.000000</sun_direction_y>
+    <sun_direction_z>0.024988 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_fog_type_3_height_multiplier>10.000000 0.000000</local_fog_type_3_height_multiplier>
+    <local_fog_type_3_density_multiplier>0.025838 0.000000</local_fog_type_3_density_multiplier>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_gift_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.463631 0.000000</sun_direction_x>
+    <sun_direction_y>0.239227 0.000000</sun_direction_y>
+    <sun_direction_z>0.011662 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.140000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_fog_type_6_height_multiplier>1.401697 0.000000</local_fog_type_6_height_multiplier>
+    <local_fog_type_6_density_multiplier>0.027000 0.000000</local_fog_type_6_density_multiplier>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_fish"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>0.100000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.020000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <sun_direction_x>0.947003 0.000000</sun_direction_x>
+    <sun_direction_y>-0.367468 0.000000</sun_direction_y>
+    <sun_direction_z>0.083458 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_fish_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.981073 0.000000</sun_direction_x>
+    <sun_direction_y>-0.515102 0.000000</sun_direction_y>
+    <sun_direction_z>0.318159 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.020000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.020000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_bar"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.977287 0.000000</sun_direction_x>
+    <sun_direction_y>0.038200 0.000000</sun_direction_y>
+    <sun_direction_z>0.352941 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_bar_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.821539 0.000000</sun_direction_x>
+    <sun_direction_y>0.097533 0.000000</sun_direction_y>
+    <sun_direction_z>0.352941 0.000000</sun_direction_z>
+    <local_atmosphere_fog_volume_global_density_mult>0.200000 0.000000</local_atmosphere_fog_volume_global_density_mult>
+  </modifier>
+  <modifier
+    name="OUTRO_contact_beach"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.511608 0.000000</sun_direction_y>
+    <sun_direction_z>1.000000 0.000000</sun_direction_z>
+    <indirect_light_directional_multiplier>1.500000 0.000000</indirect_light_directional_multiplier>
+    <water_clip_atlas_override_blend_enabled>0.989813 0.000000</water_clip_atlas_override_blend_enabled>
+    <water_clip_atlas_override_scattering_r>0.010000 0.000000</water_clip_atlas_override_scattering_r>
+    <water_clip_atlas_override_scattering_g>1.000000 0.000000</water_clip_atlas_override_scattering_g>
+    <water_clip_atlas_override_scattering_b>10.000000 0.000000</water_clip_atlas_override_scattering_b>
+    <water_clip_atlas_override_extinction_r>5.000000 0.000000</water_clip_atlas_override_extinction_r>
+    <water_clip_atlas_override_extinction_g>1.000000 0.000000</water_clip_atlas_override_extinction_g>
+    <water_clip_atlas_override_extinction_b>1.000000 0.000000</water_clip_atlas_override_extinction_b>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>-31869.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>-14800.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.330000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <postfx_white_balance_auto_mode_blend_tint_bias>-0.205869 0.000000</postfx_white_balance_auto_mode_blend_tint_bias>
+    <postfx_white_balance_auto_mode_blend_bias>0.062302 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_middle_col_mult>0.765421 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.312772 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_r>0.160784 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.278431 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>0.439216 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>0.109804 0.000000</postfx_grad_bottom_col_b>
+    <local_atmosphere_cloud_cirrus_position_x>0.530000 0.000000</local_atmosphere_cloud_cirrus_position_x>
+    <local_atmosphere_cloud_cirrus_position_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_position_y>
+    <local_atmosphere_cloud_cirrus_position_override>1.000000 0.000000</local_atmosphere_cloud_cirrus_position_override>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_cloud_noise_position_x>50.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>-210.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_transmittance_depth_fade_max>7007.738770 0.000000</local_atmosphere_transmittance_depth_fade_max>
+    <local_atmosphere_transmittance_depth_fade_min>3291.487549 0.000000</local_atmosphere_transmittance_depth_fade_min>
+    <sky_scattering_height_min_multiplier>10.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_vertical_scaling_height_min>10.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_new_ray_scattering_col_r>0.094118 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.337255 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.952941 0.000000</sky_new_ray_scattering_col_b>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+  </modifier>
+  <modifier
+    name="OUTRO_swamp_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_fog_type_5_density_multiplier>0.516588 0.000000</local_fog_type_5_density_multiplier>
+    <local_fog_type_5_height_multiplier>1.608579 0.000000</local_fog_type_5_height_multiplier>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+  </modifier>
+  <modifier
+    name="OUTRO_swamp_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <minimum_wetness>0.898794 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.605228 0.000000</minimum_soak>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <wetness_increase_speed>1.000000 0.000000</wetness_increase_speed>
+    <wetness_decrease_speed>1.000000 0.000000</wetness_decrease_speed>
+    <sun_direction_x>-0.913652 0.000000</sun_direction_x>
+    <sun_direction_y>-0.079059 0.000000</sun_direction_y>
+    <sun_direction_z>0.190993 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_atmosphere_fog_height_layer_1>3651.832520 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_fog_type_5_height_multiplier>4.403485 0.000000</local_fog_type_5_height_multiplier>
+    <local_fog_type_5_density_multiplier>0.516588 0.000000</local_fog_type_5_density_multiplier>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_files_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="OUTRO_friend_files_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.080000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <sun_direction_x>-0.378235 0.000000</sun_direction_x>
+    <sun_direction_y>0.012188 0.000000</sun_direction_y>
+    <sun_direction_z>0.058087 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="OUTRO_friend_files_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.150000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.020000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sun_direction_x>-0.378235 0.000000</sun_direction_x>
+    <sun_direction_y>0.012188 0.000000</sun_direction_y>
+    <sun_direction_z>0.058087 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_boss_cruise"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.300000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.020000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sun_direction_x>0.969112 0.000000</sun_direction_x>
+    <sun_direction_y>1.000000 0.000000</sun_direction_y>
+    <sun_direction_z>0.755470 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <water_ocean_fetch>800.000000 0.000000</water_ocean_fetch>
+    <water_clip_atlas_override_scattering_r>0.100000 0.000000</water_clip_atlas_override_scattering_r>
+    <water_clip_atlas_override_scattering_g>3.000000 0.000000</water_clip_atlas_override_scattering_g>
+    <water_clip_atlas_override_scattering_b>5.000000 0.000000</water_clip_atlas_override_scattering_b>
+    <water_clip_atlas_override_extinction_r>16.000000 0.000000</water_clip_atlas_override_extinction_r>
+    <water_clip_atlas_override_extinction_g>15.000000 0.000000</water_clip_atlas_override_extinction_g>
+    <water_clip_atlas_override_extinction_b>5.000000 0.000000</water_clip_atlas_override_extinction_b>
+    <water_clip_atlas_override_blend_enabled>0.015248 0.000000</water_clip_atlas_override_blend_enabled>
+    <indirect_light_directional_multiplier>3.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <sky_new_ray_scattering_col_r>0.058824 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.301961 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.925490 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_height_min_multiplier>2.000000 0.000000</sky_scattering_height_min_multiplier>
+    <water_ocean_beaufort_scale>2.000000 0.000000</water_ocean_beaufort_scale>
+    <direct_light_haze_intensity>0.000000 0.000000</direct_light_haze_intensity>
+    <direct_light_roughness_mod_cloud_shadow>0.000000 0.000000</direct_light_roughness_mod_cloud_shadow>
+    <maximum_wetness>0.000000 0.000000</maximum_wetness>
+    <maximum_soak>0.000000 0.000000</maximum_soak>
+  </modifier>
+  <modifier
+    name="OUTRO_touring"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density>0.100000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>120.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <postfx_exposure_min>-4.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-4.000000 0.000000</postfx_exposure_max>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <sky_new_ray_scattering_col_r>0.086275 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.329412 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.956863 0.000000</sky_new_ray_scattering_col_b>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_z>-0.100000 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_arrives"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.711633 0.000000</sun_direction_x>
+    <sun_direction_y>1.000000 0.000000</sun_direction_y>
+    <sun_direction_z>0.803386 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_diner_funds"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_y>-0.399151 0.000000</sun_direction_y>
+    <sun_direction_z>0.187860 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.060000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <light_dir_col_r>0.980392 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.278431 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.109804 1.000000</light_dir_col_b>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.748599 0.000000</sun_direction_x>
+    <sky_scattering_sun_illuminance>4000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_direct_light_color_r>1.000000 0.000000</local_atmosphere_direct_light_color_r>
+    <local_atmosphere_direct_light_color_g>0.360784 0.000000</local_atmosphere_direct_light_color_g>
+    <local_atmosphere_direct_light_color_b>0.000000 0.000000</local_atmosphere_direct_light_color_b>
+  </modifier>
+  <modifier
+    name="OUTRO_release"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <sun_direction_z>0.100000 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>0.400000 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <indirect_light_directional_multiplier>1.500000 0.000000</indirect_light_directional_multiplier>
+  </modifier>
+  <modifier
+    name="OUTRO_funds"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.302947 0.000000</sun_direction_y>
+    <sun_direction_z>0.190090 0.000000</sun_direction_z>
+    <indirect_light_directional_multiplier>1.500000 0.000000</indirect_light_directional_multiplier>
+    <sky_new_ray_scattering_col_r>0.094118 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.333333 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.941177 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <wind_speed_mult>0.280884 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="outro_funds_B"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.232947 0.000000</sun_direction_y>
+    <sun_direction_z>0.190090 0.000000</sun_direction_z>
+    <indirect_light_directional_multiplier>1.500000 0.000000</indirect_light_directional_multiplier>
+    <sky_new_ray_scattering_col_r>0.094118 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.333333 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.941177 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <wind_speed_mult>0.280884 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="outro_newHouse"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-0.207325 0.000000</sun_direction_y>
+    <sun_direction_z>0.300000 0.000000</sun_direction_z>
+    <indirect_light_directional_multiplier>1.500000 0.000000</indirect_light_directional_multiplier>
+    <sky_new_ray_scattering_col_r>0.094118 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.333333 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.941177 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <wind_speed_mult>0.280884 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="outro_home_reads"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_exposure>-1.000000 0.000000</postfx_exposure>
+    <postfx_white_balance_auto_mode_blend_bias>0.124324 0.000000</postfx_white_balance_auto_mode_blend_bias>
+  </modifier>
+  <modifier
+    name="outro_home_bag"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+  </modifier>
+  <modifier
+    name="OUTRO_arrives_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.711633 0.000000</sun_direction_x>
+    <sun_direction_y>0.792908 0.000000</sun_direction_y>
+    <sun_direction_z>0.491329 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_alone"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>0.210000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.170000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_cirrus_position_x>0.180000 0.000000</local_atmosphere_cloud_cirrus_position_x>
+    <local_atmosphere_cloud_cirrus_position_y>0.090000 0.000000</local_atmosphere_cloud_cirrus_position_y>
+    <local_atmosphere_cloud_cirrus_position_override>1.000000 0.000000</local_atmosphere_cloud_cirrus_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_greet"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.454390 0.000000</sun_direction_x>
+    <sun_direction_y>-0.590734 0.000000</sun_direction_y>
+    <sun_direction_z>0.803386 0.000000</sun_direction_z>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="outro_highway_a"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>0.829649 0.000000</minimum_wetness>
+    <maximum_wetness>0.823147 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.815959 0.000000</sun_direction_x>
+    <sun_direction_y>-0.428571 0.000000</sun_direction_y>
+    <sun_direction_z>0.150000 0.000000</sun_direction_z>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>75.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="outro_highway_b"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.555985 0.000000</sun_direction_x>
+    <sun_direction_y>-0.660231 0.000000</sun_direction_y>
+    <sun_direction_z>0.150000 0.000000</sun_direction_z>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.020000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>65.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>15.000000 0.000000</local_atmosphere_fog_falloff>
+    <force_all_vehicles_wet>1.000000 0.000000</force_all_vehicles_wet>
+  </modifier>
+  <modifier
+    name="outro_highway_c"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.091377 0.000000</sun_direction_x>
+    <sun_direction_y>0.294724 0.000000</sun_direction_y>
+    <sun_direction_z>0.031683 0.000000</sun_direction_z>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.030000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>75.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <indirect_light_sky_global_multiplier>0.300000 0.000000</indirect_light_sky_global_multiplier>
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.631373 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.239216 1.000000</light_dir_col_b>
+    <local_atmosphere_sky_col_r>1.000000 1.000000</local_atmosphere_sky_col_r>
+    <local_atmosphere_sky_col_g>0.439216 1.000000</local_atmosphere_sky_col_g>
+    <local_atmosphere_sky_col_b>0.058824 1.000000</local_atmosphere_sky_col_b>
+    <force_all_vehicles_wet>1.000000 0.000000</force_all_vehicles_wet>
+  </modifier>
+  <modifier
+    name="outro_highway_d"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>0.946684 0.000000</minimum_wetness>
+    <maximum_wetness>0.962289 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.138997 0.000000</sun_direction_x>
+    <sun_direction_y>0.719434 0.000000</sun_direction_y>
+    <sun_direction_z>0.268404 0.000000</sun_direction_z>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_height>65.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>30.000000 0.000000</local_atmosphere_fog_falloff>
+    <sky_new_ray_scattering_col_r>0.086275 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.329412 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.956863 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="outro_highway_e"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.396397 0.000000</sun_direction_x>
+    <sun_direction_y>-0.428571 0.000000</sun_direction_y>
+    <sun_direction_z>0.150000 0.000000</sun_direction_z>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>60.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>25.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="outro_highway_f"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.555985 0.000000</sun_direction_x>
+    <sun_direction_y>-0.428571 0.000000</sun_direction_y>
+    <sun_direction_z>0.150000 0.000000</sun_direction_z>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.030000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>75.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="outro_highway_g"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_speed_mult>0.100130 0.000000</wind_speed_mult>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.659298 0.000000</minimum_soak>
+    <maximum_soak>0.689207 0.000000</maximum_soak>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.555985 0.000000</sun_direction_x>
+    <sun_direction_y>-0.428571 0.000000</sun_direction_y>
+    <sun_direction_z>0.150000 0.000000</sun_direction_z>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <local_atmosphere_fog_density>0.030000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>75.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="OUTRO_meeting_debrief"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_z>0.593037 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>0.142857 0.000000</sun_direction_x>
+    <sun_direction_override>0.979762 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="OUTRO_drifter"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <gpu_fx_density_multiplier>1.000000 0.000000</gpu_fx_density_multiplier>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <wind_speed_mult>0.007802 0.000000</wind_speed_mult>
+    <gpu_fx_min_density>1.000000 0.000000</gpu_fx_min_density>
+    <local_atmosphere_cloud_map_position_x>0.490000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.440000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_yard_mia"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+    <sun_direction_x>-0.334620 0.000000</sun_direction_x>
+    <sun_direction_z>0.311454 0.000000</sun_direction_z>
+    <sun_direction_y>-0.467181 0.000000</sun_direction_y>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <postfx_grad_bottom_col_mult>0.100000 0.000000</postfx_grad_bottom_col_mult>
+    <light_dir_col_r>0.890196 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.674510 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_grad_top_col_mult>0.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <light_dir_mult>0.700000 1.000000</light_dir_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_yard_lucia"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>0.890196 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.674510 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_x>-0.334620 0.000000</sun_direction_x>
+    <sun_direction_y>-0.467181 0.000000</sun_direction_y>
+    <sun_direction_z>0.311454 0.000000</sun_direction_z>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>5.000000 0.000000</dir_shadow_quality>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <postfx_grad_top_col_mult>0.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.100000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_yard_luciaDARK"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <light_dir_mult>0.700000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_x>-0.334620 0.000000</sun_direction_x>
+    <sun_direction_y>-0.467181 0.000000</sun_direction_y>
+    <sun_direction_z>0.311454 0.000000</sun_direction_z>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.600000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+    <dir_shadow_quality>5.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <light_dir_col_r>0.486275 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.584314 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.737255 1.000000</light_dir_col_b>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.300000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.500000 0.000000</postfx_vignette_outer_radius>
+  </modifier>
+  <modifier
+    name="outro_drive_off"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.206691 0.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_z>0.050000 0.000000</sun_direction_z>
+    <light_dir_col_r>0.886275 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.556863 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+  </modifier>
+  <modifier
+    name="outro_drive_off_end"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_z>-0.050000 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <indirect_light_height_occlusion_tint_near_r>0.000000 0.000000</indirect_light_height_occlusion_tint_near_r>
+    <indirect_light_height_occlusion_tint_near_g>0.000000 0.000000</indirect_light_height_occlusion_tint_near_g>
+    <indirect_light_height_occlusion_tint_near_b>0.000000 0.000000</indirect_light_height_occlusion_tint_near_b>
+    <indirect_light_height_occlusion_tint_far_r>0.000000 0.000000</indirect_light_height_occlusion_tint_far_r>
+    <indirect_light_height_occlusion_tint_far_g>0.000000 0.000000</indirect_light_height_occlusion_tint_far_g>
+    <indirect_light_height_occlusion_tint_far_b>0.000000 0.000000</indirect_light_height_occlusion_tint_far_b>
+    <indirect_light_pollution_multiplier>100.000000 0.000000</indirect_light_pollution_multiplier>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.364109 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>5.317295 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="outro_drive_off_end_fade"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_inner_radius>0.100000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>1.460000 0.000000</postfx_vignette_outer_radius>
+    <postfx_grad_top_col_mult>3.901170 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>2.000000 0.000000</postfx_grad_middle_col_mult>
+  </modifier>
+  <modifier
+    name="outro_drive_off_mid"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_z>0.050000 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>0.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <light_dir_col_r>0.886275 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.556863 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.206691 0.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sky_scattering_sun_illuminance>100000.000000 0.000000</sky_scattering_sun_illuminance>
+    <postfx_grad_middle_col_mult>1.104031 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>0.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>-0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_sign"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-0.642097 0.000000</sun_direction_y>
+    <sun_direction_z>0.204485 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_sign_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_y>-0.315726 0.000000</sun_direction_y>
+    <sun_direction_z>0.218487 0.000000</sun_direction_z>
+    <sun_direction_x>0.665066 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_sign_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>0.830760 0.000000</sun_direction_x>
+    <sun_direction_y>-0.004991 0.000000</sun_direction_y>
+    <sun_direction_z>0.143808 0.000000</sun_direction_z>
+  </modifier>
+  <modifier
+    name="OUTRO_visit"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_col_mult_r>0.623529 1.000000</light_col_mult_r>
+    <light_col_mult_g>1.000000 1.000000</light_col_mult_g>
+    <light_col_mult_b>0.219608 1.000000</light_col_mult_b>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.130000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.050000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="OUTRO_fancy_home_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.508095 0.000000</sun_direction_y>
+    <sun_direction_z>0.414461 0.000000</sun_direction_z>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>20.497709 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_cloud_map_position_x>-0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.010000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_fancy_home_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.488915 0.000000</sun_direction_x>
+    <sun_direction_y>0.531432 0.000000</sun_direction_y>
+    <sun_direction_z>0.262769 0.000000</sun_direction_z>
+    <local_atmosphere_fog_density>0.053169 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>20.497709 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.020000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.010000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="OUTRO_fancy_home_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.010000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_greet_mia"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>0.890196 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.674510 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <light_dir_mult>0.700000 1.000000</light_dir_mult>
+    <light_direction_override>0.888412 0.000000</light_direction_override>
+    <sun_direction_x>0.279759 0.000000</sun_direction_x>
+    <sun_direction_y>-0.101168 0.000000</sun_direction_y>
+    <sun_direction_z>0.346312 0.000000</sun_direction_z>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <postfx_grad_top_col_mult>0.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.100000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="OUTRO_aunt_greet_lucia"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>0.890196 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.674510 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_x>0.262330 0.000000</sun_direction_x>
+    <sun_direction_y>-0.327747 0.000000</sun_direction_y>
+    <sun_direction_z>0.311454 0.000000</sun_direction_z>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>5.000000 0.000000</dir_shadow_quality>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.630000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <postfx_grad_top_col_mult>0.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.100000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="OUTRO_arrives_mia"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>0.890196 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.674510 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.392157 1.000000</light_dir_col_b>
+    <light_dir_mult>0.700000 1.000000</light_dir_mult>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <sun_direction_x>0.711633 0.000000</sun_direction_x>
+    <sun_direction_y>0.792900 0.000000</sun_direction_y>
+    <sun_direction_z>0.491300 0.000000</sun_direction_z>
+    <sky_scattering_height_min_multiplier>10.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.590000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.520000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_shadow_alpha>0.544402 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <direct_light_haze_blend_scale>0.416125 0.000000</direct_light_haze_blend_scale>
+    <wind_speed_mult>0.300000 0.000000</wind_speed_mult>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500643 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <postfx_grad_top_col_mult>0.200000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.100000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure_max>-8.000000 0.000000</postfx_exposure_max>
+    <postfx_white_balance_auto_mode_blend_bias>0.000000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <local_atmosphere_fog_height>22.904760 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>0.005010 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="MISSION_bilFinale_takenDeal_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-0.148936 0.000000</sun_direction_y>
+    <sun_direction_z>0.019108 0.000000</sun_direction_z>
+    <local_fog_type_2_density_multiplier>0.000000 0.000000</local_fog_type_2_density_multiplier>
+    <local_fog_type_3_density_multiplier>0.000000 0.000000</local_fog_type_3_density_multiplier>
+    <local_fog_type_4_density_multiplier>0.000000 0.000000</local_fog_type_4_density_multiplier>
+    <local_fog_type_5_density_multiplier>0.660072 0.000000</local_fog_type_5_density_multiplier>
+    <local_fog_type_5_height_multiplier>0.116071 0.000000</local_fog_type_5_height_multiplier>
+    <local_fog_type_1_density_multiplier>0.000000 0.000000</local_fog_type_1_density_multiplier>
+    <local_atmosphere_fog_density>0.001500 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>150.000000 0.000000</local_atmosphere_fog_falloff>
+    <far_clip>1482.440796 1614.135254</far_clip>
+  </modifier>
+  <modifier
+    name="OUTRO_fancy_home_04"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.010000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <sun_direction_z>0.256653 0.000000</sun_direction_z>
+    <sun_direction_y>-0.281334 0.000000</sun_direction_y>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="FBK_DonnieDodo"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_x>0.520000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_y>-0.317889 0.000000</sun_direction_y>
+    <sun_direction_z>0.239382 0.000000</sun_direction_z>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <postfx_lens_flares_intensity>0.085190 0.000000</postfx_lens_flares_intensity>
+    <postfx_grad_middle_col_mult>0.765930 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.598180 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>0.478431 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.800000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+  </modifier>
+  <modifier
+    name="FBK_DonnieCockpit"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.737255 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.411765 1.000000</light_dir_col_b>
+  </modifier>
+  <modifier
+    name="FBK_SunsetWalk"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_white_balance_auto_mode_blend_bias>0.135135 0.000000</postfx_white_balance_auto_mode_blend_bias>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>0.700000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <postfx_grad_middle_col_mult>0.947984 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.936281 0.000000</postfx_grad_top_col_mult>
+    <sky_new_mie_scattering_intensity>3.000000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_mie_scattering_col_r>0.917647 0.000000</sky_new_mie_scattering_col_r>
+    <sky_new_mie_scattering_col_g>0.658824 0.000000</sky_new_mie_scattering_col_g>
+    <sky_new_mie_scattering_col_b>0.658824 0.000000</sky_new_mie_scattering_col_b>
+    <hh_ly1_minIntensity>0.131120 0.000000</hh_ly1_minIntensity>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>15.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density>0.000200 0.000000</local_atmosphere_fog_density>
+    <sky_new_ozo_extinction_intensity>2.060953 0.000000</sky_new_ozo_extinction_intensity>
+    <local_atmosphere_cloud_map_position_x>0.200000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+  </modifier>
+  <modifier
+    name="CS_COA_RAID_EXT1_Dancefloor"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_emissive_multiplier>0.250000 0.000000</indirect_light_emissive_multiplier>
+    <sky_scattering_sun_illuminance>2000.000000 0.000000</sky_scattering_sun_illuminance>
+  </modifier>
+  <modifier
+    name="CS_Increased_Pollution"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_pollution_multiplier>100.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_pollution_rt_bounce_multiplier>32.000000 0.000000</indirect_light_pollution_rt_bounce_multiplier>
+  </modifier>
+  <modifier
+    name="OUTRO_credits_overwatch_kids"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-0.158599 0.000000</sun_direction_y>
+    <sun_direction_z>0.246133 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.010000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.658824 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.266667 1.000000</light_dir_col_b>
+  </modifier>
+  <modifier
+    name="Precinct_Assault_Escape_Cell_GI_Refresh"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_refresh>2.000000 0.000000</indirect_light_refresh>
+  </modifier>
+  <modifier
+    name="MISSION_BIL_PRECI_INT_RETURN_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>0.538949 0.000000</sun_direction_x>
+    <sun_direction_y>0.110109 0.000000</sun_direction_y>
+    <sun_direction_z>0.318089 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <local_atmosphere_cloud_map_position_x>-0.040000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>0.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.180458 0.000000</postfx_grad_middle_col_mult>
+  </modifier>
+  <modifier
+    name="MISSION_BIL_PRECI_INT_RETURN_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.247995 0.000000</sun_direction_x>
+    <sun_direction_y>0.063819 0.000000</sun_direction_y>
+    <sun_direction_z>0.168534 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.050000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.050000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <postfx_grad_top_col_mult>3.553191 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.288242 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <local_atmosphere_haze_intensity>121.257492 0.000000</local_atmosphere_haze_intensity>
+    <local_atmosphere_haze_phase_anisotropy>0.743389 0.000000</local_atmosphere_haze_phase_anisotropy>
+    <local_atmosphere_voxel_wind_velocity_scale>0.000000 0.000000</local_atmosphere_voxel_wind_velocity_scale>
+  </modifier>
+  <modifier
+    name="MISSION_BIL_PRECI_INT_RETURN_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>-0.247995 0.000000</sun_direction_x>
+    <sun_direction_y>0.035332 0.000000</sun_direction_y>
+    <sun_direction_z>0.168534 0.000000</sun_direction_z>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.050000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.050000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+    <postfx_grad_top_col_mult>3.553191 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>0.713392 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.000000 0.000000</postfx_grad_bottom_col_mult>
+    <local_atmosphere_haze_phase_anisotropy>0.826976 0.000000</local_atmosphere_haze_phase_anisotropy>
+    <local_atmosphere_haze_intensity>37.724548 0.000000</local_atmosphere_haze_intensity>
+    <local_atmosphere_voxel_wind_velocity_scale>0.000000 0.000000</local_atmosphere_voxel_wind_velocity_scale>
+  </modifier>
+  <modifier
+    name="cs_Gi_Refresh"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_refresh>1.000000 0.000000</indirect_light_refresh>
+  </modifier>
+  <modifier
+    name="AirFinale_Intro_CloudPos_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+  </modifier>
+  <modifier
+    name="AirFinale_Intro_CloudPos_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.900000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+  </modifier>
+  <modifier
+    name="MISSION_getPainkillers_vehicle_opt"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_fog_volumetric_intensity_multiplier>0.400000 0.000000</light_vehicle_fog_volumetric_intensity_multiplier>
+  </modifier>
+  <modifier
+    name="MISSION_bilPent_Brian_01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_02"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_04"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_05"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_06"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_bilPent_Brian_07"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MISSION_stealContracts_evClamp"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_min>-1.918723 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-2.333333 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="MISSION_bilPrecinct_return"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>0.040000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.210000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_noise_position_override>1.000000 0.000000</local_atmosphere_cloud_noise_position_override>
+    <local_atmosphere_cloud_noise_position_x>0.000000 0.000000</local_atmosphere_cloud_noise_position_x>
+    <local_atmosphere_cloud_noise_position_y>0.000000 0.000000</local_atmosphere_cloud_noise_position_y>
+    <local_atmosphere_cloud_noise_position_z>0.000000 0.000000</local_atmosphere_cloud_noise_position_z>
+  </modifier>
+  <modifier
+    name="MISSION_drugPlane_explosion"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_height>-15.364370 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>0.010825 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="CS_INT_PRISO_MCS4_SunPos01"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sun_direction_x>-0.600000 0.000000</sun_direction_x>
+  </modifier>
+  <modifier
+    name="CS_Vehicle_LightFirst_Falloff"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.255000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_primary_falloff_mult>0.300000 0.000000 0.000000 0.000000 0.000000 0.300000</light_vehicle_primary_falloff_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="CS_Vehicle_LightSecond_Falloff"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.255000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_secondary_falloff_mult>0.300000 0.000000 0.000000 0.000000 0.000000 0.300000</light_vehicle_secondary_falloff_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="CS_Vehicle_LightCluster_Falloff"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.255000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_cluster_falloff_mult>0.300000 0.000000 0.000000 0.000000 0.000000 0.300000</light_vehicle_cluster_falloff_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="CS_Vehicle_LightSiren_Falloff"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.255000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_siren_falloff_mult>0.300000 0.300000 0.020000 0.020000 0.300000 0.300000</light_vehicle_siren_falloff_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="CS_BIL_PRECI_INT_Pulse"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_screen_trails_intensity>0.660000 0.000000</postfx_screen_trails_intensity>
+  </modifier>
+  <modifier
+    name="OUTRO_arrives_03"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="BIL_PENT_MCS58_GI_Refresh"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_refresh>1.000000 0.000000</indirect_light_refresh>
+    <indirect_light_diffuse_responsiveness>1.000000 0.000000</indirect_light_diffuse_responsiveness>
+  </modifier>
+  <modifier
+    name="SRS_ROPES_Irrad_Cache"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_override_irradiance_cache_volume_pos_x>0.000000 0.000000</indirect_light_override_irradiance_cache_volume_pos_x>
+    <indirect_light_override_irradiance_cache_volume_pos_y>0.000000 0.000000</indirect_light_override_irradiance_cache_volume_pos_y>
+    <indirect_light_override_irradiance_cache_volume_pos_z>0.000000 0.000000</indirect_light_override_irradiance_cache_volume_pos_z>
+  </modifier>
+  <modifier
+    name="CS_prisonRelease_mcs3_sunCol"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.270588 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.015686 1.000000</light_dir_col_b>
+  </modifier>
+  <modifier
+    name="INT_CHASE_Hair_Quality"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <hair_quality>0.000000 0.000000</hair_quality>
+  </modifier>
+  <modifier
+    name="BIL_PENT_MCS12_SSR"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <reflection_ssr_opaque_enabled>0.400000 0.500000</reflection_ssr_opaque_enabled>
+  </modifier>
+  <modifier
+    name="cs_Dumpster_IG"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_scattering_sun_illuminance>0.000000 0.000000</sky_scattering_sun_illuminance>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_multibounce_multiplier>0.100000 0.000000</indirect_light_multibounce_multiplier>
+    <reflection_ssr_opaque_enabled>1.000000 1.000000</reflection_ssr_opaque_enabled>
+    <indirect_light_refresh>0.000000 0.000000</indirect_light_refresh>
+  </modifier>
+</timecycle_modifier_data>

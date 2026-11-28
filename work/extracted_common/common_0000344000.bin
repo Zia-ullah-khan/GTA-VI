@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="tw5_07_bnk_1_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tw5_07_bnk_bespoke_kitchen"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tw5_07_bnk_bespoke_offices"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_07_gas_1_gf"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.500000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="tw5_07_gas_1_gf_backroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_exposure>1.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tw5_10_clt_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.450000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="TW5_10_CLT_1_GFA_OF"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.300000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="TW5_10_CLT_1_GFA_TO"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tw5_13_whs_1_gf_of_01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_13_whs_1_gf_wh_02"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-14.000000 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.000000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.463746 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.971345 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-12.580240 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>2.226607 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.056905 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.252445 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>10.853878 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-4.224891 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>10.893348 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.622491 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>14.049856 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.603590 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.915228 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>1.200000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.850000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="tw5_13_whs_1_gf_wh_01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_LowControl_Cool</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.850863 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.950000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.849294 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.600000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="TW5_13_WHS_1_GF_CORR01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_13_WHS_1_GF_CORR04"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="TW5_13_WHS_1_GF_LOAD02"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_06_elc_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_06_JWL_1_GFA_RETAIL"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.870378 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.979602 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="TW5_05_FFD_1_GF_01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Sub_Opt_Int_TW5_05_FFD_1</item>
+      <item>Sub_Opt_Int_TW5_05_FFD_1_Rough</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="TW5_05_FFD_1_GF_02"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>-0.750000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tw5_02_hse_2"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_06_har_1_gf"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_Fog_Low</item>
+      <item>Sub_Int_RoughnessCut_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_02_hse_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+    <postfx_local_exposure_hl_contrast>0.829262 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.903299 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="tw5_02_hse_1_room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Temp_midControl_Cool</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_02_hse_1_BackRooms"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_08_OFF_1_Meditation_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_08_OFF_1_Corridor"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_08_OFF_1_Office"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Low</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_08_OFF_1_Changing_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Dark</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_blur_lum_amount>0.752676 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="tw5_02_hse_2_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_15_MAN_1_GFA_BESPOKE_hall"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.883674 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.920346 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="TW5_15_MAN_1_GFA_BESPOKE_stairs"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_15_MAN_1_GFA_BESPOKE_office"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="TW5_02_HSE_2_GFA_living"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-14.002485 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.973120 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.410138 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.973120 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-11.607025 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.185572 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.173390 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-3.145946 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>19.010555 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-10.072146 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>25.473391 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-9.938553 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>29.050173 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-10.069811 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.900000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.960000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="TW5_02_HSE_2_GFA_backarea"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Dark</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.900000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.950900 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="TW5_02_HSE_2_GFA_garage"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="tw5_13_whs_1_gf_office"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+    </submodifiers>
+    <postfx_local_exposure_blur_lum_amount>0.600000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_dt_contrast>0.900000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.933019 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.921507 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="tw5_13_whs_1_gf_of_01_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+    <postfx_exposure>1.250000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_TW5_05_FFD_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_Opt_Int_TW5_05_FFD_1</item>
+    </submodifiers>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.300000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_TW5_05_FFD_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.500000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.900000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="TW5_10b_Pollution_Blackout_01a"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_light_pollution_blackout_location_x>-1646.000000 1.000000</local_atmosphere_light_pollution_blackout_location_x>
+    <local_atmosphere_light_pollution_blackout_location_y>2707.000000 1.000000</local_atmosphere_light_pollution_blackout_location_y>
+  </modifier>
+  <modifier
+    name="TW5_10b_Pollution_Blackout_01b"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_light_pollution_blackout_radius>200.000000 0.000000</local_atmosphere_light_pollution_blackout_radius>
+    <local_atmosphere_light_pollution_blackout_softness>0.500000 0.000000</local_atmosphere_light_pollution_blackout_softness>
+  </modifier>
+</timecycle_modifier_data>

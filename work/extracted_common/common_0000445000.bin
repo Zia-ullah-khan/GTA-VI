@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="VehicleChase__NonFinalTunables">
+      <Name>VehicleChase</Name>
+      <DebugTuneables>
+        <RenderTargetInfo value="false" />
+        <TargetInfoDebugCategories>
+          <PedInfo value="true" />
+          <VehicleInfo value="true" />
+          <VehicleNodeList value="true" />
+          <VehicleFollowRoute value="true" />
+          <Road value="true" />
+          <Velocity value="true" />
+          <Stuck value="true" />
+        </TargetInfoDebugCategories>
+        <RenderPursuerInfo value="false" />
+        <PursuerInfoDebugTuneables>
+          <RenderFocussedPursuersOnly value="true" />
+          <Categories>
+            <PedInfo value="true" />
+            <VehicleInfo value="true" />
+            <VehicleNodeList value="true" />
+            <VehicleFollowRoute value="true" />
+            <Road value="true" />
+            <Velocity value="true" />
+            <Stuck value="true" />
+            <RelativePositioning value="true" />
+            <AlignmentWithTarget value="true" />
+            <DesiredDistance value="true" />
+            <CurrentDistances value="true" />
+            <CurrentSpecialMove value="true" />
+            <PreviousSpecialMove value="true" />
+            <AvailableSpecialMoveCandidates value="true" />
+            <RejectedSpecialMoveCandidates value="true" />
+            <PITInfo value="true" />
+            <BoxInInfo value="true" />
+            <WarpHistory value="true" />
+            <RecyclableIndicator value="true" />
+          </Categories>
+        </PursuerInfoDebugTuneables>
+      </DebugTuneables>
+    </Item>
+  </Tunables>
+</CTuningFile>

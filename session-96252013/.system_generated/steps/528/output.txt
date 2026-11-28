@@ -1,0 +1,105 @@
+
+The command exited with code 0.
+Output:
+story000 size: 6288061
+// import 1: program_0x08D17348, types [78, 29386)
+// import 2: program_0x0E8E47D1, types [29386, 36343)
+// import 3: program_0x17CA1D94, types [36343, 42577)
+// import 4: program_0x48391B87, types [42577, 46605)
+// import 5: program_0xB6CB0CEB, types [46605, 57626)
+// import 6: program_0xC3607FD5, types [57626, 58783)
+// import 7: program_0xE435BF6C, types [58783, 61001)
+using Rage.ScriptDecompiler.GTA6.Runtime;
+using static Rage.ScriptDecompiler.GTA6.Runtime.Vm;
+#nullable enable
+#pragma warning disable CS0162, CS0164, CS0219
+namespace Americas.Decompiled;
+[VmProgram(0x5B5EEFFEU)]
+public static class Program_5B5EEFFE
+{
+    private static VmValues GuidEmpty => VmValues.Zero(2);
+    [VmFunction(0x000000)]
+    public static void func_000000(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4, VmValue arg5) // 0x000000
+    {
+        VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3, arg4, arg5 };
+        VmValue[] locals = new VmValue[8];
+        ref VmValue p0 = ref parameters[0];
+        ref VmValue p1 = ref parameters[1];
+        ref VmValue p2 = ref parameters[2];
+        ref VmValue p3 = ref parameters[3];
+        ref VmValue p4 = ref parameters[4];
+        ref VmValue p5 = ref parameters[5];
+        ref VmValue local_0 = ref locals[0];
+        ref VmValue local_1 = ref locals[1];
+        ref VmValue local_2 = ref locals[2];
+        ref VmValue local_3 = ref locals[3];
+        ref VmValue local_4 = ref locals[4];
+        ref VmValue local_5 = ref locals[5];
+        ref VmValue local_6 = ref locals[6];
+        ref VmValue local_7 = ref locals[7];
+        VmValue stack_00007F_0 = default;
+        VmValue v_00000E_0 = default;
+        VmValue v_000015_1 = default;
+        VmValue v_000015_2 = default;
+        VmValue v_000015_3 = default;
+        VmValue v_000015_4 = default;
+        VmValue v_000048_5 = default;
+        VmValue v_00005F_0 = default;
+        v_00000E_0 = Vm.NewObject(new VmType("type_BD8E9BE0067B98C9", 40, 55U, 0x00000002U));
+        v_000015_1 = p1;
+        v_000015_2 = p2;
+        v_000015_3 = p3;
+        v_000015_4 = p4;
+        local_6 = p5;
+        local_5 = v_000015_4;
+        local_4 = v_000015_3;
+        local_3 = v_000015_2;
+        local_2 = v_000015_1;
+        local_1 = v_00000E_0;
+        store_ref(v_00000E_0, 0x8, local_2);
+        store_ref(local_1, 0x10, local_3);
+        store_ref(local_1, 0x18, local_4);
+        store_ref(local_1, 0x20, local_5);
+        store_ref(local_1, 0x28, local_6);
+        local_0 = v_00000E_0;
+        v_000048_5 = load_u64(p0, 0x8);
+        local_7 = load_u64(p0, 0x8);
+        if (((as_u32(load_u8(v_000048_5, 0x10)) == 0)))
+        {
+            v_00005F_0 = Virtual.type_2BCF501C40424374.Method_29(load_u64(local_7, 0x8), local_0);
+            if (((as_u32(v_00005F_0) == 0)))
+            {
+                Virtual.type_2BCF501C40424374.Method_13(load_u64(local_7, 0x8), local_0);
+                stack_00007F_0 = local_7;
+            }
+            else
+            {
+                stack_00007F_0 = local_7;
+            }
+        }
+        else
+        {
+            stack_00007F_0 = local_7;
+        }
+        return;
+        throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+    }
+
+    [VmFunction(0x000083)]
+    public static void func_000083(VmValue arg0, VmValue arg1) // 0x000083
+    {
+        VmValue[] parameters = new VmValue[] { arg0, arg1 };
+        VmValue[] locals = new VmValue[0];
+        ref VmValue p0 = ref parameters[0];
+        ref VmValue p1 = ref parameters[1];
+        Imports.module_0x3605B69676D588EE.func_129F4A(byte_offset(p0, 0x8), p1);
+        return;
+        throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+    }
+
+    [VmFunction(0x000096)]
+    public static void func_000096(VmValue arg0, VmValue arg1, VmValue arg2) // 0x000096
+    {
+        VmValue[] parameters = new VmValue[] { arg0, arg1, arg2 };
+        VmValue[] locals = new VmValue[16];
+

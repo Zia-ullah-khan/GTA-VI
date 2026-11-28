@@ -1,0 +1,129 @@
+Created At: 2026-11-25T18:04:45-05:00
+Completed At: 2026-11-25T18:04:49-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x140575b40 0x140575b40 ===
+  0x140575b40 push r15
+  0x140575b42 push r14
+  0x140575b44 push r13
+  0x140575b46 push r12
+  0x140575b48 push rsi
+  0x140575b49 push rdi
+  0x140575b4a push rbp
+  0x140575b4b push rbx
+  0x140575b4c sub rsp, 0x28
+  0x140575b50 mov eax, dword ptr [rcx]
+  0x140575b52 mov rbx, rdx
+  0x140575b55 mov rsi, rcx
+  0x140575b58 movabs r13, 0xffffffff00000000
+  0x140575b62 lea rdi, [rcx + 8]
+  0x140575b66 movabs r12, 0x100000000
+  0x140575b70 lea r14, [rsp + 0x20]
+  0x140575b75 mov r15d, eax
+  0x140575b78 test eax, 0x1ff0000
+  0x140575b7d je 0x140575bc6
+  0x140575b7f lea ecx, [r15 + 0x100]
+  0x140575b86 mov eax, r15d
+  0x140575b89 lock cmpxchg dword ptr [rsi], ecx
+  0x140575b8d jne 0x140575b75
+  0x140575b8f mov rdx, qword ptr [rdi]
+  0x140575b92 mov rcx, qword ptr [rdi]
+  0x140575b95 shr edx, 7
+  0x140575b98 and edx, 0xffffff
+  0x140575b9e je 0x140575bd5
+  0x140575ba0 cmp rcx, r12
+  0x140575ba3 jl 0x140575bbf
+  0x140575ba5 lea r8, [rcx + r13]
+  0x140575ba9 mov rax, rcx
+  0x140575bac lock cmpxchg qword ptr [rdi], r8
+  0x140575bb1 cmp rcx, rax
+  0x140575bb4 mov rcx, rax
+  0x140575bb7 je 0x140575c0d
+  0x140575bb9 dec edx
+  0x140575bbb jne 0x140575ba0
+  0x140575bbd jmp 0x140575bd5
+  0x140575bbf pause 
+  0x140575bc1 mov rcx, qword ptr [rdi]
+  0x140575bc4 jmp 0x140575bb9
+  0x140575bc6 lea ecx, [r15 + 1]
+  0x140575bca mov eax, r15d
+  0x140575bcd lock cmpxchg dword ptr [rsi], ecx
+  0x140575bd1 jne 0x140575b75
+  0x140575bd3 jmp 0x140575c15
+  0x140575bd5 mov rax, qword ptr [rdi]
+  0x140575bd8 mov qword ptr [rsp + 0x20], rax
+  0x140575bdd cmp rax, r12
+  0x140575be0 jge 0x140575bfd
+  0x140575be2 mov rcx, rdi
+  0x140575be5 mov edx, 1
+  0x140575bea mov r8, r14
+  0x140575bed call 0x140006180
+  0x140575bf2 test al, al
+  0x140575bf4 jne 0x140575c0d
+  0x140575bf6 mov rax, qword ptr [rsp + 0x20]
+  0x140575bfb jmp 0x140575bdd
+  0x140575bfd lea rcx, [rax + r13]
+  0x140575c01 lock cmpxchg qword ptr [rdi], rcx
+=== 0x1455dbf40 0x1455dbf40 ===
+  0x1455dbf40 mov qword ptr [rsp + 8], rbx
+  0x1455dbf45 mov qword ptr [rsp + 0x10], rsi
+  0x1455dbf4a push rdi
+  0x1455dbf4b sub rsp, 0x20
+  0x1455dbf4f mov rsi, r8
+  0x1455dbf52 mov rdi, rdx
+  0x1455dbf55 mov rbx, rcx
+  0x1455dbf58 call 0x1456406b0
+  0x1455dbf5d cmp eax, 0x24a187b9
+  0x1455dbf62 jne 0x1455dbffb
+  0x1455dbf68 test rbx, rbx
+  0x1455dbf6b jne 0x1455dbf82
+  0x1455dbf6d mov eax, 0x17838f22
+  0x1455dbf72 mov rbx, qword ptr [rsp + 0x30]
+  0x1455dbf77 mov rsi, qword ptr [rsp + 0x38]
+  0x1455dbf7c add rsp, 0x20
+  0x1455dbf80 pop rdi
+  0x1455dbf81 ret 
+  0x1455dbf82 test rdi, rdi
+  0x1455dbf85 jne 0x1455dbf9c
+  0x1455dbf87 mov eax, 0xc30d2e1
+  0x1455dbf8c mov rbx, qword ptr [rsp + 0x30]
+  0x1455dbf91 mov rsi, qword ptr [rsp + 0x38]
+  0x1455dbf96 add rsp, 0x20
+  0x1455dbf9a pop rdi
+  0x1455dbf9b ret 
+  0x1455dbf9c lea rcx, [rsi - 1]
+  0x1455dbfa0 cmp rcx, 0xf
+  0x1455dbfa4 ja 0x1455dbff6
+  0x1455dbfa6 lea rcx, [rbx + 0x10f0]
+  0x1455dbfad mov r8d, 0x10
+  0x1455dbfb3 mov rdx, rdi
+  0x1455dbfb6 call 0x144e586f0
+  0x1455dbfbb lea rcx, [rbx + 0x1101]
+  0x1455dbfc2 mov byte ptr [rbx + 0x1100], sil
+  0x1455dbfc9 xor edx, edx
+  0x1455dbfcb mov r8d, 0x10
+  0x1455dbfd1 call 0x1409ef050
+  0x1455dbfd6 mov eax, 0x24a187b9
+  0x1455dbfdb mov qword ptr [rbx + 0x1118], 0
+  0x1455dbfe6 mov rbx, qword ptr [rsp + 0x30]
+  0x1455dbfeb mov rsi, qword ptr [rsp + 0x38]
+  0x1455dbff0 add rsp, 0x20
+  0x1455dbff4 pop rdi
+  0x1455dbff5 ret 
+  0x1455dbff6 mov eax, 0x565e3271
+  0x1455dbffb mov rbx, qword ptr [rsp + 0x30]
+  0x1455dc000 mov rsi, qword ptr [rsp + 0x38]
+  0x1455dc005 add rsp, 0x20
+  0x1455dc009 pop rdi
+  0x1455dc00a ret 
+  0x1455dc00b int3 
+  0x1455dc00c int3 
+  0x1455dc00d int3 
+  0x1455dc00e int3 
+  0x1455dc00f int3 
+  0x1455dc010 push rsi
+  0x1455dc012 push rdi
+  0x1455dc013 push r12
+  0x1455dc015 push r14
+  0x1455dc017 mov eax, 0x4078

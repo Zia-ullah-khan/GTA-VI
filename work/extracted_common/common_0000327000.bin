@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="bk04_foy_1_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_Int_BK04_FoyGF</item>
+      <item>Sub_Opt_Int_BK04_FoyGF_Rough</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_bespoke_rooms"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_bespoke_foyer"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_Int_BK04_Foyer</item>
+      <item>Sub_Opt_Int_BK04_Foyer_Rough</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <light_sensor_max_output_intensity>1.330000 0.000000</light_sensor_max_output_intensity>
+    <light_sensor_min_output_intensity>0.003000 0.000000</light_sensor_min_output_intensity>
+  </modifier>
+  <modifier
+    name="bk04_rfa_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Cool</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_Int_bk04_rfa_1</item>
+      <item>Sub_Opt_Int_bk04_rfa_1_Rough</item>
+    </submodifiers>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_intensity_bloom>0.120000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item blendSpeed="10.000000">bk04_apt_opt</item>
+      <item>Sub_Opt_Int_BK04_Foyer_Rough</item>
+    </submodifiers>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="bk04_sky_1_garage"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="1"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Temp_highControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_BK04_SKY_1</item>
+      <item>Sub_Opt_Int_BK04_SKY_1_Rough</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_local_exposure_sh_contrast>0.922167 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure_compensation_ev_cp0_x>-14.304306 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.352350 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-13.161258 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.780826 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-10.327908 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.070893 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.084648 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.749174 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>6.539506 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-4.497365 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>23.449890 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-9.237651 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>24.996367 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-9.271270 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="bk04_sky_1_showroom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_BK04_SKY_1</item>
+      <item>Sub_Opt_Int_bk04_1_show_Rough</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_albedo_free_luminance_amount>0.300000 0.000000</postfx_exposure_albedo_free_luminance_amount>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_bespoke_freezer"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Freezing</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+    </submodifiers>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure>-1.000000 0.000000</postfx_exposure>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_white_balance_auto_mode_blend_bias>-0.250000 0.000000</postfx_white_balance_auto_mode_blend_bias>
+  </modifier>
+  <modifier
+    name="bk04_apt_opt"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="Sub_Opt_BK04_APT_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_BK04_SKY_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.200000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.500000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="Sub_Opt_BK04_Showroom"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="bk04_sky_1_penthouse_assault"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>bk04_sky_1_garage</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>Sub_Opt_BK04_SKY_1</item>
+      <item>Sub_Int_RoughnessCut_Hard</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_penthouse_assault"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Low</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>bk04_apt_opt</item>
+      <item>Sub_Opt_Int_BK04_Foyer_Rough</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_bespoke_Elevator"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.264947 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+    <indirect_light_opt_reflection_ray_budget>0.403869 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <wind_speed_mult>0.000000 0.000000</wind_speed_mult>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_BK04_SKY_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.250000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="bk04_sky_1_ph_assault_moonkill"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_BK04_Foyer_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_BK04_Foyer"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.500000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_BK04_FoyGF"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_BK04_FoyGF_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_bk04_rfa_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Sub_Opt_Int_bk04_rfa_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.900000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_bk04_1_show_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="BK_04_Carpark"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <light_falloff_map_exterior_mult>1.000000 0.000000</light_falloff_map_exterior_mult>
+    <postfx_exposure_compensation_ev_cp0_x>-13.865501 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.049465 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-13.258749 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.056888 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-13.091365 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>2.134986 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.071629 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.246764 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>9.306316 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.682594 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>10.938323 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.731310 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>11.815222 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.804385 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.830027 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.304636 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.616556 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_PBR_dim"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="2"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>bk04_apt_opt</item>
+      <item>Sub_Opt_Int_BK04_Foyer_Rough</item>
+    </submodifiers>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="bk04_apt_1_gfa_PBR_bright"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Sub_Int_TimeSpeed_80_AllDay</item>
+      <item>bk04_apt_opt</item>
+      <item>Sub_Opt_Int_BK04_Foyer_Rough</item>
+    </submodifiers>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+</timecycle_modifier_data>

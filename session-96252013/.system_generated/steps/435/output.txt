@@ -1,0 +1,28 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -657,10 +657,18 @@
+             if r_idx < len(card_list) - 1:
+                 draw_arrow(ax, (cx + w/2, cy), (cx + w/2, cy - (gap - h)), color="#38bdf8")
+                 
+-    # Sequential Bridge Connectors (Clear progression)
+-    draw_arrow(ax, (cols_x[0] + w/2, 12.0 - 4*gap), (cols_x[1] + w/2, 12.0 + h), color="#f59e0b", rad=-0.25, lw=2.0)
+-    draw_arrow(ax, (cols_x[1] + w/2, 12.0 - 6*gap), (cols_x[2] + w/2, 12.0 + h), color="#f59e0b", rad=-0.25, lw=2.0)
+-    draw_arrow(ax, (cols_x[2] + w/2, 12.0 - 6*gap), (cols_x[3] + w/2, 12.0 + h), color="#f59e0b", rad=-0.25, lw=2.0)
++    # Sequential Bridge Connectors (Orthogonal perimeter / gutter routing)
++    # Stage 1 bottom -> Stage 2 top
++    gx1 = (cols_x[0] + w + cols_x[1]) / 2
++    draw_stage_bridge(ax, cols_x[0] + w/2, 12.0 - 4*gap, cols_x[1], 12.0 + h/2, gx1, "STAGE 2 ▲\nNEXT")
++    
++    # Stage 2 bottom -> Stage 3 top
++    gx2 = (cols_x[1] + w + cols_x[2]) / 2
++    draw_stage_bridge(ax, cols_x[1] + w/2, 12.0 - 6*gap, cols_x[2], 12.0 + h/2, gx2, "STAGE 3 ▲\nNEXT")
++    
++    # Stage 3 bottom -> Stage 4 top
++    gx3 = (cols_x[2] + w + cols_x[3]) / 2
++    draw_stage_bridge(ax, cols_x[2] + w/2, 12.0 - 6*gap, cols_x[3], 12.0 + h/2, gx3, "STAGE 4 ▲\nNEXT")
+     
+     # Transition to Chapter 5
+     ch5_x, ch5_y = cols_x[3], 12.0 - 5.0*gap
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

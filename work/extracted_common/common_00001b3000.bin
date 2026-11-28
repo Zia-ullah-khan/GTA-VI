@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PatchConstants>
+  <ScaleOffset x="1.680000" y="1.700000" z="-1.150000" w="0.000000" />
+  <Profiles>
+    <Item>
+      <Name>early_break</Name>
+      <PatchSize value="10.000000" />
+      <BreakFrame value="0.254030" />
+      <CurlFrame value="0.635076" />
+      <CrashFrame value="0.678554" />
+      <WashFrame value="0.692233" />
+      <BackwashFrame value="0.775769" />
+      <BreakPoint>
+        <Item>
+          <RelativePosition value="0.694859" />
+          <Height value="0.355078" />
+          <Intensity value="0.000000" />
+          <Velocity value="-11.214439" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.752677" />
+          <Height value="0.667274" />
+          <Intensity value="0.000000" />
+          <Velocity value="18.312067" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.759267" />
+          <Height value="0.461204" />
+          <Intensity value="0.988012" />
+          <Velocity value="15.824356" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.775140" />
+          <Height value="0.289830" />
+          <Intensity value="0.989790" />
+          <Velocity value="15.477537" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.784444" />
+          <Height value="0.260075" />
+          <Intensity value="0.983378" />
+          <Velocity value="14.263989" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.780212" />
+          <Height value="0.262062" />
+          <Intensity value="0.987983" />
+          <Velocity value="12.521079" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.791994" />
+          <Height value="0.219954" />
+          <Intensity value="1.000000" />
+          <Velocity value="12.458514" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.794787" />
+          <Height value="0.221670" />
+          <Intensity value="0.990352" />
+          <Velocity value="10.963844" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.767176" />
+          <Height value="0.250003" />
+          <Intensity value="0.995619" />
+          <Velocity value="9.378821" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.738079" />
+          <Height value="0.390445" />
+          <Intensity value="0.990609" />
+          <Velocity value="9.249636" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.840601" />
+          <Height value="0.101706" />
+          <Intensity value="1.000000" />
+          <Velocity value="14.726600" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.985229" />
+          <Height value="-0.002522" />
+          <Intensity value="1.000000" />
+          <Velocity value="13.108881" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.909408" />
+          <Height value="-0.002567" />
+          <Intensity value="1.000000" />
+          <Velocity value="-3.276768" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.703168" />
+          <Height value="-0.002689" />
+          <Intensity value="1.000000" />
+          <Velocity value="-8.913211" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.400490" />
+          <Height value="-0.002867" />
+          <Intensity value="0.997418" />
+          <Velocity value="-13.080972" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.034438" />
+          <Height value="0.001784" />
+          <Intensity value="0.461928" />
+          <Velocity value="-15.819887" />
+        </Item>
+      </BreakPoint>
+    </Item>
+    <Item>
+      <Name>Flat</Name>
+      <PatchSize value="10.000000" />
+      <BreakFrame value="0.649731" />
+      <CurlFrame value="0.652174" />
+      <CrashFrame value="0.687836" />
+      <WashFrame value="0.697118" />
+      <BackwashFrame value="0.763068" />
+      <BreakPoint>
+        <Item>
+          <RelativePosition value="0.694488" />
+          <Height value="0.502465" />
+          <Intensity value="0.000000" />
+          <Velocity value="-11.216146" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.697242" />
+          <Height value="0.418796" />
+          <Intensity value="0.000000" />
+          <Velocity value="17.329849" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.699830" />
+          <Height value="0.429190" />
+          <Intensity value="0.000000" />
+          <Velocity value="15.723379" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.717915" />
+          <Height value="0.431208" />
+          <Intensity value="0.000000" />
+          <Velocity value="15.813492" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.725132" />
+          <Height value="0.435453" />
+          <Intensity value="0.000000" />
+          <Velocity value="14.331846" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.729712" />
+          <Height value="0.456965" />
+          <Intensity value="0.000000" />
+          <Velocity value="13.248292" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.729901" />
+          <Height value="0.488440" />
+          <Intensity value="0.000000" />
+          <Velocity value="12.027709" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.733229" />
+          <Height value="0.509670" />
+          <Intensity value="0.000000" />
+          <Velocity value="11.234386" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.749131" />
+          <Height value="0.640280" />
+          <Intensity value="0.000000" />
+          <Velocity value="11.620241" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.749492" />
+          <Height value="0.680021" />
+          <Intensity value="0.997593" />
+          <Velocity value="10.608701" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.854964" />
+          <Height value="0.055552" />
+          <Intensity value="1.000000" />
+          <Velocity value="14.840393" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.966555" />
+          <Height value="0.000003" />
+          <Intensity value="1.000000" />
+          <Velocity value="11.677353" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.869026" />
+          <Height value="0.000061" />
+          <Intensity value="1.000000" />
+          <Velocity value="-4.214931" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.656482" />
+          <Height value="0.000189" />
+          <Intensity value="0.996381" />
+          <Velocity value="-9.185637" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.360456" />
+          <Height value="0.000367" />
+          <Intensity value="0.995827" />
+          <Velocity value="-12.793513" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.015700" />
+          <Height value="0.000569" />
+          <Intensity value="0.586411" />
+          <Velocity value="-14.899510" />
+        </Item>
+      </BreakPoint>
+    </Item>
+    <Item>
+      <Name>surge_early_break</Name>
+      <PatchSize value="10.000000" />
+      <BreakFrame value="0.210064" />
+      <CurlFrame value="0.691256" />
+      <CrashFrame value="0.691744" />
+      <WashFrame value="0.692233" />
+      <BackwashFrame value="0.774304" />
+      <BreakPoint>
+        <Item>
+          <RelativePosition value="0.552335" />
+          <Height value="0.353952" />
+          <Intensity value="0.000000" />
+          <Velocity value="-11.869034" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.588787" />
+          <Height value="1.069925" />
+          <Intensity value="0.957679" />
+          <Velocity value="18.331182" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.614213" />
+          <Height value="0.385212" />
+          <Intensity value="0.938301" />
+          <Velocity value="17.620838" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.637449" />
+          <Height value="0.297229" />
+          <Intensity value="0.977267" />
+          <Velocity value="16.425459" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.623511" />
+          <Height value="0.361304" />
+          <Intensity value="0.998662" />
+          <Velocity value="13.303908" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.625403" />
+          <Height value="0.305760" />
+          <Intensity value="0.982549" />
+          <Velocity value="13.462382" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.647401" />
+          <Height value="0.139121" />
+          <Intensity value="0.985545" />
+          <Velocity value="13.614014" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.628777" />
+          <Height value="0.317407" />
+          <Intensity value="1.000000" />
+          <Velocity value="10.456416" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.632499" />
+          <Height value="0.164763" />
+          <Intensity value="0.948934" />
+          <Velocity value="11.379650" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.700676" />
+          <Height value="0.258862" />
+          <Intensity value="0.997801" />
+          <Velocity value="13.907598" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.840301" />
+          <Height value="0.058621" />
+          <Intensity value="0.999846" />
+          <Velocity value="16.387283" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.977353" />
+          <Height value="0.004032" />
+          <Intensity value="1.000000" />
+          <Velocity value="12.781590" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.912413" />
+          <Height value="0.003913" />
+          <Intensity value="0.996536" />
+          <Velocity value="-2.806570" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.735413" />
+          <Height value="-0.030555" />
+          <Intensity value="1.000000" />
+          <Velocity value="-7.649483" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.442364" />
+          <Height value="-0.016525" />
+          <Intensity value="1.000000" />
+          <Velocity value="-12.664838" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.038429" />
+          <Height value="0.001309" />
+          <Intensity value="0.505193" />
+          <Velocity value="-17.457066" />
+        </Item>
+      </BreakPoint>
+    </Item>
+    <Item>
+      <Name>big_late_break</Name>
+      <PatchSize value="10.000000" />
+      <BreakFrame value="0.623840" />
+      <CurlFrame value="0.649731" />
+      <CrashFrame value="0.692233" />
+      <WashFrame value="0.697118" />
+      <BackwashFrame value="0.763068" />
+      <BreakPoint>
+        <Item>
+          <RelativePosition value="0.425907" />
+          <Height value="0.746757" />
+          <Intensity value="0.000000" />
+          <Velocity value="-12.449703" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.559641" />
+          <Height value="0.906740" />
+          <Intensity value="0.000000" />
+          <Velocity value="20.423737" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.559516" />
+          <Height value="1.019215" />
+          <Intensity value="0.000000" />
+          <Velocity value="15.965932" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.559392" />
+          <Height value="1.130704" />
+          <Intensity value="0.000000" />
+          <Velocity value="15.081728" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.559267" />
+          <Height value="1.243180" />
+          <Intensity value="0.000000" />
+          <Velocity value="14.423551" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.559407" />
+          <Height value="1.410879" />
+          <Intensity value="0.000000" />
+          <Velocity value="13.594716" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.579060" />
+          <Height value="1.581795" />
+          <Intensity value="0.000000" />
+          <Velocity value="13.744023" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.596247" />
+          <Height value="1.738583" />
+          <Intensity value="0.000000" />
+          <Velocity value="12.522093" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.678574" />
+          <Height value="1.718052" />
+          <Intensity value="0.000000" />
+          <Velocity value="15.178634" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.753621" />
+          <Height value="1.636791" />
+          <Intensity value="1.000000" />
+          <Velocity value="14.110639" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.874291" />
+          <Height value="0.108110" />
+          <Intensity value="1.000000" />
+          <Velocity value="15.495939" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.966555" />
+          <Height value="0.000003" />
+          <Intensity value="1.000000" />
+          <Velocity value="10.837036" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.869026" />
+          <Height value="0.000061" />
+          <Intensity value="1.000000" />
+          <Velocity value="-4.214931" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.656482" />
+          <Height value="0.000189" />
+          <Intensity value="0.996381" />
+          <Velocity value="-9.185637" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.360456" />
+          <Height value="0.000367" />
+          <Intensity value="0.995827" />
+          <Velocity value="-12.793513" />
+        </Item>
+        <Item>
+          <RelativePosition value="0.015700" />
+          <Height value="0.000569" />
+          <Intensity value="0.586411" />
+          <Velocity value="-14.899510" />
+        </Item>
+      </BreakPoint>
+    </Item>
+  </Profiles>
+  <PeriodInSeconds value="4.500000" />
+  <NoWashDistanceOffset value="0.400000" />
+  <ShoreTypes>
+    <Item>
+      <MinDistanceBetweenWaves value="4.000000" />
+      <MaxDistanceBetweenWaves value="10.000000" />
+      <SupportedProfiles value="7" />
+      <PersistentFoamMinBeaufort value="4.000000" />
+      <PersistentFoamMaxBeaufort value="11.000000" />
+    </Item>
+    <Item>
+      <MinDistanceBetweenWaves value="4.000000" />
+      <MaxDistanceBetweenWaves value="10.000000" />
+      <SupportedProfiles value="7" />
+      <PersistentFoamMinBeaufort value="5.000000" />
+      <PersistentFoamMaxBeaufort value="11.000000" />
+    </Item>
+    <Item>
+      <MinDistanceBetweenWaves value="4.000000" />
+      <MaxDistanceBetweenWaves value="10.000000" />
+      <SupportedProfiles value="15" />
+      <PersistentFoamMinBeaufort value="8.000000" />
+      <PersistentFoamMaxBeaufort value="12.000000" />
+    </Item>
+    <Item>
+      <MinDistanceBetweenWaves value="3.500000" />
+      <MaxDistanceBetweenWaves value="4.000000" />
+      <SupportedProfiles value="2" />
+      <PersistentFoamMinBeaufort value="7.800000" />
+      <PersistentFoamMaxBeaufort value="12.000000" />
+    </Item>
+  </ShoreTypes>
+  <VisualEffects>
+    <Item>
+      <Name>ent_wtr_shorewave_beforecrest</Name>
+      <State value="1" />
+      <EmissionRate value="1.000000" />
+      <StateFuzziness value="0.200000" />
+      <Direction value="0.100000" />
+      <DirectionVariance value="0.000000" />
+      <Height value="1.000000" />
+      <Velocity value="1.000000" />
+      <VelocityVariance value="0.000000" />
+    </Item>
+    <Item>
+      <Name>ent_wtr_shorewave_crest</Name>
+      <State value="2" />
+      <EmissionRate value="0.500000" />
+      <StateFuzziness value="0.200000" />
+      <Direction value="0.050000" />
+      <DirectionVariance value="0.000000" />
+      <Height value="1.000000" />
+      <Velocity value="1.100000" />
+      <VelocityVariance value="0.100000" />
+    </Item>
+    <Item>
+      <Name>ent_wtr_shorewave_slump</Name>
+      <State value="4" />
+      <EmissionRate value="1.000000" />
+      <StateFuzziness value="0.200000" />
+      <Direction value="0.100000" />
+      <DirectionVariance value="0.000000" />
+      <Height value="1.000000" />
+      <Velocity value="1.000000" />
+      <VelocityVariance value="0.300000" />
+    </Item>
+    <Item>
+      <Name>ent_wtr_shorewave_wash</Name>
+      <State value="8" />
+      <EmissionRate value="1.000000" />
+      <StateFuzziness value="0.200000" />
+      <Direction value="0.100000" />
+      <DirectionVariance value="0.000000" />
+      <Height value="1.000000" />
+      <Velocity value="0.700000" />
+      <VelocityVariance value="0.300000" />
+    </Item>
+  </VisualEffects>
+  <ParticleDensity value="1.000000" />
+  <ParticleThreshold value="0.120000" />
+  <ParticleMaxDistance value="100.000000" />
+</PatchConstants>

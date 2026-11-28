@@ -1,0 +1,223 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -297,16 +297,25 @@
+     ax.axis("off")
+     
+     setup_header(
++def render_chapter_3():
++    fig, ax = plt.subplots(figsize=(22, 13), dpi=200)
++    fig.patch.set_facecolor(BG_COLOR)
++    ax.set_facecolor(BG_COLOR)
++    ax.set_xlim(0, 22)
++    ax.set_ylim(0, 13)
++    ax.axis("off")
++    
++    draw_title(
+         ax,
+         "GRAND THEFT AUTO VI — CHAPTER 3: TITS, ASS, DRUG MONEY",
+-        "Setting: Vice City Outskirts & Cartel Hubs | Missions 45 - 70 | Sinfrontera Bank Heist Prep Tree",
+-        20,
+-        y_top=12.4
+-    )
+-    
+-    w, h = 3.4, 1.12
+-    gap = 1.35
+-    
++        "Setting: Vice City Outskirts & Cartel Hubs | Missions 45 - 70 | 3 Parallel Strands -> Sinfrontera Heist",
++        22,
++        y_top=12.4
++    )
++    
++    w, h = 3.2, 1.05
++    
++    # Column 1: Missions 45 - 50 (Spine)
+     col1 = [
+         ("45. Welcome to Vice City", "Arrival in the Metropolis", "", "normal"),
+         ("46. Dealer's Choice", "Underground Casino Meeting", "", "normal"),
+@@ -313,52 +313,68 @@
+         ("48. Dubious Provenance", "Handling Hot Merchandise", "", "normal"),
+         ("49. Mami Knows Best", "Vice City Cartel Liaison", "", "normal"),
+-        ("50. South Leonida Real Estate", "Scouting Safehouses", "", "normal"),
+-        ("51. Tyrone", "Street Level Muscle Contract", "", "normal"),
+-    ]
+-    
+-    col2 = [
+-        ("52. Here, Kitty Kitty", "Vice Strip Club Contract", "", "normal"),
+-        ("53. Car Service", "Luxury Vehicle Interception", "", "normal"),
+-        ("54. Top Billing", "High-End Nightclub Job", "", "normal"),
+-        ("55. Boobie Time", "Boobie Ike Alliance Formed", "Key Contact", "milestone"),
+-        ("56. First Impressions", "Raul Bautista Introduction", "Cartel Connection", "milestone"),
+-        ("57. Caught Slipping", "Surviving Competitor Ambush", "", "normal"),
+-        ("58. Crosstown Traffic", "High-Speed Highway Pursuit", "", "normal"),
+-    ]
+-    
+-    col3_pre = [
+-        ("59. Credit Check", "Background Probe on Raul", "", "normal"),
+-        ("60. Steal Zorrusso for Randy", "Exotic Supercar Booster", "", "normal"),
++        ("50. South Leonida Real Estate", "Safehouse Unlocked -> 3 Strands Open", "Safehouse", "milestone"),
+     ]
+     
+     for r, (t, sub, b, ct) in enumerate(col1):
+-        cy = 11.0 - r * gap
+-        draw_card(ax, 0.8, cy, w, h, t, sub, b, ct)
++        cy = 10.8 - r * 1.5
++        draw_card(ax, 0.6, cy, w, h, t, sub, b, ct)
+         if r < len(col1) - 1:
+-            draw_arrow(ax, (0.8 + w/2, cy), (0.8 + w/2, cy - (gap - h)))
+-            
+-    draw_arrow(ax, (0.8 + w, 11.0 - 6*gap + h/2), (4.6, 11.0 + h/2), color="#f43f5e", rad=-0.25)
+-    
+-    for r, (t, sub, b, ct) in enumerate(col2):
+-        cy = 11.0 - r * gap
+-        draw_card(ax, 4.6, cy, w, h, t, sub, b, ct)
+-        if r < len(col2) - 1:
+-            draw_arrow(ax, (4.6 + w/2, cy), (4.6 + w/2, cy - (gap - h)))
+-            
+-    draw_arrow(ax, (4.6 + w, 11.0 - 6*gap + h/2), (8.4, 11.0 + h/2), color="#f43f5e", rad=-0.25)
+-    
+-    for r, (t, sub, b, ct) in enumerate(col3_pre):
+-        cy = 11.0 - r * gap
+-        draw_card(ax, 8.4, cy, w, h, t, sub, b, ct)
+-        if r < len(col3_pre) - 1:
+-            draw_arrow(ax, (8.4 + w/2, cy), (8.4 + w/2, cy - (gap - h)))
+-            
+-    heist_scope_y = 11.0 - 2.5 * gap
+-    draw_card(ax, 8.4, heist_scope_y, w, 1.25, "61. Sinfrontera National Bank", "HEIST SCOPE OUT & PLANNING BOARD", "HEIST TRIGGER", "heist")
+-    draw_arrow(ax, (8.4 + w/2, 11.0 - gap), (8.4 + w/2, heist_scope_y + 1.25), color="#fbbf24")
+-    
++            draw_arrow(ax, (0.6 + w/2, cy), (0.6 + w/2, cy - 0.45))
++            
++    # From Mission 50 -> Fan out to 3 Strands
++    m50_pt = (0.6 + w, 10.8 - 5 * 1.5 + h/2)
++    
++    # STRAND 1: TYRONE (Street Muscle)
++    s1_x1, s1_x2 = 4.3, 7.8
++    draw_card(ax, s1_x1, 10.8, w, h, "51. Tyrone", "Street Level Muscle Contract", "Strand 1", "normal")
++    draw_card(ax, s1_x2, 10.8, w, h, "52. Here, Kitty Kitty", "Vice Strip Club Contract", "Strand 1", "normal")
++    draw_arrow(ax, (s1_x1 + w, 11.32), (s1_x2, 11.32))
++    draw_arrow(ax, m50_pt, (s1_x1, 11.32), color="#38bdf8", rad=-0.25)
++    
++    # STRAND 2: BOOBIE & DRE'QUAN (Syndicate)
++    s2_y = 9.2
++    draw_card(ax, s1_x1, s2_y, w, h, "54. Top Billing", "High-End Nightclub Job", "Strand 2", "normal")
++    draw_card(ax, s1_x2, s2_y, w, h, "55. Boobie Time", "Boobie Ike Alliance Formed", "Key Contact", "milestone")
++    draw_card(ax, s1_x2, 7.6, w, h, "56. First Impressions", "Syndicate Introductions", "Strand 2", "normal")
++    draw_arrow(ax, (s1_x1 + w, s2_y + h/2), (s1_x2, s2_y + h/2))
++    draw_arrow(ax, (s1_x2 + w/2, s2_y), (s1_x2 + w/2, 7.6 + h))
++    draw_arrow(ax, m50_pt, (s1_x1, s2_y + h/2), color="#a855f7", rad=-0.15)
++    
++    # Parallel Routing Badge
++    badge_box = patches.FancyBboxPatch(
++        (s1_x1, 7.5), w, 1.2,
++        boxstyle="round,pad=0.03,rounding_size=0.15",
++        linewidth=1.2, edgecolor="#10b981", facecolor="#064e3b", zorder=2
++    )
++    ax.add_patch(badge_box)
++    ax.text(s1_x1 + w/2, 8.4, "⚡ 3 PARALLEL STRANDS", ha="center", va="center", fontsize=8, fontweight="bold", color="#34d399", zorder=3)
++    ax.text(s1_x1 + w/2, 7.85, "Contacts enter cooldown after missions.\nSpeedrunners zigzag between strands;\ncasual play shows all 3 on map.", ha="center", va="center", fontsize=6.2, color="#ecfdf5", zorder=3)
++    
++    # STRAND 3: RAUL & RANDY (Cartel & Cars)
++    draw_card(ax, s1_x1, 5.9, w, h, "53. Car Service", "Luxury Vehicle Interception", "Strand 3", "normal")
++    draw_card(ax, s1_x1, 4.4, w, h, "57. Caught Slipping", "Surviving Competitor Ambush", "Strand 3", "normal")
++    draw_card(ax, s1_x1, 2.9, w, h, "58. Crosstown Traffic", "Highway Pursuit & Escape", "Strand 3", "normal")
++    draw_card(ax, s1_x1, 1.4, w, h, "59. Credit Check", "Background Probe on Raul", "Strand 3", "normal")
++    draw_card(ax, s1_x2, 1.4, w, h, "60. Steal Zorrusso for Randy", "Exotic Supercar Booster", "Strand 3", "normal")
++    
++    draw_arrow(ax, m50_pt, (s1_x1, 5.9 + h/2), color="#f59e0b", rad=0.15)
++    draw_arrow(ax, (s1_x1 + w/2, 5.9), (s1_x1 + w/2, 5.45))
++    draw_arrow(ax, (s1_x1 + w/2, 4.4), (s1_x1 + w/2, 3.95))
++    draw_arrow(ax, (s1_x1 + w/2, 2.9), (s1_x1 + w/2, 2.45))
++    draw_arrow(ax, (s1_x1 + w, 1.4 + h/2), (s1_x2, 1.4 + h/2))
++    
++    # HEIST SCOPE OUT CONVERGENCE (Mission 61)
++    heist_scope_y = 4.2
++    draw_card(ax, s1_x2, heist_scope_y, w, 1.35, "61. Sinfrontera National Bank", "HEIST SCOPE OUT & PLANNING BOARD\nAll 3 Strands Converge Here!", "CONVERGENCE", "heist")
++    
++    # Arrows from Strand 1, 2, 3 into Mission 61
++    draw_arrow(ax, (s1_x2 + w/2, 10.8), (s1_x2 + w/2, heist_scope_y + 1.35), color="#fbbf24", rad=-0.2)
++    draw_arrow(ax, (s1_x2 + w/2, 7.6), (s1_x2 + w/2, heist_scope_y + 1.35), color="#fbbf24")
++    draw_arrow(ax, (s1_x2 + w/2, 2.45), (s1_x2 + w/2, heist_scope_y), color="#fbbf24")
++    
++    # HEIST PREP BOX
+     prep_box = patches.FancyBboxPatch(
+-        (12.3, 1.5), 7.2, 9.8,
++        (12.0, 1.2), 9.4, 10.6,
+         boxstyle="round,pad=0.03,rounding_size=0.2",
+         linewidth=1.2,
+         edgecolor="#f59e0b",
+@@ -365,39 +365,39 @@
+         zorder=1
+     )
+     ax.add_patch(prep_box)
+-    ax.text(15.9, 10.9, "SINFRONTERA BANK HEIST PREPARATION PIPELINE", ha="center", va="center", fontsize=9.5, fontweight="bold", color="#fde047")
+-    
+-    t1_x = 12.6
+-    draw_card(ax, t1_x, 9.2, 3.1, 1.1, "62. Security Expert", "Retrieve Nicole Park (Safecracker)", "Crew Specialist", "heist", fontsize=8.5)
+-    draw_card(ax, t1_x, 7.6, 3.1, 1.1, "65. Safe Word", "Safe-Cracking Training Drill", "Vault Time Boost", "heist", fontsize=8.5)
+-    draw_card(ax, t1_x, 6.0, 3.1, 1.1, "68. Cooties", "Disinfecting Evidence / Clean Getaway", "Extraction Prep", "heist", fontsize=8.5)
+-    draw_arrow(ax, (t1_x + 1.55, 9.2), (t1_x + 1.55, 8.7), color="#fde047")
+-    draw_arrow(ax, (t1_x + 1.55, 7.6), (t1_x + 1.55, 7.1), color="#fde047")
+-    
+-    t2_x = 16.1
+-    draw_card(ax, t2_x, 9.2, 3.1, 1.1, "63. Company Property", "Steal Heavy Vault Explosives", "Breach Gear", "heist", fontsize=8.5)
+-    draw_card(ax, t2_x, 7.6, 3.1, 1.1, "66. Hidden Charges", "Rig 3 Regional Cell Towers", "Delays Police", "heist", fontsize=8.5)
+-    draw_card(ax, t2_x, 6.0, 3.1, 1.1, "69. Bricked Up", "Reinforce Vault Extraction Route", "Route Secure", "heist", fontsize=8.5)
+-    draw_arrow(ax, (t2_x + 1.55, 9.2), (t2_x + 1.55, 8.7), color="#fde047")
+-    draw_arrow(ax, (t2_x + 1.55, 7.6), (t2_x + 1.55, 7.1), color="#fde047")
+-    
+-    draw_card(ax, 12.6, 4.4, 3.1, 1.1, "64. The Missing Link", "Interrogate Monty for Vault Codes", "Insider Intel", "heist", fontsize=8.5)
+-    draw_card(ax, 16.1, 4.4, 3.1, 1.1, "67. Ride or Die", "Acquire Armored Extraction Van", "Getaway Vehicle", "heist", fontsize=8.5)
+-    draw_arrow(ax, (15.7, 4.95), (16.1, 4.95), color="#fde047")
+-    
+-    draw_arrow(ax, (8.4 + w, heist_scope_y + 0.6), (t1_x, 9.75), color="#fbbf24", rad=-0.15)
+-    draw_arrow(ax, (8.4 + w, heist_scope_y + 0.6), (t2_x, 9.75), color="#fbbf24", rad=-0.25)
+-    draw_arrow(ax, (8.4 + w, heist_scope_y + 0.6), (12.6, 4.95), color="#fbbf24", rad=0.15)
+-    
+-    heist_fin_y = 2.0
+-    draw_card(ax, 13.5, heist_fin_y, 4.8, 1.3, "70. THE CARTEL HEIST", "Sinfrontera National Bank Vault Raid ($10.5M Take)", "MAJOR HEIST CLIMAX", "point_of_no_return", fontsize=9.5)
+-    
+-    draw_arrow(ax, (t1_x + 1.55, 6.0), (14.5, heist_fin_y + 1.3), color="#ef4444")
+-    draw_arrow(ax, (t2_x + 1.55, 6.0), (17.5, heist_fin_y + 1.3), color="#ef4444")
+-    draw_arrow(ax, (17.65, 4.4), (16.5, heist_fin_y + 1.3), color="#ef4444")
+-    
+-    draw_card(ax, 8.4, 1.8, w, 0.9, "→ TRANSITION TO CHAPTER 4", "Destination: Ocean Beach (Vice City, Baby)", "", "point_of_no_return")
+-    draw_arrow(ax, (13.5, heist_fin_y + 0.65), (8.4 + w, 2.25), color="#ef4444")
++    ax.text(16.7, 11.4, "SINFRONTERA BANK HEIST PREPARATION PIPELINE", ha="center", va="center", fontsize=9.5, fontweight="bold", color="#fde047")
++    
++    t1_x = 12.3
++    draw_card(ax, t1_x, 9.6, 4.2, 1.1, "62. Security Expert", "Retrieve Nicole Park (Safecracker)", "Crew Specialist", "heist", fontsize=8.5)
++    draw_card(ax, t1_x, 7.9, 4.2, 1.1, "65. Safe Word", "Safe-Cracking Training Drill", "Vault Time Boost", "heist", fontsize=8.5)
++    draw_card(ax, t1_x, 6.2, 4.2, 1.1, "68. Cooties", "Disinfecting Evidence / Clean Getaway", "Extraction Prep", "heist", fontsize=8.5)
++    draw_arrow(ax, (t1_x + 2.1, 9.6), (t1_x + 2.1, 9.0), color="#fde047")
++    draw_arrow(ax, (t1_x + 2.1, 7.9), (t1_x + 2.1, 7.3), color="#fde047")
++    
++    t2_x = 16.9
++    draw_card(ax, t2_x, 9.6, 4.2, 1.1, "63. Company Property", "Steal Heavy Vault Explosives", "Breach Gear", "heist", fontsize=8.5)
++    draw_card(ax, t2_x, 7.9, 4.2, 1.1, "66. Hidden Charges", "Rig 3 Regional Cell Towers (Blow 2 for speedrun)", "Delays Police", "heist", fontsize=8.5)
++    draw_card(ax, t2_x, 6.2, 4.2, 1.1, "69. Bricked Up", "Reinforce Vault Extraction Route", "Route Secure", "heist", fontsize=8.5)
++    draw_arrow(ax, (t2_x + 2.1, 9.6), (t2_x + 2.1, 9.0), color="#fde047")
++    draw_arrow(ax, (t2_x + 2.1, 7.9), (t2_x + 2.1, 7.3), color="#fde047")
++    
++    draw_card(ax, 12.3, 4.5, 4.2, 1.1, "64. The Missing Link", "Interrogate Monty for Vault Codes", "Insider Intel", "heist", fontsize=8.5)
++    draw_card(ax, 16.9, 4.5, 4.2, 1.1, "67. Ride or Die", "Acquire Armored Extraction Van", "Getaway Vehicle", "heist", fontsize=8.5)
++    draw_arrow(ax, (16.5, 5.05), (16.9, 5.05), color="#fde047")
++    
++    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.65), (t1_x, 10.15), color="#fbbf24", rad=-0.15)
++    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.65), (t2_x, 10.15), color="#fbbf24", rad=-0.25)
++    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.65), (12.3, 5.05), color="#fbbf24", rad=0.15)
++    
++    heist_fin_y = 1.8
++    draw_card(ax, 13.5, heist_fin_y, 6.4, 1.35, "70. THE CARTEL HEIST", "Sinfrontera National Bank Vault Raid ($10.5M Take)\n★ Keep $75,000 for Chapter 4 Abe Gate! ★", "MAJOR HEIST CLIMAX", "point_of_no_return", fontsize=9.5)
++    
++    draw_arrow(ax, (t1_x + 2.1, 6.2), (14.5, heist_fin_y + 1.35), color="#ef4444")
++    draw_arrow(ax, (t2_x + 2.1, 6.2), (18.5, heist_fin_y + 1.35), color="#ef4444")
++    draw_arrow(ax, (19.0, 4.5), (17.5, heist_fin_y + 1.35), color="#ef4444")
++    
++    draw_card(ax, 7.8, 1.8, w, 1.0, "→ TRANSITION TO CH. 4", "Destination: Ocean Beach (VC)", "", "point_of_no_return")
++    draw_arrow(ax, (13.5, heist_fin_y + 0.65), (7.8 + w, 2.3), color="#ef4444")
+     
+     out_path = os.path.join(WORKSPACE_DIR, "flowchart_chapter_3.png")
+     plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CDataFileMgr__ContentChangeSetDef>
+  <!-- Manual Hand Edit Mount File -->
+  <id>core_credits</id>
+  <registrationGroup></registrationGroup>
+  <associatedMap></associatedMap>
+  <executionConditions>
+    <genericConditions>%loadFullCredits=false</genericConditions>
+  </executionConditions>
+  <fileList>
+    <Item>
+      <filename>$(target)/data/credits/credits.rpf</filename>
+      <fileType>UI_CREDITS_PACK_FILE</fileType>
+    </Item>
+  </fileList>
+  <flags>Default</flags>
+  <mapAddAtPhase value="0" />
+  <mapRemoveAtPhase value="0" />
+</CDataFileMgr__ContentChangeSetDef>

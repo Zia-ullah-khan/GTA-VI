@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WeaponAnimations__FullbodyControllerData>
+  <AnimRequestConfigMap>
+    <Item key="Unholster" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <HasAll>Ped_PendingUnholster</HasAll>
+          </Item>
+          <Item type="CAIConditionNot">
+            <Condition type="CAIConditionOr">
+              <Conditions>
+                <Item type="CAIConditionQueryWeaponName">
+                  <WeaponToCheck>EQUIPPED_OR_SELECTED</WeaponToCheck>
+                  <WeaponName>WEAPON_SPORTS_FISHINGROD</WeaponName>
+                </Item>
+                <Item type="CAIConditionGetIsSwapRunning" />
+                <Item type="CAIConditionIsGettingUp" />
+              </Conditions>
+            </Condition>
+          </Item>
+        </Conditions>
+      </RequiredCondition>
+      <Variants>
+        <Item>
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionIsTaskRunning">
+                <Ped>PrimaryEntity</Ped>
+                <TaskHash>TASK_CONFRONT</TaskHash>
+              </Item>
+              <Item type="CAIBehaviourConditionHasRepositionController">
+                <CheckConfrontAllowsReposition value="true" />
+              </Item>
+            </Conditions>
+          </Condition>
+          <VariantName>RepositionUnholster</VariantName>
+        </Item>
+      </Variants>
+      <DefaultRequestType>Unholster_Default</DefaultRequestType>
+    </Item>
+    <Item key="AimIntro" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionNot">
+        <Condition type="CAIConditionOr">
+          <Conditions>
+            <Item type="CAIConditionQueryWeaponName">
+              <WeaponToCheck>EQUIPPED_OR_SELECTED</WeaponToCheck>
+              <WeaponName>WEAPON_SPORTS_FISHINGROD</WeaponName>
+            </Item>
+            <Item type="CAIConditionGetIsSwapRunning" />
+            <Item type="CAIConditionIsGettingUp" />
+          </Conditions>
+        </Condition>
+      </RequiredCondition>
+      <InterruptCondition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <HasAny>ExternalRequest_Radio</HasAny>
+          </Item>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_Unholster</TypesToQuery>
+            <OnlyPendingOrBreakout value="true" />
+          </Item>
+        </Conditions>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_Unholster</TypesToQuery>
+        <IgnorePending value="true" />
+        <IgnoreBreakout value="true" />
+      </QueueCondition>
+      <Variants>
+        <Item>
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+                <HasAll>Ped_PendingUnholster</HasAll>
+              </Item>
+              <Item type="CAIConditionIsTaskRunning">
+                <TaskHash>TASK_USE_SCENARIO</TaskHash>
+              </Item>
+            </Conditions>
+          </Condition>
+          <VariantName>AimIntroFromHolsterInScenario</VariantName>
+        </Item>
+        <Item>
+          <Condition type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <HasAll>Ped_PendingUnholster</HasAll>
+          </Condition>
+          <VariantName>AimIntroFromHolster</VariantName>
+        </Item>
+        <Item>
+          <Condition type="AICondition__PedSpeed__PedAISpeedEvaluator">
+            <AISpeedToTest>Any</AISpeedToTest>
+            <SpeedCheck type="AICondition__PedSpeed__AISpeedRangeCheckGait">
+              <MinGait>Gait_Walk</MinGait>
+              <MaxGait>Gait_Sprint</MaxGait>
+            </SpeedCheck>
+          </Condition>
+          <VariantName>AimIntroUnholsteredStop</VariantName>
+        </Item>
+      </Variants>
+      <DefaultRequestType>AimIntroUnholstered</DefaultRequestType>
+    </Item>
+    <Item key="AimOutro" type="WeaponAnimations__FBAnimRequestConfig">
+      <InterruptCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_AimIntro</TypesToQuery>
+      </QueueCondition>
+      <DefaultRequestType>AimOutroToHold</DefaultRequestType>
+    </Item>
+    <Item key="Holster" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionNot">
+        <Condition type="CAIConditionOr">
+          <Conditions>
+            <Item type="CAIConditionGetIsSwapRunning" />
+            <Item type="CAIConditionIsGettingUp" />
+          </Conditions>
+        </Condition>
+      </RequiredCondition>
+      <InterruptCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_AimIntro PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_Unholster</TypesToQuery>
+          </Item>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <HasAll>Request_AimOutroToHold</HasAll>
+          </Item>
+        </Conditions>
+      </QueueCondition>
+      <Variants>
+        <Item>
+          <Condition type="CAIConditionIsPedAimingWeapon" />
+          <VariantName>AimOutroToHolster</VariantName>
+        </Item>
+        <Item>
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionIsTaskRunning">
+                <Ped>PrimaryEntity</Ped>
+                <TaskHash>TASK_CONFRONT</TaskHash>
+              </Item>
+              <Item type="CAIBehaviourConditionHasRepositionController">
+                <CheckConfrontAllowsReposition value="true" />
+              </Item>
+            </Conditions>
+          </Condition>
+          <VariantName>RepositionHolster</VariantName>
+        </Item>
+      </Variants>
+      <DefaultRequestType>Holster_Default</DefaultRequestType>
+    </Item>
+    <Item key="DropWeapon" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionBlackboardBool">
+        <Name>SurrenderDropWeapon</Name>
+      </RequiredCondition>
+      <InterruptCondition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+          </Item>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_AimIntro</TypesToQuery>
+            <IgnorePending value="true" />
+            <OnlyPendingOrBreakout value="true" />
+          </Item>
+        </Conditions>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_AimIntro</TypesToQuery>
+      </QueueCondition>
+      <Variants>
+        <Item>
+          <Condition type="CAIConditionQueryWeaponType">
+            <WeaponToCheck>EQUIPPED_AND_SELECTED</WeaponToCheck>
+            <WeaponType>Melee</WeaponType>
+          </Condition>
+          <VariantName>SurrenderDropMeleeWeapon</VariantName>
+        </Item>
+      </Variants>
+      <DefaultRequestType>SurrenderDropWeapon</DefaultRequestType>
+    </Item>
+    <Item key="RepositionLocalMovement" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionValidateFullbodyWeaponAnimTags">
+        <DoesNotHave>ExternalRequest_Radio Loco_PendingDrop Ped_PendingHolster Ped_PendingSwap Ped_PendingUnholster Request_CombatTransition</DoesNotHave>
+      </RequiredCondition>
+      <QueueCondition type="CAIConditionBlackboardBool">
+        <Name>LocalMovementAllowQueuingRepositionRequests</Name>
+      </QueueCondition>
+      <DefaultRequestType>LocoAnimRequest_Reposition</DefaultRequestType>
+    </Item>
+    <Item key="Reload" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionValidateFullbodyWeaponAnimTags">
+        <DoesNotHave>ExternalRequest_Radio Ped_PendingHolster Ped_PendingSwap Ped_PendingUnholster Request_CombatTransition</DoesNotHave>
+      </RequiredCondition>
+      <InterruptCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionTrue" />
+      <DefaultRequestType>RepositionReload</DefaultRequestType>
+    </Item>
+    <Item key="Unload" type="WeaponAnimations__FBAnimRequestConfig">
+      <InterruptCondition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+          </Item>
+          <Item type="CAIConditionIsPlayingFullbodyWeaponAnim">
+            <TypesToQuery>PED_WEAPON_FBANIM_TYPE_AimIntro</TypesToQuery>
+            <IgnorePending value="true" />
+            <OnlyPendingOrBreakout value="true" />
+          </Item>
+        </Conditions>
+      </InterruptCondition>
+      <QueueCondition type="CAIConditionTrue" />
+      <DefaultRequestType>LocoAnimRequest_RepositionLocalMovement</DefaultRequestType>
+    </Item>
+    <Item key="FullBodyCombat" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionValidateFullbodyWeaponAnimTags">
+        <DoesNotHave>ExternalRequest_Radio Ped_PendingHolster Ped_PendingSwap Ped_PendingUnholster Request_CombatTransition</DoesNotHave>
+      </RequiredCondition>
+      <DefaultRequestType>LocoAnimRequest_CombatOneShot</DefaultRequestType>
+    </Item>
+    <Item key="FullBodyCover" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionValidateFullbodyWeaponAnimTags">
+        <DoesNotHave>ExternalRequest_Radio Ped_PendingHolster Ped_PendingSwap Ped_PendingUnholster Request_CombatTransition</DoesNotHave>
+      </RequiredCondition>
+      <InterruptCondition type="CAIConditionIsPlayingFullbodyWeaponAnim">
+        <TypesToQuery>PED_WEAPON_FBANIM_TYPE_CombatOneShot PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</TypesToQuery>
+      </InterruptCondition>
+      <DefaultRequestType>FullBodyCover_Default</DefaultRequestType>
+    </Item>
+    <Item key="External_Radio" type="WeaponAnimations__FBAnimRequestConfig">
+      <RequiredCondition type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <HasAll>Allow_Radio_For_Anim</HasAll>
+          </Item>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <DoesNotHave>Block_Radio Ped_PendingHolster Ped_PendingSwap Ped_PendingUnholster Request_CombatTransition</DoesNotHave>
+          </Item>
+        </Conditions>
+      </RequiredCondition>
+      <DefaultRequestType>External_Radio_Default</DefaultRequestType>
+    </Item>
+  </AnimRequestConfigMap>
+  <AnimRequestDataMap>
+    <Item key="AimIntroFromHolster" type="WeaponAnimations__FBRequestData">
+      <Name>AimIntroFromHolster</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimIntro</Type>
+      <TagsToApply>Loco_PendingSwap Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimIntroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimIntroPlaying</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+        <ShouldWaitForWeaponTask value="true" />
+        <DropCarriablesInHand value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="AimIntroFromHolsterInScenario" type="WeaponAnimations__FBRequestData">
+      <Name>AimIntroFromHolsterInScenario</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimIntro</Type>
+      <TagsToApply>Loco_PendingSwap Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimIntroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimIntroPlaying</BBVarSetOnMotion>
+        <WaitForLocoFullbodyEnabled value="true" />
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+        <DropCarriablesInHand value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="AimIntroUnholstered" type="WeaponAnimations__FBRequestData">
+      <Name>AimIntroUnholstered</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimIntro</Type>
+      <TagsToApply>Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimIntroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimIntroPlaying</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <ShouldWaitForWeaponTask value="true" />
+        <RefreshHandPosePreferenceOnStart value="true" />
+      </ControlGraphParams>
+      <CancelWaitingForAnimCheck type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionBlackboardBool">
+            <Name>inCombatAnim</Name>
+            <Section>Animation</Section>
+            <IsTrue value="true" />
+          </Item>
+          <Item type="CAIConditionValidateFullbodyWeaponAnimTags">
+            <DoesNotHave>Loco_SwitchingToCombatAnims</DoesNotHave>
+          </Item>
+        </Conditions>
+      </CancelWaitingForAnimCheck>
+    </Item>
+    <Item key="AimIntroUnholsteredStop" type="WeaponAnimations__FBRequestData">
+      <Name>AimIntroUnholsteredStop</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimIntro</Type>
+      <TagsToApply>Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimIntroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimIntroPlaying</BBVarSetOnMotion>
+        <WaitForMotionStopToApply value="true" />
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <ShouldWaitForWeaponTask value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="AimOutroToHold" type="WeaponAnimations__FBRequestData">
+      <Name>AimOutroToHold</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimOutro</Type>
+      <TagsToApply>Request_AimOutroToHold Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimOutroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimOutroPlaying</BBVarSetOnMotion>
+      </LocoParams>
+    </Item>
+    <Item key="AimOutroToHolster" type="WeaponAnimations__FBRequestData">
+      <Name>AimOutroToHolster</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_AimOutro</Type>
+      <TagsToApply>Loco_PendingSwap Request_CombatTransition</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimOutroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimOutroPlaying</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="External_Radio_Default" type="WeaponAnimations__FBRequestData">
+      <Name>External_Radio_Default</Name>
+    </Item>
+    <Item key="FullBodyCover_Default" type="WeaponAnimations__FBRequestData">
+      <Name>FullBodyCover_Default</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_CombatOneShot</Type>
+      <TagsToApply>Block_Radio</TagsToApply>
+      <LocoParams>
+        <UseLocoBreakoutToIdleTransitionTags value="false" />
+      </LocoParams>
+    </Item>
+    <Item key="Holster_Default" type="WeaponAnimations__FBRequestData">
+      <Name>Holster_Default</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Holster</Type>
+      <TagsToApply>Loco_PendingSwap</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AI_REPO_HOLSTER</TriggerEvent>
+        <BBVarSetOnMotion>FullbodyAnimBlockingSwap</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="LocoAnimRequest_CombatOneShot" type="WeaponAnimations__FBRequestData">
+      <Name>LocoAnimRequest_CombatOneShot</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_CombatOneShot</Type>
+      <LocoParams>
+        <ConsiderPlayingUntilMotionExpires value="true"/>
+        <UseLocoBreakoutToIdleTransitionTags value="false"/>
+      </LocoParams>
+    </Item>
+    <Item key="LocoAnimRequest_Reposition" type="WeaponAnimations__FBRequestData">
+      <Name>LocoAnimRequest_Reposition</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</Type>
+      <LocoParams>
+        <ConsiderPlayingUntilMotionExpires value="true" />
+      </LocoParams>
+    </Item>
+    <Item key="RepositionHolster" type="WeaponAnimations__FBRequestData">
+      <Name>RepositionHolster</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Holster</Type>
+      <TagsToApply>Loco_PendingSwap</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AI_REPO_HOLSTER</TriggerEvent>
+        <BBVarSetOnMotion>FullbodyAnimBlockingSwap</BBVarSetOnMotion>
+        <RequestRepositionOneShot value="true" />
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="RepositionReload" type="WeaponAnimations__FBRequestData">
+      <Name>RepositionReload</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_RepositionLocalMovement</Type>
+      <LocoParams>
+        <BBVarSetOnMotion>FullbodyReloadPlaying</BBVarSetOnMotion>
+      </LocoParams>
+    </Item>
+    <Item key="RepositionUnholster" type="WeaponAnimations__FBRequestData">
+      <Name>RepositionUnholster</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Unholster</Type>
+      <TagsToApply>Loco_PendingSwap</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AI_REPO_UNHOLSTER</TriggerEvent>
+        <BBVarSetOnMotion>FullbodyAnimBlockingSwap</BBVarSetOnMotion>
+        <RequestRepositionOneShot value="true" />
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+        <ShouldWaitForWeaponTask value="true" />
+      </ControlGraphParams>
+    </Item>
+    <Item key="SurrenderDropMeleeWeapon" type="WeaponAnimations__FBRequestData">
+      <Name>SurrenderDropMeleeWeapon</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Drop</Type>
+      <TagsToApply>Loco_PendingDrop</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AI_REPO_HOLSTER</TriggerEvent>
+        <BBVarSetOnMotion>FullbodyAnimBlockingSwap</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+      </ControlGraphParams>
+      <LocalNavSpaceParams type="WeaponAnimations__FBLocalNavSpaceParams">
+        <Radius value="3.000000" />
+      </LocalNavSpaceParams>
+    </Item>
+    <Item key="SurrenderDropWeapon" type="WeaponAnimations__FBRequestData">
+      <Name>SurrenderDropWeapon</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Drop</Type>
+      <TagsToApply>Loco_PendingDrop</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AimOutroStart</TriggerEvent>
+        <BBVarSetOnMotion>AimOutroPlaying</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+        <ShouldWaitForWeaponTask value="false" />
+      </ControlGraphParams>
+      <LocalNavSpaceParams type="WeaponAnimations__FBLocalNavSpaceParams">
+        <Radius value="3.000000" />
+      </LocalNavSpaceParams>
+    </Item>
+    <Item key="Unholster_Default" type="WeaponAnimations__FBRequestData">
+      <Name>Unholster_Default</Name>
+      <Type>PED_WEAPON_FBANIM_TYPE_Unholster</Type>
+      <TagsToApply>Loco_PendingSwap</TagsToApply>
+      <LocoParams>
+        <TriggerEvent>AI_REPO_UNHOLSTER</TriggerEvent>
+        <BBVarSetOnMotion>FullbodyAnimBlockingSwap</BBVarSetOnMotion>
+        <UseFullbodyWCGTagForBreakout value="true" />
+      </LocoParams>
+      <ControlGraphParams>
+        <IsFullbodySwap value="true" />
+        <ShouldWaitForWeaponTask value="true" />
+      </ControlGraphParams>
+    </Item>
+  </AnimRequestDataMap>
+  <Timeouts>
+    <MaxWaitTimeForWeaponTask value="5.000000" />
+  </Timeouts>
+</WeaponAnimations__FullbodyControllerData>

@@ -1,0 +1,173 @@
+[
+ {
+  "kind": "enables_trigger",
+  "ids": [
+   "MTL_MUD"
+  ],
+  "related_ids": [
+   "HO_PAR_FRINT"
+  ],
+  "statement": "If the MTL_MUD record is not enabled, this script enables it (_0x480014E54CD33903(MTL_MUD, 1)). The same script references HO_PAR_FRINT.",
+  "file": "0x2CC10383B818622E.ysc.cs",
+  "line_range": [
+   45993,
+   46010
+  ],
+  "evidence": [
+   "0x2CC10383B818622E.ysc.cs:45993 (MTL_MUD = 0x03CDAD54)",
+   "0x2CC10383B818622E.ysc.cs:46007 (MTL_MUD = 0x03CDAD54)"
+  ]
+ },
+ {
+  "kind": "time_of_day_variant",
+  "ids": [
+   "BIL_PICK_NIGHT_TIME_START",
+   "BIL_PICK_DAY_TIME_START"
+  ],
+  "related_ids": [],
+  "statement": "A value compared with '< 17' selects the variant: the DAY record is enabled when the test is true and the NIGHT record when it is false.",
+  "file": "story000.ysc.cs",
+  "line_range": [
+   116302,
+   116328
+  ],
+  "evidence": [
+   "story000.ysc.cs:116320 (BIL_PICK_NIGHT_TIME_START = 0xC943252B)",
+   "story000.ysc.cs:116325 (BIL_PICK_DAY_TIME_START = 0xBBBBEBF6)"
+  ]
+ },
+ {
+  "kind": "disables_triggers",
+  "ids": [
+   "BIL_PRECI",
+   "BIL_FINAL_B",
+   "BIL_FINALE_M",
+   "BIL_PENT_B_BRIAN",
+   "BIL_PENT_M_MENDEZ"
+  ],
+  "related_ids": [],
+  "statement": "One function disables all five records together (_0x480014E54CD33903(id, 0)) after moving the player.",
+  "file": "story000.ysc.cs",
+  "line_range": [
+   110725,
+   110773
+  ],
+  "evidence": [
+   "story000.ysc.cs:110725 (BIL_PRECI = 0x7ACF21D1)",
+   "story000.ysc.cs:110730 (BIL_PRECI = 0x7ACF21D1)",
+   "story000.ysc.cs:110735 (BIL_FINAL_B = 0x96F9A142)",
+   "story000.ysc.cs:110740 (BIL_FINAL_B = 0x96F9A142)",
+   "story000.ysc.cs:110745 (BIL_FINALE_M = 0xF8FB7ACC)",
+   "story000.ysc.cs:110750 (BIL_FINALE_M = 0xF8FB7ACC)",
+   "story000.ysc.cs:110755 (BIL_PENT_B_BRIAN = 0x9FD04B65)",
+   "story000.ysc.cs:110760 (BIL_PENT_B_BRIAN = 0x9FD04B65)",
+   "story000.ysc.cs:110765 (BIL_PENT_M_MENDEZ = 0x14108683)",
+   "story000.ysc.cs:110770 (BIL_PENT_M_MENDEZ = 0x14108683)"
+  ]
+ },
+ {
+  "kind": "character_variant",
+  "ids": [
+   "ROB_BOAT_L_LUCIA",
+   "ROB_BOAT_J_JASON"
+  ],
+  "related_ids": [],
+  "statement": "Two branches on an unnamed argument bind either ROB_BOAT_L_LUCIA or ROB_BOAT_J_JASON to a ped; the LUCIA branch also reads the clock hour.",
+  "file": "0x35A38A0C3CB6F988.ysc.cs",
+  "line_range": [
+   2133,
+   2213
+  ],
+  "evidence": [
+   "0x35A38A0C3CB6F988.ysc.cs:2183 (ROB_BOAT_L_LUCIA = 0xD30CF4AE)",
+   "0x35A38A0C3CB6F988.ysc.cs:2200 (ROB_BOAT_J_JASON = 0x8D56C37D)"
+  ]
+ },
+ {
+  "kind": "outcome_variant",
+  "ids": [
+   "AIR_FINAL_DATA_HACK_PASSED",
+   "AIR_FINAL_DATA_HACK_FAILED"
+  ],
+  "related_ids": [],
+  "statement": "A stored value compared with 0x88977441 selects AIR_FINAL_DATA_HACK_PASSED or AIR_FINAL_DATA_HACK_FAILED.",
+  "file": "0x5FCB40D75929A57C.ysc.cs",
+  "line_range": [
+   9517,
+   9545
+  ],
+  "evidence": [
+   "0x5FCB40D75929A57C.ysc.cs:9532 (AIR_FINAL_DATA_HACK_PASSED = 0x360A9F27)",
+   "0x5FCB40D75929A57C.ysc.cs:9541 (AIR_FINAL_DATA_HACK_FAILED = 0x6C107A05)"
+  ]
+ },
+ {
+  "kind": "choice_variant",
+  "ids": [
+   "BIL_MOTEL_VIOLENT",
+   "BIL_MOTEL_NON_VIOLENT"
+  ],
+  "related_ids": [],
+  "statement": "The script references both BIL_MOTEL_VIOLENT and BIL_MOTEL_NON_VIOLENT in adjacent branches. The condition that picks one was not decoded.",
+  "file": "0x514A96DB9A2F0242.ysc.cs",
+  "line_range": [
+   5803,
+   5818
+  ],
+  "evidence": [
+   "0x514A96DB9A2F0242.ysc.cs:5803 (BIL_MOTEL_VIOLENT = 0xE0F59574)",
+   "0x514A96DB9A2F0242.ysc.cs:5818 (BIL_MOTEL_NON_VIOLENT = 0x23BF8778)"
+  ]
+ },
+ {
+  "kind": "finish_test",
+  "ids": [
+   "BIL_FINALE_M",
+   "BIL_FINAL_B"
+  ],
+  "related_ids": [],
+  "statement": "func_10AD05 returns true when the flag store contains BIL_FINALE_M or BIL_FINAL_B.",
+  "file": "0xD2601E252151E04B.ysc.cs",
+  "line_range": [
+   573098,
+   573136
+  ],
+  "evidence": [
+   "0xD2601E252151E04B.ysc.cs:573115 (BIL_FINALE_M = 0xF8FB7ACC)",
+   "0xD2601E252151E04B.ysc.cs:573127 (BIL_FINAL_B = 0x96F9A142)"
+  ]
+ },
+ {
+  "kind": "required_player_check",
+  "ids": [],
+  "related_ids": [],
+  "statement": "Record property 0xDB880157 is read; value 0x4E21D02A is tested against the current player being player_lucia (0xD058819F) and value 0x56D7FE7A against player_jason (0x072B3FF4). A mismatch sets an output flag.",
+  "file": "0xD2601E252151E04B.ysc.cs",
+  "line_range": [
+   635272,
+   635323
+  ],
+  "evidence": [
+   "0xD2601E252151E04B.ysc.cs:635272 (0xDB880157 = 0xDB880157)",
+   "0xD2601E252151E04B.ysc.cs:635278 (0x4E21D02A = 0x4E21D02A)",
+   "0xD2601E252151E04B.ysc.cs:635287 (0x56D7FE7A = 0x56D7FE7A)",
+   "0xD2601E252151E04B.ysc.cs:635300 (0xD058819F = 0xD058819F)",
+   "0xD2601E252151E04B.ysc.cs:635314 (0x072B3FF4 = 0x072B3FF4)"
+  ]
+ },
+ {
+  "kind": "hour_properties_read",
+  "ids": [],
+  "related_ids": [],
+  "statement": "Record properties 0x1FD5BB99 and 0xB376AD2B are read into adjacent fields of one structure.",
+  "file": "0x947D998BD81F7AC1.ysc.cs",
+  "line_range": [
+   89983,
+   89999
+  ],
+  "evidence": [
+   "0x947D998BD81F7AC1.ysc.cs:89983 (0x1FD5BB99 = 0x1FD5BB99)",
+   "0x947D998BD81F7AC1.ysc.cs:89999 (0xB376AD2B = 0xB376AD2B)"
+  ]
+ }
+]

@@ -1,0 +1,251 @@
+flowchart TD
+%% Rectangle  = entry of the game's own ordered mission list (story000.rpf @ 0x3e30b5000, list 0xB95219D4)
+%% Stadium    = alternative variant of an entry (variant map / ID name), or a mission placed only by a script link
+%% Dashed box = flag is set by the game itself in func_10AA55 (auto-completed, not needed for Any%)
+%% A --> B    = B is the next main-story entry after A in that list. This is stored ORDER, not a proven unlock.
+%% A --- B    = B is a variant of A
+%% A -.- B    = script link, labelled: 'auto-flags' means flagging A makes the handler flag B as well
+%% Blue = trigger record requires Jason, pink = requires Lucia, both taken from property 0xDB880157
+    subgraph chapter_1["Chapter 1"]
+        direction TB
+        m_INT_PROLO["Prologue [INT_PROLO]"]
+        m_INT_CHASE["Gone Fishing [INT_CHASE]"]
+        m_INT_PRISO["Coming Home [INT_PRISO]"]
+        m_INT_PRISO_TRIGGER_EARLY(["Coming Home [INT_PRISO_TRIGGER_EARLY]"])
+        m_INT_PRISO_TRIGGER_LATE(["Coming Home [INT_PRISO_TRIGGER_LATE]"])
+        m_INT_BANK["Buck Me [INT_BANK]"]
+        m_BIL_FUN["Day Release [BIL_FUN]"]
+        m_INT_PLNSH["Clear Skies [INT_PLNSH]"]
+        m_INT_AIR["Swamped [INT_AIR]"]
+        m_BIL_PICK["Tourist Trap [BIL_PICK]"]
+        m_BIL_PICK_DAY_TIME_START(["Tourist Trap [BIL_PICK_DAY_TIME_START]"])
+        m_BIL_PICK_NIGHT_TIME_START(["Tourist Trap [BIL_PICK_NIGHT_TIME_START]"])
+        m_BIL_HOUSE["Home Sweet Home [BIL_HOUSE]"]
+        m_BIL_WHEEL["Discharge Time [BIL_WHEEL]"]
+    end
+    subgraph chapter_2["Chapter 2"]
+        direction TB
+        m_MTL_WAKE["What's in the Bag? [MTL_WAKE]"]
+        m_MTL_DRIVE["Girls' Trip [MTL_DRIVE]"]
+        m_MTL_AMBUL["Ambulance Chaser [MTL_AMBUL]"]
+        m_MTL_CHECK["Play Nurse [MTL_CHECK]"]
+        m_MTL_CHECK_LOW_REL(["Play Nurse [MTL_CHECK_LOW_REL]"])
+        m_MTL_CHECK_HIGH_REL(["Play Nurse [MTL_CHECK_HIGH_REL]"])
+        m_0x0F9ED9C2(["[0x0F9ED9C2]"])
+        m_MTL_PAIN["Slam Dunk [MTL_PAIN]"]
+        m_MTL_MONT["Breakfast Run [MTL_MONT]"]
+        m_MTL_MONT_AUTOLAUNCH(["[MTL_MONT_AUTOLAUNCH]"])
+        m_0x4CB4EB61(["[0x4CB4EB61]"])
+        m_MTL_CONT["Afternoon Delight [MTL_CONT]"]
+        m_MTL_MUD["Thrillbillies [MTL_MUD]"]
+        m_BIL_MOTEL["Checking Out [BIL_MOTEL]"]
+        m_BIL_MOTEL_NON_VIOLENT(["Checking Out [BIL_MOTEL_NON_VIOLENT]"])
+        m_BIL_MOTEL_VIOLENT(["Checking Out [BIL_MOTEL_VIOLENT]"])
+        m_BIL_MOTEL_AUTOLAUNCH(["[BIL_MOTEL_AUTOLAUNCH]"])
+        m_0x24AB0C66(["[0x24AB0C66]"])
+    end
+    subgraph chapter_3["Chapter 3"]
+        direction TB
+        m_CLB_MEET["Welcome to Vice City [CLB_MEET]"]
+        m_CLB_DEAL["Dealer's Choice [CLB_DEAL]"]
+        m_ANT_INTRO["Dubious Provenance [ANT_INTRO]"]
+        m_ANT_INTRO_APARTMENT(["Dubious Provenance [ANT_INTRO_APARTMENT]"])
+        m_ANT_INTRO_STORAGE(["Dubious Provenance [ANT_INTRO_STORAGE]"])
+        m_ANT_SRCH["Dubious Provenance [ANT_SRCH]"]
+        m_ANT_CHASE["Dubious Provenance [ANT_CHASE]"]
+        m_ANT_CHASE_AUTOLAUNCH(["Dubious Provenance [ANT_CHASE_AUTOLAUNCH]"])
+        m_ROB_VEH["Meet the Heders [ROB_VEH]"]
+        m_ROB_DRIVE["First Impressions [ROB_DRIVE]"]
+        m_BIL_RED["Caught Slipping [BIL_RED]"]
+        m_CLB_SCUFF["Top Billing [CLB_SCUFF]"]
+        m_ROB_BOAT_J["Crosstown Traffic [ROB_BOAT_J]"]
+        m_ROB_BOAT_L_LUCIA(["Crosstown Traffic [ROB_BOAT_L_LUCIA]"])
+        m_ROB_BOAT_J_JASON(["Crosstown Traffic [ROB_BOAT_J_JASON]"])
+        m_ROB_BOAT_L(["Crosstown Traffic [ROB_BOAT_L]"])
+        m_CLB_STEAL["Ride or Die [CLB_STEAL]"]
+        m_ROB_BANK["Credit Check [ROB_BANK]"]
+        m_CLB_SETUP["[CLB_SETUP]"]
+        m_BAN_SETUP["Sinfrontera National Bank [BAN_SETUP]"]
+        m_BAN_RESCU["Security Expert [BAN_RESCU]"]
+        m_BAN_EXPLO["Company Property [BAN_EXPLO]"]
+        m_BAN_CARTE["The Missing Link [BAN_CARTE]"]
+        m_BAN_SAFE["Safe Word [BAN_SAFE]"]
+        m_CLB_VIDEO["Cooties [CLB_VIDEO]"]
+        m_CLB_VIDEO_JASON(["[CLB_VIDEO_JASON]"])
+        m_CLB_VIDEO_LUCIA(["[CLB_VIDEO_LUCIA]"])
+        m_BAN_PKBMB["Hidden Charges [BAN_PKBMB]"]
+        m_CLB_TOWER["Bricked Up [CLB_TOWER]"]
+        m_BAN_FINAL["The Cartel Heist [BAN_FINAL]"]
+        m_ANT_RECOV(["Dubious Provenance [ANT_RECOV]"])
+    end
+    subgraph chapter_4["Chapter 4"]
+        direction TB
+        m_MNY_HOTEL["Ocean Beach [MNY_HOTEL]"]
+        m_MNY_HOTEL_AUTOLAUNCH(["Ocean Beach [MNY_HOTEL_AUTOLAUNCH]"])
+        m_MNY_CAR["Company Cars [MNY_CAR]"]
+        m_MNY_PARTY["Party Hard [MNY_PARTY]"]
+        m_CLB_HELI["Photo/Shoot [CLB_HELI]"]
+        m_AIR_TAIL["Heavy Lifting [AIR_TAIL]"]
+        m_AIR_TRAIN["Making Gainz [AIR_TRAIN]"]
+        m_AIR_SCOPE["Too Much Baggage [AIR_SCOPE]"]
+        m_CLB_PROMO["Watch It [CLB_PROMO]"]
+        m_MNY_ESCRT["Adventures in Babysitting [MNY_ESCRT]"]
+        m_AIR_BUS["Amateur Hour [AIR_BUS]"]
+        m_AIR_BEACH["Cash Injections [AIR_BEACH]"]
+        m_CLB_EVI["Fresh Evidence [CLB_EVI]"]
+        m_AIR_TRUCK["Power Play [AIR_TRUCK]"]
+        m_AIR_GANG["Dirty Work [AIR_GANG]"]
+        m_MNY_KIDNP["Child's Play [MNY_KIDNP]"]
+        m_MNY_KIDNP_AUTO_LAUNCH(["Child's Play [MNY_KIDNP_AUTO-LAUNCH]"])
+        m_AIR_DRONE["Close Surveillance [AIR_DRONE]"]
+        m_AIR_HACK["Delivery Method [AIR_HACK]"]
+        m_AIR_RECRU["Team Building [AIR_RECRU]"]
+        m_AIR_CATER["Fully Catered [AIR_CATER]"]
+        m_AIR_CATER_DHF(["Fully Catered [AIR_CATER_DHF]"])
+        m_AIR_CATER_DHP(["Fully Catered [AIR_CATER_DHP]"])
+        m_AIR_CATER_DHS(["Fully Catered [AIR_CATER_DHS]"])
+        m_CLB_PARTY["Headliners [CLB_PARTY]"]
+        m_AIR_FINAL["VCIA Takedown [AIR_FINAL]"]
+        m_AIR_FINAL_DATA_HACK_FAILED(["VCIA Takedown [AIR_FINAL_DATA_HACK_FAILED]"])
+        m_AIR_FINAL_DATA_HACK_PASSED(["VCIA Takedown [AIR_FINAL_DATA_HACK_PASSED]"])
+        m_ROB_DEATH["Sunset [ROB_DEATH]"]
+        m_BIL_CONFR["Starting From Zero [BIL_CONFR]"]
+    end
+    subgraph chapter_5["Chapter 5"]
+        direction TB
+        m_COA_HELIS["Bird in the Hand [COA_HELIS]"]
+        m_BIL_PREG["VC Baby [BIL_PREG]"]
+        m_BIL_BOSS["Taking Liberties [BIL_BOSS]"]
+        m_COA_DOG["Doggie Bag [COA_DOG]"]
+        m_COA_SHIP["Operation Savage Glory [COA_SHIP]"]
+        m_COA_RAID["Operation Savage Glory [COA_RAID]"]
+        m_BIL_LAW["Honest Abe [BIL_LAW]"]
+        m_BIL_PENT["The End of the Road [BIL_PENT]"]
+        m_BIL_PENT_M_MENDEZ(["The End of the Road [BIL_PENT_M_MENDEZ]"])
+        m_BIL_PENT_B_BRIAN(["The End of the Road [BIL_PENT_B_BRIAN]"])
+        m_BIL_PENT_B(["The End of the Road [BIL_PENT_B]"])
+        m_BIL_PENT_M(["The End of the Road [BIL_PENT_M]"])
+        m_BIL_PRECI["Protective Custody [BIL_PRECI]"]
+        m_BIL_FINAL["The End of the Road [BIL_FINAL]"]
+        m_BIL_FINAL_B(["The End of the Road [BIL_FINAL_B]"])
+        m_BIL_FINAL_M(["The End of the Road [BIL_FINAL_M]"])
+        m_BIL_FINALE_M(["The End of the Road [BIL_FINALE_M]"])
+    end
+    m_INT_PROLO --> m_INT_CHASE
+    m_INT_CHASE --> m_INT_PRISO
+    m_INT_PRISO --> m_INT_BANK
+    m_INT_BANK --> m_BIL_FUN
+    m_BIL_FUN --> m_INT_PLNSH
+    m_INT_PLNSH --> m_INT_AIR
+    m_INT_AIR --> m_BIL_PICK
+    m_BIL_PICK --> m_BIL_HOUSE
+    m_BIL_HOUSE --> m_BIL_WHEEL
+    m_BIL_WHEEL --> m_MTL_WAKE
+    m_MTL_WAKE --> m_MTL_DRIVE
+    m_MTL_DRIVE --> m_MTL_AMBUL
+    m_MTL_AMBUL --> m_MTL_CHECK
+    m_MTL_CHECK --> m_MTL_PAIN
+    m_MTL_PAIN --> m_MTL_MONT
+    m_MTL_MONT --> m_MTL_CONT
+    m_MTL_CONT --> m_MTL_MUD
+    m_MTL_MUD --> m_BIL_MOTEL
+    m_BIL_MOTEL --> m_CLB_MEET
+    m_CLB_MEET --> m_CLB_DEAL
+    m_CLB_DEAL --> m_ANT_INTRO
+    m_ANT_INTRO --> m_ANT_SRCH
+    m_ANT_SRCH --> m_ANT_CHASE
+    m_ANT_CHASE --> m_ROB_VEH
+    m_ROB_VEH --> m_ROB_DRIVE
+    m_ROB_DRIVE --> m_BIL_RED
+    m_BIL_RED --> m_CLB_SCUFF
+    m_CLB_SCUFF --> m_ROB_BOAT_J
+    m_ROB_BOAT_J --> m_CLB_STEAL
+    m_CLB_STEAL --> m_ROB_BANK
+    m_ROB_BANK --> m_CLB_SETUP
+    m_CLB_SETUP --> m_BAN_SETUP
+    m_BAN_SETUP --> m_BAN_RESCU
+    m_BAN_RESCU --> m_BAN_EXPLO
+    m_BAN_EXPLO --> m_BAN_CARTE
+    m_BAN_CARTE --> m_BAN_SAFE
+    m_BAN_SAFE --> m_CLB_VIDEO
+    m_CLB_VIDEO --> m_BAN_PKBMB
+    m_BAN_PKBMB --> m_CLB_TOWER
+    m_CLB_TOWER --> m_BAN_FINAL
+    m_BAN_FINAL --> m_MNY_HOTEL
+    m_MNY_HOTEL --> m_MNY_CAR
+    m_MNY_CAR --> m_MNY_PARTY
+    m_MNY_PARTY --> m_CLB_HELI
+    m_CLB_HELI --> m_AIR_TAIL
+    m_AIR_TAIL --> m_AIR_TRAIN
+    m_AIR_TRAIN --> m_AIR_SCOPE
+    m_AIR_SCOPE --> m_CLB_PROMO
+    m_CLB_PROMO --> m_MNY_ESCRT
+    m_MNY_ESCRT --> m_AIR_BUS
+    m_AIR_BUS --> m_AIR_BEACH
+    m_AIR_BEACH --> m_CLB_EVI
+    m_CLB_EVI --> m_AIR_TRUCK
+    m_AIR_TRUCK --> m_AIR_GANG
+    m_AIR_GANG --> m_MNY_KIDNP
+    m_MNY_KIDNP --> m_AIR_DRONE
+    m_AIR_DRONE --> m_AIR_HACK
+    m_AIR_HACK --> m_AIR_RECRU
+    m_AIR_RECRU --> m_AIR_CATER
+    m_AIR_CATER --> m_CLB_PARTY
+    m_CLB_PARTY --> m_AIR_FINAL
+    m_AIR_FINAL --> m_ROB_DEATH
+    m_ROB_DEATH --> m_BIL_CONFR
+    m_BIL_CONFR --> m_COA_HELIS
+    m_COA_HELIS --> m_BIL_PREG
+    m_BIL_PREG --> m_BIL_BOSS
+    m_BIL_BOSS --> m_COA_DOG
+    m_COA_DOG --> m_COA_SHIP
+    m_COA_SHIP --> m_COA_RAID
+    m_COA_RAID --> m_BIL_LAW
+    m_BIL_LAW --> m_BIL_PENT
+    m_BIL_PENT --> m_BIL_PRECI
+    m_BIL_PRECI --> m_BIL_FINAL
+    m_INT_PRISO --- m_INT_PRISO_TRIGGER_EARLY
+    m_INT_PRISO --- m_INT_PRISO_TRIGGER_LATE
+    m_BIL_PICK --- m_BIL_PICK_DAY_TIME_START
+    m_BIL_PICK --- m_BIL_PICK_NIGHT_TIME_START
+    m_MTL_CHECK --- m_MTL_CHECK_LOW_REL
+    m_MTL_CHECK --- m_MTL_CHECK_HIGH_REL
+    m_MTL_CHECK --- m_0x0F9ED9C2
+    m_MTL_MONT --- m_MTL_MONT_AUTOLAUNCH
+    m_MTL_MONT --- m_0x4CB4EB61
+    m_BIL_MOTEL --- m_BIL_MOTEL_AUTOLAUNCH
+    m_BIL_MOTEL --- m_0x24AB0C66
+    m_BIL_MOTEL --- m_BIL_MOTEL_NON_VIOLENT
+    m_BIL_MOTEL --- m_BIL_MOTEL_VIOLENT
+    m_ANT_INTRO --- m_ANT_INTRO_APARTMENT
+    m_ANT_INTRO --- m_ANT_INTRO_STORAGE
+    m_ANT_CHASE --- m_ANT_CHASE_AUTOLAUNCH
+    m_ROB_BOAT_J --- m_ROB_BOAT_L
+    m_ROB_BOAT_J --- m_ROB_BOAT_L_LUCIA
+    m_ROB_BOAT_J --- m_ROB_BOAT_J_JASON
+    m_CLB_VIDEO --- m_CLB_VIDEO_JASON
+    m_CLB_VIDEO --- m_CLB_VIDEO_LUCIA
+    m_MNY_HOTEL --- m_MNY_HOTEL_AUTOLAUNCH
+    m_MNY_KIDNP --- m_MNY_KIDNP_AUTO_LAUNCH
+    m_AIR_CATER --- m_AIR_CATER_DHF
+    m_AIR_CATER --- m_AIR_CATER_DHP
+    m_AIR_CATER --- m_AIR_CATER_DHS
+    m_AIR_FINAL --- m_AIR_FINAL_DATA_HACK_PASSED
+    m_AIR_FINAL --- m_AIR_FINAL_DATA_HACK_FAILED
+    m_BIL_PENT --- m_BIL_PENT_B_BRIAN
+    m_BIL_PENT --- m_BIL_PENT_M_MENDEZ
+    m_BIL_PENT --- m_BIL_PENT_B
+    m_BIL_PENT --- m_BIL_PENT_M
+    m_BIL_FINAL --- m_BIL_FINAL_B
+    m_BIL_FINAL --- m_BIL_FINAL_M
+    m_MNY_HOTEL -.-|auto-flags| m_ANT_SRCH
+    m_MNY_HOTEL -.-|auto-flags| m_ANT_CHASE
+    m_MNY_HOTEL -.-|auto-flags| m_ANT_INTRO_APARTMENT
+    m_MNY_HOTEL -.-|auto-flags| m_ANT_RECOV
+    m_BIL_FINAL_B -.-|either flag passes the finish test| m_BIL_FINALE_M
+    classDef auto stroke-dasharray: 6 4
+    classDef jason fill:#dbeafe,stroke:#1d4ed8
+    classDef lucia fill:#fce7f3,stroke:#be185d
+    class m_ANT_INTRO_APARTMENT,m_ANT_SRCH,m_ANT_CHASE,m_ANT_RECOV auto
+    class m_INT_PRISO,m_INT_PRISO_TRIGGER_EARLY,m_INT_PRISO_TRIGGER_LATE,m_INT_BANK,m_BIL_FUN,m_INT_PLNSH,m_INT_AIR,m_BIL_PICK,m_BIL_PICK_DAY_TIME_START,m_BIL_PICK_NIGHT_TIME_START,m_CLB_MEET,m_CLB_DEAL,m_ROB_BOAT_J_JASON,m_CLB_STEAL,m_AIR_SCOPE,m_CLB_PROMO,m_MNY_ESCRT,m_CLB_EVI,m_AIR_DRONE,m_AIR_HACK,m_BIL_BOSS,m_BIL_FINAL,m_BIL_FINAL_B,m_BIL_FINALE_M jason
+    class m_BIL_HOUSE,m_MTL_DRIVE,m_MTL_AMBUL,m_MTL_CHECK,m_MTL_CHECK_LOW_REL,m_MTL_CHECK_HIGH_REL,m_MTL_PAIN,m_MTL_MONT,m_ROB_BOAT_L_LUCIA,m_BAN_CARTE,m_AIR_TRAIN,m_AIR_BUS,m_AIR_BEACH,m_AIR_TRUCK,m_AIR_RECRU,m_COA_HELIS lucia

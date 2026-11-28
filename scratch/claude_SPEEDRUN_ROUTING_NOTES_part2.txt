@@ -1,0 +1,144 @@
+Created At: 2026-11-24T18:54:36-05:00
+Completed At: 2026-11-24T18:54:36-05:00
+File Path: `file:///C:/Users/<user>/Downloads/GTA6.Xbox.v1.0.2.1-CYBERLEEK/gta6_mission_flow_chart.md`
+Total Lines: 286
+Total Bytes: 13530
+Showing lines 151 to 286
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+151:             M53["53. Car Service"] --> M57["57. Caught Slipping"]
+152:             M57 --> M58["58. Crosstown Traffic"]
+153:             M58 --> M59["59. Credit Check"]
+154:             M59 --> M60["60. Steal the Zorrusso for Randy"]
+155:         end
+156:     end
+157:     
+158:     M50 --> M51
+159:     M50 --> M54
+160:     M50 --> M53
+161:     
+162:     subgraph Heist_Prep["Sinfrontera Bank Heist Pipeline"]
+163:         M52 & M56 & M60 --> M61["61. Sinfrontera National Bank<br/>(Heist Scope Out & Board Unlocked)"]
+164:         
+165:         M61 --> P1["62. Security Expert<br/>(Retrieve Nicole Park)"]
+166:         M61 --> P2["63. Company Property<br/>(Steal Vault Explosives)"]
+167:         M61 --> P3["64. The Missing Link<br/>(Interrogate Monty)"]
+168:         
+169:         P1 --> P4["65. Safe Word<br/>(Safe-Cracking Training)"]
+170:         P2 --> P5["66. Hidden Charges<br/>(Rig 3 Cell Towers - Delays Police)"]
+171:         
+172:         P3 --> P6["67. Ride or Die"]
+173:         P4 --> P7["68. Cooties"]
+174:         P5 --> P8["69. Bricked Up"]
+175:         
+176:         P6 & P7 & P8 --> M70["70. The Cartel Heist<br/>(Sinfrontera Vault Score: $10.5M)"]
+177:     end
+178: ```
+179: 
+180: ---
+181: 
+182: ## 5. Chapter 4: Vice City, Baby (The Syndicate & The Airport)
+183: 
+184: ### Mechanics & Structure
+185: - **Scope**: 25 main missions.
+186: - **Safehouse**: Y Hotel (Ocean Beach).
+187: - **Prerequisite Gate**: Abe Gonzalez demands a $75,000 BuckMe transfer to advance past *"Party Hard"*.
+188: - **Major Heist**: **VCIA Takedown** (Vice City International Airport cargo raid).
+189: - **Point of No Return**: Completing *"VCIA Takedown"* opens the *"Tie Up Loose Ends"* roaming window. Triggering *"Sunset"* permanently locks the world into the Chapter 5 endgame state.
+190: 
+191: ```mermaid
+192: flowchart TD
+193:     C3_End["From Ch. 3: The Cartel Heist"] --> M71["71. Ocean Beach<br/>(Y Hotel Safehouse)"]
+194:     M71 --> M72["72. Another Life"]
+195:     M72 --> M73["73. Company Cars"]
+196:     M73 --> M74["74. Lawyer Up"]
+197:     M74 --> M75["75. Party Hard<br/>($75k BuckMe Wire to Abe)"]
+198:     
+199:     M75 --> M76["76. Heavy Lifting"]
+200:     M76 --> M77["77. Photo/Shoot"]
+201:     M77 --> M78["78. Making Gainz"]
+202:     M78 --> M79["79. Watch It"]
+203:     M79 --> M80["80. Cash Injections"]
+204:     M80 --> M81["81. Amateur Hour"]
+205:     M81 --> M82["82. Dirty Work"]
+206:     M82 --> M83["83. Too Much Baggage"]
+207:     
+208:     subgraph Airport_Heist["VCIA Takedown Pipeline"]
+209:         M83 --> M84["84. Adventures in Babysitting"]
+210:         M84 --> M85["85. Fresh Evidence"]
+211:         M85 --> M86["86. Power Play"]
+212:         M86 --> M87["87. Child's Play"]
+213:         M87 --> M88["88. Headliners<br/>(Dre'Quan Climax)"]
+214:         
+215:         M88 --> M89["89. Close Surveillance"]
+216:         M89 --> M90["90. Delivery Method"]
+217:         M90 --> M91["91. Team Building"]
+218:         M91 --> M92["92. Fully Catered<br/>(Catering Van Smuggling)"]
+219:         
+220:         M92 --> M93["93. VCIA Takedown<br/>(Major Airport Heist)"]
+221:     end
+222:     
+223:     M93 --> M94["94. Sunset<br/>★ POINT OF NO RETURN ★"]
+224:     M94 --> M95["95. Starting From Zero<br/>(Transition to Chapter 5)"]
+225: ```
+226: 
+227: ---
+228: 
+229: ## 6. Chapter 5: Top of the World, Ma! (Climax & Endings)
+230: 
+231: ### Mechanics & Structure
+232: - **Scope**: 7 explosive main story missions.
+233: - **Major Tactical Raid**: *"Operation Savage Glory"* (Coast guard facility raid & bridge destruction with Giorgio Gallo).
+234: - **The Binary Finale Trigger**: *"Protective Custody"* requires meeting Abe Gonzalez. The player is presented with a strict prompt:
+235:   - **"Postpone"**: Exit and complete any remaining open-world activities or side content before the final lockdown.
+236:   - **"Proceed"**: Initiates a continuous ~60-minute non-stop combat and set-piece gauntlet culminating in *"The End of the Road"*.
+237: 
+238: ```mermaid
+239: flowchart TD
+240:     C4_End["From Ch. 4: Starting From Zero"] --> M96["96. Bird in the Hand"]
+241:     M96 --> M97["97. Taking Liberties"]
+242:     M97 --> M98["98. VC Baby"]
+243:     M98 --> M99["99. Doggie Bag"]
+244:     
+245:     M99 --> M100["100. Operation Savage Glory<br/>(Coast Guard Base Assault & Bridge Demolition)"]
+246:     
+247:     M100 --> M101["101. Protective Custody<br/>(Giorgio's Betrayal & Precinct Ambush)"]
+248:     
+249:     subgraph Endgame_Gauntlet["Final Lockdown Gauntlet"]
+250:         M101 -->|"Proceed Prompt"| M102["102. The End of the Road<br/>(Penthouse Assault & Keys Escape)"]
+251:     end
+252:     
+253:     subgraph Endings["Branching Resolutions"]
+254:         M102 --> E1["Ending A: Bonnie & Clyde<br/>★ Canonical Ending ★<br/>(Choice: Trust Partner; Rewards $2M Payout)"]
+255:         M102 --> E2["Ending B: The Deal<br/>⚡ Fastest Any% Speedrun Ending ⚡<br/>(Accept Mendez's Immunity Plea; Skips Swamp Chase)"]
+256:         M102 --> E3["Ending C: The Sacrifice<br/>(Choice: Solo Heroic Extraction Fallback)"]
+257:     end
+258: ```
+259: 
+260: ---
+261: 
+262: ## 7. Prerequisite & Unlock Reference Matrix
+263: 
+264: | Chapter | Mission Name | Mandatory Prerequisite | Unlocked Feature / Consequence |
+265: | :--- | :--- | :--- | :--- |
+266: | **Ch. 1** | **Prologue** | Starting Game | Story start; Lucia introduction |
+267: | **Ch. 1** | **Gone Fishing** | Prologue | Introduces Jason; petty smuggling |
+268: | **Ch. 1** | **Island Dreams** | Hey Arnold! | Unlocks Kenton Sets & ocean diving |
+269: | **Ch. 1** | **Coming Home** | Feng Shui | Lucia released from Hamlet Penitentiary |
+270: | **Ch. 1** | **Tourist Trap** | Recalibration | Initiates Chapter 1 finale sequence |
+271: | **Ch. 1** | **Discharge Time** | Home Sweet Home | Hard transition to Port Gellhorn (Chapter 2) |
+272: | **Ch. 2** | **Moses** | Girls' Trip | Unlocks vehicle fencing & custom car registrations |
+273: | **Ch. 2** | **Coffee Break** | Breakfast Run | **Permanently unlocks dual-character switching** |
+274: | **Ch. 2** | **Hit Avery Pawn** | Coffee Break | Unlocks store/business stickup mechanics |
+275: | **Ch. 2** | **Checking Out** | Prepare for Vice City | Hard transition to Vice City (Chapter 3) |
+276: | **Ch. 3** | **Sinfrontera National Bank** | Steal the Zorrusso for Randy | Unlocks Bank Heist prep board |
+277: | **Ch. 3** | **Hidden Charges** | Company Property | Delays police response time in Cartel Heist |
+278: | **Ch. 3** | **The Cartel Heist** | All 5 Heist Preps completed | $10.5M max cartel take; transitions to Ch. 4 |
+279: | **Ch. 4** | **Party Hard** | Lawyer Up | Triggers $75,000 wire requirement to Abe |
+280: | **Ch. 4** | **Headliners** | Child's Play | Concludes Dre'Quan arc; unlocks airport recon |
+281: | **Ch. 4** | **VCIA Takedown** | Fully Catered | Completes major airport heist; rewards *Hi-Jacked* trophy |
+282: | **Ch. 4** | **Sunset** | VCIA Takedown | **Point of No Return** before Chapter 5 |
+283: | **Ch. 5** | **Operation Savage Glory** | Doggie Bag | Clears Leonida state heat; rewards *Snow Storm* trophy |
+284: | **Ch. 5** | **Protective Custody** | Operation Savage Glory | "Proceed vs. Postpone" decision point |
+285: | **Ch. 5** | **The End of the Road** | Protective Custody (Proceed) | Final campaign mission; triggers branching endings |
+286: 
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

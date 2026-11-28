@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CAnimSceneAttachSlotSetManager>
+  <Sets>
+    <Item key="both_hands_set">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds>
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="both_hands_set_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds>
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="right_hand_set">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+            </SlotIds>
+            <Rules></Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="right_hand_set_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="left_hand_set">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules></Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="left_hand_set_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="duffle_bag_carriable">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLINGBAG_BACK</Item>
+              <Item>HUMAN_DUFFLE_BACK</Item>
+              <Item>HUMAN_RUCKSACK_BACK</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="duffle_bag_carriable_and_hands">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules></Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+         <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLINGBAG_BACK</Item>
+              <Item>HUMAN_DUFFLE_BACK</Item>
+              <Item>HUMAN_RUCKSACK_BACK</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="duffle_bag_carriable_and_hands_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+         <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLINGBAG_BACK</Item>
+              <Item>HUMAN_DUFFLE_BACK</Item>
+              <Item>HUMAN_RUCKSACK_BACK</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="both_hands_and_back">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules></Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLING_BACK_RIGHT</Item>
+              <Item>HUMAN_DUFFLE_BACK</Item>
+              <Item>HUMAN_RUCKSACK_BACK</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="only_back_weapon">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLING_BACK_RIGHT</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="both_hands_and_back_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds> 
+              <Item>HUMAN_SLING_BACK_RIGHT</Item>
+              <Item>HUMAN_DUFFLE_BACK</Item>
+              <Item>HUMAN_RUCKSACK_BACK</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+            <PerformanceType>ASARS_AUTO</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="both_hands_set_full_swap">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_RIGHT_HAND</Item>
+                  <Item>HUMAN_LEFT_HAND</Item>
+              </SlotIds>
+              <Rules></Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="both_hands_set_full_swap_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_RIGHT_HAND</Item>
+                  <Item>HUMAN_LEFT_HAND</Item>
+              </SlotIds>
+              <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+    <Item key="both_hands_and_back_full_swap">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_RIGHT_HAND</Item>
+                  <Item>HUMAN_LEFT_HAND</Item>
+              </SlotIds>
+              <Rules></Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_SLING_BACK_RIGHT</Item>
+                  <Item>HUMAN_DUFFLE_BACK</Item>
+                  <Item>HUMAN_RUCKSACK_BACK</Item>
+              </SlotIds>
+              <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+	<Item key="both_hands_and_back_full_swap_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_RIGHT_HAND</Item>
+                  <Item>HUMAN_LEFT_HAND</Item>
+              </SlotIds>
+              <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+              <SlotIds>
+                  <Item>HUMAN_SLING_BACK_RIGHT</Item>
+                  <Item>HUMAN_DUFFLE_BACK</Item>
+                  <Item>HUMAN_RUCKSACK_BACK</Item>
+              </SlotIds>
+              <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP</Rules>
+              <PerformanceType>ASARS_FULL</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+      <Item key="both_hands_set_instant_remove_quick">
+      <SlotFilters>
+          <CAnimSceneAttachSlotSetReservationFilters>
+            <SlotIds>
+              <Item>HUMAN_RIGHT_HAND</Item>
+              <Item>HUMAN_LEFT_HAND</Item>
+            </SlotIds>
+            <Rules>ASAR_BLOCK_SLOT_CHANGE ASAR_HIDE_CARRIED_PROP ASAR_BACKUP_WEAPONS</Rules>
+            <PerformanceType>ASARS_INSTANT</PerformanceType>
+          </CAnimSceneAttachSlotSetReservationFilters>
+      </SlotFilters>
+    </Item>
+  </Sets>
+</CAnimSceneAttachSlotSetManager>

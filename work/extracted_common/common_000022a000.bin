@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CPedHeadbobSettingsManager>
+  <OnFootSettings type="CPedHeadbobSettings">
+    <IntensitySettingsMap>
+      <Item key="Default" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Jason" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Low</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Low</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Low</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Lucia" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Low</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Brian_Heder" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="S4S" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="PolillaNegra" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="PTT" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="3AM" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="M7" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Kingfishers" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Kolt" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Guardia" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+    </IntensitySettingsMap>
+    <BodyBlendSettingsMap>
+      <Item key="GEN_MALE" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+      <Item key="GANG_MALE" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+      <Item key="GEN_FEMALE" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+      <Item key="GANG_FEMALE" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+      <Item key="LUCIA" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+      <Item key="JASON" type="CPedHeadbobBodyBlendSettings">
+        <ConditionalBodyBlendTemplates>
+          <Item>
+            <pCondition ref="LEFT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_HAND_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL_HEAD_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_BothArms_In_Use_Head_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="SITTING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE_LEFT_ARM_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_BothArms_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadOnly</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="BOTH_ARMS_PINNED" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_HeadAndSpine</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="RIGHT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_RightArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="LEFT_ARM_IN_USE" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_LeftArm_In_Use</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+          <Item>
+            <pCondition ref="STANDING" />
+            <BodyBlendTemplateId>template_SCENARIO_Headbob_Standing_NoIK</BodyBlendTemplateId>
+            <Priority>GPR_MEDIUM</Priority>
+          </Item>
+        </ConditionalBodyBlendTemplates>
+      </Item>
+    </BodyBlendSettingsMap>
+  </OnFootSettings>
+  <InTransportSettings type="CPedHeadbobSettings">
+    <IntensitySettingsMap>
+      <Item key="Default" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Jason" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Low</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Low</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Low</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Lucia" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Low</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Low</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Low</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Brian_Heder" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Unspecified">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BALLADS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Cellerica">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COUNTRY_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_COVERS">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Classic">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_HipHop_Modern">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Pop">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Club_Rock_Classic">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_EIGHTIES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Happy_Commune">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Latin_Dance">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MEXICAN">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Meditation">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Minigolf_Wildwest">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_EIGHTIES_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP_BALLADS">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_POP_RNB">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SYNTH_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_FUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MOTOWN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SOUL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_ROCK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_PUNK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_ROCK_BALLADS">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SURF">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="S4S" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="PolillaNegra" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="PTT" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="3AM" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAIR_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HAITIAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_HIP_HOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSIC_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_GRIME">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_MODERN_HIPHOP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_NU_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_THRASH_METAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="M7" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Medium</Item>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Kingfishers" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Kolt" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_CLASSIC_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LATIN_MODERN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+      <Item key="Guardia" type="CPedHeadbobIntensitySettings">
+        <GenreIntensityMap>
+          <Item key="RADIO_GENRE_AFRICAN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_AFRICAN_POP">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLASSICAL">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_TALK_RADIO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_LEFT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RIGHT_WING_TALK">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_EDM">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_HOUSE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_TECHNO">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_CLUB_LATIN_DANCE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_SMOOTH_JAZZ">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_CLASSIC">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_REGGAE_MODERN">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_RHYTHM_AND_BLUES">HBIL_Disabled</Item>
+          <Item key="RADIO_GENRE_BLUES">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_3AMClub">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_FinalChapter">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_GuardiaBros">HBIL_Medium</Item>
+          <Item key="Radio_Genre_Gang_Kingfishers">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_Kolt">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_M7">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PolillaNegra">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_PTT">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4San">HBIL_Disabled</Item>
+          <Item key="Radio_Genre_Gang_San4SanGangCar">HBIL_Disabled</Item>
+        </GenreIntensityMap>
+      </Item>
+    </IntensitySettingsMap>
+    <BodyBlendSettingsMap />
+  </InTransportSettings>
+</CPedHeadbobSettingsManager>

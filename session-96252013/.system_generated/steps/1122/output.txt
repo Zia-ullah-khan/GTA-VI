@@ -1,0 +1,12 @@
+Created At: 2026-11-25T17:50:11-05:00
+Completed At: 2026-11-25T17:50:15-05:00
+Command exited with code 1.
+
+Command output:
+At line:8 char:3
++ " && where.exe objdump rizin gdb llvm-objdump 2>$null
++   ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 

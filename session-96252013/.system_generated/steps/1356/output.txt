@@ -1,0 +1,128 @@
+Created At: 2026-11-25T18:03:04-05:00
+Completed At: 2026-11-25T18:03:09-05:00
+Command exited with code 0.
+
+Command output:
+CALL L3570922: public static VmValue func_62FF82(VmValue arg0, VmValue arg1, VmValue arg2) // 0x62FF82
+=== shared.func_62FF82 ===
+3570921:     [VmFunction(0x62FF82)]
+3570922:     public static VmValue func_62FF82(VmValue arg0, VmValue arg1, VmValue arg2) // 0x62FF82
+3570923:     {
+3570924:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2 };
+3570925:         VmValue[] locals = new VmValue[24];
+3570926:         ref VmValue p0 = ref parameters[0];
+3570927:         ref VmValue p1 = ref parameters[1];
+3570928:         ref VmValue p2 = ref parameters[2];
+3570929:         ref VmValue local_0 = ref locals[0];
+3570930:         ref VmValue local_1 = ref locals[1];
+3570931:         ref VmValue local_2 = ref locals[2];
+3570932:         ref VmValue local_3 = ref locals[3];
+3570933:         ref VmValue local_4 = ref locals[4];
+3570934:         ref VmValue local_5 = ref locals[5];
+3570935:         ref VmValue local_6 = ref locals[6];
+3570936:         ref VmValue local_7 = ref locals[7];
+3570937:         ref VmValue local_8 = ref locals[8];
+3570938:         ref VmValue local_9 = ref locals[9];
+3570939:         ref VmValue local_10 = ref locals[10];
+3570940:         ref VmValue local_11 = ref locals[11];
+3570941:         ref VmValue local_12 = ref locals[12];
+3570942:         ref VmValue local_13 = ref locals[13];
+3570943:         ref VmValue local_14 = ref locals[14];
+3570944:         ref VmValue local_15 = ref locals[15];
+3570945:         ref VmValue local_16 = ref locals[16];
+3570946:         ref VmValue local_17 = ref locals[17];
+3570947:         ref VmValue local_18 = ref locals[18];
+3570948:         ref VmValue local_19 = ref locals[19];
+3570949:         ref VmValue local_20 = ref locals[20];
+3570950:         ref VmValue local_21 = ref locals[21];
+3570951:         ref VmValue local_22 = ref locals[22];
+3570952:         ref VmValue local_23 = ref locals[23];
+3570953:         VmValue stack_62FFE1_0 = default;
+3570954:         VmValue stack_630034_0 = default;
+3570955:         VmValue v_62FF8C_0 = default;
+3570956:         VmValue v_62FFAB_0 = default;
+3570957:         VmValue v_62FFC9_0 = default;
+3570958:         VmValues v_62FFD8_0 = null!;
+3570959:         VmValues v_62FFF3_0 = null!;
+3570960:         VmValue v_630014_0 = default;
+3570961:         VmValues v_630023_0 = null!;
+3570962:         VmValues v_630040_0 = null!;
+3570963:         VmValue v_630044_1 = default;
+3570964:         VmValues v_630059_0 = null!;
+3570965:         VmValue v_63005D_1 = default;
+3570966:         VmValue v_63009E_0 = default;
+3570967:         VmValue v_6300C6_0 = default;
+3570968:         VmValues v_6300CF_1 = null!;
+3570969:         VmValue v_630122_0 = default;
+3570970:         VmValues v_630122_1 = null!;
+3570971:         VmValues v_63012C_2 = null!;
+3570972:         VmValue v_630136_3 = default;
+3570973:         label_62FF82: ;
+3570974:         v_62FF8C_0 = Native.ITEMDATABASE._ITEMDATABASE_IS_KEY_VALID(p0, 0); // RVA: 0x03E8E030
+3570975:         if (((as_u32(v_62FF8C_0) != 0)))
+3570976:         {
+3570977:         goto label_62FFA7;
+3570978:         }
+3570979:         else
+3570980:         {
+3570981:         goto label_62FF97;
+3570982:         }
+3570983:         label_62FF97: ;
+3570984:         zero_bytes(Vm.Address(locals, 12), 4);
+3570985:         stack_630034_0 = local_12;
+3570986:         goto label_630034;
+3570987:         label_62FFA7: ;
+3570988:         v_62FFAB_0 = Native.ITEMDATABASE._ITEMDATABASE_IS_KEY_VALID(p0, 0); // RVA: 0x03E8E030
+3570989:         if (((as_u32(v_62FFAB_0) != 0)))
+3570990:         {
+3570991:         goto label_62FFBB;
+3570992:         }
+3570993:         else
+3570994:         {
+3570995:         goto label_62FFB6;
+3570996:         }
+3570997:         label_62FFB6: ;
+3570998:         stack_62FFE1_0 = 0;
+3570999:         goto label_62FFE1;
+3571000:         label_62FFBB: ;
+3571001:         zero_bytes(Vm.Address(locals, 13), 40);
+3571002:         v_62FFC9_0 = Native.ITEMDATABASE.ITEMDATABASE_FILLOUT_ITEM_INFO(p0, Vm.Address(locals, 13), 0); // RVA: 0x03E8CF10
+3571003:         if (((as_u32(v_62FFC9_0) == 0)))
+3571004:         {
+3571005:         goto label_62FFDF;
+3571006:         }
+3571007:         else
+3571008:         {
+3571009:         goto label_62FFD4;
+3571010:         }
+3571011:         label_62FFD4: ;
+3571012:         v_62FFD8_0 = extract_bytes(new VmValues(local_13, local_14, local_15, local_16, local_17), 4, 8);
+3571013:         stack_62FFE1_0 = as_i32(v_62FFD8_0);
+3571014:         goto label_62FFE1;
+3571015:         label_62FFDF: ;
+3571016:         stack_62FFE1_0 = 0;
+3571017:         goto label_62FFE1;
+3571018:         label_62FFE1: ;
+3571019:         if (((as_i32(stack_62FFE1_0) != as_i32(0x5E6761A0))))
+3571020:         {
+3571021:         goto label_630006;
+3571022:         }
+3571023:         else
+3571024:         {
+3571025:         goto label_62FFED;
+3571026:         }
+3571027:         label_62FFED: ;
+3571028:         v_62FFF3_0 = zero_slots(1);
+3571029:         local_19 = 0x3E5D57D7;
+3571030:         local_18 = Vm.Address(v_62FFF3_0, 0);
+3571031:         store_i32(Vm.Address(v_62FFF3_0, 0), 0x0, local_19);
+3571032:         stack_630034_0 = v_62FFF3_0[0];
+3571033:         goto label_630034;
+3571034:         label_630006: ;
+3571035:         zero_bytes(Vm.Address(locals, 7), 40);
+3571036:         v_630014_0 = Native.ITEMDATABASE.ITEMDATABASE_FILLOUT_ITEM_INFO(p0, Vm.Address(locals, 7), 0); // RVA: 0x03E8CF10
+3571037:         if (((as_u32(v_630014_0) == 0)))
+3571038:         {
+3571039:         goto label_63002A;
+3571040:         }
+3571041:         else

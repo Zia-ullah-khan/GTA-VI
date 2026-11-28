@@ -1,0 +1,78 @@
+Created At: 2026-11-25T17:55:19-05:00
+Completed At: 2026-11-25T17:55:25-05:00
+Command exited with code 0.
+
+Command output:
+=== AES_caller_14215fd80 ===
+=== AES_thunk_145648da0 ===
+  0x145648da0: mov      rax, rdi
+  0x145648da3: mov      r11, rsi
+  0x145648da6: mov      rdi, rcx
+  0x145648da9: mov      rsi, rdx
+  0x145648dac: mov      rdx, r8
+  0x145648daf: mov      rcx, r9
+  0x145648db2: mov      r8, qword ptr [rsp + 0x28]
+  0x145648db7: mov      r9d, dword ptr [rsp + 0x30]
+  0x145648dbc: mov      r10, rcx
+  0x145648dbf: shr      rcx, 4
+  0x145648dc3: shl      r10, 0x3c
+  0x145648dc7: je       0x145648dcd
+  0x145648dc9: add      rcx, 1
+  0x145648dcd: sub      rsi, 0x10
+  0x145648dd1: movdqa   xmm1, xmmword ptr [rdx]
+  0x145648dd5: pxor     xmm1, xmmword ptr [rdi]
+  0x145648dd9: pxor     xmm1, xmmword ptr [r8]
+  0x145648dde: add      rsi, 0x10
+  0x145648de2: add      rdi, 0x10
+  0x145648de6: cmp      r9d, 0xc
+  0x145648dea: aesenc   xmm1, xmmword ptr [r8 + 0x10]
+  0x145648df1: aesenc   xmm1, xmmword ptr [r8 + 0x20]
+  0x145648df8: aesenc   xmm1, xmmword ptr [r8 + 0x30]
+  0x145648dff: aesenc   xmm1, xmmword ptr [r8 + 0x40]
+  0x145648e06: aesenc   xmm1, xmmword ptr [r8 + 0x50]
+  0x145648e0d: aesenc   xmm1, xmmword ptr [r8 + 0x60]
+  0x145648e14: aesenc   xmm1, xmmword ptr [r8 + 0x70]
+  0x145648e1b: aesenc   xmm1, xmmword ptr [r8 + 0x80]
+  0x145648e25: aesenc   xmm1, xmmword ptr [r8 + 0x90]
+  0x145648e2f: movdqa   xmm2, xmmword ptr [r8 + 0xa0]
+  0x145648e38: jb       0x145648e7a
+  0x145648e3a: cmp      r9d, 0xe
+  0x145648e3e: aesenc   xmm1, xmmword ptr [r8 + 0xa0]
+  0x145648e48: aesenc   xmm1, xmmword ptr [r8 + 0xb0]
+  0x145648e52: movdqa   xmm2, xmmword ptr [r8 + 0xc0]
+=== AES_thunk_145648d60 ===
+  0x145648d60: mov      eax, dword ptr [rcx + 4]
+  0x145648d63: ret      
+  0x145648d64: int3     
+  0x145648d65: int3     
+  0x145648d66: int3     
+  0x145648d67: int3     
+  0x145648d68: int3     
+  0x145648d69: int3     
+  0x145648d6a: int3     
+  0x145648d6b: int3     
+  0x145648d6c: int3     
+  0x145648d6d: int3     
+  0x145648d6e: int3     
+  0x145648d6f: int3     
+  0x145648d70: mov      eax, dword ptr [rcx + 8]
+  0x145648d73: ret      
+  0x145648d74: int3     
+  0x145648d75: int3     
+  0x145648d76: int3     
+  0x145648d77: int3     
+  0x145648d78: int3     
+  0x145648d79: int3     
+  0x145648d7a: int3     
+  0x145648d7b: int3     
+  0x145648d7c: int3     
+  0x145648d7d: int3     
+  0x145648d7e: int3     
+  0x145648d7f: int3     
+  0x145648d80: mov      eax, dword ptr [rcx + 0xc]
+  0x145648d83: ret      
+  0x145648d84: int3     
+  0x145648d85: int3     
+  0x145648d86: int3     
+  0x145648d87: int3     
+  0x145648d88: int3     

@@ -1,0 +1,255 @@
+Created At: 2026-11-25T17:58:24-05:00
+Completed At: 2026-11-25T17:58:28-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x947D998BD81F7AC1.ysc.cs ===
+  L882391: public static VmValue func_1AB973() // 0x1AB973
+  L882519: public static VmValue func_1ABABB(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3) // 0x1ABABB
+  L882579: v_1ABB11_2 = func_1AB973();
+=== 0xD2601E252151E04B.ysc.cs ===
+  L54017: v_018988_0 = Native._0x9F423A432B425A7F(load_i32(p1, 0x88)); // RVA: 0x03CD33E0
+  L100493: Native._0x480014E54CD33903(load_i32(byte_offset(p0, 0x28), 0x0), 0); // RVA: 0x03CD6C10
+  L100541: Native._0x480014E54CD33903(load_i32(byte_offset(p0, 0x28), 0x0), 1); // RVA: 0x03CD6C10
+  L100690: Native._0x480014E54CD33903(v_02DF95_0[0], 1); // RVA: 0x03CD6C10
+  L100974: Native._0x480014E54CD33903(load_i32(byte_offset(p0, 0x28), 0x0), 0); // RVA: 0x03CD6C10
+  L272716: v_07ED80_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L272754: local_3 = 0x1612DBB;
+  L284658: Native._0x480014E54CD33903(stack_083F20_0, 0); // RVA: 0x03CD6C10
+  L570964: goto label_10AA45;
+  L570973: goto label_10AA45;
+  L570984: goto label_10AA45;
+  L570993: goto label_10AA45;
+  L571013: goto label_10AA45;
+  L571022: goto label_10AA45;
+  L571033: goto label_10AA45;
+  L571042: goto label_10AA45;
+  L571071: goto label_10AA45;
+  L571080: goto label_10AA45;
+  L571091: goto label_10AA45;
+  L571100: goto label_10AA45;
+  L571120: goto label_10AA45;
+  L571129: goto label_10AA45;
+  L571140: goto label_10AA45;
+  L571149: goto label_10AA45;
+  L571187: goto label_10AA45;
+  L571196: goto label_10AA45;
+  L571207: goto label_10AA45;
+  L571216: goto label_10AA45;
+  L571236: goto label_10AA45;
+  L571245: goto label_10AA45;
+  L571256: goto label_10AA45;
+  L571265: goto label_10AA45;
+  L571294: goto label_10AA45;
+  L571303: goto label_10AA45;
+  L571314: goto label_10AA45;
+  L571323: goto label_10AA45;
+  L571343: goto label_10AA45;
+  L571352: goto label_10AA45;
+  L571363: goto label_10AA45;
+  L571372: goto label_10AA45;
+  L571381: goto label_10AA45;
+  L571428: goto label_10AA45;
+  L571437: goto label_10AA45;
+  L571448: goto label_10AA45;
+  L571457: goto label_10AA45;
+  L571477: goto label_10AA45;
+  L571486: goto label_10AA45;
+  L571497: goto label_10AA45;
+  L571506: goto label_10AA45;
+  L571535: goto label_10AA45;
+  L571544: goto label_10AA45;
+  L571555: goto label_10AA45;
+  L571564: goto label_10AA45;
+  L571584: goto label_10AA45;
+  L571593: goto label_10AA45;
+  L571604: goto label_10AA45;
+  L571613: goto label_10AA45;
+  L571651: goto label_10AA45;
+  L571660: goto label_10AA45;
+  L571671: goto label_10AA45;
+  L571680: goto label_10AA45;
+  L571700: goto label_10AA45;
+  L571709: goto label_10AA45;
+  L571720: goto label_10AA45;
+  L571729: goto label_10AA45;
+  L571758: goto label_10AA45;
+  L571767: goto label_10AA45;
+  L571778: goto label_10AA45;
+  L571787: goto label_10AA45;
+  L571807: goto label_10AA45;
+  L571816: goto label_10AA45;
+  L571827: goto label_10AA45;
+  L571836: goto label_10AA45;
+  L571845: goto label_10AA45;
+  L571901: goto label_10AA45;
+  L571910: goto label_10AA45;
+  L571921: goto label_10AA45;
+  L571930: goto label_10AA45;
+  L571950: goto label_10AA45;
+  L571959: goto label_10AA45;
+  L571970: goto label_10AA45;
+  L571979: goto label_10AA45;
+  L572008: goto label_10AA45;
+  L572017: goto label_10AA45;
+  L572028: goto label_10AA45;
+  L572037: goto label_10AA45;
+  L572057: goto label_10AA45;
+  L572066: goto label_10AA45;
+  L572077: goto label_10AA45;
+  L572086: goto label_10AA45;
+  L572124: goto label_10AA45;
+  L572133: goto label_10AA45;
+  L572144: goto label_10AA45;
+  L572153: goto label_10AA45;
+  L572173: goto label_10AA45;
+  L572182: goto label_10AA45;
+  L572193: goto label_10AA45;
+  L572202: goto label_10AA45;
+  L572231: goto label_10AA45;
+  L572240: goto label_10AA45;
+  L572251: goto label_10AA45;
+  L572260: goto label_10AA45;
+  L572280: goto label_10AA45;
+  L572289: goto label_10AA45;
+  L572300: goto label_10AA45;
+  L572309: goto label_10AA45;
+  L572318: goto label_10AA45;
+  L572365: goto label_10AA45;
+  L572374: goto label_10AA45;
+  L572385: goto label_10AA45;
+  L572394: goto label_10AA45;
+  L572414: goto label_10AA45;
+  L572423: goto label_10AA45;
+  L572434: goto label_10AA45;
+  L572443: goto label_10AA45;
+  L572472: goto label_10AA45;
+  L572481: goto label_10AA45;
+  L572492: goto label_10AA45;
+  L572501: goto label_10AA45;
+  L572521: goto label_10AA45;
+  L572530: goto label_10AA45;
+  L572541: goto label_10AA45;
+  L572550: goto label_10AA45;
+  L572588: goto label_10AA45;
+  L572597: goto label_10AA45;
+  L572608: goto label_10AA45;
+  L572617: goto label_10AA45;
+  L572637: goto label_10AA45;
+  L572646: goto label_10AA45;
+  L572657: goto label_10AA45;
+  L572666: goto label_10AA45;
+  L572695: goto label_10AA45;
+  L572704: goto label_10AA45;
+  L572715: goto label_10AA45;
+  L572724: goto label_10AA45;
+  L572744: goto label_10AA45;
+  L572753: goto label_10AA45;
+  L572764: goto label_10AA45;
+  L572773: goto label_10AA45;
+  L572786: goto label_10AA45;
+  L572788: label_10AA45: ;
+  L572807: public static void func_10AA55(VmValue arg0, VmValue arg1) // 0x10AA55
+  L573373: Native._0x480014E54CD33903(load_i32(Vm.Address(locals, 0), 0x14), 0); // RVA: 0x03CD6C10
+  L573374: Native._0x480014E54CD33903(load_i32(Vm.Address(locals, 0), 0x14), 1); // RVA: 0x03CD6C10
+  L582248: Native._0x480014E54CD33903(stack_10F5A9_0, 0); // RVA: 0x03CD6C10
+  L635229: v_128D29_2 = Native._0x9F423A432B425A7F(load_i32(Vm.Address(locals, 6), 0x0)); // RVA: 0x03CD33E0
+  L667028: public static VmValue func_137CD9(VmValue arg0) // 0x137CD9
+  L730311: v_1567F4_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L781887: v_16EC1B_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L786537: v_170DCC_1 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L793780: Native._0x480014E54CD33903(stack_173FC7_0, 0); // RVA: 0x03CD6C10
+  L845641: Native._0x480014E54CD33903(local_0, 0); // RVA: 0x03CD6C10
+  L861966: v_192443_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L862100: v_192581_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L862223: v_19267B_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L863715: Native._0x480014E54CD33903(local_5, local_6); // RVA: 0x03CD6C10
+  L889195: Native._0x480014E54CD33903(as_i32(v_19E61B_3), 1); // RVA: 0x03CD6C10
+  L912953: Native._0x480014E54CD33903(load_i32(p0, 0x30), 1); // RVA: 0x03CD6C10
+  L972929: Native._0x480014E54CD33903(local_0, 0); // RVA: 0x03CD6C10
+  L1033424: v_1E156B_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1075296: Operations.array_set_u32(v_204AC4_6, 0, 0x1612DBB);
+  L1075371: Operations.array_set_u32(v_204C28_31, 0, 0x1612DBB);
+  L1075446: Operations.array_set_u32(v_204D8E_56, 0, 0x1612DBB);
+  L1075521: Operations.array_set_u32(v_204EF4_81, 0, 0x1612DBB);
+  L1075596: Operations.array_set_u32(v_20505A_106, 0, 0x1612DBB);
+  L1132172: Native._0x480014E54CD33903(load_i32(byte_offset(p0, 0x28), 0x0), 1); // RVA: 0x03CD6C10
+  L1170613: func_1BEA08(v_23D74D_735, 0x1612DBB, 0);
+  L1197206: v_24A5C8_1 = Native._0x9F423A432B425A7F(v_24A5C1_0[0]); // RVA: 0x03CD33E0
+  L1206003: v_24F520_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1213897: Native._0x480014E54CD33903(stack_25305C_0, load_u8(Vm.Address(locals, 0), 0x8)); // RVA: 0x03CD6C10
+  L1214323: Native._0x480014E54CD33903(stack_253385_0, load_u8(Vm.Address(locals, 0), 0x8)); // RVA: 0x03CD6C10
+  L1214821: Native._0x480014E54CD33903(stack_25377D_0, load_u8(Vm.Address(locals, 0), 0x8)); // RVA: 0x03CD6C10
+  L1222348: v_25737A_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1222372: v_2573A1_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1222633: v_25759F_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1248159: Native._0x480014E54CD33903(load_i32(local_1, 0xC), 0); // RVA: 0x03CD6C10
+  L1314445: v_288D52_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1314455: local_4 = 0x1612DBB;
+  L1335854: Native._0x480014E54CD33903(local_0, 1); // RVA: 0x03CD6C10
+  L1335907: Native._0x480014E54CD33903(local_0, 1); // RVA: 0x03CD6C10
+  L1336201: Native._0x480014E54CD33903(local_0, 0); // RVA: 0x03CD6C10
+  L1354911: Operations.array_set_u32(v_29DC93_4, 0, 0x1612DBB);
+  L1396692: v_2B7B0F_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1417310: if (((as_i32(p1) > as_i32(0x1612DBB))))
+  L1417328: if (((as_i32(p1) == as_i32(0x1612DBB))))
+  L1421798: Native._0x480014E54CD33903(stack_2C44A4_0, 0); // RVA: 0x03CD6C10
+  L1442120: Native._0x480014E54CD33903(local_28, 0); // RVA: 0x03CD6C10
+  L1442317: Native._0x480014E54CD33903(local_9, 1); // RVA: 0x03CD6C10
+  L1478954: Native._0x480014E54CD33903(load_i32(p0, 0x48), 0); // RVA: 0x03CD6C10
+  L1482563: Native._0x480014E54CD33903(stack_2E1C31_0, 0); // RVA: 0x03CD6C10
+  L1520183: Native._0x480014E54CD33903(load_i32(byte_offset(p0, 0x28), 0x0), 0); // RVA: 0x03CD6C10
+  L1530177: func_1BEA08(v_2FD9A8_587, 0x1612DBB, 0);
+  L1563380: Native._0x480014E54CD33903(stack_30ED8B_0, 0); // RVA: 0x03CD6C10
+  L1577498: Native._0x480014E54CD33903(load_i32(local_0, 0x10), p3); // RVA: 0x03CD6C10
+  L1614921: Native._0x480014E54CD33903(load_i32(Vm.Address(locals, 0), 0x14), 0); // RVA: 0x03CD6C10
+  L1637796: v_336AE1_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1652017: Native._0x480014E54CD33903(v_33E3AD_2[0], 0); // RVA: 0x03CD6C10
+  L1652023: Native._0x480014E54CD33903(v_33E3D0_3[0], 0); // RVA: 0x03CD6C10
+  L1652029: Native._0x480014E54CD33903(v_33E3F3_4[0], 0); // RVA: 0x03CD6C10
+  L1656835: v_340A11_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1667159: Native._0x480014E54CD33903(local_1, 1); // RVA: 0x03CD6C10
+  L1717921: Native._0x480014E54CD33903(v_35FA3E_2[0], 0); // RVA: 0x03CD6C10
+  L1731933: Native._0x480014E54CD33903(stack_36675F_0, 0); // RVA: 0x03CD6C10
+  L1731973: Native._0x480014E54CD33903(stack_366816_0, 0); // RVA: 0x03CD6C10
+  L1750369: Native._0x480014E54CD33903(v_370506_0[0], ((as_i32(((as_u32(v_370515_1) & as_u32(v_370515_2)))) == as_i32(local_0)))); // RVA: 0x03CD6C10
+  L1750418: Native._0x480014E54CD33903(v_370538_0[0], 0); // RVA: 0x03CD6C10
+  L1793736: v_387131_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1831333: Native._0x480014E54CD33903(v_39A9C8_0[0], 0); // RVA: 0x03CD6C10
+  L1832534: Native._0x480014E54CD33903(local_2, 1); // RVA: 0x03CD6C10
+  L1832639: Native._0x480014E54CD33903(local_0, 0); // RVA: 0x03CD6C10
+  L1866526: v_3AD22E_3 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1866854: v_3AD564_3 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1873313: v_3B0B51_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L1881143: Native._0x480014E54CD33903(v_3B4C32_11[0], 0); // RVA: 0x03CD6C10
+  L1881148: Native._0x480014E54CD33903(v_3B4C52_12[0], 0); // RVA: 0x03CD6C10
+  L1953721: Native._0x480014E54CD33903(p1, 1); // RVA: 0x03CD6C10
+  L1954425: Native._0x480014E54CD33903(as_i32(v_3DB282_0), 0); // RVA: 0x03CD6C10
+  L1978719: Native._0x480014E54CD33903(v_3E823F_0[0], ((as_i32(((as_u32(v_3E8251_1) & as_u32(v_3E8251_2)))) == as_i32(local_48)))); // RVA: 0x03CD6C10
+  L1978733: Native._0x480014E54CD33903(v_3E8279_0[0], 0); // RVA: 0x03CD6C10
+  L1981173: Native._0x480014E54CD33903(v_3E99A4_3[0], ((as_i32(((as_u32(v_3E99B6_4) & as_u32(v_3E99B6_5)))) == as_i32(local_62)))); // RVA: 0x03CD6C10
+  L1981187: Native._0x480014E54CD33903(v_3E99DE_0[0], 0); // RVA: 0x03CD6C10
+  L1981754: Native._0x480014E54CD33903(v_3EA080_0[0], ((as_i32(((as_u32(v_3EA092_1) & as_u32(v_3EA092_2)))) == as_i32(local_3)))); // RVA: 0x03CD6C10
+  L1981800: Native._0x480014E54CD33903(v_3EA0B8_0[0], 0); // RVA: 0x03CD6C10
+  L1981910: Native._0x480014E54CD33903(v_3EA2BF_0[0], ((as_i32(((as_u32(v_3EA2D1_1) & as_u32(v_3EA2D1_2)))) == as_i32(local_0)))); // RVA: 0x03CD6C10
+  L1981957: Native._0x480014E54CD33903(v_3EA2F7_0[0], 0); // RVA: 0x03CD6C10
+  L1986082: Native._0x480014E54CD33903(v_3EC6A9_0[0], 0); // RVA: 0x03CD6C10
+  L1986087: Native._0x480014E54CD33903(v_3EC6C7_1[0], 0); // RVA: 0x03CD6C10
+  L1989425: Native._0x480014E54CD33903(v_3EE453_1, 1); // RVA: 0x03CD6C10
+  L1989662: Native._0x480014E54CD33903(v_3EE6FD_0, 0); // RVA: 0x03CD6C10
+  L2023212: v_3FECE5_1 = Native._0x9F423A432B425A7F(v_3FECDE_0[0]); // RVA: 0x03CD33E0
+  L2060075: if (((as_i32(p1) > as_i32(0x1612DBB))))
+  L2060305: if (((as_i32(p1) == as_i32(0x1612DBB))))
+  L2077144: Native._0x480014E54CD33903(v_41A931_0[0], 0); // RVA: 0x03CD6C10
+  L2077149: Native._0x480014E54CD33903(v_41A94F_1[0], 0); // RVA: 0x03CD6C10
+  L2091650: Native._0x480014E54CD33903(stack_422269_0, 0); // RVA: 0x03CD6C10
+  L2114068: v_42D3C4_0 = Native._0xD0D3FDB70A5FEE95(0x1612DBB); // RVA: 0x03CCF7C0
+  L2155827: Native._0x480014E54CD33903(stack_44204E_0, 0); // RVA: 0x03CD6C10
+  L2171644: Operations.array_set_u32(v_449E0F_21, 0, 0x1612DBB);
+  L2171664: Operations.array_set_u32(v_449E87_26, 0, 0x1612DBB);
+  L2175934: public static void _0x480014E54CD33903(VmValue p0, VmValue p1) => Vm.Native(0x480014E54CD33903UL, 0x03CD6C10U, 0, p0, p1);
+  L2176343: public static VmValue _0x9F423A432B425A7F(VmValue p0) => Vm.Native(0x9F423A432B425A7FUL, 0x03CD33E0U, 1, p0)[0];
+=== 0x224CF31C94E0534D.ysc.cs ===
+  L3190: public static void func_001EB5(VmValue arg0) // 0x001EB5
+  L4354: public static void func_002735(VmValue arg0, VmValue arg1) // 0x002735
+  L4386: func_001EB5(v_00275D_4);

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathingStyleData>
+  <StyleProfiles>
+    <Item key="Pathing_Natural">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Natural</CorneringStyle>
+      <ApproachStyle>Approach_Natural</ApproachStyle>
+      <ContinuityStyle>Continuity_Natural</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Natural</SlowdownStyle> 
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>
+    <Item key="Pathing_Wanderer">
+      <CurvatureStyle>Curvature_Curved</CurvatureStyle>
+      <CorneringStyle>Cornering_Wide</CorneringStyle>
+      <ApproachStyle>Approach_Wide</ApproachStyle>
+      <ContinuityStyle>Continuity_Curved</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Relaxed</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+      <DoorPathingStyle>Pathing_Natural</DoorPathingStyle>
+    </Item>
+    <Item key="Pathing_Escape">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Escape</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Natural</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Escape</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Escape</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>
+	<Item key="Pathing_Tactical">
+      <CurvatureStyle>Curvature_Direct</CurvatureStyle>
+      <CorneringStyle>Cornering_Angular</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Tactical</SlowdownStyle>
+      <SplineConfig>SplineFollow_High90</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+      <DoorPathingStyle>Pathing_SearchDoors</DoorPathingStyle>
+	  <Flags>Create90Corners</Flags>
+    </Item>
+	<Item key="Pathing_HeavyCombat">
+      <CurvatureStyle>Curvature_Direct</CurvatureStyle>
+      <CorneringStyle>Cornering_Angular</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Tactical</SlowdownStyle>
+      <SplineConfig>SplineFollow_Low90</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+      <DoorPathingStyle>Pathing_SearchDoors</DoorPathingStyle>
+	  <Flags>Create90Corners</Flags>
+    </Item>
+    <Item key="Pathing_Search">
+      <CurvatureStyle>Curvature_Direct</CurvatureStyle>
+      <CorneringStyle>Cornering_Tight</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Abrupt</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+      <DoorPathingStyle>Pathing_SearchDoors</DoorPathingStyle>
+    </Item>
+    <Item key="Pathing_SearchArmed">
+      <CurvatureStyle>Curvature_Direct</CurvatureStyle>
+      <CorneringStyle>Cornering_Tight</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Abrupt</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+      <DoorPathingStyle>Pathing_SearchDoors</DoorPathingStyle>
+    </Item>
+	<Item key="Pathing_SearchDoors">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Tight</CorneringStyle>
+      <ApproachStyle>Approach_Natural</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_RunAndGun</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>
+	<Item key="Pathing_RunAndGun">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Tight</CorneringStyle>
+      <ApproachStyle>Approach_Natural</ApproachStyle>
+      <ContinuityStyle>Continuity_Rigid</ContinuityStyle>
+      <SlowdownStyle>Slowdown_RunAndGun</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>  
+	<Item key="Pathing_Threat">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Escape</CorneringStyle>
+      <ApproachStyle>Approach_Natural</ApproachStyle>
+      <ContinuityStyle>Continuity_Curved</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Escape</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Escape</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>
+	<Item key="Pathing_Buddy">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Natural</CorneringStyle>
+      <ApproachStyle>Approach_Natural</ApproachStyle>
+      <ContinuityStyle>Continuity_Natural</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Escape</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Natural</AvoidanceStyle>
+	  <Flags></Flags>
+    </Item>
+	<Item key="Pathing_Chase">
+      <CurvatureStyle>Curvature_Natural</CurvatureStyle>
+      <CorneringStyle>Cornering_Escape</CorneringStyle>
+      <ApproachStyle>Approach_Direct</ApproachStyle>
+      <ContinuityStyle>Continuity_Natural</ContinuityStyle>
+      <SlowdownStyle>Slowdown_Chase</SlowdownStyle>
+      <SplineConfig>SplineFollow_Natural</SplineConfig>
+      <AvoidanceStyle>Avoidance_Chase</AvoidanceStyle>
+	  <Flags>UseForWaypointFollow</Flags>
+    </Item>
+  </StyleProfiles>
+</PathingStyleData>

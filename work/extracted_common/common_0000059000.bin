@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CParkingSplines>
+	<iNumSplines value="23"/>
+	<ParkingSplineVector>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-5.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Angled ePark_Forward ePark_Straight</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-2.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-3.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Reverse ePark_Straight</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-7.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-8.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Angled ePark_Forward ePark_Straight ePark_Far</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-7.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-8.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Reverse ePark_Straight ePark_Far</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.4" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.8" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="3.0" y="-8.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Forward ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.4" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.8" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="-3.0" y="-8.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Forward ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.3" y="0.3" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.6" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="2.0" y="-8.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Forward ePark_Left ePark_LongOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.00" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.3" y="0.3" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.6" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.0" y="-8.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Parallel ePark_Forward ePark_Right ePark_LongOnly</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.4" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.8" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="4.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.6" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="3.0" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="5.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Left ePark_Sharp</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.2" y="-1.5" z="5.000000" />
+			<Item type="Vec3V" x="3.0" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="5.0" y="-3.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Left ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.2" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.2" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="1.0" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="6.0" y="-7.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Left ePark_Far</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.4" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.8" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="-4.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.05" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.6" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.6" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-3.0" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="-5.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Right ePark_Sharp</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.2" y="-1.5" z="5.000000" />
+			<Item type="Vec3V" x="-3.0" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="-5.0" y="-3.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Right ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.2" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.2" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-1.0" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="-6.0" y="-7.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Forward ePark_Right ePark_Far</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-1.25" z="5.000000" />
+			<Item type="Vec3V" x="1.5" y="-3.25" z="5.000000" />
+			<Item type="Vec3V" x="7.5" y="-4.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Reverse ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="-1.25" z="5.000000" />
+			<Item type="Vec3V" x="-1.5" y="-3.25" z="5.000000" />
+			<Item type="Vec3V" x="-7.5" y="-4.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Reverse ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.15" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="9.0" y="-7.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Reverse ePark_Left ePark_Far</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.15" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="-9.0" y="-7.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Perpendicular ePark_Reverse ePark_Right ePark_Far</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.4" y="-1.25" z="5.000000" />
+			<Item type="Vec3V" x="-1.0" y="-4.75" z="5.000000" />
+			<Item type="Vec3V" x="-4.5" y="-7.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Angled ePark_Forward ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.4" y="-1.25" z="5.000000" />
+			<Item type="Vec3V" x="1.0" y="-4.75" z="5.000000" />
+			<Item type="Vec3V" x="4.5" y="-7.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Angled ePark_Forward ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-2.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Angled ePark_Forward ePark_Left ePark_BikeOnly ePark_Sharp</SplineFlags>
+		</Item>
+				<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="3.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-2.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-4.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Entry ePark_Angled ePark_Forward ePark_Right ePark_BikeOnly ePark_Sharp</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-2.5" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-5.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Perpendicular ePark_Forward ePark_Straight</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-2.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-7.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-9.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Angled ePark_Reverse ePark_Straight</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="-2.75" z="5.000000" />
+			<Item type="Vec3V" x="-1.5" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-8.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-12.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Reverse ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-2.75" z="5.000000" />
+			<Item type="Vec3V" x="1.5" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-8.0" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-12.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Reverse ePark_Left</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-1.0" y="-0.8" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="-2.5" y="-8.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Reverse ePark_Right ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="1.0" y="-0.8" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-6.0" z="5.000000" />
+			<Item type="Vec3V" x="2.5" y="-8.0" z="5.000000" />
+			</vOffsets>			
+			<SplineFlags>ePark_Exit ePark_Parallel ePark_Reverse ePark_Left ePark_BikeOnly</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.2" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="1.0" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="4.5" y="-6.5" z="5.000000" />
+			<Item type="Vec3V" x="7.0" y="-5.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-2.5" z="5.000000" />
+			<Item type="Vec3V" x="1.5" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="5.0" y="-4.5" z="5.000000" />
+			<Item type="Vec3V" x="7.0" y="-4.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Left ePark_Sharp</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="1.75" y="-2.25" z="5.000000" />
+			<Item type="Vec3V" x="4.0" y="-2.5" z="5.000000" />
+			<Item type="Vec3V" x="6.0" y="-2.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Left ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.5" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-1.75" y="-2.25" z="5.000000" />
+			<Item type="Vec3V" x="-4.0" y="-2.5" z="5.000000" />
+			<Item type="Vec3V" x="-6.0" y="-2.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Right ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.2" y="-3.0" z="5.000000" />
+			<Item type="Vec3V" x="-1.0" y="-5.0" z="5.000000" />
+			<Item type="Vec3V" x="-4.5" y="-6.5" z="5.000000" />
+			<Item type="Vec3V" x="-7.0" y="-5.0" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Right</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="-2.5" z="5.000000" />
+			<Item type="Vec3V" x="-1.5" y="-4.0" z="5.000000" />
+			<Item type="Vec3V" x="-5.0" y="-4.5" z="5.000000" />
+			<Item type="Vec3V" x="-7.0" y="-4.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Perpendicular ePark_Reverse ePark_Right ePark_Sharp</SplineFlags>
+		</Item>
+
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.5" y="-3.5" z="5.000000" />
+			<Item type="Vec3V" x="-4.5" y="-6.5" z="5.000000" />
+			<Item type="Vec3V" x="-10.5" y="-8.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Angled ePark_Reverse ePark_Left</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.5" y="-3.5" z="5.000000" />
+			<Item type="Vec3V" x="4.5" y="-6.5" z="5.000000" />
+			<Item type="Vec3V" x="10.5" y="-8.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Angled ePark_Reverse ePark_Right</SplineFlags>
+		</Item>
+
+		<Item type="-">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.25" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="-0.75" y="-3.5" z="5.000000" />
+			<Item type="Vec3V" x="-2.0" y="-5.5" z="5.000000" />
+			<Item type="Vec3V" x="-4.5" y="-6.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Angled ePark_Reverse ePark_Left ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+		<Item type="CParkingIndividualSplineData">
+			<vOffsets>
+			<Item type="Vec3V" x="0.0" y="1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.0" y="0.0" z="5.000000" />
+			<Item type="Vec3V" x="0.25" y="-1.0" z="5.000000" />
+			<Item type="Vec3V" x="0.75" y="-3.5" z="5.000000" />
+			<Item type="Vec3V" x="2.0" y="-5.5" z="5.000000" />
+			<Item type="Vec3V" x="4.5" y="-6.5" z="5.000000" />
+			</vOffsets>
+			<SplineFlags>ePark_Exit ePark_Angled ePark_Reverse ePark_Right ePark_Sharp ePark_BikeOnly</SplineFlags>
+		</Item>
+	</ParkingSplineVector>
+</CParkingSplines>

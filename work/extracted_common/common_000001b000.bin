@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CBreakableVehicleDoorLockManagerData>
+  <AllAnimData>
+    <Item key="COACH2_BOOT_ANIM_DATA">
+      <ForcedEntryExitPoint value="0" />
+      <OpenDoorClipOverride>ready_to_boot_open_force</OpenDoorClipOverride>
+      <DoorAlreadyOpenClipOverride>ready_to_boot_open</DoorAlreadyOpenClipOverride>
+      <BreakDoorOpenClipOverride>ready_to_boot_open_picklock</BreakDoorOpenClipOverride>
+      <BreakDoorProp>p_cs_pick01x</BreakDoorProp>
+      <RequiredSatchelItem>CONSUMABLE_LOCK_BREAKER</RequiredSatchelItem>
+      <BreakDoorPropAttachBone>PH_R_HAND</BreakDoorPropAttachBone>
+    </Item>
+  </AllAnimData>
+  <AllLockData>
+    <Item key="COACH2_BOOT_LOCK_DATA">
+      <BreakableLockObjects>
+        <Item>
+          <ModelName>s_coachLock02x</ModelName>
+          <VehicleAttachBone>VEH_EXTRA_2</VehicleAttachBone>
+          <AttachPosOffset x="0.000000" y="-2.015000" z="0.406000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.000000" y="0.000000" z="0.000000" />
+        </Item>
+      </BreakableLockObjects>
+      <VehicleDoorBone>VEH_BOOT</VehicleDoorBone>
+      <AdditionalDoorBone>VEH_INVALID_ID</AdditionalDoorBone>
+      <CustomShootLockGoToOffsetFromVehicle x="0.000000" y="-4.100000" z="-0.300000" />
+      <FallbackTargettingBoundingBoxMin x="-6.500000" y="-12.000000" z="-12.000000" />
+      <FallbackTargettingBoundingBoxMax x="6.500000" y="-2.500000" z="12.000000" />
+      <RequiredWheelCombinations>
+        <Item>
+          <WheelId>VEH_WHEEL_LR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_RR</Item>
+            <Item>VEH_WHEEL_RF</Item>
+          </ValidIfIntactList>
+        </Item>
+        <Item>
+          <WheelId>VEH_WHEEL_RR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_LF</Item>
+          </ValidIfIntactList>
+        </Item>
+      </RequiredWheelCombinations>
+      <Flags>DisableLockOnSwingShut</Flags>
+	  <ConsiderOpenTolerance value="0.5" />
+	  <BreakDoorTimeout value="1000" />
+    </Item>
+    <Item key="STAGECOACH002X_BOOT_LOCK_DATA">
+      <BreakableLockObjects>
+        <Item>
+          <ModelName>s_coachLock02x</ModelName>
+          <VehicleAttachBone>VEH_BODYSHELL</VehicleAttachBone>
+          <AttachPosOffset x="0.000000" y="-2.230" z="0.190" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.000000" y="0.000000" z="0.000000" />
+        </Item>
+      </BreakableLockObjects>
+      <VehicleDoorBone>VEH_BOOT</VehicleDoorBone>
+      <AdditionalDoorBone>VEH_INVALID_ID</AdditionalDoorBone>
+      <CustomShootLockGoToOffsetFromVehicle x="0.000000" y="-4.100000" z="-0.300000" />
+      <FallbackTargettingBoundingBoxMin x="-6.500000" y="-12.000000" z="-12.000000" />
+      <FallbackTargettingBoundingBoxMax x="6.500000" y="-2.500000" z="12.000000" />
+      <RequiredWheelCombinations>
+        <Item>
+          <WheelId>VEH_WHEEL_LR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_RR</Item>
+            <Item>VEH_WHEEL_RF</Item>
+          </ValidIfIntactList>
+        </Item>
+        <Item>
+          <WheelId>VEH_WHEEL_RR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_LF</Item>
+          </ValidIfIntactList>
+        </Item>
+      </RequiredWheelCombinations>
+      <Flags>DisableLockOnSwingShut</Flags>
+	  <ConsiderOpenTolerance value="0.5" />
+	  <BreakDoorTimeout value="1000" />
+    </Item>
+    <Item key="STAGECOACH003X_BOOT_LOCK_DATA">
+      <BreakableLockObjects>
+        <Item>
+          <ModelName>s_coachLock02x</ModelName>
+          <VehicleAttachBone>VEH_BODYSHELL</VehicleAttachBone>
+          <AttachPosOffset x="0.000000" y="-2.195" z="0.375" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.000000" y="0.000000" z="0.000000" />
+        </Item>
+      </BreakableLockObjects>
+      <VehicleDoorBone>VEH_BOOT</VehicleDoorBone>
+      <AdditionalDoorBone>VEH_INVALID_ID</AdditionalDoorBone>
+      <CustomShootLockGoToOffsetFromVehicle x="0.000000" y="-4.100000" z="-0.300000" />
+      <FallbackTargettingBoundingBoxMin x="-6.500000" y="-12.000000" z="-12.000000" />
+      <FallbackTargettingBoundingBoxMax x="6.500000" y="-2.500000" z="12.000000" />
+      <RequiredWheelCombinations>
+        <Item>
+          <WheelId>VEH_WHEEL_LR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_RR</Item>
+            <Item>VEH_WHEEL_RF</Item>
+          </ValidIfIntactList>
+        </Item>
+        <Item>
+          <WheelId>VEH_WHEEL_RR</WheelId>
+          <ValidIfIntactList>
+            <Item>VEH_WHEEL_LF</Item>
+          </ValidIfIntactList>
+        </Item>
+      </RequiredWheelCombinations>
+      <Flags>DisableLockOnSwingShut</Flags>
+	  <ConsiderOpenTolerance value="0.5" />
+	  <BreakDoorTimeout value="1000" />
+    </Item>
+    <Item key="PRISONWAGON_REAR_LOCK_DATA">
+      <BreakableLockObjects>
+        <Item>
+          <ModelName>s_coachLock02x</ModelName>
+          <VehicleAttachBone>VEH_DOOR_PSIDE_R</VehicleAttachBone>
+          <AttachPosOffset x="-0.641000" y="-0.011000" z="0.158000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.000000" y="0.000000" z="0.000000" />
+        </Item>
+      </BreakableLockObjects>
+      <VehicleDoorBone>VEH_DOOR_PSIDE_R</VehicleDoorBone>
+      <AdditionalDoorBone>VEH_DOOR_DSIDE_R</AdditionalDoorBone>
+      <CustomShootLockGoToOffsetFromVehicle x="0.000000" y="-4.150000" z="0.000000" />
+      <FallbackTargettingBoundingBoxMin x="-6.500000" y="-12.000000" z="-12.000000" />
+      <FallbackTargettingBoundingBoxMax x="6.500000" y="-3.000000" z="12.000000" />
+      <RequiredWheelCombinations />
+      <Flags />
+    </Item>
+    <Item key="STAGECOACH4_LOCK_DATA">
+      <BreakableLockObjects>
+        <Item>
+          <ModelName>s_coachrobbery01x</ModelName>
+          <VehicleAttachBone>VEH_BOOT</VehicleAttachBone>
+          <AttachPosOffset x="-0.600000" y="1.675000" z="0.450000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="-0.600000" y="-0.375000" z="0.800000" />
+        </Item>
+        <Item>
+          <ModelName>s_coachrobbery01x</ModelName>
+          <VehicleAttachBone>VEH_BOOT</VehicleAttachBone>
+          <AttachPosOffset x="0.650000" y="1.675000" z="0.450000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.650000" y="-0.375000" z="0.800000" />
+        </Item>
+        <Item>
+          <ModelName>s_coachrobbery01x</ModelName>
+          <VehicleAttachBone>VEH_BOOT</VehicleAttachBone>
+          <AttachPosOffset x="-0.600000" y="1.675000" z="-0.000000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="-0.600000" y="-0.375000" z="0.350000" />
+        </Item>
+        <Item>
+          <ModelName>s_coachrobbery01x</ModelName>
+          <VehicleAttachBone>VEH_BOOT</VehicleAttachBone>
+          <AttachPosOffset x="0.650000" y="1.675000" z="0.000000" />
+          <AttachRotOffset x="0.000000" y="0.000000" z="0.000000" />
+          <CustomTargettingOffset x="0.650000" y="-0.375000" z="0.350000" />
+        </Item>
+      </BreakableLockObjects>
+      <VehicleDoorBone>VEH_BOOT</VehicleDoorBone>
+      <AdditionalDoorBone>VEH_INVALID_ID</AdditionalDoorBone>
+      <CustomShootLockGoToOffsetFromVehicle x="0.000000" y="-4.250000" z="0.000000" />
+      <FallbackTargettingBoundingBoxMin x="-4.500000" y="-10.000000" z="-12.000000" />
+      <FallbackTargettingBoundingBoxMax x="4.500000" y="-3.250000" z="12.000000" />
+      <RequiredWheelCombinations />
+      <Flags />
+    </Item>
+  </AllLockData>
+  <AllPromptData />
+  <AllCombinedData>
+    <Item key="COACH2_BOOT_BREAKABLE_LOCK_DATA">
+      <PromptData />
+      <AnimData>COACH2_BOOT_ANIM_DATA</AnimData>
+      <LockData>COACH2_BOOT_LOCK_DATA</LockData>
+    </Item>
+    <Item key="PRISONWAGON_REAR_BREAKABLE_LOCK_DATA">
+      <PromptData />
+      <AnimData />
+      <LockData>PRISONWAGON_REAR_LOCK_DATA</LockData>
+    </Item>
+    <Item key="STAGECOACH002X_BOOT_BREAKABLE_LOCK_DATA">
+      <LockData>STAGECOACH002X_BOOT_LOCK_DATA</LockData>
+    </Item>
+    <Item key="STAGECOACH003X_BOOT_BREAKABLE_LOCK_DATA">
+      <LockData>STAGECOACH003X_BOOT_LOCK_DATA</LockData>
+    </Item>
+    <Item key="STAGECOACH4_BREAKABLE_LOCK_DATA">
+      <PromptData />
+      <AnimData />
+      <LockData>STAGECOACH4_LOCK_DATA</LockData>
+    </Item>
+  </AllCombinedData>
+  <ConditionsForCombinedData>
+    <Item key="STAGECOACH002X_BREAKABLE_VEHICLE_LOCK_CONDITIONS">
+      <Entries>
+        <Item>
+          <Name>STAGECOACH002X_BOOT_BREAKABLE_LOCK_DATA</Name>
+        </Item>
+      </Entries>
+    </Item>
+    <Item key="STAGECOACH003X_BREAKABLE_VEHICLE_LOCK_CONDITIONS">
+      <Entries>
+        <Item>
+          <Name>STAGECOACH003X_BOOT_BREAKABLE_LOCK_DATA</Name>
+        </Item>
+      </Entries>
+    </Item>
+    <Item key="COACH2_BREAKABLE_VEHICLE_LOCK_CONDITIONS">
+      <Entries>
+        <Item>
+          <Name>COACH2_BOOT_BREAKABLE_LOCK_DATA</Name>
+          <RequiredEnabledExtras>
+            <Item>VEH_EXTRA_2</Item>
+          </RequiredEnabledExtras>
+          <RequiredDisabledExtras>
+            <Item>VEH_EXTRA_4</Item>
+          </RequiredDisabledExtras>
+        </Item>
+      </Entries>
+    </Item>
+    <Item key="PRISONWAGON_BREAKABLE_VEHICLE_LOCK_CONDITIONS">
+      <Entries>
+        <Item>
+          <Name>PRISONWAGON_REAR_BREAKABLE_LOCK_DATA</Name>
+          <RequiredEnabledExtras />
+          <RequiredDisabledExtras />
+        </Item>
+      </Entries>
+    </Item>
+    <Item key="STAGECOACH4_BREAKABLE_VEHICLE_LOCK_CONDITIONS">
+      <Entries>
+        <Item>
+          <Name>STAGECOACH4_BREAKABLE_LOCK_DATA</Name>
+          <RequiredEnabledExtras>
+            <Item>VEH_EXTRA_1</Item>
+          </RequiredEnabledExtras>
+          <RequiredDisabledExtras />
+        </Item>
+      </Entries>
+    </Item>
+  </ConditionsForCombinedData>
+  <Constants>
+    <TempLifeTimeLockAfterBreaking value="15000" />
+    <TempLifeTimePickups value="60000" />
+  </Constants>
+</CBreakableVehicleDoorLockManagerData>

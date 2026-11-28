@@ -1,0 +1,2998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedSpeedDataBlock>
+	<Data>
+		<Item>
+			<Name>default</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.300000"/>
+						<WanderingGaitMax value="0.850000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.300000"/>
+						<WanderingGaitMax value="0.850000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.35"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="0.9"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.35"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.5"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>					
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>					
+					<WanderingGaitMin value="1.5"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.50000"/>
+					<WanderingGaitMax value="0.90000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.750000"/>
+					<WanderingGaitMax value="1.100000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+				<WanderModifiers>
+					<GlobalItemInteractionOverrideModifierMin value="1.000000"/>
+					<GlobalItemInteractionOverrideModifierMax value="1.000000"/>
+					<GlobalNightModifierMin value="1.000000"/>
+					<GlobalNightModifierMax value="1.200000"/>
+					<GlobalBadWeatherModifierMin value="1.000000"/>
+					<GlobalBadWeatherModifierMax value="1.200000"/>
+				</WanderModifiers>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>SLOW</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.000000"/>
+						<WanderingGaitMax value="0.400000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.000000"/>
+						<WanderingGaitMax value="0.400000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.25"/>
+						<WanderingGaitMax value="0.4"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.25"/>
+						<WanderingGaitMax value="0.4"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.2"/>
+						<WanderingGaitMax value="0.35"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.450000"/>
+					<WanderingGaitMax value="1.650000"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.47500"/>
+					<WanderingGaitMax value="0.85000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.400000"/>
+					<WanderingGaitMax value="0.800000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.100000"/>
+				<WanderingInWaterGaitMax value="0.40000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>MEDIUM</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.400000"/>
+						<WanderingGaitMax value="1.000000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.400000"/>
+						<WanderingGaitMax value="1.000000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.2"/>
+					<WanderingGaitMax value="1.4"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.550000"/>
+					<WanderingGaitMax value="1.650000"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.80000"/>
+					<WanderingGaitMax value="1.10000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.850000"/>
+					<WanderingGaitMax value="1.300000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="0.700000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="0.700000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="0.700000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>FAST</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.700000"/>
+						<WanderingGaitMax value="1.350000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.700000"/>
+						<WanderingGaitMax value="1.350000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.200000"/>
+					<WanderingGaitMax value="1.400000"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.500000"/>
+					<WanderingGaitMax value="1.6500000"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="1.00000"/>
+					<WanderingGaitMax value="1.45000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.900000"/>
+					<WanderingGaitMax value="1.500000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Varied</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="5"/>
+							<Speed>
+								<WanderingGaitMin value="0.5"/>
+								<WanderingGaitMax value="0.5"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="60"/>
+							<Speed>
+								<WanderingGaitMin value="0.5"/>
+								<WanderingGaitMax value="0.75"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.9"/>
+								<WanderingGaitMax value="0.9"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="1.2"/>
+								<WanderingGaitMax value="1.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="5"/>
+							<Speed>
+								<WanderingGaitMin value="1.3"/>
+								<WanderingGaitMax value="1.3"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0"/>
+						<WanderingGaitMax value="1"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="1"/>
+							<Speed>
+								<WanderingGaitMin value="0.2"/>
+								<WanderingGaitMax value="0.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="1"/>
+							<Speed>
+								<WanderingGaitMin value="0.6"/>
+								<WanderingGaitMax value="0.6"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="1"/>
+							<Speed>
+								<WanderingGaitMin value="0.7"/>
+								<WanderingGaitMax value="0.7"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.00000"/>
+						<WanderingGaitMax value="1.000000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.35"/>
+						<WanderingGaitMax value="0.6"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.35"/>
+						<WanderingGaitMax value="0.6"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.25"/>
+						<WanderingGaitMax value="0.5"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.10000"/>
+					<WanderingGaitMax value="1.350000"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.35000"/>
+					<WanderingGaitMax value="1.600"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.70000"/>
+					<WanderingGaitMax value="1.10000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.750000"/>
+					<WanderingGaitMax value="1.300000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.00000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>SlowMedium</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.700000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.700000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.5"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.5"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.5"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.150000"/>
+					<WanderingGaitMax value="1.3500000"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.400000"/>
+					<WanderingGaitMax value="1.650000"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.75000"/>
+					<WanderingGaitMax value="1.00000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.600000"/>
+					<WanderingGaitMax value="1.100000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.00"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.00000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.700000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.700000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.00000"/>
+				<WalkMax value="0.700000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.700000"/>
+				<RunMin value="0.00000"/>
+				<RunMax value="0.700000"/>
+				<SprintMin value="0.00000"/>
+				<SprintMax value="0.700000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>MediumFast</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.40000"/>
+						<WanderingGaitMax value="1.100000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.40000"/>
+						<WanderingGaitMax value="1.100000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.10000"/>
+					<WanderingGaitMax value="1.300000"/>
+				</WanderInRain>				
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.40000"/>
+					<WanderingGaitMax value="1.65000"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.6"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.80000"/>
+					<WanderingGaitMax value="1.10000"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.90000"/>
+					<WanderingGaitMax value="1.300000"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.400000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.400000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.400000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.400000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Jogger</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="1.000000"/>
+						<WanderingGaitMax value="1.80000"/>
+						<IsJogger value="true"/>
+					</FallbackSpeed>
+					<JoggerRestSpeed>
+						<WanderingGaitMin value="0.600000"/>
+						<WanderingGaitMax value="0.800000"/>
+						<IsJogger value="true"/>
+					</JoggerRestSpeed>
+					<JoggerRestType>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</JoggerRestType>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="1.000000"/>
+						<WanderingGaitMax value="1.750000"/>
+						<IsJogger value="true"/>
+					</FallbackSpeed>
+					<JoggerRestSpeed>
+						<WanderingGaitMin value="0.600000"/>
+						<WanderingGaitMax value="0.800000"/>
+						<IsJogger value="true"/>
+					</JoggerRestSpeed>
+					<JoggerRestType>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</JoggerRestType>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.500000"/>
+					<WanderingGaitMax value="1.900000"/>
+					<IsJogger value="true"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.500000"/>
+					<WanderingGaitMax value="1.7500000"/>
+					<IsJogger value="true"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.6"/>
+					<WanderingGaitMax value="1.9"/>					
+					<IsJogger value="true"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="1.70000"/>
+					<WanderingGaitMax value="1.900000"/>
+					<IsJogger value="true"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="1.500000"/>
+					<WanderingGaitMax value="1.900000"/>
+					<IsJogger value="true"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.700000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.700000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.700000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.700000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+		  <Name>CasualOccasionalJog</Name>
+		  <WanderSpeeds>
+			<WanderSpeed>
+			  <Options>
+				<Item>
+				  <Chance value="60"/>
+				  <Speed>
+					<WanderingGaitMin value="0.3"/>
+					<WanderingGaitMax value="0.4"/>
+				  </Speed>
+				</Item>
+				<Item>
+				  <Chance value="20"/>
+				  <Speed>
+					<WanderingGaitMin value="0.4"/>
+					<WanderingGaitMax value="0.6"/>
+				  </Speed>
+				</Item>
+				<Item>
+				  <Chance value="20"/>
+				  <Speed>
+					<WanderingGaitMin value="1.000000"/>
+					<WanderingGaitMax value="1.850000"/>
+					<IsJogger value="true"/>
+				  </Speed>
+				</Item>
+			  </Options>
+			  <FallbackSpeed>
+				<WanderingGaitMin value="0.2"/>
+				<WanderingGaitMax value="0.4"/>
+			  </FallbackSpeed>
+			  <JoggerRestSpeed>
+					<WanderingGaitMin value="0.600000"/>
+					<WanderingGaitMax value="0.800000"/>
+					<IsJogger value="true"/>
+			  </JoggerRestSpeed>
+			  <JoggerRestType>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</JoggerRestType>
+			</WanderSpeed>
+			<GroupWanderSpeed>
+			  <Options>
+				<Item>
+				  <Chance value="80"/>
+				  <Speed>
+					<WanderingGaitMin value="0.3"/>
+					<WanderingGaitMax value="0.4"/>
+				  </Speed>
+				</Item>
+				<Item>
+				  <Chance value="20"/>
+				  <Speed>
+					<WanderingGaitMin value="1.000000"/>
+					<WanderingGaitMax value="1.850000"/>
+					<IsJogger value="true"/>
+				  </Speed>
+				</Item>
+			  </Options>
+			  <FallbackSpeed>
+				<WanderingGaitMin value="0.30000"/>
+				<WanderingGaitMax value="0.500000"/>
+			  </FallbackSpeed>
+			</GroupWanderSpeed>	
+			<DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+			<QuadBike>
+			  <DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+			</QuadBike>			
+			<EScooter>
+			 <DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+			</EScooter>	
+			<MobScooter>
+			  <DefaultSpeed>
+						<WanderingGaitMin value="0.4"/>
+						<WanderingGaitMax value="0.65"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.75"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+			</MobScooter>
+			<Caddy>
+			  <DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+			</Caddy>
+			<WanderInRain>
+				<WanderingGaitMin value="1.5"/>
+				<WanderingGaitMax value="1.9"/>
+				<IsJogger value="true"/>
+			</WanderInRain>	
+			<WanderInHeavyRain>
+				<WanderingGaitMin value="1.5"/>
+				<WanderingGaitMax value="1.65"/>
+				<IsJogger value="true"/>
+			</WanderInHeavyRain>	
+			<WanderInExtremeRain>					
+				<WanderingGaitMin value="1.6"/>
+				<WanderingGaitMax value="1.8"/>
+			</WanderInExtremeRain>
+			<WanderingInWaterGaitMin value="0.300000"/>
+			<WanderingInWaterGaitMax value="0.50000"/>	
+		  </WanderSpeeds>
+		  <Default>
+			<WalkMin value="0.300000"/>
+			<WalkMax value="0.500000"/>
+			<JogMin value="0.000000"/>
+			<JogMax value="0.500000"/>
+			<RunMin value="0.000000"/>
+			<RunMax value="0.500000"/>
+			<SprintMin value="0.000000"/>
+			<SprintMax value="0.500000"/>
+		  </Default>
+		  <Combat>
+			<WalkMin value="0.300000"/>
+			<WalkMax value="0.500000"/>
+			<JogMin value="0.000000"/>
+			<JogMax value="0.500000"/>
+			<RunMin value="0.000000"/>
+			<RunMax value="0.500000"/>
+			<SprintMin value="0.000000"/>
+			<SprintMax value="0.500000"/>
+		  </Combat>
+		  <Flee>
+			<WalkMin value="0.300000"/>
+			<WalkMax value="0.500000"/>
+			<JogMin value="0.000000"/>
+			<JogMax value="0.500000"/>
+			<RunMin value="0.000000"/>
+			<RunMax value="0.500000"/>
+			<SprintMin value="0.000000"/>
+			<SprintMax value="0.500000"/>
+		  </Flee>
+		  <ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>San4San_Gang</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.600000"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.600000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.1"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.4"/>
+					<WanderingGaitMax value="1.5"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.51"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.80"/>
+					<WanderingGaitMax value="1.00"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.8"/>
+					<WanderingGaitMax value="1.0"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.200000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="1.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="1.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="1.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="1.000000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="1.000000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Drunk</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.0"/>  
+								<WanderingGaitMax value="0.1"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="40"/>
+							<Speed>
+								<WanderingGaitMin value="0.1"/>
+								<WanderingGaitMax value="0.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.2"/>
+								<WanderingGaitMax value="0.3"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0"/>
+						<WanderingGaitMax value="1"/>
+					</FallbackSpeed>
+					<ShopBrowseSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.2500000"/>
+						<WanderGaitType>Gait_Walk</WanderGaitType>
+					</ShopBrowseSpeed>
+					<ShopBrowseType>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</ShopBrowseType>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.0"/>
+								<WanderingGaitMax value="0.1"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="50"/>
+							<Speed>
+								<WanderingGaitMin value="0.1"/>
+								<WanderingGaitMax value="0.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.2"/>
+								<WanderingGaitMax value="0.3"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.00000"/>
+						<WanderingGaitMax value="0.400000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.45"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.35"/>
+					<WanderingGaitMax value="1.55"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.70"/>
+					<WanderingGaitMax value="1.00"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.7"/>
+					<WanderingGaitMax value="1.0"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.000000"/>
+				<WanderingInWaterGaitMax value="0.40000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Meander</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="40"/>
+							<Speed>
+								<WanderingGaitMin value="0.1"/>
+								<WanderingGaitMax value="0.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="30"/>
+							<Speed>
+								<WanderingGaitMin value="0.2"/>
+								<WanderingGaitMax value="0.3"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0"/>
+						<WanderingGaitMax value="1"/>
+					</FallbackSpeed>
+					<ShopBrowseSpeed>
+						<WanderingGaitMin value="0.100000"/>
+						<WanderingGaitMax value="0.2500000"/>
+						<WanderGaitType>Gait_Walk</WanderGaitType>
+					</ShopBrowseSpeed>
+					<ShopBrowseType>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</ShopBrowseType>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="60"/>
+							<Speed>
+								<WanderingGaitMin value="0.1"/>
+								<WanderingGaitMax value="0.2"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="25"/>
+							<Speed>
+								<WanderingGaitMin value="0.2"/>
+								<WanderingGaitMax value="0.3"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="15"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.00000"/>
+						<WanderingGaitMax value="0.400000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.35"/>
+					<WanderingGaitMax value="1.55"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.70"/>
+					<WanderingGaitMax value="1.00"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.7"/>
+					<WanderingGaitMax value="1.0"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.000000"/>
+				<WanderingInWaterGaitMax value="0.40000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.000000"/>
+				<WalkMax value="0.400000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.400000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.400000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.400000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Casual</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="70"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="30"/>
+							<Speed>
+								<WanderingGaitMin value="0.4"/>
+								<WanderingGaitMax value="0.6"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.2"/>
+						<WanderingGaitMax value="0.4"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="80"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="0.4"/>
+								<WanderingGaitMax value="0.5"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.30000"/>
+						<WanderingGaitMax value="0.500000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.85"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="0.8"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.3"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.35"/>
+					<WanderingGaitMax value="1.55"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.70"/>
+					<WanderingGaitMax value="1.00"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.75"/>
+					<WanderingGaitMax value="1.1"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.300000"/>
+				<WanderingInWaterGaitMax value="0.50000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="0.500000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.500000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.500000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.500000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="0.500000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.500000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.500000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.500000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="0.500000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="0.500000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="0.500000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="0.500000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Average</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="5"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="35"/>
+							<Speed>
+								<WanderingGaitMin value="0.4"/>
+								<WanderingGaitMax value="0.5"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="50"/>
+							<Speed>
+								<WanderingGaitMin value="0.5"/>
+								<WanderingGaitMax value="0.7"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="0.7"/>
+								<WanderingGaitMax value="0.8"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.3"/>
+						<WanderingGaitMax value="0.8"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="0.3"/>
+								<WanderingGaitMax value="0.4"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="35"/>
+							<Speed>
+								<WanderingGaitMin value="0.4"/>
+								<WanderingGaitMax value="0.5"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="45"/>
+							<Speed>
+								<WanderingGaitMin value="0.5"/>
+								<WanderingGaitMax value="0.7"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="0.7"/>
+								<WanderingGaitMax value="0.8"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.30000"/>
+						<WanderingGaitMax value="0.80000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.85"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.375"/>
+						<WanderingGaitMax value="0.55"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.85"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.85"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.5"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.3"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.3"/>
+					<WanderingGaitMax value="1.55"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.7"/>
+					<WanderingGaitMax value="1.1"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>					
+					<WanderingGaitMin value="0.725"/>
+					<WanderingGaitMax value="1.2"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.300000"/>
+				<WanderingInWaterGaitMax value="0.80000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="0.80000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.00000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.00000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.00000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.00000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.00000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.00000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.300000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.000000"/>
+				<JogMax value="1.00000"/>
+				<RunMin value="0.000000"/>
+				<RunMax value="1.00000"/>
+				<SprintMin value="0.000000"/>
+				<SprintMax value="1.00000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+		<Item>
+			<Name>Brisk</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="30" />
+							<Speed>
+								<WanderingGaitMin value="0.7"/>
+								<WanderingGaitMax value="0.9"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="70" />
+							<Speed>
+								<WanderingGaitMin value="0.9"/>
+								<WanderingGaitMax value="1.1"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="1.0"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="30" />
+							<Speed>
+								<WanderingGaitMin value="0.6"/>
+								<WanderingGaitMax value="0.8"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="70" />
+							<Speed>
+								<WanderingGaitMin value="0.8"/>
+								<WanderingGaitMax value="1.0"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="0.70000"/>
+						<WanderingGaitMax value="1.100000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.85"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.85"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.85"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.3"/>
+				</WanderInRain>
+				<WanderInHeavyRain>
+					<WanderingGaitMin value="1.45"/>
+					<WanderingGaitMax value="1.6"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.55"/>
+					<WanderingGaitMax value="1.8"/>
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="0.8"/>
+					<WanderingGaitMax value="1.2"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="0.9"/>
+					<WanderingGaitMax value="1.4"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.000000"/>
+				<WanderingInWaterGaitMax value="1.00000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.6000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.600000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.600000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.600000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.6000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.600000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.600000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.600000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.6000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.600000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.600000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.600000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds>
+				<Item key="CIGARETTE_INTRO_SPEED">
+					<Speed>
+						<Type>SpeedType_GaitAndUrgency</Type>
+						<Gait>Gait_Walk</Gait>
+						<Mag value="0.45"/>
+					</Speed>
+					<Type>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</Type>
+				</Item>
+			</ItemSpeeds>
+		</Item>
+		<Item>
+			<Name>March</Name>
+			<WanderSpeeds>
+				<WanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="1.0"/>
+								<WanderingGaitMax value="1.1"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="70"/>
+							<Speed>
+								<WanderingGaitMin value="1.1"/>
+								<WanderingGaitMax value="1.3"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="1.3"/>
+								<WanderingGaitMax value="1.4"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="1.0"/>
+						<WanderingGaitMax value="1.4"/>
+					</FallbackSpeed>
+				</WanderSpeed>
+				<GroupWanderSpeed>
+					<Options>
+						<Item>
+							<Chance value="10"/>
+							<Speed>
+								<WanderingGaitMin value="0.8"/>
+								<WanderingGaitMax value="0.9"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="70"/>
+							<Speed>
+								<WanderingGaitMin value="0.9"/>
+								<WanderingGaitMax value="1.1"/>
+							</Speed>
+						</Item>
+						<Item>
+							<Chance value="20"/>
+							<Speed>
+								<WanderingGaitMin value="1.1"/>
+								<WanderingGaitMax value="1.2"/>
+							</Speed>
+						</Item>
+					</Options>
+					<FallbackSpeed>
+						<WanderingGaitMin value="1.00000"/>
+						<WanderingGaitMax value="1.400000"/>
+					</FallbackSpeed>
+				</GroupWanderSpeed>
+				<Bike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Bike>
+				<QuadBike>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.6"/>
+						<WanderingGaitMax value="0.9"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</QuadBike>
+				<EScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</EScooter>
+				<MobScooter>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.45"/>
+						<WanderingGaitMax value="0.575"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.65"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.8"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</MobScooter>
+				<Caddy>
+					<DefaultSpeed>
+						<WanderingGaitMin value="0.55"/>
+						<WanderingGaitMax value="0.85"/>
+					</DefaultSpeed>
+					<RainSpeed>
+						<WanderingGaitMin value="0.85"/>
+						<WanderingGaitMax value="1.0"/>
+					</RainSpeed>
+					<HeavyRainSpeed>
+						<WanderingGaitMin value="0.85"/>
+						<WanderingGaitMax value="1.1"/>
+					</HeavyRainSpeed>
+					<ExtremeRainSpeed>
+						<WanderingGaitMin value="0.9"/>
+						<WanderingGaitMax value="1.2"/>
+					</ExtremeRainSpeed>
+				</Caddy>
+				<WanderInRain>					
+					<WanderingGaitMin value="1.15"/>
+					<WanderingGaitMax value="1.35"/>
+				</WanderInRain>
+				<WanderInHeavyRain>					
+					<WanderingGaitMin value="1.5"/>
+					<WanderingGaitMax value="1.65"/>
+				</WanderInHeavyRain>
+				<WanderInExtremeRain>					
+					<WanderingGaitMin value="1.52"/>
+					<WanderingGaitMax value="1.8"/>	
+				</WanderInExtremeRain>
+				<WanderAwayFromVehicle>
+					<WanderingGaitMin value="1.1"/>
+					<WanderingGaitMax value="1.5"/>
+				</WanderAwayFromVehicle>
+				<HurryWanderAway>
+					<WanderingGaitMin value="1.1"/>
+					<WanderingGaitMax value="1.5"/>
+				</HurryWanderAway>
+				<WanderingInWaterGaitMin value="0.500000"/>
+				<WanderingInWaterGaitMax value="1.00000"/>
+			</WanderSpeeds>
+			<Default>
+				<WalkMin value="0.9000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.900000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.900000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.900000"/>
+				<SprintMax value="1.000000"/>
+			</Default>
+			<Combat>
+				<WalkMin value="0.9000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.900000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.900000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.900000"/>
+				<SprintMax value="1.000000"/>
+			</Combat>
+			<Flee>
+				<WalkMin value="0.9000000"/>
+				<WalkMax value="1.00000"/>
+				<JogMin value="0.900000"/>
+				<JogMax value="1.000000"/>
+				<RunMin value="0.900000"/>
+				<RunMax value="1.000000"/>
+				<SprintMin value="0.900000"/>
+				<SprintMax value="1.000000"/>
+			</Flee>
+			<ItemSpeeds/>
+		</Item>
+	</Data>
+	<DefaultItemSpeeds>
+		<Item key="CIGARETTE_INTRO_SPEED">
+			<Speed>
+				<Type>SpeedType_GaitAndUrgency</Type>
+				<Gait>Gait_Walk</Gait>
+				<Mag value="0.25"/>
+			</Speed>
+			<Type>AiSpeedModifyType::SpeedModifyType_OnlyDecrease</Type>
+		</Item>
+	</DefaultItemSpeeds>
+</CPedSpeedDataBlock>

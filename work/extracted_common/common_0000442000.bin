@@ -1,0 +1,75 @@
+<CTuningFile>
+  <Tunables>
+    <Item type="ITaskMotionTransport__Tunables">
+      <Name>ITaskMotionTransport</Name>
+      <TuningValues>
+        <ClipSetTree>
+          <ChildNodes>
+            <Item key="STANDARD_CAR_ANIMS" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+              <ChildNodes>
+                <Item key="ALIGN" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+                  <ChildNodes>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_LEFT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@COMMON@CAR@DS</ClipSet>
+                    </Item>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_RIGHT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@COMMON@CAR@DS</ClipSet>
+                    </Item>
+                  </ChildNodes>
+                  <DefaultValue>ENTRY_CLIPSETS_STANDARD_FRONT_LEFT</DefaultValue>
+                  <ConditionTestType>CTC_EntryPointArcheType</ConditionTestType>
+                </Item>
+                <Item key="GetIn" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+                  <ChildNodes>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_LEFT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@STD@DS@ENTER_EXIT</ClipSet>
+                    </Item>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_RIGHT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@STD@DS@ENTER_EXIT</ClipSet>
+                    </Item>
+                  </ChildNodes>
+                  <DefaultValue>ENTRY_CLIPSETS_STANDARD_FRONT_LEFT</DefaultValue>
+                  <ConditionTestType>CTC_EntryPointArcheType</ConditionTestType>
+                </Item>
+                <Item key="OpenDoor" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+                  <ChildNodes>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_LEFT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@STD@DS@ENTER_EXIT</ClipSet>
+                    </Item>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_RIGHT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@VEH@STD@DS@ENTER_EXIT</ClipSet>
+                    </Item>
+                  </ChildNodes>
+                  <DefaultValue>ENTRY_CLIPSETS_STANDARD_FRONT_LEFT</DefaultValue>
+                  <ConditionTestType>CTC_EntryPointArcheType</ConditionTestType>
+                </Item>
+				<Item key="Idle" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+                  <ChildNodes>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_LEFT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@PROTO@VEHICLE@VEH_CAR@IN_SEAT@STANDARD@FRONT_LEFT@NORMAL</ClipSet>
+                    </Item>
+                  </ChildNodes>
+                  <DefaultValue>ENTRY_CLIPSETS_STANDARD_FRONT_LEFT</DefaultValue>
+                  <ConditionTestType>CTC_EntryPointArcheType</ConditionTestType>
+                </Item>
+				<Item key="StartEngine" type="TransportMotionHelpers__ClipsetTransportConditionNode">
+                  <ChildNodes>
+                    <Item key="ENTRY_CLIPSETS_STANDARD_FRONT_LEFT" type="GameplayHelpers__ClipsetLeafNode">
+                      <ClipSet>CLIPSET@PROTO@VEHICLE@VEH_CAR@IN_SEAT@STANDARD@FRONT_LEFT@NORMAL</ClipSet>
+                    </Item>
+                  </ChildNodes>
+                  <DefaultValue>ENTRY_CLIPSETS_STANDARD_FRONT_LEFT</DefaultValue>
+                  <ConditionTestType>CTC_EntryPointArcheType</ConditionTestType>
+                </Item>
+              </ChildNodes>
+              <DefaultValue>ALIGN</DefaultValue>
+              <ConditionTestType>CTC_Action</ConditionTestType>
+            </Item>
+          </ChildNodes>
+          <DefaultValue>STANDARD_CAR_ANIMS</DefaultValue>
+          <ConditionTestType>CTC_LayoutArcheType</ConditionTestType>
+        </ClipSetTree>
+      </TuningValues>
+    </Item>
+  </Tunables>
+</CTuningFile>

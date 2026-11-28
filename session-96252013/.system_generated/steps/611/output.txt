@@ -1,0 +1,77 @@
+
+The command exited with code 0.
+Output:
+572900:         if (((as_i32(local_4) != as_i32(0xFFFFFFFF9530AB91))))
+572901:         {
+572902:         goto label_10AAC0;
+572903:         }
+572904:         else
+572905:         {
+572906:         goto label_10AABD;
+572907:         }
+572908:         label_10AABD: ;
+572909:         goto label_10AAD3;
+572910:         label_10AAC0: ;
+572911:         v_10AAC9_0 = Native.STATS.STAT_ID_SET_INT(Vm.Address(locals, 2), load_i32(Vm.Address(locals, 1), 0x0)); // RVA: 0x044640B0
+572912:         goto label_10AAD3;
+572913:         label_10AAD3: ;
+572914:         v_10AAD9_0 = load_i32(Vm.Address(parameters, 1), 0x0);
+572915:         local_0 = load_i32(Vm.Address(parameters, 1), 0x0);
+572916:         if (((as_i32(v_10AAD9_0) > as_i32(0xFFFFFFFFF8FB7ACC))))
+572917:         {
+572918:         goto label_10AB06;
+572919:         }
+572920:         else
+572921:         {
+572922:         goto label_10AAE8;
+572923:         }
+572924:         label_10AAE8: ;
+572925:         if (((as_i32(local_0) == as_i32(0xFFFFFFFF96F9A142))))
+572926:         {
+572927:         goto label_10ACD8;
+572928:         }
+572929:         else
+572930:         {
+572931:         goto label_10AAF6;
+572932:         }
+572933:         label_10AAF6: ;
+572934:         if (((as_i32(local_0) == as_i32(0xFFFFFFFFF8FB7ACC))))
+572935:         {
+572936:         goto label_10ACD8;
+572937:         }
+572938:         else
+572939:         {
+572940:         goto label_10AB04;
+572941:         }
+572942:         label_10AB04: ;
+572943:         return;
+572944:         label_10AB06: ;
+572945:         if (((as_i32(local_0) == as_i32(0x2625203A))))
+572946:         {
+572947:         goto label_10AC0A;
+572948:         }
+572949:         else
+572950:         {
+572951:         goto label_10AB14;
+572952:         }
+572953:         label_10AB14: ;
+572954:         if (((as_i32(local_0) == as_i32(0x32367ABD))))
+572955:         {
+572956:         goto label_10AC0A;
+572957:         }
+572958:         else
+572959:         {
+572960:         goto label_10AB22;
+572961:         }
+572962:         label_10AB22: ;
+572963:         if (((as_i32(local_0) != as_i32(0x3C9B93B4))))
+572964:         {
+572965:         goto label_10AD03;
+572966:         }
+572967:         else
+572968:         {
+572969:         goto label_10AB30;
+572970:         }
+572971:         label_10AB30: ;
+572972:         v_10AB39_0 = zero_slots(1);
+

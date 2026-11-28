@@ -1,0 +1,77 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\gta6_mission_flow_chart.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -120,8 +120,12 @@
+ 
+ ### Mechanics & Structure
+ - **Scope**: Largest chapter in the game (26 main missions).
+-- **Key Factions**: Boobie Ike, Raul Bautista, Colombian Cartel (*La Polilla Negra*).
+-- **Major Heist**: **The Sinfrontera National Bank Heist**. The heist involves a mandatory scoping phase followed by 5 modular preparation/intel missions that govern the vault timer, police response speed, and final crew survival.
++- **Key Factions & The 3 Parallel Alliance Strands**: Upon completing *South Leonida Real Estate* (establishing the Vice City safehouse), three major alliance storylines unlock concurrently:
++  1. **Tyrone Strand (Street Muscle)**: Missions 51 & 52.
++  2. **Boobie Ike & Dre'Quan Strand (Syndicate & Nightclub)**: Missions 54, 55, & 56.
++  3. **Raul Bautista & Randy Strand (Cartel Logistics & Exotic Cars)**: Missions 53, 57, 58, 59, & 60.
++- **Dynamic Interleaving vs. Concurrent Map Pins**: In casual play, waiting allows all three contacts to be active simultaneously as map pins. In speedrunning, finishing a mission places that contact on a brief cooldown timer while another contact rings, causing an optimal Any% runner to zigzag between Tyrone, Boobie, and Raul with zero downtime.
++- **Major Heist**: **The Sinfrontera National Bank Heist**. All 3 strands converge at *Mission 61: Sinfrontera National Bank Scope Out*, unlocking the modular heist preparation board and culminating in *Mission 70: The Cartel Heist* ($10.5M Take).
+ 
+ ```mermaid
+ flowchart TD
+@@ -129,22 +129,33 @@
+     M46 --> M47["47. Meet the Heders"]
+     M47 --> M48["48. Dubious Provenance"]
+     M48 --> M49["49. Mami Knows Best"]
+-    M49 --> M50["50. South Leonida Real Estate"]
+-    
+-    M50 --> M51["51. Tyrone"]
+-    M51 --> M52["52. Here, Kitty Kitty"]
+-    M52 --> M53["53. Car Service"]
+-    M53 --> M54["54. Top Billing"]
+-    M54 --> M55["55. Boobie Time"]
+-    M55 --> M56["56. First Impressions"]
+-    
+-    M56 --> M57["57. Caught Slipping"]
+-    M57 --> M58["58. Crosstown Traffic"]
+-    M58 --> M59["59. Credit Check"]
+-    M59 --> M60["60. Steal the Zorrusso for Randy"]
++    M49 --> M50["50. South Leonida Real Estate<br/>(Vice City Safehouse Unlocked)"]
++    
++    subgraph Parallel_Strands["Vice City Syndicate Alliances (3 Parallel Strands)"]
++        direction TB
++        subgraph Strand_Tyrone["Strand 1: Tyrone (Muscle)"]
++            M51["51. Tyrone"] --> M52["52. Here, Kitty Kitty"]
++        end
++        
++        subgraph Strand_Boobie["Strand 2: Boobie & Dre'Quan (Syndicate)"]
++            M54["54. Top Billing"] --> M55["55. Boobie Time"]
++            M55 --> M56["56. First Impressions"]
++        end
++        
++        subgraph Strand_Raul["Strand 3: Raul & Randy (Cartel & Cars)"]
++            M53["53. Car Service"] --> M57["57. Caught Slipping"]
++            M57 --> M58["58. Crosstown Traffic"]
++            M58 --> M59["59. Credit Check"]
++            M59 --> M60["60. Steal the Zorrusso for Randy"]
++        end
++    end
++    
++    M50 --> M51
++    M50 --> M54
++    M50 --> M53
+     
+     subgraph Heist_Prep["Sinfrontera Bank Heist Pipeline"]
+-        M61["61. Sinfrontera National Bank<br/>(Heist Scope Out)"]
++        M52 & M56 & M60 --> M61["61. Sinfrontera National Bank<br/>(Heist Scope Out & Board Unlocked)"]
+         
+         M61 --> P1["62. Security Expert<br/>(Retrieve Nicole Park)"]
+         M61 --> P2["63. Company Property<br/>(Steal Vault Explosives)"]
+@@ -156,7 +156,7 @@
+         P4 --> P7["68. Cooties"]
+         P5 --> P8["69. Bricked Up"]
+         
+-        P6 & P7 & P8 --> M70["70. The Cartel Heist<br/>(Sinfrontera Vault Score)"]
++        P6 & P7 & P8 --> M70["70. The Cartel Heist<br/>(Sinfrontera Vault Score: $10.5M)"]
+     end
+ ```
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

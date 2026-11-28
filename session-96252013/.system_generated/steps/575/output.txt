@@ -1,0 +1,158 @@
+
+The command exited with code 0.
+Output:
+<truncated 3 lines>
+{'replay_entry': 'BAN_SETUP', 'unlock_id_mission': 'BAN_RESCU', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[18] fields ID vs UnlockId'}
+{'replay_entry': 'MNY_HOTEL', 'unlock_id_mission': 'SFH_TAXI', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[0] fields ID vs UnlockId'}
+
+=== MISSIONS IN REPLAY MENU (97) ===
+Ch1 [Idx   1 | Pos  0] INT_PROLO                 -> 
+Ch1 [Idx   2 | Pos  1] INT_CHASE                 -> 
+Ch1 [Idx   3 | Pos  2] FT_AMUCO                  -> 
+Ch1 [Idx   4 | Pos  3] FT_KMODSHP                -> 
+Ch1 [Idx   5 | Pos  4] COM_KBOS_SHOP             -> 
+Ch1 [Idx   6 | Pos  5] COM_KBOS_COLAT            -> 
+Ch1 [Idx   8 | Pos  6] COM_KBOS_NEIGHB           -> 
+Ch1 [Idx   7 | Pos  7] COM_KBOS_RADR             -> 
+Ch1 [Idx 101 | Pos  8] CSC_TRH_CHART             -> 
+Ch1 [Idx   9 | Pos  9] COM_SFH_MVFN              -> 
+Ch1 [Idx  10 | Pos 10] INT_PRISO                 -> 
+Ch1 [Idx  11 | Pos 11] INT_BANK                  -> 
+Ch0 [Idx  -1 | Pos 12] CTI_PIL_RD_SH             -> 
+Ch1 [Idx  13 | Pos 13] COM_KBOS_PLNDATE          -> 
+Ch1 [Idx  14 | Pos 14] INT_PLNSH                 -> 
+Ch1 [Idx  15 | Pos 15] BIL_FUN                   -> 
+Ch1 [Idx  16 | Pos 16] INT_AIR                   -> 
+Ch1 [Idx  17 | Pos 17] COM_KBOS_CLEAN            -> 
+Ch1 [Idx  18 | Pos 18] HO_PAR_KEYCO              -> 
+Ch1 [Idx  19 | Pos 19] BIL_PICK                  -> 
+Ch1 [Idx  20 | Pos 20] BIL_HOUSE                 -> 
+Ch1 [Idx  21 | Pos 21] BIL_WHEEL                 -> 
+Ch2 [Idx  22 | Pos  0] MTL_WAKE                  -> 
+Ch0 [Idx  -1 | Pos  1] MTL_AMBUL                 -> 
+Ch2 [Idx  24 | Pos  2] FT_MOTEL_SHOP             -> 
+Ch2 [Idx  25 | Pos  3] MTL_DRIVE                 -> 
+Ch2 [Idx  26 | Pos  4] COM_MECH_INTR             -> 
+Ch2 [Idx  27 | Pos  5] CTI_MECH_STFC             -> 
+Ch2 [Idx  28 | Pos  6] MTL_PAIN                  -> 
+Ch2 [Idx  29 | Pos  7] MTL_MONT                  -> 
+Ch2 [Idx  30 | Pos  8] HO_PAR_FRINT              -> 
+Ch2 [Idx  31 | Pos  9] MTL_CONT                  -> 
+Ch2 [Idx  32 | Pos 10] MTL_MUD                   -> 
+Ch2 [Idx  33 | Pos 11] CSC_DRT_CNVY              -> 
+Ch2 [Idx  34 | Pos 12] BIL_MOTEL                 -> 
+Ch2 [Idx  35 | Pos  0] CLB_MEET                  -> 
+Ch3 [Idx  36 | Pos  1] CLB_DEAL                  -> 
+Ch3 [Idx  37 | Pos  2] ROB_VEH                   -> 
+Ch3 [Idx  99 | Pos  3] ANT_INTRO                 -> 
+Ch3 [Idx  40 | Pos  4] CSC_MOM_FLIP              -> 
+Ch0 [Idx  41 | Pos  5] CSC_MOM_MSEVN             -> 
+Ch3 [Idx  42 | Pos  6] COM_DEAL_INTR             -> 
+Ch3 [Idx  43 | Pos  7] COM_DLR_MISS              -> 
+Ch3 [Idx  44 | Pos  8] AO_DEAL_T_SYNTH           -> 
+Ch0 [Idx  45 | Pos  9] COM_DLR_COOK              -> 
+Ch3 [Idx  46 | Pos 10] COM_ROB_DRIVEPREP         -> 
+Ch3 [Idx  47 | Pos 11] CLB_SCUFF                 -> 
+Ch3 [Idx  48 | Pos 12] COM_CBO_CBINT             -> 
+Ch3 [Idx  49 | Pos 13] ROB_DRIVE                 -> 
+Ch3 [Idx  50 | Pos 14] BIL_RED                   -> 
+Ch3 [Idx  51 | Pos 15] ROB_BOAT_J                -> 
+Ch3 [Idx  52 | Pos 16] ROB_BANK                  -> 
+Ch3 [Idx  53 | Pos 17] CTI_SHOW_HATH             -> 
+Ch3 [Idx  56 | Pos 18] BAN_SETUP                 -> 
+Ch3 [Idx  57 | Pos 19] BAN_RESCU                 -> 
+Ch3 [Idx  58 | Pos 20] CLB_STEAL                 -> 
+Ch3 [Idx  59 | Pos 21] BAN_EXPLO                 -> 
+Ch3 [Idx  60 | Pos 22] BAN_CARTE                 -> 
+Ch3 [Idx  61 | Pos 23] BAN_SAFE                  -> 
+Ch3 [Idx  62 | Pos 24] CLB_VIDEO                 -> 
+Ch3 [Idx  63 | Pos 25] CLB_TOWER                 -> 
+Ch3 [Idx 141 | Pos 26] BAN_PKBMB                 -> 
+Ch3 [Idx  65 | Pos 27] BAN_FINAL                 -> 
+Ch4 [Idx  66 | Pos  0] MNY_HOTEL                 -> 
+Ch5 [Idx  67 | Pos  1] SFH_TAXI                  -> 
+Ch4 [Idx  68 | Pos  2] MNY_CAR                   -> 
+Ch4 [Idx  69 | Pos  3] CSC_DIG_DATA              -> 
+Ch4 [Idx  70 | Pos  4] MNY_PARTY                 -> 
+Ch4 [Idx  71 | Pos  5] AIR_TAIL                  -> 
+Ch4 [Idx  72 | Pos  6] CLB_HELI                  -> 
+Ch3 [Idx  54 | Pos  7] AO_SHOW_L_EXP             -> 
+Ch0 [Idx  55 | Pos  8] COM_SHOW_TRAILER          -> 
+Ch4 [Idx  73 | Pos  9] AIR_TRAIN                 -> 
+Ch4 [Idx  74 | Pos 10] CLB_PROMO                 -> 
+Ch4 [Idx  75 | Pos 11] AIR_BEACH                 -> 
+Ch4 [Idx  76 | Pos 12] AIR_BUS                   -> 
+Ch4 [Idx  77 | Pos 13] AIR_GANG                  -> 
+Ch4 [Idx  78 | Pos 14] AIR_SCOPE                 -> 
+Ch4 [Idx  79 | Pos 15] MNY_ESCRT                 -> 
+Ch4 [Idx  80 | Pos 16] CLB_EVI                   -> 
+Ch4 [Idx  81 | Pos 17] AIR_TRUCK                 -> 
+Ch4 [Idx  82 | Pos 18] MNY_KIDNP                 -> 
+Ch4 [Idx  83 | Pos 19] CLB_PARTY                 -> 
+Ch4 [Idx  84 | Pos 20] AIR_DRONE                 -> 
+Ch4 [Idx  85 | Pos 21] AIR_HACK                  -> 
+Ch4 [Idx  86 | Pos 22] AIR_RECRU                 -> 
+Ch4 [Idx  87 | Pos 23] AIR_CATER                 -> 
+Ch4 [Idx  88 | Pos 24] AIR_FINAL                 -> 
+Ch5 [Idx  89 | Pos 25] ROB_DEATH                 -> 
+Ch5 [Idx  90 | Pos 26] BIL_CONFR                 -> 
+Ch5 [Idx  91 | Pos  0] COA_HELIS                 -> 
+Ch5 [Idx  92 | Pos  1] BIL_BOSS                  -> 
+Ch5 [Idx  93 | Pos  2] BIL_PREG                  -> 
+Ch5 [Idx  94 | Pos  3] COA_DOG                   -> 
+Ch5 [Idx 100 | Pos  4] BIL_LAW                   -> 
+Ch5 [Idx  96 | Pos  5] BIL_PRECI                 -> 
+Ch5 [Idx  97 | Pos  6] BIL_PENT                  -> 
+
+=== CMISSIONS ENTRIES NOT IN REPLAY MENU (50) ===
+Ch1 [Idx  12] CTI_PIL_RD_BC_PARENT
+Ch3 [Idx  23] robbergetawaydriverprep
+Ch3 [Idx  38] ANT_SRCH
+Ch3 [Idx  39] ANT_CHASE
+Ch3 [Idx  64] FT_BAN_DISTR
+Ch5 [Idx  95] COA_SHIP
+Ch3 [Idx  98] ANT_RECOV
+Ch5 [Idx 102] BIL_PENT_M_MENDEZ
+Ch5 [Idx 103] BIL_PENT_B_BRIAN
+Ch2 [Idx 104] MTL_CHECK_LOW_REL
+Ch2 [Idx 105] MTL_CHECK_HIGH_REL
+Ch0 [Idx 106] RecoverDropTipShackDonnieAlive
+Ch0 [Idx 107] RecoverDropTipShackDonnieDeadUnknown
+Ch0 [Idx 108] INT_CRED
+Ch4 [Idx 109] AIR_CATER_DHF
+Ch4 [Idx 110] AIR_CATER_DHP
+Ch4 [Idx 111] AIR_CATER_DHS
+Ch4 [Idx 112] AIR_FINAL_DATA_HACK_FAILED
+Ch4 [Idx 113] AIR_FINAL_DATA_HACK_PASSED
+Ch3 [Idx 114] ANT_CHASE_AUTOLAUNCH
+Ch2 [Idx 115] BIL_MOTEL_NON_VIOLENT
+Ch2 [Idx 116] BIL_MOTEL_VIOLENT
+Ch1 [Idx 117] BIL_PICK_DAY_TIME_START
+Ch1 [Idx 118] BIL_PICK_NIGHT_TIME_START
+Ch1 [Idx 119] FT_AMUCO_FIRST_INTERACTION
+Ch1 [Idx 120] FT_AMUCO_SECOND_INTERACTION
+Ch1 [Idx 121] FT_KMODSHP_FIRST
+Ch1 [Idx 122] FT_KMODSHP_SECOND
+Ch1 [Idx 123] INT_PRISO_TRIGGER_EARLY
+Ch1 [Idx 124] INT_PRISO_TRIGGER_LATE
+Ch4 [Idx 125] MNY_KIDNP_AUTO-LAUNCH
+Ch3 [Idx 126] ANT_INTRO_APARTMENT
+Ch3 [Idx 127] ANT_INTRO_STORAGE
+Ch1 [Idx 129] COM_SFH_FLTPK
+Ch4 [Idx 130] COM_UP_BBWOR
+Ch3 [Idx 131] ROB_BOAT_L_LUCIA
+Ch2 [Idx 132] UP_MLSPM
+Ch2 [Idx 133] UP_MLSPM_CONFRONT
+Ch5 [Idx 134] FIN_CONT
+Ch3 [Idx 135] ANT_GIVE
+Ch2 [Idx 136] FT_UP_MMRENT
+Ch2 [Idx 137] FT_UP_MMRENT_MANAGER_INITIAL
+Ch2 [Idx 138] FT_UP_MMRENT_MANAGER_CONFRONTED
+Ch2 [Idx 139] FT_UP_MMRENT_MANAGER_LATE_NO_COPS
+Ch2 [Idx 140] FT_UP_MMRENT_MANAGER_LATE_COPS
+Ch1 [Idx 142] COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE
+Ch3 [Idx 143] ROB_BOAT_J_JASON
+Ch5 [Idx 144] BIL_FINALE_M
+Ch5 [Idx 145] BIL_FINAL_B
+Ch4 [Idx 146] MNY_HOTEL_AUTOLAUNCH
+

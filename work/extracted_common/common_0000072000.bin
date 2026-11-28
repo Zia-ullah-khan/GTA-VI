@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDamageDataManager>
+  <DismembermentData>
+    <Item key="DISMEMBERMENT_DEFAULT" type="sDismembermentData">
+      <ExplosionRangeRatio>
+        <Item>
+          <MaxRangeRatio value="0.300000" />
+          <DismembermentPercent value="1.000000" />
+        </Item>
+        <Item>
+          <MaxRangeRatio value="0.500000" />
+          <DismembermentPercent value="1.000000" />
+        </Item>
+        <Item>
+          <MaxRangeRatio value="0.700000" />
+          <DismembermentPercent value="0.400000" />
+        </Item>
+        <Item>
+          <MaxRangeRatio value="0.900000" />
+          <DismembermentPercent value="0.200000" />
+        </Item>
+        <Item>
+          <MaxRangeRatio value="1.000000" />
+          <DismembermentPercent value="0.050000" />
+        </Item>
+      </ExplosionRangeRatio>
+      <RightSideExplosion>
+        <Item type="sDismembermentLink">
+          <CurrentElement type="sDismembermentRatio">
+            <BoundId>BND_R_HAND</BoundId>
+            <RatioOfDismemberPercent value="0.5"/>
+          </CurrentElement>
+          <NextOnSuccess>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_R_FOREARM</BoundId>
+                <RatioOfDismemberPercent value="0.75"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_R_UPPERARM</BoundId>
+                    <RatioOfDismemberPercent value="0.45"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_HEAD</BoundId>
+                        <RatioOfDismemberPercent value="0.30"/>
+                      </CurrentElement>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_R_FOOT</BoundId>
+                <RatioOfDismemberPercent value="0.25"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_R_CALF</BoundId>
+                    <RatioOfDismemberPercent value="0.2"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_R_THIGH</BoundId>
+                        <RatioOfDismemberPercent value="0.15"/>
+                      </CurrentElement>
+                      <NextOnSuccess>
+                        <Item type="sDismembermentLink">
+                          <CurrentElement type="sDismembermentRatio">
+                            <BoundId>BND_L_FOOT</BoundId>
+                            <RatioOfDismemberPercent value="0.2"/>
+                          </CurrentElement>
+                          <NextOnSuccess>
+                            <Item type="sDismembermentLink">
+                              <CurrentElement type="sDismembermentRatio">
+                                <BoundId>BND_L_CALF</BoundId>
+                                <RatioOfDismemberPercent value="0.05"/>
+                              </CurrentElement>
+                            </Item>
+                          </NextOnSuccess>
+                        </Item>
+                      </NextOnSuccess>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+          </NextOnSuccess>
+          <NextOnFailure>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_R_FOOT</BoundId>
+                <RatioOfDismemberPercent value="1.0"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_R_CALF</BoundId>
+                    <RatioOfDismemberPercent value="0.75"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_R_THIGH</BoundId>
+                        <RatioOfDismemberPercent value="0.45"/>
+                      </CurrentElement>
+                      <NextOnSuccess>
+                        <Item type="sDismembermentLink">
+                          <CurrentElement type="sDismembermentRatio">
+                            <BoundId>BND_L_FOOT</BoundId>
+                            <RatioOfDismemberPercent value="0.85"/>
+                          </CurrentElement>
+                          <NextOnSuccess>
+                            <Item type="sDismembermentLink">
+                              <CurrentElement type="sDismembermentRatio">
+                                <BoundId>BND_L_CALF</BoundId>
+                                <RatioOfDismemberPercent value="0.25"/>
+                              </CurrentElement>
+                            </Item>
+                          </NextOnSuccess>
+                        </Item>
+                      </NextOnSuccess>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_R_HAND</BoundId>
+                    <RatioOfDismemberPercent value="0.25"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_R_FOREARM</BoundId>
+                        <RatioOfDismemberPercent value="0.2"/>
+                      </CurrentElement>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+          </NextOnFailure>
+        </Item>
+      </RightSideExplosion>
+      <LeftSideExplosion>
+        <Item type="sDismembermentLink">
+          <CurrentElement type="sDismembermentRatio">
+            <BoundId>BND_L_HAND</BoundId>
+            <RatioOfDismemberPercent value="0.5"/>
+          </CurrentElement>
+          <NextOnSuccess>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_L_FOREARM</BoundId>
+                <RatioOfDismemberPercent value="0.75"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_L_UPPERARM</BoundId>
+                    <RatioOfDismemberPercent value="0.45"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_HEAD</BoundId>
+                        <RatioOfDismemberPercent value="0.3"/>
+                      </CurrentElement>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_L_FOOT</BoundId>
+                <RatioOfDismemberPercent value="0.25"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_L_CALF</BoundId>
+                    <RatioOfDismemberPercent value="0.2"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_L_THIGH</BoundId>
+                        <RatioOfDismemberPercent value="0.15"/>
+                      </CurrentElement>
+                      <NextOnSuccess>
+                        <Item type="sDismembermentLink">
+                          <CurrentElement type="sDismembermentRatio">
+                            <BoundId>BND_R_FOOT</BoundId>
+                            <RatioOfDismemberPercent value="0.2"/>
+                          </CurrentElement>
+                          <NextOnSuccess>
+                            <Item type="sDismembermentLink">
+                              <CurrentElement type="sDismembermentRatio">
+                                <BoundId>BND_R_CALF</BoundId>
+                                <RatioOfDismemberPercent value="0.05"/>
+                              </CurrentElement>
+                            </Item>
+                          </NextOnSuccess>
+                        </Item>
+                      </NextOnSuccess>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+          </NextOnSuccess>
+          <NextOnFailure>
+            <Item type="sDismembermentLink">
+              <CurrentElement type="sDismembermentRatio">
+                <BoundId>BND_L_FOOT</BoundId>
+                <RatioOfDismemberPercent value="1.0"/>
+              </CurrentElement>
+              <NextOnSuccess>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_L_CALF</BoundId>
+                    <RatioOfDismemberPercent value="0.75"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_L_THIGH</BoundId>
+                        <RatioOfDismemberPercent value="0.45"/>
+                      </CurrentElement>
+                      <NextOnSuccess>
+                        <Item type="sDismembermentLink">
+                          <CurrentElement type="sDismembermentRatio">
+                            <BoundId>BND_R_FOOT</BoundId>
+                            <RatioOfDismemberPercent value="0.85"/>
+                          </CurrentElement>
+                          <NextOnSuccess>
+                            <Item type="sDismembermentLink">
+                              <CurrentElement type="sDismembermentRatio">
+                                <BoundId>BND_R_CALF</BoundId>
+                                <RatioOfDismemberPercent value="0.25"/>
+                              </CurrentElement>
+                            </Item>
+                          </NextOnSuccess>
+                        </Item>
+                      </NextOnSuccess>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+                <Item type="sDismembermentLink">
+                  <CurrentElement type="sDismembermentRatio">
+                    <BoundId>BND_L_HAND</BoundId>
+                    <RatioOfDismemberPercent value="0.25"/>
+                  </CurrentElement>
+                  <NextOnSuccess>
+                    <Item type="sDismembermentLink">
+                      <CurrentElement type="sDismembermentRatio">
+                        <BoundId>BND_L_FOREARM</BoundId>
+                        <RatioOfDismemberPercent value="0.2"/>
+                      </CurrentElement>
+                    </Item>
+                  </NextOnSuccess>
+                </Item>
+              </NextOnSuccess>
+            </Item>
+          </NextOnFailure>
+        </Item>
+      </LeftSideExplosion>
+    </Item> 
+  </DismembermentData>
+</CDamageDataManager>

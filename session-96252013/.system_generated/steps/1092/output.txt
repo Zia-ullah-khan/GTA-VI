@@ -1,0 +1,29 @@
+Created At: 2026-11-25T17:48:14-05:00
+Completed At: 2026-11-25T17:48:22-05:00
+Command exited with code 0.
+
+Command output:
+{'ft_kmodshp_first': 'D244CB70', 'ft_kmodshp_second': 'E48C934A', 'ft_amuco_first_interaction': '5CB7DB5C', 'ft_amuco_second_interaction': 'AB5B5242', 'int_chase': '03DA4607', 'com_kbos_shop': '2D7D2164', 'com_kbos_colat': '5AE70594', 'com_kbos_neighb': 'C8513199', 'com_kbos_radr': '21D03E4F'}
+=== C:\Users\<user>\Downloads\americas_scripts_23_11_2026\0xD2601E252151E04B.ysc.cs ===
+  L571109 [ft_amuco_second_interaction=AB5B5242]: if (((as_i32(local_1) > as_i32(0xFFFFFFFFAB5B5242))))
+  L571127 [ft_amuco_second_interaction=AB5B5242]: if (((as_i32(local_1) == as_i32(0xFFFFFFFFAB5B5242))))
+  L571292 [com_kbos_neighb=C8513199]: if (((as_i32(local_1) == as_i32(0xFFFFFFFFC8513199))))
+  L571370 [ft_kmodshp_first=D244CB70]: if (((as_i32(local_1) == as_i32(0xFFFFFFFFD244CB70))))
+  L571524 [ft_kmodshp_second=E48C934A]: if (((as_i32(local_1) > as_i32(0xFFFFFFFFE48C934A))))
+  L571542 [ft_kmodshp_second=E48C934A]: if (((as_i32(local_1) == as_i32(0xFFFFFFFFE48C934A))))
+  L571796 [int_chase=03DA4607]: if (((as_i32(local_1) > as_i32(0x3DA4607))))
+  L571814 [int_chase=03DA4607]: if (((as_i32(local_1) == as_i32(0x3DA4607))))
+  L572055 [com_kbos_radr=21D03E4F]: if (((as_i32(local_1) == as_i32(0x21D03E4F))))
+  L572142 [com_kbos_shop=2D7D2164]: if (((as_i32(local_1) == as_i32(0x2D7D2164))))
+  L572461 [com_kbos_colat=5AE70594]: if (((as_i32(local_1) > as_i32(0x5AE70594))))
+  L572479 [com_kbos_colat=5AE70594]: if (((as_i32(local_1) == as_i32(0x5AE70594))))
+  L572519 [ft_amuco_first_interaction=5CB7DB5C]: if (((as_i32(local_1) == as_i32(0x5CB7DB5C))))
+  L572975 [ft_kmodshp_second=E48C934A]: store_i32(Vm.Address(v_10AB39_0, 0), 0x0, 0xFFFFFFFFE48C934A);
+  L572979 [com_kbos_shop=2D7D2164]: store_i32(Vm.Address(v_10AB51_2, 0), 0x0, 0x2D7D2164);
+  L572983 [com_kbos_colat=5AE70594]: store_i32(Vm.Address(v_10AB69_4, 0), 0x0, 0x5AE70594);
+  L572987 [com_kbos_radr=21D03E4F]: store_i32(Vm.Address(v_10AB81_6, 0), 0x0, 0x21D03E4F);
+  L572991 [com_kbos_neighb=C8513199]: store_i32(Vm.Address(v_10AB99_8, 0), 0x0, 0xFFFFFFFFC8513199);
+  L667046 [int_chase=03DA4607]: local_1 = 0x3DA4607;
+=== C:\Users\<user>\Downloads\americas_scripts_23_11_2026\0x947D998BD81F7AC1.ysc.cs ===
+  L882485 [ft_kmodshp_first=D244CB70]: local_6 = 0xFFFFFFFFD244CB70;
+  L882490 [ft_kmodshp_second=E48C934A]: local_8 = 0xFFFFFFFFE48C934A;

@@ -1,0 +1,31 @@
+
+The command exited with code 1.
+Output:
+At line:15 char:44
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                            ~
+Missing ] at end of attribute or type literal.
+At line:15 char:45
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                             ~~~
+Unexpected token '-zA' in expression or statement.
+At line:15 char:48
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                                ~~~~~~~
+Unexpected token '-Z0-9_]' in expression or statement.
+At line:15 char:48
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                                ~
+Missing closing ')' in expression.
+At line:15 char:58
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                                          ~
+Missing expression after ','.
+At line:15 char:59
++                 matches = re.findall(r'\"([a-zA-Z0-9_]{3,})\"', line)
++                                                           ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : EndSquareBracketExpectedAtEndOfAttribute
+ 
+

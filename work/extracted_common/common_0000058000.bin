@@ -1,0 +1,3363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CTrainConfigs>
+  <trainConfigs>
+    <Item>
+      <name>freight_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config1</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config2</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config3</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+		  <modelSetName>FREIGHTCAR_TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config4</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config5</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config6</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config7</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config8</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config9</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config10</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config11</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FFREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config12</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config13</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config14</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>fFREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config15</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+          <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config16</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config17</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.000000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		   <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config18</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.000000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config19</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>tankercar</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config20</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config21</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config22</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>freight_config23</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>freight_config24</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>freightgrain</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>airmule_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>airmule</modelName>
+          <modelSetName>AIRMULE</modelSetName>		  
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>airmule</modelName>
+		  <modelSetName>AIRMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_config1</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_config2</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_config3</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_config4</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>	
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE</modelSetName>
+          <maxPedsPerCarriage value="8" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metrotrain_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="true" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="true" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="12.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metrotrain2_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>	
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>	
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="true" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>	
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metrotrain2</modelName>
+		  <modelSetName>METROTRAIN2</modelSetName>	
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="true" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="12.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>	
+    <Item>
+      <name>passenger_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>Train</modelName>
+		  <modelSetName>TRAIN</modelSetName>	
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+          <blockDoorsOpeningAtStation value="true"/>
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_FRONT</modelSetName>
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_REAR</modelSetName>
+          <maxPedsPerCarriage value="12" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="15.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>passenger_config1</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>Train</modelName>
+		  <modelSetName>TRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_FRONT</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_REAR</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="15.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>passenger_config2</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>Train</modelName>
+		  <modelSetName>TRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_FRONT</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_REAR</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="15.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>passenger_config3</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>Train</modelName>
+		  <modelSetName>TRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_FRONT</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_REAR</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="15.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>passenger_config4</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>Train</modelName>
+		  <modelSetName>TRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_FRONT</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_MID</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>Traincar2</modelName>
+		  <modelSetName>TRAINCAR2_REAR</modelSetName>
+          <maxPedsPerCarriage value="4" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="15.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>army_config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="true" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYCOACH</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYFLATBED</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYBOXCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYFLATBED</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYFLATBED</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYBOXCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYCOACH</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYBOXCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYFLATBED</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYBOXCAR</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>ARMYCOACH</modelName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+    <Item>
+      <name>metromule_mis_robber_get_vehicle</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE_MIS_NO_TAPE_MOD</modelSetName>
+          <maxPedsPerCarriage value="6" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>METROMULE_MIS_TAPE_MOD</modelSetName>
+          <maxPedsPerCarriage value="6" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>metromule_excon_artpuzzle_preset</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="-0.500000" />
+      <carriages>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>ExCon_Unique_METROMULE_PRESET1</modelSetName>
+          <maxPedsPerCarriage value="6" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>metromule</modelName>
+		  <modelSetName>ExCon_Unique_METROMULE_PRESET2</modelSetName>
+          <maxPedsPerCarriage value="6" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>Ambient_Freight_Config0</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT_ALLIEDCRYSTAL</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>TANKERCAR</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>TANKERCAR</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>Ambient_Freight_Config1</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT_XTRX</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>TANKERCAR</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>TANKERCAR</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>Ambient_Freight_Config2</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT_XTRX</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>Ambient_Freight_Config3</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT_XTRX</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>TANKERCAR</modelName>
+		  <modelSetName>TANKERCAR</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+	<Item>
+      <name>Ambient_Freight_Config4</name>
+      <populateTrainDist value="40.000000" />
+      <stopAtStationDurationNormal value="20.000000" />
+      <stopAtStationDurationPlayer value="6.000000" />
+      <stopAtStationDurationPlayerWithGang value="22.000000" />
+      <announceStations value="false" />
+      <doorsBeep value="false" />
+      <carriagesHang value="false" />
+      <carriagesSwing value="false" />
+      <carriagesUseEvenTrackSpacing value="false" />
+      <bLinkTracksWithAdjacentStations value="true" />
+      <noRandomSpawn value="false" />
+      <noDriver value="false" />
+      <carriageGap value="0.100000" />
+      <carriages>
+        <Item>
+          <modelName>FREIGHT</modelName>
+		  <modelSetName>FREIGHT_ALLIEDCRYSTAL</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_FLATBED</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTGRAIN</modelName>
+		  <modelSetName>FREIGHTGRAIN_DOORS_FRONT_OPEN</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+        <Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER_LOOT</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+		<Item>
+          <modelName>FREIGHTCAR</modelName>
+		  <modelSetName>FREIGHTCAR_CONTAINER</modelSetName>
+          <maxPedsPerCarriage value="0" />
+          <flipModelDir value="false" />
+          <doInteriorLights value="true" />
+        </Item>
+      </carriages>
+      <deathToReviveTime value="7200" />
+      <defaultMaxSpeed value="8.000000" />
+      <maxAcceleration value="1.000000" />
+      <maxDeceleration value="2.000000" />
+    </Item>
+  </trainConfigs>
+  <trainGroups>
+    <Item>
+      <name>freight_group</name>
+      <trainConfigRefs>
+        <Item>
+          <trainConfigsName>freight_config0</trainConfigsName>
+          <trainConfigIndex value="0" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config1</trainConfigsName>
+          <trainConfigIndex value="1" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config2</trainConfigsName>
+          <trainConfigIndex value="2" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config3</trainConfigsName>
+          <trainConfigIndex value="3" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config4</trainConfigsName>
+          <trainConfigIndex value="4" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config5</trainConfigsName>
+          <trainConfigIndex value="5" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config6</trainConfigsName>
+          <trainConfigIndex value="6" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config7</trainConfigsName>
+          <trainConfigIndex value="7" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config8</trainConfigsName>
+          <trainConfigIndex value="8" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config9</trainConfigsName>
+          <trainConfigIndex value="9" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config10</trainConfigsName>
+          <trainConfigIndex value="10" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config11</trainConfigsName>
+          <trainConfigIndex value="11" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config12</trainConfigsName>
+          <trainConfigIndex value="12" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config13</trainConfigsName>
+          <trainConfigIndex value="13" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config14</trainConfigsName>
+          <trainConfigIndex value="14" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config15</trainConfigsName>
+          <trainConfigIndex value="15" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config16</trainConfigsName>
+          <trainConfigIndex value="16" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config17</trainConfigsName>
+          <trainConfigIndex value="17" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config18</trainConfigsName>
+          <trainConfigIndex value="18" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config19</trainConfigsName>
+          <trainConfigIndex value="19" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config20</trainConfigsName>
+          <trainConfigIndex value="20" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config21</trainConfigsName>
+          <trainConfigIndex value="21" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config22</trainConfigsName>
+          <trainConfigIndex value="22" />
+        </Item>
+        <Item>
+          <trainConfigsName>freight_config23</trainConfigsName>
+          <trainConfigIndex value="23" />
+        </Item>
+      </trainConfigRefs>
+    </Item>
+    <Item>
+      <name>metromule_group</name>
+      <trainConfigRefs>
+        <Item>
+          <trainConfigsName>metromule_config0</trainConfigsName>
+          <trainConfigIndex value="25" />
+        </Item>
+        <Item>
+          <trainConfigsName>metromule_config1</trainConfigsName>
+          <trainConfigIndex value="26" />
+        </Item>
+        <Item>
+          <trainConfigsName>metromule_config2</trainConfigsName>
+          <trainConfigIndex value="27" />
+        </Item>
+        <Item>
+          <trainConfigsName>metromule_config3</trainConfigsName>
+          <trainConfigIndex value="28" />
+        </Item>
+      </trainConfigRefs>
+    </Item>
+    <Item>
+      <name>passenger_group</name>
+      <trainConfigRefs>
+        <Item>
+          <trainConfigsName>passenger_config0</trainConfigsName>
+          <trainConfigIndex value="32" />
+        </Item>
+        <Item>
+          <trainConfigsName>passenger_config1</trainConfigsName>
+          <trainConfigIndex value="33" />
+        </Item>
+        <Item>
+          <trainConfigsName>passenger_config2</trainConfigsName>
+          <trainConfigIndex value="34" />
+        </Item>
+        <Item>
+          <trainConfigsName>passenger_config3</trainConfigsName>
+          <trainConfigIndex value="35" />
+        </Item>
+        <Item>
+          <trainConfigsName>passenger_config4</trainConfigsName>
+          <trainConfigIndex value="36" />
+        </Item>
+      </trainConfigRefs>
+    </Item>
+    <Item>
+      <name>army_group</name>
+      <trainConfigRefs>
+        <Item>
+          <trainConfigsName>army_config0</trainConfigsName>
+          <trainConfigIndex value="37" />
+        </Item>
+      </trainConfigRefs>
+    </Item>
+    <Item>
+      <name>portgellhorn_group</name>
+      <trainConfigRefs>
+        <Item>
+          <trainConfigsName>freight_config22</trainConfigsName>
+          <trainConfigIndex value="22" />
+        </Item>
+        <Item>
+          <trainConfigsName>passenger_config2</trainConfigsName>
+          <trainConfigIndex value="34" />
+        </Item>
+      </trainConfigRefs>
+    </Item>
+  </trainGroups>
+</CTrainConfigs>

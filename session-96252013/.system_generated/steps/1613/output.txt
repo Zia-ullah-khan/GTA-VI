@@ -1,0 +1,52 @@
+Created At: 2026-11-25T18:19:11-05:00
+Completed At: 2026-11-25T18:19:16-05:00
+Command exited with code 0.
+
+Command output:
+anim.rpf: size=4,407,626,384 magic=b'9FPR' words=['0x52504639', '0x4660', '0x3c00', '0x2a90', '0x695e8679', '0x48f438f6', '0x47a00', '0x150']
+appdata0.rpf: size=8,880 magic=b'9FPR' words=['0x52504639', '0x360', '0x340', '0x40', '0x24e63799', '0xb766df72', '0x47a00', '0x150']
+audio.rpf: size=28,543,454,672 magic=b'9FPR' words=['0x52504639', '0x1350', '0xfb0', '0xdd0', '0xeb8f299f', '0x2bf6a003', '0x47a00', '0x150']
+common.rpf: size=6,642,192 magic=b'9FPR' words=['0x52504639', '0x9580', '0x8520', '0x3a10', '0xd68945c', '0x4913ebcd', '0x47a00', '0x150']
+data.rpf: size=481,544,304 magic=b'9FPR' words=['0x52504639', '0x11060', '0xf510', '0x5870', '0xfe559378', '0xc54a08a9', '0x47a00', '0x150']
+levels.rpf: size=76,155,065,056 magic=b'9FPR' words=['0x52504639', '0x1b070', '0x15f40', '0x1d2e0', '0xe1680e90', '0x18a27ac6', '0x47a00', '0x150']
+movies.rpf: size=8,832,481,776 magic=b'9FPR' words=['0x52504639', '0x6ac0', '0x56a0', '0x49f0', '0xa0cd2948', '0x4fb588c5', '0x47a00', '0x150']
+navmeshes.rpf: size=6,707,512,496 magic=b'9FPR' words=['0x52504639', '0x780', '0x670', '0x480', '0x2aa150d7', '0x456156e5', '0x47a00', '0x150']
+pack\core_bvh4\core_bvh4.rpf: size=8,297,921,520 magic=b'9FPR' words=['0x52504639', '0xfe00', '0xcbc0', '0x11bf0', '0xff7fb31c', '0x560c66f0', '0x47a00', '0x150']
+pack\core_licenses\core_licenses_data.rpf: size=13,536 magic=b'9FPR' words=['0x52504639', '0x330', '0x300', '0x90', '0xafa8be45', '0x91959f37', '0x47a00', '0x150']
+pack\core_restofworld001\core_restofworld001.rpf: size=791,984 magic=b'9FPR' words=['0x52504639', '0x3b0', '0x370', '0xf0', '0x22071e9f', '0xce81b8e6', '0x47a00', '0x150']
+pack\core_restofworld\core_restofworld.rpf: size=1,295,760,752 magic=b'9FPR' words=['0x52504639', '0xaa0', '0x940', '0x570', '0x76a5b6c8', '0xd909d075', '0x47a00', '0x150']
+pack\shared_minigame000\shared_minigame000.rpf: size=810,581,008 magic=b'9FPR' words=['0x52504639', '0xfb0', '0xd40', '0xc10', '0x9211348b', '0x34679e22', '0x47a00', '0x150']
+pack\shared_minigame000_bvh4\shared_minigame000_bvh4.rpf: size=61,987,040 magic=b'9FPR' words=['0x52504639', '0x4f0', '0x470', '0x280', '0x7786531f', '0x2dbf946f', '0x47a00', '0x150']
+pack\story000\story000.rpf: size=20,022,508,672 magic=b'9FPR' words=['0x52504639', '0xa120', '0x8350', '0x7c80', '0xf528e22d', '0xf84c087f', '0x47a00', '0x150']
+pack\story000\story000_script.rpf: size=78,023,728 magic=b'9FPR' words=['0x52504639', '0x2b0', '0x280', '0xe0', '0x562c2c25', '0xb6a07daf', '0x47a00', '0x150']
+pack\story000_bvh4\story000_bvh4.rpf: size=5,632 magic=b'9FPR' words=['0x52504639', '0x340', '0x310', '0x90', '0x7362b367', '0xd9aa45b7', '0x47a00', '0x150']
+pack\story000_restofworld\story000_restofworld.rpf: size=198,354,992 magic=b'9FPR' words=['0x52504639', '0xa40', '0x8e0', '0x630', '0xa1fa9639', '0x96f071c2', '0x47a00', '0x150']
+packs.rpf: size=4,798,213,264 magic=b'9FPR' words=['0x52504639', '0x4550', '0x3f40', '0x1c90', '0x57fb6798', '0x706499ba', '0x47a00', '0x150']
+script.rpf: size=4,358,960 magic=b'9FPR' words=['0x52504639', '0x260', '0x240', '0x80', '0x52bb1570', '0x86f88eae', '0x47a00', '0x150']
+shaders.rpf: size=411,695,600 magic=b'9FPR' words=['0x52504639', '0x8640', '0x8620', '0xa0', '0xd31e3f9', '0xefb33e67', '0x47a00', '0x150']
+textures.rpf: size=192,585,024 magic=b'9FPR' words=['0x52504639', '0x790', '0x6c0', '0x220', '0xd7631ea', '0x21d5b011', '0x47a00', '0x150']
+=== Key table 0x1466e5900 [0..23] ===
+  [ 0] f0=0x0000000102000000 ptr=0x1466e5b40 len=0x10f4 head=8e9b3b4e42e9423a
+  [ 1] f0=0x0000000302000000 ptr=0x1466e5b40 len=0x10f4 head=8e9b3b4e42e9423a
+  [ 2] f0=0xfffffffe00000000 ptr=0x1466e6c40 len=0x20 head=ebefa94f0627b8ea
+  [ 3] f0=0x1000000402000000 ptr=0x1466e6c60 len=0x10f4 head=7e53314154aa7a0b
+  [ 4] f0=0x1000001502000000 ptr=0x1466e7d60 len=0x10f4 head=8e9b3b4ed5137f2a
+  [ 5] f0=0x1000001602000000 ptr=0x1466e8e60 len=0x10f4 head=8e9b3b4e108753e4
+  [ 6] f0=0x1000001702000000 ptr=0x1466e9f60 len=0x10f4 head=8e9b3b4e4c3a09d6
+  [ 7] f0=0x1000001802000000 ptr=0x1466eb060 len=0x10f4 head=8e9b3b4e59992538
+  [ 8] f0=0x1000001902000000 ptr=0x1466ec160 len=0x10f4 head=8e9b3b4eda333014
+  [ 9] f0=0x1000001a02000000 ptr=0x1466ed260 len=0x10f4 head=8e9b3b4e8da11f1e
+  [10] f0=0x1000000102000000 ptr=0x1466ee360 len=0x10f4 head=8e9b3b4e1fee121f
+  [11] f0=0x1000000202000000 ptr=0x1466ef460 len=0x10f4 head=8e9b3b4e40286696
+  [12] f0=0x1000002902000000 ptr=0x1466f0560 len=0x10f4 head=5dce1827a2475f90
+  [13] f0=0x1000002a02000000 ptr=0x1466f1660 len=0x10f4 head=5dce1827b150eb4f
+  [14] f0=0x1000002b02000000 ptr=0x1466f2760 len=0x10f4 head=5dce18275adc8b41
+  [15] f0=0x1000002c02000000 ptr=0x1466f3860 len=0x10f4 head=5dce1827d7b85a06
+  [16] f0=0x1000002d02000000 ptr=0x1466f4960 len=0x10f4 head=5dce1827702677dd
+  [17] f0=0x1000002e02000000 ptr=0x1466f5a60 len=0x10f4 head=5dce182725115237
+  [18] f0=0x1000002f02000000 ptr=0x1466f6b60 len=0x10f4 head=5dce18279e39b11a
+  [19] f0=0x1000003002000000 ptr=0x1466f7c60 len=0x10f4 head=5dce18279f7f10f9
+  [20] f0=0x1000000e02000000 ptr=0x1466f8d60 len=0x10f4 head=504f865ec29892aa
+  [21] f0=0x1000000e03000000 ptr=0x1466f9e60 len=0x10f4 head=44ab246fb891fbc8
+  [22] f0=0x000000c302000000 ptr=0x1466faf60 len=0x10f4 head=fb4bf43f1ed7f5d3
+  [23] f0=0x000000c303000000 ptr=0x1466fc060 len=0x10f4 head=aa38aa576a921820

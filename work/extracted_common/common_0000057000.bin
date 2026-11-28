@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CSearchPointOfInterestRuleSet>
+
+	<PointOfInterestDefinitions>
+
+		<PointOfInterest key="CSearchPointOfInterest">
+			<Flags>MergeNearbyOnAdd</Flags>
+			<MinDistanceFromSameType value="3.0f"/>
+			<MinDistanceFromAnyType value="4.0f" />
+			<CompletionRadius value="1.0f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookAround</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestDeadAnimal">
+			<Flags>MarkNearbyVisited RegisterAsEvidence</Flags>
+			<MinDistanceFromSameType value="3.0f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookDown</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestLiveAnimal">
+			<Flags>NeedsLOS MarkNearbyVisited RegisterAsEvidence</Flags>
+			<MinDistanceFromSameType value="5.0f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookDown</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestAbandonedVehicle">
+			<Flags>NeedsLOS MarkNearbyVisited RegisterAsEvidence</Flags>
+			<MinDistanceFromSameType value="3.0f"/>
+			<ChanceToUseSearchLoco value="1.0f"/>
+			<CompletionRadius value="1.5f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookAround</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+			<InteractionStateParams>
+				<State key="OnSearchExit">
+					<SpeechContext>VEHICLE_CLEAR</SpeechContext>
+				</State>
+			</InteractionStateParams>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+			<Flags>NeedsLOS MarkNearbyVisited RegisterAsEvidence</Flags>
+			<MinDistanceFromSameType value="2.0f"/>
+			<ChanceToUseSearchLoco value="1.0f"/>
+			<SetLocoBeforeFacingPoint value="true"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Condition type="CAIConditionVehicleHasPedInAnySeat">
+						<Entity>TertiaryEntity</Entity>
+					</Condition>
+					<Hash>POILookAround</Hash>
+				</Item>
+				
+				<Item>
+					<Hash>POILookDown</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+			<ValidityConditions/>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestPickup">
+			<Flags>NeedsLOS MarkNearbyVisited RegisterAsEvidence</Flags>
+			<MinDistanceFromSameType value="2.0f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookDown</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+			<ValidityConditions/>
+			<InteractionStateParams/>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestFoliage">
+			<Flags>MergeNearbyOnAdd BlockPeripheralChecks DontAssignToChasers</Flags>
+			<MinDistanceFromSameType value="5.0f"/>
+			<MinDistanceFromAnyType value="4.0f" />
+			<ChanceToUseSearchLoco value="1.0f"/>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookInto</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+			<InteractionStateParams>
+				<State key="OnSearchExit">
+					<SpeechContext>FOLIAGE_CLEAR</SpeechContext>
+				</State>
+			</InteractionStateParams>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestDoorCover">
+			<Flags>MergeNearbyOnAdd MarkVisitedWhenVisible</Flags>
+			<MinDistanceFromSameType value="1.0f"/>
+			<InteractionStateParams/>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestWindow">
+			<Flags>MergeNearbyOnAdd MarkVisitedWhenVisible</Flags>
+			<MinDistanceFromSameType value="1.0f"/>
+			<InteractionStateParams/>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestCoverPoint">
+			<Flags>MergeNearbyOnAdd MarkVisitedWhenVisible</Flags>
+			<InteractionStateParams/>
+			<MinDistanceFromSameType value="1.0f"/>
+		</PointOfInterest>
+
+		<PointOfInterest key="CSearchPointOfInterestHogtiedPed">
+			<Flags>NeedsLOS RegisterAsEvidence</Flags>
+			<ConditionalSearchLocoBools>
+				<Item>
+					<Hash>POILookDown</Hash>
+				</Item>
+			</ConditionalSearchLocoBools>
+			<ValidityConditions/>
+			<InteractionStateParams>
+				<State key="OnSearchEnter">
+					<SpeechContext>HELP_PED_OUT</SpeechContext>
+				</State>
+			</InteractionStateParams>
+		</PointOfInterest>
+		
+		<PointOfInterest key="CSearchPointOfInterestPotentialSuspect">
+			<MinDistanceFromSameType value="7.0f"/>
+			<Flags>NeedsLOS MergeNearbyOnAdd MarkNearbyVisited OnlyNavigateTowards</Flags>
+			<!-- These conditions are only checked once when the POI wants to get added to the list-->
+			<!-- This should be used to nullify a POI for good, the IsValid check in code is for every frame if the POI updates -->
+			<ValidityConditions>
+				<Condition type="CAIConditionNot">
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_LAW_ENFORCEMENT</Name>
+							</Condition>
+							<Condition type="CAIConditionIsPlayer" />
+							<Condition type="CAIConditionIsDrivingVehicle"/>
+							<Condition type="CAIConditionIsOnMount"/>
+						</Conditions>
+					</Condition>
+				</Condition>
+			</ValidityConditions>
+			<InteractionStateParams>
+				<State key="OnSearchEnter"><!-- This won't get hit if we do OnlyNavigateTowards-->
+					<SpeechContext>LAW_INTERACT_APPROACH</SpeechContext>
+				</State>
+			</InteractionStateParams>
+		</PointOfInterest>
+
+	</PointOfInterestDefinitions>
+
+	<SearchSituations>
+
+		<!-- General CSI (used outside towns and cities) -->
+		<Situation key="CSIInitialSearch">
+			<Flags></Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="80.0f"/>
+			<VisitRadius value="15.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionIsCrimeSceneFlagSet">
+					<Flag>CSSF_CrimeSceneRequiresExpandingSearch</Flag>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>CSIExtendedSearch</NextSituation>
+		</Situation>
+
+		<Situation key="CSIExtendedSearch">
+			<Flags>FinishWhenNoValidPOIs</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="80.0f"/>
+			<VisitRadius value="45.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="true"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+		
+		<Situation key="PursuitSearch">
+			<Flags>CanBeEvaded UseChasers</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="75.0f"/>
+			<VisitRadius value="75.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<UpdateCenterWithNoMoreVisitablePOIs value="true"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="false"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>MarkVisitedWhenVisible BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="99.0f"/> <!-- This has a huge weight because we use it when a law ped hears a K9 dog barking at a wanted suspect -->
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible BlockPeripheralChecks AcceptFoliageLOSBlockageWhenFarFromSuspect</Flags>
+					<Weight value="1.5f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionOr">
+					<Conditions>
+						<!-- During/After Siege: Spread out after 60s of searching, or 80s of losing the target. -->
+						<Condition type="CAIConditionAnd">
+							<Conditions>
+								<Condition type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionWantedIncidentSiegeInProgress" >
+											<Source>PrimaryEntity</Source>
+											<Mode>QueryWantedComponent</Mode>
+										</Condition>
+										<Condition type="CAIConditionShouldPoliceBreakSiegeAtIncident" >
+											<Source>PrimaryEntity</Source>
+											<Mode>QueryWantedComponent</Mode>
+										</Condition>
+									</Conditions>
+								</Condition>
+								<Condition type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionNot">
+											<Condition type="CAIConditionWantedCSIPursuitTimeElapsed">
+												<Mode>QueryWantedComponent</Mode>
+												<UpperBoundMS value="60000"/>
+											</Condition>
+										</Condition>
+										<Condition type="CAIConditionTimeSinceIncidentTargetLastKnown">
+											<Mode>QueryWantedComponent</Mode>
+											<LowerBoundMS value="80000"/>
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+						<!-- Default (non-siege): Spread out after 40s of searching, or 60s of losing the target. -->
+						<Condition type="CAIConditionAnd">
+							<Conditions>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionWantedIncidentSiegeInProgress" >
+										<Source>PrimaryEntity</Source>
+										<Mode>QueryWantedComponent</Mode>
+									</Condition>
+								</Condition>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionShouldPoliceBreakSiegeAtIncident" >
+										<Source>PrimaryEntity</Source>
+										<Mode>QueryWantedComponent</Mode>
+									</Condition>
+								</Condition>
+								<Condition type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionNot">
+											<Condition type="CAIConditionWantedCSIPursuitTimeElapsed">
+												<Mode>QueryWantedComponent</Mode>
+												<UpperBoundMS value="40000"/>
+											</Condition>
+										</Condition>
+										<Condition type="CAIConditionTimeSinceIncidentTargetLastKnown">
+											<Mode>QueryWantedComponent</Mode>
+											<LowerBoundMS value="60000"/>
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+					</Conditions>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>PursuitSearch_Thorough</NextSituation>
+		</Situation>
+		
+		<Situation key="PursuitSearch_Thorough">
+			<Flags>CanBeEvaded UseWantedIncidentHintForSearchFocus</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="75.0f"/>
+			<VisitRadius value="50.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<UpdateCenterWithNoMoreVisitablePOIs value="true"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="true"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="99.0f"/> <!-- This has a huge weight because we use it when a law ped hears a K9 dog barking at a wanted suspect -->
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect BlockPeripheralChecks AcceptFoliageLOSBlockageWhenFarFromSuspect</Flags>
+					<Weight value="1.5f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Flags>OnlyNavigateTowards MarkVisitedWhenVisible</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>MarkVisitedWhenVisibleAndFarFromSuspect</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionOr">
+					<Conditions>
+						<!-- During/After Siege: If the search is less than 60s old, and we've known our target's position in the last 80s, switch to the more aggressive search. -->
+						<Condition type="CAIConditionAnd">
+							<Conditions>
+								<Condition type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionWantedIncidentSiegeInProgress" >
+											<Source>PrimaryEntity</Source>
+											<Mode>QueryWantedComponent</Mode>
+										</Condition>
+										<Condition type="CAIConditionShouldPoliceBreakSiegeAtIncident" >
+											<Source>PrimaryEntity</Source>
+											<Mode>QueryWantedComponent</Mode>
+										</Condition>
+									</Conditions>
+								</Condition>
+								<Condition type="CAIConditionAnd">
+									<Conditions>
+										<Condition type="CAIConditionWantedCSIPursuitTimeElapsed">
+											<Mode>QueryWantedComponent</Mode>
+											<UpperBoundMS value="60000"/>
+										</Condition>
+										<Condition type="CAIConditionNot">
+											<Condition type="CAIConditionTimeSinceIncidentTargetLastKnown">
+												<Mode>QueryWantedComponent</Mode>
+												<LowerBoundMS value="80000"/>
+											</Condition>
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+						<!-- Default (non-siege): If the search is less than 40s old, and we've known our target's position in the last 60s, switch to the more aggressive search. -->
+						<Condition type="CAIConditionAnd">
+							<Conditions>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionWantedIncidentSiegeInProgress" >
+										<Source>PrimaryEntity</Source>
+										<Mode>QueryWantedComponent</Mode>
+									</Condition>
+								</Condition>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionShouldPoliceBreakSiegeAtIncident" >
+										<Source>PrimaryEntity</Source>
+										<Mode>QueryWantedComponent</Mode>
+									</Condition>
+								</Condition>
+								<Condition type="CAIConditionWantedCSIPursuitTimeElapsed">
+									<Mode>QueryWantedComponent</Mode>
+									<UpperBoundMS value="40000"/>
+								</Condition>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionTimeSinceIncidentTargetLastKnown">
+										<Mode>QueryWantedComponent</Mode>
+										<LowerBoundMS value="60000"/>
+									</Condition>
+								</Condition>
+							</Conditions>
+						</Condition>
+					</Conditions>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>PursuitSearch</NextSituation>
+		</Situation>
+		
+		<Situation key="InitialGuardPursuitSearch">
+			<Flags>MustTouchSpatialPOIs BlockRandomRepositions</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="15.0f"/>
+			<VisitRadius value="5.0f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="false"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionNoRemainingValidGridPOIs">
+					<RolePed>SecondaryEntity</RolePed>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>GuardPursuitSearch_SmallerRadius</NextSituation>
+		</Situation>
+
+		<Situation key="GuardPursuitSearch">
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="30.0f"/>
+			<VisitRadius value="30.0f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+
+		<!-- TODO: If an investigator finds a body here, they should transition to GuardPursuitSearch -->
+		<Situation key="GuardPursuitSearch_SmallerRadius">
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="23.5f"/>
+			<VisitRadius value="23.5f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>OnlyNavigateTowards BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+
+		<!-- Used in towns and cities -->
+		<Situation key="CSITownInitialSearch">
+			<Flags></Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="60.0f"/>
+			<VisitRadius value="10.0f"/>
+			<MinPerimeterRadius value="6.0f"/>
+			<MaxPerimeterRadius value="7.5f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionIsCrimeSceneFlagSet">
+					<Flag>CSSF_CrimeSceneRequiresExpandingSearch</Flag>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>CSITownExtendedSearch</NextSituation>
+		</Situation>
+
+		<!-- Not currently in use, see CSITownExtendedSearch -->
+		<Situation key="CSITownInitialSearchHighSeverity">
+			<Flags></Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="60.0f"/>
+			<VisitRadius value="10.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="false"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<!-- More important than a live animal? -->
+				<Type key="CSearchPointOfInterestPotentialSuspect">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionIsCrimeSceneFlagSet">
+					<Flag>CSSF_CrimeSceneRequiresExpandingSearch</Flag>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>CSITownExtendedSearch</NextSituation>
+		</Situation>
+
+		<Situation key="CSITownExtendedSearch">
+			<Flags>FinishWhenNoValidPOIs</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="80.0f"/>
+			<VisitRadius value="45.0f"/>
+			<MinPerimeterRadius value="6.0f"/>
+			<MaxPerimeterRadius value="7.5f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="true"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+
+		<Situation key="BountyHuntersCSI">
+			<Flags>DisableRegisteringEvidence</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="7.5f"/>
+			<VisitRadius value="7.5f"/>
+			<MinPerimeterRadius value="6.0f"/>
+			<MaxPerimeterRadius value="7.5f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+		
+		<Situation key="CSIRussianHouseAttackInitialSearch">
+			<Flags>CanBeEvaded</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="250.0f"/>
+			<SearchRadius value="100.0f"/>
+			<VisitRadius value="60.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions>
+				<Condition type="CAIConditionIsCrimeSceneFlagSet">
+					<Flag>CSSF_CrimeSceneRequiresExpandingSearch</Flag>
+				</Condition>
+			</TerminationConditions>
+			<NextSituation>CSIRussianHouseAttackExpandedSearch</NextSituation>
+		</Situation>
+
+		<Situation key="CSIRussianHouseAttackExpandedSearch">
+			<Flags>CanBeEvaded</Flags>
+			<ValidityConditions/>
+			<CsiReservationRadius value="100.0f"/>
+			<FootPatrolReservationRadius value="200.0f"/>
+			<SearchRadius value="100.0f"/>
+			<VisitRadius value="100.0f"/>
+			<PlayerHorseWeight value="1.25f"/>
+			<DefaultWeights>
+				<DistanceFromSearcherMin value="3.0f"/>
+				<DistanceFromSearcherMax value="1.0f"/>
+				<BehindSearcher value="0.5f"/>
+				<BehindSearcherDot value="0.5f"/> <!-- 60 degrees -->
+				<AssignPOIsSpatially value="true"/>
+			</DefaultWeights>
+			<AllowedPointsOfInterest>
+				<Type key="CSearchPointOfInterestDeadOrIncapacitatedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.25f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestHogtiedPed">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="2.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestLiveAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestFoliage">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestCoverPoint">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDoorCover">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestWindow">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterest">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestDeadAnimal">
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestAbandonedVehicle">
+					<Flags>BlockPeripheralChecks</Flags>
+					<Weight value="1.0f"/>
+				</Type>
+				<Type key="CSearchPointOfInterestPickup">
+					<Weight value="1.0f"/>
+				</Type>
+			</AllowedPointsOfInterest>
+			<TerminationConditions/>
+		</Situation>
+
+	</SearchSituations>
+
+</CSearchPointOfInterestRuleSet>

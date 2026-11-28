@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="SB01_CLB_1_hotMoistInteriorBlend"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <temperature_target>32.000000 1.000000</temperature_target>
+    <humidity>0.850000 1.000000</humidity>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Freezing"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>-5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Freezing"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>-5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_LowControl_Freezing"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>-5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Cold"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.150000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Cold"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.150000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_LowControl_Cold"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>5.000000 0.000000</temperature_target>
+    <color_temperature_target>0.150000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_VeryCool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>17.000000 0.000000</temperature_target>
+    <color_temperature_target>0.400000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_VeryCool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>17.000000 0.000000</temperature_target>
+    <color_temperature_target>0.400000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_lowControl_VeryCool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>17.000000 0.000000</temperature_target>
+    <color_temperature_target>0.400000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Cool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Cool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_LowControl_Cool"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>23.000000 0.000000</temperature_target>
+    <color_temperature_target>0.600000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>23.000000 0.000000</temperature_target>
+    <color_temperature_target>0.600000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_LowControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>23.000000 0.000000</temperature_target>
+    <color_temperature_target>0.600000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Warm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>25.000000 0.000000</temperature_target>
+    <color_temperature_target>0.700000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Warm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>25.000000 0.000000</temperature_target>
+    <color_temperature_target>0.700000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_LowControl_Warm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>25.000000 0.000000</temperature_target>
+    <color_temperature_target>0.700000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_VeryWarm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>28.000000 0.000000</temperature_target>
+    <color_temperature_target>0.800000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_VeryWarm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>28.000000 0.000000</temperature_target>
+    <color_temperature_target>0.800000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_lowControl_VeryWarm"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>28.000000 0.000000</temperature_target>
+    <color_temperature_target>0.800000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_Hot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>30.000000 0.000000</temperature_target>
+    <color_temperature_target>0.900000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_Hot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>30.000000 0.000000</temperature_target>
+    <color_temperature_target>0.900000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_lowControl_Hot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>30.000000 0.000000</temperature_target>
+    <color_temperature_target>0.900000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_highControl_VeryHot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <temperature_target>35.000000 0.000000</temperature_target>
+    <color_temperature_target>1.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_midControl_VeryHot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <temperature_target>35.000000 0.000000</temperature_target>
+    <color_temperature_target>1.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Temp_lowControl_VeryHot"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <temperature_target>35.000000 0.000000</temperature_target>
+    <color_temperature_target>1.000000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_veryLow"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <humidity>0.100000 0.000000</humidity>
+    <color_temperature_tint>0.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_midControl_veryLow"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <humidity>0.100000 0.000000</humidity>
+    <color_temperature_tint>0.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_lowControl_veryLow"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <humidity>0.100000 0.000000</humidity>
+    <color_temperature_tint>0.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_Low"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <humidity>0.400000 0.000000</humidity>
+    <color_temperature_tint>0.250000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_midControl_Low"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <humidity>0.400000 0.000000</humidity>
+    <color_temperature_tint>0.250000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_lowControl_Low"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <humidity>0.400000 0.000000</humidity>
+    <color_temperature_tint>0.250000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <humidity>0.550000 0.000000</humidity>
+    <color_temperature_tint>0.500000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_midControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <humidity>0.550000 0.000000</humidity>
+    <color_temperature_tint>0.500000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_lowControl_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <humidity>0.550000 0.000000</humidity>
+    <color_temperature_tint>0.500000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_midControl_High"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <humidity>0.700000 0.000000</humidity>
+    <color_temperature_tint>0.750000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_lowControl_High"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <humidity>0.700000 0.000000</humidity>
+    <color_temperature_tint>0.750000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_veryHigh"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <humidity>0.900000 0.000000</humidity>
+    <color_temperature_tint>1.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_midControl_veryHigh"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.700000"
+    userFlags="1"
+  >
+    <humidity>0.900000 0.000000</humidity>
+    <color_temperature_tint>1.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="Humidity_lowControl_veryHigh"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    alpha="0.300000"
+    userFlags="1"
+  >
+    <humidity>0.900000 0.000000</humidity>
+    <color_temperature_tint>1.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="DN03B_CLB_hotMoistInteriorBlend"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <temperature_target>32.000000 1.000000</temperature_target>
+    <humidity>0.850000 1.000000</humidity>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="DN02b_clb1_hotMoistInteriorBlend"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <temperature_target>32.000000 1.000000</temperature_target>
+    <humidity>0.850000 1.000000</humidity>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="NM19_CLB1_hotMoistInteriorBlend"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <temperature_target>32.000000 1.000000</temperature_target>
+    <humidity>0.850000 1.000000</humidity>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_High"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+	alpha="1.000000"
+    userFlags="1"
+  >
+    <humidity>0.700000 0.000000</humidity>
+    <color_temperature_tint>0.750000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="tw7_06_whs_hotMoistInteriorBlend"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <temperature_target>32.000000 1.000000</temperature_target>
+    <color_temperature_target>0.500000 0.000000</color_temperature_target>
+    <humidity>0.850000 1.000000</humidity>
+  </modifier>
+</timecycle_modifier_data>

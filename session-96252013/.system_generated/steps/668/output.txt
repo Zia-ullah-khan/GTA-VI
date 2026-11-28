@@ -1,0 +1,92 @@
+
+The command exited with code 0.
+Output:
+func_109E09: 1916 lines (starting at L570879)
+
+=== DISPATCHER BLOCKS (switch cases) ===
+Each block: when mission X completes, it checks/sets other mission flags
+
+Saved 0 dependency edges to C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\dispatcher_dependency_edges.json
+
+
+=== func_10AA55 (Chapter Transition Handler) ===
+Lines: 290
+  L572865: store hash -> 0x702D5A0C
+  L572871: goto label_10AA8D;
+  L572875: goto label_10AA8A;
+  L572878: goto label_10AAD3;
+  L572883: goto label_10AAAF;
+  L572887: goto label_10AA9E;
+  L572892: goto label_10AAAF;
+  L572896: goto label_10AAAC;
+  L572899: goto label_10AAD3;
+  L572903: goto label_10AAC0;
+  L572907: goto label_10AABD;
+  L572910: goto label_10AAD3;
+  L572913: goto label_10AAD3;
+  L572919: goto label_10AB06;
+  L572923: goto label_10AAE8;
+  L572926: compare == 0xFFFFFFFF96F9A142
+  L572928: goto label_10ACD8;
+  L572932: goto label_10AAF6;
+  L572935: compare == 0xFFFFFFFFF8FB7ACC
+  L572937: goto label_10ACD8;
+  L572941: goto label_10AB04;
+  L572946: compare == MNY_HOTEL
+  L572948: goto label_10AC0A;
+  L572952: goto label_10AB14;
+  L572955: compare == MNY_HOTEL_AUTOLAUNCH
+  L572957: goto label_10AC0A;
+  L572961: goto label_10AB22;
+  L572966: goto label_10AD03;
+  L572970: goto label_10AB30;
+  L572975: store hash -> 0xFFFFFFFFE48C934A
+  L572976: SET STATE
+  L572979: store hash -> COM_KBOS_SHOP
+  L572980: SET STATE
+  L572983: store hash -> COM_KBOS_COLAT
+  L572984: SET STATE
+  L572987: store hash -> COM_KBOS_RADR
+  L572988: SET STATE
+  L572991: store hash -> 0xFFFFFFFFC8513199
+  L572992: SET STATE
+  L572995: store hash -> COM_KBOS_CLEAN
+  L572996: SET STATE
+  L572999: store hash -> HO_PAR_KEYCO
+  L573000: SET STATE
+  L573003: store hash -> RecoverDropTipShackDonnieAlive
+  L573004: SET STATE
+  L573007: store hash -> 0xFFFFFFFFEAB842AC
+  L573008: SET STATE
+  L573013: store hash -> 0xFFFFFFFFF17F1279
+  L573014: SET STATE
+  L573017: store hash -> 0xFFFFFFFFDE5B4EBF
+  L573018: CHECK STATE
+  L573021: goto label_10AC70;
+  L573025: goto label_10AC3D;
+  L573030: store hash -> 0xFFFFFFFFAE78970F
+  L573031: CHECK STATE
+  L573034: goto label_10AC70;
+  L573038: goto label_10AC58;
+  L573043: store hash -> 0xFFFFFFFFAE78970F
+  L573044: SET STATE
+  L573045: goto label_10AC70;
+  L573049: store hash -> ANT_INTRO_APARTMENT
+  L573050: CHECK STATE
+  L573053: goto label_10ACBE;
+  L573057: goto label_10AC8B;
+  L573062: store hash -> 0xFFFFFFFFD3FDD3BE
+  L573063: CHECK STATE
+  L573066: goto label_10ACBE;
+  L573070: goto label_10ACA6;
+  L573075: store hash -> ANT_INTRO_APARTMENT
+  L573076: SET STATE
+  L573077: goto label_10ACBE;
+  L573081: store hash -> 0xFFFFFFFFC90E04B5
+  L573082: SET STATE
+  L573090: goto label_10AD03;
+
+
+=== func_24BCE4 (Tertiary Dispatcher) ===
+Lines: 1120
+

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CSnowTrackData>
+  <CommonDeepSurfaceParams>
+    <Item>
+      <Name>snow</Name>
+      <DebugColor value="0xFF0000FF" />
+      <PhysicsMaterials>
+        <Item>DEFORM_SNOW</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="1.000000" />
+        <BermHeightScale value="2.000000" />
+        <BermSpreadScale value="4.000000" />
+        <VelocityNoiseScale value="1.000000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.400000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.500000" />
+        <BumpMapBumpinessScale value="0.450000" />
+        <BumpMapTexScale value="0.700000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="2.600000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.750000" />
+        <TrailWidthMultiplier value="0.100000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>QUICKSAND</Name>
+      <DebugColor value="0xFF00FF00" />
+      <PhysicsMaterials>
+        <Item>DEFORM_QUICKSAND</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="1.000000" />
+        <BermHeightScale value="5.504000" />
+        <BermSpreadScale value="2.000000" />
+        <VelocityNoiseScale value="0.750000" />
+        <DepthNoiseScale value="1.000000" />
+        <DepthNoiseFrequency value="1.536000" />
+        <Viscosity value="0.980000" />
+        <LifeTime value="60.000000" />
+        <FadeBlurWidth value="0.010000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <FadeOverTime value="true" />
+        <BlurWidth value="1.00000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.850000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="0.475000" />
+        <BumpMapBlend value="0.470000" />
+        <DisplacementBlend value=".500000" />
+        <NormalScale value="5.333333" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>Mud</Name>
+      <DebugColor value="0xFFFF0000" />
+      <PhysicsMaterials>
+        <Item>DEFORM_MUD_GRASS</Item>
+        <Item>DEFORM_MUD_WET</Item>
+        <Item>DEFORM_MUD_STICKY</Item>
+        <Item>DEFORM_PERIPHYTON_SOFT</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="2.000000" />
+        <BermHeightScale value="2.000000" />
+        <BermSpreadScale value="2.000000" />
+        <VelocityNoiseScale value="1.000000" />
+        <DepthNoiseScale value="1.000000" />
+        <DepthNoiseFrequency value="1.536000" />
+        <Viscosity value="0.980000" />
+        <LifeTime value="300.000000" />
+        <FadeOverTime value="true" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />  
+        <BlurWidth value="0.80000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.850000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="0.475000" />
+        <BumpMapBlend value="0.800000" />
+        <DisplacementBlend value=".500000" />
+        <NormalScale value="5.333333" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>SCREE</Name>
+      <DebugColor value="0xFFFF00FF" />
+      <PhysicsMaterials>
+        <Item>DEFORM_GRAVEL</Item>
+        <Item>DEFORM_GRAVEL_LARGE</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="2.000000" />
+        <BermHeightScale value="2.000000" />
+        <BermSpreadScale value="1.750000" />
+        <VelocityNoiseScale value="1.056000" />
+        <DepthNoiseScale value="1.000000" />
+        <DepthNoiseFrequency value="1.530000" />
+        <Viscosity value="0.000000" />
+        <LifeTime value="360.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.00000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="0.500000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.300000" />
+        <BumpMapBumpinessScale value="1.872000" />
+        <BumpMapTexScale value="0.640000" />
+        <BumpMapBlend value="0.376000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="10.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="1.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>Sand</Name>
+      <DebugColor value="0xFF00FFFF" />
+      <PhysicsMaterials>
+        <Item>DEFORM_DIRT_LOOSE</Item>
+        <Item>DEFORM_SAND_DRY</Item>
+        <Item>DEFORM_SAND_SHELL</Item>
+        <Item>DEFORM_SAND_STICKY</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="1.250000" />
+        <BermHeightScale value="3.00000" />
+        <BermSpreadScale value="2.00000" />
+        <VelocityNoiseScale value="1.000000" />
+        <DepthNoiseScale value="0.723000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="360.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.500000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+        <SupportPropFlatten value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.50000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="8.000000" />
+        <BumpMapBlend value="0.360000" />
+        <DisplacementBlend value="0.00000" />
+        <NormalScale value="16.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.959000" />
+        <TrailWidthMultiplier value="0.100000" />
+        <VegModifierFlattenAmount value="0.708000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>DIRT</Name>
+      <DebugColor value="0xFF00A0C8" />
+      <PhysicsMaterials>
+        <Item>DEFORM_CLAY</Item>
+        <Item>DEFORM_DIRT_COMPACT</Item>
+        <Item>DEFORM_MUD_DRY</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="2.000000" />
+        <BermHeightScale value="2.000000" />
+        <BermSpreadScale value="1.100000" />
+        <VelocityNoiseScale value="2.000000" />
+        <DepthNoiseScale value="0.000000" />
+        <DepthNoiseFrequency value="1.536000" />
+        <Viscosity value="1.000000" />
+        <LifeTime value="360.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.500000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="0.475000" />
+        <BumpMapBlend value="0.470000" />
+        <DisplacementBlend value=".500000" />
+        <NormalScale value="10.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>ALGAE</Name>
+      <DebugColor value="0xFF00a000" />
+      <PhysicsMaterials>
+        <Item>DEFORM_ALGAE</Item>
+        <Item>DEFORM_ALGAE_THICK</Item>
+        <Item>DEFORM_BAGASSE</Item>
+        <Item>DEFORM_RUBBISH</Item>
+        <Item>DEFORM_SEAWEED</Item>
+        <Item>DEFORM_TAR_PIT</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="1.666666" />
+        <FadeOverTime value="true" />
+        <FadeBlurWidth value="0.104000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="0.100000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.608000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="0.475000" />
+        <BumpMapBlend value="0.500000" />
+        <DisplacementBlend value=".500000" />
+        <NormalScale value="10.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="1.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>PLASTIC</Name>
+      <DebugColor value="0xFF00A0FF" />
+      <PhysicsMaterials>
+        <Item>DEFORM_PLASTIC_MULCH</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="4.000000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="0.800000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.250000" />
+        <BumpMapBumpinessScale value="0.776000" />
+        <BumpMapTexScale value="0.075000" />
+        <BumpMapBlend value="0.507000" />
+        <DisplacementBlend value=".500000" />
+        <NormalScale value="10.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.416000" />
+        <TrailWidthMultiplier value="0.100000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>POM</Name>
+      <DebugColor value="0xFFFFFF00" />
+       <PhysicsMaterials>
+       </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="1.000000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="0.000000" />
+        <POMScale value="16.000000" />
+        <UseSqrtDuringCombine value="false" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="1.152000" />
+        <BumpMapBumpinessScale value="0.770000" />
+        <BumpMapTexScale value="2.048000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="0.175000" />
+        <ParallaxScale value="0.062000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="0.100000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>GRAVELTRAP</Name>
+      <DebugColor value="0xFFFF00B2" />
+      <PhysicsMaterials>
+         <Item>DEFORM_GRAVEL_TRAP</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="4.000000" />
+        <BermHeightScale value="8.000000" />
+        <BermSpreadScale value="1.750000" />
+        <VelocityNoiseScale value="1.056000" />
+        <DepthNoiseScale value="1.000000" />
+        <DepthNoiseFrequency value="1.530000" />
+        <Viscosity value="0.000000" />
+        <LifeTime value="360.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.00000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="0.500000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.300000" />
+        <BumpMapBumpinessScale value="1.872000" />
+        <BumpMapTexScale value="0.640000" />
+        <BumpMapBlend value="1.00000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="10.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="1.000000" />
+        <TrailWidthMultiplier value="0.080000" />
+        <VegModifierFlattenAmount value="0.900000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>WetSand</Name>
+      <DebugColor value="0xFF008080" />
+      <PhysicsMaterials>
+        <Item>DEFORM_SAND_WET</Item>
+      </PhysicsMaterials>
+      <HeightMapGenerationParams>
+        <DepthScale value="1.250000" />
+        <BermHeightScale value="3.00000" />
+        <BermSpreadScale value="3.0000" />
+        <VelocityNoiseScale value="2.000000" />
+        <DepthNoiseScale value="0.0" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="360.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.500000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+        <SupportPropFlatten value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.150000" />
+        <BumpMapBumpinessScale value="1.000000" />
+        <BumpMapTexScale value="8.000000" />
+        <BumpMapBlend value="0.40000" />
+        <DisplacementBlend value="0.00000" />
+        <NormalScale value="16.00000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.959000" />
+        <TrailWidthMultiplier value="0.100000" />
+        <VegModifierFlattenAmount value="0.708000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>    <Item>
+      <Name>None</Name>
+      <DebugColor value="0x00000000" />
+      <PhysicsMaterials />
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.000000" />
+        <BumpMapBumpinessScale value="0.000000" />
+        <BumpMapTexScale value="1.000000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="1.000000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="1.000000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>None</Name>
+      <DebugColor value="0x00000000" />
+      <PhysicsMaterials />
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.000000" />
+        <BumpMapBumpinessScale value="0.000000" />
+        <BumpMapTexScale value="1.000000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="1.000000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="1.000000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>None</Name>
+      <DebugColor value="0x00000000" />
+      <PhysicsMaterials />
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.000000" />
+        <BumpMapBumpinessScale value="0.000000" />
+        <BumpMapTexScale value="1.000000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="1.000000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="1.000000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>None</Name>
+      <DebugColor value="0x00000000" />
+      <PhysicsMaterials />
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.000000" />
+        <BumpMapBumpinessScale value="0.000000" />
+        <BumpMapTexScale value="1.000000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="1.000000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="1.000000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+    <Item>
+      <Name>None</Name>
+      <DebugColor value="0x00000000" />
+      <PhysicsMaterials />
+      <HeightMapGenerationParams>
+        <DepthScale value="0.500000" />
+        <BermHeightScale value="1.000000" />
+        <BermSpreadScale value="0.500000" />
+        <VelocityNoiseScale value="0.500000" />
+        <DepthNoiseScale value="0.500000" />
+        <DepthNoiseFrequency value="2.000000" />
+        <Viscosity value="0.950000" />
+        <LifeTime value="0.000000" />
+        <FadeOverTime value="false" />
+        <FadeBlurWidth value="0.000000" />
+        <FadeBlurWidthSpeed value="1.000000" />
+        <BlurWidth value="1.000000" />
+        <POMScale value="0.000000" />
+        <UseSqrtDuringCombine value="true" />
+      </HeightMapGenerationParams>
+      <TerrainRenderParams>
+        <HeightScale value="0.000000" />
+        <BumpMapBumpinessScale value="0.000000" />
+        <BumpMapTexScale value="1.000000" />
+        <BumpMapBlend value="1.000000" />
+        <DisplacementBlend value="0.000000" />
+        <NormalScale value="1.000000" />
+        <ParallaxScale value="0.000000" />
+      </TerrainRenderParams>
+      <PathRegenAndFlattenParams>
+        <BermHeight value="0.000000" />
+        <TrailWidthMultiplier value="0.000000" />
+        <VegModifierFlattenAmount value="1.000000" />
+        <ExplosionFlattenAmount value="0.700000" />
+      </PathRegenAndFlattenParams>
+    </Item>
+  </CommonDeepSurfaceParams>
+  <MudParams>
+    <MudSoakStart value="0.000000" />
+    <MudSoakEnd value="0.500000" />
+    <MudSoakMin value="-2.000000" />
+    <MudSoakMax value="0.000000" />
+    <MudSoakScale value="0.325000" />
+    <MudPuddleFillStart value="0.400000" />
+    <MudPuddleFillEnd value="0.850000" />
+    <MudPuddleFillMin value="-2.000000" />
+    <MudPuddleFillMax value="-0.050000" />
+    <MudPuddleScale value="0.975000" />
+    <MudPuddleRippleScale value="0.500000" />
+    <MudMipBias value="-0.524000" />
+    <MudPOMPuddleScale value="0.952000" />
+    <MudHeightMapPuddleScale value="2.100000" />
+    <MudPuddleSlopeRange value="0.075000" />
+    <MudPuddleMaskScale value="1.725000" />
+    <MudPuddleMaskBias value="0.125000" />
+    <MudPuddleSpecInt value="0.500000" />
+    <MudPuddleSpecExp value="0.936000" />
+    <MudLocalDirtBlend value="0.750000" />
+    <MudLocalPuddleBlend value="0.000000" />
+    <MudTintColor value="0xDC040608" />
+    <MudPuddleTintColor value="0xFF071529" />
+  </MudParams>
+  <TrackTypeData>
+    <Item>
+      <Name>Human</Name>
+      <Type>kSnowTracksBiped</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.200000" />
+      <BermHeightScale value="2.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="1.000000" />
+      <TrailWidthScale value="1.500000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.900000" />
+      <TrailDepthScaleMin value="2.000000" />
+      <TrailDepthScaleMax value="1.500000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.400000" />
+      <GrassFlattenMaxFlatten value="0.100000" />
+      <GrassFlattenInWaterWidthScale value="0.300000" />
+      <GrassFlattenInWaterMaxFlatten value="0.600000" />
+      <TrailTextureName>humantraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Horse</Name>
+      <Type>kSnowTracksBiped</Type>
+      <SphereScale value="0.850000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="2.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.500000" />
+      <TrailWidthScale value="0.120000" />
+      <TrailVScaleMax value="0.500000" />
+      <TrailVScaleMin value="0.800000" />
+      <TrailDepthScaleMin value="3.000000" />
+      <TrailDepthScaleMax value="2.500000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="7.000000" />
+      <GrassFlattenWidthScale value="0.300000" />
+      <GrassFlattenMaxFlatten value="0.300000" />
+      <GrassFlattenInWaterWidthScale value="0.250000" />
+      <GrassFlattenInWaterMaxFlatten value="0.150000" />
+      <TrailTextureName>horsetraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>BEAR</Name>
+      <Type>kSnowTracksQuadraped</Type>
+      <SphereScale value="0.500000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="2.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="1.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.450000" />
+      <TrailVScaleMin value="0.450000" />
+      <TrailDepthScaleMin value="2.700000" />
+      <TrailDepthScaleMax value="2.700000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.500000" />
+      <GrassFlattenMaxFlatten value="0.300000" />
+      <GrassFlattenInWaterWidthScale value="0.375000" />
+      <GrassFlattenInWaterMaxFlatten value="0.150000" />
+      <TrailTextureName>horsetraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Wolf</Name>
+      <Type>kSnowTracksQuadraped</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="2.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="1.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.824000" />
+      <TrailVScaleMin value="0.824000" />
+      <TrailDepthScaleMin value="2.350000" />
+      <TrailDepthScaleMax value="2.350000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.300000" />
+      <GrassFlattenMaxFlatten value="0.300000" />
+      <GrassFlattenInWaterWidthScale value="0.300000" />
+      <GrassFlattenInWaterMaxFlatten value="0.300000" />
+      <TrailTextureName>wolftraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Bird</Name>
+      <Type>kSnowTracksBiped</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="1.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.750000" />
+      <TrailDepthScaleMin value="1.250000" />
+      <TrailDepthScaleMax value="1.250000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.000000" />
+      <GrassFlattenMaxFlatten value="0.000000" />
+      <GrassFlattenInWaterWidthScale value="0.000000" />
+      <GrassFlattenInWaterMaxFlatten value="0.000000" />
+      <TrailTextureName>humantraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Snake</Name>
+      <Type>kSnowTracksBiped</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="1.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.750000" />
+      <TrailDepthScaleMin value="1.250000" />
+      <TrailDepthScaleMax value="1.250000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.000000" />
+      <GrassFlattenMaxFlatten value="0.000000" />
+      <GrassFlattenInWaterWidthScale value="0.000000" />
+      <GrassFlattenInWaterMaxFlatten value="0.000000" />
+      <TrailTextureName>humantraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemudsnake</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Gator</Name>
+      <Type>kSnowTracksBiped</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.250000" />
+      <BermPathExpansion value="0.250000" />
+      <BermHeightScale value="1.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.750000" />
+      <TrailDepthScaleMin value="1.250000" />
+      <TrailDepthScaleMax value="1.250000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="0.200000" />
+      <GrassFlattenMaxFlatten value="0.500000" />
+      <GrassFlattenInWaterWidthScale value="0.200000" />
+      <GrassFlattenInWaterMaxFlatten value="0.500000" />
+      <TrailTextureName>humantraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementcircle</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemudsnake</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Vehicle</Name>
+      <Type>kSnowTracksVehicle</Type>
+      <SphereScale value="1.450000" />
+      <BermBoneExpansion value="0.600000" />
+      <BermPathExpansion value="0.075000" />
+      <BermHeightScale value="1.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.000000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.750000" />
+      <TrailDepthScaleMin value="1.500000" />
+      <TrailDepthScaleMax value="1.500000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="1.000000" />
+      <GrassFlattenMaxFlatten value="1.000000" />
+      <GrassFlattenInWaterWidthScale value="1.200000" />
+      <GrassFlattenInWaterMaxFlatten value="1.000000" />
+      <TrailTextureName>wagontraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementtrack</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+    <Item>
+      <Name>Cycle</Name>
+      <Type>kSnowTracksVehicle</Type>
+      <SphereScale value="1.000000" />
+      <BermBoneExpansion value="0.300000" />
+      <BermPathExpansion value="0.500000" />
+      <BermHeightScale value="4.000000" />
+      <DepthOffset value="0.000000" />
+      <DepthBiasScale value="0.080000" />
+      <TrailWidthScale value="1.000000" />
+      <TrailVScaleMax value="0.750000" />
+      <TrailVScaleMin value="0.750000" />
+      <TrailDepthScaleMin value="1.500000" />
+      <TrailDepthScaleMax value="1.500000" />
+      <TrailVelocityMin value="1.000000" />
+      <TrailVelocityMax value="4.000000" />
+      <GrassFlattenWidthScale value="1.000000" />
+      <GrassFlattenMaxFlatten value="1.000000" />
+      <GrassFlattenInWaterWidthScale value="1.200000" />
+      <GrassFlattenInWaterMaxFlatten value="1.000000" />
+      <TrailTextureName>wagontraildisplacement</TrailTextureName>
+      <PrintTextureName>displacementtrack</PrintTextureName>
+      <MudDisplacmentTextureName>displacementcirclemud</MudDisplacmentTextureName>
+    </Item>
+  </TrackTypeData>
+  <SnowNormalMapName>snowtrailnormalmap</SnowNormalMapName>
+  <GlobalDeepSurfaceParams>
+    <TesselationMaskMipBias value="-2.500000" />
+    <DeformationWorldSpaceWidth value="96.000000" />
+    <ParallaxWorldSpaceWidth value="48.000000" />
+    <PathSegmentCullDistance value="2000.000000" />
+    <PathSegmentMaxCullTime value="3600.000000" />
+  </GlobalDeepSurfaceParams>
+  <TrailmapParams>
+    <WidthOffset value="0.000000" />
+    <SideOffset value="0.000000" />
+    <WaterPushSphereScale value="1.500000" />
+    <WaterPushSphereForwardBias value="0.200000" />
+    <WaterPushForwardStrengthSphere value="0.000000" />
+    <WaterPushSideStrengthSphere value="1.000000" />
+    <WaterPushDownStrengthSphere value="1.000000" />
+    <WaterPushForwardStrengthTrail value="0.000000" />
+    <WaterPushSideStrengthTrail value="0.200000" />
+    <WaterPushDownStrengthTrail value="2.000000" />
+  </TrailmapParams>
+</CSnowTrackData>

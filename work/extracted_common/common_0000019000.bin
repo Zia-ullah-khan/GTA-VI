@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CAnimalAnimationContexts>
+  <Contexts>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_Cougar_01</ModelName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_Buck_01</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>creatures_mammal@cougar@melee@paired@buck</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_Cougar_01</ModelName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_Deer_01</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>creatures_mammal@cougar@melee@paired@buck</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_Cougar_01</ModelName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_Rabbit_01</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>creatures_mammal@cougar@melee@paired@rabbit</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF</ModelName>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@TEST@WOLF@MELEE@ATTACKS@BASIC</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF_Medium</ModelName>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@TEST@WOLF_MEDIUM@MELEE@ATTACKS@BASIC</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF_Small</ModelName>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@TEST@WOLF_SMALL@MELEE@ATTACKS@BASIC</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF</ModelName>
+          </Item>
+          <Item type="CAIConditionModelNameInList">
+            <Entity>SecondaryEntity</Entity>
+            <ModelNames>
+              <Item>A_C_BUCK_01</Item>
+              <Item>A_C_DEER_01</Item>
+              <Item>A_C_ELK_01</Item>
+              <Item>A_C_Pronghorn_01</Item>
+            </ModelNames>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_VS_DEER@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF_Medium</ModelName>
+          </Item>
+          <Item type="CAIConditionModelNameInList">
+            <Entity>SecondaryEntity</Entity>
+            <ModelNames>
+              <Item>A_C_BUCK_01</Item>
+              <Item>A_C_DEER_01</Item>
+              <Item>A_C_ELK_01</Item>
+              <Item>A_C_Pronghorn_01</Item>
+            </ModelNames>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_MEDIUM_VS_DEER@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Entity>PrimaryEntity</Entity>
+            <ModelName>A_C_WOLF_Small</ModelName>
+          </Item>
+          <Item type="CAIConditionModelNameInList">
+            <Entity>SecondaryEntity</Entity>
+            <ModelNames>
+              <Item>A_C_BUCK_01</Item>
+              <Item>A_C_DEER_01</Item>
+              <Item>A_C_ELK_01</Item>
+              <Item>A_C_Pronghorn_01</Item>
+            </ModelNames>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_SMALL_VS_DEER@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Ped>PrimaryEntity</Ped>
+            <SpeciesName>A_C_WOLF</SpeciesName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_COW</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_VS_COW@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Ped>PrimaryEntity</Ped>
+            <SpeciesName>A_C_WOLF_Medium</SpeciesName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_COW</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_MEDIUM_VS_COW@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionModelName">
+            <Ped>PrimaryEntity</Ped>
+            <SpeciesName>A_C_WOLF_Small</SpeciesName>
+          </Item>
+          <Item type="CAIConditionModelName">
+            <Entity>SecondaryEntity</Entity>
+            <ModelName>A_C_COW</ModelName>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CREATURES_MAMMAL@WOLF_SMALL_VS_COW@MELEE@STREAMED_CORE</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+          <Item type="CAIConditionModelNameInList">
+            <Entity>PrimaryEntity</Entity>
+            <ModelNames>
+              <Item>A_C_Alligator_01</Item>
+              <Item>A_C_Alligator_02</Item>
+              <Item>A_C_Alligator_03</Item>
+            </ModelNames>
+          </Item> 
+        </Conditions>
+      </Condition>
+      <ClipSet>CLIPSET@GAMEPLAY@MELEE@UNARMED@HIT_REACTS@KNOCKBACK</ClipSet>
+    </Item>
+    <Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionOr">
+            <Conditions>
+              <Item type="CAIConditionSpecies">
+                <Ped>PrimaryEntity</Ped>
+                <SpeciesName>SPECIES_BEAVER</SpeciesName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>PrimaryEntity</Ped>
+                <SpeciesName>SPECIES_BADGER</SpeciesName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>PrimaryEntity</Ped>
+                <SpeciesName>SPECIES_RACCOON</SpeciesName>
+              </Item>
+			  <Item type="CAIConditionSpecies">
+                <Ped>PrimaryEntity</Ped>
+                <SpeciesName>SPECIES_SNAKE</SpeciesName>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CLIPSET@GAMEPLAY@MELEE@UNARMED@HIT_REACTS@KNOCKBACK</ClipSet>
+    </Item>
+	<Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionSpecies">
+            <Ped>PrimaryEntity</Ped>
+            <SpeciesName>SPECIES_SHARK_TIGER</SpeciesName>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CLIPSET@GAMEPLAY@CREATURES@WATER@CARTILAGINOUS@SHARK@MELEE@KILL</ClipSet>
+    </Item>
+	<Item type="CAnimalAnimationContext">
+      <Condition type="CAIConditionAnd">
+        <Conditions>
+          <Item type="CAIConditionSpecies">
+            <Ped>PrimaryEntity</Ped>
+            <SpeciesName>SPECIES_DOMESTIC_DOG</SpeciesName>
+          </Item>
+          <Item type="CAIConditionIsHuman">
+            <Ped>SecondaryEntity</Ped>
+          </Item>
+        </Conditions>
+      </Condition>
+      <ClipSet>CLIPSET@GAMEPLAY@CREATURES@LAND@MAMMAL@DOG@X-LARGE@MELEE@GRAPPLE@TAKEDOWN@FAIL</ClipSet>
+    </Item>
+  </Contexts>
+</CAnimalAnimationContexts>

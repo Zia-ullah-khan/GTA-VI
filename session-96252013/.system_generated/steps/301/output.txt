@@ -1,0 +1,14 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -296,7 +296,7 @@
+     ax.set_ylim(0, 13)
+     ax.axis("off")
+     
+-    draw_title(
++    setup_header(
+         ax,
+         "GRAND THEFT AUTO VI — CHAPTER 3: TITS, ASS, DRUG MONEY",
+         "Setting: Vice City Outskirts & Cartel Hubs | Missions 45 - 70 | 3 Parallel Strands -> Sinfrontera Heist",
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

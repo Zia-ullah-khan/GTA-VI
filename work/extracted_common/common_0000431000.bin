@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CConversationManager__Tunables">
+      <Name>CConversationManager</Name>
+      <uTimeMsBetweenGeneratingAvailableConversers value="400" />
+      <uMinTimeMsBetweenConversations value="3000" />
+      <uMaxTimeMsBetweenConversations value="15000" />
+      <uMinTimeMsBetweenConversationTries value="200" />
+      <uMaxTimeMsBetweenConversationTries value="1000" />
+      <uTimeMsToDisableNewConvosOnPedSinceLastSpeech value="6000" />
+      <uTimeMsBetweenSamePairConversations value="60000" />
+      <uMinTimeSinceScriptedConversationMs value="60000" />
+      <uTargetNumConversations value="1" />
+      <fMaxZDifferenceBetweenConversers value="0.800000" />
+      <fApproachDistanceToStartTalking value="1.500000" />
+      <fApproachStateTimeOutInSec value="10.000000" />
+      <fStartingConvoStateTimeOutInSec value="5.000000" />
+      <fRadiusWithinNewConversationsGetCreated value="40.000000" />
+      <fDistanceToRegisterForConversation value="50.000000" />
+      <fDistanceToUnregisterForConversation value="60.000000" />
+      <fDistanceToConsiderConvoOutOfScope value="60.000000" />
+      <fDistanceToConsiderPedTooCloseToConvo value="2.500000" />
+      <fWanderHeadingToConsiderPassingByScenario value="0.800000" />
+      <fWanderPassingByDestinationFromConvoMinDist value="4.000000" />
+      <fWanderPassingByDestinationFromConvoMinDistCamp value="0.000000" />
+      <fMaxHeadingDeltaForScenarioToScenario value="1.750000" />
+      <fTimeToFollowPostConversation value="30.000000" />
+      <fConfidentPersonalityWeight value="3.000000" />
+      <fShyPersonalityWeight value="0.500000" />
+      <fDefaultSelectionWeight value="1.000000" />
+      <fMaxUsTimeAllowedSpentDuringGeneration value="200.0"/>
+      <fMinDistanceMovedToUpdatePopZones value="7.500000" />
+      <uTimeSecondsToRememberPairFailedConvo value="35"/>
+      <uPairFailedConvoCacheMapSize value="107"/>
+      <uNumberOfFlowsToProcessPerFrame value="5" />
+      <uNumberOfTopicsToProcessPerFrame value="5" />
+    </Item>
+  </Tunables>
+</CTuningFile>

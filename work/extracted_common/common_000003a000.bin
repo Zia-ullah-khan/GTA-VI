@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CLadderMetadataManager>
+  <LadderData>
+    <Item>
+      <Name>RungLadder</Name>
+      <RungSpacing value="0.250000" />
+      <RungRadius value="0.015000" />
+      <RungWidth value="0.500000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="false" />
+      <HandRailOffset value="0.125000" />
+    </Item>
+    <Item>
+      <Name>RungLadder_AllowBehind</Name>
+      <RungSpacing value="0.250000" />
+      <RungRadius value="0.015000" />
+      <RungWidth value="0.500000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="true" />
+      <HandRailOffset value="0.125000" />
+    </Item>
+    <Item>
+      <Name>Embedded_RungLadder</Name>
+      <RungSpacing value="0.250000" />
+      <RungRadius value="0.015000" />
+      <RungWidth value="0.500000" />
+      <CanSlide value="false" />
+      <CanMountBehind value="false" />
+      <HandRailOffset value="0.125000" />
+    </Item>
+    <Item>
+      <Name>Pool/Marina_StepLadder</Name>
+      <RungSpacing value="0.250000" />
+      <RungRadius value="0.015000" />
+      <RungWidth value="0.600000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="false" />
+      <HandRailOffset value="0.125000" />
+    </Item>
+    <Item>
+      <Name>Ladder_Moocher</Name>
+      <RungSpacing value="0.250000" />
+      <RungRadius value="0.015000" />
+      <RungWidth value="0.500000" />
+      <CanSlide value="true" />
+      <CanMountBehind value="false" />
+      <HandRailOffset value="0.000000" />
+    </Item>
+  </LadderData>
+  <RailsData>
+    <Item>
+      <Name>Round_Medium</Name>
+      <Type>ROUND</Type>
+      <SizeA value="0.020000" />
+      <SizeB value="0.000000" />
+    </Item>
+    <Item>
+      <Name>Round_Large</Name>
+      <Type>ROUND</Type>
+      <SizeA value="0.025000" />
+      <SizeB value="0.000000" />
+    </Item>
+    <Item>
+      <Name>Rect_Medium</Name>
+      <Type>RECT</Type>
+      <SizeA value="0.050000" />
+      <SizeB value="0.025000" />
+    </Item>
+    <Item>
+      <Name>Rect_Large</Name>
+      <Type>RECT</Type>
+      <SizeA value="0.080000" />
+      <SizeB value="0.025000" />
+    </Item>
+    <Item>
+      <Name>Square_Large</Name>
+      <Type>SQUARE</Type>
+      <SizeA value="0.050000" />
+      <SizeB value="0.000000" />
+    </Item>
+    <Item>
+      <Name>LadderRailType_None</Name>
+      <Type>NONE</Type>
+      <SizeA value="0.000000" />
+      <SizeB value="0.000000" />
+    </Item>
+  </RailsData>
+  <AliasData_Rung>
+    <ArmLeftRoleId>RUNG_ARM_LEFT</ArmLeftRoleId>
+    <ArmRightRoleId>RUNG_ARM_RIGHT</ArmRightRoleId>
+    <LegLeftRoleId>RUNG_LEG_LEFT</LegLeftRoleId>
+    <LegRightRoleId>RUNG_LEG_RIGHT</LegRightRoleId>
+    <RailLeftRoleId>RAIL_LEFT</RailLeftRoleId>
+    <RailRightRoleId>RAIL_RIGHT</RailRightRoleId>
+    <Width value="0.250000" />
+    <Depth value="0.020000" />
+    <Height value="0.020000" />
+  </AliasData_Rung>
+  <AliasData_Step>
+    <ArmLeftRoleId>NONE</ArmLeftRoleId>
+    <ArmRightRoleId>NONE</ArmRightRoleId>
+    <LegLeftRoleId>STEP_LEG_LEFT</LegLeftRoleId>
+    <LegRightRoleId>STEP_LEG_RIGHT</LegRightRoleId>
+    <RailLeftRoleId>RAIL_ARM_LEFT</RailLeftRoleId>
+    <RailRightRoleId>RAIL_ARM_RIGHT</RailRightRoleId>
+    <Width value="0.250000" />
+    <Depth value="0.050000" />
+    <Height value="0.015000" />
+  </AliasData_Step>
+  <GrabZoneData_Pool>
+    <MinZAboveLadder value="0.150000" />
+    <ForwardOffset value="0.066000" />
+    <HeightOffset value="0.325000" />
+    <PitchAngle value="42.299999" />
+  </GrabZoneData_Pool>
+  <GrabZoneData_Step>
+    <MinZAboveLadder value="0.000000" />
+    <ForwardOffset value="0.000000" />
+    <HeightOffset value="0.050000" />
+    <PitchAngle value="0.000000" />
+  </GrabZoneData_Step>
+  <MountData>
+    <NearLadderFlagRadius value="1.500000" />
+    <DetectionDistance value="5.000000" />
+    <InitialPlaneWidth value="1.000000" />
+    <InitialPlaneWidthSmall value="0.500000" />
+    <InitialPlaneWidth_MidMount value="2.000000" />
+    <InitialPlaneWidthSmall_MidMount value="1.500000" />
+    <InitialPlaneWidth_TopMount value="1.250000" />
+    <InitialPlaneWidthSmall_TopMount value="0.750000" />
+    <AirMountPlaneWidth value="1.250000" />
+    <AirMountMinHeight value="2.000000" />
+    <AssitedPlaneWidth value="1.250000" />
+    <FirstPersonDirectionDot value="0.900000" />
+    <AngledLadderAnimationsDegree value="60.000000" />
+    <MinMountableLadderAngle value="44.000000" />
+    <MaxMountableSlantedAngle value="16.000000" />
+    <MountBottomZTolerance value="0.200000" />
+    <GeneralAllowedDotFromBehind value="-0.250000" />
+    <MidMountAllowedDotFromBehind value="-0.300000" />
+    <FacingPlaneData>
+      <Default>
+        <ForwardOffset value="0.000000" />
+        <PlaneWidth value="0.750000" />
+        <OrientToPed value="true" />
+      </Default>
+      <Mid>
+        <ForwardOffset value="0.000000" />
+        <PlaneWidth value="1.500000" />
+        <OrientToPed value="true" />
+      </Mid>
+      <Water>
+        <ForwardOffset value="0.350000" />
+        <PlaneWidth value="1.500000" />
+        <OrientToPed value="true" />
+      </Water>
+    </FacingPlaneData>
+  </MountData>
+  <DismountData>
+    <RungLadder>
+      <DismountAtTopRung_RightStance value="4" />
+      <DismountAtTopRung_LeftStance value="4" />
+      <DismountAtBottomDistance value="1.800000" />
+      <SlidingDismountAtBottomDistance value="2.000000" />
+      <DismountInWaterDistance value="0.100000" />
+    </RungLadder>
+    <StepLadder>
+      <DismountAtTopRung_RightStance value="3" />
+      <DismountAtTopRung_LeftStance value="3" />
+      <DismountAtBottomDistance value="1.600000" />
+      <SlidingDismountAtBottomDistance value="1.600000" />
+      <DismountInWaterDistance value="0.100000" />
+    </StepLadder>
+    <PoolLadder>
+      <DismountAtTopRung_RightStance value="3" />
+      <DismountAtTopRung_LeftStance value="3" />
+      <DismountAtBottomDistance value="1.600000" />
+      <SlidingDismountAtBottomDistance value="1.600000" />
+      <DismountInWaterDistance value="0.100000" />
+    </PoolLadder>
+    <DismountDropCapsuleOffset x="0.000000" y="0.350000" />
+    <DismountDropCapsuleSideOffset x="0.900000" y="0.100000" />
+    <DismountMidPlatformHalfSize x="0.700000" y="0.900000" />
+    <TopExitVerticalProbeLength value="1.000000" />
+    <TopExitVerticalProbeRadius value="0.100000" />
+    <TopExitHorizontalProbeLength value="0.500000" />
+    <TopExitHorizontalProbeHeight value="0.500000" />
+    <TopExitHorizontalProbeRadius value="0.100000" />
+    <MinDistToEdgeForWalkForceBreakout value="0.800000" />
+    <MinDistToEdgeForRunForceBreakout value="1.800000" />
+    <BreakoutClearanceLookahead value="0.500000" />
+  </DismountData>
+  <MiscData>
+    <LadderMinTargetHeight value="0.500000" />
+    <LadderMaxTargetHeightFromTop value="0.000000" />
+  </MiscData>
+</CLadderMetadataManager>

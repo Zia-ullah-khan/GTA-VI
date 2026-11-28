@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 8
+    print(f'  {mid:15} -> display_name: {m.get(" display_name\)}
+                                               ^
+SyntaxError: unterminated string literal (detected at line 8)
+

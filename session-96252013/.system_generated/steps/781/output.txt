@@ -1,0 +1,31 @@
+
+The command exited with code 0.
+Output:
+Status: {'titles_recovered': 181, 'prerequisite_edges_recovered': 0, 'note': "story_list_order is the order stored in the game's own mission list. It is an order, not a proven prerequisite chain. prerequisites/unlocks/is_bottleneck stay null because no data field or script check that gates one mission on another was found."}
+Total main story missions: 113
+  INT_PROLO            -> Prologue
+  INT_CHASE            -> Gone Fishing
+  INT_PRISO            -> Coming Home
+  INT_PRISO_TRIGGER_EARLY -> Coming Home
+  INT_PRISO_TRIGGER_LATE -> Coming Home
+  INT_BANK             -> Buck Me
+  BIL_FUN              -> Day Release
+  INT_PLNSH            -> Clear Skies
+  INT_AIR              -> Swamped
+  BIL_PICK             -> Tourist Trap
+  BIL_PICK_DAY_TIME_START -> Tourist Trap
+  BIL_PICK_NIGHT_TIME_START -> Tourist Trap
+  BIL_HOUSE            -> Home Sweet Home
+  BIL_WHEEL            -> Discharge Time
+  MTL_WAKE             -> What's in the Bag?
+  MTL_DRIVE            -> Girls' Trip
+  MTL_AMBUL            -> Ambulance Chaser
+  MTL_CHECK            -> Play Nurse
+  MTL_CHECK_LOW_REL    -> Play Nurse
+  MTL_CHECK_HIGH_REL   -> Play Nurse
+  0x0F9ED9C2           -> None
+  MTL_PAIN             -> Slam Dunk
+  MTL_MONT             -> Breakfast Run
+  MTL_MONT_AUTOLAUNCH  -> None
+  0x4CB4EB61           -> None
+

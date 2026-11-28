@@ -1,0 +1,3830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTaskDataInfoManager>
+  <aTaskData>
+    <Item type="CTaskDataInfo">
+      <Name>STANDARD_PED</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.500000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="600" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="4.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.500000" />
+          <AngVelTolerance2 value="2.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="4.000000" />
+          <MotionlessTime value="0" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="4.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.005000" />
+          <AngVelTolerance2 value="0.050000" />
+          <InternalVelTolerance2 value="0.050000" />
+          <InternalAngVelTolerance2 value="0.100000" />
+          <MotionlessTime value="0" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="4.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="45.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="80.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>IgnorePavementCheckWhenLeavingScenarios CanBeShoved CanBeTalkedTo</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Human</Base>
+        <OnMount>HumanOnMount</OnMount>
+        <InVehicle>HumanInVehicle</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Alligator</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableIsOutOfWater DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableNonStandardDamageTypes DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="25.000000" />
+      <MoveTimeStateWaitRandomness value="5.000000" />
+      <MoveMaxAngleChangeDegrees value="5.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="1.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <AlertedFacingToleranceDegrees value="180.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Alligator</Base>
+        <OnMount>Alligator</OnMount>
+        <InVehicle>Alligator</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>ALLIGATOR_SMALL</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableIsOutOfWater DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableNonStandardDamageTypes DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DontActivateRagdollUntilDead DisableWeaponUse PreventNipAttacks</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="true" />
+      <MoveTimeStateWait value="25.000000" />
+      <MoveTimeStateWaitRandomness value="5.000000" />
+      <MoveMaxAngleChangeDegrees value="5.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="1.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Alligator</Base>
+        <OnMount>Alligator</OnMount>
+        <InVehicle>Alligator</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Armadillo</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.000000" />
+      <MoveTimeStateWaitRandomness value="1.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Armadillo</Base>
+        <OnMount>Armadillo</OnMount>
+        <InVehicle>Armadillo</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>snake</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="3.500000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="3.500000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="3.500000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Snake</Base>
+        <OnMount>Snake</OnMount>
+        <InVehicle>Snake</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>FROG</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Frog</Base>
+        <OnMount>Frog</OnMount>
+        <InVehicle>Frog</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>beaver</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Beaver</Base>
+        <OnMount>Beaver</OnMount>
+        <InVehicle>Beaver</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Bird</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="50.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse CodeDrivenIdleTurns</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="5.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bird</Base>
+        <OnMount>Bird</OnMount>
+        <InVehicle>Bird</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Bird_Sandpiper</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="50.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse CodeDrivenIdleTurns</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="100.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.500000" />
+      <MoveTimeStateWaitRandomness value="1.500000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="66.666667" />
+      <MoveDistStateJogMove value="5.000000" />
+      <MoveDistStateJogMoveRandomness value="2.500000" />
+      <MoveMBRJogOverride value="3.000000" />
+      <MoveDistStateMove value="5.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="1.750000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bird</Base>
+        <OnMount>Bird</OnMount>
+        <InVehicle>Bird</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>BIRD_WITH_GROUND_FLEE</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="50.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse CodeDrivenIdleTurns</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="1.000000" />
+      <MoveTimeStateWaitRandomness value="1.000000" />
+      <MoveMaxAngleChangeDegrees value="30.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="0.500000" />
+      <MoveDistStateJogMoveRandomness value="0.200000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="0.500000" />
+      <MoveDistStateMoveRandomness value="0.200000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bird_with_ground_flee</Base>
+        <OnMount>Bird_with_ground_flee</OnMount>
+        <InVehicle>Bird_with_ground_flee</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Caracara</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="50.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse CodeDrivenIdleTurns</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.500000" />
+      <MoveTimeStateWaitRandomness value="3.500000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="33.333333" />
+      <MoveDistStateJogMove value="5.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="2.500000" />
+      <MoveDistStateMoveRandomness value="2.500000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bird_with_ground_flee</Base>
+        <OnMount>Bird_with_ground_flee</OnMount>
+        <InVehicle>Bird_with_ground_flee</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>BOAR</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="4.000000" />
+          <WritheMagnitude value="2.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="4.000000" />
+          <WritheMagnitude value="2.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="2.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+	  <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="1.000000" />
+      <MoveTimeStateWaitRandomness value="5.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.500000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Boar</Base>
+        <OnMount>Boar</OnMount>
+        <InVehicle>Boar</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Bobcat</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bobcat</Base>
+        <OnMount>Bobcat</OnMount>
+        <InVehicle>Bobcat</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>buffalo</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DontActivateRagdollUntilDead DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="1.000000" />
+      <MoveTimeStateWaitRandomness value="5.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Buffalo</Base>
+        <OnMount>Buffalo</OnMount>
+        <InVehicle>Buffalo</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Cat</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="true" />
+      <FleeStyleSets>
+        <Base>Cat</Base>
+        <OnMount>Cat</OnMount>
+        <InVehicle>Cat</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>CRAB</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.000000" />
+      <MoveTimeStateWaitRandomness value="1.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Crab</Base>
+        <OnMount>Crab</OnMount>
+        <InVehicle>Crab</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>dog</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisableMeleeIntroAnimation IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse PermitMissionPedHeadTracking DisablePotentialToBeWalkedIntoResponse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="1.000000" />
+      <MoveTimeStateWaitRandomness value="9.000000" />
+      <MoveMaxAngleChangeDegrees value="90.000000" />
+      <MoveProbabilityStateJogMove value="33.333333" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="35.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="3.000000" />
+      <MoveDistStateMoveRandomness value="22.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="true" />
+      <FleeStyleSets>
+        <Base>Dog</Base>
+        <OnMount>Dog</OnMount>
+        <InVehicle>Dog</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>DONKEY</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.300000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.000000" />
+      <MoveTimeStateWaitRandomness value="1.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Donkey</Base>
+        <OnMount>Donkey</OnMount>
+        <InVehicle>Donkey</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>BEAR</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Bear</Base>
+        <OnMount>Bear</OnMount>
+        <InVehicle>Bear</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Bearblack</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>BearBlack</Base>
+        <OnMount>BearBlack</OnMount>
+        <InVehicle>BearBlack</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>COUGAR</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.100000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.100000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Cougar</Base>
+        <OnMount>Cougar</OnMount>
+        <InVehicle>Cougar</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>COYOTE</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Coyote</Base>
+        <OnMount>Coyote</OnMount>
+        <InVehicle>Coyote</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Rabbit</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Rabbit</Base>
+        <OnMount>Rabbit</OnMount>
+        <InVehicle>Rabbit</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>HORSE</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.200000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.200000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.200000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse PermitMissionPedHeadTracking OnlyAmbientlyHeadTrackAtSlowGaits</Flags>
+      <CapsuleRadiusForAvoidance value="0.500000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="5.000000" />
+      <MoveTimeStateWaitRandomness value="15.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="7.000000" />
+      <MoveDistStateJogMoveRandomness value="3.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="4.000000" />
+      <MoveDistStateMoveRandomness value="3.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Horse</Base>
+        <OnMount>Horse</OnMount>
+        <InVehicle>Horse</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>IGUANA</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Iguana</Base>
+        <OnMount>Iguana</OnMount>
+        <InVehicle>Iguana</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Fish</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableCower DisableIntimidated DisableVehicleUsage DisableMountUsage DisableNonStandardDamageTypes DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios ApplyExtraHeadingChangesInFishLocomotion DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="true" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Fish</Base>
+        <OnMount>Fish</OnMount>
+        <InVehicle>Fish</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Wolf</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.100000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.500000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DontActivateRagdollUntilDead DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Wolf</Base>
+        <OnMount>Wolf</OnMount>
+        <InVehicle>Wolf</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>CHICKEN</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableCower DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.500000" />
+      <MoveTimeStateWaitRandomness value="3.500000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="20.000000" />
+      <MoveDistStateJogMove value="5.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="0.500000" />
+      <MoveDistStateMoveRandomness value="4.500000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Chicken</Base>
+        <OnMount>Chicken</OnMount>
+        <InVehicle>Chicken</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>shark</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="10.000000" />
+      <SurfaceSwimmingDepthOffset value="0.200000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableCower DisableIntimidated DisableVehicleUsage DisableMountUsage DisableNonStandardDamageTypes DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios AlignPitchToWavesInFishLocomotion DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Shark</Base>
+        <OnMount>Shark</OnMount>
+        <InVehicle>Shark</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Deer</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="100.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="1.000000" />
+      <MoveTimeStateWaitRandomness value="5.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.500000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Deer</Base>
+        <OnMount>Deer</OnMount>
+        <InVehicle>Deer</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>elk</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Elk</Base>
+        <OnMount>Elk</OnMount>
+        <InVehicle>Elk</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>moose</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Moose</Base>
+        <OnMount>Moose</OnMount>
+        <InVehicle>Moose</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>cow</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.300000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.400000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.300000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.400000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.200000" />
+          <AngVelTolerance2 value="0.300000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.400000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Cow</Base>
+        <OnMount>Cow</OnMount>
+        <InVehicle>Cow</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Pig</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="4.000000" />
+          <WritheMagnitude value="2.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="4.000000" />
+          <WritheMagnitude value="2.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Pig</Base>
+        <OnMount>Pig</OnMount>
+        <InVehicle>Pig</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Possum</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Possum</Base>
+        <OnMount>Possum</OnMount>
+        <InVehicle>Possum</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>PRONGHORN</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="50.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.000000" />
+      <MoveTimeStateWaitRandomness value="1.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Pronghorn</Base>
+        <OnMount>Pronghorn</OnMount>
+        <InVehicle>Pronghorn</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>GOAT</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.400000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Goat</Base>
+        <OnMount>Goat</OnMount>
+        <InVehicle>Goat</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>SHEEP</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps IgnorePavementCheckWhenLeavingScenarios FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Sheep</Base>
+        <OnMount>Sheep</OnMount>
+        <InVehicle>Sheep</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Fox</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Fox</Base>
+        <OnMount>Fox</OnMount>
+        <InVehicle>Fox</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>QUAIL</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="2.000000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="10.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="50.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Quail</Base>
+        <OnMount>Quail</OnMount>
+        <InVehicle>Quail</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>RACCOON</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Raccoon</Base>
+        <OnMount>Raccoon</OnMount>
+        <InVehicle>Raccoon</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>RAM</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Ram</Base>
+        <OnMount>Ram</OnMount>
+        <InVehicle>Ram</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Rat</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Rat</Base>
+        <OnMount>Rat</OnMount>
+        <InVehicle>Rat</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>Squirrel</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.500000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Rat</Base>
+        <OnMount>Rat</OnMount>
+        <InVehicle>Rat</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>tiger</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.100000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="303" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="0.100000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="true" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="0.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Cougar</Base>
+        <OnMount>Cougar</OnMount>
+        <InVehicle>Cougar</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>TURKEY</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.400000" />
+          <AngVelTolerance2 value="1.000000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="1.000000" />
+          <MotionlessTime value="300" />
+          <WritheRate value="2.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="1.000000" />
+          <RelaxDuration value="0.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.500000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="0.500000" />
+      <MoveTimeStateWaitRandomness value="2.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="25.000000" />
+      <MoveDistStateJogMove value="2.500000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="0.500000" />
+      <MoveDistStateMoveRandomness value="3.500000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Turkey</Base>
+        <OnMount>Turkey</OnMount>
+        <InVehicle>Turkey</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>TURTLE</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Turtle</Base>
+        <OnMount>Turtle</OnMount>
+        <InVehicle>Turtle</InVehicle>
+      </FleeStyleSets>
+    </Item>
+    <Item type="CTaskDataInfo">
+      <Name>BEDAZZLEDTORTOISE</Name>
+      <RagdollInfo>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+        <Item>
+          <VelTolerance2 value="0.300000" />
+          <AngVelTolerance2 value="0.400000" />
+          <InternalVelTolerance2 value="0.500000" />
+          <InternalAngVelTolerance2 value="0.500000" />
+          <MotionlessTime value="900" />
+          <WritheRate value="1.000000" />
+          <WritheMagnitude value="1.000000" />
+          <WritheDuration value="2.000000" />
+          <RelaxDuration value="1.000000" />
+          <PoseMatchDistanceThreshold value="0.050000" />
+          <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+          <PoseMatchBlendOutTimer value="0" />
+          <DisableSelfCollision value="false" />
+        </Item>
+      </RagdollInfo>
+      <ScenarioAttractionDistance value="30.000000" />
+      <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+      <ExtendedScenarioAttractionDistance value="30.000000" />
+      <SurfaceSwimmingDepthOffset value="0.900000" />
+      <UnalertedMinTimeResting value="0.000000" />
+      <UnalertedRandomTimeResting value="0.000000" />
+      <UnalertedMinTimeBetweenRests value="0.000000" />
+      <UnalertedRandomTimeBetweenRests value="0.000000" />
+      <Flags>DisableCover DisableIntimidated DisableVehicleUsage DisableMountUsage DisableWallHitAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle DisableWeaponUse</Flags>
+      <CapsuleRadiusForAvoidance value="0.600000" />
+      <MoveInitMovingVsWaitingPctg value="25.000000" />
+      <UnalertedNeverLeaveWater value="false" />
+      <MoveTimeStateWait value="3.000000" />
+      <MoveTimeStateWaitRandomness value="7.000000" />
+      <MoveMaxAngleChangeDegrees value="45.000000" />
+      <MoveProbabilityStateJogMove value="10.000000" />
+      <MoveDistStateJogMove value="15.000000" />
+      <MoveDistStateJogMoveRandomness value="5.000000" />
+      <MoveMBRJogOverride value="0.000000" />
+      <MoveDistStateMove value="10.000000" />
+      <MoveDistStateMoveRandomness value="5.000000" />
+      <MoveMBRWalkOverride value="0.000000" />
+      <BlockUnalertedFaceLookAtTarget value="false" />
+      <FleeStyleSets>
+        <Base>Turtle</Base>
+        <OnMount>Turtle</OnMount>
+        <InVehicle>Turtle</InVehicle>
+      </FleeStyleSets>
+    </Item>
+	  <Item type="CTaskDataInfo">
+		  <Name>SEXROBOT</Name>
+		  <RagdollInfo>
+			  <Item>
+				  <VelTolerance2 value="0.200000" />
+				  <AngVelTolerance2 value="0.500000" />
+				  <InternalVelTolerance2 value="0.500000" />
+				  <InternalAngVelTolerance2 value="1.000000" />
+				  <MotionlessTime value="600" />
+				  <WritheRate value="1.000000" />
+				  <WritheMagnitude value="1.000000" />
+				  <WritheDuration value="4.000000" />
+				  <RelaxDuration value="1.000000" />
+				  <PoseMatchDistanceThreshold value="0.050000" />
+				  <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+				  <PoseMatchBlendOutTimer value="0" />
+				  <DisableSelfCollision value="false" />
+			  </Item>
+			  <Item>
+				  <VelTolerance2 value="0.500000" />
+				  <AngVelTolerance2 value="2.000000" />
+				  <InternalVelTolerance2 value="0.500000" />
+				  <InternalAngVelTolerance2 value="4.000000" />
+				  <MotionlessTime value="0" />
+				  <WritheRate value="1.000000" />
+				  <WritheMagnitude value="1.000000" />
+				  <WritheDuration value="4.000000" />
+				  <RelaxDuration value="1.000000" />
+				  <PoseMatchDistanceThreshold value="0.050000" />
+				  <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+				  <PoseMatchBlendOutTimer value="0" />
+				  <DisableSelfCollision value="false" />
+			  </Item>
+			  <Item>
+				  <VelTolerance2 value="0.005000" />
+				  <AngVelTolerance2 value="0.050000" />
+				  <InternalVelTolerance2 value="0.050000" />
+				  <InternalAngVelTolerance2 value="0.100000" />
+				  <MotionlessTime value="0" />
+				  <WritheRate value="1.000000" />
+				  <WritheMagnitude value="1.000000" />
+				  <WritheDuration value="4.000000" />
+				  <RelaxDuration value="1.000000" />
+				  <PoseMatchDistanceThreshold value="0.050000" />
+				  <PoseMatchBalanceInstabilityThreshold value="3.000000" />
+				  <PoseMatchBlendOutTimer value="0" />
+				  <DisableSelfCollision value="false" />
+			  </Item>
+		  </RagdollInfo>
+		  <ScenarioAttractionDistance value="45.000000" />
+		  <ScenarioAttractionDistanceWhileWandering value="10.000000" />
+		  <ExtendedScenarioAttractionDistance value="80.000000" />
+		  <SurfaceSwimmingDepthOffset value="0.900000" />
+		  <UnalertedMinTimeResting value="0.000000" />
+		  <UnalertedRandomTimeResting value="0.000000" />
+		  <UnalertedMinTimeBetweenRests value="0.000000" />
+		  <UnalertedRandomTimeBetweenRests value="0.000000" />
+		  <Flags>IgnorePavementCheckWhenLeavingScenarios DisableNonStandardDamageTypes CanBeShoved CanBeTalkedTo</Flags>
+		  <CapsuleRadiusForAvoidance value="0.600000" />
+		  <MoveInitMovingVsWaitingPctg value="25.000000" />
+		  <UnalertedNeverLeaveWater value="false" />
+		  <MoveTimeStateWait value="3.000000" />
+		  <MoveTimeStateWaitRandomness value="7.000000" />
+		  <MoveMaxAngleChangeDegrees value="45.000000" />
+		  <MoveProbabilityStateJogMove value="10.000000" />
+		  <MoveDistStateJogMove value="15.000000" />
+		  <MoveDistStateJogMoveRandomness value="5.000000" />
+		  <MoveMBRJogOverride value="0.000000" />
+		  <MoveDistStateMove value="10.000000" />
+		  <MoveDistStateMoveRandomness value="5.000000" />
+		  <MoveMBRWalkOverride value="0.000000" />
+		  <BlockUnalertedFaceLookAtTarget value="false" />
+		  <FleeStyleSets>
+			  <Base>Human</Base>
+			  <OnMount>HumanOnMount</OnMount>
+			  <InVehicle>HumanInVehicle</InVehicle>
+		  </FleeStyleSets>
+	  </Item>
+  </aTaskData>
+  <DefaultSet ref="STANDARD_PED" />
+</CTaskDataInfoManager>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GlintsProfiles>
+  <ProfileList>
+	<Item>
+		<ProfileName>NoGlints</ProfileName>
+		<ProfileIndex value="0"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="1.0"/>
+		<SubProfile0_MicrofacetDensity value="1.0"/>
+		<SubProfile0_DensityRandomization value="0.0"/>
+		<SubProfile1_MicrofacetDensity value="1.0"/>
+		<SubProfile1_DensityRandomization value="0.0"/>
+		<SubProfile2_MicrofacetDensity value="1.0"/>
+		<SubProfile2_DensityRandomization value="0.0"/>
+		<SubProfile3_MicrofacetDensity value="1.0"/>
+		<SubProfile3_DensityRandomization value="0.0"/>
+	</Item>
+	<Item>
+		<ProfileName>Asphalt_1</ProfileName>
+		<ProfileIndex value="1"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="3.0"/>
+		<SubProfile0_MicrofacetDensity value="0.492"/>
+		<SubProfile0_DensityRandomization value="0.03"/>
+		<SubProfile1_MicrofacetDensity value="0.436"/>
+		<SubProfile1_DensityRandomization value="0.036"/>
+		<SubProfile2_MicrofacetDensity value="0.413"/>
+		<SubProfile2_DensityRandomization value="0.05"/>
+		<SubProfile3_MicrofacetDensity value="0.2"/>
+		<SubProfile3_DensityRandomization value="0.02"/>
+	</Item>
+	<Item>
+		<ProfileName>Asphalt_2</ProfileName>
+		<ProfileIndex value="2"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="3.0"/>
+		<SubProfile0_MicrofacetDensity value="0.492"/>
+		<SubProfile0_DensityRandomization value="0.03"/>
+		<SubProfile1_MicrofacetDensity value="0.436"/>
+		<SubProfile1_DensityRandomization value="0.036"/>
+		<SubProfile2_MicrofacetDensity value="0.413"/>
+		<SubProfile2_DensityRandomization value="0.05"/>
+		<SubProfile3_MicrofacetDensity value="0.2"/>
+		<SubProfile3_DensityRandomization value="0.02"/>
+	</Item>
+	<Item>
+		<ProfileName>Rust</ProfileName>
+		<ProfileIndex value="3"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="2.0"/>
+		<SubProfile0_MicrofacetDensity value="0.651"/>
+		<SubProfile0_DensityRandomization value="0.008"/>
+		<SubProfile1_MicrofacetDensity value="0.642"/>
+		<SubProfile1_DensityRandomization value="0.011"/>
+		<SubProfile2_MicrofacetDensity value="0.33"/>
+		<SubProfile2_DensityRandomization value="0.017"/>
+		<SubProfile3_MicrofacetDensity value="0.124"/>
+		<SubProfile3_DensityRandomization value="0.062"/>
+	</Item>
+	<Item>
+		<ProfileName>Dirt</ProfileName>
+		<ProfileIndex value="4"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="1.0"/>
+		<SubProfile0_MicrofacetDensity value="0.64"/>
+		<SubProfile0_DensityRandomization value="0.026"/>
+		<SubProfile1_MicrofacetDensity value="0.529"/>
+		<SubProfile1_DensityRandomization value="0.301"/>
+		<SubProfile2_MicrofacetDensity value="0.371"/>
+		<SubProfile2_DensityRandomization value="0.035"/>
+		<SubProfile3_MicrofacetDensity value="0.342"/>
+		<SubProfile3_DensityRandomization value="0.05"/>
+	</Item>
+	<Item>
+		<ProfileName>Sand</ProfileName>
+		<ProfileIndex value="5"/>
+		<WetnessBehaviour value="2"/>
+		<PeakBrightnessScale value="30.0"/>
+		<SubProfile0_MicrofacetDensity value="0.521"/>
+		<SubProfile0_DensityRandomization value="0.03"/>
+		<SubProfile1_MicrofacetDensity value="0.473"/>
+		<SubProfile1_DensityRandomization value="0.132"/>
+		<SubProfile2_MicrofacetDensity value="0.473"/>
+		<SubProfile2_DensityRandomization value="0.035"/>
+		<SubProfile3_MicrofacetDensity value="0.45"/>
+		<SubProfile3_DensityRandomization value="0.07"/>
+	</Item>
+	<Item>
+		<ProfileName>Sand_2</ProfileName>
+		<ProfileIndex value="6"/>
+		<WetnessBehaviour value="2"/>
+		<PeakBrightnessScale value="30.0"/>
+		<SubProfile0_MicrofacetDensity value="0.521"/>
+		<SubProfile0_DensityRandomization value="0.03"/>
+		<SubProfile1_MicrofacetDensity value="0.473"/>
+		<SubProfile1_DensityRandomization value="0.132"/>
+		<SubProfile2_MicrofacetDensity value="0.473"/>
+		<SubProfile2_DensityRandomization value="0.035"/>
+		<SubProfile3_MicrofacetDensity value="0.45"/>
+		<SubProfile3_DensityRandomization value="0.07"/>
+	</Item>
+	<Item>
+		<ProfileName>Glitter</ProfileName>
+		<ProfileIndex value="7"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="1.0"/>
+		<SubProfile0_MicrofacetDensity value="0.521"/>
+		<SubProfile0_DensityRandomization value="0.151"/>
+		<SubProfile1_MicrofacetDensity value="0.473"/>
+		<SubProfile1_DensityRandomization value="0.132"/>
+		<SubProfile2_MicrofacetDensity value="0.473"/>
+		<SubProfile2_DensityRandomization value="0.035"/>
+		<SubProfile3_MicrofacetDensity value="0.45"/>
+		<SubProfile3_DensityRandomization value="0.07"/>
+	</Item>
+	<Item>
+		<ProfileName>Concrete</ProfileName>
+		<ProfileIndex value="8"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="4.0"/>
+		<SubProfile0_MicrofacetDensity value="0.688"/>
+		<SubProfile0_DensityRandomization value="0.022"/>
+		<SubProfile1_MicrofacetDensity value="0.642"/>
+		<SubProfile1_DensityRandomization value="0.043"/>
+		<SubProfile2_MicrofacetDensity value="0.375"/>
+		<SubProfile2_DensityRandomization value="0.021"/>
+		<SubProfile3_MicrofacetDensity value="0.25"/>
+		<SubProfile3_DensityRandomization value="0.05"/>
+	</Item>
+	<Item>
+		<ProfileName>Concrete_Glinty</ProfileName>
+		<ProfileIndex value="9"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="2.0"/>
+		<SubProfile0_MicrofacetDensity value="0.688"/>
+		<SubProfile0_DensityRandomization value="0.022"/>
+		<SubProfile1_MicrofacetDensity value="0.642"/>
+		<SubProfile1_DensityRandomization value="0.043"/>
+		<SubProfile2_MicrofacetDensity value="0.375"/>
+		<SubProfile2_DensityRandomization value="0.045"/>
+		<SubProfile3_MicrofacetDensity value="0.25"/>
+		<SubProfile3_DensityRandomization value="0.06"/>
+	</Item>
+	<Item>
+		<ProfileName>Grainy_Finish</ProfileName>
+		<ProfileIndex value="10"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="2.0"/>
+		<SubProfile0_MicrofacetDensity value="0.491"/>
+		<SubProfile0_DensityRandomization value="0"/>
+		<SubProfile1_MicrofacetDensity value="0.665"/>
+		<SubProfile1_DensityRandomization value="0"/>
+		<SubProfile2_MicrofacetDensity value="0.47"/>
+		<SubProfile2_DensityRandomization value="0"/>
+		<SubProfile3_MicrofacetDensity value="0.208"/>
+		<SubProfile3_DensityRandomization value="0"/>
+	</Item>
+	<Item>
+		<ProfileName>Roof_Felt</ProfileName>
+		<ProfileIndex value="11"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="3.0"/>
+		<SubProfile0_MicrofacetDensity value="0.693"/>
+		<SubProfile0_DensityRandomization value="0.046"/>
+		<SubProfile1_MicrofacetDensity value="0.639"/>
+		<SubProfile1_DensityRandomization value="0.0211"/>
+		<SubProfile2_MicrofacetDensity value="0.37"/>
+		<SubProfile2_DensityRandomization value="0.025"/>
+		<SubProfile3_MicrofacetDensity value="0.1"/>
+		<SubProfile3_DensityRandomization value="0.026"/>
+	</Item>
+	<Item>
+		<ProfileName>Paving_Blocks_and_Bricks_Glinty</ProfileName>
+		<ProfileIndex value="12" />
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="2.0"/>
+		<SubProfile0_MicrofacetDensity value="0.5" />
+		<SubProfile0_DensityRandomization value="0.0574" />
+		<SubProfile1_MicrofacetDensity value="0.538" />
+		<SubProfile1_DensityRandomization value="0.035" />
+		<SubProfile2_MicrofacetDensity value="0.45" />
+		<SubProfile2_DensityRandomization value="0.0485" />
+		<SubProfile3_MicrofacetDensity value="0.272" />
+		<SubProfile3_DensityRandomization value="0.039" />
+    </Item>
+	<Item>
+		<ProfileName>Paving_Blocks_and_Bricks_Subtle</ProfileName>
+		<ProfileIndex value="13"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="3.0"/>
+		<SubProfile0_MicrofacetDensity value="0.663"/>
+		<SubProfile0_DensityRandomization value="0.031"/>
+		<SubProfile1_MicrofacetDensity value="0.539"/>
+		<SubProfile1_DensityRandomization value="0.035"/>
+		<SubProfile2_MicrofacetDensity value="0.45"/>
+		<SubProfile2_DensityRandomization value="0.042"/>
+		<SubProfile3_MicrofacetDensity value="0.27"/>
+		<SubProfile3_DensityRandomization value="0.048"/>
+	</Item>
+	<Item>
+		<ProfileName>Rock</ProfileName>
+		<ProfileIndex value="14"/>
+		<WetnessBehaviour value="1"/>
+		<PeakBrightnessScale value="2.0"/>
+		<SubProfile0_MicrofacetDensity value="0.816" />
+		<SubProfile0_DensityRandomization value="0.048" />
+		<SubProfile1_MicrofacetDensity value="0.35" />
+		<SubProfile1_DensityRandomization value="0.063" />
+		<SubProfile2_MicrofacetDensity value="0.32" />
+		<SubProfile2_DensityRandomization value="0.03" />
+		<SubProfile3_MicrofacetDensity value="0.156" />
+		<SubProfile3_DensityRandomization value="0.05" />
+	</Item>
+	<Item>
+		<ProfileName>Polished_Stone</ProfileName>
+		<ProfileIndex value="15"/>
+		<WetnessBehaviour value="0"/>
+		<PeakBrightnessScale value="1.0"/>
+		<SubProfile0_MicrofacetDensity value="0.6"/>
+		<SubProfile0_DensityRandomization value="0.022"/>
+		<SubProfile1_MicrofacetDensity value="0.418"/>
+		<SubProfile1_DensityRandomization value="0.05"/>
+		<SubProfile2_MicrofacetDensity value="0.446"/>
+		<SubProfile2_DensityRandomization value="0.06"/>
+		<SubProfile3_MicrofacetDensity value="0.334"/>
+		<SubProfile3_DensityRandomization value="0.004"/>
+	</Item>
+  </ProfileList>
+</GlintsProfiles>

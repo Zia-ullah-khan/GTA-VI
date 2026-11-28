@@ -1,0 +1,27 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\gta6_mission_flow_chart.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -232,7 +232,7 @@
+ - **Scope**: 7 explosive main story missions.
+ - **Major Tactical Raid**: *"Operation Savage Glory"* (Coast guard facility raid & bridge destruction with Giorgio Gallo).
+ - **The Binary Finale Trigger**: *"Protective Custody"* requires meeting Abe Gonzalez. The player is presented with a strict prompt:
+-  - **"Postpone"**: Exit and complete any remaining world exploration or bank $2,000,000 for savings thresholds.
++  - **"Postpone"**: Exit and complete any remaining open-world activities or side content before the final lockdown.
+   - **"Proceed"**: Initiates a continuous ~60-minute non-stop combat and set-piece gauntlet culminating in *"The End of the Road"*.
+ 
+ ```mermaid
+@@ -250,9 +250,9 @@
+     end
+     
+     subgraph Endings["Branching Resolutions"]
+-        M102 --> E1["Ending A: Bonnie & Clyde<br/>(Requires 'Hot Together' Status + $2M Banked)"]
+-        M102 --> E2["Ending B: The Deal<br/>(Accept Mendez's Immunity Plea)"]
+-        M102 --> E3["Ending C: The Sacrifice<br/>(Solo Extraction Fallback)"]
++        M102 --> E1["Ending A: Bonnie & Clyde<br/>★ Canonical Ending ★<br/>(Choice: Trust Partner; Rewards $2M Payout)"]
++        M102 --> E2["Ending B: The Deal<br/>⚡ Fastest Any% Speedrun Ending ⚡<br/>(Accept Mendez's Immunity Plea; Skips Swamp Chase)"]
++        M102 --> E3["Ending C: The Sacrifice<br/>(Choice: Solo Heroic Extraction Fallback)"]
+     end
+ ```
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

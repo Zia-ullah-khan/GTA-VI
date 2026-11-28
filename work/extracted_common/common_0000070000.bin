@@ -1,0 +1,2780 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CDamageDataManager>
+  <DamageModifiers>
+    <Item type="CDamageModifierMulti">
+      <Name>BehemothAnimals_Modifiers</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_LAUNCHED_SPEAR</Item>
+          <Item>AMMO_PISTOL</Item>
+          <Item>AMMO_REVOLVER</Item>
+          <Item>AMMO_RIFLE</Item>
+          <Item>AMMO_SHOTGUN</Item>
+          <Item>AMMO_SMG</Item>
+          <Item>AMMO_SPORTING</Item>
+        </AmmoTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMulti">
+        <Name>BehemothAnimals_Modifiers_Limited</Name>
+        <TrackUsage value="true" />
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionLimitedUse">
+              <Name>BehemothAnimals_Modifiers_Limited</Name>
+              <Value value="10" />
+            </Item>
+          </Conditions>
+        </Condition>
+        <Modifiers>
+          <Item type="CDamageModifierPreventBleedout" />
+          <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+        </Modifiers>
+      </NextModifier>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>ExtraLargeAnimals_Modifiers</Name>
+      <Condition type="CDamageConditionOr">
+      <Conditions>
+        <Item type="CDamageConditionFromAmmoType">
+          <AmmoTypes>
+            <Item>AMMO_ARROW</Item>
+            <Item>AMMO_ARROW_SMALL_GAME</Item>
+            <Item>AMMO_ARROW_TRACKING</Item>
+            <Item>AMMO_THROWING_KNIVES</Item>
+            <Item>AMMO_THROWING_KNIVES_IMPROVED</Item>
+            <Item>AMMO_THROWING_KNIVES_CONFUSE</Item>
+            <Item>AMMO_THROWING_KNIVES_JAVIER</Item>
+            <Item>AMMO_THROWING_KNIVES_DISORIENT</Item>
+            <Item>AMMO_THROWING_KNIVES_DRAIN</Item>
+            <Item>AMMO_THROWING_KNIVES_TRAIL</Item>
+            <Item>AMMO_THROWING_KNIVES_DISORIENT</Item>
+            <Item>AMMO_THROWING_KNIVES_WOUND</Item>
+            <Item>AMMO_PISTOL</Item>
+            <Item>AMMO_REVOLVER</Item>
+          </AmmoTypes>
+        </Item>
+        <Item type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromThrownWeapon"/>
+            <Item type="CDamageConditionNot">
+              <Condition type="CDamageConditionFromWeaponFlags">
+                <WeaponInfoFlags>MeleeBlade MeleeBladeLong</WeaponInfoFlags>
+                <RequiresAll value="false" />
+              </Condition>
+            </Item>
+          </Conditions>
+        </Item>
+      </Conditions>
+    </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMulti">
+        <Name>ExtraLargeAnimals_Modifiers_Limited</Name>
+        <TrackUsage value="true" />
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionLimitedUse">
+              <Name>ExtraLargeAnimals_Modifiers_Limited</Name>
+              <Value value="2" />
+            </Item>
+          </Conditions>
+        </Condition>
+        <Modifiers>
+          <Item type="CDamageModifierPreventBleedout" />
+          <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+        </Modifiers>
+      </NextModifier>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>LargeAnimals_Modifiers</Name>
+      <TrackUsage value="true" />
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromAmmoType">
+                <AmmoTypes>
+                  <Item>AMMO_ARROW_SMALL_GAME</Item>
+                  <Item>AMMO_THROWING_KNIVES</Item>
+                  <Item>AMMO_THROWING_KNIVES_IMPROVED</Item>
+                  <Item>AMMO_THROWING_KNIVES_CONFUSE</Item>
+                  <Item>AMMO_THROWING_KNIVES_JAVIER</Item>
+                  <Item>AMMO_THROWING_KNIVES_DISORIENT</Item>
+                  <Item>AMMO_THROWING_KNIVES_DRAIN</Item>
+                  <Item>AMMO_THROWING_KNIVES_TRAIL</Item>
+                  <Item>AMMO_THROWING_KNIVES_DISORIENT</Item>
+                  <Item>AMMO_THROWING_KNIVES_WOUND</Item>
+                  <Item>AMMO_PISTOL</Item>
+                  <Item>AMMO_REVOLVER</Item>
+                </AmmoTypes>
+              </Item>
+              <Item type="CDamageConditionLimitedUse">
+                <Name>LargeAnimals_Modifiers</Name>
+                <Value value="1" />
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_BOLAS</Item>
+              <Item>AMMO_ARROW_TRACKING</Item>
+            </AmmoTypes>
+          </Item>
+        <Item type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromThrownWeapon"/>
+            <Item type="CDamageConditionNot">
+              <Condition type="CDamageConditionFromWeaponFlags">
+                <WeaponInfoFlags>MeleeBlade MeleeBladeLong</WeaponInfoFlags>
+                <RequiresAll value="false" />
+              </Condition>
+            </Item>
+          </Conditions>
+        </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <NextModifier type="CDamageModifierNonFatalDamage">
+        <Condition type="CDamageConditionFromAmmoType">
+          <AmmoTypes>
+            <Item>AMMO_BOLAS</Item>
+          </AmmoTypes>
+        </Condition>
+        <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+        <NextModifier type="CDamageModifierForceRagdoll">
+          <Name>LargeAnimals_BolasRagdollModifier</Name>
+          <TrackUsage value="true" />
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionLimitedUse">
+                <Name>LargeAnimals_BolasRagdollModifier</Name>
+                <Value value="1" />
+              </Item>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionVictimHealthState">
+                  <HealthState>Incapacitated</HealthState>
+                </Condition>
+              </Item>
+            </Conditions>
+          </Condition>
+        </NextModifier>
+      </NextModifier>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>MediumLargeAnimals_Modifiers</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MediumLargeAnimals_WeaponsModifiers</Item>
+        <Item>MeleeDamageModifyAnimalSizes</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>MediumLargeAnimals_WeaponsModifiers</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_ARROW_SMALL_GAME</Item>
+          <Item>AMMO_ARROW_TRACKING</Item>
+          <Item>AMMO_22</Item>
+          <Item>AMMO_BOLAS</Item>
+        </AmmoTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <NextModifier type="CDamageModifierForceRagdoll">
+        <Name>MediumLargeAnimals_BolasModifiers</Name>
+        <TrackUsage value="true" />
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromAmmoType">
+              <AmmoTypes>
+                <Item>AMMO_BOLAS</Item>
+              </AmmoTypes>
+            </Item>
+            <Item type="CDamageConditionLimitedUse">
+              <Name>MediumLargeAnimals_BolasModifiers</Name>
+              <Value value="1" />
+            </Item>
+          </Conditions>
+        </Condition>
+        <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+        <NextModifier type="CDamageModifierMultiReference">
+          <Name>MediumLargeAnimals_Other</Name>
+          <Modifiers>
+            <Item>ForceTrackingArrowPoisonBleedout</Item>
+          </Modifiers>
+        </NextModifier>
+      </NextModifier>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>MediumAnimals_Modifiers</Name>
+      <Modifiers>
+        <Item>MediumAnimals_SmallGameArrowModifiers</Item>
+        <Item>MediumAnimals_InstantKill</Item>
+        <Item>SmallMediumBirds_InstantKill</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>BeaverAnimals_Modifiers</Name>
+      <Modifiers>
+        <Item>MediumAnimals_SmallGameArrowModifiers</Item>
+        <Item>ForceTrackingArrowPoisonBleedout</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>SmallAnimals_Modifiers</Name>
+      <Modifiers>
+        <Item>MediumAnimals_InstantKill</Item>
+        <Item>SmallMediumBirds_InstantKill</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>MediumAnimals_SmallGameArrowModifiers</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_ARROW_SMALL_GAME</Item>
+          <Item>AMMO_ARROW_TRACKING</Item>
+        </AmmoTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arrow_ClampToMaxDamage</Name>
+      <Low value="0.000000" />
+      <High value="55.000000" />
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arrow_ClampToMaxDamageFire</Name>
+      <Low value="0.000000" />
+      <High value="100.000000" />
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW_FIRE</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierForceRagdoll">
+      <Name>Shotgun_ShortRange_Ragdoll</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+            <WeaponGroups>
+              <Item>GROUP_SHOTGUN</Item>
+            </WeaponGroups>
+          </Item>
+          <Item type="CDamageConditionDistance">
+            <RHS value="10.0"/>
+            <CompareType>LESS_OR_EQUAL</CompareType>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierForceRagdoll">
+      <Name>Weapon_ClampToMaxDamageRagDoll</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_MELEE_HATCHET</Item>
+              <Item>WEAPON_MELEE_HATCHET_MELEEONLY</Item>
+              <Item>WEAPON_MELEE_HATCHET_VIKING</Item>
+              <Item>WEAPON_MELEE_HATCHET_HEWING</Item>
+              <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT</Item>
+              <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT_RUSTED</Item>
+              <Item>WEAPON_MELEE_HATCHET_HUNTER</Item>
+              <Item>WEAPON_MELEE_HATCHET_HUNTER_RUSTED</Item>
+              <Item>WEAPON_AUTORIFLE_CARBINE</Item>
+              <Item>WEAPON_SNIPER_HUNTER</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_THROWING_KNIVES</Item>
+              <Item>AMMO_THROWING_KNIVES_IMPROVED</Item>
+              <Item>AMMO_THROWING_KNIVES_POISON</Item>
+              <Item>AMMO_THROWING_KNIVES_CONFUSE</Item>
+              <Item>AMMO_THROWING_KNIVES_DISORIENT</Item>
+              <Item>AMMO_THROWING_KNIVES_DRAIN</Item>
+              <Item>AMMO_THROWING_KNIVES_TRAIL</Item>
+              <Item>AMMO_THROWING_KNIVES_WOUND</Item>
+              <Item>AMMO_TOMAHAWK</Item>
+              <Item>AMMO_TOMAHAWK_HOMING</Item>
+              <Item>AMMO_TOMAHAWK_IMPROVED</Item>
+              <Item>AMMO_ARROW</Item>
+              <Item>AMMO_ARROW_IMPROVED</Item>
+              <Item>AMMO_ARROW_POISON</Item>
+              <Item>AMMO_ARROW_FIRE</Item>
+              <Item>AMMO_ARROW_DYNAMITE</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierInstantKill">
+      <Name>Arrow_InstantKill</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>ARROW</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW</Item>
+              <Item>AMMO_ARROW_FIRE</Item>
+              <Item>AMMO_ARROW_DYNAMITE</Item>
+              <Item>AMMO_ARROW_IMPROVED</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierInstantKill">
+      <Name>SmallMediumBirds_InstantKill</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionVictimIsBird" />
+            <Item type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>BULLET</Item>
+                <Item>ARROW</Item>
+              </DamageTypes>
+            </Item>
+          </Conditions>
+        </Condition>
+    </Item>
+    <Item type="CDamageModifierInstantKill">
+      <Name>MediumAnimals_InstantKill</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_BOLAS</Item>
+          <Item>AMMO_ARROW_TRACKING</Item>
+        </AmmoTypes>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arrow_HitMultiply</Name>
+      <Value value="1.250000"/>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>ARROW</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW</Item>
+              <Item>AMMO_ARROW_IMPROVED</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierNoCriticalOrFatalDamage">
+      <Name>LowCaliberWeapon_NoCriticalAndFatalShots</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>BULLET</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_PISTOL_CIVILIAN</Item>
+                  <Item>WEAPON_PISTOL_POLYMER</Item>
+                  <Item>WEAPON_PISTOL_MILITARY</Item> 
+                  <Item>WEAPON_PISTOL_SERVICE</Item> 
+                  <Item>WEAPON_PISTOL_TACTICAL</Item>
+                  <Item>WEAPON_TACRIFLE_SPORTING</Item>
+                  <Item>WEAPON_TACRIFLE_CARBINE</Item>
+                </WeaponTypes>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_SPORTING</Item>
+              <Item>AMMO_PISTOL</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>LowCaliberWeapon_CriticalAndFatalModifier</Name>
+        <Condition type="CDamageConditionFromWeaponType">
+          <WeaponTypes>
+            <Item>WEAPON_PISTOL_CIVILIAN</Item>
+            <Item>WEAPON_PISTOL_POLYMER</Item>
+            <Item>WEAPON_PISTOL_MILITARY</Item> 
+            <Item>WEAPON_PISTOL_SERVICE</Item> 
+            <Item>WEAPON_PISTOL_TACTICAL</Item>
+            <Item>WEAPON_TACRIFLE_SPORTING</Item>
+            <Item>WEAPON_TACRIFLE_CARBINE</Item>
+          </WeaponTypes>
+        </Condition>
+     <Value value="0.85"/>
+     <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierNoCriticalOrFatalDamage">
+      <Name>BluntArrowAndBolas_NoCriticalAndFatalShots</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>ARROW</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionFromAmmoType">
+                <AmmoTypes>
+                  <Item>AMMO_ARROW_SMALL_GAME</Item>
+                  <Item>AMMO_ARROW_TRACKING</Item>
+                </AmmoTypes>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_BOLAS</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierForceBleedout">
+      <Name>ForcePoisonBleedout</Name>
+      <VerifyAllowed value="true"/>
+      <BleedoutType>Poison</BleedoutType>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW_POISON</Item>
+              <Item>AMMO_THROWING_KNIVES_POISON</Item>
+            </AmmoTypes>
+          </Item>
+          <Item type="CDamageConditionVictimExists"/>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionVictimIsPlayer"/>
+          </Item>
+          <Item type="CDamageConditionShouldAllowBleedout"/>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierForceBleedout">
+      <Name>ForceTrackingArrowPoisonBleedout</Name>
+      <VerifyAllowed value="true"/>
+      <BleedoutType>Poison_TrackingArrow</BleedoutType>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW_TRACKING</Item>
+            </AmmoTypes>
+          </Item>
+          <Item type="CDamageConditionVictimExists"/>
+          <Item type="CDamageConditionVictimIsAnimal"/>
+          <Item type="CDamageConditionShouldAllowBleedout"/>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierApplyPoison">
+      <Name>ForcePoison</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionVictimIsPlayer" />
+              <Item type="CDamageConditionFromWeaponFlags">
+                <WeaponInfoFlags>  AppliesPoisonOnDamage</WeaponInfoFlags>
+                <RequiresAll value="false" />
+              </Item>
+            </Conditions>
+          </Condition>
+          <Item type="CDamageConditionFromAmmoType">
+            <AmmoTypes>
+              <Item>AMMO_ARROW_POISON</Item>
+              <Item>AMMO_THROWING_KNIVES_POISON</Item>
+            </AmmoTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>PoisonWeapon</Name>
+      <Modifiers>
+        <Item>ReducePoisonDamageDueToKitItems</Item>
+        <Item>ForcePoisonBleedout</Item>
+        <Item>ForcePoison</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierForceInjury">
+      <Name>TrackingArrow_ForceHumanInjury</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_ARROW_TRACKING</Item>
+        </AmmoTypes>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>ArmourHit_NoShotgun</Name>
+      <Condition type="CDamageConditionNot">
+        <Condition type="CDamageConditionFromAmmoType">
+          <AmmoTypes>
+            <Item>AMMO_SHOTGUN_REGULAR</Item>
+          </AmmoTypes>
+        </Condition>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMulti">
+        <Name>ArmourHit_NoShotgun_LessThanHalfArmour</Name>
+        <Condition type="CDamageConditionRatio">
+          <ValueType>ArmourDamage</ValueType>
+          <RHS value="0.5"/>
+          <CompareType>LESS_OR_EQUAL</CompareType>
+        </Condition>
+        <Modifiers>
+          <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+          <Item type="CDamageModifierAddAbstract">
+            <ValueType>HealthDamage</ValueType>
+            <Value type="CMultiplyProvider">
+              <First type="CFloatProvider">
+                <Value value="0.250000"/>
+              </First>
+              <Second type="COriginalDamageProvider"/>
+            </Value>
+          </Item>
+        </Modifiers>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <NextModifier type="CDamageModifierSuppressRagdoll">
+            <Condition type="CDamageConditionNot">
+              <Condition type="CDamageConditionOr">
+                <Conditions>
+                <Item type="CDamageConditionFromThrownWeapon"/>
+                <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                  <WeaponGroups>
+                    <Item>GROUP_SPORTS</Item>
+                    <Item>GROUP_THROWN</Item>
+                    <Item>GROUP_SNIPER</Item>
+                  </WeaponGroups>
+                </Item>
+                </Conditions>
+              </Condition>
+            </Condition>
+        </NextModifier>
+      </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>ArmourHit_Shotgun</Name>
+      <Condition type="CDamageConditionFromAmmoType">
+        <AmmoTypes>
+          <Item>AMMO_SHOTGUN_REGULAR</Item>
+        </AmmoTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.2500000"/>
+        </Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMulti">
+        <Name>ArmourHit_Shotgun_LessThanHalfArmour</Name>
+        <Condition type="CDamageConditionRatio">
+          <ValueType>ArmourDamage</ValueType>
+          <RHS value="0.5"/>
+          <CompareType>LESS_OR_EQUAL</CompareType>
+        </Condition>
+        <Modifiers>
+          <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+          <Item type="CDamageModifierAddAbstract">
+            <ValueType>HealthDamage</ValueType>
+            <Value type="CMultiplyProvider">
+              <First type="CFloatProvider">
+                <Value value="0.062500"/>
+              </First>
+              <Second type="COriginalDamageProvider"/>
+            </Value>
+          </Item>
+        </Modifiers>
+      </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>ReducePoisonDamageDueToKitItems</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_SMOKE</Item>
+                </WeaponTypes>
+              </Item>
+              <Item type="CDamageConditionFromAmmoType">
+                <AmmoTypes>
+                  <Item>AMMO_ARROW_POISON</Item>
+                  <Item>AMMO_THROWING_KNIVES_POISON</Item>
+                </AmmoTypes>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsWearingKitItem">
+                <PropertyTag>PEDAPPEARANCE</PropertyTag>
+                <PropertyTagValue>mouth_concealed</PropertyTagValue>
+                <State>Base</State>
+              </Item>
+              <Item type="CDamageConditionIsWearingKitItem">
+                <Category>Wraps</Category>
+                <PropertyTag>Style</PropertyTag>
+                <PropertyTagValue>Bandana</PropertyTagValue>
+                <State>Base</State>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.50000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>Hit_Armour</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyArmor</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionRatio">
+              <ValueType>ArmourDamage</ValueType>
+              <RHS value="0.0"/>
+              <CompareType>GREATER</CompareType>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item>ArmourHit_NoShotgun</Item>
+        <Item>ArmourHit_Shotgun</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Hit_Default</Name>
+      <Modifiers>
+        <Item>Hit_AccessibleMode</Item>
+        <Item>Hit_Armour</Item>
+        <Item>TrackingArrow_ForceHumanInjury</Item>
+        <Item>Hit_Armed_Melee</Item>
+        <Item>Hit_UpClose</Item>
+        <Item>Hit_WhenDowned</Item>
+        <Item>Hit_WhenDowned_Shotgun</Item>
+        <Item>Hit_WhenKnockedOut</Item>
+        <Item>Hit_ArmourWhenDowned</Item>
+        <Item>HitBodyTrunkPassthrough_ForceDowned</Item>
+        <Item>Prevent_Ragdoll_On_Far_Distance</Item>
+        <Item>Leg_Damage_Modifier</Item>
+        <Item>Hit_FromThrownItem</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierForceDowned">
+      <Name>HitBodyTrunkPassthrough_ForceDowned</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionDamagePassedThrough" />
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyPartTrunk</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionAnd">
+              <Conditions>
+                <Item type="CDamageConditionHitMaterial">
+                  <MaterialIncludeMask>
+                    <Item>BodyArmor</Item>
+                  </MaterialIncludeMask>
+                </Item>
+                <Item type="CDamageConditionRatio">
+                  <ValueType>ArmourDamage</ValueType>
+                  <RHS value="0.0"/>
+                  <CompareType>GREATER</CompareType>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+
+    <Item type="CDamageModifierInstantKill">
+      <Name>HitBodyTrunk_OneShotKill</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyPartTrunk</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionAnd">
+              <Conditions>
+                <Item type="CDamageConditionHitMaterial">
+                  <MaterialIncludeMask>
+                    <Item>BodyArmor</Item>
+                  </MaterialIncludeMask>
+                </Item>
+                <Item type="CDamageConditionRatio">
+                  <ValueType>ArmourDamage</ValueType>
+                  <RHS value="0.0"/>
+                  <CompareType>GREATER</CompareType>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+
+    <Item type="CDamageModifierInstantKill">
+      <Name>HitBodyTrunk_OneShotKillIncludingArmor</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyPartTrunk</Item>
+            </MaterialIncludeMask>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_WhenKnockedOut</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionVictimHealthState">
+            <HealthState>KnockedOut</HealthState>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionFromWeaponGroup">
+                    <WeaponGroups>
+                      <Item>GROUP_MELEE</Item>
+                    </WeaponGroups>
+                  </Item>
+                  <Item type="CDamageConditionOr">
+                    <Conditions>
+                      <Item type="CDamageConditionAnd">
+                        <Conditions>
+                          <Item type="CDamageConditionNot">
+                            <Condition type="CDamageConditionFromWeaponFlags">
+                              <WeaponInfoFlags>MeleeBlade</WeaponInfoFlags>
+                              <RequiresAll value="false" />
+                            </Condition>
+                          </Item>
+                          <Item type="CDamageConditionHitMaterial">
+                            <MaterialIncludeMask>
+                              <Item>BodyPartNeckOrHead</Item>
+                            </MaterialIncludeMask>
+                          </Item>
+                          <Item type="CDamageConditionLimitedUse">
+                            <Name>Hit_WhenKnockedOut</Name>
+                            <Value value="1" />
+                          </Item>
+                        </Conditions>
+                      </Item>
+                      <Item type="CDamageConditionAnd">
+                        <Conditions>
+                          <Item type="CDamageConditionLimitedUse">
+                            <Name>Hit_WhenKnockedOut</Name>
+                            <Value value="2" />
+                          </Item>
+                          <Item type="CDamageConditionNot">
+                            <Condition type="CDamageConditionHitMaterial">
+                              <MaterialIncludeMask>
+                                <Item>BodyPartNeckOrHead</Item>
+                              </MaterialIncludeMask>
+                            </Condition>
+                          </Item>
+                        </Conditions>
+                      </Item>
+                    </Conditions>
+                  </Item>
+                </Conditions>
+              </Item>
+              <Item type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionNot">
+                    <Condition type="CDamageConditionFromWeaponGroup">
+                      <WeaponGroups>
+                        <Item>GROUP_MELEE</Item>
+                      </WeaponGroups>
+                    </Condition>
+                  </Item>
+                  <Item type="CDamageConditionLimitedUse">
+                    <Name>Hit_WhenKnockedOut</Name>
+                    <Value value="5" />
+                  </Item>
+                </Conditions>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_WhenKnockedOut_BulletOrImpact</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>BULLET</Item>
+                <Item>BULLET_RUBBER</Item>
+                <Item>ARROW</Item>
+                <Item>FALL</Item>
+                <Item>COLLISION</Item>
+              </DamageTypes>
+            </Item>
+            <Item type="CDamageConditionVictimHealthState">
+              <HealthState>KnockedOut</HealthState>
+            </Item>
+          <Item type="CDamageConditionSecondsInCurrentHealthState">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="1.500000" />
+          </Item>
+           <Item type="CDamageConditionLimitedUse">
+             <Name>Hit_WhenKnockedOut_BulletOrImpact</Name>
+             <Value value="5" />
+           </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionDamageRegionIsType">
+                  <Types>TYPE_FATAL</Types>
+                </Item>
+                <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                  <WeaponGroups>
+                    <Item>GROUP_SHOTGUN</Item>
+                  </WeaponGroups>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          </Conditions>
+        </Condition>
+        <NextModifier type="NULL" />
+        <TrackUsage value="true" />
+        <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+        <ValueType>ArmourOrHealthDamage</ValueType>
+        <Value value="0.000000" />
+      </NextModifier>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="0.00000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_WhenDowned</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>FALL</Item>
+              <Item>COLLISION</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionVictimHealthState">
+            <HealthState>Incapacitated</HealthState>
+          </Item>
+          <Item type="CDamageConditionSecondsInCurrentHealthState">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="1.500000" />
+          </Item>
+          <Item type="CDamageConditionLimitedUse">
+            <Name>Hit_WhenDowned</Name>
+            <Value value="5" />
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionDamageRegionIsType">
+                  <Types>TYPE_FATAL</Types>
+                </Item>
+                <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                  <WeaponGroups>
+                    <Item>GROUP_SHOTGUN</Item>
+                  </WeaponGroups>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <Value value="0.100000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_WhenDowned_Shotgun</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionVictimHealthState">
+            <HealthState>Incapacitated</HealthState>
+          </Item>
+          <Item type="CDamageConditionSecondsInCurrentHealthState">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="0.00000" />
+          </Item>
+          <Item type="CDamageConditionLimitedUse">
+            <Name>Hit_WhenDowned_Shotgun</Name>
+            <Value value="10" />
+          </Item>
+          <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+            <WeaponGroups>
+              <Item>GROUP_SHOTGUN</Item>
+            </WeaponGroups>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionDamageRegionIsType">
+              <Types>TYPE_FATAL</Types>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <Value value="0.010000" />
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>Hit_ArmourWhenDowned</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyArmor</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionRatio">
+              <ValueType>ArmourDamage</ValueType>
+              <RHS value="0.0"/>
+              <CompareType>GREATER</CompareType>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Incapacitated</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>KnockedOut</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Dead</HealthState>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="2.000000"/>
+        </Item>
+        <Item type="CDamageModifierClampAbstract">
+          <Low type="CFloatProvider">
+            <Value value="0.000000"/>
+          </Low>
+          <High type="CHitBoundArmourProvider" />
+        </Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Armed_Melee</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionInflictorIsPlayer" />
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionDistance">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="3.000000" />
+          </Item>
+          <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+            <WeaponGroups>
+              <Item>GROUP_SHOTGUN</Item>
+              <Item>GROUP_PISTOL</Item>
+              <Item>GROUP_SMG</Item>
+              <Item>GROUP_RIFLE</Item>
+              <Item>GROUP_SNIPER</Item>
+              <Item>GROUP_HEAVY</Item>
+              <Item>GROUP_LAUNCHER</Item>
+              <Item>GROUP_REVOLVER</Item>
+              <Item>GROUP_TACTICAL</Item>
+            </WeaponGroups>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="2.000000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_UpClose</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionInflictorIsPlayer" />
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>ARROW</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionDistance">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="3.000000" />
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponAndAmmoGroup">
+              <WeaponGroups>
+                <Item>GROUP_SHOTGUN</Item>
+              </WeaponGroups>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>MELEE</Item>
+              </DamageTypes>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="2.000000" />
+    </Item>
+
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>Hit_Player_UpClose</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>ARROW</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponAndAmmoGroup">
+              <WeaponGroups>
+                <Item>GROUP_SHOTGUN</Item>
+              </WeaponGroups>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>MELEE</Item>
+              </DamageTypes>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Very_Close</Name>
+        <Condition type="CDamageConditionDistance">
+          <CompareType>LESS_OR_EQUAL</CompareType>
+          <RHS value="4.000000" />
+        </Condition>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>Close</Name>
+          <Condition type="CDamageConditionDistance">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <RHS value="7.000000" />
+          </Condition>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="1.200000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="1.400000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Generic</Name>
+      <Item type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+              <Item>COLLISION</Item>
+              <Item>FALL</Item>
+              <Item>RUN_OVER</Item>
+              <Item>EXPLOSIVE</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_BLEEDING</Item>
+            </WeaponTypes>
+          </Item>
+      </Conditions>
+      </Item>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_GenericOther</Name>
+        <Value value="1.366666"/>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_AccessibleMode</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionIsGameDifficulty">
+            <DifficultyLevel>Accessible</DifficultyLevel>
+          </Item>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+              <Item>COLLISION</Item>
+              <Item>FALL</Item>
+              <Item>RUN_OVER</Item>
+              <Item>EXPLOSIVE</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionIsPlayer">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_AccessibleModeOther</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionIsPlayer">
+              <Entity>Inflictor</Entity>
+            </Item>
+            <Item type="CDamageConditionIsGameDifficulty">
+              <DifficultyLevel>Accessible</DifficultyLevel>
+            </Item>
+            <Item type="CDamageConditionNot">
+              <Condition type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_BLEEDING</Item>
+                </WeaponTypes>
+              </Condition>
+            </Item>
+          </Conditions>
+        </Condition>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="1.7500000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.250000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsGameDifficulty">
+              <DifficultyLevel>Accessible</DifficultyLevel>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+              <Item>COLLISION</Item>
+              <Item>FALL</Item>
+              <Item>RUN_OVER</Item>
+              <Item>EXPLOSIVE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_PlayerSPOther</Name>
+        <Condition type="CDamageConditionNot">
+          <Condition type="CDamageConditionIsGameDifficulty">
+            <DifficultyLevel>Accessible</DifficultyLevel>
+          </Condition>
+        </Condition>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>Hit_PlayerSP_Accessibility</Name>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="0.500000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="0.700000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.000000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSPOffscreen</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>BULLET</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionFromDamageType">
+                    <DamageTypes>
+                      <Item>MELEE</Item>
+                    </DamageTypes>
+                  </Item>
+                  <Item type="CDamageConditionNot">
+                    <Condition type="CDamageConditionIsDamageComingFromMeleeActionWithTypes" >
+                      <ActionTypes> AT_EXECUTION AT_KNOCKOUT AT_TAKEDOWN</ActionTypes>
+                    </Condition>
+                  </Item>
+                </Conditions>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionSecondsSinceInflictorAggrodOnScreen">
+              <RHS value="30.0"/>
+              <CompareType>GREATER_OR_EQUAL</CompareType>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.67"/>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>Hit_PlayerSPNonFatalTimeToDie</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionInflictorIsPed" />
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionInflictorIsAnimal" />
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionDamageScriptGenerated" />
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>BULLET</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionFromDamageType">
+                    <DamageTypes>
+                      <Item>MELEE</Item>
+                    </DamageTypes>
+                  </Item>
+                  <Item type="CDamageConditionNot">
+                    <Condition type="CDamageConditionIsDamageComingFromMeleeActionWithTypes" >
+                      <ActionTypes>AT_EXECUTION AT_KNOCKOUT AT_TAKEDOWN</ActionTypes>
+                    </Condition>
+                  </Item>
+                </Conditions>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionHasPlayerBeenDamagedInCurrentCombat" />
+              </Item>
+              <Item type="CDamageConditionIsTimeWithinSecondsSinceLocalPlayerFirstDamagedInCombat">
+                <UpperLimit value="2.0"/>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierNonFatalDamage" />
+        <Item type="CDamageModifierMultiply">
+          <Value value="1.00"/>
+        </Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSPWhileHealing</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionIsInItemInteractionState">
+            <Entity>Victim</Entity>
+            <Tags>
+              <Item>Healing</Item>
+            </Tags>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.25"/>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+        <Name>Hit_PlayerWithStun</Name>
+        <Condition type="CDamageConditionAnd">
+            <Conditions>
+                <Item type="CDamageConditionVictimIsPlayer" />
+                <Item type="CDamageConditionFromAmmoType">
+                    <AmmoTypes>
+                        <Item>AMMO_SPECIAL_STUN</Item>
+                    </AmmoTypes>
+                </Item>
+                <Item type="CDamageConditionOr">
+                  <Conditions>
+                    <Item type="CDamageConditionNot">
+                      <Condition type="CDamageConditionVictimReadyToBeBusted">
+                          <MaxTimesShocked value="1"/>
+                      </Condition>
+                    </Item>
+                    <Item type="CDamageConditionAnd">
+                        <Conditions>
+                          <Item type="CDamageConditionNot">
+                              <Condition type="CDamageConditionVictimReadyToBeBusted">
+                                  <MaxTimesShocked value="3"/>
+                              </Condition>
+                          </Item>
+                          <Item type="CDamageConditionNot">
+                              <Condition type="CDamageConditionOr">
+                                  <Conditions>
+                                      <Item type="CDamageConditionRatio">
+                                          <ValueType>StaminaDamage</ValueType>
+                                          <Entity>Victim</Entity>
+                                          <RHS value="0.67"/>
+                                          <CompareType>LESS</CompareType>
+                                      </Item>
+                                      <Item type="CDamageConditionVictimIsPlayingGetup">
+                                          <ExcludeLocomotion value="true" />
+                                          <IncludeMelee value="true" />
+                                      </Item>
+                                  </Conditions>
+                            </Condition>
+                          </Item>
+                        </Conditions>
+                    </Item>
+                  </Conditions>
+                  </Item>
+            </Conditions>
+        </Condition>
+        <Modifiers>
+            <Item type="CDamageModifierAddRatio">
+                <ValueType>StaminaDamage</ValueType>
+                <Value value="0.66" />
+            </Item>
+            <Item type="CDamageModifierRequestFullBodyReaction" />
+        </Modifiers>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <NextModifier type="CDamageModifierMulti">
+            <Condition type="CDamageConditionFromAmmoType">
+                <AmmoTypes>
+                    <Item>AMMO_SPECIAL_STUN</Item>
+                </AmmoTypes>
+            </Condition>
+            <Modifiers>
+                <Item type="CDamageModifierAdd">
+                    <ValueType>StaminaDamage</ValueType>
+                    <Value value="25.000000" />
+                </Item>
+            </Modifiers>
+        </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>HitWithMeleeWeapon_Player</Name>
+      <Condition type="CDamageConditionFromWeaponType">
+          <WeaponTypes>
+            <Item>WEAPON_MELEE_BAT</Item>
+          </WeaponTypes>
+      </Condition>
+      <Value value="0.350000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>HitWithMelee_Buddy</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.350000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerRecentlyRevivedSP</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionTimeSinceRevived">
+            <TimeThresholdMS value="5000"/>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.500000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP_InsideArmouredVehicle</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>EXPLOSIVE</Item>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionVictimInVehicleSeatWithFlag">
+            <SeatFlag>ArmouredSeat</SeatFlag>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.300000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP_RecentlyEnteringVehicle</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+            <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionHasBuddy" />
+            </Item>
+            <Item type="CDamageConditionTimeSinceEnteredVehicle">
+                <TimeThresholdMS value="3000"/>
+                <ConsiderDuringVehicleEnter value="true"/>
+            </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.750000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP_RecentlyEnteringVehicleWithBuddy</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+            <Item type="CDamageConditionHasBuddy">
+            </Item>
+            <Item type="CDamageConditionTimeSinceEnteredVehicle">
+                <TimeThresholdMS value="3000"/>
+                <ConsiderDuringVehicleEnter value="true"/>
+            </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.500000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP_Buddy</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromThrownWeapon"/>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponFlags">
+              <WeaponInfoFlags>MeleeBlade MeleeBladeLong</WeaponInfoFlags>
+              <RequiresAll value="false" />
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionIsPlayerBuddy">
+            <Entity>Victim</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.20"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_PlayerSP_RecentlyExitedVehicle</Name>
+      <Condition type="CDamageConditionTimeSinceLeftLastVehicle">
+        <TimeThresholdMS value="3000"/>
+        <ConsiderDuringVehicleExit value="true"/>
+      </Condition>
+      <Value value="0.500000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_BuddyRecentlyRevivedSP</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionTimeSinceRevived">
+            <TimeThresholdMS value="10000"/>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="0.250000"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Easiest</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+          <Item>COLLISION</Item>
+          <Item>FALL</Item>
+          <Item>RUN_OVER</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_EasiestOther</Name>
+        <Value value="1.666666"/>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Melee_75</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.750000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Melee_100</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Melee_125</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="1.250000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>MovingTarget_TargetDamageReduction</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>BULLET</Item>
+        </DamageTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.25"/>
+        </Item>
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+    </Item>
+    
+    <Item type="CDamageModifierMulti">
+      <Name>PrisonerExchange_ObjectivePedDamageReduction</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>BULLET</Item>
+        </DamageTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.5"/>
+        </Item>
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>CleanUpDrugSmuggler_SmugglerDamageReduction_NonPlayer</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionInflictorIsPlayer" />
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.010000" />
+        </Item>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMulti">
+      <Name>CleanUpDrugSmuggler_SmugglerDamageReduction_Player</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionInflictorIsPlayer" />
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.080000" />
+        </Item>
+      </Modifiers>
+    </Item>
+    
+    <Item type="CDamageModifierMulti">
+      <Name>CleanUpDrugSmuggler_SmugglerDamageReduction_Fall</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>FALL</Item>
+        </DamageTypes>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Value value="0.250000" />
+        </Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>CleanUpDrugSmuggler_SmugglerDamageReduction</Name>
+      <Modifiers>
+        <Item>CleanUpDrugSmuggler_SmugglerDamageReduction_NonPlayer</Item>
+        <Item>CleanUpDrugSmuggler_SmugglerDamageReduction_Player</Item>
+        <Item>CleanUpDrugSmuggler_SmugglerDamageReduction_Fall</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Easy</Name>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Hard</Name>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_Hardest</Name>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_BuddySP</Name>
+      <Value value="1.000000"/>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <NextModifier type="CDamageModifierSuppressRagdoll">
+        <Name>Hit_Buddy_SupressRagdoll</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>BULLET</Item>
+              </DamageTypes>
+            </Item>
+            <Item type="CDamageConditionNot">
+              <Condition type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>MELEE</Item>
+                </DamageTypes>
+              </Condition>
+            </Item>
+            <Item type="CDamageConditionNot">
+              <Condition type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                    <WeaponGroups>
+                      <Item>GROUP_SHOTGUN</Item>
+                    </WeaponGroups>
+                  </Item>
+                  <Item type="CDamageConditionDistance">
+                    <RHS value="10.0"/>
+                    <CompareType>LESS_OR_EQUAL</CompareType>
+                  </Item>
+                </Conditions>
+              </Condition>
+            </Item>
+          </Conditions>
+        </Condition>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      </NextModifier>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_BuddySPOffscreen</Name>
+      <Condition type="CDamageConditionNot">
+        <Condition type="CDamageConditionVictimOnScreen" />
+      </Condition>
+      <Value value="0.25"/>
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_BuddySPFarFromCamera</Name>
+      <Condition type="CDamageConditionNot">
+        <Condition type="CDamageConditionVictimWithinCameraDistance">
+          <MaxDistanceFromCamera value="30" />
+        </Condition>
+      </Condition>
+      <Value value="0.25"/>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_Generic</Name>
+      <Modifiers>
+        <Item>Hit_Generic</Item>
+        <Item>Hit_Default</Item>
+        <Item>Speed_Multiplier_Vehicle</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_PlayerX</Name>
+      <Modifiers>
+        <Item>HitWithMeleeWeapon_Player</Item>
+        <Item>Hit_WhenDowned</Item>
+        <Item>Hit_WhenDowned_Shotgun</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_PlayerSP</Name>
+      <Modifiers>
+        <Item>Hit_PlayerSP</Item>
+        <Item>Hit_PlayerSPOffscreen</Item>
+        <Item>Hit_PlayerSPNonFatalTimeToDie</Item>
+        <Item>Hit_PlayerSPWhileHealing</Item>
+        <Item>Hit_PlayerWithStun</Item>
+        <Item>Hit_WhenDowned</Item>
+        <Item>Hit_WhenDowned_Shotgun</Item>
+        <Item>Hit_PlayerRecentlyRevivedSP</Item>
+        <Item>Hit_PlayerSP_InsideArmouredVehicle</Item>
+        <Item>Hit_Player_UpClose</Item>
+        <Item>Hit_PlayerSP_RecentlyExitedVehicle</Item>
+        <Item>Hit_PlayerSP_RecentlyEnteringVehicle</Item>
+        <Item>Hit_PlayerSP_RecentlyEnteringVehicleWithBuddy</Item>
+        <Item>Hit_PlayerSP_Buddy</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Personality_Peds</Name>
+      <Modifiers>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Law_Peds</Name>
+      <Modifiers>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Gang_Peds</Name>
+      <Modifiers>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Law_Peds_Easy</Name>
+      <Modifiers>
+        <Item>Law_Peds</Item>
+        <Item>Hit_Melee_125</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Law_Peds_Medium</Name>
+      <Modifiers>
+        <Item>Law_Peds</Item>
+        <Item>Hit_Melee_100</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Law_Peds_Hard</Name>
+      <Modifiers>
+        <Item>Law_Peds</Item>
+        <Item>Hit_Melee_75</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Personality_Peds_Easy</Name>
+      <Modifiers>
+        <Item>Personality_Peds</Item>
+        <Item>Hit_Melee_125</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Personality_Peds_Medium</Name>
+      <Modifiers>
+        <Item>Personality_Peds</Item>
+        <Item>Hit_Melee_100</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Personality_Peds_Hard</Name>
+      <Modifiers>
+        <Item>Personality_Peds</Item>
+        <Item>Hit_Melee_75</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Gang_Peds_Easy</Name>
+      <Modifiers>
+        <Item>Gang_Peds</Item>
+        <Item>Hit_Melee_125</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Gang_Peds_Medium</Name>
+      <Modifiers>
+        <Item>Gang_Peds</Item>
+        <Item>Hit_Melee_100</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Gang_Peds_Hard</Name>
+      <Modifiers>
+        <Item>Gang_Peds</Item>
+        <Item>Hit_Melee_75</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_Easiest</Name>
+      <Modifiers>
+        <Item>Hit_Easiest</Item>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_Easy</Name>
+      <Modifiers>
+        <Item>Hit_Easy</Item>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_Hard</Name>
+      <Modifiers>
+        <Item>Hit_Hard</Item>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_Hardest</Name>
+      <Modifiers>
+        <Item>Hit_Hardest</Item>
+        <Item>Hit_Default</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>Human_BuddySP</Name>
+      <Modifiers>
+        <Item>Hit_BuddySP</Item>
+        <Item>Hit_BuddySPOffscreen</Item>
+        <Item>Hit_BuddySPFarFromCamera</Item>
+        <Item>Hit_PlayerSP</Item>
+        <Item>Hit_PlayerSPOffscreen</Item>
+        <Item>Hit_PlayerSPNonFatalTimeToDie</Item>
+        <Item>Hit_PlayerSPWhileHealing</Item>
+        <Item>Hit_PlayerWithStun</Item>
+        <Item>Hit_WhenDowned</Item>
+        <Item>Hit_WhenDowned_Shotgun</Item>
+        <Item>Hit_BuddyRecentlyRevivedSP</Item>
+        <Item>HitWithMelee_Buddy</Item>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_ped_normal_region</Name>
+      <Modifiers>
+        <Item>Arrow_ClampToMaxDamage</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_human_ped_spine</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+        <Item>Arrow_HitMultiply</Item>
+        <Item>Weapon_ClampToMaxDamageRagDoll</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_human_ped_lungs</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+        <Item>Arrow_HitMultiply</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_human_ped_critical_and_fatal</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_human_ped_critical_and_fatal_with_headshot_modifier</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+        <Item>X_Player_Headshot101</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_animal_ped_critical_and_fatal</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_animal_ped_critical_and_fatal_with_ragdoll</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+        <Item>Weapon_ClampToMaxDamageRagDoll</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>std_animal_ped_critical_and_fatal_with_arrowclamptomax</Name>
+      <Modifiers>
+        <Item>BluntArrowAndBolas_NoCriticalAndFatalShots</Item>
+        <Item>Arrow_ClampToMaxDamage</Item>
+      </Modifiers>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>std_animal_ped_critical_and_fatal_with_lowcaliberweapon</Name>
+      <Modifiers>
+        <Item>LowCaliberWeapon_NoCriticalAndFatalShots</Item>
+        <Item>LowCaliberWeapon_CriticalAndFatalModifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>X_Player_Modifiers</Name>
+      <Modifiers>
+        <Item>X_Player_CloseRange101</Item>
+        <Item>Arrow_ClampToMaxDamageFire</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>X_Player_CloseRange101</Name>
+      <Modifiers>
+      </Modifiers>
+    </Item>
+
+    <Item type="CDamageModifierMultiReference">
+      <Name>X_Player_Headshot_Modifiers</Name>
+      <Modifiers>
+        <Item>X_Player_Headshot101</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>X_Player_Headshot101</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromZoomScope" />
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromFreeAimPlayer" />
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item>X_Player_Headshot101_PolymerPistol</Item>
+        <Item>X_Player_Headshot101_CarbineAutoRifle</Item>
+        <Item>X_Player_Headshot101_PolymerPistol_HV</Item>
+        <Item>X_Player_Headshot101_CarbineAutoRifle_HV</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierNoCriticalOrFatalDamage">
+      <Name>Arcade_BeatEmUp_NoCriticalAndFatalShots</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>MELEE</Item>
+                  <Item>BULLET</Item>
+                  <Item>EXPLOSIVE</Item>
+                  <Item>COLLISION</Item>
+                  <Item>FALL</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                <WeaponGroups>
+                  <Item>GROUP_MELEE</Item>
+                  <Item>GROUP_UNARMED</Item>
+                  <Item>GROUP_SHOTGUN</Item>
+                  <Item>GROUP_PISTOL</Item>
+                  <Item>GROUP_SMG</Item>
+                  <Item>GROUP_SNIPER</Item>
+                  <Item>GROUP_STUNGUN</Item>
+                  <Item>GROUP_SPORTS</Item>
+                  <Item>GROUP_HELD</Item>
+                  <Item>GROUP_HEAVY</Item>
+                  <Item>GROUP_LAUNCHER</Item>
+                  <Item>GROUP_THROWN</Item>
+                  <Item>GROUP_REVOLVER</Item>
+                </WeaponGroups>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_BeatEmUp_ClampDamage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="15.000000" />
+      <High value="650.000000" />
+    </Item>
+    
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_VeryWeak</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.900000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_Weak</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.850000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium_Weak</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.800000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.750000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium_Strong</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.700000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_Strong</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.600000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_VeryStrong</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeUnarmed_PlayerAndBoss</Name>
+      <Condition type="CDamageConditionFromDamageType">
+        <DamageTypes>
+          <Item>MELEE</Item>
+        </DamageTypes>
+      </Condition>
+      <Value value="0.450000" />
+    </Item>
+    
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Name>
+      <Condition type="CDamageConditionFromWeaponType">
+        <WeaponTypes>
+          <Item>WEAPON_MELEE_BAT</Item>
+          <Item>WEAPON_MELEE_CLUB</Item>
+          <Item>WEAPON_MELEE_GOLFCLUB</Item>
+          <Item>WEAPON_MELEE_HAMMER</Item>
+          <Item>WEAPON_MELEE_KNUCKLE</Item>
+          <Item>WEAPON_MELEE_POOLCUE</Item>
+          <Item>WEAPON_MELEE_TORCH</Item>
+          <Item>WEAPON_MELEE_KNIFE</Item>
+          <Item>WEAPON_MELEE_HATCHET</Item>
+          <Item>WEAPON_MELEE_HATCHET_MELEEONLY</Item>
+          <Item>WEAPON_MELEE_HATCHET_VIKING</Item>
+          <Item>WEAPON_MELEE_HATCHET_HEWING</Item>
+          <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT</Item>
+          <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT_RUSTED</Item>
+          <Item>WEAPON_MELEE_HATCHET_HUNTER</Item>
+          <Item>WEAPON_MELEE_HATCHET_HUNTER_RUSTED</Item>
+        </WeaponTypes>
+      </Condition>
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_HitWithMeleeWeapon_PlayerAndBoss</Name>
+      <Condition type="CDamageConditionFromWeaponType">
+        <WeaponTypes>
+          <Item>WEAPON_MELEE_BAT</Item>
+          <Item>WEAPON_MELEE_CLUB</Item>
+          <Item>WEAPON_MELEE_GOLFCLUB</Item>
+          <Item>WEAPON_MELEE_HAMMER</Item>
+          <Item>WEAPON_MELEE_KNUCKLE</Item>
+          <Item>WEAPON_MELEE_POOLCUE</Item>
+          <Item>WEAPON_MELEE_TORCH</Item>
+          <Item>WEAPON_MELEE_KNIFE</Item>
+          <Item>WEAPON_MELEE_HATCHET</Item>
+          <Item>WEAPON_MELEE_HATCHET_MELEEONLY</Item>
+          <Item>WEAPON_MELEE_HATCHET_VIKING</Item>
+          <Item>WEAPON_MELEE_HATCHET_HEWING</Item>
+          <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT</Item>
+          <Item>WEAPON_MELEE_HATCHET_DOUBLE_BIT_RUSTED</Item>
+          <Item>WEAPON_MELEE_HATCHET_HUNTER</Item>
+          <Item>WEAPON_MELEE_HATCHET_HUNTER_RUSTED</Item>
+        </WeaponTypes>
+      </Condition>
+      <Value value="0.450000" />
+    </Item>
+
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_Downed_Damage_Mod</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Incapacitated</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>KnockedOut</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Dead</HealthState>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Arcade_BeatEmUp_Downed_Damage_Boss</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Incapacitated</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>KnockedOut</HealthState>
+              </Item>
+              <Item type="CDamageConditionVictimHealthState">
+                <HealthState>Dead</HealthState>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <Value value="0.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Very_Weak_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_VeryWeak</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Weak_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_Weak</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Medium_Weak_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium_Weak</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Medium_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Medium_Strong_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_Medium_Strong</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Strong_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_Strong</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Very_Strong_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Mod</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_EnemyMod</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_VeryStrong</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Boss_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_Downed_Damage_Boss</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_PlayerAndBoss</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_PlayerAndBoss</Item>
+        <Item>Arcade_BeatEmUp_ClampDamage</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_BeatEmUp_Player_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_BeatEmUp_HitWithMeleeWeapon_PlayerAndBoss</Item>
+        <Item>Arcade_BeatEmUp_HitWithMeleeUnarmed_PlayerAndBoss</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierNoCriticalOrFatalDamage">
+      <Name>Arcade_TwinStick_NoCriticalAndFatalShots</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromDamageType">
+                <DamageTypes>
+                  <Item>MELEE</Item>
+                  <Item>BULLET</Item>
+                  <Item>EXPLOSIVE</Item>
+                  <Item>COLLISION</Item>
+                  <Item>FALL</Item>
+                </DamageTypes>
+              </Item>
+              <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+                <WeaponGroups>
+                  <Item>GROUP_MELEE</Item>
+                  <Item>GROUP_UNARMED</Item>
+                  <Item>GROUP_SHOTGUN</Item>
+                  <Item>GROUP_PISTOL</Item>
+                  <Item>GROUP_SMG</Item>
+                  <Item>GROUP_SNIPER</Item>
+                  <Item>GROUP_STUNGUN</Item>
+                  <Item>GROUP_SPORTS</Item>
+                  <Item>GROUP_HELD</Item>
+                  <Item>GROUP_HEAVY</Item>
+                  <Item>GROUP_LAUNCHER</Item>
+                  <Item>GROUP_THROWN</Item>
+                  <Item>GROUP_REVOLVER</Item>
+                </WeaponGroups>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierModifyWeaponImpulseOnKillOrCriticalHit">
+      <Name>Arcade_TwinStick_Damage_Impluse</Name>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ImpulseMultiplier value="100.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_TwinStick_Clamp_Enemy_Damage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Low value="3.500000" />
+      <High value="12.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_TwinStick_Clamp_Heavy_Enemy_Damage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Low value="1.750000" />
+      <High value="9.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_TwinStick_Clamp_Enemy_Explosion_Damage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>EXPLOSIVE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Low value="9.900000" />
+      <High value="10.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_TwinStick_Clamp_Player_Damage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+              <Item>COLLISION</Item>
+              <Item>FALL</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Low value="1.500000" />
+      <High value="3.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>Arcade_TwinStick_Clamp_Player_Melee_Damage</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+              <Item>EXPLOSIVE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <TrackUsage value="true" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Low value="6.000000" />
+      <High value="12.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_TwinStick_Standard_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_TwinStick_NoCriticalAndFatalShots</Item>
+        <Item>Arcade_TwinStick_Clamp_Enemy_Damage</Item>
+        <Item>Arcade_TwinStick_Clamp_Enemy_Explosion_Damage</Item>
+        <Item>Arcade_TwinStick_Damage_Impluse</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_TwinStick_Heavy_Enemy_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_TwinStick_NoCriticalAndFatalShots</Item>
+        <Item>Arcade_TwinStick_Clamp_Heavy_Enemy_Damage</Item>
+        <Item>Arcade_TwinStick_Clamp_Enemy_Explosion_Damage</Item>
+        <Item>Arcade_TwinStick_Damage_Impluse</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>Arcade_TwinStick_Player_Damage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>Arcade_TwinStick_NoCriticalAndFatalShots</Item>
+        <Item>Arcade_TwinStick_Clamp_Player_Damage</Item>
+        <Item>Arcade_TwinStick_Clamp_Player_Melee_Damage</Item>
+        <Item>Arcade_TwinStick_Damage_Impluse</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierModifyCriticalRegionData">
+      <Name>X_Player_Headshot101_PolymerPistol</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_PISTOL_POLYMER</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <CriticalChance value="-1.00000"/>
+      <CriticalDamageModifierNear value="5.95000"/>
+      <CriticalDamageModifierFar value="2.95000"/>
+      <CriticalDamageDistanceNear value="35.00000"/>
+      <CriticalDamageDistanceFar value="45.00000"/>
+      <CriticalDamageApplyModifierBeforeNear value="false"/>
+    </Item>
+    <Item type="CDamageModifierModifyCriticalRegionData">
+      <Name>X_Player_Headshot101_PolymerPistol_HV</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_PISTOL_POLYMER</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <CriticalChance value="-1.00000"/>
+      <CriticalDamageModifierNear value="5.27500"/>
+      <CriticalDamageModifierFar value="2.37500"/>
+      <CriticalDamageDistanceNear value="35.00000"/>
+      <CriticalDamageDistanceFar value="45.00000"/>
+      <CriticalDamageApplyModifierBeforeNear value="false"/>
+    </Item>
+    <Item type="CDamageModifierModifyCriticalRegionData">
+      <Name>X_Player_Headshot101_CarbineAutoRifle</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_AUTORIFLE_CARBINE</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <CriticalChance value="-1.00000"/>
+      <CriticalDamageModifierNear value="3.90000"/>
+      <CriticalDamageModifierFar value="1.55000"/>
+      <CriticalDamageDistanceNear value="50.00000"/>
+      <CriticalDamageDistanceFar value="75.00000"/>
+      <CriticalDamageApplyModifierBeforeNear value="false"/>
+    </Item>
+    <Item type="CDamageModifierModifyCriticalRegionData">
+      <Name>X_Player_Headshot101_CarbineAutoRifle_HV</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_AUTORIFLE_CARBINE</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <CriticalChance value="-1.00000"/>
+      <CriticalDamageModifierNear value="3.82500"/>
+      <CriticalDamageModifierFar value="1.32500"/>
+      <CriticalDamageDistanceNear value="50.00000"/>
+      <CriticalDamageDistanceFar value="75.00000"/>
+      <CriticalDamageApplyModifierBeforeNear value="false"/>
+    </Item>
+    <Item type="CDamageModifierNoCriticalOrFatalDamage">
+      <Name>Prevent_Player_OneShot_Death</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsX" />
+          </Item>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionRatio">
+            <CompareType>GREATER_OR_EQUAL</CompareType>
+            <RHS value="23.000000" />
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierSuppressRagdoll">
+      <Name>Prevent_Ragdoll_On_Far_Distance</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionDistance">
+            <CompareType>GREATER_OR_EQUAL</CompareType>
+            <RHS value="40.000000" />
+          </Item>
+          <Item type="CDamageConditionFromWeaponAndAmmoGroup">
+            <WeaponGroups>
+              <Item>GROUP_PISTOL</Item>
+            </WeaponGroups>
+          </Item>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierRequestFullBodyReaction">
+        <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Speed_Multiplier_Vehicle</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionIsInflictorInVehicle" />
+          <Item type="CDamageConditionRelativeSpeed">
+            <LowerLimit value="12.000000" />
+            <UpperLimit value="200.000000" />
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <TrackUsage value="false" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Value value="2.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Leg_Damage_Modifier</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionVictimIsPlayer" />
+          </Item>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>BULLET</Item>
+            </DamageTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyPartLeg</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromDamageType">
+              <DamageTypes>
+                <Item>MELEE</Item>
+              </DamageTypes>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <TrackUsage value="false" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Value value="1.750000" />
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>Hit_FromThrownItem</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromThrownWeapon"/>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponFlags">
+              <WeaponInfoFlags>MeleeBlade MeleeBladeLong</WeaponInfoFlags>
+              <RequiresAll value="false" />
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierPreventBleedout" />
+        <Item type="CDamageModifierNoCriticalOrFatalDamage" />
+      </Modifiers>
+      <NextModifier type="NULL" />
+      <TrackUsage value="false" />
+    </Item>
+  </DamageModifiers>
+</CDamageDataManager>

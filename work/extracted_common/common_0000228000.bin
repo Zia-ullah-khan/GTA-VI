@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedComponentSetManager>
+  <Infos>
+    <Item type="CPedComponentSetInfo">
+      <Name>player</Name>
+      <HasDistraction value="true" />
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="true" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedActionCoordinatorComponent</Type>
+          <MinDistance value="7.5" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAttributeComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+		  <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedItemInteractionComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedLookAtComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>STANDARD_PED</Name>
+      <HasDistraction value="true" />
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="true" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedActionCoordinatorComponent</Type>
+          <MinDistance value="7.5" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAttributeComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedItemInteractionComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedLookAtComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedPublicTransportUserComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="120" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>STANDARD_BIRD</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="false" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="30" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedStaminaComponent</Type>
+          <MinDistance value="0" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="60" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>HORSE</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="false" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="true" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="150" />
+        </Item>
+        <Item>
+          <Type>CPedAttributeComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="80" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="80" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="200" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL_SMALL</Name>
+      <HasFacial value="false" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="false" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="70" />
+          <MaxDistance value="90" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="100" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL_SMALL_WITH_FACIAL</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="false" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="70" />
+          <MaxDistance value="90" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+          <MaxLOD value="-1" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="100" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL_SMALL_WITH_ATTACKS_AND_FACIAL</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="false" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="70" />
+          <MaxDistance value="90" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="100" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL</Name>
+      <HasFacial value="false" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="45" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL_WITH_FACIAL</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="20" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="45" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMALWITHATTACKS</Name>
+      <HasFacial value="false" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="25" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>ANIMAL_WITH_ATTACKS_AND_FACIAL</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="25" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>STANDARD_FISH</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="false" />
+      <HasInventory value="false" />
+      <HasPhone value="false" />
+      <HasLookAt value="false" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="60" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>STANDARD_SHARK</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="25" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+	<Item type="CPedComponentSetInfo">
+      <Name>STANDARD_WHALE</Name>
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedBreatheComponent</Type>
+          <MinDistance value="6" />
+          <MaxDistance value="25" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="80" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="150" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CPedComponentSetInfo">
+      <Name>STANDARD_ZOMBIE</Name>
+      <HasDistraction value="false" />
+      <HasFacial value="true" />
+      <HasRagdollConstraints value="true" />
+      <HasInventory value="true" />
+      <HasPhone value="false" />
+      <HasLookAt value="true" />
+      <HasReins value="false" />
+      <IsRidable value="false" />
+      <NeverReceiveEventsWhileDummy value="true" />
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CPedActionCoordinatorComponent</Type>
+          <MinDistance value="7.5" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAmbientContentValidationComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAttributeComponent</Type>
+          <MinDistance value="100" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CPedAvoidanceComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="120" />
+        </Item>
+        <Item>
+          <Type>CPedAudioComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedEventComponent</Type>
+          <MinDistance value="0" />
+          <MaxDistance value="1" />
+        </Item>
+        <Item>
+          <Type>CPedFacialComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedFacialAnimComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="30" />
+        </Item>
+        <Item>
+          <Type>CPedFootstepComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="50" />
+        </Item>
+		<Item>
+          <Type>CPedGestureComponent</Type>
+          <MinDistance value="60" />
+          <MaxDistance value="75" />
+        </Item>
+        <Item>
+          <Type>CPedLookAtComponent</Type>
+          <MinDistance value="15" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CPedMotionComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="150" />
+          <MaxLOD value="-1" />
+        </Item>
+        <Item>
+          <Type>CPedMotivationComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="70" />
+        </Item>
+        <Item>
+          <Type>CPedVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="70" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+  </Infos>
+  <DefaultSet ref="STANDARD_PED" />
+</CPedComponentSetManager>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<STS_Config>
+  <Nimbus>
+    <NoiseWeightsLow x="0.500000" y="0.300000" z="0.100000" />
+    <NoiseWeightsHigh x="0.500000" y="0.300000" z="0.100000" />
+    <ErosionArea x="-0.500000" y="0.500000" />
+    <NoiseBlend0 x="1.000000" y="1.000000" z="1.000000" />
+    <NoiseBlend1 x="0.000000" y="0.000000" z="0.000000" />
+    <Density x="0.500000" y="3.000000" />
+    <LightingDensityScale value="1.000000" />
+    <MultiScatteringDensityScale value="1.000000" />
+    <ShapeFade value="0.050000" />
+    <TransitionOffsetMinMax x="0.000000" y="1.000000" z="0.000000" w="1.000000" />
+    <DilationWeight value="1.000000" />
+    <AltitudeBlendMinMax x="0.300000" y="0.850000" />
+    <NoiseDisplacement value="50.000000" />
+  </Nimbus>
+  <Cumulus>
+    <NoiseWeightsLow x="0.300000" y="0.500000" z="0.150000" />
+    <NoiseWeightsHigh x="0.300000" y="0.500000" z="0.150000" />
+    <ErosionArea x="-0.300000" y="0.400000" />
+    <NoiseBlend0 x="1.000000" y="1.000000" z="1.000000" />
+    <NoiseBlend1 x="0.000000" y="0.000000" z="0.000000" />
+    <Density x="0.500000" y="2.000000" />
+    <LightingDensityScale value="0.250000" />
+    <MultiScatteringDensityScale value="0.250000" />
+    <ShapeFade value="0.250000" />
+    <TransitionOffsetMinMax x="0.000000" y="1.000000" z="0.000000" w="1.000000" />
+    <DilationWeight value="0.500000" />
+    <AltitudeBlendMinMax x="0.050000" y="0.400000" />
+    <NoiseDisplacement value="150.000000" />
+  </Cumulus>
+  <Stratus>
+    <NoiseWeightsLow x="0.500000" y="0.300000" z="0.100000" />
+    <NoiseWeightsHigh x="0.500000" y="0.300000" z="0.100000" />
+    <ErosionArea x="-0.400000" y="0.300000" />
+    <NoiseBlend0 x="1.000000" y="0.700000" z="0.000000" />
+    <NoiseBlend1 x="0.000000" y="0.300000" z="1.000000" />
+    <Density x="0.100000" y="1.000000" />
+    <LightingDensityScale value="0.100000" />
+    <MultiScatteringDensityScale value="0.100000" />
+    <ShapeFade value="0.500000" />
+    <TransitionOffsetMinMax x="0.000000" y="1.000000" z="0.000000" w="1.000000" />
+    <DilationWeight value="0.000000" />
+    <AltitudeBlendMinMax x="0.050000" y="0.280000" />
+    <NoiseDisplacement value="200.000000" />
+  </Stratus>
+  <Alto>
+    <NoiseWeightsLow x="0.100000" y="0.400000" z="0.150000" />
+    <NoiseWeightsHigh x="0.100000" y="0.400000" z="0.150000" />
+    <ErosionArea x="-0.300000" y="0.300000" />
+    <NoiseBlend0 x="0.000000" y="0.000000" z="0.000000" />
+    <NoiseBlend1 x="1.000000" y="1.000000" z="1.000000" />
+    <Density x="0.000000" y="0.300000" />
+    <LightingDensityScale value="0.050000" />
+    <MultiScatteringDensityScale value="0.050000" />
+    <ShapeFade value="0.750000" />
+    <TransitionOffsetMinMax x="0.000000" y="1.000000" z="0.000000" w="1.000000" />
+    <DilationWeight value="0.000000" />
+    <AltitudeBlendMinMax x="0.630000" y="0.750000" />
+    <NoiseDisplacement value="100.000000" />
+  </Alto>
+  <GlobalFog>
+    <Scattering x="1.000000" y="1.000000" z="1.000000" />
+    <Absorption x="0.000000" y="0.000000" z="0.000000" />
+    <WaterDropletDensity value="0.030000" />
+    <WaterDropletVariance value="0.800000" />
+    <IceDensity value="0.000000" />
+    <DiffusionIntensity value="0.000300" />
+    <DiffusionIntensity1 value="0.250000" />
+    <WindNoiseErosionMin value="0.300000" />
+    <WindNoiseErosionMax value="0.700000" />
+  </GlobalFog>
+  <LocalFog>
+    <Scattering x="0.100000" y="0.100000" z="0.100000" />
+    <Absorption x="0.000000" y="0.000000" z="0.000000" />
+    <WaterDropletDensity value="0.010000" />
+    <WaterDropletVariance value="0.600000" />
+    <IceDensity value="0.000000" />
+    <DiffusionIntensity value="0.200000" />
+    <DiffusionIntensity1 value="0.200000" />
+    <WindNoiseErosionMin value="0.400000" />
+    <WindNoiseErosionMax value="0.600000" />
+  </LocalFog>
+  <Rain>
+    <Scattering x="0.010000" y="0.010000" z="0.010000" />
+    <Absorption x="0.020000" y="0.020000" z="0.020000" />
+    <WaterDropletDensity value="0.075000" />
+    <WaterDropletVariance value="0.100000" />
+    <IceDensity value="0.000000" />
+    <DiffusionIntensity value="0.200000" />
+    <DiffusionIntensity1 value="0.030000" />
+    <WindNoiseErosionMin value="0.300000" />
+    <WindNoiseErosionMax value="0.700000" />
+  </Rain>
+  <Clouds>
+    <Scattering x="1.000000" y="1.000000" z="1.000000" />
+    <Absorption x="0.000000" y="0.000000" z="0.000000" />
+    <WaterDropletDensity value="0.000000" />
+    <WaterDropletVariance value="0.000000" />
+    <IceDensity value="0.132539" />
+    <DiffusionIntensity value="0.500000" />
+    <DiffusionIntensity1 value="15.000000" />
+    <WindNoiseErosionMin value="0.300000" />
+    <WindNoiseErosionMax value="0.700000" />
+  </Clouds>
+  <CloudsCirrus>
+    <Scattering x="2.000000" y="2.000000" z="2.000000" />
+    <Absorption x="0.100000" y="0.100000" z="0.100000" />
+    <WaterDropletDensity value="0.000000" />
+    <WaterDropletVariance value="0.000000" />
+    <IceDensity value="1.000000" />
+    <DiffusionIntensity value="0.000000" />
+    <DiffusionIntensity1 value="0.000000" />
+    <WindNoiseErosionMin value="0.300000" />
+    <WindNoiseErosionMax value="0.700000" />
+  </CloudsCirrus>
+  <CloudsHaze>
+    <Scattering x="1.000000" y="1.000000" z="1.000000" />
+    <Absorption x="0.000000" y="0.000000" z="0.000000" />
+    <WaterDropletDensity value="0.000000" />
+    <WaterDropletVariance value="0.000000" />
+    <IceDensity value="1.000000" />
+    <DiffusionIntensity value="0.000000" />
+    <DiffusionIntensity1 value="0.000000" />
+    <WindNoiseErosionMin value="0.300000" />
+    <WindNoiseErosionMax value="0.700000" />
+  </CloudsHaze>
+  <CloudNoiseScale x="4000.000000" y="1000.000000" z="200.000000" />
+  <CloudNoiseVelocityScale x="1.000000" y="1.100000" z="1.200000" />
+  <CloudNoiseDisplacementScale value="800.000000" />
+  <CloudNoiseDisplacementDistanceMin value="4000.000000" />
+  <CloudNoiseDisplacementDistanceMax value="8000.000000" />
+  <DensityMapDisplacementScale value="300.000000" />
+  <CloudNoiseDisplacementVelocityScale value="1.150000" />
+  <DensityMapDisplacementDistanceMin value="1000.000000" />
+  <DensityMapDisplacementDistanceMax value="2000.000000" />
+  <WeatherTransition_Direction value="0.000000" />
+  <WeatherTransition_Tightness value="0.200000" />
+  <MultiScatterSkyRadianceScale value="1.500000" />
+  <MultiScatterLightPollutionScale value="1.000000" />
+  <MultiScatterLightPollutionMip value="5.000000" />
+  <MultiScatterRadianceTransmittanceBias value="-0.010000" />
+  <MultiScatterStandardPhaseBias value="75.000000" />
+  <LightPollutionMipBias value="0.000000" />
+  <CloudPhaseWeightsMin x="-0.250000" y="-0.020000" z="-0.200000" />
+  <CloudPhaseWeightsMax x="0.050000" y="0.100000" z="0.100000" />
+  <DiffusionLayerWeightsMinMax_0 x="0.000000" y="0.600000" />
+  <DiffusionLayerWeightsMinMax_1 x="0.000000" y="0.400000" />
+  <DiffusionLayerWeightsMinMax_2 x="0.000000" y="0.200000" />
+  <DiffusionLayerWeightsMinMax_3 x="0.000000" y="0.000000" />
+  <DiffusionLayerWeightsMinMax_4 x="0.000000" y="0.000000" />
+  <DiffusionLayerWeightsMinMax_5 x="0.000000" y="0.000000" />
+  <DiffusionHeatHazeThresholdMin value="0.000100" />
+  <DiffusionHeatHazeThresholdMax value="0.008000" />
+  <DiffusionBlendMidPoint value="0.500000" />
+  <DiffusionDepthNormalizer value="0.050000" />
+  <DiffusionNearIntensityMin value="0.005000" />
+  <DiffusionNearIntensityScale value="1.000000" />
+  <DiffusionFarIntensityScale value="0.100000" />
+  <DiffusionDitherScale value="2.000000" />
+  <DiffusionDepthWeight value="10.000000" />
+</STS_Config>

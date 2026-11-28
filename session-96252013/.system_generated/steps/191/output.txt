@@ -1,0 +1,396 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -108,53 +108,61 @@
+     
+     # Split bar below Gone Fishing
+     split_y = 27.2
+-    ax.plot([3.5, 13.0, 20.5], [split_y, split_y, split_y], color="#ffffff", lw=1.5, zorder=2)
++    ax.plot([2.4, 6.1, 13.8], [split_y, split_y, split_y], color="#ffffff", lw=1.5, zorder=2)
+     draw_arrow(ax, (center_x + mw/2, 28.0), (center_x + mw/2, split_y))
+     
+     # -------------------------------------------------------------
+-    # BRANCH 1: UNWANTED ATTENTION & PIPEWORK (Left Side: x = 1.8)
+-    # -------------------------------------------------------------
+-    b1_x = 1.8
+-    draw_arrow(ax, (3.5, split_y), (b1_x + mw/2, 26.2))
+-    draw_mission(ax, b1_x, 25.2, mw, mh, "UNWANTED ATTENTION", "Cal & Jason Drive to Hamlet")
+-    
+-    draw_callout(ax, b1_x, 24.1, mw, 0.75, "CAL TEXT\n($200 IN MAILBOX)", "mailbox")
+-    draw_arrow(ax, (b1_x + mw/2, 25.2), (b1_x + mw/2, 24.85))
+-    
+-    draw_callout(ax, b1_x, 23.0, mw, 0.65, "BRIAN CALL", "phone")
+-    draw_arrow(ax, (b1_x + mw/2, 24.1), (b1_x + mw/2, 23.65))
+-    
+-    draw_mission(ax, b1_x, 21.7, mw, mh, "PIPEWORK", "Marina Maintenance Jobs")
+-    draw_arrow(ax, (b1_x + mw/2, 23.0), (b1_x + mw/2, 22.65))
+-    
+-    draw_callout(ax, b1_x, 20.6, mw, 0.65, "BRIAN TEXT", "text")
+-    draw_arrow(ax, (b1_x + mw/2, 21.7), (b1_x + mw/2, 21.25))
+-    
+-    draw_callout(ax, b1_x + mw + 0.3, 21.7, 3.2, 0.8, "CHUCK'S GUN SHOP TEXT\n(Long Cooldown Trigger)", "text")
+-    draw_arrow(ax, (b1_x + mw, 22.15), (b1_x + mw + 0.3, 22.15))
++    # BRANCH 1: UNWANTED ATTENTION & PIPEWORK (Left Side: x = 0.8)
++    # -------------------------------------------------------------
++    b1_x = 0.8
++    mw1 = 3.2
++    draw_arrow(ax, (2.4, split_y), (b1_x + mw1/2, 26.2))
++    draw_mission(ax, b1_x, 25.2, mw1, mh, "UNWANTED ATTENTION", "Cal & Jason Drive to Hamlet")
++    
++    draw_callout(ax, b1_x, 24.1, mw1, 0.75, "CAL TEXT\n($200 IN MAILBOX)", "mailbox")
++    draw_arrow(ax, (b1_x + mw1/2, 25.2), (b1_x + mw1/2, 24.85))
++    
++    draw_callout(ax, b1_x, 23.0, mw1, 0.65, "BRIAN CALL", "phone")
++    draw_arrow(ax, (b1_x + mw1/2, 24.1), (b1_x + mw1/2, 23.65))
++    
++    draw_mission(ax, b1_x, 21.7, mw1, mh, "PIPEWORK", "Marina Maintenance Jobs")
++    draw_arrow(ax, (b1_x + mw1/2, 23.0), (b1_x + mw1/2, 22.65))
++    
++    draw_callout(ax, b1_x, 20.6, mw1, 0.65, "BRIAN TEXT", "text")
++    draw_arrow(ax, (b1_x + mw1/2, 21.7), (b1_x + mw1/2, 21.25))
+     
+     # Speedrun routing tip for Branch 1
+-    draw_speedrun_badge(ax, b1_x - 0.2, 18.8, mw + 0.4, 1.4, "PARALLEL DOWNTIME ROUTING", "Clear Unwanted Attention & Pipework\nduring Feng Shui's 24h wait!\nGrab $200 mailbox immediately.")
+-    draw_arrow(ax, (b1_x + mw/2, 20.6), (b1_x + mw/2, 20.2))
+-    
+-    # -------------------------------------------------------------
+-    # BRANCH 2: GEAR UP & JUST A SCRATCH (Middle-Left: x = 6.8)
+-    # -------------------------------------------------------------
+-    b2_x = 6.8
+-    draw_arrow(ax, (8.6, split_y), (b2_x + mw/2, 26.2))
+-    draw_mission(ax, b2_x, 25.2, mw, mh, "GEAR UP", "Pick up Longarm for Brian")
+-    
+-    draw_callout(ax, b2_x, 24.0, mw, 0.75, "POST-MISSION FORCED CALL\nFROM DONNIE", "phone")
+-    draw_arrow(ax, (b2_x + mw/2, 25.2), (b2_x + mw/2, 24.75))
+-    
+-    draw_callout(ax, b2_x, 22.9, mw, 0.65, "JOEY TEXT", "text")
+-    draw_arrow(ax, (b2_x + mw/2, 24.0), (b2_x + mw/2, 23.55))
+-    
+-    draw_heart(ax, b2_x, 21.6, mw, mh, "JUST A SCRATCH\n(Ganado Repair & Respray)", skip_label="[MANDATORY STORY GATE!]")
+-    draw_arrow(ax, (b2_x + mw/2, 22.9), (b2_x + mw/2, 22.6))
+-    
+-    draw_speedrun_badge(ax, b2_x - 0.2, 19.5, mw + 0.4, 1.5, "MANDATORY GATE WARNING", "Just a Scratch CANNOT be skipped!\nIf ignored, Joey calls repeatedly and\nhalts progression at Day Release.")
+-    draw_arrow(ax, (b2_x + mw/2, 21.6), (b2_x + mw/2, 21.0))
++    draw_speedrun_badge(ax, b1_x - 0.2, 18.6, mw1 + 0.4, 1.6, "PARALLEL DOWNTIME ROUTING", "Clear Unwanted Attention & Pipework\nduring Feng Shui's 24h wait!\nGrab $200 mailbox immediately.")
++    draw_arrow(ax, (b1_x + mw1/2, 20.6), (b1_x + mw1/2, 20.2))
++    
++    # -------------------------------------------------------------
++    # BRANCH 2: GEAR UP & JUST A SCRATCH (Middle-Left: x = 4.5)
++    # -------------------------------------------------------------
++    b2_x = 4.5
++    mw2 = 3.2
++    draw_arrow(ax, (6.1, split_y), (b2_x + mw2/2, 26.2))
++    draw_mission(ax, b2_x, 25.2, mw2, mh, "GEAR UP", "Pick up Longarm for Brian")
++    
++    draw_callout(ax, b2_x, 24.0, mw2, 0.75, "POST-MISSION FORCED CALL\nFROM DONNIE", "phone")
++    draw_arrow(ax, (b2_x + mw2/2, 25.2), (b2_x + mw2/2, 24.75))
++    
++    draw_callout(ax, b2_x, 22.9, mw2, 0.65, "JOEY TEXT", "text")
++    draw_arrow(ax, (b2_x + mw2/2, 24.0), (b2_x + mw2/2, 23.55))
++    
++    draw_heart(ax, b2_x, 21.6, mw2, mh, "JUST A SCRATCH\n(Ganado Repair & Respray)", skip_label="[MANDATORY STORY GATE!]")
++    draw_arrow(ax, (b2_x + mw2/2, 22.9), (b2_x + mw2/2, 22.55))
++    
++    draw_speedrun_badge(ax, b2_x - 0.2, 19.3, mw2 + 0.4, 1.8, "MANDATORY GATE WARNING", "Just a Scratch CANNOT be skipped!\nIf ignored, Joey calls repeatedly and\nhalts progression at Day Release.")
++    draw_arrow(ax, (b2_x + mw2/2, 21.6), (b2_x + mw2/2, 21.1))
++    
++    # -------------------------------------------------------------
++    # SUB-BRANCH: ISLAND DREAMS (Keys Diving: x = 8.3)
++    # -------------------------------------------------------------
++    isl_x = 8.3
++    is_w = 3.2
++    draw_mission(ax, isl_x, 21.6, is_w, mh, "ISLAND DREAMS", "Keys Diving")
++    draw_callout(ax, isl_x, 20.3, is_w, 0.75, "KENTON CALL\n(Treasure Search)", "phone")
++    draw_arrow(ax, (isl_x + is_w/2, 21.6), (isl_x + is_w/2, 21.05))
+     
+     # -------------------------------------------------------------
+     # BRANCH 3: LAB FEES -> HEY ARNOLD! -> FENG SHUI -> COMING HOME
+@@ -161,168 +161,167 @@
+     b3_x = 12.0
+-    draw_arrow(ax, (13.0, split_y), (b3_x + mw/2, 26.2))
+-    draw_mission(ax, b3_x, 25.2, mw, mh, "LAB FEES", "Brian's Rent Collection")
++    mw3 = 3.6
++    draw_arrow(ax, (13.8, split_y), (b3_x + mw3/2, 26.2))
++    draw_mission(ax, b3_x, 25.2, mw3, mh, "LAB FEES", "Brian's Rent Collection")
+     
+     # Side task: Drug/diamond drop off
+-    draw_side(ax, b3_x + mw + 0.4, 25.25, 3.4, 0.85, "GRAB ANY DRUG, CASH\nOR DIAMOND ON MAP\n(Unlocks Brian's Drop Off)")
+-    draw_arrow(ax, (b3_x + mw, 25.65), (b3_x + mw + 0.4, 25.65))
+-    
+-    draw_callout(ax, b3_x, 24.0, mw, 0.65, "BRIAN'S CALL", "phone")
+-    draw_arrow(ax, (b3_x + mw/2, 25.2), (b3_x + mw/2, 24.65))
+-    
+-    draw_mission(ax, b3_x, 22.7, mw, mh, "HEY ARNOLD!", "Track Down Cargo Broker")
+-    draw_arrow(ax, (b3_x + mw/2, 24.0), (b3_x + mw/2, 23.65))
++    draw_side(ax, b3_x + mw3 + 0.4, 25.25, 3.6, 0.85, "GRAB ANY DRUG, CASH\nOR DIAMOND ON MAP\n(Unlocks Brian's Drop Off)")
++    draw_arrow(ax, (b3_x + mw3, 25.65), (b3_x + mw3 + 0.4, 25.65))
++    
++    draw_callout(ax, b3_x, 24.0, mw3, 0.65, "BRIAN'S CALL", "phone")
++    draw_arrow(ax, (b3_x + mw3/2, 25.2), (b3_x + mw3/2, 24.65))
++    
++    draw_mission(ax, b3_x, 22.7, mw3, mh, "HEY ARNOLD!", "Track Down Cargo Broker")
++    draw_arrow(ax, (b3_x + mw3/2, 24.0), (b3_x + mw3/2, 23.65))
+     
+     # Offshoots from Hey Arnold
+-    draw_mission(ax, b3_x - 3.2, 21.3, 2.9, 0.85, "ISLAND DREAMS", "Keys Diving")
+-    draw_arrow(ax, (b3_x, 23.0), (b3_x - 1.75, 22.15))
+-    draw_callout(ax, b3_x - 3.2, 20.1, 2.9, 0.7, "KENTON CALL\n(Treasure Search)", "phone")
+-    draw_arrow(ax, (b3_x - 1.75, 21.3), (b3_x - 1.75, 20.8))
+-    
+-    draw_callout(ax, b3_x + 0.1, 21.4, 2.5, 0.65, "CAL'S TEXT", "text")
+-    draw_arrow(ax, (b3_x + mw/2, 22.7), (b3_x + 1.35, 22.05))
+-    
+-    draw_callout(ax, b3_x + 2.8, 21.4, 2.8, 0.65, "BRIAN'S TEXT\n($600 MAILBOX)", "mailbox")
+-    draw_arrow(ax, (b3_x + mw, 22.9), (b3_x + 4.2, 22.05))
+-    
+-    draw_side(ax, b3_x + 5.8, 21.3, 2.9, 0.85, "DONNIE TEXT\nKingfishers Robbery")
+-    draw_arrow(ax, (b3_x + mw, 23.1), (b3_x + 7.25, 22.15))
++    draw_arrow(ax, (b3_x, 23.15), (isl_x + is_w, 22.15))
++    
++    draw_callout(ax, b3_x + 4.2, 22.8, 2.4, 0.65, "CAL'S TEXT", "text")
++    draw_arrow(ax, (b3_x + mw3, 23.1), (b3_x + 4.2, 23.1))
++    
++    draw_callout(ax, b3_x + 7.0, 22.8, 3.0, 0.65, "BRIAN'S TEXT\n($600 MAILBOX)", "mailbox")
++    draw_arrow(ax, (b3_x + 6.6, 23.1), (b3_x + 7.0, 23.1))
++    
++    draw_side(ax, b3_x + 10.4, 22.7, 3.0, 0.85, "DONNIE TEXT\nKingfishers Robbery")
++    draw_arrow(ax, (b3_x + 10.0, 23.1), (b3_x + 10.4, 23.1))
+     
+     # FENG SHUI
+-    draw_mission(ax, b3_x, 19.8, mw, mh, "FENG SHUI", "Move Furniture for Brian")
+-    draw_arrow(ax, (b3_x + mw/2, 21.4), (b3_x + mw/2, 20.75))
++    draw_mission(ax, b3_x, 19.8, mw3, mh, "FENG SHUI", "Move Furniture for Brian")
++    draw_arrow(ax, (b3_x + mw3/2, 22.7), (b3_x + mw3/2, 20.75))
+     
+     # 24H Cooldown Note
+-    draw_callout(ax, b3_x, 18.6, mw, 0.75, "24 IN-GAME HOURS LATER\n→ LUCIA CALL", "phone")
+-    draw_arrow(ax, (b3_x + mw/2, 19.8), (b3_x + mw/2, 19.35))
++    draw_callout(ax, b3_x, 18.6, mw3, 0.75, "24 IN-GAME HOURS LATER\n→ LUCIA CALL", "phone")
++    draw_arrow(ax, (b3_x + mw3/2, 19.8), (b3_x + mw3/2, 19.35))
+     
+     # 4 Heart Activities (ALL ANY% SKIPS!)
+     h_y = 18.6
+-    draw_heart(ax, b3_x + 4.0, h_y, 2.4, 0.75, "GET HAIRCUT")
+-    draw_heart(ax, b3_x + 6.6, h_y, 2.4, 0.75, "BUY NECKLACE")
+-    draw_heart(ax, b3_x + 9.2, h_y, 2.4, 0.75, "BUY FLOWERS")
+-    draw_heart(ax, b3_x + 11.8, h_y, 2.4, 0.75, "BUY GROCERIES")
+-    draw_arrow(ax, (b3_x + mw, 19.0), (b3_x + 4.0, 19.0), color="#f43f5e")
++    draw_heart(ax, b3_x + 4.2, h_y, 2.2, 0.75, "GET HAIRCUT")
++    draw_heart(ax, b3_x + 6.6, h_y, 2.2, 0.75, "BUY NECKLACE")
++    draw_heart(ax, b3_x + 9.0, h_y, 2.2, 0.75, "BUY FLOWERS")
++    draw_heart(ax, b3_x + 11.4, h_y, 2.2, 0.75, "BUY GROCERIES")
++    draw_arrow(ax, (b3_x + mw3, 19.0), (b3_x + 4.2, 19.0), color="#f43f5e")
+     
+     # COMING HOME
+-    draw_mission(ax, b3_x, 17.2, mw, mh, "COMING HOME", "Lucia Released from Prison", is_climax=True)
+-    draw_arrow(ax, (b3_x + mw/2, 18.6), (b3_x + mw/2, 18.15))
++    draw_mission(ax, b3_x, 17.2, mw3, mh, "COMING HOME", "Lucia Released from Prison", is_climax=True)
++    draw_arrow(ax, (b3_x + mw3/2, 18.6), (b3_x + mw3/2, 18.15))
+     
+     # Side tasks post Coming Home
+-    draw_callout(ax, b3_x + mw + 0.4, 17.3, 3.2, 0.65, "ANDY CALL", "phone")
+-    draw_heart(ax, b3_x + mw + 3.8, 17.3, 2.8, 0.65, "LUCIA'S CLOTHES", skip_label="[HOT METER]")
+-    draw_arrow(ax, (b3_x + mw, 17.65), (b3_x + mw + 0.4, 17.65))
+-    draw_arrow(ax, (b3_x + mw + 3.6, 17.65), (b3_x + mw + 3.8, 17.65))
++    draw_callout(ax, b3_x + mw3 + 0.4, 17.3, 2.8, 0.65, "ANDY CALL", "phone")
++    draw_heart(ax, b3_x + mw3 + 3.4, 17.3, 2.8, 0.65, "LUCIA'S CLOTHES", skip_label="[HOT METER]")
++    draw_arrow(ax, (b3_x + mw3, 17.65), (b3_x + mw3 + 0.4, 17.65))
++    draw_arrow(ax, (b3_x + mw3 + 3.2, 17.65), (b3_x + mw3 + 3.4, 17.65))
+     
+     # Donnie Package
+-    draw_mission(ax, b3_x, 15.8, mw, mh, "FIND DONNIE'S PACKAGE", "Clean Up After Donnie")
+-    draw_arrow(ax, (b3_x + mw/2, 17.2), (b3_x + mw/2, 16.75))
++    draw_mission(ax, b3_x, 15.8, mw3, mh, "FIND DONNIE'S PACKAGE", "Clean Up After Donnie")
++    draw_arrow(ax, (b3_x + mw3/2, 17.2), (b3_x + mw3/2, 16.75))
+     
+     # Decision Diamond 1: Did player finish Just a Scratch?
+     dia1_y = 14.4
+-    draw_diamond(ax, b3_x + mw/2, dia1_y, 2.1, 0.8, "Did player finish\nJUST A SCRATCH?")
+-    draw_arrow(ax, (b3_x + mw/2, 15.8), (b3_x + mw/2, dia1_y + 0.8))
++    draw_diamond(ax, b3_x + mw3/2, dia1_y, 2.0, 0.75, "Did player finish\nJUST A SCRATCH?")
++    draw_arrow(ax, (b3_x + mw3/2, 15.8), (b3_x + mw3/2, dia1_y + 0.75))
+     
+     # Left No branch
+-    draw_callout(ax, b3_x - 3.8, dia1_y - 0.35, 3.2, 0.75, "NO → JOEY CALL\nReminds to clear Scratch", "phone")
+-    draw_arrow(ax, (b3_x + mw/2 - 2.1, dia1_y), (b3_x - 0.6, dia1_y))
++    draw_callout(ax, b3_x - 3.7, dia1_y - 0.35, 3.2, 0.7, "NO → JOEY CALL\nReminds to clear Scratch", "phone")
++    draw_arrow(ax, (b3_x + mw3/2 - 2.0, dia1_y), (b3_x - 0.5, dia1_y))
+     # Reconnects to Just a Scratch
+-    draw_arrow(ax, (b3_x - 2.2, dia1_y + 0.4), (b2_x + mw, 21.8), rad=0.25, color="#f43f5e")
++    draw_arrow(ax, (b3_x - 2.1, dia1_y + 0.35), (b2_x + mw2, 21.8), rad=0.25, color="#f43f5e")
+     
+     # Yes -> Lucia Call
+-    draw_callout(ax, b3_x, 12.8, mw, 0.65, "LUCIA'S CALL", "phone")
+-    draw_arrow(ax, (b3_x + mw/2, dia1_y - 0.8), (b3_x + mw/2, 13.45))
++    draw_callout(ax, b3_x, 12.8, mw3, 0.65, "LUCIA'S CALL", "phone")
++    draw_arrow(ax, (b3_x + mw3/2, dia1_y - 0.75), (b3_x + mw3/2, 13.45))
+     
+     # BUCK ME
+-    draw_mission(ax, b3_x, 11.4, mw, mh, "BUCK ME", "Setup Banking App & Deposit")
+-    draw_arrow(ax, (b3_x + mw/2, 12.8), (b3_x + mw/2, 12.35))
+-    
+-    draw_callout(ax, b3_x - 3.8, 11.5, 3.4, 0.75, "DEPOSIT CASH\nINTO BUCK ME", "cash")
+-    draw_arrow(ax, (b3_x, 11.9), (b3_x - 0.4, 11.9))
+-    
+-    draw_callout(ax, b3_x + mw + 0.4, 11.5, 3.4, 0.75, "BRIAN'S TEXT\nSAVE FOR THE FUTURE", "text")
+-    draw_arrow(ax, (b3_x + mw, 11.9), (b3_x + mw + 0.4, 11.9))
++    draw_mission(ax, b3_x, 11.4, mw3, mh, "BUCK ME", "Setup Banking App & Deposit")
++    draw_arrow(ax, (b3_x + mw3/2, 12.8), (b3_x + mw3/2, 12.35))
++    
++    draw_callout(ax, b3_x - 3.9, 11.5, 3.4, 0.75, "DEPOSIT CASH\nINTO BUCK ME", "cash")
++    draw_arrow(ax, (b3_x, 11.9), (b3_x - 0.5, 11.9))
++    
++    draw_callout(ax, b3_x + mw3 + 0.4, 11.5, 3.4, 0.75, "BRIAN'S TEXT\nSAVE FOR THE FUTURE", "text")
++    draw_arrow(ax, (b3_x + mw3, 11.9), (b3_x + mw3 + 0.4, 11.9))
+     
+     # DOWN TO EARTH
+-    draw_mission(ax, b3_x, 9.9, mw, mh, "DOWN TO EARTH", "Marina Smuggling Run")
+-    draw_arrow(ax, (b3_x + mw/2, 11.4), (b3_x + mw/2, 10.85))
++    draw_mission(ax, b3_x, 9.9, mw3, mh, "DOWN TO EARTH", "Marina Smuggling Run")
++    draw_arrow(ax, (b3_x + mw3/2, 11.4), (b3_x + mw3/2, 10.85))
+     
+     # Side tasks of Down to Earth
+-    draw_callout(ax, b3_x - 3.8, 9.95, 3.4, 0.75, "DONNIE TEXT\n($600 IN MAILBOX)", "mailbox")
+-    draw_arrow(ax, (b3_x, 10.35), (b3_x - 0.4, 10.35))
+-    
+-    draw_side(ax, b3_x + mw + 0.4, 9.95, 3.4, 0.85, "CAL TEXT\nFind Lost Drugs x4")
+-    draw_arrow(ax, (b3_x + mw, 10.35), (b3_x + mw + 0.4, 10.35))
++    draw_callout(ax, b3_x - 3.9, 9.95, 3.4, 0.75, "DONNIE TEXT\n($600 IN MAILBOX)", "mailbox")
++    draw_arrow(ax, (b3_x, 10.35), (b3_x - 0.5, 10.35))
++    
++    draw_side(ax, b3_x + mw3 + 0.4, 9.95, 3.4, 0.85, "CAL TEXT\nFind Lost Drugs x4")
++    draw_arrow(ax, (b3_x + mw3, 10.35), (b3_x + mw3 + 0.4, 10.35))
+     
+     # CLEAR SKIES
+-    draw_callout(ax, b3_x, 8.8, mw, 0.65, "DONNIE'S TEXT", "text")
+-    draw_arrow(ax, (b3_x + mw/2, 9.9), (b3_x + mw/2, 9.45))
+-    
+-    draw_mission(ax, b3_x, 7.4, mw, mh, "CLEAR SKIES", "Deal with Southwind Bikers")
+-    draw_arrow(ax, (b3_x + mw/2, 8.8), (b3_x + mw/2, 8.35))
++    draw_callout(ax, b3_x, 8.6, mw3, 0.65, "DONNIE'S TEXT", "text")
++    draw_arrow(ax, (b3_x + mw3/2, 9.9), (b3_x + mw3/2, 9.25))
++    
++    draw_mission(ax, b3_x, 7.3, mw3, mh, "CLEAR SKIES", "Deal with Southwind Bikers")
++    draw_arrow(ax, (b3_x + mw3/2, 8.6), (b3_x + mw3/2, 8.25))
+     
+     # DAY RELEASE
+-    draw_callout(ax, b3_x, 6.3, mw, 0.65, "LUCIA'S TEXT", "text")
+-    draw_arrow(ax, (b3_x + mw/2, 7.4), (b3_x + mw/2, 6.95))
+-    
+-    draw_mission(ax, b3_x, 4.9, mw, mh, "DAY RELEASE", "Rusty Anchor Bar Night Out")
+-    draw_arrow(ax, (b3_x + mw/2, 6.3), (b3_x + mw/2, 5.85))
+-    
+-    draw_callout(ax, b3_x + mw + 0.4, 4.95, 3.4, 0.75, "BUCK ME TEXT\n(Interest Earned)", "cash")
+-    draw_arrow(ax, (b3_x + mw, 5.35), (b3_x + mw + 0.4, 5.35))
++    draw_callout(ax, b3_x, 6.1, mw3, 0.65, "LUCIA'S TEXT", "text")
++    draw_arrow(ax, (b3_x + mw3/2, 7.3), (b3_x + mw3/2, 6.75))
++    
++    draw_mission(ax, b3_x, 4.8, mw3, mh, "DAY RELEASE", "Rusty Anchor Bar Night Out")
++    draw_arrow(ax, (b3_x + mw3/2, 6.1), (b3_x + mw3/2, 5.75))
++    
++    draw_callout(ax, b3_x + mw3 + 0.4, 4.85, 3.4, 0.75, "BUCK ME TEXT\n(Interest Earned)", "cash")
++    draw_arrow(ax, (b3_x + mw3, 5.25), (b3_x + mw3 + 0.4, 5.25))
+     
+     # Decision Diamond 2: Are Day Release and Just a Scratch both done?
+-    dia2_y = 3.6
+-    draw_diamond(ax, b3_x + mw/2, dia2_y, 2.2, 0.75, "Are DAY RELEASE &\nJUST A SCRATCH done?")
+-    draw_arrow(ax, (b3_x + mw/2, 4.9), (b3_x + mw/2, dia2_y + 0.75))
+-    
+-    draw_callout(ax, b3_x, 2.2, mw, 0.65, "YES → BRIAN'S CALL", "phone")
+-    draw_arrow(ax, (b3_x + mw/2, dia2_y - 0.75), (b3_x + mw/2, 2.85))
+-    
+-    draw_mission(ax, b3_x, 0.8, mw, mh, "SWAMPED", "Kingfishers Smugglers Meet")
+-    draw_arrow(ax, (b3_x + mw/2, 2.2), (b3_x + mw/2, 1.75))
+-    
+-    # -------------------------------------------------------------
+-    # THE MISSING REST OF CHAPTER 1 (Right Side: x = 19.5)
+-    # -------------------------------------------------------------
+-    b4_x = 19.5
+-    draw_arrow(ax, (b3_x + mw, 1.25), (b4_x + mw/2, 1.25))
+-    draw_callout(ax, b4_x, 0.8, mw, mh, "BRIAN'S CALL\n(Donnie's Betrayal)", "phone")
+-    
+-    draw_arrow(ax, (b4_x + mw/2, 1.75), (b4_x + mw/2, 2.8))
+-    draw_mission(ax, b4_x, 2.8, mw, mh, "DON GONE", "Clear Donnie's Trailer")
+-    
+-    draw_callout(ax, b4_x, 4.2, mw, 0.65, "CAL'S CALL (Distress)", "phone")
+-    draw_arrow(ax, (b4_x + mw/2, 3.75), (b4_x + mw/2, 4.2))
+-    
+-    draw_mission(ax, b4_x, 5.3, mw, mh, "RECALIBRATION", "Cal Intervention & Reset")
+-    draw_arrow(ax, (b4_x + mw/2, 4.85), (b4_x + mw/2, 5.3))
+-    
+-    draw_callout(ax, b4_x, 6.7, mw, 0.65, "MATTIA'S TEXT (Job Offer)", "text")
+-    draw_arrow(ax, (b4_x + mw/2, 6.25), (b4_x + mw/2, 6.7))
++    dia2_y = 3.5
++    draw_diamond(ax, b3_x + mw3/2, dia2_y, 2.1, 0.75, "Are DAY RELEASE &\nJUST A SCRATCH done?")
++    draw_arrow(ax, (b3_x + mw3/2, 4.8), (b3_x + mw3/2, dia2_y + 0.75))
++    
++    draw_callout(ax, b3_x, 2.1, mw3, 0.65, "YES → BRIAN'S CALL", "phone")
++    draw_arrow(ax, (b3_x + mw3/2, dia2_y - 0.75), (b3_x + mw3/2, 2.75))
++    
++    draw_mission(ax, b3_x, 0.8, mw3, mh, "SWAMPED", "Kingfishers Smugglers Meet")
++    draw_arrow(ax, (b3_x + mw3/2, 2.1), (b3_x + mw3/2, 1.75))
++    
++    # -------------------------------------------------------------
++    # THE MISSING REST OF CHAPTER 1 (Right Side: x = 19.8)
++    # -------------------------------------------------------------
++    b4_x = 19.8
++    mw4 = 3.6
++    draw_arrow(ax, (b3_x + mw3, 1.25), (b4_x, 1.25))
++    draw_callout(ax, b4_x, 0.8, mw4, mh, "BRIAN'S CALL\n(Donnie's Betrayal)", "phone")
++    
++    draw_arrow(ax, (b4_x + mw4/2, 1.75), (b4_x + mw4/2, 2.4))
++    draw_mission(ax, b4_x, 2.4, mw4, mh, "DON GONE", "Clear Donnie's Trailer")
++    
++    draw_callout(ax, b4_x, 3.9, mw4, 0.65, "CAL'S CALL (Distress)", "phone")
++    draw_arrow(ax, (b4_x + mw4/2, 3.35), (b4_x + mw4/2, 3.9))
++    
++    draw_mission(ax, b4_x, 5.2, mw4, mh, "RECALIBRATION", "Cal Intervention & Reset")
++    draw_arrow(ax, (b4_x + mw4/2, 4.55), (b4_x + mw4/2, 5.2))
++    
++    draw_callout(ax, b4_x, 6.6, mw4, 0.65, "MATTIA'S TEXT (Job Offer)", "text")
++    draw_arrow(ax, (b4_x + mw4/2, 6.15), (b4_x + mw4/2, 6.6))
+     
+     # TOURIST TRAP
+-    draw_mission(ax, b4_x, 7.8, mw, mh, "TOURIST TRAP", "Accept Mattia's Pickup Job", is_climax=True)
+-    draw_arrow(ax, (b4_x + mw/2, 7.35), (b4_x + mw/2, 7.8))
+-    
+-    draw_speedrun_badge(ax, b4_x + mw + 0.3, 7.6, 2.6, 1.3, "NO RETURN WARNING", "Starting Tourist Trap locks\nall Chapter 1 side content!")
++    draw_mission(ax, b4_x, 7.9, mw4, mh, "TOURIST TRAP", "Accept Mattia's Pickup Job", is_climax=True)
++    draw_arrow(ax, (b4_x + mw4/2, 7.25), (b4_x + mw4/2, 7.9))
++    
++    draw_speedrun_badge(ax, b4_x + mw4 + 0.3, 7.75, 2.1, 1.2, "NO RETURN WARNING", "Starting Tourist Trap locks\nall Chapter 1 side content!", font_size=6.2)
+     
+     # HOME SWEET HOME
+-    draw_callout(ax, b4_x, 9.2, mw, 0.65, "KEY LENTO AMBUSH TRIGGER", "phone")
+-    draw_arrow(ax, (b4_x + mw/2, 8.75), (b4_x + mw/2, 9.2))
+-    
+-    draw_mission(ax, b4_x, 10.3, mw, mh, "HOME SWEET HOME", "Defend Key Lento Trailer")
+-    draw_arrow(ax, (b4_x + mw/2, 9.85), (b4_x + mw/2, 10.3))
++    draw_callout(ax, b4_x, 9.4, mw4, 0.65, "KEY LENTO AMBUSH TRIGGER", "phone")
++    draw_arrow(ax, (b4_x + mw4/2, 8.85), (b4_x + mw4/2, 9.4))
++    
++    draw_mission(ax, b4_x, 10.6, mw4, mh, "HOME SWEET HOME", "Defend Key Lento Trailer")
++    draw_arrow(ax, (b4_x + mw4/2, 10.05), (b4_x + mw4/2, 10.6))
+     
+     # DISCHARGE TIME
+-    draw_callout(ax, b4_x, 11.7, mw, 0.65, "HOSPITAL AMBULANCE CALL", "phone")
+-    draw_arrow(ax, (b4_x + mw/2, 11.25), (b4_x + mw/2, 11.7))
+-    
+-    draw_mission(ax, b4_x, 12.8, mw, 1.1, "DISCHARGE TIME", "Chapter 1 Climax & Evacuation", is_climax=True, is_gate=True)
+-    draw_arrow(ax, (b4_x + mw/2, 12.35), (b4_x + mw/2, 12.8))
++    draw_callout(ax, b4_x, 12.0, mw4, 0.65, "HOSPITAL AMBULANCE CALL", "phone")
++    draw_arrow(ax, (b4_x + mw4/2, 11.55), (b4_x + mw4/2, 12.0))
++    
++    draw_mission(ax, b4_x, 13.2, mw4, 1.1, "DISCHARGE TIME", "Chapter 1 Climax & Evacuation", is_climax=True, is_gate=True)
++    draw_arrow(ax, (b4_x + mw4/2, 12.65), (b4_x + mw4/2, 13.2))
+     
+     # Chapter 2 Transition Box
+-    draw_speedrun_badge(ax, b4_x, 14.5, mw, 1.6, "CHAPTER 2 TRANSITION", "Hard cut to Port Gellhorn!\nMotel arrival & Lucia solo mode.\nSaves locked permanently.")
+-    draw_arrow(ax, (b4_x + mw/2, 13.9), (b4_x + mw/2, 14.5), color="#f43f5e", lw=2.0)
++    draw_speedrun_badge(ax, b4_x - 0.2, 14.9, mw4 + 0.4, 1.6, "CHAPTER 2 TRANSITION", "Hard cut to Port Gellhorn!\nMotel arrival & Lucia solo mode.\nSaves locked permanently.")
++    draw_arrow(ax, (b4_x + mw4/2, 14.3), (b4_x + mw4/2, 14.9), color="#f43f5e", lw=2.0)
+     
+     out_path = os.path.join(WORKSPACE_DIR, "GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png")
+     plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

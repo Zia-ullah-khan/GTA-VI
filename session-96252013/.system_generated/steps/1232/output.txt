@@ -1,0 +1,113 @@
+Created At: 2026-11-25T17:56:09-05:00
+Completed At: 2026-11-25T17:56:14-05:00
+Command exited with code 0.
+
+Command output:
+=== TEA hit raw=0x17e110 VA=0x14017ed10 ===
+  0x14017ed00: mov      edx, eax
+  0x14017ed02: shl      edx, 6
+  0x14017ed05: shr      r8d, 2
+  0x14017ed09: add      r8d, edx
+  0x14017ed0c: lea      ecx, [rcx + r8 - 0x61c88647]
+  0x14017ed14: xor      ecx, eax
+  0x14017ed16: imul     eax, ecx, 0x19660d
+  0x14017ed1c: add      eax, 0x7110b0d0
+  0x14017ed21: mov      edx, eax
+  0x14017ed23: shr      edx, 0x10
+  0x14017ed26: xor      edx, eax
+  0x14017ed28: imul     eax, ecx, 0x17385ca9
+  0x14017ed2e: add      eax, 0xa3117a85
+  0x14017ed33: mov      ecx, eax
+=== TEA hit raw=0x529437 VA=0x14052a037 ===
+  0x14052a027: add      r10d, dword ptr [rdx + r8]
+  0x14052a02b: shr      r11d, 2
+  0x14052a02f: add      r8, 4
+  0x14052a033: lea      r10d, [r11 + r10 - 0x61c88647]
+  0x14052a03b: xor      r9d, r10d
+  0x14052a03e: mov      dword ptr [rcx + 0x50], r9d
+  0x14052a042: cmp      rax, r8
+  0x14052a045: jne      0x14052a01d
+  0x14052a047: ret      
+  0x14052a048: int3     
+  0x14052a049: int3     
+  0x14052a04a: int3     
+  0x14052a04b: int3     
+  0x14052a04c: int3     
+=== TEA hit raw=0x7b813b VA=0x1407b8d3b ===
+=== TEA hit raw=0x1841084 VA=0x141841c84 ===
+=== TEA hit raw=0x43b016b VA=0x1443b0d6b ===
+  0x1443b0d5b: add      byte ptr [rax], al
+  0x1443b0d5d: add      byte ptr [rcx], dh
+  0x1443b0d5f: rol      byte ptr [rcx - 9], cl
+  0x1443b0d62: fiadd    dword ptr [rcx - 9]
+  0x1443b0d65: cli      
+  0x1443b0d66: mov      r10d, dword ptr [rcx]
+  0x1443b0d69: imul     eax, eax, 0x9e3779b9
+  0x1443b0d6f: add      eax, 0xb54cda56
+  0x1443b0d74: cmp      r9d, -1
+  0x1443b0d78: not      r9d
+  0x1443b0d7b: movsxd   rdx, r9d
+  0x1443b0d7e: je       0x1443b0e39
+  0x1443b0d84: mov      r9d, r9d
+  0x1443b0d87: mov      edi, dword ptr [rcx + r9*4]
+=== TEA hit raw=0x4ad7db9 VA=0x144ad89b9 ===
+  0x144ad89a9: ret      0xf2d9
+  0x144ad89ac: mov      ss, word ptr [rax]
+  0x144ad89ae: mov      edx, eax
+  0x144ad89b0: shr      edx, 0x16
+  0x144ad89b3: xor      edx, eax
+  0x144ad89b5: lea      r8d, [rdx + r9 - 0x61c88647]
+  0x144ad89bd: mov      rdx, qword ptr [rcx]
+  0x144ad89c0: xor      r8d, r10d
+  0x144ad89c3: imul     eax, r8d, 0x19660d
+  0x144ad89ca: imul     r10d, r8d, 0x17385ca9
+  0x144ad89d1: imul     r8d, r8d, 0xd5ac7e08
+  0x144ad89d8: vmovss   xmm0, dword ptr [rdx + 0x78]
+  0x144ad89dd: vmovss   xmm1, dword ptr [rdx + 0x7c]
+  0x144ad89e2: lea      r9d, [rax + 0x534ce09f]
+=== TEA hit raw=0x4f8ea0d VA=0x144f8f60d ===
+  0x144f8f5fd: mov      edx, eax
+  0x144f8f5ff: shl      edx, 6
+  0x144f8f602: shr      r8d, 2
+  0x144f8f606: add      r8d, edx
+  0x144f8f609: lea      ecx, [rcx + r8 - 0x61c88647]
+  0x144f8f611: xor      ecx, eax
+  0x144f8f613: imul     eax, ecx, 0x19660d
+  0x144f8f619: imul     ecx, ecx, 0x17385ca9
+  0x144f8f61f: add      eax, 0xf475867a
+  0x144f8f624: add      ecx, 0xc0b6ebf9
+  0x144f8f62a: mov      edx, eax
+  0x144f8f62c: shr      edx, 0x10
+  0x144f8f62f: xor      edx, eax
+  0x144f8f631: mov      eax, ecx
+=== TEA hit raw=0x5172f7f VA=0x145173b7f ===
+  0x145173b6f: xor      ebx, edx
+  0x145173b71: mov      r10d, edi
+  0x145173b74: shl      r10d, 6
+  0x145173b78: add      r14d, r10d
+  0x145173b7b: lea      r10d, [rbx + r14 - 0x61c88647]
+  0x145173b83: xor      r10d, edi
+  0x145173b86: cmp      byte ptr [rcx + 0x54], 1
+  0x145173b8a: je       0x145173be4
+  0x145173b8c: inc      al
+  0x145173b8e: movzx    r11d, al
+  0x145173b92: mov      byte ptr [r9 + 0x7b], al
+  0x145173b96: cmp      esi, r11d
+  0x145173b99: jl       0x145173ba7
+  0x145173b9b: cmp      byte ptr [rcx + 0x55], 0
+=== TEA hit raw=0x5329959 VA=0x14532a559 ===
+=== TEA hit raw=0x54b5480 VA=0x1454b6080 ===
+  0x1454b6070: loopne   0x1454b6078
+  0x1454b6072: add      r8d, r9d
+  0x1454b6075: mov      r9d, eax
+  0x1454b6078: shr      r9d, 2
+  0x1454b607c: lea      r8d, [r9 + r8 - 0x61c88647]
+  0x1454b6084: xor      r8d, eax
+  0x1454b6087: imul     eax, r8d, 0x19660d
+  0x1454b608e: imul     r8d, r8d, 0x17385ca9
+  0x1454b6095: add      eax, 0xa1527d95
+  0x1454b609a: add      r8d, 0xb0a2aa1f
+  0x1454b60a1: mov      r9d, eax
+  0x1454b60a4: shr      r9d, 0x10
+  0x1454b60a8: xor      r9d, eax
+  0x1454b60ab: mov      eax, r8d

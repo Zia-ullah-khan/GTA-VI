@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="MODULE_base_World"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="100"
+    userFlags="8"
+  >
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>1.000000 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>1.000000 1.000000</light_dir_mult>
+    <galaxy_light_dir_col_r>0.760784 1.000000</galaxy_light_dir_col_r>
+    <galaxy_light_dir_col_g>0.898039 1.000000</galaxy_light_dir_col_g>
+    <galaxy_light_dir_col_b>1.000000 1.000000</galaxy_light_dir_col_b>
+    <light_dir_transmittance_intensity_mult>1.000000 1.000000</light_dir_transmittance_intensity_mult>
+    <light_dir_transmittance_col_mult>1.000000 1.000000</light_dir_transmittance_col_mult>
+    <galaxy_light_dir_mult>0.050000 1.000000</galaxy_light_dir_mult>
+    <light_dir_ao_strength>0.000000 1.000000</light_dir_ao_strength>
+    <dir_shadow_distance_multiplier>1.000000 1.000000</dir_shadow_distance_multiplier>
+    <light_direction_override>0.000000 0.000000</light_direction_override>
+    <light_direction_override_overrides_sun>1.000000 0.000000</light_direction_override_overrides_sun>
+    <light_interior_tint_r>1.000000 1.000000</light_interior_tint_r>
+    <light_interior_tint_g>1.000000 1.000000</light_interior_tint_g>
+    <light_interior_tint_b>1.000000 1.000000</light_interior_tint_b>
+    <sun_direction_override>0.000000 0.000000</sun_direction_override>
+    <moon_direction_override>0.000000 0.000000</moon_direction_override>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_z>0.000000 0.000000</sun_direction_z>
+    <moon_direction_x>0.000000 0.000000</moon_direction_x>
+    <moon_direction_y>-1.000000 0.000000</moon_direction_y>
+    <moon_direction_z>0.000000 0.000000</moon_direction_z>
+    <direct_light_scattering_cone_angle>180.000000 1.000000</direct_light_scattering_cone_angle>
+    <direct_light_directional_strength_ao>1.000000 1.000000</direct_light_directional_strength_ao>
+    <direct_light_scattering_center_sample_weight>0.000000 1.000000</direct_light_scattering_center_sample_weight>
+    <direct_light_scattering_strength>1.000000 1.000000</direct_light_scattering_strength>
+    <direct_galaxy_light_roughness_mod>0.000000 1.000000</direct_galaxy_light_roughness_mod>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_coverage>150.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>1.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_pollution_multiplier>16.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_pollution_bounce_multiplier>16.000000 0.000000</indirect_light_pollution_bounce_multiplier>
+    <indirect_light_specular_occlusion_intensity>1.000000 0.000000</indirect_light_specular_occlusion_intensity>
+    <indirect_light_specular_glass_remap_min_distance>0.000000 0.000000</indirect_light_specular_glass_remap_min_distance>
+    <indirect_light_specular_glass_remap_max_distance>5.000000 0.000000</indirect_light_specular_glass_remap_max_distance>
+    <indirect_light_specular_glass_remap_min_weight>1.000000 0.000000</indirect_light_specular_glass_remap_min_weight>
+    <indirect_light_specular_glass_remap_max_weight>1.000000 0.000000</indirect_light_specular_glass_remap_max_weight>
+    <indirect_light_alpha_volume_coverage_override>0.000000 0.000000</indirect_light_alpha_volume_coverage_override>
+    <indirect_light_near_light_luminance_r>0.015000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.018000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.020000 0.000000</indirect_light_near_light_luminance_b>
+    <indirect_light_near_light_distance_min>0.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>30.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>0.200000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>16.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <indirect_light_height_occlusion_tint_near_r>0.925490 0.000000</indirect_light_height_occlusion_tint_near_r>
+    <indirect_light_height_occlusion_tint_near_g>0.984314 0.000000</indirect_light_height_occlusion_tint_near_g>
+    <indirect_light_height_occlusion_tint_near_b>0.827451 0.000000</indirect_light_height_occlusion_tint_near_b>
+    <indirect_light_height_occlusion_tint_far_r>0.203922 0.000000</indirect_light_height_occlusion_tint_far_r>
+    <indirect_light_height_occlusion_tint_far_g>0.227451 0.000000</indirect_light_height_occlusion_tint_far_g>
+    <indirect_light_height_occlusion_tint_far_b>0.141176 0.000000</indirect_light_height_occlusion_tint_far_b>
+    <indirect_light_refresh>0.000000 0.000000</indirect_light_refresh>
+    <indirect_light_water_hit_indirect_specular_intensity>0.334000 0.000000</indirect_light_water_hit_indirect_specular_intensity>
+    <direct_light_roughness_mod>0.000000 1.000000</direct_light_roughness_mod>
+    <brdf_retroreflection_aux_intensity_multiplier>100.000000 0.000000</brdf_retroreflection_aux_intensity_multiplier>
+    <brdf_glints_global_microfacet_density>1.000000 0.000000</brdf_glints_global_microfacet_density>
+    <brdf_glints_global_density_randomization>0.000000 0.000000</brdf_glints_global_density_randomization>
+    <gbuffer_override_albedo_type_default_r>1.000000 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>1.000000 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>1.000000 0.000000</gbuffer_override_albedo_type_default_b>
+    <gbuffer_override_albedo_type_default_blend>0.000000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <gbuffer_override_albedo_type_ped_r>1.000000 0.000000</gbuffer_override_albedo_type_ped_r>
+    <gbuffer_override_albedo_type_ped_g>1.000000 0.000000</gbuffer_override_albedo_type_ped_g>
+    <gbuffer_override_albedo_type_ped_b>1.000000 0.000000</gbuffer_override_albedo_type_ped_b>
+    <gbuffer_override_albedo_type_ped_blend>0.000000 0.000000</gbuffer_override_albedo_type_ped_blend>
+    <gbuffer_override_albedo_type_vehicle_r>1.000000 0.000000</gbuffer_override_albedo_type_vehicle_r>
+    <gbuffer_override_albedo_type_vehicle_g>1.000000 0.000000</gbuffer_override_albedo_type_vehicle_g>
+    <gbuffer_override_albedo_type_vehicle_b>1.000000 0.000000</gbuffer_override_albedo_type_vehicle_b>
+    <gbuffer_override_albedo_type_vehicle_blend>0.000000 0.000000</gbuffer_override_albedo_type_vehicle_blend>
+    <gbuffer_override_albedo_type_tree_r>1.000000 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>1.000000 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>1.000000 0.000000</gbuffer_override_albedo_type_tree_b>
+    <gbuffer_override_albedo_type_tree_blend>0.000000 0.000000</gbuffer_override_albedo_type_tree_blend>
+    <gbuffer_override_albedo_type_terrain_r>1.000000 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>1.000000 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>1.000000 0.000000</gbuffer_override_albedo_type_terrain_b>
+    <gbuffer_override_albedo_type_terrain_blend>0.000000 0.000000</gbuffer_override_albedo_type_terrain_blend>
+    <gbuffer_override_albedo_type_pickup_r>1.000000 0.000000</gbuffer_override_albedo_type_pickup_r>
+    <gbuffer_override_albedo_type_pickup_g>1.000000 0.000000</gbuffer_override_albedo_type_pickup_g>
+    <gbuffer_override_albedo_type_pickup_b>1.000000 0.000000</gbuffer_override_albedo_type_pickup_b>
+    <gbuffer_override_albedo_type_pickup_blend>0.000000 0.000000</gbuffer_override_albedo_type_pickup_blend>
+    <dir_shadow_num_cascades>4.000000 0.000000</dir_shadow_num_cascades>
+    <dir_shadow_cascade0_scale>1.000000 0.000000</dir_shadow_cascade0_scale>
+    <terrain_shadows_sun_disc_size>0.030000 0.000000</terrain_shadows_sun_disc_size>
+    <terrain_shadows_alpha_factor>1.000000 0.000000</terrain_shadows_alpha_factor>
+    <enable_screen_space_shadow>1.000000 0.000000</enable_screen_space_shadow>
+    <screen_space_shadow_bias>0.003000 0.000000</screen_space_shadow_bias>
+    <screen_space_shadow_cutoff>1.000000 0.000000</screen_space_shadow_cutoff>
+    <screen_space_shadow_raylength>1.000000 0.000000</screen_space_shadow_raylength>
+    <enable_shadow_reveal>1.000000 0.000000</enable_shadow_reveal>
+    <directional_shadow_highest_drawable_lod>0.000000 0.000000</directional_shadow_highest_drawable_lod>
+    <directional_shadow_highest_fragment_lod>0.000000 0.000000</directional_shadow_highest_fragment_lod>
+    <directional_shadow_highest_vehicle_lod>0.000000 0.000000</directional_shadow_highest_vehicle_lod>
+    <dir_shadow_quality>4.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>0.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_bias_mult>1.000000 0.000000</dir_shadow_bias_mult>
+    <directional_shadow_highest_ped_lod>0.000000 0.000000</directional_shadow_highest_ped_lod>
+    <light_ambient_override>0.000000 0.000000</light_ambient_override>
+    <portal_weight>1.000000 0.000000</portal_weight>
+    <indirect_light_multiplier>1.000000 0.000000</indirect_light_multiplier>
+    <indirect_light_multiplier_transition>1.000000 0.000000</indirect_light_multiplier_transition>
+    <ambient_sh_window>1000.000000 0.000000</ambient_sh_window>
+    <ambient_bounce_intensity>1.000000 0.000000</ambient_bounce_intensity>
+    <ambient_sky_horizon_occlusion>0.100000 0.000000</ambient_sky_horizon_occlusion>
+    <ambient_sky_distance_mult>0.100000 0.000000</ambient_sky_distance_mult>
+    <ambient_sky_distance_falloff_x>0.000000 0.000000</ambient_sky_distance_falloff_x>
+    <ambient_sky_distance_falloff_y>0.000000 0.000000</ambient_sky_distance_falloff_y>
+    <ambient_sky_color_mult_r>1.000000 1.000000</ambient_sky_color_mult_r>
+    <ambient_sky_color_mult_g>1.000000 1.000000</ambient_sky_color_mult_g>
+    <ambient_sky_color_mult_b>1.000000 1.000000</ambient_sky_color_mult_b>
+    <ambient_sky_intensity>1.000000 0.000000</ambient_sky_intensity>
+    <light_int_water_ext_scale>1.000000 0.000000</light_int_water_ext_scale>
+    <light_int_water_max_ext>1.000000 0.000000</light_int_water_max_ext>
+    <light_int_water_ext_gamma>1.000000 0.000000</light_int_water_ext_gamma>
+    <ped_light_falloff>50.000000 1.000000</ped_light_falloff>
+    <ped_light_falloff_start>0.200000 1.000000</ped_light_falloff_start>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <ped_light0_mult>3.000000 1.000000</ped_light0_mult>
+    <ped_light_wrap_min>0.050000 1.000000</ped_light_wrap_min>
+    <ped_light_wrap_max>1.000000 1.000000</ped_light_wrap_max>
+    <ped_light_wrap_dist>0.000000 0.000000</ped_light_wrap_dist>
+    <ped_light_fresnel>1.000000 1.000000</ped_light_fresnel>
+    <ped_light0_amb_color_mult>1.000000 1.000000</ped_light0_amb_color_mult>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>1.000000 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>1.000000 1.000000</ped_light0_col_b>
+    <ped_light_ndotl_bias>0.700000 1.000000</ped_light_ndotl_bias>
+    <ped_light0_dir_x>-0.714000 1.000000</ped_light0_dir_x>
+    <ped_light0_dir_y>-0.499000 1.000000</ped_light0_dir_y>
+    <ped_light0_dir_z>-0.490000 1.000000</ped_light0_dir_z>
+    <light_distance_intensity>1.000000 0.000000</light_distance_intensity>
+    <light_distance_intensity_start>1.000000 0.000000</light_distance_intensity_start>
+    <light_distance_intensity_end>0.000000 0.000000</light_distance_intensity_end>
+    <light_col_mult_r>1.000000 1.000000</light_col_mult_r>
+    <light_col_mult_g>1.000000 1.000000</light_col_mult_g>
+    <light_col_mult_b>1.000000 1.000000</light_col_mult_b>
+    <light_intensity_mult>1.000000 0.000000</light_intensity_mult>
+    <light_fallof_mult>1.000000 0.000000</light_fallof_mult>
+    <light_shadow_fade_distance_mult>1.000000 0.000000</light_shadow_fade_distance_mult>
+    <light_shadow_depth_bias_mult>1.000000 0.000000</light_shadow_depth_bias_mult>
+    <light_shadow_playerheadlights_enable>1.000000 0.000000</light_shadow_playerheadlights_enable>
+    <light_shadow_dynamic_fade_scsize_mult>1.000000 0.000000</light_shadow_dynamic_fade_scsize_mult>
+    <light_shadow_static_fade_scsize_mult>1.000000 0.000000</light_shadow_static_fade_scsize_mult>
+    <light_shadow_num_local_cascades>2.000000 0.000000</light_shadow_num_local_cascades>
+    <light_screen_space_depth_bias>0.000000 0.000000</light_screen_space_depth_bias>
+    <light_shadow_highest_drawable_lod>0.000000 0.000000</light_shadow_highest_drawable_lod>
+    <light_shadow_highest_fragment_lod>0.000000 0.000000</light_shadow_highest_fragment_lod>
+    <light_shadow_shadows_highest_vehicle_lod>0.000000 0.000000</light_shadow_shadows_highest_vehicle_lod>
+    <light_shadow_shadows_highest_ped_lod>0.000000 0.000000</light_shadow_shadows_highest_ped_lod>
+    <light_vehicle_daytime_anim_prob>0.000000 0.000000</light_vehicle_daytime_anim_prob>
+    <light_vehicle_nighttime_anim_prob>0.000000 0.000000</light_vehicle_nighttime_anim_prob>
+    <light_vehicle_fog_anim_prob>0.000000 0.000000</light_vehicle_fog_anim_prob>
+    <uv_party_mode>0.000000 0.000000</uv_party_mode>
+    <global_emissive_scale>1.000000 0.000000</global_emissive_scale>
+    <global_emissive_blend_value>0.000000 0.000000</global_emissive_blend_value>
+    <light_override_vehicle_color_mult_r>1.000000 0.000000</light_override_vehicle_color_mult_r>
+    <light_override_vehicle_color_mult_g>1.000000 0.000000</light_override_vehicle_color_mult_g>
+    <light_override_vehicle_color_mult_b>1.000000 0.000000</light_override_vehicle_color_mult_b>
+    <light_override_vehicle_blend_color_r>1.000000 0.000000</light_override_vehicle_blend_color_r>
+    <light_override_vehicle_blend_color_g>1.000000 0.000000</light_override_vehicle_blend_color_g>
+    <light_override_vehicle_blend_color_b>1.000000 0.000000</light_override_vehicle_blend_color_b>
+    <light_override_vehicle_blend_value>0.000000 0.000000</light_override_vehicle_blend_value>
+    <light_override_mapdata_intensity>1.000000 0.000000</light_override_mapdata_intensity>
+    <light_override_mapdata_color_mult_r>1.000000 0.000000</light_override_mapdata_color_mult_r>
+    <light_override_mapdata_color_mult_g>1.000000 0.000000</light_override_mapdata_color_mult_g>
+    <light_override_mapdata_color_mult_b>1.000000 0.000000</light_override_mapdata_color_mult_b>
+    <light_override_mapdata_blend_color_r>1.000000 0.000000</light_override_mapdata_blend_color_r>
+    <light_override_mapdata_blend_color_g>1.000000 0.000000</light_override_mapdata_blend_color_g>
+    <light_override_mapdata_blend_color_b>1.000000 0.000000</light_override_mapdata_blend_color_b>
+    <light_override_mapdata_blend_value>0.000000 0.000000</light_override_mapdata_blend_value>
+    <light_override_vfx_intensity>1.000000 0.000000</light_override_vfx_intensity>
+    <light_override_vfx_color_mult_r>1.000000 0.000000</light_override_vfx_color_mult_r>
+    <light_override_vfx_color_mult_g>1.000000 0.000000</light_override_vfx_color_mult_g>
+    <light_override_vfx_color_mult_b>1.000000 0.000000</light_override_vfx_color_mult_b>
+    <light_override_vfx_blend_color_r>1.000000 0.000000</light_override_vfx_blend_color_r>
+    <light_override_vfx_blend_color_g>1.000000 0.000000</light_override_vfx_blend_color_g>
+    <light_override_vfx_blend_color_b>1.000000 0.000000</light_override_vfx_blend_color_b>
+    <light_override_vfx_blend_value>0.000000 0.000000</light_override_vfx_blend_value>
+    <voltage_fluctuation_active>0.000000 0.000000</voltage_fluctuation_active>
+    <voltage_fluctuation_origin_x>0.000000 0.000000</voltage_fluctuation_origin_x>
+    <voltage_fluctuation_origin_y>0.000000 0.000000</voltage_fluctuation_origin_y>
+    <voltage_fluctuation_origin_z>0.000000 0.000000</voltage_fluctuation_origin_z>
+    <voltage_fluctuation_range>50.000000 0.000000</voltage_fluctuation_range>
+    <fog_volume_light_range>50.000000 0.000000</fog_volume_light_range>
+    <coronas_angular_fade_start>-1.000000 0.000000</coronas_angular_fade_start>
+    <coronas_angular_fade_end>-1.000000 0.000000</coronas_angular_fade_end>
+    <coronas_siren_intensity_scale>0.171000 0.000000</coronas_siren_intensity_scale>
+    <coronas_siren_size_scale>0.200000 0.000000</coronas_siren_size_scale>
+    <light_override_vehicle_intensity>1.000000 0.000000</light_override_vehicle_intensity>
+    <sky_new_ozo_extinction_col_r>0.325000 1.000000</sky_new_ozo_extinction_col_r>
+    <sky_new_ozo_extinction_col_g>0.945000 1.000000</sky_new_ozo_extinction_col_g>
+    <sky_new_ozo_extinction_col_b>0.043000 1.000000</sky_new_ozo_extinction_col_b>
+    <sky_new_ozo_1_linear>-0.067000 1.000000</sky_new_ozo_1_linear>
+    <sky_new_ozo_1_constant>2.666000 1.000000</sky_new_ozo_1_constant>
+    <sky_new_ozo_0_linear>0.067000 1.000000</sky_new_ozo_0_linear>
+    <sky_new_ozo_0_constant>-0.666000 1.000000</sky_new_ozo_0_constant>
+    <sky_new_ozo_0_width>25.000000 1.000000</sky_new_ozo_0_width>
+    <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+    <sky_new_mie_density_scale>1.200000 1.000000</sky_new_mie_density_scale>
+    <sky_new_ray_scattering_intensity>1.000000 1.000000</sky_new_ray_scattering_intensity>
+    <sky_new_ray_density_scale>8.000000 1.000000</sky_new_ray_density_scale>
+    <sky_new_direct_light_disk_size_mult>1.000000 1.000000</sky_new_direct_light_disk_size_mult>
+    <sky_new_direct_earth_shadow_blending>0.500000 1.000000</sky_new_direct_earth_shadow_blending>
+    <sky_new_intensity_aerial>1.000000 1.000000</sky_new_intensity_aerial>
+    <sky_new_intensity_sky>1.000000 1.000000</sky_new_intensity_sky>
+    <sky_new_karman_line>100.000000 1.000000</sky_new_karman_line>
+    <sky_new_planet_radius>6360.000000 1.000000</sky_new_planet_radius>
+    <sky_air_glow_color_r>0.184000 1.000000</sky_air_glow_color_r>
+    <sky_air_glow_color_g>1.000000 1.000000</sky_air_glow_color_g>
+    <sky_air_glow_color_b>0.494000 1.000000</sky_air_glow_color_b>
+    <sky_air_glow_intensity>0.200000 1.000000</sky_air_glow_intensity>
+    <sky_air_glow_base_color_r>0.188000 1.000000</sky_air_glow_base_color_r>
+    <sky_air_glow_base_color_g>0.431000 1.000000</sky_air_glow_base_color_g>
+    <sky_air_glow_base_color_b>1.000000 1.000000</sky_air_glow_base_color_b>
+    <sky_air_glow_base_intensity>0.500000 1.000000</sky_air_glow_base_intensity>
+    <sky_air_glow_galaxy_light_mult>1.000000 1.000000</sky_air_glow_galaxy_light_mult>
+    <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    <sky_scattering_far_clip_multiplier>7.500000 1.000000</sky_scattering_far_clip_multiplier>
+    <sky_scattering_sun_intensity_multiplier>1.000000 1.000000</sky_scattering_sun_intensity_multiplier>
+    <sky_scattering_moon_intensity_multiplier>1.000000 1.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_fill_intensity_multiplier>0.000000 1.000000</sky_scattering_fill_intensity_multiplier>
+    <sky_scattering_fill_desaturation>0.000000 1.000000</sky_scattering_fill_desaturation>
+    <sky_scattering_moon_col_r>1.000000 1.000000</sky_scattering_moon_col_r>
+    <sky_scattering_moon_col_g>1.000000 1.000000</sky_scattering_moon_col_g>
+    <sky_scattering_moon_col_b>1.000000 1.000000</sky_scattering_moon_col_b>
+    <sky_scattering_sky_col_r>1.000000 1.000000</sky_scattering_sky_col_r>
+    <sky_scattering_sky_col_g>1.000000 1.000000</sky_scattering_sky_col_g>
+    <sky_scattering_sky_col_b>1.000000 1.000000</sky_scattering_sky_col_b>
+    <sky_scattering_sun_col_r>1.000000 1.000000</sky_scattering_sun_col_r>
+    <sky_scattering_sun_col_g>1.000000 1.000000</sky_scattering_sun_col_g>
+    <sky_scattering_sun_col_b>1.000000 1.000000</sky_scattering_sun_col_b>
+    <sky_new_multiscattering_angle_offset>-18.000000 0.000000</sky_new_multiscattering_angle_offset>
+    <sky_new_multiscattering_extra_boost>0.300000 0.000000</sky_new_multiscattering_extra_boost>
+    <sky_new_ray_scattering_col_r>0.160100 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.374100 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913400 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_phase_eccentricity>0.780000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_scattering_col_r>0.577300 0.000000</sky_new_mie_scattering_col_r>
+    <sky_new_mie_scattering_col_g>0.577300 0.000000</sky_new_mie_scattering_col_g>
+    <sky_new_mie_scattering_col_b>0.577300 0.000000</sky_new_mie_scattering_col_b>
+    <sky_new_mie_absorption_col_r>0.577300 0.000000</sky_new_mie_absorption_col_r>
+    <sky_new_mie_absorption_col_g>0.577300 0.000000</sky_new_mie_absorption_col_g>
+    <sky_new_mie_absorption_col_b>0.577300 0.000000</sky_new_mie_absorption_col_b>
+    <sky_new_ozo_extinction_intensity>1.000000 0.000000</sky_new_ozo_extinction_intensity>
+    <sky_scattering_aerial_pivot_distance>0.580000 0.000000</sky_scattering_aerial_pivot_distance>
+    <sky_scattering_aerial_pivot_amount>1.000000 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_sun_illuminance>128000.000000 0.000000</sky_scattering_sun_illuminance>
+    <sky_scattering_moon_illuminance>0.300000 0.000000</sky_scattering_moon_illuminance>
+    <sky_new_intensity_multiscattering>1.000000 0.000000</sky_new_intensity_multiscattering>
+    <sky_scattering_aerial_far_clip>10000.000000 0.000000</sky_scattering_aerial_far_clip>
+    <sky_scattering_vertical_scaling_height_min>300.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_vertical_scaling_height_faloff_range>150.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_scattering_height_min_multiplier>3.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_height_max_multiplier>1.000000 0.000000</sky_scattering_height_max_multiplier>
+    <sky_scattering_aerosol_density_scale>1.000000 0.000000</sky_scattering_aerosol_density_scale>
+    <sky_scattering_aerosol_absorption_scale>0.100000 0.000000</sky_scattering_aerosol_absorption_scale>
+    <sky_scattering_ozone_concentration>0.000000 0.000000</sky_scattering_ozone_concentration>
+    <sky_scattering_red_wavelength>680.000000 0.000000</sky_scattering_red_wavelength>
+    <sky_scattering_green_wavelength>550.000000 0.000000</sky_scattering_green_wavelength>
+    <sky_scattering_blue_wavelength>440.000000 0.000000</sky_scattering_blue_wavelength>
+    <sky_sun_disc_size>1.500000 1.000000</sky_sun_disc_size>
+    <sky_sun_disc_reflection_size_multiplier>1.000000 0.000000</sky_sun_disc_reflection_size_multiplier>
+    <sky_scattering_sun_disk_intensity_multiplier>256.000000 1.000000</sky_scattering_sun_disk_intensity_multiplier>
+    <sky_scattering_disk_radius>0.234000 1.000000</sky_scattering_disk_radius>
+    <sky_scattering_curved_transmittance_density_multiplier>0.467000 1.000000</sky_scattering_curved_transmittance_density_multiplier>
+    <sky_scattering_curved_transmittance_density_multiplier_power>0.467000 1.000000</sky_scattering_curved_transmittance_density_multiplier_power>
+    <sky_scattering_light_curved_transmittance_density_multiplier>0.467000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier>
+    <sky_scattering_light_curved_transmittance_density_multiplier_power>0.467000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier_power>
+    <sky_moon_col_r>0.722000 1.000000</sky_moon_col_r>
+    <sky_moon_col_g>0.784000 1.000000</sky_moon_col_g>
+    <sky_moon_col_b>1.000000 1.000000</sky_moon_col_b>
+    <sky_moon_disc_size>2.000000 1.000000</sky_moon_disc_size>
+    <sky_moon_iten>1000.000000 1.000000</sky_moon_iten>
+    <sky_stars_iten>1.000000 1.000000</sky_stars_iten>
+    <sky_stars_constellations_intensity_mult>1.000000 1.000000</sky_stars_constellations_intensity_mult>
+    <sky_stars_constellations_size_mult>0.500000 1.000000</sky_stars_constellations_size_mult>
+    <sky_stars_cloud_intensity_mult>0.500000 1.000000</sky_stars_cloud_intensity_mult>
+    <sky_stars_dense_intensity_mult>1.000000 1.000000</sky_stars_dense_intensity_mult>
+    <sky_stars_sparse_intensity_mult>1.000000 1.000000</sky_stars_sparse_intensity_mult>
+    <sky_stars_frequency_mult>1.000000 1.000000</sky_stars_frequency_mult>
+    <sky_stars_height_blend_mult>1.000000 1.000000</sky_stars_height_blend_mult>
+    <sky_stars_blink_height_blend_mult>1.000000 1.000000</sky_stars_blink_height_blend_mult>
+    <sky_stars_constellations_galaxy_light_mult>23.000000 1.000000</sky_stars_constellations_galaxy_light_mult>
+    <sky_stars_constellations_size_galaxy_light_mult>1.000000 1.000000</sky_stars_constellations_size_galaxy_light_mult>
+    <sky_stars_cloud_galaxy_light_mult>1.000000 1.000000</sky_stars_cloud_galaxy_light_mult>
+    <sky_stars_dense_galaxy_light_mult>1.000000 1.000000</sky_stars_dense_galaxy_light_mult>
+    <sky_stars_sparse_galaxy_light_mult>1.000000 1.000000</sky_stars_sparse_galaxy_light_mult>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.003000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_voxel_noise_max>0.600000 0.000000</local_atmosphere_voxel_noise_max>
+    <local_atmosphere_voxel_noise_scale_mult_z>1.000000 0.000000</local_atmosphere_voxel_noise_scale_mult_z>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+    <water_clip_scattering_r>1000.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1000.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1000.000000 0.000000</water_clip_scattering_b>
+    <water_clip_density_multiplier_above_water_view>1.000000 0.000000</water_clip_density_multiplier_above_water_view>
+    <water_clip_density_multiplier_below_water_view>0.700000 0.000000</water_clip_density_multiplier_below_water_view>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>1.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>1.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_sun_direction_bias>1.000000 0.000000</hh_sun_direction_bias>
+    <hh_ly3_maxIntensity>1.000000 0.000000</hh_ly3_maxIntensity>
+    <wind_gust_speed_max_kmh>30.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_gust_speed_min_kmh>10.000000 0.000000</wind_gust_speed_min_kmh>
+    <local_atmosphere_rain_soak_accumulation_rate>0.030000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.001000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_fog_height_falloff>100.000000 0.000000</local_fog_height_falloff>
+    <local_fog_wind_erosion>30.000000 0.000000</local_fog_wind_erosion>
+    <local_fog_wind_speed>0.300000 0.000000</local_fog_wind_speed>
+    <local_fog_base_height_bias>10.000000 0.000000</local_fog_base_height_bias>
+    <local_fog_base_height_multiplier>410.000000 0.000000</local_fog_base_height_multiplier>
+    <local_fog_type_6_height_multiplier>0.000000 0.000000</local_fog_type_6_height_multiplier>
+    <local_fog_type_5_height_multiplier>0.000000 0.000000</local_fog_type_5_height_multiplier>
+    <local_fog_type_4_height_multiplier>0.000000 0.000000</local_fog_type_4_height_multiplier>
+    <local_fog_type_3_height_multiplier>0.000000 0.000000</local_fog_type_3_height_multiplier>
+    <local_fog_type_2_height_multiplier>0.000000 0.000000</local_fog_type_2_height_multiplier>
+    <local_fog_type_1_height_multiplier>0.000000 0.000000</local_fog_type_1_height_multiplier>
+    <gpu_fx_consistency>0.900000 0.000000</gpu_fx_consistency>
+    <local_atmosphere_rain_probabiliy>1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <local_fog_type_1_density_multiplier>0.000000 0.000000</local_fog_type_1_density_multiplier>
+    <local_fog_type_2_density_multiplier>0.000000 0.000000</local_fog_type_2_density_multiplier>
+    <local_fog_type_3_density_multiplier>0.000000 0.000000</local_fog_type_3_density_multiplier>
+    <local_fog_type_4_density_multiplier>0.000000 0.000000</local_fog_type_4_density_multiplier>
+    <local_fog_type_5_density_multiplier>0.000000 0.000000</local_fog_type_5_density_multiplier>
+    <local_fog_type_6_density_multiplier>0.000000 0.000000</local_fog_type_6_density_multiplier>
+    <local_fog_wind_erosion_multiplier_t>0.500000 0.000000</local_fog_wind_erosion_multiplier_t>
+    <dir_shadow_softness>-1.000000 0.000000</dir_shadow_softness>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>1.000000 0.000000</hh_ly4_maxIntensity>
+    <hh_sun_angle_power_curve>1.500000 0.000000</hh_sun_angle_power_curve>
+    <hh_sun_angle_rescale_min>0.100000 0.000000</hh_sun_angle_rescale_min>
+    <hh_sun_angle_rescale_max>0.500000 0.000000</hh_sun_angle_rescale_max>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <local_atmosphere_custom_cloud_group_3_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_3_position_x>
+    <local_atmosphere_custom_cloud_group_3_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_3_position_y>
+    <local_atmosphere_custom_cloud_group_3_density>0.000000 0.000000</local_atmosphere_custom_cloud_group_3_density>
+    <local_atmosphere_custom_cloud_group_3_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_3_index>
+    <local_atmosphere_custom_cloud_group_2_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_x>
+    <local_atmosphere_custom_cloud_group_2_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_2_position_y>
+    <local_atmosphere_custom_cloud_group_2_density>0.000000 0.000000</local_atmosphere_custom_cloud_group_2_density>
+    <local_atmosphere_custom_cloud_group_2_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_2_index>
+    <local_atmosphere_custom_cloud_group_1_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_x>
+    <local_atmosphere_custom_cloud_group_1_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_1_position_y>
+    <local_atmosphere_custom_cloud_group_1_density>0.000000 0.000000</local_atmosphere_custom_cloud_group_1_density>
+    <local_atmosphere_custom_cloud_group_1_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_1_index>
+    <local_atmosphere_custom_cloud_group_0_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_0_density>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_cloud_wind_noise_velocity_up>1.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_up>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>0.600000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <local_atmosphere_cloud_wind_velocity_scale>0.500000 0.000000</local_atmosphere_cloud_wind_velocity_scale>
+    <local_atmosphere_voxel_wind_velocity_scale>1.000000 0.000000</local_atmosphere_voxel_wind_velocity_scale>
+    <local_atmosphere_voxel_detail_wind_vertical_speed>1.000000 0.000000</local_atmosphere_voxel_detail_wind_vertical_speed>
+    <local_atmosphere_cloud_wind_shear>50.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <gpu_fx_density_multiplier>1.000000 0.000000</gpu_fx_density_multiplier>
+    <indirect_light_reflective_caustics_intensity>1.000000 0.000000</indirect_light_reflective_caustics_intensity>
+    <indirect_light_reflective_caustics_phase>0.300000 0.000000</indirect_light_reflective_caustics_phase>
+    <sun_fade_threshold>93.000000 0.000000</sun_fade_threshold>
+    <moon_fade_threshold>90.000000 0.000000</moon_fade_threshold>
+    <indirect_light_alpha_volume_local_light_underwater_multiplier>1.000000 0.000000</indirect_light_alpha_volume_local_light_underwater_multiplier>
+    <indirect_light_volumetrics_fade_offset>100.000000 0.000000</indirect_light_volumetrics_fade_offset>
+    <indirect_light_volumetrics_fade>50.000000 0.000000</indirect_light_volumetrics_fade>
+    <direct_light_roughness_mod_cloud_shadow>0.300000 0.000000</direct_light_roughness_mod_cloud_shadow>
+    <local_atmosphere_transmittance_depth_fade_min>2000.000000 0.000000</local_atmosphere_transmittance_depth_fade_min>
+    <direct_light_haze_blend_scale>1.000000 0.000000</direct_light_haze_blend_scale>
+    <direct_light_haze_intensity>0.300000 0.000000</direct_light_haze_intensity>
+    <local_atmosphere_haze_phase_anisotropy>0.614165 0.000000</local_atmosphere_haze_phase_anisotropy>
+    <local_atmosphere_haze_intensity>1.000000 0.000000</local_atmosphere_haze_intensity>
+    <light_dir_sun_mult>1.000000 1.000000</light_dir_sun_mult>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <sky_new_intensity_multiscattering_volume>1.000000 0.000000</sky_new_intensity_multiscattering_volume>
+    <sky_transmittance_correction_factor>1.000000 0.000000</sky_transmittance_correction_factor>
+    <local_atmosphere_transmittance_depth_fade_max>10000.000000 0.000000</local_atmosphere_transmittance_depth_fade_max>
+    <postfx_histogram_contrast_stats_temporal_rate>1.000000 0.000000</postfx_histogram_contrast_stats_temporal_rate>
+    <lens_dist_use_auto_scaling>1.000000 0.000000</lens_dist_use_auto_scaling>
+    <sun_moon_crossfade>1.000000 0.000000</sun_moon_crossfade>
+    <wind_normal_up_um_angle_threshold>40.000000 0.000000</wind_normal_up_um_angle_threshold>
+    <wind_normal_up_blend_speed_max>25.000000 0.000000</wind_normal_up_blend_speed_max>
+    <wind_normal_up_blend_speed_min>10.000000 0.000000</wind_normal_up_blend_speed_min>
+    <wind_normal_up_blend_mult>1.500000 0.000000</wind_normal_up_blend_mult>
+    <camera_light_enable>1.000000 0.000000</camera_light_enable>
+    <local_atmosphere_rain_water_droplet_density_dist_min>50.000000 0.000000</local_atmosphere_rain_water_droplet_density_dist_min>
+    <local_atmosphere_rain_water_droplet_density_dist_max>500.000000 0.000000</local_atmosphere_rain_water_droplet_density_dist_max>
+    <alphatransmission_cutoff_viewportsize_override>0.070000 0.000000</alphatransmission_cutoff_viewportsize_override>
+    <alphatransmission_cutoff_viewportsize_ped_override>0.070000 0.000000</alphatransmission_cutoff_viewportsize_ped_override>
+    <indirect_light_override_water_level>-50.000000 0.000000</indirect_light_override_water_level>
+  </modifier>
+  <modifier
+    name="-----------sky------------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="10"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_sky_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_new_ozo_extinction_col_r>0.325000 1.000000</sky_new_ozo_extinction_col_r>
+    <sky_new_ozo_extinction_col_g>0.945000 1.000000</sky_new_ozo_extinction_col_g>
+    <sky_new_ozo_extinction_col_b>0.043000 1.000000</sky_new_ozo_extinction_col_b>
+    <sky_new_ozo_1_linear>-0.067000 1.000000</sky_new_ozo_1_linear>
+    <sky_new_ozo_1_constant>2.666000 1.000000</sky_new_ozo_1_constant>
+    <sky_new_ozo_0_linear>0.067000 1.000000</sky_new_ozo_0_linear>
+    <sky_new_ozo_0_constant>-0.666000 1.000000</sky_new_ozo_0_constant>
+    <sky_new_ozo_0_width>25.000000 1.000000</sky_new_ozo_0_width>
+    <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+    <sky_new_mie_density_scale>1.200000 1.000000</sky_new_mie_density_scale>
+    <sky_new_ray_scattering_intensity>1.000000 1.000000</sky_new_ray_scattering_intensity>
+    <sky_new_ray_density_scale>8.000000 1.000000</sky_new_ray_density_scale>
+    <sky_new_direct_light_disk_size_mult>1.000000 1.000000</sky_new_direct_light_disk_size_mult>
+    <sky_new_direct_earth_shadow_blending>0.500000 1.000000</sky_new_direct_earth_shadow_blending>
+    <sky_new_intensity_aerial>1.000000 1.000000</sky_new_intensity_aerial>
+    <sky_new_intensity_sky>1.000000 1.000000</sky_new_intensity_sky>
+    <sky_new_karman_line>100.000000 1.000000</sky_new_karman_line>
+    <sky_new_planet_radius>6360.000000 1.000000</sky_new_planet_radius>
+    <sky_air_glow_color_r>0.184000 1.000000</sky_air_glow_color_r>
+    <sky_air_glow_color_g>1.000000 1.000000</sky_air_glow_color_g>
+    <sky_air_glow_color_b>0.494000 1.000000</sky_air_glow_color_b>
+    <sky_air_glow_intensity>0.200000 1.000000</sky_air_glow_intensity>
+    <sky_air_glow_base_color_r>0.188000 1.000000</sky_air_glow_base_color_r>
+    <sky_air_glow_base_color_g>0.431000 1.000000</sky_air_glow_base_color_g>
+    <sky_air_glow_base_color_b>1.000000 1.000000</sky_air_glow_base_color_b>
+    <sky_air_glow_base_intensity>0.500000 1.000000</sky_air_glow_base_intensity>
+    <sky_air_glow_galaxy_light_mult>1.000000 1.000000</sky_air_glow_galaxy_light_mult>
+    <sky_scattering_light_curved_transmittance_density_multiplier_power>1.000000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier_power>
+    <sky_scattering_light_curved_transmittance_density_multiplier>1.000000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier>
+    <sky_scattering_curved_transmittance_density_multiplier>2.500000 1.000000</sky_scattering_curved_transmittance_density_multiplier>
+    <sky_scattering_sun_disk_intensity_multiplier>256.000000 1.000000</sky_scattering_sun_disk_intensity_multiplier>
+    <sky_scattering_disk_radius>2.000000 1.000000</sky_scattering_disk_radius>
+    <sky_sun_disc_size>2.000000 1.000000</sky_sun_disc_size>
+    <sky_stars_sparse_galaxy_light_mult>1.000000 1.000000</sky_stars_sparse_galaxy_light_mult>
+    <sky_stars_dense_galaxy_light_mult>1.000000 1.000000</sky_stars_dense_galaxy_light_mult>
+    <sky_stars_cloud_galaxy_light_mult>1.000000 1.000000</sky_stars_cloud_galaxy_light_mult>
+    <sky_stars_constellations_size_galaxy_light_mult>1.000000 1.000000</sky_stars_constellations_size_galaxy_light_mult>
+    <sky_stars_constellations_galaxy_light_mult>23.000000 1.000000</sky_stars_constellations_galaxy_light_mult>
+    <sky_stars_blink_height_blend_mult>1.000000 1.000000</sky_stars_blink_height_blend_mult>
+    <sky_stars_height_blend_mult>1.000000 1.000000</sky_stars_height_blend_mult>
+    <sky_stars_frequency_mult>1.000000 1.000000</sky_stars_frequency_mult>
+    <sky_stars_sparse_intensity_mult>1.000000 1.000000</sky_stars_sparse_intensity_mult>
+    <sky_stars_dense_intensity_mult>1.000000 1.000000</sky_stars_dense_intensity_mult>
+    <sky_stars_constellations_size_mult>0.500000 1.000000</sky_stars_constellations_size_mult>
+    <sky_stars_constellations_intensity_mult>1.000000 1.000000</sky_stars_constellations_intensity_mult>
+    <sky_stars_iten>1.000000 1.000000</sky_stars_iten>
+    <sky_moon_iten>1000.000000 1.000000</sky_moon_iten>
+    <sky_moon_disc_size>2.000000 1.000000</sky_moon_disc_size>
+    <sky_stars_cloud_intensity_mult>0.500000 1.000000</sky_stars_cloud_intensity_mult>
+    <sky_moon_col_r>0.722000 1.000000</sky_moon_col_r>
+    <sky_moon_col_g>0.784000 1.000000</sky_moon_col_g>
+    <sky_moon_col_b>1.000000 1.000000</sky_moon_col_b>
+    <sky_scattering_curved_transmittance_density_multiplier_power>2.500000 1.000000</sky_scattering_curved_transmittance_density_multiplier_power>
+    <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    <sky_scattering_far_clip_multiplier>10.000000 1.000000</sky_scattering_far_clip_multiplier>
+    <sky_scattering_sun_intensity_multiplier>1.000000 1.000000</sky_scattering_sun_intensity_multiplier>
+    <sky_scattering_moon_intensity_multiplier>1.000000 1.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_fill_intensity_multiplier>0.000000 1.000000</sky_scattering_fill_intensity_multiplier>
+    <sky_scattering_fill_desaturation>0.000000 1.000000</sky_scattering_fill_desaturation>
+    <sky_scattering_moon_col_r>1.000000 1.000000</sky_scattering_moon_col_r>
+    <sky_scattering_moon_col_g>1.000000 1.000000</sky_scattering_moon_col_g>
+    <sky_scattering_moon_col_b>1.000000 1.000000</sky_scattering_moon_col_b>
+    <sky_scattering_sky_col_r>1.000000 1.000000</sky_scattering_sky_col_r>
+    <sky_scattering_sky_col_g>1.000000 1.000000</sky_scattering_sky_col_g>
+    <sky_scattering_sky_col_b>1.000000 1.000000</sky_scattering_sky_col_b>
+    <sky_scattering_sun_col_r>1.000000 1.000000</sky_scattering_sun_col_r>
+    <sky_scattering_sun_col_g>1.000000 1.000000</sky_scattering_sun_col_g>
+    <sky_scattering_sun_col_b>1.000000 1.000000</sky_scattering_sun_col_b>
+    <sky_new_multiscattering_angle_offset>-18.000000 0.000000</sky_new_multiscattering_angle_offset>
+    <sky_new_multiscattering_extra_boost>0.300000 0.000000</sky_new_multiscattering_extra_boost>
+    <sky_new_ray_scattering_col_r>0.160100 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.374100 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913400 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_phase_eccentricity>0.780000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_scattering_col_r>0.577300 0.000000</sky_new_mie_scattering_col_r>
+    <sky_new_mie_scattering_col_g>0.577300 0.000000</sky_new_mie_scattering_col_g>
+    <sky_new_mie_scattering_col_b>0.577300 0.000000</sky_new_mie_scattering_col_b>
+    <sky_new_mie_absorption_col_r>0.577300 0.000000</sky_new_mie_absorption_col_r>
+    <sky_new_mie_absorption_col_g>0.577300 0.000000</sky_new_mie_absorption_col_g>
+    <sky_new_mie_absorption_col_b>0.577300 0.000000</sky_new_mie_absorption_col_b>
+    <sky_new_ozo_extinction_intensity>1.000000 0.000000</sky_new_ozo_extinction_intensity>
+    <sky_scattering_aerial_pivot_distance>0.500000 0.000000</sky_scattering_aerial_pivot_distance>
+    <sky_scattering_aerial_pivot_amount>0.000000 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_sun_illuminance>128000.000000 0.000000</sky_scattering_sun_illuminance>
+    <sky_scattering_moon_illuminance>0.300000 0.000000</sky_scattering_moon_illuminance>
+    <sky_new_intensity_multiscattering>1.000000 0.000000</sky_new_intensity_multiscattering>
+    <sky_scattering_aerial_far_clip>10000.000000 0.000000</sky_scattering_aerial_far_clip>
+    <sky_scattering_vertical_scaling_height_min>300.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_vertical_scaling_height_faloff_range>150.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_scattering_height_min_multiplier>1.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_height_max_multiplier>1.000000 0.000000</sky_scattering_height_max_multiplier>
+  </modifier>
+  <modifier
+    name="MODULE_sky_twilight"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="5"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="8"
+  >
+    <axis controlValue="season_adjusted_time" input_min="0.000000" input_max="0.994000">
+      <keyframe_t_value>0.000000 0.180000 0.220000 0.250000 0.750000 0.785000 0.817000 1.000000</keyframe_t_value>
+      <sky_new_multiscattering_angle_offset>0.000000 -18.000000 -18.000000 0.000000 0.000000 -18.000000 -18.000000 0.000000</sky_new_multiscattering_angle_offset>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sky_aerial_anim"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="7"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="11"
+  >
+    <axis controlValue="season_adjusted_time" input_min="0.000000" input_max="0.994000">
+      <keyframe_t_value>0.000000 0.180000 0.220000 0.250000 0.375000 0.500000 0.625000 0.750000 0.785000 0.817000 1.000000</keyframe_t_value>
+      <sky_new_intensity_aerial>1.000000 1.000000 0.300000 0.700000 1.200000 1.500000 1.200000 0.700000 0.300000 1.000000 1.000000</sky_new_intensity_aerial>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sky_pollution"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="4"
+    numKeyframes="4"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.254000 0.791000 1.000000</keyframe_t_value>
+      <sky_new_ozo_extinction_intensity>0.000000 0.000000 0.000000 0.000000</sky_new_ozo_extinction_intensity>
+    </axis>
+    <axis controlValue="atmospheric_pollution">
+      <sky_new_ozo_extinction_intensity>0.100000 0.000000 0.500000 0.100000</sky_new_ozo_extinction_intensity>
+    </axis>
+    <axis controlValue="skyPollution.g">
+      <sky_new_ozo_extinction_intensity>0.000000 0.000000 0.000000 0.000000</sky_new_ozo_extinction_intensity>
+    </axis>
+    <axis controlValue="none">
+      <sky_new_ozo_extinction_intensity>0.300000 0.000000 2.000000 0.300000</sky_new_ozo_extinction_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sky_Dust"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="5"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.391500 0.587250 0.783000 1.000000</keyframe_t_value>
+      <sky_new_intensity_multiscattering>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_intensity_multiscattering>
+      <sky_new_mie_density_scale>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_mie_density_scale>
+      <sky_new_mie_absorption_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>0.300000 0.300000 0.300000 0.000000 0.300000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_b>
+      <sky_new_mie_scattering_intensity>0.300000 0.300000 0.300000 0.000000 0.300000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="atmospheric_dust">
+      <sky_new_intensity_multiscattering>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_intensity_multiscattering>
+      <sky_new_mie_density_scale>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_mie_density_scale>
+      <sky_new_mie_absorption_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>0.300000 0.000000 0.300000 0.300000 0.300000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_b>
+      <sky_new_mie_scattering_intensity>0.300000 0.000000 0.300000 0.300000 0.300000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="skyDust.r">
+      <sky_new_intensity_multiscattering>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_intensity_multiscattering>
+      <sky_new_mie_density_scale>1.000000 1.000000 1.000000 1.000000 1.000000</sky_new_mie_density_scale>
+      <sky_new_mie_absorption_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>0.300000 0.300000 0.300000 0.000000 0.300000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_col_r>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576471 0.576471 0.576471 0.576471 0.576471</sky_new_mie_scattering_col_b>
+      <sky_new_mie_scattering_intensity>0.300000 0.300000 0.300000 0.000000 0.300000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="none">
+      <sky_new_intensity_multiscattering>1.000000 1.000000 0.300000 0.300000 1.000000</sky_new_intensity_multiscattering>
+      <sky_new_mie_density_scale>1.000000 1.000000 2.000000 2.000000 1.000000</sky_new_mie_density_scale>
+      <sky_new_mie_absorption_col_r>0.576471 0.576471 0.352941 0.352941 0.576471</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576471 0.576471 0.364706 0.364706 0.576471</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576471 0.576471 0.549020 0.549020 0.576471</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>0.300000 0.300000 10.000000 10.000000 0.300000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_col_r>0.576471 0.576471 0.380392 0.380392 0.576471</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576471 0.576471 0.266667 0.266667 0.576471</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576471 0.576471 0.129412 0.129412 0.576471</sky_new_mie_scattering_col_b>
+      <sky_new_mie_scattering_intensity>0.300000 0.300000 10.000000 10.000000 0.300000</sky_new_mie_scattering_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sky_pressure"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="atmospheric_pressure">
+      <keyframe_t_value>0.000000 0.196000 0.733000 1.000000</keyframe_t_value>
+      <sky_new_ray_scattering_col_r>0.424000 0.365000 0.161000 0.075000</sky_new_ray_scattering_col_r>
+      <sky_new_ray_scattering_col_g>0.435000 0.459000 0.373000 0.255000</sky_new_ray_scattering_col_g>
+      <sky_new_ray_scattering_col_b>0.529000 0.698000 0.914000 0.776000</sky_new_ray_scattering_col_b>
+      <sky_new_mie_phase_eccentricity>0.800000 0.700000 0.800000 0.960000</sky_new_mie_phase_eccentricity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sky_sun_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <sky_sun_disc_size>1.500000 1.000000</sky_sun_disc_size>
+    <sky_scattering_sun_disk_intensity_multiplier>256.000000 1.000000</sky_scattering_sun_disk_intensity_multiplier>
+    <sky_scattering_disk_radius>0.234000 1.000000</sky_scattering_disk_radius>
+    <sky_scattering_curved_transmittance_density_multiplier>0.467000 1.000000</sky_scattering_curved_transmittance_density_multiplier>
+    <sky_scattering_curved_transmittance_density_multiplier_power>0.467000 1.000000</sky_scattering_curved_transmittance_density_multiplier_power>
+    <sky_scattering_light_curved_transmittance_density_multiplier>0.467000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier>
+    <sky_scattering_light_curved_transmittance_density_multiplier_power>0.467000 1.000000</sky_scattering_light_curved_transmittance_density_multiplier_power>
+  </modifier>
+  <modifier
+    name="MODULE_sky_particulates"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="2"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <sky_new_ozo_extinction_intensity>0.000000 0.000000</sky_new_ozo_extinction_intensity>
+      <sky_new_mie_scattering_col_r>0.576000 0.576000</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576000 0.576000</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576000 0.576000</sky_new_mie_scattering_col_b>
+      <sky_new_mie_absorption_col_r>0.576000 0.576000</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576000 0.576000</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576000 0.576000</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="None">
+      <sky_new_ozo_extinction_intensity>0.000000 0.000000</sky_new_ozo_extinction_intensity>
+      <sky_new_mie_scattering_col_r>0.576000 0.576000</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576000 0.576000</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576000 0.576000</sky_new_mie_scattering_col_b>
+      <sky_new_mie_absorption_col_r>0.576000 0.576000</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576000 0.576000</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576000 0.576000</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="None">
+      <sky_new_ozo_extinction_intensity>0.300000 0.300000</sky_new_ozo_extinction_intensity>
+      <sky_new_mie_scattering_col_r>0.576000 0.576000</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576000 0.576000</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576000 0.576000</sky_new_mie_scattering_col_b>
+      <sky_new_mie_absorption_col_r>0.576000 0.576000</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576000 0.576000</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576000 0.576000</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    </axis>
+    <axis controlValue="none">
+      <sky_new_ozo_extinction_intensity>0.300000 0.300000</sky_new_ozo_extinction_intensity>
+      <sky_new_mie_scattering_col_r>0.576000 0.576000</sky_new_mie_scattering_col_r>
+      <sky_new_mie_scattering_col_g>0.576000 0.576000</sky_new_mie_scattering_col_g>
+      <sky_new_mie_scattering_col_b>0.576000 0.576000</sky_new_mie_scattering_col_b>
+      <sky_new_mie_absorption_col_r>0.576000 0.576000</sky_new_mie_absorption_col_r>
+      <sky_new_mie_absorption_col_g>0.576000 0.576000</sky_new_mie_absorption_col_g>
+      <sky_new_mie_absorption_col_b>0.576000 0.576000</sky_new_mie_absorption_col_b>
+      <sky_new_mie_absorption_intensity>1.000000 1.000000</sky_new_mie_absorption_intensity>
+      <sky_new_mie_scattering_intensity>1.000000 1.000000</sky_new_mie_scattering_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_arielPerspective_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <sky_scattering_aerial_pivot_distance>0.158209 0.000000</sky_scattering_aerial_pivot_distance>
+    <sky_scattering_height_min_multiplier>3.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_vertical_scaling_height_faloff_range>150.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_scattering_vertical_scaling_height_min>300.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_height_max_multiplier>1.000000 0.000000</sky_scattering_height_max_multiplier>
+    <sky_scattering_aerial_far_clip>10000.000000 0.000000</sky_scattering_aerial_far_clip>
+    <sky_scattering_aerial_pivot_amount>0.219901 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_far_clip_multiplier>5.000000 0.000000</sky_scattering_far_clip_multiplier>
+  </modifier>
+  <modifier
+    name="-----------atmos------------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_atmos_globalFog"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="global_fog_density">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_density>0.000000 0.001000 0.003000 0.010000 0.020000</local_atmosphere_fog_density>
+      <local_atmosphere_fog_height>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height>
+      <local_atmosphere_fog_falloff>100.000000 100.000000 100.000000 100.000000 100.000000</local_atmosphere_fog_falloff>
+      <local_atmosphere_fog_density_layer_1>0.000000 0.000000 0.000000 0.000000 1.000000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>100.000000 100.000000 100.000000 100.000000 100.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_terrain_shadow_alpha>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_terrain_shadow_alpha>
+    </axis>
+    <axis controlValue="global_fog_height">
+      <local_atmosphere_fog_density>0.000000 0.001000 0.003000 0.010000 0.020000</local_atmosphere_fog_density>
+      <local_atmosphere_fog_height>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height>
+      <local_atmosphere_fog_falloff>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_fog_falloff>
+      <local_atmosphere_fog_density_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_terrain_shadow_alpha>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_terrain_shadow_alpha>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_Mist"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="mist">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_cloudsShape"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_cloudsLighting"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <local_atmosphere_anisotropy_high_density>0.800000 1.000000</local_atmosphere_anisotropy_high_density>
+    <local_atmosphere_anisotropy_cirrus>0.900000 1.000000</local_atmosphere_anisotropy_cirrus>
+    <local_atmosphere_phase_min_cirrus>0.367000 1.000000</local_atmosphere_phase_min_cirrus>
+    <local_atmosphere_sky_col_r>1.000000 1.000000</local_atmosphere_sky_col_r>
+    <local_atmosphere_sky_col_g>1.000000 1.000000</local_atmosphere_sky_col_g>
+    <local_atmosphere_sky_col_b>1.000000 1.000000</local_atmosphere_sky_col_b>
+    <local_atmosphere_sky_intensity>1.000000 1.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_direct_light_color_r>1.000000 1.000000</local_atmosphere_direct_light_color_r>
+    <local_atmosphere_direct_light_color_g>1.000000 1.000000</local_atmosphere_direct_light_color_g>
+    <local_atmosphere_direct_light_color_b>1.000000 1.000000</local_atmosphere_direct_light_color_b>
+    <local_atmosphere_direct_light_intensity>1.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_dir_transmittance_col_mult>1.000000 1.000000</local_atmosphere_dir_transmittance_col_mult>
+    <local_atmosphere_dir_transmittance_intensity_mult>1.000000 1.000000</local_atmosphere_dir_transmittance_intensity_mult>
+    <local_atmosphere_cirrus_dir_transmittance_col_mult>1.000000 1.000000</local_atmosphere_cirrus_dir_transmittance_col_mult>
+    <local_atmosphere_cirrus_dir_transmittance_intensity_mult>1.000000 1.000000</local_atmosphere_cirrus_dir_transmittance_intensity_mult>
+    <local_atmosphere_dir_light_scattering_strength>1.000000 1.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_fill_ambient_light_color_r>0.341000 1.000000</local_atmosphere_fill_ambient_light_color_r>
+    <local_atmosphere_fill_ambient_light_color_g>0.592000 1.000000</local_atmosphere_fill_ambient_light_color_g>
+    <local_atmosphere_fill_ambient_light_color_b>1.000000 1.000000</local_atmosphere_fill_ambient_light_color_b>
+    <local_atmosphere_fill_ambient_light_intensity>0.100000 1.000000</local_atmosphere_fill_ambient_light_intensity>
+    <local_atmosphere_terrain_shadow_alpha>0.000000 0.000000</local_atmosphere_terrain_shadow_alpha>
+    <fog_isotropic_phase>6.000000 6.000000</fog_isotropic_phase>
+    <sky_scattering_diffusion_intensity>10.000000 1.000000</sky_scattering_diffusion_intensity>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_cloudsShadows"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="cloud_Density">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <local_atmosphere_cloud_shadow_alpha_scattering>0.800000 0.990000</local_atmosphere_cloud_shadow_alpha_scattering>
+      <local_atmosphere_cloud_shadow_alpha>0.800000 0.990000</local_atmosphere_cloud_shadow_alpha>
+      <local_atmosphere_cloud_shadow_base>1.000000 1.000000</local_atmosphere_cloud_shadow_base>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_light pollution"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <local_atmosphere_light_pollution_absorption>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_absorption>
+      <local_atmosphere_light_pollution_absorption_dist>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_light_pollution_absorption_dist>
+      <local_atmosphere_light_pollution_cone>50.000000 50.000000 50.000000 50.000000 50.000000</local_atmosphere_light_pollution_cone>
+      <local_atmosphere_light_pollution_falloff>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_falloff>
+      <local_atmosphere_light_pollution_height_top>5000.000000 5000.000000 5000.000000 5000.000000 5000.000000</local_atmosphere_light_pollution_height_top>
+      <local_atmosphere_light_pollution_height_bottom>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_light_pollution_height_bottom>
+      <local_atmosphere_light_pollution_intensity>2.000000 1.000000 5.000000 3.000000 2.000000</local_atmosphere_light_pollution_intensity>
+    </axis>
+    <axis controlValue="cloud_cover">
+      <local_atmosphere_light_pollution_absorption>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_absorption>
+      <local_atmosphere_light_pollution_absorption_dist>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_light_pollution_absorption_dist>
+      <local_atmosphere_light_pollution_cone>50.000000 50.000000 50.000000 50.000000 50.000000</local_atmosphere_light_pollution_cone>
+      <local_atmosphere_light_pollution_falloff>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_falloff>
+      <local_atmosphere_light_pollution_height_top>5000.000000 5000.000000 5000.000000 5000.000000 5000.000000</local_atmosphere_light_pollution_height_top>
+      <local_atmosphere_light_pollution_height_bottom>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_light_pollution_height_bottom>
+      <local_atmosphere_light_pollution_intensity>2.000000 1.000000 2.000000 2.000000 2.000000</local_atmosphere_light_pollution_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_clouds_overcastlighting"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="3"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="3"
+  >
+    <axis controlValue="cloud_cover">
+      <keyframe_t_value>0.000000 0.298000 1.000000</keyframe_t_value>
+      <local_atmosphere_direct_light_intensity>1.000000 0.500000 0.300000</local_atmosphere_direct_light_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="----------lighting----------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_lighting_directlight_base"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>1.000000 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <galaxy_light_dir_col_r>0.761000 1.000000</galaxy_light_dir_col_r>
+    <galaxy_light_dir_col_g>0.898000 1.000000</galaxy_light_dir_col_g>
+    <galaxy_light_dir_col_b>1.000000 1.000000</galaxy_light_dir_col_b>
+    <light_dir_transmittance_intensity_mult>1.000000 1.000000</light_dir_transmittance_intensity_mult>
+    <light_dir_transmittance_col_mult>1.000000 1.000000</light_dir_transmittance_col_mult>
+    <direct_light_roughness_mod>0.000000 1.000000</direct_light_roughness_mod>
+    <direct_light_scattering_strength>0.000000 1.000000</direct_light_scattering_strength>
+    <direct_light_scattering_cone_angle>180.000000 1.000000</direct_light_scattering_cone_angle>
+    <direct_light_directional_strength_ao>1.000000 1.000000</direct_light_directional_strength_ao>
+    <direct_light_scattering_center_sample_weight>0.000000 1.000000</direct_light_scattering_center_sample_weight>
+    <direct_galaxy_light_roughness_mod>0.000000 1.000000</direct_galaxy_light_roughness_mod>
+    <galaxy_light_dir_mult>0.050000 1.000000</galaxy_light_dir_mult>
+    <light_dir_ao_strength>0.000000 1.000000</light_dir_ao_strength>
+    <dir_shadow_distance_multiplier>1.000000 1.000000</dir_shadow_distance_multiplier>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_hazelight_anim"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.255000 0.500000 0.745000 0.750000 1.000000</keyframe_t_value>
+      <direct_light_haze_intensity>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</direct_light_haze_intensity>
+      <local_atmosphere_haze_intensity>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_haze_intensity>
+      <direct_light_scattering_cone_angle>70.000000 70.000000 70.000000 70.000000 70.000000 70.000000 70.000000</direct_light_scattering_cone_angle>
+    </axis>
+    <axis controlValue="temporal_wetness">
+      <direct_light_haze_intensity>0.000000 0.000000 0.300000 0.300000 0.300000 0.000000 0.000000</direct_light_haze_intensity>
+      <local_atmosphere_haze_intensity>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_haze_intensity>
+      <direct_light_scattering_cone_angle>70.000000 70.000000 70.000000 70.000000 70.000000 70.000000 70.000000</direct_light_scattering_cone_angle>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_DL_input"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="5"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="13"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.206000 0.228000 0.250000 0.272000 0.294000 0.500000 0.706000 0.728000 0.750000 0.772000 0.794000 1.000000</keyframe_t_value>
+      <sky_scattering_moon_illuminance>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</sky_scattering_moon_illuminance>
+      <sky_scattering_sun_illuminance>10000.000000 10000.000000 10000.000000 20000.000000 100000.000000 200000.000000 300000.000000 200000.000000 100000.000000 20000.000000 10000.000000 10000.000000 10000.000000</sky_scattering_sun_illuminance>
+    </axis>
+    <axis controlValue="cloud_cover">
+      <sky_scattering_moon_illuminance>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</sky_scattering_moon_illuminance>
+      <sky_scattering_sun_illuminance>1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000</sky_scattering_sun_illuminance>
+    </axis>
+  </modifier>
+  <modifier
+    name="RESTORE_lighting_DL_input"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="11"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="13"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.206000 0.228000 0.250000 0.272000 0.294000 0.500000 0.706000 0.728000 0.750000 0.772000 0.794000 1.000000</keyframe_t_value>
+      <sky_scattering_moon_illuminance>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</sky_scattering_moon_illuminance>
+      <sky_scattering_sun_illuminance>10000.000000 10000.000000 10000.000000 20000.000000 100000.000000 200000.000000 300000.000000 200000.000000 100000.000000 20000.000000 10000.000000 10000.000000 10000.000000</sky_scattering_sun_illuminance>
+      <sky_transmittance_correction_factor>0.318310 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000</sky_transmittance_correction_factor>
+    </axis>
+    <axis controlValue="cloud_cover">
+      <sky_scattering_moon_illuminance>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</sky_scattering_moon_illuminance>
+      <sky_scattering_sun_illuminance>1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000 1000.000000</sky_scattering_sun_illuminance>
+      <sky_transmittance_correction_factor>0.318310 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000 0.318000</sky_transmittance_correction_factor>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_DL_piFix"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="5"
+    userFlags="8"
+  >
+    <sky_transmittance_correction_factor>1.000000 0.000000</sky_transmittance_correction_factor>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_DL_moonInput_pi"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="8"
+    userFlags="8"
+  >
+    <sky_scattering_moon_illuminance>0.200000 0.000000</sky_scattering_moon_illuminance>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_DL_starInput_pi"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="8"
+    userFlags="8"
+  >
+    <sky_stars_sparse_intensity_mult>1.000000 0.000000</sky_stars_sparse_intensity_mult>
+    <sky_stars_constellations_intensity_mult>1.000000 0.000000</sky_stars_constellations_intensity_mult>
+    <sky_stars_dense_intensity_mult>0.100000 0.000000</sky_stars_dense_intensity_mult>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_moonAmbSky_pi"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="25"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="8"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.228000 0.246000 0.770000 0.808000 0.820000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>1.000000 1.000000 0.100000 0.000000 0.000000 0.100000 1.000000 1.000000</keyframe_alpha_value>
+      <indirect_light_sky_multiplier_coverage>150.000000 150.000000 150.000000 150.000000 150.000000 150.000000 150.000000 150.000000</indirect_light_sky_multiplier_coverage>
+      <indirect_light_sky_multiplier>6.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 6.000000</indirect_light_sky_multiplier>
+    </axis>
+    <axis controlValue="cloud_cover" input_min="0.000000" input_max="0.295506">
+      <indirect_light_sky_multiplier_coverage>150.000000 150.000000 150.000000 150.000000 150.000000 150.000000 150.000000 150.000000</indirect_light_sky_multiplier_coverage>
+      <indirect_light_sky_multiplier>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</indirect_light_sky_multiplier>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_DL_input_pi"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="7"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="13"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.206000 0.228000 0.250000 0.272000 0.294000 0.500000 0.706000 0.728000 0.750000 0.772000 0.794000 1.000000</keyframe_t_value>
+      <sky_scattering_moon_illuminance>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</sky_scattering_moon_illuminance>
+      <sky_scattering_sun_illuminance>10000.000000 10000.000000 10000.000000 20000.000000 80000.000000 90000.000000 100000.000000 90000.000000 80000.000000 20000.000000 10000.000000 10000.000000 10000.000000</sky_scattering_sun_illuminance>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_lighting_ambient_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <indirect_light_multiplier>1.000000 1.000000</indirect_light_multiplier>
+    <indirect_light_multiplier_transition>1.000000 1.000000</indirect_light_multiplier_transition>
+    <ambient_sh_window>1000.000000 1.000000</ambient_sh_window>
+    <ambient_bounce_intensity>1.000000 1.000000</ambient_bounce_intensity>
+    <ambient_sky_distance_mult>0.100000 1.000000</ambient_sky_distance_mult>
+    <ambient_sky_horizon_occlusion>0.100000 1.000000</ambient_sky_horizon_occlusion>
+    <ambient_sky_distance_falloff_x>0.000000 1.000000</ambient_sky_distance_falloff_x>
+    <ambient_sky_color_mult_r>1.000000 1.000000</ambient_sky_color_mult_r>
+    <ambient_sky_color_mult_g>1.000000 1.000000</ambient_sky_color_mult_g>
+    <ambient_sky_color_mult_b>1.000000 1.000000</ambient_sky_color_mult_b>
+    <ambient_sky_distance_falloff_y>0.000000 1.000000</ambient_sky_distance_falloff_y>
+    <indirect_light_sky_multiplier_coverage>150.000000 1.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_multibounce_multiplier>1.000000 1.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_sky_multiplier>1.000000 1.000000</indirect_light_sky_multiplier>
+    <indirect_light_pollution_bounce_multiplier>5.000000 0.000000</indirect_light_pollution_bounce_multiplier>
+    <indirect_light_pollution_multiplier>5.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_height_occlusion_tint_near_r>0.925490 0.000000</indirect_light_height_occlusion_tint_near_r>
+    <indirect_light_height_occlusion_tint_near_g>0.984314 0.000000</indirect_light_height_occlusion_tint_near_g>
+    <indirect_light_height_occlusion_tint_near_b>0.827451 0.000000</indirect_light_height_occlusion_tint_near_b>
+    <indirect_light_height_occlusion_tint_far_r>0.203922 0.000000</indirect_light_height_occlusion_tint_far_r>
+    <indirect_light_height_occlusion_tint_far_g>0.227451 0.000000</indirect_light_height_occlusion_tint_far_g>
+    <indirect_light_height_occlusion_tint_far_b>0.141176 0.000000</indirect_light_height_occlusion_tint_far_b>
+  </modifier>
+  <modifier
+    name="MODULE_Lighting_ambient_skyInt"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="8"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.168000 0.207000 0.253000 0.796000 0.837000 0.876000 1.000000</keyframe_t_value>
+      <indirect_light_sky_multiplier>3.000000 3.000000 1.000000 1.000000 1.000000 1.000000 3.000000 3.000000</indirect_light_sky_multiplier>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_moonLight_urbRural"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="nightLighting.g">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <sky_scattering_moon_illuminance>0.300000 0.030000</sky_scattering_moon_illuminance>
+      <sky_stars_cloud_intensity_mult>0.330967 0.001000</sky_stars_cloud_intensity_mult>
+      <sky_stars_dense_intensity_mult>1.000000 0.001000</sky_stars_dense_intensity_mult>
+      <sky_stars_sparse_intensity_mult>0.970903 0.001000</sky_stars_sparse_intensity_mult>
+      <sky_air_glow_base_color_r>0.072000 0.070588</sky_air_glow_base_color_r>
+      <sky_air_glow_base_color_g>0.350000 0.349020</sky_air_glow_base_color_g>
+      <sky_air_glow_base_color_b>1.000000 1.000000</sky_air_glow_base_color_b>
+      <sky_air_glow_intensity>0.200000 0.000000</sky_air_glow_intensity>
+      <sky_air_glow_color_r>0.184000 0.000000</sky_air_glow_color_r>
+      <sky_air_glow_color_g>1.000000 0.000000</sky_air_glow_color_g>
+      <sky_air_glow_color_b>0.494000 0.000000</sky_air_glow_color_b>
+      <sky_air_glow_base_intensity>0.100000 0.100000</sky_air_glow_base_intensity>
+      <sky_stars_constellations_intensity_mult>0.000000 0.100000</sky_stars_constellations_intensity_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_moonLight_optim"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.208000 0.251000 0.833000 0.883000 1.000000</keyframe_t_value>
+      <light_dir_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</light_dir_mult>
+    </axis>
+    <axis controlValue="nightLighting.r">
+      <light_dir_mult>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</light_dir_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="----------misc----------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="localLightBakeOut"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="0"
+  >
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_multibounce_multiplier>0.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_sky_multiplier>0.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_sky_multiplier_coverage>0.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>0.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_pollution_multiplier>0.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_pollution_bounce_multiplier>0.000000 0.000000</indirect_light_pollution_bounce_multiplier>
+    <indirect_light_specular_occlusion_intensity>0.000000 0.000000</indirect_light_specular_occlusion_intensity>
+    <indirect_light_alpha_volume_coverage_override>0.000000 0.000000</indirect_light_alpha_volume_coverage_override>
+    <sky_new_intensity_sky>0.000000 0.000000</sky_new_intensity_sky>
+    <sky_new_ray_scattering_intensity>0.010000 0.000000</sky_new_ray_scattering_intensity>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.000000 0.000000</sun_direction_y>
+    <sun_direction_z>-1.000000 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_x>0.000000 0.000000</moon_direction_x>
+    <moon_direction_y>0.000000 0.000000</moon_direction_y>
+    <moon_direction_z>-1.000000 0.000000</moon_direction_z>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>0.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>0.000000 0.000000</postfx_exposure_max>
+    <water_clip_scattering_r>0.060000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.120000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.400000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>100.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>100.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="MISSION_test_mod"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="None">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <light_dir_col_r>1.000000 0.000000 0.000000 0.000000 0.933333</light_dir_col_r>
+      <light_dir_col_g>0.000000 1.000000 0.054902 1.000000 0.000000</light_dir_col_g>
+      <light_dir_col_b>0.000000 0.007843 1.000000 1.000000 1.000000</light_dir_col_b>
+      <sky_new_ray_scattering_col_r>0.909804 0.141176 0.109804 0.109804 0.905882</sky_new_ray_scattering_col_r>
+      <sky_new_ray_scattering_col_g>0.164706 1.000000 0.215686 0.850980 0.070588</sky_new_ray_scattering_col_g>
+      <sky_new_ray_scattering_col_b>0.164706 0.384314 1.000000 1.000000 1.000000</sky_new_ray_scattering_col_b>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_timeStretching"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="25"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.043000 0.084500 0.126000 0.167500 0.209000 0.250000 0.292000 0.332000 0.374000 0.418000 0.457000 0.496000 0.543000 0.584000 0.624000 0.668000 0.709000 0.750000 0.792000 0.833000 0.873000 0.915000 0.957000 1.000000</keyframe_t_value>
+      <time_speed_mult>1.500000 1.500000 1.400000 1.200000 1.000000 0.850000 0.700000 0.700000 0.750000 0.850000 0.950000 1.000000 1.000000 0.950000 0.850000 0.750000 0.700000 0.700000 0.750000 0.850000 1.000000 1.200000 1.350000 1.500000 1.500000</time_speed_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_timeStretchingAdjusted"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="1"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="25"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.043000 0.084500 0.126000 0.167500 0.209000 0.250000 0.292000 0.332000 0.374000 0.418000 0.457000 0.496000 0.543000 0.584000 0.624000 0.668000 0.709000 0.750000 0.792000 0.833000 0.873000 0.915000 0.957000 1.000000</keyframe_t_value>
+      <time_speed_mult>2.500000 2.500000 2.200000 1.700000 1.200000 0.700000 0.700000 0.750000 0.850000 0.850000 0.950000 1.000000 1.000000 0.950000 0.850000 0.850000 0.750000 0.700000 0.700000 0.750000 1.200000 1.700000 2.200000 2.500000 2.500000</time_speed_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_water_BASE"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="1"
+    userFlags="8"
+  >
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+    <water_clip_scattering_r>1000.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1000.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1000.000000 0.000000</water_clip_scattering_b>
+    <water_clip_density_multiplier_above_water_view>1.000000 0.000000</water_clip_density_multiplier_above_water_view>
+    <water_clip_density_multiplier_below_water_view>0.700000 0.000000</water_clip_density_multiplier_below_water_view>
+  </modifier>
+  <modifier
+    name="sky_reduce_ariel_NOSUBMIT"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_scattering_far_clip_multiplier>20.000000 0.000000</sky_scattering_far_clip_multiplier>
+    <sky_scattering_aerial_pivot_amount>1.000000 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_aerial_pivot_distance>0.065000 0.000000</sky_scattering_aerial_pivot_distance>
+  </modifier>
+  <modifier
+    name="MODULE_heatHaze_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.250000 0.461333 0.672666 0.750000 1.000000</keyframe_t_value>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_sun_direction_bias>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_sun_direction_bias>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+      <hh_sun_angle_power_curve>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_sun_angle_power_curve>
+      <hh_sun_angle_rescale_min>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_sun_angle_rescale_min>
+      <hh_sun_angle_rescale_max>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_sun_angle_rescale_max>
+      <hh_vegetation_temperature_attenuation>0.500000 0.100000 0.000000 0.800000 1.000000 1.000000 0.500000</hh_vegetation_temperature_attenuation>
+      <hh_hard_surface_temperature_attenuation>0.000000 0.000000 0.000000 1.000000 1.000000 0.300000 0.000000</hh_hard_surface_temperature_attenuation>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_temprature_winter"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.291000 0.511000 0.613000 0.767000 1.000000</keyframe_t_value>
+      <temperature_target>17.000000 15.000000 17.000000 19.000000 20.000000 19.000000 17.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_peak">
+      <temperature_target>20.000000 19.000000 20.000000 22.000000 26.000000 22.000000 20.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_range">
+      <temperature_target>17.000000 15.000000 17.000000 19.000000 22.000000 19.000000 17.000000</temperature_target>
+    </axis>
+    <axis controlValue="none">
+      <temperature_target>19.000000 17.000000 19.000000 22.000000 27.000000 22.000000 19.000000</temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_temprature_spring"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.291000 0.511000 0.613000 0.767000 1.000000</keyframe_t_value>
+      <temperature_target>17.000000 17.000000 19.000000 21.000000 22.000000 21.000000 17.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_peak">
+      <temperature_target>21.000000 19.000000 21.000000 24.000000 28.000000 24.000000 21.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_range">
+      <temperature_target>19.000000 17.000000 19.000000 22.000000 26.000000 19.000000 17.000000</temperature_target>
+    </axis>
+    <axis controlValue="none">
+      <temperature_target>21.000000 19.000000 20.000000 24.000000 30.000000 24.000000 21.000000</temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_temprature_summer"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.291000 0.511000 0.613000 0.735000 1.000000</keyframe_t_value>
+      <temperature_target>29.000000 28.000000 29.000000 30.000000 30.000000 30.000000 29.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_peak">
+      <temperature_target>30.000000 29.000000 29.000000 31.000000 32.000000 31.000000 30.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_range">
+      <temperature_target>27.000000 22.000000 24.000000 26.000000 29.000000 28.000000 27.000000</temperature_target>
+    </axis>
+    <axis controlValue="none">
+      <temperature_target>29.000000 26.000000 28.000000 32.000000 33.000000 32.000000 29.000000</temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_temprature_autumn"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="4"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.291000 0.511000 0.613000 0.735000 1.000000</keyframe_t_value>
+      <temperature_target>29.000000 28.000000 29.000000 29.500000 30.000000 29.500000 29.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_peak">
+      <temperature_target>30.000000 29.000000 29.000000 30.000000 31.000000 30.000000 30.000000</temperature_target>
+    </axis>
+    <axis controlValue="climate_temperature_range">
+      <temperature_target>27.000000 23.000000 25.000000 28.000000 29.000000 28.000000 27.000000</temperature_target>
+    </axis>
+    <axis controlValue="none">
+      <temperature_target>29.000000 26.000000 28.000000 30.000000 31.000000 30.000000 29.000000</temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_pedlightBase"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <ped_light_falloff>50.000000 1.000000</ped_light_falloff>
+    <ped_light_falloff_start>0.000000 1.000000</ped_light_falloff_start>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <ped_light0_mult>2.000000 1.000000</ped_light0_mult>
+    <ped_light_wrap_min>1.000000 1.000000</ped_light_wrap_min>
+    <ped_light_wrap_max>0.500000 1.000000</ped_light_wrap_max>
+    <ped_light_wrap_dist>0.000000 0.000000</ped_light_wrap_dist>
+    <ped_light_fresnel>1.000000 1.000000</ped_light_fresnel>
+    <ped_light0_amb_color_mult>1.000000 1.000000</ped_light0_amb_color_mult>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>1.000000 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>1.000000 1.000000</ped_light0_col_b>
+    <ped_light_ndotl_bias>1.000000 1.000000</ped_light_ndotl_bias>
+    <ped_light0_dir_x>0.007353 1.000000</ped_light0_dir_x>
+    <ped_light0_dir_y>0.051471 1.000000</ped_light0_dir_y>
+    <ped_light0_dir_z>1.000000 1.000000</ped_light0_dir_z>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_light pollution_TEST"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="80"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.190000 0.500000 0.871000 1.000000</keyframe_t_value>
+      <local_atmosphere_light_pollution_absorption>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_absorption>
+      <local_atmosphere_light_pollution_absorption_dist>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_light_pollution_absorption_dist>
+      <local_atmosphere_light_pollution_cone>50.000000 50.000000 50.000000 50.000000 50.000000</local_atmosphere_light_pollution_cone>
+      <local_atmosphere_light_pollution_falloff>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_falloff>
+      <local_atmosphere_light_pollution_height_top>5000.000000 5000.000000 5000.000000 5000.000000 5000.000000</local_atmosphere_light_pollution_height_top>
+      <local_atmosphere_light_pollution_height_bottom>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_light_pollution_height_bottom>
+      <local_atmosphere_light_pollution_intensity>2.000000 1.000000 5.000000 3.000000 2.000000</local_atmosphere_light_pollution_intensity>
+    </axis>
+    <axis controlValue="cloud_cover">
+      <local_atmosphere_light_pollution_absorption>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_absorption>
+      <local_atmosphere_light_pollution_absorption_dist>500.000000 500.000000 500.000000 500.000000 500.000000</local_atmosphere_light_pollution_absorption_dist>
+      <local_atmosphere_light_pollution_cone>50.000000 50.000000 50.000000 50.000000 50.000000</local_atmosphere_light_pollution_cone>
+      <local_atmosphere_light_pollution_falloff>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_light_pollution_falloff>
+      <local_atmosphere_light_pollution_height_top>5000.000000 5000.000000 5000.000000 5000.000000 5000.000000</local_atmosphere_light_pollution_height_top>
+      <local_atmosphere_light_pollution_height_bottom>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_light_pollution_height_bottom>
+      <local_atmosphere_light_pollution_intensity>2.000000 1.000000 2.000000 2.000000 2.000000</local_atmosphere_light_pollution_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="TEST_newExposure_TEST"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="64"
+  >
+    <postfx_exposure_compensation_ev_cp0_x>-15.987511 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>4.000593 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-13.033834 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.905522 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-14.606471 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.845212 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-10.974298 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.048154 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>-8.141181 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.524992 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>-1.410014 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.062109 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.997898 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.041251 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="MODULE_wind_convection_ground"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.270000 0.350000 0.534000 0.790000 0.874000 1.000000</keyframe_t_value>
+      <wind_convection_ground_speed_kmh>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</wind_convection_ground_speed_kmh>
+    </axis>
+    <axis controlValue="Wind_convection">
+      <wind_convection_ground_speed_kmh>0.500000 0.000000 -3.000000 -5.000000 0.000000 1.000000 0.500000</wind_convection_ground_speed_kmh>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_wind_convection_onshore"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.300000 0.401000 0.650000 0.800000 1.000000</keyframe_t_value>
+      <wind_convection_onoffshore_speed_kmh>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</wind_convection_onoffshore_speed_kmh>
+    </axis>
+    <axis controlValue="Wind_convection">
+      <wind_convection_onoffshore_speed_kmh>11.000000 0.000000 -1.000000 -22.000000 0.000000 11.000000</wind_convection_onoffshore_speed_kmh>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_wind_prevailing_base"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <wind_prevailing_speed_falloff_height_kmh>1000.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+  </modifier>
+  <modifier
+    name="MODULE_wind_prevailing_strength"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.300000 0.401000 0.650000 0.800000 1.000000</keyframe_t_value>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>2.000000 1.000000 0.500000 2.000000 0.500000 2.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>5.000000 4.000000 2.000000 5.000000 2.000000 5.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>40.000000 40.000000 30.000000 40.000000 30.000000 40.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>50.000000 50.000000 50.000000 50.000000 50.000000 50.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    </axis>
+    <axis controlValue="Wind_prevailing">
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>50.000000 50.000000 50.000000 50.000000 50.000000 50.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>105.000000 105.000000 105.000000 105.000000 105.000000 105.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>120.000000 120.000000 120.000000 120.000000 120.000000 120.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>180.000000 180.000000 180.000000 180.000000 180.000000 180.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_wetness_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <minimum_wetness>0.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <minimum_soak>0.000000 0.000000</minimum_soak>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <wetness_increase_speed>0.005000 0.000000</wetness_increase_speed>
+    <wetness_decrease_speed>0.010000 0.000000</wetness_decrease_speed>
+    <soak_increase_speed>0.002500 0.000000</soak_increase_speed>
+    <soak_decrease_speed>0.010000 0.000000</soak_decrease_speed>
+    <drying_factor>1.000000 0.000000</drying_factor>
+    <no_wet_peds>0.000000 0.000000</no_wet_peds>
+    <weather_fixed_hipr_noon>0.000000 0.000000</weather_fixed_hipr_noon>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_denisty"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Rain_Denisty">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <gpu_fx_density>0.000000 1.000000</gpu_fx_density>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_heaviness"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Rain_Heaviness">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <gpu_fx_heaviness>0.000000 1.000000</gpu_fx_heaviness>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_wettening"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="2"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.488000 0.750000 1.000000</keyframe_t_value>
+      <wetness_increase_speed>0.000000 0.000000 0.000000 0.000000 0.000000</wetness_increase_speed>
+      <wetness_decrease_speed>0.002000 0.001000 0.005000 0.003000 0.002000</wetness_decrease_speed>
+      <soak_increase_speed>0.000000 0.000000 0.000000 0.000000 0.000000</soak_increase_speed>
+      <soak_decrease_speed>0.000300 0.001500 0.020000 0.001500 0.000300</soak_decrease_speed>
+    </axis>
+    <axis controlValue="climate_humidity">
+      <wetness_increase_speed>0.005000 0.005000 0.005000 0.005000 0.005000</wetness_increase_speed>
+      <wetness_decrease_speed>0.000000 0.000000 0.000000 0.000000 0.000000</wetness_decrease_speed>
+      <soak_increase_speed>0.002500 0.002500 0.002500 0.002500 0.002500</soak_increase_speed>
+      <soak_decrease_speed>0.000000 0.000000 0.000000 0.000000 0.000000</soak_decrease_speed>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_water_bankWetness"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="4"
+    userFlags="8"
+  >
+    <water_wetness_height_min>0.000000 0.000000</water_wetness_height_min>
+    <water_wetness_height_max>1.000000 0.000000</water_wetness_height_max>
+    <water_wetness_intensity>1.000000 0.000000</water_wetness_intensity>
+  </modifier>
+  <modifier
+    name="NEWCLOUDDLSTRENGTH"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="64"
+  >
+    <local_atmosphere_direct_light_intensity>1.000000 1.000000</local_atmosphere_direct_light_intensity>
+  </modifier>
+  <modifier
+    name="gusts_TEST"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="64"
+  >
+    <wind_gust_speed_min_kmh>100.000000 0.000000</wind_gust_speed_min_kmh>
+    <wind_gust_speed_max_kmh>100.000000 0.000000</wind_gust_speed_max_kmh>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_Base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <local_atmosphere_rain_probabiliy>0.000000 1.000000</local_atmosphere_rain_probabiliy>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_winter"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.363500 0.727000 0.769000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <local_atmosphere_rain_probabiliy>0.100000 0.200000 0.200000 0.100000 0.100000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_spring"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.466000 0.727000 0.783000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 0.300000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <local_atmosphere_rain_probabiliy>0.250000 0.200000 0.500000 0.100000 0.250000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_summer"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.513000 0.727000 0.783000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 0.700000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <local_atmosphere_rain_probabiliy>0.500000 0.300000 0.500000 0.300000 0.500000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_sumLate"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="Time">
+      <keyframe_t_value>0.000000 0.440000 0.698000 0.742000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <local_atmosphere_rain_probabiliy>0.500000 0.300000 0.500000 0.300000 0.500000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rainProb_autumn"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.518000 0.727000 0.863500 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <local_atmosphere_rain_probabiliy>0.400000 0.500000 1.000000 0.500000 0.400000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="testcustomCloud"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="64"
+  >
+    <local_atmosphere_custom_cloud_group_0_index>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>-9599.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>-15998.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+  </modifier>
+  <modifier
+    name="MODULE_baseAmbientLight_TEST"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="64"
+   />
+  <modifier
+    name="MODULE_lighting_Baseambient_test"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="64"
+  >
+    <indirect_light_near_light_distance_min>0.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>30.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>2.000000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>15.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <postfx_exposure_max>3.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_hl_contrast>0.800000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <sky_scattering_moon_intensity_multiplier>1.000000 0.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_moon_illuminance>0.100000 0.000000</sky_scattering_moon_illuminance>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_near_light_luminance_r>0.015000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.020000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.025000 0.000000</indirect_light_near_light_luminance_b>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="MODULE_retroReflectiveMod_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <brdf_retroreflection_aux_intensity_multiplier>100.000000 0.000000</brdf_retroreflection_aux_intensity_multiplier>
+    <brdf_prismatic_rr_intensity_scale>3.000000 0.000000</brdf_prismatic_rr_intensity_scale>
+    <brdf_glass_bead_rr_intensity_scale>1.000000 0.000000</brdf_glass_bead_rr_intensity_scale>
+  </modifier>
+  <modifier
+    name="MODULE_wind_Gusts_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <wind_gust_speed_max_kmh>30.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_gust_speed_min_kmh>10.000000 0.000000</wind_gust_speed_min_kmh>
+  </modifier>
+  <modifier
+    name="MODULE_water_baseRendering"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <water_fresnel_rescale_max>0.100000 0.000000</water_fresnel_rescale_max>
+    <water_fresnel_rescale_min>-0.056172 0.000000</water_fresnel_rescale_min>
+    <water_fresnel_rescale>0.500000 0.000000</water_fresnel_rescale>
+  </modifier>
+  <modifier
+    name="MODULE_sky_moon_base"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="1"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.225000 0.250000 0.750000 0.775000 1.000000</keyframe_t_value>
+      <sky_moon_iten>100.000000 100.000000 2000.000000 2.000000 100.000000 100.000000</sky_moon_iten>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_arielPerspective_base2"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <sky_scattering_aerial_pivot_distance>0.500000 0.000000</sky_scattering_aerial_pivot_distance>
+    <sky_scattering_aerial_far_clip>10000.000000 0.000000</sky_scattering_aerial_far_clip>
+    <sky_scattering_aerial_pivot_amount>0.000000 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_far_clip_multiplier>100.000000 0.000000</sky_scattering_far_clip_multiplier>
+  </modifier>
+  <modifier
+    name="MODULE_lightPollution"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="3"
+    userFlags="8"
+  >
+    <indirect_light_pollution_multiplier>32.000000 0.000000</indirect_light_pollution_multiplier>
+    <indirect_light_pollution_bounce_multiplier>16.000000 0.000000</indirect_light_pollution_bounce_multiplier>
+    <local_atmosphere_light_pollution_falloff>1.000000 0.000000</local_atmosphere_light_pollution_falloff>
+    <local_atmosphere_light_pollution_height_top>856.065063 0.000000</local_atmosphere_light_pollution_height_top>
+    <local_atmosphere_light_pollution_height_bottom>0.000000 0.000000</local_atmosphere_light_pollution_height_bottom>
+    <local_atmosphere_light_pollution_intensity>16.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <local_atmosphere_light_pollution_cone>24.000000 0.000000</local_atmosphere_light_pollution_cone>
+    <indirect_light_pollution_rt_bounce_multiplier>32.000000 0.000000</indirect_light_pollution_rt_bounce_multiplier>
+    <indirect_light_pollution_color_r>1.000000 0.000000</indirect_light_pollution_color_r>
+    <indirect_light_pollution_color_g>1.000000 0.000000</indirect_light_pollution_color_g>
+    <indirect_light_pollution_color_b>1.000000 0.000000</indirect_light_pollution_color_b>
+  </modifier>
+  <modifier
+    name="MODULE_mirage"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="temporal_color_temperature_target">
+      <keyframe_t_value>0.000000 0.500000 0.750000 1.000000</keyframe_t_value>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_Wind_WindIntensity"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="Wind_Strength">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <wind_convection_ground_speed_kmh>0.000000 7.000000 5.000000 0.000000 0.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>0.000000 15.000000 10.000000 0.000000 0.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>0.000000 3.000000 35.000000 50.000000 80.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>0.000000 5.000000 50.000000 72.000000 120.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>0.000000 50.000000 60.000000 100.000000 150.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>0.000000 60.000000 70.000000 120.000000 150.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>1.000000 1.000000 1.000000 1.000000 1.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>0.500000 3.000000 6.000000 8.000000 12.000000</water_ocean_beaufort_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_Wind_GustIntensity"
+    description=""
+    groupApplyTag="season"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="None">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <wind_gust_speed_max_kmh>2.000000 70.000000</wind_gust_speed_max_kmh>
+      <wind_gust_speed_min_kmh>1.000000 20.000000</wind_gust_speed_min_kmh>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_sun_input_new"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="6"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <sky_scattering_sun_illuminance>100000.000000 100000.000000 300000.000000 100000.000000 100000.000000</sky_scattering_sun_illuminance>
+    </axis>
+  </modifier>
+  <modifier
+    name="testLocalFog"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_fog_type_1_height_multiplier>0.000000 0.000000</local_fog_type_1_height_multiplier>
+    <local_fog_type_2_height_multiplier>0.000000 0.000000</local_fog_type_2_height_multiplier>
+    <local_fog_type_3_height_multiplier>0.000000 0.000000</local_fog_type_3_height_multiplier>
+    <local_fog_type_4_height_multiplier>0.000000 0.000000</local_fog_type_4_height_multiplier>
+    <local_fog_type_5_height_multiplier>0.000000 0.000000</local_fog_type_5_height_multiplier>
+    <local_fog_type_6_height_multiplier>100.000000 0.000000</local_fog_type_6_height_multiplier>
+    <local_fog_base_height_multiplier>466.347748 0.000000</local_fog_base_height_multiplier>
+    <local_fog_base_height_bias>0.000000 0.000000</local_fog_base_height_bias>
+    <local_fog_wind_speed>0.100000 0.000000</local_fog_wind_speed>
+    <local_fog_wind_erosion>50.000000 0.000000</local_fog_wind_erosion>
+    <local_fog_height_falloff>100.000000 0.000000</local_fog_height_falloff>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_cloudsShadows_NEW"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_temperatureOverHeight"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Height" input_min="0.010000" input_max="0.767182">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>0.000000 1.000000</keyframe_alpha_value>
+      <temperature_target>-10.000000 -10.000000</temperature_target>
+      <color_temperature_target>0.000000 0.000000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_atmos_cloudICE"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <local_atmosphere_ice_density_scale>1.000000 2.000000 0.000000 1.000000 0.000000 1.000000</local_atmosphere_ice_density_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="TEST_brightMoon"
+    description=""
+    groupApplyTag="exposure_system"
+    localApplyIndex="0"
+    userFlags="64"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.250000 0.750000 0.800000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</keyframe_alpha_value>
+      <light_dir_mult>1.500000 1.500000 1.500000 1.500000 1.500000 1.500000</light_dir_mult>
+      <local_atmosphere_direct_light_intensity>1.500000 1.500000 1.500000 1.500000 1.500000 1.500000</local_atmosphere_direct_light_intensity>
+      <indirect_light_sky_multiplier_coverage>100.000000 100.000000 100.000000 100.000000 100.000000 100.000000</indirect_light_sky_multiplier_coverage>
+      <indirect_light_sky_multiplier>1.500000 1.500000 1.500000 1.500000 1.500000 1.500000</indirect_light_sky_multiplier>
+    </axis>
+  </modifier>
+  <modifier
+    name="TEST_brightMoon_scotopic"
+    description=""
+    groupApplyTag="exposure_system"
+    localApplyIndex="0"
+    userFlags="64"
+  >
+    <postfx_scotopic_col_r>0.364706 0.000000</postfx_scotopic_col_r>
+    <postfx_scotopic_col_g>0.576471 0.000000</postfx_scotopic_col_g>
+    <postfx_scotopic_col_b>1.000000 0.000000</postfx_scotopic_col_b>
+    <postfx_scotopic_weight_bias>-0.075000 0.000000</postfx_scotopic_weight_bias>
+  </modifier>
+  <modifier
+    name="MODULE_fog_GI_distance"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Height" input_min="0.010000" input_max="0.045000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <indirect_light_volumetrics_fade_offset>100.000000 0.000000</indirect_light_volumetrics_fade_offset>
+      <indirect_light_volumetrics_fade>50.000000 0.000000</indirect_light_volumetrics_fade>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_windowEMisive"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="8"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.230000 0.250000 0.260000 0.740000 0.760000 0.770000 1.000000</keyframe_t_value>
+      <window_emissive_intensity_multiplier>1.000000 1.000000 5.000000 50.000000 50.000000 5.000000 1.000000 1.000000</window_emissive_intensity_multiplier>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_fogVolumeDensity"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.310000 0.500000 0.700000 0.750000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_volume_dust_density_mult>0.500000 0.500000 0.500000 1.000000 1.000000 1.000000 0.500000</local_atmosphere_fog_volume_dust_density_mult>
+      <local_atmosphere_fog_volume_smoke_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_smoke_density_mult>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000 0.500000 0.500000 0.500000 1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+      <local_atmosphere_fog_volume_pollution_density_mult>0.500000 0.500000 1.000000 1.000000 1.000000 1.000000 0.000000</local_atmosphere_fog_volume_pollution_density_mult>
+      <local_atmosphere_fog_volume_snow_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_snow_density_mult>
+      <local_atmosphere_fog_volume_waterfall_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_waterfall_density_mult>
+      <local_atmosphere_fog_volume_global_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_global_density_mult>
+    </axis>
+    <axis controlValue="temporal_wetness" input_min="0.000000" input_max="0.400000">
+      <local_atmosphere_fog_volume_dust_density_mult>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_volume_dust_density_mult>
+      <local_atmosphere_fog_volume_smoke_density_mult>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</local_atmosphere_fog_volume_smoke_density_mult>
+      <local_atmosphere_fog_volume_mist_density_mult>0.300000 0.300000 0.300000 0.300000 0.300000 0.300000 0.300000</local_atmosphere_fog_volume_mist_density_mult>
+      <local_atmosphere_fog_volume_pollution_density_mult>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</local_atmosphere_fog_volume_pollution_density_mult>
+      <local_atmosphere_fog_volume_snow_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_snow_density_mult>
+      <local_atmosphere_fog_volume_waterfall_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_waterfall_density_mult>
+      <local_atmosphere_fog_volume_global_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_global_density_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_clouds_distantLighting"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="cloud_cover" input_min="0.094135" input_max="0.694424">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <local_atmosphere_cloud_shadow_base_volumetrics>0.623331 0.000000</local_atmosphere_cloud_shadow_base_volumetrics>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_clouds_Multiscattering"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.400000 0.600000 0.750000 1.000000</keyframe_t_value>
+      <local_atmosphere_cloud_multi_scatter_radiance_scale>1.000000 1.000000 2.000000 2.000000 1.000000 1.000000</local_atmosphere_cloud_multi_scatter_radiance_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="TEST_defaultSKY"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_ray_scattering_intensity>1.000000 0.000000</sky_new_ray_scattering_intensity>
+    <sky_new_ray_density_scale>8.000000 0.000000</sky_new_ray_density_scale>
+    <sky_new_multiscattering_extra_boost>0.300000 0.000000</sky_new_multiscattering_extra_boost>
+    <sky_new_multiscattering_angle_offset>-18.000000 0.000000</sky_new_multiscattering_angle_offset>
+    <sky_new_direct_light_disk_size_mult>1.000000 0.000000</sky_new_direct_light_disk_size_mult>
+    <sky_new_direct_earth_shadow_blending>0.010000 0.000000</sky_new_direct_earth_shadow_blending>
+    <sky_new_intensity_aerial>1.000000 0.000000</sky_new_intensity_aerial>
+    <sky_new_intensity_multiscattering>1.000000 0.000000</sky_new_intensity_multiscattering>
+    <sky_new_intensity_sky>1.000000 0.000000</sky_new_intensity_sky>
+    <sky_new_karman_line>100.000000 0.000000</sky_new_karman_line>
+    <sky_new_planet_radius>6360.000000 0.000000</sky_new_planet_radius>
+    <sky_new_mie_density_scale>1.200000 0.000000</sky_new_mie_density_scale>
+    <sky_new_mie_phase_eccentricity>0.780000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_scattering_intensity>1.000000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_mie_scattering_col_r>0.576471 0.000000</sky_new_mie_scattering_col_r>
+    <sky_new_mie_scattering_col_g>0.576471 0.000000</sky_new_mie_scattering_col_g>
+    <sky_new_mie_scattering_col_b>0.576471 0.000000</sky_new_mie_scattering_col_b>
+    <sky_new_mie_absorption_intensity>1.000000 0.000000</sky_new_mie_absorption_intensity>
+    <sky_new_mie_absorption_col_r>0.576471 0.000000</sky_new_mie_absorption_col_r>
+    <sky_new_mie_absorption_col_g>0.576471 0.000000</sky_new_mie_absorption_col_g>
+    <sky_new_mie_absorption_col_b>0.576471 0.000000</sky_new_mie_absorption_col_b>
+    <sky_new_ozo_0_width>25.000000 0.000000</sky_new_ozo_0_width>
+    <sky_new_ozo_0_constant>-0.666000 0.000000</sky_new_ozo_0_constant>
+    <sky_new_ozo_0_linear>0.066600 0.000000</sky_new_ozo_0_linear>
+    <sky_new_ozo_1_constant>2.666000 0.000000</sky_new_ozo_1_constant>
+    <sky_new_ozo_1_linear>-0.066600 0.000000</sky_new_ozo_1_linear>
+    <sky_new_ozo_extinction_col_r>0.325490 0.000000</sky_new_ozo_extinction_col_r>
+    <sky_new_ozo_extinction_col_g>0.945098 0.000000</sky_new_ozo_extinction_col_g>
+    <sky_new_ozo_extinction_col_b>0.043137 0.000000</sky_new_ozo_extinction_col_b>
+    <sky_new_ozo_extinction_intensity>1.000000 0.000000</sky_new_ozo_extinction_intensity>
+    <sky_scattering_far_clip_multiplier>1.000000 0.000000</sky_scattering_far_clip_multiplier>
+    <sky_scattering_aerial_pivot_distance>1.000000 0.000000</sky_scattering_aerial_pivot_distance>
+    <sky_scattering_aerial_pivot_amount>-1.000000 0.000000</sky_scattering_aerial_pivot_amount>
+    <sky_scattering_diffusion_intensity>0.500000 0.000000</sky_scattering_diffusion_intensity>
+    <sky_scattering_moon_intensity_multiplier>1.000000 0.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_moon_illuminance>1.000000 0.000000</sky_scattering_moon_illuminance>
+    <sky_scattering_sun_intensity_multiplier>1.000000 0.000000</sky_scattering_sun_intensity_multiplier>
+    <sky_scattering_sun_illuminance>140000.000000 0.000000</sky_scattering_sun_illuminance>
+    <sky_scattering_height_max_multiplier>2.000000 0.000000</sky_scattering_height_max_multiplier>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_vertical_scaling_height_faloff_range>150.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_scattering_vertical_scaling_height_min>300.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_aerial_far_clip>10000.000000 0.000000</sky_scattering_aerial_far_clip>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_fog_type_6_density_multiplier>0.000000 0.000000</local_fog_type_6_density_multiplier>
+    <local_fog_type_5_density_multiplier>0.000000 0.000000</local_fog_type_5_density_multiplier>
+    <local_fog_type_3_density_multiplier>0.000000 0.000000</local_fog_type_3_density_multiplier>
+    <local_fog_type_4_density_multiplier>0.000000 0.000000</local_fog_type_4_density_multiplier>
+    <local_fog_type_2_density_multiplier>0.000000 0.000000</local_fog_type_2_density_multiplier>
+    <local_fog_type_1_density_multiplier>0.000000 0.000000</local_fog_type_1_density_multiplier>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_dynamic_mult>0.000000 0.000000</postfx_grad_top_dynamic_mult>
+    <postfx_grad_middle_dynamic_mult>0.000000 0.000000</postfx_grad_middle_dynamic_mult>
+    <postfx_grad_bot_dynamic_mult>0.000000 0.000000</postfx_grad_bot_dynamic_mult>
+    <postfx_grad_left_col_mult>1.000000 0.000000</postfx_grad_left_col_mult>
+    <postfx_grad_center_col_mult>1.000000 0.000000</postfx_grad_center_col_mult>
+    <postfx_grad_right_col_mult>1.000000 0.000000</postfx_grad_right_col_mult>
+    <postfx_grad_left_dynamic_mult>0.000000 0.000000</postfx_grad_left_dynamic_mult>
+    <postfx_grad_center_dynamic_mult>0.000000 0.000000</postfx_grad_center_dynamic_mult>
+    <postfx_grad_right_dynamic_mult>0.000000 0.000000</postfx_grad_right_dynamic_mult>
+    <sky_scattering_sun_col_r>1.000000 0.000000</sky_scattering_sun_col_r>
+    <sky_scattering_sun_col_g>1.000000 0.000000</sky_scattering_sun_col_g>
+    <sky_scattering_sun_col_b>1.000000 0.000000</sky_scattering_sun_col_b>
+    <postfx_grad_left_col_r>1.000000 0.000000</postfx_grad_left_col_r>
+    <postfx_grad_left_col_g>1.000000 0.000000</postfx_grad_left_col_g>
+    <postfx_grad_left_col_b>1.000000 0.000000</postfx_grad_left_col_b>
+    <postfx_grad_center_col_r>1.000000 0.000000</postfx_grad_center_col_r>
+    <postfx_grad_center_col_g>1.000000 0.000000</postfx_grad_center_col_g>
+    <postfx_grad_center_col_b>1.000000 0.000000</postfx_grad_center_col_b>
+    <postfx_grad_right_col_r>1.000000 0.000000</postfx_grad_right_col_r>
+    <postfx_grad_right_col_g>1.000000 0.000000</postfx_grad_right_col_g>
+    <postfx_grad_right_col_b>1.000000 0.000000</postfx_grad_right_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_white_balance_enabled>0.000000 0.000000</postfx_white_balance_enabled>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_cloud_cirrostratus_density>0.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+  </modifier>
+  <modifier
+    name="test_newBLUESKY"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <sky_scattering_sky_col_r>0.384314 0.000000</sky_scattering_sky_col_r>
+    <sky_scattering_sky_col_g>0.384314 0.000000</sky_scattering_sky_col_g>
+    <sky_scattering_sky_col_b>0.384314 0.000000</sky_scattering_sky_col_b>
+  </modifier>
+  <modifier
+    name="Module_overcastLighting"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <direct_light_scattering_strength>1.000000 0.000000</direct_light_scattering_strength>
+    <direct_light_scattering_cone_angle>57.351681 0.000000</direct_light_scattering_cone_angle>
+    <direct_light_haze_blend_scale>1.000000 0.000000</direct_light_haze_blend_scale>
+    <direct_light_haze_intensity>0.050000 0.000000</direct_light_haze_intensity>
+    <direct_light_roughness_mod_cloud_shadow>0.700000 0.000000</direct_light_roughness_mod_cloud_shadow>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.990000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <local_atmosphere_cloud_shadow_alpha>0.990000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_haze_intensity>0.100000 0.000000</local_atmosphere_haze_intensity>
+    <local_atmosphere_haze_phase_anisotropy>0.500000 0.000000</local_atmosphere_haze_phase_anisotropy>
+  </modifier>
+  <modifier
+    name="MODULE_retroReflection"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <brdf_eye_retroreflection_aux_intensity_multiplier>0.000200 0.000200 0.000200 0.000200 0.000200 0.000200</brdf_eye_retroreflection_aux_intensity_multiplier>
+      <brdf_retroreflection_aux_intensity_multiplier>100.000000 100.000000 1.000000 1.000000 100.000000 100.000000</brdf_retroreflection_aux_intensity_multiplier>
+      <brdf_prismatic_rr_intensity_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</brdf_prismatic_rr_intensity_scale>
+      <brdf_glass_bead_rr_intensity_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</brdf_glass_bead_rr_intensity_scale>
+    </axis>
+    <axis controlValue="player_speed" input_min="0.050000" input_max="0.300000">
+      <brdf_eye_retroreflection_aux_intensity_multiplier>0.000200 0.000200 0.000200 0.000200 0.000200 0.000200</brdf_eye_retroreflection_aux_intensity_multiplier>
+      <brdf_retroreflection_aux_intensity_multiplier>100.000000 100.000000 1.000000 1.000000 100.000000 100.000000</brdf_retroreflection_aux_intensity_multiplier>
+      <brdf_prismatic_rr_intensity_scale>3.000000 3.000000 1.000000 1.000000 3.000000 3.000000</brdf_prismatic_rr_intensity_scale>
+      <brdf_glass_bead_rr_intensity_scale>3.000000 3.000000 1.000000 1.000000 3.000000 3.000000</brdf_glass_bead_rr_intensity_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_SunMoonCrossfade"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="8"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.240000 0.250000 0.260000 0.740000 0.750000 0.760000 1.000000</keyframe_t_value>
+      <sun_moon_crossfade>-1.000000 -1.000000 0.000000 1.000000 1.000000 0.000000 -1.000000 -1.000000</sun_moon_crossfade>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_ water_lighting"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="11"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.250000 0.300679 0.345488 0.500000 0.649525 0.699321 0.750000 0.875000 1.000000</keyframe_t_value>
+      <water_volumetrics_ms_scale_indirect>1.000000 1.000000 1.000000 1.500000 1.500000 1.500000 1.500000 1.500000 1.000000 1.000000 1.000000</water_volumetrics_ms_scale_indirect>
+      <water_volumetrics_ms_scale_directional>1.000000 1.000000 0.300000 0.400000 0.900000 1.000000 0.900000 0.400000 0.300000 1.000000 1.000000</water_volumetrics_ms_scale_directional>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_waterPiFix"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <water_clip_scattering_scale>0.600000 0.000000</water_clip_scattering_scale>
+    <water_clip_bloom_mod>0.300000 0.000000</water_clip_bloom_mod>
+    <water_volumetrics_ms_scale_indirect>4.000000 0.000000</water_volumetrics_ms_scale_indirect>
+  </modifier>
+  <modifier
+    name="MODULE_fogLightingPiFix"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="10"
+    userFlags="8"
+  >
+    <sky_scattering_far_clip_multiplier>5.000000 0.000000</sky_scattering_far_clip_multiplier>
+    <sky_scattering_irradiance_scale>1.000000 0.000000</sky_scattering_irradiance_scale>
+    <local_atmosphere_multiscatter_compensation>1.000000 0.000000</local_atmosphere_multiscatter_compensation>
+  </modifier>
+  <modifier
+    name="MODULE_planetScale"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="24"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="Height" input_min="0.000000" input_max="0.516710">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>0.000000 1.000000</keyframe_alpha_value>
+      <sky_new_planet_radius>2000.000000 2000.000000</sky_new_planet_radius>
+      <local_atmosphere_cloud_sphere_radius_scale>1.000000 1.000000</local_atmosphere_cloud_sphere_radius_scale>
+      <local_atmosphere_transmittance_depth_fade_max>10000.000000 10000.000000</local_atmosphere_transmittance_depth_fade_max>
+      <local_atmosphere_transmittance_depth_fade_min>6000.000000 6000.000000</local_atmosphere_transmittance_depth_fade_min>
+      <local_atmosphere_cloud_shadow_base_volumetrics>1.000000 1.000000</local_atmosphere_cloud_shadow_base_volumetrics>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_WindowEmission"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="4"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.166667 0.333333 0.500000 0.666667 0.833333 1.000000</keyframe_t_value>
+      <vfx_lightning_weather_powergrid_threshold>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</vfx_lightning_weather_powergrid_threshold>
+    </axis>
+    <axis controlValue="cloud_cover">
+      <vfx_lightning_weather_powergrid_threshold>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</vfx_lightning_weather_powergrid_threshold>
+    </axis>
+    <axis controlValue="Rain_chance">
+      <vfx_lightning_weather_powergrid_threshold>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</vfx_lightning_weather_powergrid_threshold>
+    </axis>
+    <axis controlValue="none">
+      <vfx_lightning_weather_powergrid_threshold>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000</vfx_lightning_weather_powergrid_threshold>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_FireControl_Wetness"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="temporal_wetness">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_override_tc_synced_intensity>1.000000 0.000000</light_override_tc_synced_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_CloudWindVelocity_Scale"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.142289 0.263580 0.713874 0.812607 1.000000</keyframe_t_value>
+      <local_atmosphere_cloud_wind_noise_velocity_scale>0.250000 0.250000 0.600000 0.600000 0.250000 0.250000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="-----------High Level Sub Mods------------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="10"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_HighLevel_Gradient_Foggy"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <gradient>
+      <input_min>0.500000</input_min>
+      <input_max>0.500000</input_max>
+      <output_min>0.500000</output_min>
+      <output_max>0.500000</output_max>
+    </gradient>
+    <Fog>
+      <input_min>0.700000</input_min>
+      <input_max>0.700000</input_max>
+      <output_min>0.700000</output_min>
+      <output_max>0.700000</output_max>
+    </Fog>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_Gradient_VFoggy"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <gradient>
+      <input_min>0.700000</input_min>
+      <input_max>0.700000</input_max>
+      <output_min>0.700000</output_min>
+      <output_max>0.700000</output_max>
+    </gradient>
+    <Fog>
+      <input_min>0.900000</input_min>
+      <input_max>0.900000</input_max>
+      <output_min>0.900000</output_min>
+      <output_max>0.900000</output_max>
+    </Fog>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_Gradient_Misty"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <gradient>
+      <input_min>0.300000</input_min>
+      <input_max>0.300000</input_max>
+      <output_min>0.300000</output_min>
+      <output_max>0.300000</output_max>
+    </gradient>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_Gradient_SeaFog"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <gradient>
+      <input_min>0.300000</input_min>
+      <input_max>0.300000</input_max>
+      <output_min>0.300000</output_min>
+      <output_max>0.300000</output_max>
+    </gradient>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_RainChance_20"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <Rain_chance>
+      <input_min>0.200000</input_min>
+      <input_max>0.200000</input_max>
+      <output_min>0.200000</output_min>
+      <output_max>0.200000</output_max>
+    </Rain_chance>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_RainChance_40"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <Rain_chance>
+      <input_min>0.400000</input_min>
+      <input_max>0.400000</input_max>
+      <output_min>0.400000</output_min>
+      <output_max>0.400000</output_max>
+    </Rain_chance>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_RainChance_60"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <Rain_chance>
+      <input_min>0.600000</input_min>
+      <input_max>0.600000</input_max>
+      <output_min>0.600000</output_min>
+      <output_max>0.600000</output_max>
+    </Rain_chance>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_RainChance_80"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <Rain_chance>
+      <input_min>0.800000</input_min>
+      <input_max>0.800000</input_max>
+      <output_min>0.800000</output_min>
+      <output_max>0.800000</output_max>
+    </Rain_chance>
+  </modifier>
+  <modifier
+    name="MODULE_HighLevel_RainChance_100"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="128"
+  >
+    <Rain_chance>
+      <input_min>1.000000</input_min>
+      <output_min>1.000000</output_min>
+    </Rain_chance>
+  </modifier>
+  <modifier
+    name="-----------Sub Mods------------"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="10"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_CloudWindVelocity_Up"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.230040 0.331587 0.716068 0.790669 1.000000</keyframe_t_value>
+      <local_atmosphere_cloud_wind_noise_velocity_scale>0.200000 0.200000 0.600000 0.600000 0.200000 0.200000</local_atmosphere_cloud_wind_noise_velocity_scale>
+      <local_atmosphere_cloud_wind_noise_velocity_up>1.800000 1.800000 4.000000 4.000000 1.800000 1.800000</local_atmosphere_cloud_wind_noise_velocity_up>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_night_transmittanceFade"
+    description=""
+    groupApplyTag="weather low"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.250000 0.750000 0.800000 1.000000</keyframe_t_value>
+      <local_atmosphere_transmittance_depth_fade_min>1000.000000 1000.000000 6000.000000 6000.000000 1000.000000 1000.000000</local_atmosphere_transmittance_depth_fade_min>
+      <local_atmosphere_transmittance_depth_fade_max>7000.000000 6500.000000 10000.000000 10000.000000 7500.000000 7000.000000</local_atmosphere_transmittance_depth_fade_max>
+    </axis>
+    <axis controlValue="Height" input_min="0.150000" input_max="0.200000">
+      <local_atmosphere_transmittance_depth_fade_min>6000.000000 6000.000000 6000.000000 6000.000000 6000.000000 6000.000000</local_atmosphere_transmittance_depth_fade_min>
+      <local_atmosphere_transmittance_depth_fade_max>10000.000000 10000.000000 10000.000000 10000.000000 10000.000000 10000.000000</local_atmosphere_transmittance_depth_fade_max>
+    </axis>
+  </modifier>
+</timecycle_modifier_data>

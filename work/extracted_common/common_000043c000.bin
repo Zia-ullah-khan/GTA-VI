@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CLasso__Tunables">
+      <Name>CLasso</Name>
+      <RopeType value="0" />
+      <RopeUpdateOrder value="1" />
+      <RopeSolverIterationsCoil value="4" />
+      <RopeSolverIterationsConstraintAndLoop value="20" />
+      <StretchWeightCoil value="0.700000" />
+      <StretchWeightConstraintAndLoopDefault value="0.700000" />
+      <StretchWeightConstraintActive value="1.400000" />
+      <CompressionWeightLoopClose value="3.000000" />
+      <CompressionWeightConstraintInflation value="0.200000" />
+      <CompressionWeightLoopInflation value="0.100000" />
+      <CompressionWeightCoilLoopsInflation value="0.700000" />
+      <CompressionWeightCoilLoopsInflationHolstered value="0.050000" />
+      <CompressionWeightCoilInterloop value="0.700000" />
+      <CompressionWeightCoilStability value="0.000000" />
+      <CustomEdgeLengthCoilInterloop value="0.030000" />
+      <CustomEdgeLengthCoilStability value="0.300000" />
+      <MaxBendAngleHandle value="80.000000" />
+      <MaxBendAngleConstraintAndLoop value="20.000000" />
+      <MaxBendAngleCoilLoops value="0.000000" />
+      <GravityFactorCoil value="3.000000" />
+      <GravityFactorConstraintAndLoop value="2.000000" />
+      <DampingFactorDefault value="0.050000" />
+      <DampingFactorUnattached value="0.100000" />
+      <CoilHandleRadius value="0.015000" />
+      <StretchFactorC value="0.000000" />
+      <StretchFactorD value="1.000000" />
+      <StretchFactorD2 value="0.050000" />
+      <MaxHandVelocity value="2.000000" />
+      <ConstraintLengthSpeed value="1.700000" />
+      <LoopDriveToAnimFactorFPIdleMin value="0.380000" />
+      <LoopDriveToAnimFactorFPIdleMax value="0.500000" />
+      <LoopDriveToAnimFactorTPIdleMin value="0.020000" />
+      <LoopDriveToAnimFactorTPIdleMax value="0.050000" />
+      <LoopDriveToAnimFactorFPNonIdleMin value="0.700000" />
+      <LoopDriveToAnimFactorFPNonIdleMax value="0.800000" />
+      <LoopDriveToAnimFactorTPNonIdleMin value="0.010000" />
+      <LoopDriveToAnimFactorTPNonIdleMax value="0.030000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleFPIdleMin value="0.600000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleFPIdleMax value="0.800000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleTPIdleMin value="0.020000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleTPIdleMax value="0.050000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleFPNonIdleMin value="0.600000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleFPNonIdleMax value="0.800000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleTPNonIdleMin value="0.040000" />
+      <LoopDriveToAnimFactorOnMountOrVehicleTPNonIdleMax value="0.120000" />
+      <AttachmentMinSpeed value="3.000000" />
+      <AttachmentRadiusSpeed value="2.000000" />
+    </Item>
+  </Tunables>
+</CTuningFile>

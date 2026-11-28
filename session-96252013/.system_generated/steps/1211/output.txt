@@ -1,0 +1,46 @@
+Created At: 2026-11-25T17:54:58-05:00
+Completed At: 2026-11-25T17:55:02-05:00
+Command exited with code 0.
+
+Command output:
+=== shared.ysc.cs L80134 ===
+  80119:         local_4 = Vm.Address(v_022026_0, 0);
+  80120:         store_i32(Vm.Address(v_022026_0, 0), 0x0, local_5);
+  80121:         Virtual.type_3BCBB4E9342CDD57.Method_8(v_02202A_1, v_022026_0[0]);
+  80122:         v_022040_2 = Native._0xD0D3FDB70A5FEE95(0x2E8E0A97); // RVA: 0x03CCF7C0
+  80123:         if (((as_u32(v_022040_2) == 0)))
+  80124:         {
+  80125:         goto label_022069;
+  80126:         }
+  80127:         else
+  80128:         {
+  80129:         goto label_02204B;
+  80130:         }
+  80131:         label_02204B: ;
+  80132:         v_022053_0 = zero_slots(1);
+  80133:         v_022057_1 = p0;
+  80134:         local_7 = 0xFFFFFFFFEC1BC5B6;
+  80135:         local_6 = Vm.Address(v_022053_0, 0);
+  80136:         store_i32(Vm.Address(v_022053_0, 0), 0x0, local_7);
+  80137:         Virtual.type_3BCBB4E9342CDD57.Method_8(v_022057_1, v_022053_0[0]);
+  80138:         goto label_022069;
+  80139:         label_022069: ;
+  80140:         v_02206F_0 = Native._0xD0D3FDB70A5FEE95(0xFFFFFFFFD5CA3351); // RVA: 0x03CCF7C0
+  80141:         if (((as_u32(v_02206F_0) == 0)))
+  80142:         {
+  80143:         goto label_0223A1;
+  80144:         }
+  80145:         else
+  80146:         {
+  80147:         goto label_02207D;
+  80148:         }
+  80149:         label_02207D: ;
+  80150:         v_02207D_0 = Vm.NewObject(new VmType("type_3BCBB4E9342CDD57", 24, 44890U, 0x000C0022U));
+  80151:         local_8 = v_02207D_0;
+  80152:         v_022089_1 = Operations.NewArray_type_FB9ED3D410EDB0D9(0);
+  80153:         store_ref(v_02207D_0, 0x8, v_022089_1);
+  80154:         v_02209A_2 = zero_slots(1);
+  80155:         local_10 = 0x2792E41E;
+  80156:         local_9 = Vm.Address(v_02209A_2, 0);
+  80157:         store_i32(Vm.Address(v_02209A_2, 0), 0x0, local_10);
+  80158:         Virtual.type_3BCBB4E9342CDD57.Method_8(v_02207D_0, v_02209A_2[0]);

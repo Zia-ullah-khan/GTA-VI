@@ -1,0 +1,51 @@
+Created At: 2026-11-25T18:20:47-05:00
+Completed At: 2026-11-25T18:20:50-05:00
+Command exited with code 0.
+
+Command output:
+top keys: ['game_version', 'generated_from', 'status', 'story_list_order', 'main_story_sequence', 'main_story_missions', 'side_missions', 'unclassified_entries', 'side_content_list', 'auto_flag_links', 'script_links', 'main_story_without_placement']
+  story_list_order len= 111
+  main_story_sequence len= 74
+  main_story_missions len= 113
+   [main_story_missions] 0/0 INT_PROLO (0x62131F35) name='Prologue' auto=[] triggers=0 scripts=['0xFE2C49933556469C']
+   [main_story_missions] 1/1 INT_CHASE (0x03DA4607) name='Gone Fishing' auto=[] triggers=2 scripts=['0x473489E898504D8B']
+   [main_story_missions] 11/10 INT_PRISO (0x97628E9F) name='Coming Home' auto=[] triggers=0 scripts=['0x535DA4A52E93778E', '0xC6BDAE24928E8293']
+   [main_story_missions] None/None INT_PRISO_TRIGGER_EARLY (0xE5A812FE) name='Coming Home' auto=[] triggers=2 scripts=[]
+   [main_story_missions] None/None INT_PRISO_TRIGGER_LATE (0x7E930962) name='Coming Home' auto=[] triggers=2 scripts=[]
+   [main_story_missions] 12/11 INT_BANK (0x07560ABE) name='Buck Me' auto=[] triggers=2 scripts=['0x26D72E132872F6D7', '0x326A1A4D4787ABC7']
+   [main_story_missions] 14/15 BIL_FUN (0xA4F1724D) name='Day Release' auto=[] triggers=2 scripts=['0x02C3AF298FB50310', '0x1EEC9E6A38E4931E']
+   [main_story_missions] 15/14 INT_PLNSH (0xFE5BFE97) name='Clear Skies' auto=[] triggers=2 scripts=['0x1456948D2B804385', '0x9E7702F9E3951B6C', '0xD6DA4FF46709E305']
+   [main_story_missions] 17/16 INT_AIR (0x30F17E42) name='Swamped' auto=[] triggers=2 scripts=['0x0631B3366B5E7138', '0xB27420D7168C6FF5']
+   [main_story_missions] 20/19 BIL_PICK (0x8B35B6CC) name='Tourist Trap' auto=[] triggers=0 scripts=['0x3AE01C5F7A47E3AD', '0x71FB4CD86CA79011']
+   [main_story_missions] None/None BIL_PICK_DAY_TIME_START (0xBBBBEBF6) name='Tourist Trap' auto=[] triggers=2 scripts=['0x3AE01C5F7A47E3AD']
+   [main_story_missions] None/None BIL_PICK_NIGHT_TIME_START (0xC943252B) name='Tourist Trap' auto=[] triggers=2 scripts=['0x3AE01C5F7A47E3AD', '0xED879E82B50285AA']
+   [main_story_missions] 21/20 BIL_HOUSE (0x1A05C1AB) name='Home Sweet Home' auto=[] triggers=2 scripts=['0xD857B864401037B2']
+   [main_story_missions] 22/21 BIL_WHEEL (0xF59BC26A) name='Discharge Time' auto=[] triggers=0 scripts=['0x9D35585ACC87EB83']
+  side_missions len= 58
+   [side_missions] 2/2 FT_AMUCO (0xCC31EF42) name='Gear Up' auto=[] triggers=0 scripts=['0x4B2597A83EC83FE0', '0x5B908217D52280D3']
+   [side_missions] None/None FT_AMUCO_FIRST_INTERACTION (0x5CB7DB5C) name='Gear Up' auto=[] triggers=2 scripts=[]
+   [side_missions] None/None FT_AMUCO_SECOND_INTERACTION (0xAB5B5242) name='Gear Up' auto=[] triggers=2 scripts=[]
+   [side_missions] 3/3 FT_KMODSHP (0x349C946F) name='Just a Scratch' auto=[] triggers=0 scripts=['0x3D9897741AACE500']
+   [side_missions] None/None FT_KMODSHP_FIRST (0xD244CB70) name='Just a Scratch' auto=[] triggers=2 scripts=['0x224CF31C94E0534D', '0x3D9897741AACE500', '0x947D998BD81F7AC1']
+   [side_missions] None/None FT_KMODSHP_SECOND (0xE48C934A) name='Just a Scratch' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572975 (0xE48C934A = joaat('ft_kmodshp_second'))"]}] triggers=2 scripts=['0x3D9897741AACE500', '0x947D998BD81F7AC1']
+   [side_missions] 4/4 COM_KBOS_SHOP (0x2D7D2164) name='Lab Fees' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572979 (0x2D7D2164 = joaat('com_kbos_shop'))"]}] triggers=2 scripts=['0x4B964E7CC9E02659', '0xC074B3FB8D93C7CF']
+   [side_missions] 5/None COM_KMODSHP (0x17F3BB95) name=None auto=[] triggers=0 scripts=[]
+   [side_missions] 6/5 COM_KBOS_COLAT (0x5AE70594) name='Unwanted Attention' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572983 (0x5AE70594 = joaat('com_kbos_colat'))"]}] triggers=2 scripts=['0x1D4A090C51E42555', '0x5BA958AB43340AD0', '0x69B5F3FBB0807F99']
+   [side_missions] 7/7 COM_KBOS_RADR (0x21D03E4F) name='Hey Arnold!' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572987 (0x21D03E4F = joaat('com_kbos_radr'))"]}] triggers=2 scripts=['0x9B2CA8C7DA7C36F2', '0xD69156FCD51D20A6']
+   [side_missions] 8/9 COM_SFH_MVFN (0x2F494854) name='Feng Shui' auto=[] triggers=2 scripts=['0x8DEFE4AAC6E95B38', '0x9D8140FE58B82DDD', '0xCB466D0841607AEC']
+   [side_missions] 9/8 CSC_TRH_CHART (0x617A1865) name='Island Dreams' auto=[] triggers=2 scripts=['0x0A6ECD814BD0DF36', '0xEBEE5C6E02300FEF']
+   [side_missions] 10/12 CTI_PIL_RD_SH (0xEC68EDB2) name="Find Donnie's Package" auto=[] triggers=0 scripts=[]
+   [side_missions] None/None 0x7F67DA0F (0x7F67DA0F) name=None auto=[] triggers=0 scripts=[]
+   [side_missions] None/None 0x7770CB25 (0x7770CB25) name=None auto=[] triggers=0 scripts=[]
+   [side_missions] 13/13 COM_KBOS_PLNDATE (0x4CB8CC47) name='Down to Earth' auto=[] triggers=0 scripts=['0x59F8DDC0B1BFB14E', '0xAF5AB3B55709F291']
+   [side_missions] None/None COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE (0x3AA96629) name='Down to Earth' auto=[] triggers=2 scripts=['0x59F8DDC0B1BFB14E']
+   [side_missions] 16/None COM_SFH_FLTPK (0x69342474) name='Building a Life' auto=[] triggers=2 scripts=['0x8DDFD163850750E1']
+   [side_missions] 18/17 COM_KBOS_CLEAN (0x10BE4C94) name='Don Gone' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572995 (0x10BE4C94 = joaat('com_kbos_clean'))"]}] triggers=2 scripts=['0x49B6A57628E3A19A', '0xE153B5E514A27F43']
+   [side_missions] 19/18 HO_PAR_KEYCO (0x420623AF) name='Recalibration' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572999 (0x420623AF = joaat('ho_par_keyco'))"]}] triggers=2 scripts=['0xCDDE40BD045A305B', '0xE059BF940B24091F']
+   [side_missions] None/6 COM_KBOS_NEIGHB (0xC8513199) name='Pipework' auto=[{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572991 (0xC8513199 = joaat('com_kbos_neighb'))"]}] triggers=2 scripts=['0x2E9E03407A50A38F', '0x6C16554B0A3608BA']
+   [side_missions] None/None CTI_PIL_RD_BC_PARENT (0x063D968F) name='Clean Up After Donnie' auto=[] triggers=0 scripts=[]
+  unclassified_entries len= 33
+  side_content_list len= 32
+  auto_flag_links len= 13
+  script_links len= 9
+  main_story_without_placement len= 3

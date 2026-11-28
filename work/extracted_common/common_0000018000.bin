@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAnimalAttackBehaviours>
+  <Behaviours>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>COYOTE_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_COYOTE</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>DOMESTIC_DOG_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_DOMESTIC_DOG</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionAnd">
+                <Conditions>
+                 <Condition type="CAIConditionIsLawPed">
+                   <Ped>PrimaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                    <Time value="3.0f" />
+                    <AttackStates>
+                      <Item>PACK_GRAPPLE</Item>
+                    </AttackStates>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+			    <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsInjured">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+		  <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+		      <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionIsBeingShotAt">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsDead">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsKnockedOut">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.00f" />
+              </Condition>
+			  <Condition type="CAIConditionSpeed">
+			    <Ped>PrimaryEntity</Ped>
+			    <Speed>Stand</Speed>
+			    <CheckCurrent value="true" />
+			  </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionArePedScriptConfigFlagsSet">
+                    <ConfigFlags>PCF_DiesInstantlyToMeleeFromAnimals</ConfigFlags>
+                    <Ped>SecondaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnd">
+                    <Conditions>
+                      <Condition type="CAIConditionPedHealthPercentageInRange">
+                        <Ped>SecondaryEntity</Ped>
+                        <LowerBound value="0.00f" />
+                        <UpperBound value="0.50f" />
+                      </Condition>
+                      <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                        <Time value="5.0f" />
+                        <AttackStates>
+                          <Item>PACK_GRAPPLE</Item>
+                        </AttackStates>
+                      </Condition>
+                    </Conditions>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsBeingArrestedByAI">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="13.0f" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasAimedAtByPlayer">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.5f" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.3f" />
+              </Condition>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="-0.866f" />
+                <LessThan value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>DOMESTIC_DOG_MEDIUM_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_DOMESTIC_DOG_MEDIUM_Domesticated</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsInjured">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionAnimalHasOwner">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsInjured">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionAnimalHasOwner">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+			          <PlayerPed>SecondaryEntity</PlayerPed>
+                <TimeSinceDamaged>5000</TimeSinceDamaged>
+              </Condition>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionIsBeingShotAt">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsDead">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsKnockedOut">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.75f" />
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionArePedScriptConfigFlagsSet">
+                    <ConfigFlags>PCF_DiesInstantlyToMeleeFromAnimals</ConfigFlags>
+                    <Ped>SecondaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnd">
+                    <Conditions>
+                      <Condition type="CAIConditionPedHealthPercentageInRange">
+                        <Ped>SecondaryEntity</Ped>
+                        <LowerBound value="0.00f" />
+                        <UpperBound value="0.50f" />
+                      </Condition>
+                      <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                        <Time value="10.0f" />
+                        <AttackStates>
+                          <Item>PACK_GRAPPLE</Item>
+                        </AttackStates>
+                      </Condition>
+                    </Conditions>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsBeingArrestedByAI">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="13.0f" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasAimedAtByPlayer">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.5f" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.25f" />
+              </Condition>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="2.0f" />
+                <AttackStates>
+                  <Item>PACK_DODGESIDEWAYS</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeSideways" />
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGESIDEWAYS</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>DOMESTIC_DOG_SMALL_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_DOMESTIC_DOG_SMALL_Domesticated</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.0f" />
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsBeingArrestedByAI">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="13.0f" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasAimedAtByPlayer">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.5f" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.25f" />
+              </Condition>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="-0.866f" />
+                <LessThan value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="2.0f" />
+                <AttackStates>
+                  <Item>PACK_DODGESIDEWAYS</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeSideways" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGESIDEWAYS</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>DOMESTIC_DOG_XLARGE_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_DOMESTIC_DOG_XLARGE_Domesticated</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionAnd">
+                <Conditions>
+                 <Condition type="CAIConditionIsLawPed">
+                   <Ped>PrimaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                    <Time value="4.0f" />
+                    <AttackStates>
+                      <Item>PACK_GRAPPLE</Item>
+                    </AttackStates>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsInjured">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionAnimalHasOwner">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="0.5f" />
+                <AttackStates>
+                  <Item>PACK_MELEE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsInjured">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionAnimalHasOwner">
+                  <Ped>PrimaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasDamagedByPlayer">
+                <Ped>PrimaryEntity</Ped>
+                <PlayerPed>SecondaryEntity</PlayerPed>
+                <TimeSinceDamaged>5000</TimeSinceDamaged>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="0.5f" />
+                <AttackStates>
+                  <Item>PACK_MELEE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAnimalHasOwner">
+                <Ped>PrimaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="5.0f" />
+                <AttackStates>
+                  <Item>PACK_GRAPPLE</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionIsBeingShotAt">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsDead">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionIsKnockedOut">
+                    <Ped>TertiaryEntity</Ped>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.00f" />
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionArePedScriptConfigFlagsSet">
+                    <ConfigFlags>PCF_DiesInstantlyToMeleeFromAnimals</ConfigFlags>
+                    <Ped>SecondaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnd">
+                    <Conditions>
+                      <Condition type="CAIConditionPedHealthPercentageInRange">
+                        <Ped>SecondaryEntity</Ped>
+                        <LowerBound value="0.00f" />
+                        <UpperBound value="0.50f" />
+                      </Condition>
+                      <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                        <Time value="5.0f" />
+                        <AttackStates>
+                          <Item>PACK_GRAPPLE</Item>
+                        </AttackStates>
+                      </Condition>
+                    </Conditions>
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsArrested">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="13.0f" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasAimedAtByPlayer">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.5f" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="1.3f" />
+              </Condition>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                <Time value="4.0f" />
+                <AttackStates>
+                  <Item>PACK_DODGESIDEWAYS</Item>
+                </AttackStates>
+              </Condition>
+              <Condition type="CAIConditionSpeed">
+                <Ped>PrimaryEntity</Ped>
+                <Speed>Stand</Speed>
+                <CheckCurrent value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeSideways" />
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="0.0f" />
+                <LessThan value="true" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGESIDEWAYS</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item type="CAnimalAttackBehaviour">
+      <Name>WOLF_PACK_ATTACK</Name>
+      <AnimalTuning>SPECIES_WOLF</AnimalTuning>
+      <Task>TASK_PACK_ATTACK</Task>
+      <Triggers>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionIsUsingScenario">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionScenarioPedIsStanding">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionPedHealthPercentageInRange">
+            <Ped>SecondaryEntity</Ped>
+            <LowerBound value="0.0f" />
+            <UpperBound value="0.0f" />
+          </Condition>
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsEasyPrey">
+                <PedA>SecondaryEntity</PedA>
+                <PedB>PrimaryEntity</PedB>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack">
+                <CheckIntensityConditions value="false" />
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionMountedPlayerCanFendOffPredators">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="2.0f" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Condition>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionArePedScriptConfigFlagsSet">
+                    <ConfigFlags>PCF_DiesInstantlyToMeleeFromAnimals</ConfigFlags>
+                    <Ped>SecondaryEntity</Ped>
+                  </Condition>
+                  <Condition type="CAIConditionAnd">
+                    <Conditions>
+                      <Condition type="CAIConditionPedHealthPercentageInRange">
+                        <Ped>SecondaryEntity</Ped>
+                        <LowerBound value="0.0f" />
+                        <UpperBound value="0.5f" />
+                      </Condition>
+                      <Condition type="CAIConditionAnimalTimeSinceAttackState">
+                        <Time value="10.0f" />
+                        <AttackStates>
+                          <Item>PACK_GRAPPLE</Item>
+                        </AttackStates>
+                      </Condition>
+                    </Conditions>
+                  </Condition>
+                </Conditions>
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionMountedPlayerCanFendOffPredators">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_GRAPPLE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionPackPermitsAttack" />
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionIsEasyPrey">
+                  <PedA>SecondaryEntity</PedA>
+                  <PedB>PrimaryEntity</PedB>
+                </Condition>
+              </Condition>
+              <Condition type="CAIConditionAttackGroupMeleeMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="10.0f" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionNot">
+                <Condition type="CAIConditionMountedPlayerCanFendOffPredators">
+                  <Ped>SecondaryEntity</Ped>
+                </Condition>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_MELEE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAwayFromPackOffset" />
+          <AttackState>PACK_SURROUND</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionWasAimedAtByPlayer">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="0.5f" />
+              </Condition>
+              <Condition type="CAIConditionDistanceBetweenEntities">
+                <LowerBound value="-1.0f" />
+                <UpperBound value="5.0f" />
+              </Condition>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="-0.866f" />
+                <LessThan value="true" />
+              </Condition>
+              <Condition type="CAIConditionAttackGroupGrapplingMemberCount">
+                <Count value="0" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionDirectionRelativeToTarget">
+                <FromEntity>SecondaryEntity</FromEntity>
+                <TargetEntity>PrimaryEntity</TargetEntity>
+                <Threshold value="-0.707f" />
+                <LessThan value="false" />
+                <FlattenZ value="true" />
+              </Condition>
+              <Condition type="CAIConditionPackAttackCurrentState">
+                <State>PACK_DISTRACT</State>
+              </Condition>
+              <Condition type="CAIConditionPackAttackCanDodgeBack" />
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DODGE</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Condition type="CAIConditionOr">
+                <Conditions>
+                  <Condition type="CAIConditionDirectionRelativeToTarget">
+                    <FromEntity>SecondaryEntity</FromEntity>
+                    <TargetEntity>PrimaryEntity</TargetEntity>
+                    <Threshold value="-0.866f" />
+                    <LessThan value="true" />
+                    <FlattenZ value="true" />
+                  </Condition>
+                  <Condition type="CAIConditionAnd">
+                    <Conditions>
+                      <Condition type="CAIConditionDirectionRelativeToTarget">
+                        <FromEntity>SecondaryEntity</FromEntity>
+                        <TargetEntity>PrimaryEntity</TargetEntity>
+                        <Threshold value="-0.707f" />
+                        <LessThan value="true" />
+                        <FlattenZ value="true" />
+                      </Condition>
+                      <Condition type="CAIConditionPackAttackCurrentState">
+                        <State>PACK_DISTRACT</State>
+                      </Condition>
+                    </Conditions>
+                  </Condition>
+                </Conditions>
+              </Condition>
+              <Condition type="CAIConditionCurrentMoveBlendRatio">
+                <Ped>PrimaryEntity</Ped>
+                <Min value="0.00f" />
+                <Max value="0.01f" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <AttackState>PACK_DISTRACT</AttackState>
+        </Item>
+        <Item type="CAnimalAttackTrigger">
+          <AttackState>PACK_FACE</AttackState>
+        </Item>
+      </Triggers>
+    </Item>
+  </Behaviours>
+</CAnimalAttackBehaviours>

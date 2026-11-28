@@ -1,0 +1,169 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+572972:         v_10AB39_0 = zero_slots(1);
+572973:         v_10AB3D_1 = load_u64(p0, 0x38);
+572974:         store_i32(Vm.Address(v_10AB39_0, 0), 0x0, 0xFFFFFFFFE48C934A);
+572975:         Virtual.type_37658EE3464E5234.Method_0(v_10AB3D_1, v_10AB39_0[0], 1);
+572976:         v_10AB51_2 = zero_slots(1);
+572977:         v_10AB55_3 = load_u64(p0, 0x38);
+572978:         store_i32(Vm.Address(v_10AB51_2, 0), 0x0, 0x2D7D2164);
+572979:         Virtual.type_37658EE3464E5234.Method_0(v_10AB55_3, v_10AB51_2[0], 1);
+572980:         v_10AB69_4 = zero_slots(1);
+572981:         v_10AB6D_5 = load_u64(p0, 0x38);
+572982:         store_i32(Vm.Address(v_10AB69_4, 0), 0x0, 0x5AE70594);
+572983:         Virtual.type_37658EE3464E5234.Method_0(v_10AB6D_5, v_10AB69_4[0], 1);
+572984:         v_10AB81_6 = zero_slots(1);
+572985:         v_10AB85_7 = load_u64(p0, 0x38);
+572986:         store_i32(Vm.Address(v_10AB81_6, 0), 0x0, 0x21D03E4F);
+572987:         Virtual.type_37658EE3464E5234.Method_0(v_10AB85_7, v_10AB81_6[0], 1);
+572988:         v_10AB99_8 = zero_slots(1);
+572989:         v_10AB9D_9 = load_u64(p0, 0x38);
+572990:         store_i32(Vm.Address(v_10AB99_8, 0), 0x0, 0xFFFFFFFFC8513199);
+572991:         Virtual.type_37658EE3464E5234.Method_0(v_10AB9D_9, v_10AB99_8[0], 1);
+572992:         v_10ABB1_10 = zero_slots(1);
+572993:         v_10ABB5_11 = load_u64(p0, 0x38);
+572994:         store_i32(Vm.Address(v_10ABB1_10, 0), 0x0, 0x10BE4C94);
+572995:         Virtual.type_37658EE3464E5234.Method_0(v_10ABB5_11, v_10ABB1_10[0], 1);
+572996:         v_10ABC9_12 = zero_slots(1);
+572997:         v_10ABCD_13 = load_u64(p0, 0x38);
+572998:         store_i32(Vm.Address(v_10ABC9_12, 0), 0x0, 0x420623AF);
+572999:         Virtual.type_37658EE3464E5234.Method_0(v_10ABCD_13, v_10ABC9_12[0], 1);
+573000:         v_10ABE1_14 = zero_slots(1);
+573001:         v_10ABE5_15 = load_u64(p0, 0x38);
+573002:         store_i32(Vm.Address(v_10ABE1_14, 0), 0x0, 0x94C57A);
+573003:         Virtual.type_37658EE3464E5234.Method_0(v_10ABE5_15, v_10ABE1_14[0], 1);
+573004:         v_10ABF9_16 = zero_slots(1);
+573005:         v_10ABFD_17 = load_u64(p0, 0x38);
+573006:         store_i32(Vm.Address(v_10ABF9_16, 0), 0x0, 0xFFFFFFFFEAB842AC);
+573007:         Virtual.type_37658EE3464E5234.Method_0(v_10ABFD_17, v_10ABF9_16[0], 1);
+573008:         return;
+573009:         label_10AC0A: ;
+573010:         v_10AC13_0 = zero_slots(1);
+573011:         v_10AC17_1 = load_u64(p0, 0x38);
+573012:         store_i32(Vm.Address(v_10AC13_0, 0), 0x0, 0xFFFFFFFFF17F1279);
+573013:         Virtual.type_37658EE3464E5234.Method_0(v_10AC17_1, v_10AC13_0[0], 1);
+573014:         v_10AC2B_2 = zero_slots(1);
+573015:         v_10AC2F_3 = load_u64(p0, 0x38);
+573016:         store_i32(Vm.Address(v_10AC2B_2, 0), 0x0, 0xFFFFFFFFDE5B4EBF);
+573017:         v_10AC34_4 = Virtual.type_37658EE3464E5234.Method_1(v_10AC2F_3, v_10AC2B_2[0], 1);
+573018:         if (((as_u32(v_10AC34_4) != 0)))
+573019:         {
+573020:         goto label_10AC70;
+573021:         }
+573022:         else
+573023:         {
+573024:         goto label_10AC3D;
+573025:         }
+573026:         label_10AC3D: ;
+573027:         v_10AC46_0 = zero_slots(1);
+573028:         v_10AC4A_1 = load_u64(p0, 0x38);
+573029:         store_i32(Vm.Address(v_10AC46_0, 0), 0x0, 0xFFFFFFFFAE78970F);
+573030:         v_10AC4F_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC4A_1, v_10AC46_0[0], 1);
+573031:         if (((as_u32(v_10AC4F_2) != 0)))
+573032:         {
+573033:         goto label_10AC70;
+573034:         }
+573035:         else
+573036:         {
+573037:         goto label_10AC58;
+573038:         }
+573039:         label_10AC58: ;
+573040:         v_10AC61_0 = zero_slots(1);
+573041:         v_10AC65_1 = load_u64(p0, 0x38);
+573042:         store_i32(Vm.Address(v_10AC61_0, 0), 0x0, 0xFFFFFFFFAE78970F);
+573043:         Virtual.type_37658EE3464E5234.Method_0(v_10AC65_1, v_10AC61_0[0], 1);
+573044:         goto label_10AC70;
+573045:         label_10AC70: ;
+573046:         v_10AC79_0 = zero_slots(1);
+573047:         v_10AC7D_1 = load_u64(p0, 0x38);
+573048:         store_i32(Vm.Address(v_10AC79_0, 0), 0x0, 0x3AD0562C);
+573049:         v_10AC82_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC7D_1, v_10AC79_0[0], 1);
+573050:         if (((as_u32(v_10AC82_2) != 0)))
+573051:         {
+573052:         goto label_10ACBE;
+573053:         }
+573054:         else
+573055:         {
+573056:         goto label_10AC8B;
+573057:         }
+573058:         label_10AC8B: ;
+573059:         v_10AC94_0 = zero_slots(1);
+573060:         v_10AC98_1 = load_u64(p0, 0x38);
+573061:         store_i32(Vm.Address(v_10AC94_0, 0), 0x0, 0xFFFFFFFFD3FDD3BE);
+573062:         v_10AC9D_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC98_1, v_10AC94_0[0], 1);
+573063:         if (((as_u32(v_10AC9D_2) != 0)))
+573064:         {
+573065:         goto label_10ACBE;
+573066:         }
+573067:         else
+573068:         {
+573069:         goto label_10ACA6;
+573070:         }
+573071:         label_10ACA6: ;
+573072:         v_10ACAF_0 = zero_slots(1);
+573073:         v_10ACB3_1 = load_u64(p0, 0x38);
+573074:         store_i32(Vm.Address(v_10ACAF_0, 0), 0x0, 0x3AD0562C);
+573075:         Virtual.type_37658EE3464E5234.Method_0(v_10ACB3_1, v_10ACAF_0[0], 1);
+573076:         goto label_10ACBE;
+573077:         label_10ACBE: ;
+573078:         v_10ACC7_0 = zero_slots(1);
+573079:         v_10ACCB_1 = load_u64(p0, 0x38);
+573080:         store_i32(Vm.Address(v_10ACC7_0, 0), 0x0, 0xFFFFFFFFC90E04B5);
+573081:         Virtual.type_37658EE3464E5234.Method_0(v_10ACCB_1, v_10ACC7_0[0], 1);
+573082:         return;
+573083:         label_10ACD8: ;
+573084:         v_10ACDE_0 = zero_slots(1);
+573085:         local_6 = 0x4EF9B888;
+573086:         local_5 = Vm.Address(v_10ACDE_0, 0);
+573087:         store_i32(local_5, 0x0, local_6);
+573088:         Native._0x58BECE7D02A750A7(v_10ACDE_0[0], (-1), 1, (-1)); // RVA: 0x04C14700
+573089:         goto label_10AD03;
+573090:         label_10AD03: ;
+573091:         return;
+573092: 
+573093:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+573094:     }
+573095: 
+573096:     [VmFunction(0x10AD05)]
+573097:     public static VmValue func_10AD05(VmValue arg0) // 0x10AD05
+573098:     {
+573099:         VmValue[] parameters = new VmValue[] { arg0 };
+573100:         VmValue[] locals = new VmValue[4];
+573101:         ref VmValue p0 = ref parameters[0];
+573102:         ref VmValue local_0 = ref locals[0];
+573103:         ref VmValue local_1 = ref locals[1];
+573104:         ref VmValue local_2 = ref locals[2];
+573105:         ref VmValue local_3 = ref locals[3];
+573106:         VmValues v_10AD10_0 = null!;
+573107:         VmValue v_10AD14_1 = default;
+573108:         VmValue v_10AD26_2 = default;
+573109:         VmValues v_10AD37_0 = null!;
+573110:         VmValue v_10AD3B_1 = default;
+573111:         VmValue v_10AD4D_2 = default;
+573112:         v_10AD10_0 = zero_slots(1);
+573113:         v_10AD14_1 = p0;
+573114:         store_i32(Vm.Address(v_10AD10_0, 0), 0x0, 0xFFFFFFFFF8FB7ACC);
+573115:         local_1 = v_10AD10_0[0];
+573116:         local_0 = v_10AD14_1;
+573117:         v_10AD26_2 = Virtual.type_37658EE3464E5234.Method_1(load_u64(v_10AD14_1, 0x18), local_1, load_u8(local_0, 0x10));
+573118:         if (((as_u32(v_10AD26_2) != 0)))
+573119:         {
+573120:             return 1;
+573121:         }
+573122:         else
+573123:         {
+573124:             v_10AD37_0 = zero_slots(1);
+573125:             v_10AD3B_1 = p0;
+573126:             store_i32(Vm.Address(v_10AD37_0, 0), 0x0, 0xFFFFFFFF96F9A142);
+573127:             local_3 = v_10AD37_0[0];
+573128:             local_2 = v_10AD3B_1;
+573129:             v_10AD4D_2 = Virtual.type_37658EE3464E5234.Method_1(load_u64(v_10AD3B_1, 0x18), local_3, load_u8(local_2, 0x10));
+573130:             return v_10AD4D_2;
+573131:         }
+573132:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+573133:     }
+573134: 
+573135:     [VmFunction(0x10AD59)]
+

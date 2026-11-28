@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="po01_fir_1_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Opt_Int_po01_fir_1</item>
+      <item>Sub_Opt_Int_po01_fir_1_Rough</item>
+    </submodifiers>
+    <indirect_light_multiplier>1.000000 0.000000</indirect_light_multiplier>
+  </modifier>
+  <modifier
+    name="po01_whs_1_backrooms"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="po01_whs_1_main"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="po02c_lok_1_gfa"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Temp_midControl_Mid</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="po_01e_tunnel"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>Humidity_midControl_High</item>
+      <item>Temp_midControl_Cool</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <local_atmosphere_fog_density>0.001000 0.000000</local_atmosphere_fog_density>
+    <coronas_siren_size_scale>0.350000 0.000000</coronas_siren_size_scale>
+    <coronas_siren_intensity_scale>0.400000 0.000000</coronas_siren_intensity_scale>
+    <light_override_vehicle_intensity>0.800000 0.000000</light_override_vehicle_intensity>
+    <light_vehicle_primary_falloff_mult>0.150000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.400000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>1.000000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.400000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.150000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.150000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.400000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>1.000000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.400000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.150000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="po01_ter_1_gfa_bespoke"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Temp_midControl_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_midControl_Mid</item>
+      <item>Subt_Opt_Int_PO01_TER_1</item>
+      <item>Subt_Opt_Int_Rough_PO01_TER_1</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.950000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.850000 0.000000</postfx_local_exposure_hl_contrast>
+    <light_interior_tint_r>0.211765 1.000000</light_interior_tint_r>
+    <light_interior_tint_g>0.643137 1.000000</light_interior_tint_g>
+    <light_interior_tint_b>1.000000 1.000000</light_interior_tint_b>
+  </modifier>
+  <modifier
+    name="Subt_Opt_Int_PO01_TER_1"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.300000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Subt_Opt_Int_Rough_PO01_TER_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.835928 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.132335 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.835928 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.132335 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_po01_fir_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.377831 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.372467 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <indirect_light_opt_reflection_ray_budget>0.258934 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.283162 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_po01_fir_1_Rough"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.188250 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.203089 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.243610 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.612962 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.215869 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.552998 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.285887 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.640218 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="PO_01b_CarPark_OPTI_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <light_shadow_static_fade_scsize_mult>0.750000 0.000000</light_shadow_static_fade_scsize_mult>
+  </modifier>
+  <modifier
+    name="PO_01_Override_Water_Level_0"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <indirect_light_override_water_level>0.000000 0.000000</indirect_light_override_water_level>
+  </modifier>
+</timecycle_modifier_data>

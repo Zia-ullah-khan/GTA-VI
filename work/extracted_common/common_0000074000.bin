@@ -1,0 +1,2709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CDamageDataManager>
+  <DamageModifiers>
+    <Item type="CDamageModifierForceMeleeDamage">
+      <Name>MeleeBladeForceDamageNearDeathThreshold</Name>
+      <Condition type="CDamageConditionIsNearOrBelowDeathThreshold">
+        <Entity>Victim</Entity>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>MeleeDamagePrevention</Name>
+      <Condition type="CDamageConditionNot">
+        <Condition type="CDamageConditionCanDamagePed" />
+      </Condition>
+      <Low value="0.000000" />
+      <High value="0.000000" />
+    </Item>
+   <!--LowAttackBlock-->
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackBlock</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_GLOBAL</MeleeState>
+              </Item>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_LOW</MeleeState>
+              </Item>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_ACTION</MeleeState>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsDamageComingFromMeleeActionWithTypes">
+                <ActionTypes>AT_BLOCKED</ActionTypes>
+              </Item>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionMeleeInterrelationTest">
+                  <VictimTest value="true" />
+                  <Interrelation>IRT_VICTIM_BACK_BLOCK_DAMAGE_CONDITION</Interrelation>
+              </Condition>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierForceMeleeDamage">
+        <Name>RemoveForceDamage</Name>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>UnarmedAILowBlockInGrapple</Name>
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionVictimIsPlayer" />
+              </Item>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_LOW</MeleeState>
+              </Item>
+              <Item type="CDamageConditionFromWeaponGroup">
+                <WeaponGroups>
+                  <Item>GROUP_UNARMED</Item>
+                </WeaponGroups>
+              </Item>
+            </Conditions>
+          </Condition>
+          <NextModifier type="CDamageModifierMultiply">
+            <Name>UnarmedBlock</Name>
+            <Condition type="CDamageConditionFromWeaponGroup">
+              <WeaponGroups>
+                <Item>GROUP_UNARMED</Item>
+              </WeaponGroups>
+            </Condition>
+            <NextModifier type="CDamageModifierMultiply">
+              <Name>BladeBlock</Name>
+              <Condition type="CDamageConditionFromWeaponGroup">
+                <WeaponGroups>
+                  <Item>GROUP_MELEE</Item>
+                </WeaponGroups>
+              </Condition>
+              <NextModifier type="CDamageModifierMultiply">
+                <Name>LIghtMediumWeaponBlock</Name>
+                <Condition type="CDamageConditionFromWeaponGroup">
+                  <WeaponGroups>
+                    <Item>GROUP_PISTOL</Item>
+                    <Item>GROUP_REPEATER</Item>
+                    <Item>GROUP_REVOLVER</Item>
+                    <Item>GROUP_SMG</Item>
+                  </WeaponGroups>
+                </Condition>
+                <NextModifier type="CDamageModifierMultiply">
+                  <Name>HeavyWeaponBlock</Name>
+                  <Condition type="CDamageConditionFromWeaponGroup">
+                    <WeaponGroups>
+                      <Item>GROUP_RIFLE</Item>
+                      <Item>GROUP_SHOTGUN</Item>
+                      <Item>GROUP_SNIPER</Item>
+                      <Item>GROUP_HEAVY</Item>
+                      <Item>GROUP_MG</Item>
+                      <Item>GROUP_LAUNCHER</Item>
+                    </WeaponGroups>
+                  </Condition>
+                  <Value value="0.750000" />
+                </NextModifier>
+                <TrackUsage value="false" />
+                <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+                <Value value="0.500000" />
+              </NextModifier>
+              <TrackUsage value="false" />
+              <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+              <Value value="0.750000" />
+            </NextModifier>
+            <TrackUsage value="false" />
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Value value="0.000000" />
+          </NextModifier>
+          <TrackUsage value="false" />
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="0.300000" />
+        </NextModifier>
+        <Set value="false" />
+      </NextModifier>
+      <TrackUsage value="false" />
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+      <ValueType>HealthDamage</ValueType>
+      <Low value="0.000000" />
+      <High value="200.000000" />
+    </Item>
+   <!--HighAttackBlock-->
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackBlock</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_GLOBAL</MeleeState>
+              </Item>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_HIGH</MeleeState>
+              </Item>
+              <Item type="CDamageConditionMeleeState">
+                <MeleeState>MS_BLOCK_ACTION</MeleeState>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsDamageComingFromMeleeActionWithTypes">
+                <ActionTypes>AT_BLOCKED</ActionTypes>
+              </Item>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionMeleeInterrelationTest">
+                  <VictimTest value="true" />
+                  <Interrelation>IRT_VICTIM_BACK_BLOCK_DAMAGE_CONDITION</Interrelation>
+              </Condition>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierForceMeleeDamage">
+        <Name>RemoveForceDamage</Name>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>UnarmedBlock</Name>
+          <Condition type="CDamageConditionFromWeaponGroup">
+            <WeaponGroups>
+              <Item>GROUP_UNARMED</Item>
+            </WeaponGroups>
+          </Condition>
+          <NextModifier type="CDamageModifierMultiply">
+            <Name>BladeBlock</Name>
+            <Condition type="CDamageConditionFromWeaponGroup">
+              <WeaponGroups>
+                <Item>GROUP_MELEE</Item>
+              </WeaponGroups>
+            </Condition>
+            <NextModifier type="CDamageModifierMultiply">
+              <Name>LIghtMediumWeaponBlock</Name>
+              <Condition type="CDamageConditionFromWeaponGroup">
+                <WeaponGroups>
+                  <Item>GROUP_PISTOL</Item>
+                  <Item>GROUP_REPEATER</Item>
+                  <Item>GROUP_REVOLVER</Item>
+                  <Item>GROUP_SMG</Item>
+                </WeaponGroups>
+              </Condition>
+              <NextModifier type="CDamageModifierMultiply">
+                <Name>HeavyWeaponBlock</Name>
+                <Condition type="CDamageConditionFromWeaponGroup">
+                  <WeaponGroups>
+                    <Item>GROUP_RIFLE</Item>
+                    <Item>GROUP_SHOTGUN</Item>
+                    <Item>GROUP_SNIPER</Item>
+                    <Item>GROUP_HEAVY</Item>
+                    <Item>GROUP_MG</Item>
+                    <Item>GROUP_LAUNCHER</Item>
+                  </WeaponGroups>
+                </Condition>
+                <Value value="0.750000" />
+              </NextModifier>
+              <TrackUsage value="false" />
+              <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+              <Value value="0.500000" />
+            </NextModifier>
+            <TrackUsage value="false" />
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Value value="0.750000" />
+          </NextModifier>
+          <TrackUsage value="false" />
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="0.000000" />
+        </NextModifier>
+        <Set value="false" />
+      </NextModifier>
+      <TrackUsage value="false" />
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+      <ValueType>HealthDamage</ValueType>
+      <Low value="0.000000" />
+      <High value="200.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeDamageModifyPlayer</Name>
+      <Condition type="CDamageConditionVictimIsPlayer" />
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>PlayerAndMeleePersonalityModifiers</Name>
+      <Modifiers>
+        <Item>MeleeDamageModifyPlayer</Item>
+        <Item>Hit_ByMeleePersonality</Item>
+        <Item>MeleePersonality_Hit</Item>
+        <Item>PlayerLowStamina_Hit</Item>
+        <Item>PlayerLowStamina_Attack</Item>
+        <Item>Hit_ByFemalePED</Item>
+        <Item>MeleeVsArmorModifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>PlayerAndMeleePersonalityKickModifiers</Name>
+      <Modifiers>
+        <Item>MeleePersonality_Kicked</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>Hit_ByMeleePersonality</Name>
+      <Condition type="CDamageConditionInflictorIsPlayer" />
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Hit_By_Weak</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_UNARMED</Item>
+              </WeaponTypes>
+            </Item>
+            <Item type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Weak</Item>
+              </PedPersonalityTypes>
+            </Item>
+          </Conditions>
+        </Condition>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>Hit_By_Strong</Name>
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_UNARMED</Item>
+                </WeaponTypes>
+              </Item>
+              <Item type="CDamageConditionIsPedMeleePersonalityType">
+                <Entity>Inflictor</Entity>
+                <PedPersonalityTypes>
+                  <Item>MPST_Strong</Item>
+                </PedPersonalityTypes>
+              </Item>
+            </Conditions>
+          </Condition>
+          <Value value="1.250000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="0.750000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Hit_ByFemalePED</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionAIFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionInflictorIsPed" />
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Value value="0.700000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleePersonality_Hit</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionAIFemalePed" />
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+              <Item>WEAPON_MELEE_CLUB</Item>
+              <Item>WEAPON_MELEE_BAT</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionInflictorIsPlayer" />
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Strong_Female_PED_Hit_By_Female</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_UNARMED</Item>
+                <Item>WEAPON_MELEE_CLUB</Item>
+                <Item>WEAPON_MELEE_BAT</Item>
+              </WeaponTypes>
+            </Item>
+            <Item type="CDamageConditionIsPedMeleePersonalityType">
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Item>
+            <Item type="CDamageConditionAIFemalePed" />
+            <Item type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Item>
+            <Item type="CDamageConditionInflictorIsPlayer" />
+          </Conditions>
+        </Condition>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>Weak_Male_PED_Hit_By_Female</Name>
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionNot">
+                <Condition type="CDamageConditionAIFemalePed" />
+              </Item>
+              <Item type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_UNARMED</Item>
+                  <Item>WEAPON_MELEE_CLUB</Item>
+                  <Item>WEAPON_MELEE_BAT</Item>
+                </WeaponTypes>
+              </Item>
+              <Item type="CDamageConditionIsPedMeleePersonalityType">
+                <PedPersonalityTypes>
+                  <Item>MPST_Weak</Item>
+                </PedPersonalityTypes>
+              </Item>
+              <Item type="CDamageConditionFemalePed">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionInflictorIsPlayer" />
+            </Conditions>
+          </Condition>
+          <NextModifier type="CDamageModifierMultiply">
+            <Name>Strong_Male_PED_Hit_By_Female</Name>
+            <Condition type="CDamageConditionAnd">
+              <Conditions>
+                <Item type="CDamageConditionFromWeaponType">
+                  <WeaponTypes>
+                    <Item>WEAPON_UNARMED</Item>
+                    <Item>WEAPON_MELEE_CLUB</Item>
+                    <Item>WEAPON_MELEE_BAT</Item>
+                  </WeaponTypes>
+                </Item>
+                <Item type="CDamageConditionIsPedMeleePersonalityType">
+                  <PedPersonalityTypes>
+                    <Item>MPST_Strong</Item>
+                  </PedPersonalityTypes>
+                </Item>
+                <Item type="CDamageConditionNot">
+                  <Condition type="CDamageConditionAIFemalePed" />
+                </Item>
+                <Item type="CDamageConditionFemalePed">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionInflictorIsPlayer" />
+              </Conditions>
+            </Condition>
+            <NextModifier type="CDamageModifierMultiply">
+              <Name>Weak_Average_Female_PED_Hit_By_Male</Name>
+              <Condition type="CDamageConditionAnd">
+                <Conditions>
+                  <Item type="CDamageConditionNot">
+                    <Condition type="CDamageConditionIsPedMeleePersonalityType">
+                      <PedPersonalityTypes>
+                        <Item>MPST_Strong</Item>
+                      </PedPersonalityTypes>
+                    </Condition>
+                  </Item>
+                  <Item type="CDamageConditionFromWeaponType">
+                    <WeaponTypes>
+                      <Item>WEAPON_UNARMED</Item>
+                      <Item>WEAPON_MELEE_CLUB</Item>
+                      <Item>WEAPON_MELEE_BAT</Item>
+                    </WeaponTypes>
+                  </Item>
+                  <Item type="CDamageConditionAIFemalePed" />
+                  <Item type="CDamageConditionNot">
+                    <Condition type="CDamageConditionFemalePed">
+                      <Entity>Inflictor</Entity>
+                    </Condition>
+                  </Item>
+                  <Item type="CDamageConditionInflictorIsPlayer" />
+                </Conditions>
+              </Condition>
+              <NextModifier type="CDamageModifierMultiply">
+                <Name>Strong_Female_PED_Hit_By_Male</Name>
+                <Condition type="CDamageConditionAnd">
+                  <Conditions>
+                    <Item type="CDamageConditionFromWeaponType">
+                      <WeaponTypes>
+                        <Item>WEAPON_UNARMED</Item>
+                        <Item>WEAPON_MELEE_CLUB</Item>
+                        <Item>WEAPON_MELEE_BAT</Item>
+                      </WeaponTypes>
+                    </Item>
+                    <Item type="CDamageConditionIsPedMeleePersonalityType">
+                      <PedPersonalityTypes>
+                        <Item>MPST_Strong</Item>
+                      </PedPersonalityTypes>
+                    </Item>
+                    <Item type="CDamageConditionAIFemalePed" />
+                    <Item type="CDamageConditionNot">
+                      <Condition type="CDamageConditionFemalePed">
+                        <Entity>Inflictor</Entity>
+                      </Condition>
+                    </Item>
+                    <Item type="CDamageConditionInflictorIsPlayer" />
+                  </Conditions>
+                </Condition>
+                <NextModifier type="CDamageModifierMultiply">
+                  <Name>Weak_Male_PED_Hit_By_Male</Name>
+                  <Condition type="CDamageConditionAnd">
+                    <Conditions>
+                      <Item type="CDamageConditionFromWeaponType">
+                        <WeaponTypes>
+                          <Item>WEAPON_UNARMED</Item>
+                          <Item>WEAPON_MELEE_CLUB</Item>
+                          <Item>WEAPON_MELEE_BAT</Item>
+                        </WeaponTypes>
+                      </Item>
+                      <Item type="CDamageConditionIsPedMeleePersonalityType">
+                        <PedPersonalityTypes>
+                          <Item>MPST_Weak</Item>
+                        </PedPersonalityTypes>
+                      </Item>
+                      <Item type="CDamageConditionNot">
+                        <Condition type="CDamageConditionAIFemalePed" />
+                      </Item>
+                      <Item type="CDamageConditionNot">
+                        <Condition type="CDamageConditionFemalePed">
+                          <Entity>Inflictor</Entity>
+                        </Condition>
+                      </Item>
+                      <Item type="CDamageConditionInflictorIsPlayer" />
+                    </Conditions>
+                  </Condition>
+                  <NextModifier type="CDamageModifierMultiply">
+                    <Name>Strong_Male_PED_Hit_By_Male</Name>
+                    <Condition type="CDamageConditionAnd">
+                      <Conditions>
+                        <Item type="CDamageConditionIsPedMeleePersonalityType">
+                          <PedPersonalityTypes>
+                            <Item>MPST_Strong</Item>
+                          </PedPersonalityTypes>
+                        </Item>
+                        <Item type="CDamageConditionNot">
+                          <Condition type="CDamageConditionAIFemalePed" />
+                        </Item>
+                        <Item type="CDamageConditionNot">
+                          <Condition type="CDamageConditionFemalePed">
+                            <Entity>Inflictor</Entity>
+                          </Condition>
+                        </Item>
+                        <Item type="CDamageConditionInflictorIsPlayer" />
+                        <Item type="CDamageConditionFromWeaponType">
+                          <WeaponTypes>
+                            <Item>WEAPON_UNARMED</Item>
+                            <Item>WEAPON_MELEE_CLUB</Item>
+                            <Item>WEAPON_MELEE_BAT</Item>
+                          </WeaponTypes>
+                        </Item>
+                      </Conditions>
+                    </Condition>
+                    <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+                    <Value value="0.750000" />
+                  </NextModifier>
+                  <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+                  <Value value="1.250000" />
+                </NextModifier>
+                <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+                <Value value="1.500000" />
+              </NextModifier>
+              <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+              <Value value="2.000000" />
+            </NextModifier>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Value value="0.750000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="1.250000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="0.750000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>PlayerLowStamina_Hit</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Victim</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Player</Item>
+            </PedPersonalityTypes>
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+              <Item>WEAPON_MELEE_CLUB</Item>
+              <Item>WEAPON_MELEE_BAT</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionStaminaBelowValue">
+            <Entity>Victim</Entity>
+            <Value value="5.000000" />
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="6.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>PlayerLowStamina_Attack</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Victim</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+              <Item>MPST_Weak</Item>
+              <Item>MPST_Strong</Item>
+            </PedPersonalityTypes>
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+              <Item>WEAPON_MELEE_CLUB</Item>
+              <Item>WEAPON_MELEE_BAT</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionStaminaBelowValue">
+            <Entity>Inflictor</Entity>
+            <Value value="5.000000" />
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="0.600000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleePersonality_Kicked</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionAIFemalePed" />
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Victim</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierMultiply">
+        <Name>Weak_Male_PED_Kicked</Name>
+        <Condition type="CDamageConditionAnd">
+          <Conditions>
+            <Item type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_UNARMED</Item>
+              </WeaponTypes>
+            </Item>
+            <Item type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Victim</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Weak</Item>
+              </PedPersonalityTypes>
+            </Item>
+          </Conditions>
+        </Condition>
+        <NextModifier type="CDamageModifierMultiply">
+          <Name>Strong_Female_PED_Kicked</Name>
+          <Condition type="CDamageConditionAnd">
+            <Conditions>
+              <Item type="CDamageConditionAIFemalePed" />
+              <Item type="CDamageConditionFromWeaponType">
+                <WeaponTypes>
+                  <Item>WEAPON_UNARMED</Item>
+                </WeaponTypes>
+              </Item>
+              <Item type="CDamageConditionIsPedMeleePersonalityType">
+                <Entity>Victim</Entity>
+                <PedPersonalityTypes>
+                  <Item>MPST_Strong</Item>
+                </PedPersonalityTypes>
+              </Item>
+            </Conditions>
+          </Condition>
+          <NextModifier type="CDamageModifierMultiply">
+            <Name>Strong_Male_PED_Kicked</Name>
+            <Condition type="CDamageConditionAnd">
+              <Conditions>
+                <Item type="CDamageConditionFromWeaponType">
+                  <WeaponTypes>
+                    <Item>WEAPON_UNARMED</Item>
+                  </WeaponTypes>
+                </Item>
+                <Item type="CDamageConditionIsPedMeleePersonalityType">
+                  <Entity>Victim</Entity>
+                  <PedPersonalityTypes>
+                    <Item>MPST_Strong</Item>
+                  </PedPersonalityTypes>
+                </Item>
+              </Conditions>
+            </Condition>
+            <Value value="0.200000" />
+          </NextModifier>
+          <Value value="0.750000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Value value="1.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeDamageModifyMsOnGround</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionMeleeState">
+            <MeleeState>MS_ON_KNEE</MeleeState>
+          </Item>
+          <Item type="CDamageConditionMeleeState">
+            <MeleeState>MS_ON_ASS</MeleeState>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Value value="3.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>MeleeDamageModifyAnimalSizes</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamageModifySmallAnimals</Item>
+        <Item>MeleeDamageModifyMediumAnimals</Item>
+        <Item>MeleeDamageModifyLargeAnimals</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeDamageModifySmallAnimals</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsSmallAnimal" />
+        </Conditions>
+      </Condition>
+      <Value value="3.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeDamageModifyMediumAnimals</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsMediumAnimal" />
+        </Conditions>
+      </Condition>
+      <Value value="1.200000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeDamageModifyLargeAnimals</Name>
+      <Condition type="CDamageConditionOr">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsMediumAnimal" />
+        </Conditions>
+      </Condition>
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>AnimalVictimClamp</Name>
+      <Condition type="CDamageConditionVictimIsAnimal" />
+      <Low value="0.000000" />
+      <High value="15.000000" />
+    </Item>
+    <Item type="CDamageModifierForceBleedout">
+      <Name>AnimalVictimBleedOut</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsAnimal" />
+          <Item type="CDamageConditionCompareAbstract">
+            <CompareType>LESS_OR_EQUAL</CompareType>
+            <LHS type="CHealthProvider">
+              <Threshold>HT_CURRENT</Threshold>
+            </LHS>
+            <RHS type="CAdditionProvider">
+              <First type="CHealthProvider">
+                <Threshold>HT_KNOCKOUT</Threshold>
+              </First>
+              <Second type="CFloatProvider">
+                <Value value="2.000000" />
+              </Second>
+            </RHS>
+          </Item>
+        </Conditions>
+      </Condition>
+    </Item>
+    <Item type="CDamageModifierAddAbstract">
+      <Name>TakedownInitiatorBase</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionInflictorIsPlayer" />
+        </Conditions>
+      </Condition>
+      <Value type="CHealthRatioProvider">
+        <Ratio type="CFloatProvider">
+          <Value value="0.550000" />
+        </Ratio>
+      </Value>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>RunningShoveBase</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionInflictorIsPlayer" />
+        </Conditions>
+      </Condition>
+      <Modifiers>
+        <Item type="CDamageModifierAddAbstract">
+          <Value type="CHealthRatioProvider">
+            <Ratio type="CFloatProvider">
+              <Value value="0.340000" />
+            </Ratio>
+          </Value>
+        </Item>
+        <Item type="CDamageModifierForceMeleeDamage" />
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierClearMeleeState">
+      <Name>ClearMeleeState</Name>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>KickDamageBase</Name>
+      <Modifiers>
+        <Item type="CDamageModifierMultiply">
+          <Condition type="CDamageConditionHealthConfigFlags">
+            <ConfigFlags />
+          </Condition>
+          <NextModifier type="CDamageModifierAddAbstract">
+            <Condition type="CDamageConditionAnd">
+              <Conditions>
+                <Item type="CDamageConditionAIFemalePed" />
+                <Item type="CDamageConditionNot">
+                  <Condition type="CDamageConditionVictimIsAnimal" />
+                </Item>
+              </Conditions>
+            </Condition>
+            <NextModifier type="CDamageModifierAdd">
+              <Condition type="CDamageConditionOr">
+                <Conditions>
+                  <Item type="CDamageConditionVictimIsAnimal" />
+                  <Item type="CDamageConditionAnd">
+                    <Conditions>
+                      <Item type="CDamageConditionVictimIsPlayer" />
+                      <Item type="CDamageConditionNot">
+                        <Condition type="CDamageConditionInflictorIsPlayer" />
+                      </Item>
+                    </Conditions>
+                  </Item>
+                </Conditions>
+              </Condition>
+              <NextModifier type="CDamageModifierAdd">
+                <Condition type="CDamageConditionVictimIsPlayer" />
+                <NextModifier type="CDamageModifierAddAbstract">
+                  <Condition type="CDamageConditionOr">
+                    <Conditions>
+                      <Item type="CDamageConditionVictimIsPlayingGetup" />
+                      <Item type="CDamageConditionVictimIsUsingRagdoll" />
+                    </Conditions>
+                  </Condition>
+                  <Value type="CHealthRatioProvider">
+                    <Ratio type="CFloatProvider">
+                      <Value value="0.200000" />
+                    </Ratio>
+                  </Value>
+                </NextModifier>
+                <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+                <Value value="30.000000" />
+              </NextModifier>
+              <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+              <Value value="10.000000" />
+            </NextModifier>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Value type="CHealthRatioProvider">
+              <Ratio type="CFloatProvider">
+                <Value value="1.000000" />
+              </Ratio>
+            </Value>
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Value value="0.330000" />
+        </Item>
+        <Item type="CDamageModifierMultiply">
+          <Condition type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyPartLeg</Item>
+            </MaterialIncludeMask>
+          </Condition>
+          <Value value="0.500000" />
+        </Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMulti">
+      <Name>HorseKickDamage</Name>
+      <Modifiers>
+        <Item type="CDamageModifierAddAbstract">
+          <Value type="CHealthRatioProvider">
+            <Ratio type="CFloatProvider">
+              <Value value="0.500000" />
+            </Ratio>
+          </Value>
+        </Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierAdd">
+      <Name>JackVehicleBlockStaminaDamage</Name>
+      <ValueType>StaminaDamage</ValueType>
+      <Value value="10.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>GrappleDamageOld</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>Armed_Knuckle_Player</Item>
+        <Item>Armed_Knuckle_AI</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>StaminaReduction</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>GrappleDamage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>GrappleDamageOld</Item>
+        <Item>GrappleDamageJason</Item>
+        <Item>GrappleDamageLucia</Item>
+        <Item>GrappleDamageAI</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GrappleDamageAI</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionInflictorIsPlayer" />
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionBrawlingStyle">
+              <Style>BS_BOUNCER</Style>
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>BouncerClamp</Name>
+        <Condition type="CDamageConditionBrawlingStyle">
+          <Style>BS_BOUNCER</Style>
+          <Entity>Inflictor</Entity>
+        </Condition>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="40.000000" />
+        <High value="50.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Low value="5.000000" />
+      <High value="15.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GrappleDamageLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="40.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GrappleDamageJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="0.000000" />
+      <High value="45.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>HighAttackOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>Armed_Knuckle_Player</Item>
+        <Item>Armed_Knuckle_AI</Item>
+        <Item>HighAttackBlock</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>HighAttack</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>HighAttackOld</Item>
+        <Item>HighAttackClampJason</Item>
+        <Item>HighAttackClampLucia</Item>
+        <Item>HighAttackClampAI_Male</Item>
+        <Item>HighAttackClampAI_Female</Item>
+        <Item>StaminaReduction</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>HighAttackClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="0.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>LowAttackOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>Armed_Knuckle_Player</Item>
+        <Item>Armed_Knuckle_AI</Item>
+        <Item>LowAttackBlock</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>LowAttack</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>LowAttackOld</Item>
+        <Item>LowAttackClampAI_Male</Item>
+        <Item>LowAttackClampAI_Female</Item>
+        <Item>LowAttackClampLucia</Item>
+        <Item>LowAttackClampJason</Item>
+        <Item>StaminaReduction</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>LowAttackClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <TrackUsage value="false" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>UppercutAttack</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>GenericAttackUnblockableOld</Item>
+        <Item>GenericAttackClampAI_Male</Item>
+        <Item>StaminaReduction</Item>
+        <Item>UppercutDamageAmplifier</Item>
+        <Name>PlayerUnarmedDamageClamp</Name>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>GenericAttackOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>Armed_Knuckle_Player</Item>
+        <Item>Armed_Knuckle_AI</Item>
+        <Item>LowAttackBlock</Item>
+        <Item>HighAttackBlock</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>GenericAttack</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>GenericAttackOld</Item>
+        <Item>GenericAttackClampAI_Male</Item>
+        <Item>GenericAttackClampAI_Female</Item>
+        <Item>GenericAttackClampJason</Item>
+        <Item>GenericAttackClampLucia</Item>
+        <Item>StaminaReduction</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>GenericAttackClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>HighAttackUnblockableOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>HighAttackUnblockable</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>HighAttackUnblockableOld</Item>
+        <Item>HighAttackUnblockableClampAI_Male</Item>
+        <Item>HighAttackUnblockableClampAI_Female</Item>
+        <Item>HighAttackUnblockableClampJason</Item>
+        <Item>HighAttackUnblockableClampLucia</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>HighAttackUnblockableClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackUnblockableClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackUnblockableClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>HighAttackUnblockableClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>LowAttackUnblockableOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>LowAttackUnblockable</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>LowAttackUnblockableOld</Item>
+        <Item>LowAttackUnblockableClampAI_Male</Item>
+        <Item>LowAttackUnblockableClampAI_Female</Item>
+        <Item>LowAttackUnblockableClampJason</Item>
+        <Item>LowAttackUnblockableClampLucia</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>LowAttackUnblockableClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackUnblockableAttackClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackUnblockableClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>LowAttackUnblockableClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>GenericAttackUnblockableOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>Armed_Knuckle_Player</Item>
+        <Item>Armed_Knuckle_AI</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+        <Item>MeleeDamageModifyMsOnGround</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>GenericAttackUnblockable</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>GenericAttackUnblockableOld</Item>
+        <Item>GenericAttackUnblockableClampAI_Male</Item>
+        <Item>GenericAttackUnblockableClampAI_Female</Item>
+        <Item>GenericAttackUnblockableClampJason</Item>
+        <Item>GenericAttackUnblockableClampLucia</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>GenericAttackUnblockableClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="15.000000" />
+            <High value="20.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="10.000000" />
+          <High value="20.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="5.000000" />
+        <High value="20.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackUnblockableClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="5.000000" />
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackUnblockableClampLucia</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>GenericAttackUnblockableClampJason</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>KickDamageOld</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>LowAttackBlock</Item>
+        <Item>HighAttackBlock</Item>
+        <Item>PlayerAndMeleePersonalityKickModifiers</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>KickDamage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>KickDamageOld</Item>
+        <Item>KickDamageClampAI</Item>
+        <Item>KickDamageClampPlayer</Item>
+        <Item>CrouchTargetDamageAmplifier</Item>
+        <Item>PlayerUnarmedDamageClamp</Item>
+        <Item>BuddyStompDamageAmplifier</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>KickDamageClampAI</Name>
+      <Condition type="CDamageConditionNot">
+        <Condition type="CDamageConditionOr">
+          <Conditions>
+            <Item type="CDamageConditionIsPlayer">
+              <Entity>Inflictor</Entity>
+            </Item>
+            <Item type="CDamageConditionIsPlayerBuddy">
+              <Entity>Inflictor</Entity>
+            </Item>
+          </Conditions>
+        </Condition>
+      </Condition>
+      <High value="20.000000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>KickDamageClampPlayer</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFromWeaponType">
+              <WeaponTypes>
+                <Item>WEAPON_MELEE_KNUCKLE</Item>
+              </WeaponTypes>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsMeleePedPose">
+              <PedPoses>PP_SITTING_ON_GROUND PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT</PedPoses>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <TrackUsage value="false" />
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <ValueType>ArmourOrHealthDamage</ValueType>
+      <Low value="5.000000" />
+      <High value="30.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>KickDamageOnBike</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>KickDamageOld</Item>
+        <Item>KickDamageClampAI</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>TakedownInitiatorDamage</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>TakedownInitiatorBase</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>UnarmedMeleeDamage</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>AnimalVictimClamp</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>BluntMeleeDamageLight</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>BluntMeleeDamageLightClampAI_Old</Item>
+        <Item>BluntMeleeDamageLightClampAI_Male</Item>
+        <Item>BluntMeleeDamageLightClampAI_Female</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BluntMeleeDamageLightClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="35.000000" />
+            <High value="60.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="30.000000" />
+          <High value="55.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="25.000000" />
+        <High value="40.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BluntMeleeDamageLightClampAI_Old</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>AnimalVictimBleedOut</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>BluntMeleeDamageLightClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="25.000000" />
+      <High value="40.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>BluntMeleeDamageHeavy</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>BluntMeleeDamageHeavyClampAI_Old</Item>
+        <Item>BluntMeleeDamageHeavyClampAI_Male</Item>
+        <Item>BluntMeleeDamageHeavyClampAI_Female</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BluntMeleeDamageHeavyClampAI_Old</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>AnimalVictimBleedOut</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BluntMeleeDamageHeavyClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="45.000000" />
+            <High value="60.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="40.000000" />
+          <High value="55.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="35.000000" />
+        <High value="40.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>BluntMeleeDamageHeavyClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="35.000000" />
+      <High value="45.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiReference">
+      <Name>BladeMeleeDamage</Name>
+      <NextModifierPolicy>AlwaysApply</NextModifierPolicy>
+      <Modifiers>
+        <Item>BladeMeleeDamageClampAI_Old</Item>
+        <Item>BladeMeleeDamageClampAI_Male</Item>
+        <Item>BladeMeleeDamageClampAI_Female</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BladeMeleeDamageClampAI_Old</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>AnimalVictimBleedOut</Item>
+        <Item>PlayerAndMeleePersonalityModifiers</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>BladeMeleeDamageClampAI_Male</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionFemalePed">
+              <Entity>Inflictor</Entity>
+            </Condition>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="CDamageModifierClamp">
+        <Name>Weak_PED_Clamp</Name>
+        <Condition type="CDamageConditionIsPedMeleePersonalityType">
+          <Entity>Inflictor</Entity>
+          <PedPersonalityTypes>
+            <Item>MPST_Weak</Item>
+          </PedPersonalityTypes>
+        </Condition>
+        <NextModifier type="CDamageModifierClamp">
+          <Name>Average_PED_Clamp</Name>
+          <Condition type="CDamageConditionIsPedMeleePersonalityType">
+            <Entity>Inflictor</Entity>
+            <PedPersonalityTypes>
+              <Item>MPST_Average</Item>
+            </PedPersonalityTypes>
+          </Condition>
+          <NextModifier type="CDamageModifierClamp">
+            <Name>Strong_PED_Clamp</Name>
+            <Condition type="CDamageConditionIsPedMeleePersonalityType">
+              <Entity>Inflictor</Entity>
+              <PedPersonalityTypes>
+                <Item>MPST_Strong</Item>
+              </PedPersonalityTypes>
+            </Condition>
+            <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+            <Low value="45.000000" />
+            <High value="60.000000" />
+          </NextModifier>
+          <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+          <Low value="40.000000" />
+          <High value="40.000000" />
+        </NextModifier>
+        <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+        <Low value="35.000000" />
+        <High value="350.000000" />
+      </NextModifier>
+      <NextModifierPolicy>OnConditionSuccess</NextModifierPolicy>
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>BladeMeleeDamageClampAI_Female</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionOr">
+              <Conditions>
+                <Item type="CDamageConditionIsPlayer">
+                  <Entity>Inflictor</Entity>
+                </Item>
+                <Item type="CDamageConditionIsPlayerBuddy">
+                  <Entity>Inflictor</Entity>
+                </Item>
+              </Conditions>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionFemalePed">
+            <Entity>Inflictor</Entity>
+          </Item>
+        </Conditions>
+      </Condition>
+      <Low value="35.000000" />
+      <High value="35.000000" />
+    </Item>
+    <Item type="CDamageModifierFirstSuccessfulReference">
+      <Name>RunningShoveDamage</Name>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Modifiers>
+        <Item>MeleeDamagePrevention</Item>
+        <Item>RunningShoveBase</Item>
+      </Modifiers>
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Armed_Knuckle_Player</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_MELEE_KNUCKLE</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifier type="NULL" />
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="4.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>Armed_Knuckle_AI</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionInflictorIsPlayer" />
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_MELEE_KNUCKLE</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="4.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>StaminaReduction</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionVictimIsPlayer" />
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <ValueType>StaminaDamage</ValueType>
+      <Value value="0.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>UppercutDamageAmplifier</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsPlayerBuddy" >
+              <Entity>Victim</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionIsPedMeleePersonalityType">
+            <PedPersonalityTypes>
+              <Item>MPST_Weak</Item>
+            </PedPersonalityTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="3.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>CrouchTargetDamageAmplifier</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsPlayerBuddy" >
+              <Entity>Victim</Entity>
+            </Condition>
+          </Item>
+          <Item type="CDamageConditionIsMeleePedPose">
+            <PedPoses>PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT PP_SITTING_ON_GROUND</PedPoses>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.500000" />
+    </Item>
+    <Item type="CDamageModifierClamp">
+      <Name>PlayerUnarmedDamageClamp</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionOr">
+            <Conditions>
+              <Item type="CDamageConditionIsPlayer">
+                <Entity>Inflictor</Entity>
+              </Item>
+              <Item type="CDamageConditionIsPlayerBuddy">
+                <Entity>Inflictor</Entity>
+              </Item>
+            </Conditions>
+          </Item>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+            </WeaponTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <High value="90.000000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>BuddyStompDamageAmplifier</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionIsPlayerBuddy">
+            <Entity>Inflictor</Entity>
+          </Item>
+          <Item type="CDamageConditionNot">
+            <Condition type="CDamageConditionIsPlayerBuddy" />
+          </Item>
+          <Item type="CDamageConditionIsMeleePedPose">
+            <PedPoses>PP_CROUCHING PP_FACE_UP PP_FACE_RIGHT PP_FACE_LEFT PP_SITTING_ON_GROUND</PedPoses>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="1.500000" />
+    </Item>
+    <Item type="CDamageModifierMultiply">
+      <Name>MeleeVsArmorModifier</Name>
+      <Condition type="CDamageConditionAnd">
+        <Conditions>
+          <Item type="CDamageConditionFromWeaponType">
+            <WeaponTypes>
+              <Item>WEAPON_UNARMED</Item>
+              <Item>WEAPON_MELEE_HATCHET</Item>
+              <Item>WEAPON_MELEE_BAT</Item>
+              <Item>WEAPON_MELEE_CLUB</Item>
+              <Item>WEAPON_MELEE_HAMMER</Item>
+              <Item>WEAPON_MELEE_KNIFE</Item>
+              <Item>WEAPON_MELEE_SLEDGEHAMMER</Item>
+              <Item>WEAPON_MELEE_BATON</Item>
+              <Item>WEAPON_MELEE_POOLCUE</Item>
+              <Item>WEAPON_MELEE_MACHETE</Item>
+            </WeaponTypes>
+          </Item>
+          <Item type="CDamageConditionHitMaterial">
+            <MaterialIncludeMask>
+              <Item>BodyArmor</Item>
+              <Item>Helmets</Item>
+              <Item>BodyArmorHeavy</Item>
+              <Item>BodyArmorMedium</Item>
+              <Item>BodyArmorLight</Item>
+              <Item>BodyArmorDamaged</Item>
+            </MaterialIncludeMask>
+          </Item>
+          <Item type="CDamageConditionFromDamageType">
+            <DamageTypes>
+              <Item>MELEE</Item>
+            </DamageTypes>
+          </Item>
+        </Conditions>
+      </Condition>
+      <NextModifierPolicy>OnConditionFailure</NextModifierPolicy>
+      <Value value="0.750000" />
+    </Item>
+  </DamageModifiers>
+</CDamageDataManager>

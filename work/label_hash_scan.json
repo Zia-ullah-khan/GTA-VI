@@ -1,0 +1,471 @@
+{
+ "totals": {
+  "key_hashes": 367,
+  "segments": 1217,
+  "bytes": 161307960768,
+  "streams": 2241412,
+  "inflated_bytes": 129733325996,
+  "control_windows": 0
+ },
+ "hits": [
+  {
+   "kind": "zlib",
+   "offset": 12135136,
+   "inflated_size": 65536,
+   "distinct_keys": 71,
+   "distinct_controls": 0,
+   "head": "ffff0c0500018700896677bff54f796e",
+   "file": "audio.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 139374608,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000a0f83e5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 142217216,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 151261200,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "000000000000000050f9555000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 154378240,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 163045392,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000a0e13f5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 18817024,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 26992656,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000b0d03a5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 29630464,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 38109200,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "000000000000000050423e5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 40857600,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 49463312,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000d0733a5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 52228096,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 60874768,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "000000000000000090f03a5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 63660032,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 72036368,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000a05b415000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 74862592,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 83423248,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000e0f83f5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 86261760,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 94478352,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "00000000000000005092405000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 97255424,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 105164816,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "000000000000000040f2465000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 108048384,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 116760592,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "0000000000000000e044435000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 119619584,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 128073744,
+   "inflated_size": 262144,
+   "distinct_keys": 64,
+   "distinct_controls": 0,
+   "head": "000000000000000010293f5000000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 130809856,
+   "inflated_size": 7176,
+   "distinct_keys": 98,
+   "distinct_controls": 0,
+   "head": "5053494e000007f0808637b730000000",
+   "file": "data.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 76153032048,
+   "inflated_size": 65536,
+   "distinct_keys": 96,
+   "distinct_controls": 0,
+   "head": "9cb82317000000001009372500000000",
+   "file": "levels.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 76153043072,
+   "inflated_size": 65536,
+   "distinct_keys": 17,
+   "distinct_controls": 0,
+   "head": "b89cc3d500000000da6ad54500000000",
+   "file": "levels.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4752801792,
+   "inflated_size": 65536,
+   "distinct_keys": 94,
+   "distinct_controls": 0,
+   "head": "5053494e000c7d4000010000e8160000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4752857104,
+   "inflated_size": 65536,
+   "distinct_keys": 93,
+   "distinct_controls": 0,
+   "head": "5fee1872d10fb42ee2bace9ec1d67b48",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4752912368,
+   "inflated_size": 65536,
+   "distinct_keys": 89,
+   "distinct_controls": 0,
+   "head": "b2eaf37b855a558b913f1bbeb21dff7b",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4752967632,
+   "inflated_size": 65536,
+   "distinct_keys": 87,
+   "distinct_controls": 0,
+   "head": "7829e1764aa10aa303387bc609d65a84",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753022816,
+   "inflated_size": 65536,
+   "distinct_keys": 89,
+   "distinct_controls": 0,
+   "head": "9ea5175cb5d5340e6556f23106b80267",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753078016,
+   "inflated_size": 65536,
+   "distinct_keys": 91,
+   "distinct_controls": 0,
+   "head": "46ab395bf41cf3d4147cf19346f94f5b",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753133232,
+   "inflated_size": 65536,
+   "distinct_keys": 91,
+   "distinct_controls": 0,
+   "head": "ae90cfb2b79beaa177579ea871234c46",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753188112,
+   "inflated_size": 65536,
+   "distinct_keys": 91,
+   "distinct_controls": 0,
+   "head": "00000000a833ebf22d2a79c35aae48a8",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753243280,
+   "inflated_size": 65536,
+   "distinct_keys": 89,
+   "distinct_controls": 0,
+   "head": "6ad1773e776d81e94c82c488ca4c783e",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753298304,
+   "inflated_size": 65536,
+   "distinct_keys": 89,
+   "distinct_controls": 0,
+   "head": "b54d92fd09871c363bc10e81dd19d6d1",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753353568,
+   "inflated_size": 65536,
+   "distinct_keys": 88,
+   "distinct_controls": 0,
+   "head": "6d9877494cce1fcfd6d47dbee8a0ac75",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753408512,
+   "inflated_size": 65536,
+   "distinct_keys": 90,
+   "distinct_controls": 0,
+   "head": "be498d16376e0f0561004eb54eff8f16",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 4753463632,
+   "inflated_size": 65536,
+   "distinct_keys": 86,
+   "distinct_controls": 0,
+   "head": "1622f128dd442d22dfac3b62ea5da845",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16680061488,
+   "inflated_size": 65536,
+   "distinct_keys": 15,
+   "distinct_controls": 0,
+   "head": "00000000000000000000000000000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16680062640,
+   "inflated_size": 65536,
+   "distinct_keys": 17,
+   "distinct_controls": 0,
+   "head": "00000000000000000000000000000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16680063824,
+   "inflated_size": 65536,
+   "distinct_keys": 17,
+   "distinct_controls": 0,
+   "head": "00000000000000000000000000000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16680245936,
+   "inflated_size": 65536,
+   "distinct_keys": 118,
+   "distinct_controls": 0,
+   "head": "64c4eaa10000000098db153a00000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16680327312,
+   "inflated_size": 65536,
+   "distinct_keys": 22,
+   "distinct_controls": 0,
+   "head": "00000000000000000000000000000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16694071296,
+   "inflated_size": 65536,
+   "distinct_keys": 13,
+   "distinct_controls": 0,
+   "head": "5053494e0001fb3051d5c91d20000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 16694083952,
+   "inflated_size": 65536,
+   "distinct_keys": 124,
+   "distinct_controls": 0,
+   "head": "00000000000000000000000000000000",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 14494941184,
+   "inflated_size": 65536,
+   "distinct_keys": 23,
+   "distinct_controls": 0,
+   "head": "5053494e00029a70f10d61ec189a0200",
+   "file": "pack\\story000\\story000.rpf"
+  },
+  {
+   "kind": "zlib",
+   "offset": 14494953744,
+   "inflated_size": 65536,
+   "distinct_keys": 7,
+   "distinct_controls": 0,
+   "head": "000000000000000000000000a90b40b6",
+   "file": "pack\\story000\\story000.rpf"
+  }
+ ]
+}

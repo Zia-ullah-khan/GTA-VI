@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StudioConfigurationData>
+  <presets>
+    <Item key="PRESET_LARGE_IMAGE_CHARACTERS">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_LARGE</rendererSetup>
+      <exportConfiguration>PEDS_RUNTIME_CACHE</exportConfiguration>
+    </Item>
+    <Item key="PRESET_ONTHEFLY_RENDER_CHARACTERS">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_LARGE</rendererSetup>
+      <exportConfiguration>ON_THE_FLY</exportConfiguration>
+    </Item>
+    <Item key="PRESET_CHARACTERS_LOCAL_ASSET_EXPORT_LARGE">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_LARGE</rendererSetup>
+      <exportConfiguration>PEDS_LOCAL_EXPORTS_LARGE</exportConfiguration>
+    </Item>
+    <Item key="PRESET_CHARACTERS_LOCAL_ASSET_EXPORT_MEDIUM">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_MEDIUM</rendererSetup>
+      <exportConfiguration>PEDS_LOCAL_EXPORTS_MEDIUM</exportConfiguration>
+    </Item>
+    <Item key="PRESET_CHARACTERS_LOCAL_ASSET_EXPORT_SMALL">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_SMALL</rendererSetup>
+      <exportConfiguration>PEDS_LOCAL_EXPORTS_SMALL</exportConfiguration>
+    </Item>
+    <Item key="PRESET_CHARACTERS_LOCAL_ASSET_EXPORT_TINY">
+      <subjectSetup>SUBJECT_PED</subjectSetup>
+      <camera>CAMERA_PED</camera>
+      <rendererSetup>RENDERER_SETUP_TINY</rendererSetup>
+      <exportConfiguration>PEDS_LOCAL_EXPORTS_TINY</exportConfiguration>
+    </Item>
+  </presets>
+
+  <subjectSetups>
+    <Item key="SUBJECT_PED">
+      <subjectSetupData>
+        <Item>
+          <backdropColor value="0x00000000" />
+          <animscene>
+            <id>scripted@common@studioshot@pedsubject_1</id>
+            <params>
+              <list>
+                <Item type="AnimSceneBasicTypeString">
+                  <id>s_studioshotExpression</id>
+                  <value>Serious</value>
+                </Item>
+              </list>
+            </params>
+          </animscene>
+        </Item>
+        <Item>
+          <backdropColor value="0x00000000" />
+          <animscene>
+            <id>scripted@common@studioshot@pedsubject_1</id>
+            <params>
+              <list>
+                <Item type="AnimSceneBasicTypeString">
+                  <id>s_studioshotExpression</id>
+                  <value>Friendly</value>
+                </Item>
+              </list>
+            </params>
+          </animscene>
+        </Item>
+        <Item>
+          <backdropColor value="0x00000000" />
+          <animscene>
+            <id>scripted@common@studioshot@pedsubject_1</id>
+            <params>
+              <list>
+                <Item type="AnimSceneBasicTypeString">
+                  <id>s_studioshotExpression</id>
+                  <value>Neutral</value>
+                </Item>
+              </list>
+            </params>
+          </animscene>
+        </Item>
+        <Item>
+          <backdropColor value="0x00000000" />
+          <animscene>
+            <id>scripted@common@studioshot@pedsubject_1</id>
+            <params>
+              <list>
+                <Item type="AnimSceneBasicTypeString">
+                  <id>s_studioshotExpression</id>
+                  <value>Aggressive</value>
+                </Item>
+              </list>
+            </params>
+          </animscene>
+        </Item>
+      </subjectSetupData>
+    </Item>
+    <Item key="SUBJECT_VEHICLE">
+      <subjectSetupData>
+        <Item>
+          <backdropColor value="0xFFA55837" />
+        </Item>
+      </subjectSetupData>
+    </Item>
+  </subjectSetups>
+
+  <cameras>
+    <Item key="CAMERA_PED">
+      <orbitRotation x="2.000000" y="125.000000" />
+      <fov value="10.000000" />
+      <aspectRatio value="1.000000" />
+      <offsetBias value="0.250000" />
+    </Item>
+    <Item key="CAMERA_VEHICLE">
+      <orbitRotation x="10.000000" y="47.000000" />
+      <fov value="27.000000" />
+      <aspectRatio value="1.000000" />
+      <offsetBias value="-1.000000" />
+    </Item>
+  </cameras>
+
+  <rendererSetups>
+    <Item key="RENDERER_SETUP_LARGE">
+      <outputResolution value="512.000000" />
+      <exposure value="-1.000000" />
+      <gamma value="2.400000" />
+    </Item>
+    <Item key="RENDERER_SETUP_MEDIUM">
+      <outputResolution value="256.000000" />
+      <exposure value="-1.000000" />
+      <gamma value="2.400000" />
+    </Item>
+    <Item key="RENDERER_SETUP_SMALL">
+      <outputResolution value="128.000000" />
+      <exposure value="-1.000000" />
+      <gamma value="2.400000" />
+    </Item>
+    <Item key="RENDERER_SETUP_TINY">
+      <outputResolution value="64.000000" />
+      <exposure value="-1.000000" />
+      <gamma value="2.400000" />
+    </Item>
+  </rendererSetups>
+
+  <exportConfigurations>
+    <Item key="ON_THE_FLY">
+      <exportPath></exportPath>
+    </Item>
+    <Item key="PEDS_RUNTIME_CACHE">
+      <exportPath>pedshots</exportPath>
+    </Item>
+    <Item key="PEDS_LOCAL_EXPORTS_LARGE">
+      <exportPath>peds/large</exportPath>
+      <isLocalAssetGen value="true"/>
+    </Item>
+    <Item key="PEDS_LOCAL_EXPORTS_MEDIUM">
+      <exportPath>peds/medium</exportPath>
+      <isLocalAssetGen value="true"/>
+    </Item>
+    <Item key="PEDS_LOCAL_EXPORTS_SMALL">
+      <exportPath>peds/small</exportPath>
+      <isLocalAssetGen value="true"/>
+    </Item>
+    <Item key="PEDS_LOCAL_EXPORTS_TINY">
+      <exportPath>peds/tiny</exportPath>
+      <isLocalAssetGen value="true"/>
+    </Item>
+  </exportConfigurations>
+
+</StudioConfigurationData>

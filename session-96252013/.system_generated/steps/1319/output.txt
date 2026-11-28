@@ -1,0 +1,52 @@
+Created At: 2026-11-25T18:00:50-05:00
+Completed At: 2026-11-25T18:00:53-05:00
+Command exited with code 0.
+
+Command output:
+=== tree_3e2372000.json (blocks=115) ===
+  Block #7 kind=60088455 rows=2852 hits=13
+    [570].091d160c.6b353de2 = bdcb784e
+    [1706].091d160c.4c5e990f = bdcb784e
+    [1706].091d160c.a77a2a17 = bdcb784e
+    [1953].091d160c.f9af2922 = fab575e7
+    [1953].091d160c.2c17a3be = 55b4ae33
+    [2211].091d160c.f9af2922 = bdcb784e
+    [2211].091d160c.2c17a3be = 8451f94f
+    [2212].091d160c.f9af2922 = bdcb784e
+  Block #21 kind=a1d21aab rows=3569 hits=21
+    [572].acec22be = bdcb784e
+    [572].c09087bb.091d160c.6b353de2 = bdcb784e
+    [1575].acec22be = fab575e7
+    [1801].c09087bb.091d160c.4c5e990f = bdcb784e
+    [1801].c09087bb.091d160c.a77a2a17 = bdcb784e
+    [2103].c09087bb.091d160c.f9af2922 = fab575e7
+    [2103].c09087bb.091d160c.2c17a3be = 55b4ae33
+    [2371].acec22be = 5cb7db5c:FT_AMUCO_FIRST_INTERACTION
+  Block #30 kind=00000108 rows=90624 hits=13
+    [18242].063fa3f2 = bdcb784e
+    [54607].063fa3f2 = bdcb784e
+    [54615].063fa3f2 = bdcb784e
+    [61986].063fa3f2 = fab575e7
+    [62014].063fa3f2 = 55b4ae33
+    [70114].063fa3f2 = bdcb784e
+    [70142].063fa3f2 = 8451f94f
+    [70146].063fa3f2 = bdcb784e
+  Block #90 kind=26002175 rows=193 hits=21
+    [12].d566f590[0].acec22be = bdcb784e
+    [12].d566f590[0].c09087bb.091d160c.6b353de2 = bdcb784e
+    [86].d566f590[0].acec22be = fab575e7
+    [128].d566f590[7].c09087bb.091d160c.4c5e990f = bdcb784e
+    [128].d566f590[7].c09087bb.091d160c.a77a2a17 = bdcb784e
+    [148].d566f590[5].c09087bb.091d160c.f9af2922 = fab575e7
+    [148].d566f590[5].c09087bb.091d160c.2c17a3be = 55b4ae33
+    [160].d566f590[107].acec22be = 5cb7db5c:FT_AMUCO_FIRST_INTERACTION
+=== tree_3e30b5000.json (blocks=54) ===
+  Block #12 kind=af0332a2 rows=1 hits=2
+    [0].d05707e4[11].26516057 = cc31ef42:FT_AMUCO
+    [0].d05707e4[12].26516057 = 349c946f:FT_KMODSHP
+  Block #20 kind=d951bddd rows=17 hits=2
+    [11].26516057 = cc31ef42:FT_AMUCO
+    [12].26516057 = 349c946f:FT_KMODSHP
+  Block #24 kind=00000100 rows=64 hits=2
+    [0].063fa3f2.d05707e4[11].26516057 = cc31ef42:FT_AMUCO
+    [0].063fa3f2.d05707e4[12].26516057 = 349c946f:FT_KMODSHP

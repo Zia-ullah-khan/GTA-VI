@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CHazardNodes>
+  <Nodes>
+    <Item type="CHazardNode" key="GATOR_SHORT_PASSBY">
+      <Name>GATOR_OBSERVE_NORMAL</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_Timeout</Check>
+            <TimeThreshold value="4.0f" />
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <UseMTH value="false" />
+      <RumbleCurve>GATOR_PIT_SWIM_BY</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="4.0f" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_MEDIUM_PASSBY">
+      <Name>GATOR_OBSERVE_NORMAL</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_Timeout</Check>
+            <TimeThreshold value="4.0f" />
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <UseMTH value="false" />
+      <RumbleCurve>GATOR_PIT_SWIM_BY</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="6.0f" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_LONG_PASSBY">
+      <Name>GATOR_OBSERVE_NORMAL</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_Timeout</Check>
+            <TimeThreshold value="4.0f" />
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <UseMTH value="false" />
+      <RumbleCurve>GATOR_PIT_SWIM_BY</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="8.0f" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_LEG_GRAB">
+      <Name>GATOR_LEG_GRAB</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="true" />
+      <RumbleCurve>GATOR_PIT_SPIKE</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="4.0f" />
+      <CameraShake>GATOR_QUICK_GRAB_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_LEG_GRAB_CHALLENGE</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_LEAPKILL">
+      <Name>GATOR_LEAPKILL</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve>GATOR_PIT_SPIKE</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="true" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_LEAPKILL</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_DECIDE">
+      <Name>GATOR_WAIST_DECIDE</Name>
+      <ClipSet>amb_creatures_reptile@world_alligator_react_angry</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionOr">
+            <Conditions>
+              <Item type="CAIConditionPedHasSimpleMemory">
+                <Ped>SecondaryEntity</Ped>
+                <MemoryType>AttackedByGatorPit</MemoryType>
+                <QueryTimeMS value="30000" />
+              </Item>
+              <Item type="CAIConditionPedHealthPercentageInRange">
+                <Ped>SecondaryEntity</Ped>
+                <LowerBound value="0.0f" />
+                <UpperBound value="0.5f" />
+              </Item>
+            </Conditions>
+          </Condition>
+          <Node>GATOR_WAIST_KILL_DECIDE</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionNot">
+                <Condition type="CAIConditionPedHasSimpleMemory">
+                  <Ped>SecondaryEntity</Ped>
+                  <MemoryType>AttackedByGatorPit</MemoryType>
+                  <QueryTimeMS value="30000" />
+                </Condition>
+              </Item>
+              <Item type="CAIConditionPedHealthPercentageInRange">
+                <Ped>SecondaryEntity</Ped>
+                <LowerBound value="0.5f" />
+                <UpperBound value="1.0f" />
+              </Item>
+            </Conditions>
+          </Condition>
+          <Node>GATOR_WAIST_NIP_DECIDE</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_NIP_DECIDE">
+      <Name>GATOR_WAIST_NIP_DECIDE</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="0.000000f" y="1.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_ESCAPE_FRONT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="-1.000000f" y="0.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_ESCAPE_LEFT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="1.000f" y="0.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_ESCAPE_RIGHT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="-0.383f" y="-0.924f" z="0.000000f" />
+            <Threshold value="0.924f" />
+          </Condition>
+          <Node>GATOR_WAIST_ESCAPE_LEFT_180</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="0.383f" y="-0.924f" z="0.000000f" />
+            <Threshold value="0.924f" />
+          </Condition>
+          <Node>GATOR_WAIST_ESCAPE_RIGHT_180</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_FRONT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_ESCAPE_FRONT">
+      <Name>GATOR_WAIST_ESCAPE_FRONT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node>GATOR_WAIT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_FRONT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_ESCAPE_LEFT">
+      <Name>GATOR_WAIST_ESCAPE_LEFT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node>GATOR_WAIT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_LEFT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_ESCAPE_RIGHT">
+      <Name>GATOR_WAIST_ESCAPE_RIGHT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node>GATOR_WAIT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_RIGHT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_ESCAPE_LEFT_180">
+      <Name>GATOR_WAIST_ESCAPE_LEFT_180</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node>GATOR_WAIT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_LEFT_180</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_ESCAPE_RIGHT_180">
+      <Name>GATOR_WAIST_ESCAPE_RIGHT_180</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node>GATOR_WAIT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_ESCAPE_RIGHT_180</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIT">
+      <Name>GATOR_WAIT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_Timeout</Check>
+            <TimeThreshold value="0.75f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_DECIDE</Node>
+        </Item>
+      </Fails>
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_DECIDE">
+      <Name>GATOR_WAIST_KILL_DECIDE</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="0.000000f" y="1.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_FRONT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="-1.000000f" y="0.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_LEFT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="1.000f" y="0.000000f" z="0.000000f" />
+            <Threshold value="0.707f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_RIGHT</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="-0.383f" y="-0.924f" z="0.000000f" />
+            <Threshold value="0.924f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_LEFT_180</Node>
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionAmbientEventDirection">
+            <Direction x="0.383f" y="-0.924f" z="0.000000f" />
+            <Threshold value="0.924f" />
+          </Condition>
+          <Node>GATOR_WAIST_KILL_RIGHT_180</Node>
+        </Item>
+      </Fails>
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake />
+      <MeleeResult />
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_FRONT">
+      <Name>GATOR_WAIST_KILL_FRONT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_AUTOKILL_FRONT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_LEFT">
+      <Name>GATOR_WAIST_KILL_LEFT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_AUTOKILL_LEFT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_RIGHT">
+      <Name>GATOR_WAIST_KILL_RIGHT</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_AUTOKILL_RIGHT</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_LEFT_180">
+      <Name>GATOR_WAIST_KILL_LEFT_180</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_AUTOKILL_LEFT_180</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_WAIST_KILL_RIGHT_180">
+      <Name>GATOR_WAIST_KILL_RIGHT_180</Name>
+      <ClipSet>amb_creatures_reptile@gator@nip_attack</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <RumbleCurve />
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="1.5f" />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="false" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_WAIST_AUTOKILL_RIGHT_180</MeleeResult>
+    </Item>
+    <Item type="CHazardNode" key="GATOR_DEATH_ROLL">
+      <Name>GATOR_DEATH_ROLL</Name>
+      <ClipSet>amb_creatures_reptile@gator@grapple@streamed_core</ClipSet>
+      <ClipVictim />
+      <ClipThreat />
+      <Successes>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_MeleeSuccess</Check>
+          </Condition>
+          <Node />
+        </Item>
+        <Item type="CHazardTransition">
+          <Condition type="CAIConditionGatorPit">
+            <Check>HC_OutsideRange</Check>
+          </Condition>
+          <Node />
+        </Item>
+      </Successes>
+      <Fails />
+      <UseMTH value="false" />
+      <ResetThreatPosition value="true" />
+      <RumbleCurve>GATOR_PIT_SPIKE</RumbleCurve>
+      <RumbleCurveStart value="0.0f" />
+      <RumbleCurveDuration value="4.0f" />
+      <CameraShake>GATOR_ATTACK_SHAKE</CameraShake>
+      <MeleeResult>AR_ALLIGATOR_DEATH_ROLL_CHALLENGE</MeleeResult>
+    </Item>
+  </Nodes>
+</CHazardNodes>

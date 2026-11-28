@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="MODULE_systems_lightSensor"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <light_sensor_min_output_intensity>0.000200 0.000000</light_sensor_min_output_intensity>
+    <light_sensor_max_output_intensity>2.200000 0.000000</light_sensor_max_output_intensity>
+  </modifier>
+  <modifier
+    name="SYS_TC_Synced_LocalLights_2Key"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="2"
+  >
+    <axis controlValue="beat" input_min="0.101953" input_max="0.502409">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_override_tc_synced_intensity>0.025000 1.000000</light_override_tc_synced_intensity>
+    </axis>
+    <axis controlValue="musicPeakAmplitude" input_min="0.101953" input_max="0.400000">
+      <light_override_tc_synced_intensity>0.000000 1.000000</light_override_tc_synced_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="SYS_TC_Synced_LocalLights_3Key"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="3"
+  >
+    <axis controlValue="beat">
+      <keyframe_t_value>0.000000 0.919985 1.000000</keyframe_t_value>
+      <light_override_tc_synced_intensity>0.000000 1.000000 1.000000</light_override_tc_synced_intensity>
+    </axis>
+    <axis controlValue="musicPeakAmplitude">
+      <light_override_tc_synced_intensity>0.000000 1.000000 1.000000</light_override_tc_synced_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="SYS_Veh_LightIntensity"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="2"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="9"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.247000 0.253000 0.283000 0.495500 0.705000 0.747000 0.754000 1.000000</keyframe_t_value>
+      <light_override_vehicle_intensity>0.100000 0.100000 0.250000 0.700000 2.000000 0.700000 0.500000 0.100000 0.100000</light_override_vehicle_intensity>
+      <coronas_siren_size_scale>0.150000 0.150000 0.300000 1.000000 1.000000 1.000000 0.500000 0.150000 0.150000</coronas_siren_size_scale>
+      <coronas_siren_intensity_scale>0.100000 0.100000 0.500000 0.700000 1.000000 0.700000 0.500000 0.100000 0.100000</coronas_siren_intensity_scale>
+      <coronas_size_scale>1.000000 1.000000 1.000000 1.500000 2.500000 1.800000 1.000000 1.000000 1.000000</coronas_size_scale>
+      <coronas_intensity_scale>1.000000 1.000000 1.000000 1.000000 1.500000 1.000000 1.000000 1.000000 1.000000</coronas_intensity_scale>
+    </axis>
+    <axis controlValue="nightLighting.r">
+      <light_override_vehicle_intensity>0.500000 0.500000 0.800000 1.000000 2.000000 1.000000 0.800000 0.500000 0.500000</light_override_vehicle_intensity>
+      <coronas_siren_size_scale>0.200000 0.200000 0.400000 1.000000 1.000000 1.000000 0.500000 0.200000 0.200000</coronas_siren_size_scale>
+      <coronas_siren_intensity_scale>0.100000 0.100000 0.500000 0.700000 1.000000 0.700000 0.500000 0.100000 0.100000</coronas_siren_intensity_scale>
+      <coronas_size_scale>1.000000 1.000000 1.500000 1.500000 2.500000 1.800000 1.500000 1.000000 1.000000</coronas_size_scale>
+      <coronas_intensity_scale>1.000000 1.000000 1.500000 1.500000 1.500000 1.500000 1.000000 1.000000 1.000000</coronas_intensity_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="SYS_Veh_LightFalloff"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="2"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.247000 0.252000 0.499750 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_primary_falloff_mult>0.800000 0.700000 0.030000 0.030000 0.030000 0.700000 0.800000</light_vehicle_primary_falloff_mult>
+      <light_vehicle_secondary_falloff_mult>1.000000 0.700000 0.400000 0.400000 0.400000 0.700000 1.000000</light_vehicle_secondary_falloff_mult>
+      <light_vehicle_tertiary_falloff_mult>1.000000 1.000000 0.800000 0.800000 0.800000 1.000000 1.000000</light_vehicle_tertiary_falloff_mult>
+      <light_vehicle_siren_falloff_mult>1.000000 0.700000 0.400000 0.400000 0.400000 0.700000 1.000000</light_vehicle_siren_falloff_mult>
+      <light_vehicle_cluster_falloff_mult>0.800000 0.700000 0.030000 0.030000 0.030000 0.700000 0.800000</light_vehicle_cluster_falloff_mult>
+      <light_vehicle_primary_falloff_mult_player>0.800000 0.700000 0.008500 0.008500 0.008500 0.700000 0.800000</light_vehicle_primary_falloff_mult_player>
+      <light_vehicle_secondary_falloff_mult_player>1.000000 0.700000 0.400000 0.400000 0.400000 0.700000 1.000000</light_vehicle_secondary_falloff_mult_player>
+      <light_vehicle_tertiary_falloff_mult_player>1.000000 1.000000 0.800000 0.800000 0.800000 1.000000 1.000000</light_vehicle_tertiary_falloff_mult_player>
+      <light_vehicle_siren_falloff_mult_player>1.000000 0.700000 0.400000 0.400000 0.400000 0.700000 1.000000</light_vehicle_siren_falloff_mult_player>
+      <light_vehicle_cluster_falloff_mult_player>0.800000 0.700000 0.030000 0.030000 0.030000 0.700000 0.800000</light_vehicle_cluster_falloff_mult_player>
+      <light_vehicle_search_falloff_mult>1.000000 1.000000 0.030000 0.030000 0.030000 1.000000 1.000000</light_vehicle_search_falloff_mult>
+      <light_vehicle_search_falloff_mult_player>1.000000 1.000000 0.100000 0.030000 0.100000 1.000000 1.000000</light_vehicle_search_falloff_mult_player>
+    </axis>
+    <axis controlValue="nightLighting.r">
+      <light_vehicle_primary_falloff_mult>0.500000 0.500000 0.030000 0.030000 0.030000 0.500000 0.500000</light_vehicle_primary_falloff_mult>
+      <light_vehicle_secondary_falloff_mult>0.700000 0.700000 0.200000 0.200000 0.200000 0.700000 0.700000</light_vehicle_secondary_falloff_mult>
+      <light_vehicle_tertiary_falloff_mult>0.900000 0.900000 0.800000 0.800000 0.800000 0.900000 0.900000</light_vehicle_tertiary_falloff_mult>
+      <light_vehicle_siren_falloff_mult>0.700000 0.700000 0.200000 0.200000 0.200000 0.700000 0.700000</light_vehicle_siren_falloff_mult>
+      <light_vehicle_cluster_falloff_mult>0.400000 0.400000 0.030000 0.030000 0.030000 0.400000 0.400000</light_vehicle_cluster_falloff_mult>
+      <light_vehicle_primary_falloff_mult_player>0.500000 0.500000 0.008500 0.008500 0.008500 0.500000 0.500000</light_vehicle_primary_falloff_mult_player>
+      <light_vehicle_secondary_falloff_mult_player>0.700000 0.700000 0.200000 0.200000 0.200000 0.700000 0.700000</light_vehicle_secondary_falloff_mult_player>
+      <light_vehicle_tertiary_falloff_mult_player>0.900000 0.900000 0.800000 0.800000 0.800000 0.900000 0.900000</light_vehicle_tertiary_falloff_mult_player>
+      <light_vehicle_siren_falloff_mult_player>0.700000 0.700000 0.200000 0.200000 0.200000 0.700000 0.700000</light_vehicle_siren_falloff_mult_player>
+      <light_vehicle_cluster_falloff_mult_player>0.400000 0.400000 0.030000 0.030000 0.030000 0.400000 0.400000</light_vehicle_cluster_falloff_mult_player>
+      <light_vehicle_search_falloff_mult>1.000000 1.000000 0.030000 0.030000 0.030000 1.000000 1.000000</light_vehicle_search_falloff_mult>
+      <light_vehicle_search_falloff_mult_player>1.000000 1.000000 0.100000 0.030000 0.100000 1.000000 1.000000</light_vehicle_search_falloff_mult_player>
+    </axis>
+  </modifier>
+  <modifier
+    name="SYS_Veh_light_prob_fog"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="Fog">
+      <keyframe_t_value>0.000000 0.679000 0.702000 1.000000</keyframe_t_value>
+      <light_vehicle_fog_anim_prob>0.050000 0.050000 0.700000 1.000000</light_vehicle_fog_anim_prob>
+    </axis>
+  </modifier>
+  <modifier
+    name="SYS_Veh_light_prob_cloudCover"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="4"
+  >
+    <axis controlValue="cloud_cover">
+      <keyframe_t_value>0.000000 0.695000 0.721000 1.000000</keyframe_t_value>
+      <light_vehicle_nighttime_anim_prob>0.000000 0.000000 0.400000 0.750000</light_vehicle_nighttime_anim_prob>
+    </axis>
+    <axis controlValue="Fog" input_min="0.634228" input_max="0.919463">
+      <light_vehicle_nighttime_anim_prob>0.800000 0.800000 0.800000 0.800000</light_vehicle_nighttime_anim_prob>
+    </axis>
+  </modifier>
+  <modifier
+    name="sys_veh_tunnel_falloff"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_secondary_falloff_mult>1.000000 1.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>1.000000 1.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.300000 1.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>1.000000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>1.000000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_secondary_falloff_mult_player>1.000000 1.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>1.000000 1.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_primary_falloff_mult_player>0.300000 1.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>1.000000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>1.000000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+</timecycle_modifier_data>

@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CFluidVesselManager>
+	<FluidVessels>
+		<Item key="prop_am_barrel_wood_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Barrel_Wood_01a</fluidComponentBoneId>
+                    <volumeScale value="0.1"/>
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel01ax">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>MOONSHINE</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel02x">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel03x">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel04b">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>MOONSHINE</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel010x">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>MOONSHINE</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_watertower_med_02b">
+			<spoutBoneId>waterTowSpoutVfx</spoutBoneId>
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>p_watertower_med_02b_frag_</fluidComponentBoneId>
+					<minImpulse value="20.000000" />
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+			<spoutSize value="0.100000" />
+		</Item>
+		<Item key="p_watertower_lrg_05b">
+			<spoutBoneId>waterTowSpoutVfx</spoutBoneId>
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>p_watertower_lrg_05b_frag_</fluidComponentBoneId>
+					<minImpulse value="20.000000" />
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+			<spoutSize value="0.100000" />
+		</Item>
+		<Item key="p_barrelmoonshine">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrelwater01x">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_feedbags01x">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>GRAIN</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="cart05">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>extra_2</fluidComponentBoneId>
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="oilwagon01x">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>tanker</fluidComponentBoneId>
+					<minMass value="700.000000" />
+					<shapeType value="0" />
+					<liquidType>OIL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="oilwagon02x">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>tanker</fluidComponentBoneId>
+					<minMass value="700.000000" />
+					<shapeType value="0" />
+					<liquidType>OIL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="trailerfuel">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>tanker</fluidComponentBoneId>
+					<fluidLevelBoneId>fluidlevel</fluidLevelBoneId>
+					<minMass value="500.000000" />
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="trailerjetfuel">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>tanker</fluidComponentBoneId>
+					<minMass value="500.000000" />
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="trailers_tanker">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>trlr_tnkr</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_01">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_01</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_02">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_02</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_03">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_03</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_01_med">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_01_med</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_02_med">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_02_med</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_03_med">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_03_med</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_01_lrg">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_01_lrg</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="truckbeds_tanker_02_lrg">
+			<fluidComponents>
+				<Item>
+					<shapeType value="0" />
+					<liquidType>PETROL</liquidType>
+					<fluidComponentBoneId>truckbeds_tanker_02_lrg</fluidComponentBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_barrel_cor01x">
+			<spoutBoneId />
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Main_bound</fluidComponentBoneId>
+					<fluidLevelBoneId />
+					<shapeType value="0" />
+					<liquidType>KEROSENE</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="p_waterTrough01x">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId />
+					<fluidLevelBoneId>Water_level</fluidLevelBoneId>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Crate_Water_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Water_tank_01</fluidComponentBoneId>
+					<fluidLevelBoneId />
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Keg_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Bound_ID</fluidComponentBoneId>
+					<minMass value="44.000000" />
+					<shapeType value="0" />
+					<liquidType>BEER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Keg_01b">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Liquid_Bound</fluidComponentBoneId>
+					<liquidType>BEER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tank_Plastic_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tank_Plastic_01a</fluidComponentBoneId>
+					<liquidType>WATER</liquidType>
+					<volumeScale value="0.5"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Watercooler_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Tub</fluidComponentBoneId>
+					<fluidLevelBoneId>water_level</fluidLevelBoneId>
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Watercooler_Bottle_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Tub</fluidComponentBoneId>
+					<fluidLevelBoneId>water_level</fluidLevelBoneId>
+					<shapeType value="0" />
+					<exitHolesEnabled value="true"/>
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>		
+		<Item key="Prop_Am_Tank_Plastic_01b">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tank_Plastic_01b</fluidComponentBoneId>
+					<liquidType>WATER</liquidType>
+					<volumeScale value="0.5"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tank_Plastic_01c">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tank_Plastic_01c</fluidComponentBoneId>
+					<liquidType>WATER</liquidType>
+					<volumeScale value="0.5"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tank_Fuel_04a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Tank_04a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+					<boundComponentIndex value="101"/>
+					<volumeScale value="0.25"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tank_Fuel_05a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tank_Fuel_05a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+					<volumeScale value="0.5"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tank_Fuel_06a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Tank_06a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+					<boundComponentIndex value="93"/>
+					<volumeScale value="0.25"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Barrel_Exp_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_AM_Barrel_Exp_01a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Barrel_Exp_01b">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_AM_Barrel_Exp_01b</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Barrel_Exp_01c">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_AM_Barrel_Exp_01c</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Farm_Trough_01b">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>water_level</fluidComponentBoneId>
+					<fluidLevelBoneId>water_level</fluidLevelBoneId>
+					<exitHoleDistMaxImpulseMult value="0.05"/>
+					<exitHoleDistMaxSizeMult value="0.05"/>
+					<exitHolesEnabled value="true"/>
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Barrel_WaterButt_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>WaterBound_coll</fluidComponentBoneId>
+					<fluidLevelBoneId />
+					<shapeType value="0" />
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_JerryCan_Exp_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_JerryCan_Exp_01a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+					<volumeScale value="0.75"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Fuel_Can_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Wpn_Anim_GripPrimary</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+					<volumeScale value="0.75"/>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Oil_Container_04a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Oil_Container_04a</fluidComponentBoneId>
+					<liquidType>OIL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Oil_Container_05a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Oil_Container_05a</fluidComponentBoneId>
+					<liquidType>OIL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_AM_Water_Container_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_AM_Water_Container_01a</fluidComponentBoneId>
+					<liquidType>WATER</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Oil_Drain_Tank_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>Prop_Am_Oil_Drain_Tank_01a</fluidComponentBoneId>
+					<boundComponentIndex value="0"/>
+					<liquidType>OIL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tool_Generator_01a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tool_Generator_01a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>
+		<Item key="Prop_Am_Tool_Generator_02a">
+			<fluidComponents>
+				<Item>
+					<fluidComponentBoneId>rsBone_Prop_Am_Tool_Generator_02a</fluidComponentBoneId>
+					<liquidType>PETROL</liquidType>
+				</Item>
+			</fluidComponents>
+		</Item>			
+	</FluidVessels>
+</CFluidVesselManager>

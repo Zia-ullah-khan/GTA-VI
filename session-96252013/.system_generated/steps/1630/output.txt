@@ -1,0 +1,15 @@
+Created At: 2026-11-25T18:20:10-05:00
+Completed At: 2026-11-25T18:20:13-05:00
+Command exited with code 0.
+
+Command output:
+total decomp_flag_calls: 31
+sample keys: ['script', 'function', 'line', 'method', 'id_hash', 'id_line', 'id_name', 'result_used', 'text']
+Ch1 hits: 7
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572976, 'method': 0, 'id_hash': '0xE48C934A', 'id_line': 572975, 'id_name': 'FT_KMODSHP_SECOND', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10AB3D_1, v_10AB39_0[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572980, 'method': 0, 'id_hash': '0x2D7D2164', 'id_line': 572979, 'id_name': 'COM_KBOS_SHOP', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10AB55_3, v_10AB51_2[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572984, 'method': 0, 'id_hash': '0x5AE70594', 'id_line': 572983, 'id_name': 'COM_KBOS_COLAT', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10AB6D_5, v_10AB69_4[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572988, 'method': 0, 'id_hash': '0x21D03E4F', 'id_line': 572987, 'id_name': 'COM_KBOS_RADR', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10AB85_7, v_10AB81_6[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572992, 'method': 0, 'id_hash': '0xC8513199', 'id_line': 572991, 'id_name': 'COM_KBOS_NEIGHB', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10AB9D_9, v_10AB99_8[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 572996, 'method': 0, 'id_hash': '0x10BE4C94', 'id_line': 572995, 'id_name': 'COM_KBOS_CLEAN', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10ABB5_11, v_10ABB1_10[0], 1);'}
+  {'script': '0xD2601E252151E04B.ysc.cs', 'function': 'func_10AA55', 'line': 573000, 'method': 0, 'id_hash': '0x420623AF', 'id_line': 572999, 'id_name': 'HO_PAR_KEYCO', 'result_used': False, 'text': 'Virtual.type_37658EE3464E5234.Method_0(v_10ABCD_13, v_10ABC9_12[0], 1);'}

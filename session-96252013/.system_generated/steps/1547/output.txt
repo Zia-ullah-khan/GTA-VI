@@ -1,0 +1,232 @@
+Created At: 2026-11-25T18:13:55-05:00
+Completed At: 2026-11-25T18:13:59-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x14011fe80 ===
+  0x14011fe80: and al, 0x3c
+  0x14011fe82: call 0x144fd22b0
+  0x14011fe87: test al, al
+  0x14011fe89: jne 0x1401200f3
+  0x14011fe8f: vmovss xmm0, dword ptr [rip + 0x5ea7041]
+  0x14011fe97: vmovss dword ptr [rsp + 0x74], xmm0
+  0x14011fe9d: mov edi, 1
+  0x14011fea2: call 0x144fd22b0
+  0x14011fea7: test al, al
+  0x14011fea9: jne 0x1401200fd
+  0x14011feaf: vmovss xmm8, dword ptr [rip + 0x9042d99]
+  0x14011feb7: vmovss xmm0, dword ptr [rip + 0x9042d8d]
+  0x14011febf: mov dword ptr [rsp + 0x38], edi
+  0x14011fec3: movzx eax, byte ptr [rip + 0x9042d8a]
+  0x14011feca: movzx edi, byte ptr [rip + 0x9042d85]
+  0x14011fed1: vmovsd xmm2, qword ptr [rip + 0x9042d67]
+  0x14011fed9: mov dword ptr [rsp + 0x40], eax
+  0x14011fedd: mov dword ptr [rsp + 0x44], edi
+  0x14011fee1: movzx eax, byte ptr [rip + 0x9042ddc]
+  0x14011fee8: vmovss dword ptr [rsp + 0x4c], xmm8
+  0x14011feee: vmovss dword ptr [rsp + 0x58], xmm0
+  0x14011fef4: vmovss xmm0, dword ptr [rip + 0x9042d98]
+  0x14011fefc: mov dword ptr [rsp + 0x6c], 0x461c4000
+  0x14011ff04: mov dword ptr [rsp + 0x70], eax
+  0x14011ff08: mov dword ptr [rsp + 0x94], ebx
+  0x14011ff0f: mov eax, dword ptr [rip + 0x9042d47]
+  0x14011ff15: vmovss dword ptr [rsp + 0xac], xmm0
+  0x14011ff1e: vmovss xmm0, dword ptr [rip + 0x9042d56]
+  0x14011ff26: vmovss dword ptr [rsp + 0xa8], xmm0
+  0x14011ff2f: vcvtsi2ss xmm0, xmm1, rax
+  0x14011ff34: mov eax, dword ptr [rip + 0x9042d2e]
+  0x14011ff3a: vcvtsi2ss xmm1, xmm1, rax
+  0x14011ff3f: vmovss dword ptr [rsp + 0x80], xmm0
+  0x14011ff48: movzx eax, byte ptr [rip + 0x9042d56]
+  0x14011ff4f: vmovss dword ptr [rsp + 0x84], xmm1
+  0x14011ff58: mov dword ptr [rsp + 0x88], 0x40733333
+  0x14011ff63: vmovsd qword ptr [rsp + 0x8c], xmm2
+  0x14011ff6c: vmovss dword ptr [rsp + 0x98], xmm0
+  0x14011ff75: vmovss xmm0, dword ptr [rip + 0x9042ccb]
+  0x14011ff7d: vmovss dword ptr [rsp + 0x9c], xmm0
+  0x14011ff86: mov dword ptr [rsp + 0xb0], eax
+=== 0x14067f860 ===
+  0x14067f860: mov rax, qword ptr [rip + 0x63e7fc9]
+  0x14067f867: ret 
+  0x14067f868: int3 
+  0x14067f869: int3 
+  0x14067f86a: int3 
+  0x14067f86b: int3 
+  0x14067f86c: int3 
+  0x14067f86d: int3 
+  0x14067f86e: int3 
+  0x14067f86f: int3 
+  0x14067f870: mov rax, qword ptr [rip + 0x648a409]
+  0x14067f877: ret 
+  0x14067f878: int3 
+  0x14067f879: int3 
+  0x14067f87a: int3 
+  0x14067f87b: int3 
+  0x14067f87c: int3 
+  0x14067f87d: int3 
+  0x14067f87e: int3 
+  0x14067f87f: int3 
+  0x14067f880: mov rax, qword ptr [rip + 0x673e371]
+  0x14067f887: ret 
+  0x14067f888: int3 
+  0x14067f889: int3 
+  0x14067f88a: int3 
+  0x14067f88b: int3 
+  0x14067f88c: int3 
+  0x14067f88d: int3 
+  0x14067f88e: int3 
+  0x14067f88f: int3 
+  0x14067f890: mov rax, qword ptr [rip + 0x632de79]
+  0x14067f897: ret 
+  0x14067f898: int3 
+  0x14067f899: int3 
+  0x14067f89a: int3 
+  0x14067f89b: int3 
+  0x14067f89c: int3 
+  0x14067f89d: int3 
+  0x14067f89e: int3 
+  0x14067f89f: int3 
+  0x14067f8a0: mov rax, qword ptr [rip + 0x66fa519]
+  0x14067f8a7: ret 
+  0x14067f8a8: int3 
+  0x14067f8a9: int3 
+  0x14067f8aa: int3 
+  0x14067f8ab: int3 
+  0x14067f8ac: int3 
+  0x14067f8ad: int3 
+  0x14067f8ae: int3 
+  0x14067f8af: int3 
+  0x14067f8b0: mov rax, qword ptr [rip + 0x63e84c9]
+  0x14067f8b7: ret 
+  0x14067f8b8: int3 
+  0x14067f8b9: int3 
+  0x14067f8ba: int3 
+  0x14067f8bb: int3 
+  0x14067f8bc: int3 
+  0x14067f8bd: int3 
+  0x14067f8be: int3 
+  0x14067f8bf: int3 
+  0x14067f8c0: mov rax, qword ptr [rip + 0x648a191]
+  0x14067f8c7: ret 
+  0x14067f8c8: int3 
+  0x14067f8c9: int3 
+  0x14067f8ca: int3 
+  0x14067f8cb: int3 
+  0x14067f8cc: int3 
+  0x14067f8cd: int3 
+  0x14067f8ce: int3 
+  0x14067f8cf: int3 
+  0x14067f8d0: mov rax, qword ptr [rip + 0x653d551]
+  0x14067f8d7: ret 
+  0x14067f8d8: int3 
+  0x14067f8d9: int3 
+  0x14067f8da: int3 
+  0x14067f8db: int3 
+  0x14067f8dc: int3 
+  0x14067f8dd: int3 
+  0x14067f8de: int3 
+  0x14067f8df: int3 
+  0x14067f8e0: push r15
+  0x14067f8e2: push r14
+  0x14067f8e4: push rsi
+  0x14067f8e5: push rdi
+  0x14067f8e6: push rbx
+  0x14067f8e7: sub rsp, 0x2a0
+  0x14067f8ee: mov rsi, rcx
+  0x14067f8f1: call 0x144ecf9d0
+  0x14067f8f6: mov rdi, qword ptr [rsi + 0x10]
+  0x14067f8fa: mov rcx, rdi
+  0x14067f8fd: call 0x14067fbe0
+  0x14067f902: test al, al
+  0x14067f904: jne 0x14067f926
+  0x14067f906: cmp word ptr [rsi + 0x2b0], 0x7ff
+  0x14067f90f: ja 0x14067f9a8
+  0x14067f915: lea rcx, [rsi + 0x290]
+  0x14067f91c: call 0x140c3b8c0
+  0x14067f921: jmp 0x14067f9a8
+  0x14067f926: vmovaps xmm0, xmmword ptr [rdi + 0x70]
+  0x14067f92b: lea rcx, [rsp + 0x40]
+=== 0x14407e6f0 ===
+  0x14407e6f0: jmp 0x14541f000
+  0x14407e6f5: int3 
+  0x14407e6f6: int3 
+  0x14407e6f7: int3 
+  0x14407e6f8: int3 
+  0x14407e6f9: int3 
+  0x14407e6fa: int3 
+  0x14407e6fb: int3 
+  0x14407e6fc: int3 
+  0x14407e6fd: int3 
+  0x14407e6fe: int3 
+  0x14407e6ff: int3 
+  0x14407e700: push r15
+  0x14407e702: push r14
+  0x14407e704: push r13
+  0x14407e706: push r12
+  0x14407e708: push rsi
+  0x14407e709: push rdi
+  0x14407e70a: push rbp
+  0x14407e70b: push rbx
+  0x14407e70c: sub rsp, 0x68
+  0x14407e710: mov r13, qword ptr [rsp + 0xd8]
+  0x14407e718: mov rsi, rcx
+  0x14407e71b: test r13, r13
+  0x14407e71e: je 0x14407e728
+  0x14407e720: mov dword ptr [r13], 0
+  0x14407e728: test r9b, r9b
+  0x14407e72b: je 0x14407e731
+  0x14407e72d: mov qword ptr [rsi + 0x10], rdx
+  0x14407e731: test rdx, rdx
+  0x14407e734: setne al
+  0x14407e737: test r8d, r8d
+  0x14407e73a: setne cl
+  0x14407e73d: test al, cl
+  0x14407e73f: jne 0x14407e757
+  0x14407e741: test r13, r13
+  0x14407e744: je 0x14407ebb4
+  0x14407e74a: mov dword ptr [r13], 2
+  0x14407e752: jmp 0x14407ebb4
+  0x14407e757: movbe r14d, dword ptr [rdx + 4]
+  0x14407e75d: mov rbp, qword ptr [rsp + 0xd0]
+  0x14407e765: cmp r14d, r8d
+  0x14407e768: jbe 0x14407e77f
+  0x14407e76a: xor r10d, r10d
+  0x14407e76d: xor r11d, r11d
+  0x14407e770: xor eax, eax
+  0x14407e772: xor r12d, r12d
+  0x14407e775: xor edi, edi
+  0x14407e777: xor r14d, r14d
+  0x14407e77a: jmp 0x14407eb9a
+  0x14407e77f: movbe ecx, dword ptr [rdx]
+  0x14407e783: mov ebp, r8d
+  0x14407e786: lea rbx, [rdx + r14]
+  0x14407e78a: add rbp, rdx
+  0x14407e78d: cmp ecx, 0x50534347
+  0x14407e793: jg 0x14407e7df
+  0x14407e795: cmp ecx, 0x4c525342
+  0x14407e79b: jg 0x14407e856
+  0x14407e7a1: cmp ecx, 0x4c454e4c
+  0x14407e7a7: jg 0x14407e8dd
+  0x14407e7ad: cmp ecx, 0x43484b53
+  0x14407e7b3: je 0x14407ea33
+  0x14407e7b9: cmp ecx, 0x47554944
+  0x14407e7bf: jne 0x14407f1c4
+  0x14407e7c5: lea rax, [rdx + 8]
+  0x14407e7c9: lea ecx, [r14 - 8]
+  0x14407e7cd: mov qword ptr [rsi + 0x80], rax
+  0x14407e7d4: mov dword ptr [rsi + 0x88], ecx
+  0x14407e7da: jmp 0x14407eb19
+  0x14407e7df: xor r10d, r10d
+  0x14407e7e2: xor r15d, r15d
+  0x14407e7e5: cmp ecx, 0x5354464d
+  0x14407e7eb: jg 0x14407e894
+  0x14407e7f1: cmp ecx, 0x5053494d
+  0x14407e7f7: jg 0x14407e90f
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001b35c000.bin idx= 0x580 type= 0x204 hdr= 4c534e53000003b40100000004020000a00300007b4b656fafff31f88c475e13
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001b35d000.bin idx= 0x7e0 type= 0x204 hdr= 4c534e5300000534010000000402000020050000239559de68f13227b1bb121d
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001b362000.bin idx= 0x2340 type= 0x204 hdr= 4c534e5300002914010000000402000000290000e6bdf4238482029a2c160297
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001b37e000.bin idx= 0xc88 type= 0x204 hdr= 4c534e530000045c02000000040200006000000007020000e0030000e798106a
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001b7b0000.bin idx= 0xa860 type= 0x207 hdr= 4c534e5300014a040100000007020000f04901008d7aecc9acc7a271c6a7b827
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001bd7c000.bin idx= 0x1da0 type= 0x207 hdr= 4c534e53000000540100000007020000400000008bd083749c5314e3864698e3
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001c2e1000.bin idx= 0x1fd0 type= 0x102 hdr= 4c534e53000008040100000002010000f00700006619df2916e7fbc9c91c8416
+Special: C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\extracted_data\data_001c31e000.bin idx= 0x185c0 type= 0x207 hdr= 4c534e53000031b40100000007020000a031000039042ee01a613d8d0489c644

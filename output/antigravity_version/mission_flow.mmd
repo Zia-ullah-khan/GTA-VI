@@ -1,0 +1,248 @@
+%% ==========================================================================
+%% GTA VI Campaign Mission Flow Architecture — Antigravity Edition
+%% Features: Full in-game mission titles, linear bottlenecks, parallel pipelines, and Any% branches
+%% Legend: Red = Bottleneck Gate, Blue = Main Story Core, Gray = Side Strand / Compound, Gold = Branching
+%% ==========================================================================
+flowchart TD
+
+    subgraph Chapter_1["Chapter 1: Just Like Paradise (Leonida Keys) — 21 Missions"]
+        direction TB
+        m_INT_PROLO["<b>Prologue</b><br/><code>INT_PROLO</code> • <i>Campaign Opening Prologue Gate</i>"]:::bottleneck
+        m_INT_CHASE["<b>Gone Fishing</b><br/><code>INT_CHASE</code> • <i>Main Story Core (Boat Drop)</i>"]:::coreStory
+        m_COM_KBOS_COLAT["<b>Unwanted Attention</b><br/><code>COM_KBOS_COLAT</code> • <i>Side Strand (Cal / $200 Mailbox) [ANY% SKIP]</i>"]:::sideStrand
+        m_COM_KBOS_NEIGHB["<b>Pipework</b><br/><code>COM_KBOS_NEIGHB</code> • <i>Side Strand (Mandy Maintenance) [ANY% SKIP]</i>"]:::sideStrand
+        m_FT_AMUCO["<b>Gear Up</b><br/><code>FT_AMUCO</code> • <i>Main Story Core (Longarm Pickup)</i>"]:::coreStory
+        m_FT_KMODSHP["<b>Just a Scratch</b><br/><code>FT_KMODSHP</code> • <i>★ MANDATORY STORY GATE ★ (Ganado Repair)</i>"]:::bottleneck
+        m_COM_KBOS_SHOP["<b>Lab Fees</b><br/><code>COM_KBOS_SHOP</code> • <i>Side Strand (Rent Collection) [ANY% SKIP]</i>"]:::sideStrand
+        m_COM_KBOS_RADR["<b>Hey Arnold!</b><br/><code>COM_KBOS_RADR</code> • <i>Side Strand [08:00–16:00] [ANY% SKIP]</i>"]:::sideStrand
+        m_CSC_TRH_CHART["<b>Island Dreams</b><br/><code>CSC_TRH_CHART</code> • <i>Side Strand (Kenton Diving) [ANY% SKIP]</i>"]:::sideStrand
+        m_COM_SFH_MVFN["<b>Feng Shui</b><br/><code>COM_SFH_MVFN</code> • <i>Main Story Core (Furniture Move / 24h Wait)</i>"]:::coreStory
+        m_INT_PRISO["<b>Coming Home</b><br/><code>INT_PRISO</code> • <i>Main Story Core (Lucia Prison Release)</i>"]:::coreStory
+        m_CTI_PIL_RD_SH["<b>Find Donnie's Package</b><br/><code>CTI_PIL_RD_SH</code> • <i>Main Story Core (Swamp Drug Retrieval)</i>"]:::coreStory
+        m_INT_BANK["<b>Buck Me</b><br/><code>INT_BANK</code> • <i>Mandatory Banking Setup Gate</i>"]:::bottleneck
+        m_COM_KBOS_PLNDATE["<b>Down to Earth</b><br/><code>COM_KBOS_PLNDATE</code> • <i>Main Story Core (Seaplane Smuggling)</i>"]:::coreStory
+        m_INT_PLNSH["<b>Clear Skies</b><br/><code>INT_PLNSH</code> • <i>Main Story Core [07:00–23:00] (Southwind Bikers)</i>"]:::coreStory
+        m_BIL_FUN["<b>Day Release</b><br/><code>BIL_FUN</code> • <i>Main Story Core [07:00–17:00] (Rusty Anchor & Club)</i>"]:::coreStory
+        m_INT_AIR["<b>Swamped</b><br/><code>INT_AIR</code> • <i>Main Story Core (Kingfishers Ambush / Donnie Killed)</i>"]:::coreStory
+        m_COM_KBOS_CLEAN["<b>Don Gone</b><br/><code>COM_KBOS_CLEAN</code> • <i>Side Strand (Donnie Trailer Evidence) [ANY% SKIP]</i>"]:::sideStrand
+        m_HO_PAR_KEYCO["<b>Recalibration</b><br/><code>HO_PAR_KEYCO</code> • <i>Side Strand (Cal Grief Fishing) [ANY% SKIP]</i>"]:::sideStrand
+        m_BIL_PICK["<b>Tourist Trap</b><br/><code>BIL_PICK</code> • <i>Main Story Core [10:00–17:00 / 17:00–10:00] (Locker Ambush)</i>"]:::coreStory
+        m_BIL_HOUSE["<b>Home Sweet Home</b><br/><code>BIL_HOUSE</code> • <i>Main Story Core (Lucia Solo / House Torched)</i>"]:::coreStory
+        m_BIL_WHEEL["<b>Discharge Time</b><br/><code>BIL_WHEEL</code> • <i>★ CHAPTER 1 FINALE CLIMAX ★ (Hospital Shootout Escape)</i>"]:::bottleneck
+    end
+
+    subgraph Chapter_2["Chapter 2: Paradise Lost (Port Gellhorn & Kelly County) — 18 Missions"]
+        direction TB
+        m_MTL_WAKE["<b>What's in the Bag? (Starlet Motel Arrival)</b><br/><code>MTL_WAKE</code> • <i>Chapter 2 Opening Gate (Barrier sweep of Ch1 compound flags in func_10AA55)</i>"]:::bottleneck
+        m_MTL_DRIVE["<b>Daily Driver (Kelly County Road)</b><br/><code>MTL_DRIVE</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_AMBUL["<b>Ambulance Chaser (Hospital Visit)</b><br/><code>MTL_AMBUL</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_CHECK["<b>Play Nurse</b><br/><code>MTL_CHECK</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_CHECK_LOW_REL["<b>Play Nurse</b><br/><code>MTL_CHECK_LOW_REL</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_CHECK_HIGH_REL["<b>Play Nurse</b><br/><code>MTL_CHECK_HIGH_REL</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_0x0F9ED9C2["<b>0x0F9ED9C2</b><br/><code>0x0F9ED9C2</code> • <i>Other Strand</i>"]:::sideStrand
+        m_MTL_PAIN["<b>Painkiller Supplier (Pharmacy Run)</b><br/><code>MTL_PAIN</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_MONT["<b>Hit Kingpin Bowling (Monty Meet)</b><br/><code>MTL_MONT</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_MONT_AUTOLAUNCH["<b>MTL_MONT_AUTOLAUNCH</b><br/><code>MTL_MONT_AUTOLAUNCH</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_0x4CB4EB61["<b>0x4CB4EB61</b><br/><code>0x4CB4EB61</code> • <i>Other Strand</i>"]:::sideStrand
+        m_MTL_CONT["<b>Behind on Payments (Contact Meet)</b><br/><code>MTL_CONT</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_MTL_MUD["<b>Girls' Trip / Mud Run</b><br/><code>MTL_MUD</code> • <i>Main Story Core (Kelly County Arc)</i>"]:::coreStory
+        m_BIL_MOTEL["<b>Checking Out (Starlet Motel Climax)</b><br/><code>BIL_MOTEL</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::branching
+        m_BIL_MOTEL_NON_VIOLENT["<b>Checking Out</b><br/><code>BIL_MOTEL_NON_VIOLENT</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_MOTEL_VIOLENT["<b>Checking Out</b><br/><code>BIL_MOTEL_VIOLENT</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_MOTEL_AUTOLAUNCH["<b>BIL_MOTEL_AUTOLAUNCH</b><br/><code>BIL_MOTEL_AUTOLAUNCH</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_0x24AB0C66["<b>0x24AB0C66</b><br/><code>0x24AB0C66</code> • <i>Other Strand</i>"]:::sideStrand
+    end
+
+    subgraph Chapter_3["Chapter 3: Vice City Syndicate Expansion (Sinfrontera Heist) — 32 Missions"]
+        direction TB
+        m_CLB_MEET["<b>Welcome to Vice City (Club Meet)</b><br/><code>CLB_MEET</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_CLB_DEAL["<b>Dealer's Choice (Club Deal)</b><br/><code>CLB_DEAL</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_ANT_INTRO["<b>Dubious Provenance (Anton Intro)</b><br/><code>ANT_INTRO</code> • <i>Other Strand</i>"]:::branching
+        m_ANT_INTRO_APARTMENT["<b>Dubious Provenance</b><br/><code>ANT_INTRO_APARTMENT</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ANT_INTRO_STORAGE["<b>Dubious Provenance</b><br/><code>ANT_INTRO_STORAGE</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ANT_SRCH["<b>Dubious Provenance</b><br/><code>ANT_SRCH</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ANT_CHASE["<b>Dubious Provenance</b><br/><code>ANT_CHASE</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ANT_CHASE_AUTOLAUNCH["<b>Dubious Provenance</b><br/><code>ANT_CHASE_AUTOLAUNCH</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ROB_VEH["<b>Car Service (Vehicle Robbery)</b><br/><code>ROB_VEH</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_ROB_DRIVE["<b>Ride or Die (Getaway Drive)</b><br/><code>ROB_DRIVE</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_BIL_RED["<b>Credit Check (Red Line Meet)</b><br/><code>BIL_RED</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_CLB_SCUFF["<b>Crosstown Traffic (Club Scuffle)</b><br/><code>CLB_SCUFF</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_ROB_BOAT_J["<b>Setting Sail (Boat Heist)</b><br/><code>ROB_BOAT_J</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::branching
+        m_ROB_BOAT_L_LUCIA["<b>Crosstown Traffic</b><br/><code>ROB_BOAT_L_LUCIA</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_ROB_BOAT_J_JASON["<b>Crosstown Traffic</b><br/><code>ROB_BOAT_J_JASON</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_ROB_BOAT_L["<b>Crosstown Traffic</b><br/><code>ROB_BOAT_L</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_CLB_STEAL["<b>Steal Zorrusso for Randy (Club Heist)</b><br/><code>CLB_STEAL</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_ROB_BANK["<b>Hit Avery Pawn (Robbery)</b><br/><code>ROB_BANK</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_CLB_SETUP["<b>CLB_SETUP</b><br/><code>CLB_SETUP</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_BAN_SETUP["<b>Sinfrontera National Bank (Heist Scope)</b><br/><code>BAN_SETUP</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_BAN_RESCU["<b>The Missing Link (Hostage Rescue)</b><br/><code>BAN_RESCU</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_BAN_EXPLO["<b>Company Property (Vault Charges)</b><br/><code>BAN_EXPLO</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_BAN_CARTE["<b>Hidden Charges (Rig 3 Towers)</b><br/><code>BAN_CARTE</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_BAN_SAFE["<b>Security Expert / Safe Word (Drill)</b><br/><code>BAN_SAFE</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_CLB_VIDEO["<b>Tyrone (Blackmail Video)</b><br/><code>CLB_VIDEO</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_CLB_VIDEO_JASON["<b>CLB_VIDEO_JASON</b><br/><code>CLB_VIDEO_JASON</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_CLB_VIDEO_LUCIA["<b>CLB_VIDEO_LUCIA</b><br/><code>CLB_VIDEO_LUCIA</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_BAN_PKBMB["<b>Bricked Up / Cooties (Package Bomb)</b><br/><code>BAN_PKBMB</code> • <i>Main Story Core (Cartel Heist Arc)</i>"]:::coreStory
+        m_CLB_TOWER["<b>Here, Kitty Kitty (Tower Block)</b><br/><code>CLB_TOWER</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_BAN_FINAL["<b>THE CARTEL HEIST (Sinfrontera Vault Raid)</b><br/><code>BAN_FINAL</code> • <i>Chapter 3 Cartel Heist Climax</i>"]:::bottleneck
+        m_ANT_RECOV["<b>Dubious Provenance</b><br/><code>ANT_RECOV</code> • <i>Other Strand</i>"]:::sideStrand
+        m_ANT_GIVE["<b>Dubious Provenance</b><br/><code>ANT_GIVE</code> • <i>Other Strand</i>"]:::sideStrand
+    end
+
+    subgraph Chapter_4["Chapter 4: Vice City Metro & Airport Takedown (VCIA Cargo Heist) — 30 Missions"]
+        direction TB
+        m_MNY_HOTEL["<b>Ocean Beach (Y Hotel Safehouse)</b><br/><code>MNY_HOTEL</code> • <i>Chapter 4 Opening Gate (Barrier sweep of ANT_* flags in func_10AA55)</i>"]:::bottleneck
+        m_MNY_HOTEL_AUTOLAUNCH["<b>Ocean Beach</b><br/><code>MNY_HOTEL_AUTOLAUNCH</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_MNY_CAR["<b>Company Cars (Luxury Fleet)</b><br/><code>MNY_CAR</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_MNY_PARTY["<b>Party Hard ($75k Wire Gate)</b><br/><code>MNY_PARTY</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_CLB_HELI["<b>Heavy Lifting (Helicopter Smuggle)</b><br/><code>CLB_HELI</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_AIR_TAIL["<b>Too Much Baggage (Courier Tail)</b><br/><code>AIR_TAIL</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_TRAIN["<b>Making Gainz (Cargo Train Intercept)</b><br/><code>AIR_TRAIN</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_SCOPE["<b>Close Surveillance (VCIA Scope Out)</b><br/><code>AIR_SCOPE</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_CLB_PROMO["<b>Watch It (Nightclub Promotion)</b><br/><code>CLB_PROMO</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_MNY_ESCRT["<b>Amateur Hour (VIP Escort)</b><br/><code>MNY_ESCRT</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_AIR_BUS["<b>Cash Injections (Shuttle Bus Infiltration)</b><br/><code>AIR_BUS</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_BEACH["<b>Adventures in Babysitting (Beach Recon)</b><br/><code>AIR_BEACH</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_CLB_EVI["<b>Fresh Evidence (Club Blackmail)</b><br/><code>CLB_EVI</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_AIR_TRUCK["<b>Team Building (Armored Truck Hijack)</b><br/><code>AIR_TRUCK</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_GANG["<b>Power Play (Gang Distraction)</b><br/><code>AIR_GANG</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_MNY_KIDNP["<b>Child's Play (Kidnapping Leverage)</b><br/><code>MNY_KIDNP</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_MNY_KIDNP_AUTO-LAUNCH["<b>Child's Play</b><br/><code>MNY_KIDNP_AUTO-LAUNCH</code> • <i>Main Story Core (Money Laundering Arc)</i>"]:::coreStory
+        m_AIR_DRONE["<b>Dirty Work (Drone Surveillance)</b><br/><code>AIR_DRONE</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_HACK["<b>Digital Fortress (VCIA Security Hack)</b><br/><code>AIR_HACK</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_RECRU["<b>Ground Crew (Inside Informant)</b><br/><code>AIR_RECRU</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_CATER["<b>Fully Catered (Catering Van Infiltration)</b><br/><code>AIR_CATER</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::branching
+        m_AIR_CATER_DHF["<b>Fully Catered</b><br/><code>AIR_CATER_DHF</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_CATER_DHP["<b>Fully Catered</b><br/><code>AIR_CATER_DHP</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_CATER_DHS["<b>Fully Catered</b><br/><code>AIR_CATER_DHS</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_CLB_PARTY["<b>Headliners (Dre'Quan Concert Finale)</b><br/><code>CLB_PARTY</code> • <i>Narrative Strand (Nightclub Arc)</i>"]:::sideStrand
+        m_AIR_FINAL["<b>VCIA TAKEDOWN (Major Airport Cargo Heist)</b><br/><code>AIR_FINAL</code> • <i>Chapter 4 Airport Operation Climax</i>"]:::bottleneck
+        m_AIR_FINAL_DATA_HACK_FAILED["<b>VCIA Takedown</b><br/><code>AIR_FINAL_DATA_HACK_FAILED</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_AIR_FINAL_DATA_HACK_PASSED["<b>VCIA Takedown</b><br/><code>AIR_FINAL_DATA_HACK_PASSED</code> • <i>Main Story Core (Airport Operation Arc)</i>"]:::coreStory
+        m_ROB_DEATH["<b>Sunset (Lockdown / Point of No Return)</b><br/><code>ROB_DEATH</code> • <i>Main Story Core (Heist / Robbery Ops)</i>"]:::coreStory
+        m_BIL_CONFR["<b>Starting From Zero (Chapter 4 Evacuation)</b><br/><code>BIL_CONFR</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+    end
+
+    subgraph Chapter_5["Chapter 5: Top of the World, Ma! (Climax & Branching Endings) — 18 Missions"]
+        direction TB
+        m_COA_HELIS["<b>Top of the World (Helicopter Assault)</b><br/><code>COA_HELIS</code> • <i>Main Story Core (Coastal / Finale Arc)</i>"]:::coreStory
+        m_BIL_PREG["<b>Scorched Earth (Evacuation)</b><br/><code>BIL_PREG</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_BOSS["<b>Bait and Switch (Luring Strike Teams)</b><br/><code>BIL_BOSS</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_COA_DOG["<b>Two Hundred Percent (K9 / Compound Raid)</b><br/><code>COA_DOG</code> • <i>Main Story Core (Coastal / Finale Arc)</i>"]:::coreStory
+        m_COA_SHIP["<b>Operation Savage Glory</b><br/><code>COA_SHIP</code> • <i>Main Story Core (Coastal / Finale Arc)</i>"]:::coreStory
+        m_COA_RAID["<b>Operation Savage Glory</b><br/><code>COA_RAID</code> • <i>Main Story Core (Coastal / Finale Arc)</i>"]:::coreStory
+        m_BIL_LAW["<b>Law & Disorder (Coast Guard Intercept)</b><br/><code>BIL_LAW</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_PENT["<b>FINAL STANDOFF (Key West Penthouse Standoff)</b><br/><code>BIL_PENT</code> • <i>Chapter 5 Penthouse Confrontation (Mutually exclusive branching gate)</i>"]:::bottleneck
+        m_BIL_PENT_M_MENDEZ["<b>Ending M Target: Mendez Confrontation</b><br/><code>BIL_PENT_M_MENDEZ</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_PENT_B_BRIAN["<b>Ending B Target: Brian Deal</b><br/><code>BIL_PENT_B_BRIAN</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_PENT_B["<b>The End of the Road</b><br/><code>BIL_PENT_B</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_PENT_M["<b>The End of the Road</b><br/><code>BIL_PENT_M</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_PRECI["<b>Point Blank (Precipice Standoff)</b><br/><code>BIL_PRECI</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_FINAL["<b>The End of the Road</b><br/><code>BIL_FINAL</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_FINAL_B["<b>Ending B: The Deal (Speedrun Route / Immunity Agreement)</b><br/><code>BIL_FINAL_B</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_BIL_FINAL_M["<b>The End of the Road</b><br/><code>BIL_FINAL_M</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+        m_FIN_CONT["<b>Final Evacuation (Post-Credits Epilogue)</b><br/><code>FIN_CONT</code> • <i>Campaign Epilogue / Post-Credits Transition</i>"]:::bottleneck
+        m_BIL_FINALE_M["<b>Ending A: Bonnie & Clyde (Loyalty / Mendez Pursuit - $2M Reward)</b><br/><code>BIL_FINALE_M</code> • <i>Main Story Core (Billy Narrative Arc)</i>"]:::coreStory
+    end
+
+    %% --- CHAPTER 1 PROGRESSION & BARRIER SWEEP ---
+    m_INT_PROLO ==>|Prologue Opening Gate| m_INT_CHASE
+    m_INT_CHASE ==> m_INT_PRISO
+    m_INT_PRISO ==> m_INT_BANK
+    m_INT_BANK --> m_BIL_FUN
+    m_BIL_FUN --> m_INT_PLNSH
+    m_INT_PLNSH --> m_INT_AIR
+    m_INT_AIR --> m_BIL_PICK
+    m_BIL_PICK --> m_BIL_HOUSE
+    m_BIL_HOUSE --> m_BIL_WHEEL
+    m_BIL_WHEEL ==>|Chapter 1 Story Climax Transition| m_MTL_WAKE
+
+    %% Replay Unlock Links
+    m_BIL_WHEEL -.->|Unlocks in Replay Menu| m_BIL_PICK
+    m_BIL_WHEEL -.->|Unlocks in Replay Menu| m_BIL_HOUSE
+
+    %% Chapter 1 Sweep in func_10AA55
+    m_MTL_WAKE -.->|Engine Barrier Sweep Clears Chapter 1 Flags| m_BIL_WHEEL
+
+    %% --- CHAPTER 2 PROGRESSION ---
+    m_MTL_WAKE ==> m_MTL_DRIVE
+    m_MTL_DRIVE --> m_MTL_AMBUL
+    m_MTL_AMBUL --> m_MTL_PAIN
+    m_MTL_PAIN --> m_MTL_MONT
+    m_MTL_MONT --> m_MTL_CONT
+    m_MTL_CONT --> m_MTL_MUD
+    m_MTL_MUD ==> m_BIL_MOTEL
+    m_BIL_MOTEL ==>|Port Gellhorn Evacuation Climax| m_CLB_MEET
+    m_BIL_MOTEL -.->|Dialogue Choice| m_BIL_MOTEL_NV["Non-Violent Dialogue Path<br/><code>BIL_MOTEL_NON_VIOLENT</code>"]:::branching
+    m_BIL_MOTEL -.->|Combat Choice| m_BIL_MOTEL_V["Violent Gunfight Path<br/><code>BIL_MOTEL_VIOLENT</code>"]:::branching
+
+    %% --- CHAPTER 3 PROGRESSION & SINFRONTERA HEIST ---
+    m_CLB_MEET --> m_CLB_DEAL
+    m_CLB_DEAL --> m_ANT_INTRO
+    m_ANT_INTRO --> m_ROB_VEH
+    m_ROB_VEH --> m_ROB_DRIVE
+    m_ROB_DRIVE --> m_BIL_RED
+    m_BIL_RED --> m_CLB_SCUFF
+    m_CLB_SCUFF ==>|Heist Planning Board Unlocked| m_BAN_SETUP
+
+    m_BAN_SETUP --> m_BAN_RESCU
+    m_BAN_SETUP --> m_BAN_EXPLO
+    m_BAN_SETUP --> m_BAN_CARTE
+    m_BAN_SETUP --> m_BAN_SAFE
+    m_BAN_SETUP --> m_BAN_PKBMB
+    m_BAN_EXPLO --> m_BAN_FINAL
+    m_BAN_CARTE --> m_BAN_FINAL
+    m_BAN_SAFE --> m_BAN_FINAL
+    m_BAN_PKBMB --> m_BAN_FINAL
+    m_BAN_FINAL ==>|Chapter 3 Heist Climax ($10.5M Take)| m_MNY_HOTEL
+
+    %% Chapter 3 Sweep in func_10AA55
+    m_MNY_HOTEL -.->|Engine Barrier Sweep Clears Asset Flags| m_ANT_INTRO
+
+    %% --- CHAPTER 4 PROGRESSION & AIRPORT HEIST ---
+    m_MNY_HOTEL ==> m_SFH_TAXI
+    m_SFH_TAXI --> m_MNY_CAR
+    m_MNY_CAR --> m_CSC_DIG_DATA
+    m_CSC_DIG_DATA --> m_MNY_PARTY
+    m_MNY_PARTY ==>|Lawyer Immunity Cleared| m_AIR_TAIL
+    m_AIR_TAIL --> m_AIR_TRAIN
+    m_AIR_TRAIN --> m_AIR_BEACH
+    m_AIR_BEACH --> m_AIR_BUS
+    m_AIR_BUS --> m_AIR_GANG
+    m_AIR_GANG --> m_AIR_SCOPE
+    m_AIR_SCOPE --> m_MNY_ESCRT
+    m_MNY_ESCRT --> m_AIR_TRUCK
+    m_AIR_TRUCK --> m_MNY_KIDNP
+    m_MNY_KIDNP --> m_AIR_DRONE
+    m_AIR_DRONE --> m_AIR_HACK
+    m_AIR_HACK --> m_AIR_RECRU
+    m_AIR_RECRU --> m_AIR_CATER
+    m_AIR_CATER ==> m_AIR_FINAL
+    m_AIR_FINAL -.->|Stealth Route| m_AIR_PASSED["Data Hack Passed Path<br/><code>AIR_FINAL_DATA_HACK_PASSED</code>"]:::branching
+    m_AIR_FINAL -.->|Speedrun Alarm Skip| m_AIR_FAILED["Data Hack Failed (Fast Alarm)<br/><code>AIR_FINAL_DATA_HACK_FAILED</code>"]:::branching
+    m_AIR_FINAL ==> m_ROB_DEATH
+    m_ROB_DEATH ==>|Point of No Return| m_BIL_CONFR
+    m_BIL_CONFR ==>|Chapter 4 Evacuation| m_COA_HELIS
+
+    %% --- CHAPTER 5 CLIMAX & BRANCHING ENDINGS ---
+    m_COA_HELIS ==> m_BIL_BOSS
+    m_BIL_BOSS --> m_BIL_PREG
+    m_BIL_PREG --> m_COA_DOG
+    m_COA_DOG --> m_BIL_LAW
+    m_BIL_LAW --> m_BIL_PRECI
+    m_BIL_PRECI ==>|Standoff Gate| m_BIL_PENT
+
+    %% Standoff Decisions
+    m_BIL_PENT ==>|Choice: Target Mendez| m_BIL_PENT_M["Target Mendez Choice<br/><code>BIL_PENT_M_MENDEZ</code>"]:::branching
+    m_BIL_PENT ==>|Choice: Target Brian| m_BIL_PENT_B["Target Brian Choice<br/><code>BIL_PENT_B_BRIAN</code>"]:::branching
+    m_BIL_PENT_M ==>|Loyalty Pursuit Route| m_BIL_FINALE_M["Ending A: Bonnie & Clyde ($2M Cash Take)<br/><code>BIL_FINALE_M</code> • Coast Guard Pursuit"]:::bottleneck
+    m_BIL_PENT_B ==>|⚡ Any% Speedrun Route ⚡| m_BIL_FINAL_B["Ending B: The Deal (⚡ Saves 8-12 Mins ⚡)<br/><code>BIL_FINAL_B</code> • Immunity Agreement"]:::bottleneck
+    m_BIL_FINALE_M ==>|Post-Credits Transition| m_FIN_CONT["Final Evacuation (Post-Credits Epilogue)<br/><code>FIN_CONT</code>"]:::bottleneck
+    m_BIL_FINAL_B ==>|Post-Credits Transition| m_FIN_CONT
+    m_FIN_CONT ==>|Campaign Credits Roll| m_INT_CRED["Epilogue & Credits (Free Roam Restored)<br/><code>INT_CRED</code>"]:::bottleneck
+
+    %% Class Styling
+    classDef bottleneck fill:#b71c1c,stroke:#d32f2f,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef coreStory fill:#0d47a1,stroke:#1976d2,stroke-width:2px,color:#ffffff
+    classDef sideStrand fill:#37474f,stroke:#78909c,stroke-width:1px,color:#eceff1
+    classDef branching fill:#e65100,stroke:#ff9800,stroke-width:2px,color:#ffffff,font-weight:bold

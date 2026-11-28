@@ -1,0 +1,22 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\setup_both_versions.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -281,6 +281,8 @@
+ antigravity_order = json.loads(json.dumps(order_data))
+ 
+ # Enrich metadata
++if "metadata" not in antigravity_order:
++    antigravity_order["metadata"] = {}
+ antigravity_order["metadata"]["pipeline_version"] = "Antigravity 2.0 (Deepmind AAC Edition)"
+ antigravity_order["metadata"]["title_reconciliation"] = "Full canonical in-game names mapped to engine IDs"
+ antigravity_order["metadata"]["gxt2_localization_scan"] = {
+@@ -287,6 +287,7 @@
+     "verified_by": "work/gxt_scan.py & work/gxt_scan.json across 75+ GB payload chunks"
+ }
+ 
++
+ # Add main story missions list
+ antigravity_missions = []
+ if "main_story_missions" in antigravity_order:
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

@@ -1,0 +1,157 @@
+Created At: 2026-11-25T18:05:08-05:00
+Completed At: 2026-11-25T18:05:14-05:00
+Command exited with code 0.
+
+Command output:
+=== L957214 ===
+957214:     [VmFunction(0x1A6747)]
+957215:     public static VmValue func_1A6747(VmValue arg0) // 0x1A6747
+957216:     {
+957217:         VmValue[] parameters = new VmValue[] { arg0 };
+957218:         VmValue[] locals = new VmValue[0];
+957219:         ref VmValue p0 = ref parameters[0];
+957220:         return load_u64(p0, 0x0);
+957221:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+957222:     }
+957223: 
+957224:     [VmFunction(0x1A674F)]
+957225:     public static VmValue func_1A674F(VmValue arg0) // 0x1A674F
+957226:     {
+957227:         VmValue[] parameters = new VmValue[] { arg0 };
+957228:         VmValue[] locals = new VmValue[0];
+957229:         ref VmValue p0 = ref parameters[0];
+957230:         VmValue v_1A6763_0 = default;
+957231:         VmValue v_1A676A_1 = default;
+957232:         if (((as_u32(load_u8(p0, 0x8)) != 0)))
+957233:         {
+957234:             v_1A6763_0 = Vm.TypedIntrinsic("box_at", new VmType("type_F802357721D9CBD8", 8, 28386U, 0x000C0007U), p0);
+957235:             v_1A676A_1 = Builtins.System.ValueType.GetHashCode(v_1A6763_0);
+957236:             return v_1A676A_1;
+957237:         }
+957238:         else
+957239:         {
+957240:             return 0;
+957241:         }
+957242:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+957243:     }
+957244: 
+957245:     [VmFunction(0x1A6770)]
+957246:     public static VmValue func_1A6770(VmValue arg0, VmValue arg1) // 0x1A6770
+957247:     {
+957248:         VmValue[] parameters = new VmValue[] { arg0, arg1 };
+957249:         VmValue[] locals = new VmValue[0];
+957250:         ref VmValue p0 = ref parameters[0];
+957251:         ref VmValue p1 = ref parameters[1];
+957252:         VmValue v_1A6796_0 = default;
+957253:         VmValue v_1A679D_1 = default;
+957254:         if (((as_u32(load_u8(p0, 0x8)) != 0)))
+957255:         {
+957256:             if (((as_u64(p1) != 0)))
+957257:             {
+957258:                 v_1A6796_0 = Vm.TypedIntrinsic("box_at", new VmType("type_F802357721D9CBD8", 8, 28386U, 0x000C0007U), p0);
+957259:                 v_1A679D_1 = Builtins.System.ValueType.Equals(v_1A6796_0, p1);
+957260:                 return v_1A679D_1;
+957261:             }
+957262:             else
+957263:             {
+957264:                 return 0;
+957265:             }
+957266:         }
+957267:         else
+957268:         {
+957269:             return ((as_u64(p1) == as_u64(0)));
+957270:         }
+957271:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+957272:     }
+957273: 
+957274:     [VmFunction(0x1A67A3)]
+957275:     public static VmValue func_1A67A3(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4) // 0x1A67A3
+957276:     {
+957277:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2, arg3, arg4 };
+957278:         VmValue[] locals = new VmValue[0];
+957279:         ref VmValue p0 = ref parameters[0];
+957280:         ref VmValue p1 = ref parameters[1];
+957281:         ref VmValue p2 = ref parameters[2];
+957282:         ref VmValue p3 = ref parameters[3];
+957283:         ref VmValue p4 = ref parameters[4];
+957284:         return 1;
+957285:         throw new global::System.InvalidOperationException("Unexpected bytecode fallthrough.");
+957286:     }
+957287: 
+957288:     [VmFunction(0x1A67AE)]
+=== L1047364 ===
+1047364:     [VmFunction(0x1CF430)]
+1047365:     public static VmValues func_1CF430(VmValue arg0, VmValue arg1, VmValue arg2) // 0x1CF430
+1047366:     {
+1047367:         VmValue[] parameters = new VmValue[] { arg0, arg1, arg2 };
+1047368:         VmValue[] locals = new VmValue[16];
+1047369:         ref VmValue p0 = ref parameters[0];
+1047370:         ref VmValue p1 = ref parameters[1];
+1047371:         ref VmValue p2 = ref parameters[2];
+1047372:         ref VmValue local_0 = ref locals[0];
+1047373:         ref VmValue local_1 = ref locals[1];
+1047374:         ref VmValue local_2 = ref locals[2];
+1047375:         ref VmValue local_3 = ref locals[3];
+1047376:         ref VmValue local_4 = ref locals[4];
+1047377:         ref VmValue local_5 = ref locals[5];
+1047378:         ref VmValue local_6 = ref locals[6];
+1047379:         ref VmValue local_7 = ref locals[7];
+1047380:         ref VmValue local_8 = ref locals[8];
+1047381:         ref VmValue local_9 = ref locals[9];
+1047382:         ref VmValue local_10 = ref locals[10];
+1047383:         ref VmValue local_11 = ref locals[11];
+1047384:         ref VmValue local_12 = ref locals[12];
+1047385:         ref VmValue local_13 = ref locals[13];
+1047386:         ref VmValue local_14 = ref locals[14];
+1047387:         ref VmValue local_15 = ref locals[15];
+1047388:         VmValue stack_1CF4B0_0 = default;
+1047389:         VmValue stack_1CF4C1_0 = default;
+1047390:         VmValue stack_1CF4D6_0 = default;
+1047391:         VmValue stack_1CF52E_0 = default;
+1047392:         VmValue v_1CF438_0 = default;
+1047393:         VmValue v_1CF456_0 = default;
+1047394:         VmValue v_1CF468_1 = default;
+1047395:         VmValue v_1CF477_0 = default;
+1047396:         VmValues v_1CF497_0 = null!;
+1047397:         VmValue v_1CF49B_1 = default;
+1047398:         VmValue v_1CF49B_2 = default;
+1047399:         VmValue v_1CF4B3_0 = default;
+1047400:         VmValue v_1CF4DC_0 = default;
+1047401:         VmValue v_1CF4DC_1 = default;
+1047402:         VmValues v_1CF4E3_2 = null!;
+1047403:         VmValue v_1CF4F4_3 = default;
+1047404:         VmValue v_1CF508_4 = default;
+1047405:         VmValue v_1CF51B_5 = default;
+1047406:         VmValue v_1CF51B_6 = default;
+1047407:         VmValues v_1CF52E_0 = null!;
+1047408:         label_1CF430: ;
+1047409:         v_1CF438_0 = p0;
+1047410:         zero_bytes(Vm.Address(locals, 0), 4);
+1047411:         local_3 = v_1CF438_0;
+1047412:         if (((as_u32(((as_i32(v_1CF438_0) == as_i32(local_0)))) == 0)))
+1047413:         {
+1047414:         goto label_1CF454;
+1047415:         }
+1047416:         else
+1047417:         {
+1047418:         goto label_1CF446;
+1047419:         }
+1047420:         label_1CF446: ;
+1047421:         zero_bytes(Vm.Address(locals, 1), 12);
+1047422:         return new VmValues(local_1, local_2);
+1047423:         label_1CF454: ;
+1047424:         v_1CF456_0 = Operations.NewArray_type_FB9ED3D410EDB0D9(1);
+1047425:         Operations.array_set_u32(v_1CF456_0, 0, p0);
+1047426:         v_1CF468_1 = p1;
+1047427:         local_6 = p2;
+1047428:         local_5 = v_1CF468_1;
+1047429:         local_4 = v_1CF456_0;
+1047430:         if (((as_u64(v_1CF456_0) == 0)))
+1047431:         {
+1047432:         goto label_1CF485;
+1047433:         }
+1047434:         else
+1047435:         {
+1047436:         goto label_1CF475;
+1047437:         }
+1047438:         label_1CF475: ;

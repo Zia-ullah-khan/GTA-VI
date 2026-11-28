@@ -1,0 +1,71 @@
+Created At: 2026-11-25T18:21:08-05:00
+Completed At: 2026-11-25T18:21:09-05:00
+Command exited with code 0.
+
+Command output:
+=== sub_140613880 ===
+  0x140613880: push r14
+  0x140613882: push rsi
+  0x140613883: push rdi
+  0x140613884: push rbp
+  0x140613885: push rbx
+  0x140613886: sub rsp, 0x40
+  0x14061388a: cmp qword ptr [rcx + 8], 0
+  0x14061388f: mov ebp, r9d
+  0x140613892: mov ebx, r8d
+  0x140613895: mov esi, edx
+  0x140613897: mov rdi, rcx
+  0x14061389a: je 0x1406138a1
+  0x14061389c: cmp dword ptr [rdi + 4], ebx
+  0x14061389f: je 0x1406138cf
+  0x1406138a1: lea r14, [rsp + 0x38]
+  0x1406138a6: mov edx, ebx
+  0x1406138a8: mov rcx, r14
+  0x1406138ab: call 0x144c11250
+  0x1406138b0: mov rcx, qword ptr [rdi + 8]
+  0x1406138b4: mov rax, qword ptr [r14]
+  0x1406138b7: cmp rcx, rax
+  0x1406138ba: je 0x140613921
+  0x1406138bc: mov qword ptr [rdi + 8], rax
+  0x1406138c0: test rcx, rcx
+  0x1406138c3: je 0x1406138cf
+  0x1406138c5: mov rax, qword ptr [rcx]
+  0x1406138c8: mov edx, 1
+  0x1406138cd: call qword ptr [rax]
+  0x1406138cf: mov ecx, ebp
+  0x1406138d1: mov edx, ebx
+  0x1406138d3: mov r8d, esi
+  0x1406138d6: mov dword ptr [rdi + 0x10], ebp
+  0x1406138d9: mov dword ptr [rdi], esi
+  0x1406138db: mov dword ptr [rdi + 4], ebx
+  0x1406138de: call 0x140193f90
+  0x1406138e3: test rax, rax
+  0x1406138e6: je 0x140613914
+  0x1406138e8: mov rcx, qword ptr [rdi + 8]
+  0x1406138ec: mov r10, qword ptr [rsp + 0x98]
+  0x1406138f4: mov r9, qword ptr [rsp + 0x90]
+  0x1406138fc: mov rdx, qword ptr [rax]
+  0x1406138ff: mov r8, qword ptr [rax + 8]
+  0x140613903: mov rax, qword ptr [rcx]
+  0x140613906: mov dword ptr [rsp + 0x28], esi
+  0x14061390a: mov qword ptr [rsp + 0x20], r10
+  0x14061390f: call qword ptr [rax + 8]
+  0x140613912: jmp 0x140613916
+  0x140613914: xor eax, eax
+  0x140613916: add rsp, 0x40
+  0x14061391a: pop rbx
+  0x14061391b: pop rbp
+  0x14061391c: pop rdi
+  0x14061391d: pop rsi
+  0x14061391e: pop r14
+  0x140613920: ret 
+  0x140613921: test rcx, rcx
+  0x140613924: mov rcx, rax
+  0x140613927: jne 0x1406138c5
+  0x140613929: jmp 0x1406138cf
+  0x14061392b: int3 
+  0x14061392c: int3 
+  0x14061392d: int3 
+  0x14061392e: int3 
+  0x14061392f: int3 
+  0x140613930: mov rax, r8

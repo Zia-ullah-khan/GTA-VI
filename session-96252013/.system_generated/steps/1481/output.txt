@@ -1,0 +1,53 @@
+Created At: 2026-11-25T18:09:16-05:00
+Completed At: 2026-11-25T18:09:23-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x14582c400 ===
+  0x14582c400: push rsi
+  0x14582c401: push rdi
+  0x14582c402: sub rsp, 0x48
+  0x14582c406: mov rsi, rcx
+  0x14582c409: lea rcx, [rsp + 0x28]
+  0x14582c40e: call 0x141acdb00
+  0x14582c413: lea rcx, [rsp + 0x30]
+  0x14582c418: call 0x14582c4b0
+  0x14582c41d: mov ecx, 0x60
+  0x14582c422: mov edx, 8
+  0x14582c427: call 0x144d9c160
+  0x14582c42c: test rax, rax
+  0x14582c42f: je 0x14582c475
+  0x14582c431: mov r8, qword ptr [rsp + 0x28]
+  0x14582c436: mov rcx, qword ptr [rsp + 0x30]
+  0x14582c43b: lea r9, [rsp + 0x40]
+  0x14582c440: mov rdi, rax
+  0x14582c443: mov dl, 2
+  0x14582c445: mov qword ptr [rsp + 0x28], 0
+  0x14582c44e: mov qword ptr [r9], r8
+  0x14582c451: lea r8, [rsp + 0x38]
+  0x14582c456: mov qword ptr [r8], rcx
+  0x14582c459: mov rcx, rdi
+  0x14582c45c: call 0x14582c4e0
+  0x14582c461: mov qword ptr [rsi], rdi
+  0x14582c464: mov rcx, qword ptr [rsp + 0x28]
+  0x14582c469: test rcx, rcx
+  0x14582c46c: jne 0x14582c492
+  0x14582c46e: add rsp, 0x48
+  0x14582c472: pop rdi
+  0x14582c473: pop rsi
+  0x14582c474: ret 
+=== 0x144d93450 ===
+  0x144d93450: push rsi
+  0x144d93451: sub rsp, 0x20
+  0x144d93455: mov rsi, rcx
+  0x144d93458: mov ecx, 8
+  0x144d9345d: mov edx, 8
+  0x144d93462: call 0x144d9c160
+  0x144d93467: test rax, rax
+  0x144d9346a: je 0x144d93476
+  0x144d9346c: lea rcx, [rip + 0x19b7c2d]
+  0x144d93473: mov qword ptr [rax], rcx
+  0x144d93476: mov qword ptr [rsi], rax
+  0x144d93479: add rsp, 0x20
+  0x144d9347d: pop rsi
+  0x144d9347e: ret 

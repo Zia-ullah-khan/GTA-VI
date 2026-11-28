@@ -1,0 +1,14 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -553,7 +553,7 @@
+     end_y = 0.5
+     ew, eh = 4.8, 1.4
+     
+-    draw_card(ax, 0.8, end_y, ew, eh, "ENDING A: BONNIE & CLYDE", "Survive together into the Keys\nReq: 'Hot Together' Status + $2M Banked", "CANONICAL RESOLUTION", "ending", fontsize=8.8)
++    draw_card(ax, 0.8, end_y, ew, eh, "ENDING A: BONNIE & CLYDE", "Survive together into the Keys\nChoice: Trust Partner | Rewards $2M Payout", "CANONICAL RESOLUTION", "ending", fontsize=8.8)
+     draw_arrow(ax, (cx + w/2, 2.6), (0.8 + ew/2, end_y + eh), color="#10b981", rad=-0.25)
+     
+     draw_card(ax, 6.6, end_y, ew, eh, "ENDING B: THE DEAL", "Accept Mendez's Immunity Plea\nSplits Jason & Lucia Under Protection", "COMPROMISE ENDING", "heist", fontsize=8.8)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

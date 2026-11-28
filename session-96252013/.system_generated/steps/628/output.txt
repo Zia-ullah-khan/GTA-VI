@@ -1,0 +1,151 @@
+
+The command exited with code 0.
+Output:
+================================================================================
+GTA VI MISSION DEPENDENCY GRAPH EXTRACTION
+Sources: Xbox build files + decompiled scripts ONLY
+================================================================================
+
+Total mission IDs in hash table: 147
+
+============================================================
+SECTION 1: REPLAY MENU UNLOCK CROSS-LINKS
+============================================================
+
+============================================================
+SECTION 2: MISSION SCRIPT CROSS-REFERENCES
+(Each mission's dedicated script checking other mission states)
+============================================================
+  ANT_INTRO_STORAGE [Ch3 (Table Only)] (script: 0x2B87210672A3FA58.ysc.cs)
+    references: ANT_INTRO, ANT_INTRO_APARTMENT
+  BIL_MOTEL_NON_VIOLENT [Ch2 (Table Only)] (script: 0x514A96DB9A2F0242.ysc.cs)
+    references: BIL_MOTEL, BIL_MOTEL_VIOLENT
+  COA_HELIS [Chapter 5] (script: 0x96FAE5BE63A12676.ysc.cs)
+    references: BIL_BOSS
+  COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE [Ch1 (Table Only)] (script: 0x59F8DDC0B1BFB14E.ysc.cs)
+    references: COM_KBOS_PLNDATE
+  FT_KMODSHP [Chapter 1] (script: 0x3D9897741AACE500.ysc.cs)
+    references: FT_KMODSHP_FIRST, FT_KMODSHP_SECOND
+  FT_MOTEL_SHOP [Chapter 2] (script: 0xCBB412F4549E13F9.ysc.cs)
+    references: FT_UP_MMRENT_MANAGER_CONFRONTED, FT_UP_MMRENT_MANAGER_INITIAL, UP_MLSPM
+  FT_UP_MMRENT [Ch2 (Table Only)] (script: 0x6E65DA15F641D698.ysc.cs)
+    references: FT_UP_MMRENT_MANAGER_CONFRONTED, FT_UP_MMRENT_MANAGER_INITIAL, FT_UP_MMRENT_MANAGER_LATE_COPS, FT_UP_MMRENT_MANAGER_LATE_NO_COPS
+  ROB_BOAT_L_LUCIA [Ch3 (Table Only)] (script: 0x35A38A0C3CB6F988.ysc.cs)
+    references: ROB_BOAT_J_JASON
+
+============================================================
+SECTION 3: DISPATCHER FUNCTION HASH RESOLUTION
+(0xD2601E252151E04B.ysc.cs - func_109E09 and others)
+============================================================
+
+  func_109E09: 94 hash constants, 92 resolved, 2 unresolved
+    L571854: 0x404EC96F -> AIR_TRUCK [Chapter 4]
+    L571863: 0x2B2CA2C9 -> BAN_SAFE [Chapter 3]
+    L571872: 0x145C5B23 -> FT_MOTEL_SHOP [Chapter 2]
+    L571881: 0x10BE4C94 -> COM_KBOS_CLEAN [Chapter 1]
+    L571919: 0x10A6AF1B -> ROB_DEATH [Chapter 4]
+    L571928: 0x10BE4C94 -> COM_KBOS_CLEAN [Chapter 1]
+    L571939: 0x125AA80E -> CLB_PARTY [Chapter 4]
+    L571948: 0x11609837 -> COM_DLR_COOK [Chapter 3]
+    L571957: 0x125AA80E -> CLB_PARTY [Chapter 4]
+    L571968: 0x14108683 -> BIL_PENT_M_MENDEZ [Ch5 (Table Only)]
+    L571977: 0x145C5B23 -> FT_MOTEL_SHOP [Chapter 2]
+    L571988: 0x1FB50A82 -> BAN_SETUP [Chapter 3]
+    L571997: 0x1A05C1AB -> BIL_HOUSE [Chapter 1]
+    L572006: 0x17A0E182 -> AO_SHOW_L_EXP [Chapter 4]
+    L572015: 0x1A05C1AB -> BIL_HOUSE [Chapter 1]
+    L572026: 0x1B5B1C56 -> AIR_BEACH [Chapter 4]
+    L572035: 0x1FB50A82 -> BAN_SETUP [Chapter 3]
+    L572046: 0x23BF8778 -> BIL_MOTEL_NON_VIOLENT [Ch2 (Table Only)]
+    L572055: 0x21D03E4F -> COM_KBOS_RADR [Chapter 1]
+    L572064: 0x23BF8778 -> BIL_MOTEL_NON_VIOLENT [Ch2 (Table Only)]
+    L572075: 0x2625203A -> MNY_HOTEL [Chapter 4]
+    L572084: 0x2B2CA2C9 -> BAN_SAFE [Chapter 3]
+    L572104: 0x2F494854 -> COM_SFH_MVFN [Chapter 1]
+    L572113: 0x2C9251AD -> HO_PAR_FRINT [Chapter 2]
+    L572122: 0x2BE94893 -> COM_ROB_DRIVEPREP [Chapter 3]
+    L572131: 0x2C9251AD -> HO_PAR_FRINT [Chapter 2]
+    L572142: 0x2D7D2164 -> COM_KBOS_SHOP [Chapter 1]
+    L572151: 0x2F494854 -> COM_SFH_MVFN [Chapter 1]
+    L572162: 0x30F17E42 -> INT_AIR [Chapter 1]
+    L572171: 0x2FAD3B86 -> MNY_KIDNP_AUTO-LAUNCH [Ch4 (Table Only)]
+
+  func_12EB6F: 25 hash constants, 0 resolved, 25 unresolved
+
+  func_10AA55: 12 hash constants, 10 resolved, 2 unresolved
+    L572946: 0x2625203A -> MNY_HOTEL [Chapter 4]
+    L572955: 0x32367ABD -> MNY_HOTEL_AUTOLAUNCH [Ch4 (Table Only)]
+    L572964: 0x3C9B93B4 -> MTL_WAKE [Chapter 2]
+    L572979: 0x2D7D2164 -> COM_KBOS_SHOP [Chapter 1]
+    L572983: 0x5AE70594 -> COM_KBOS_COLAT [Chapter 1]
+    L572987: 0x21D03E4F -> COM_KBOS_RADR [Chapter 1]
+    L572995: 0x10BE4C94 -> COM_KBOS_CLEAN [Chapter 1]
+    L572999: 0x420623AF -> HO_PAR_KEYCO [Chapter 1]
+    L573049: 0x3AD0562C -> ANT_INTRO_APARTMENT [Ch3 (Table Only)]
+    L573075: 0x3AD0562C -> ANT_INTRO_APARTMENT [Ch3 (Table Only)]
+
+  func_29F224: 6 hash constants, 0 resolved, 6 unresolved
+
+============================================================
+SECTION 4: STORY000.YSC.CS STATE MACHINE HASH RESOLUTION
+============================================================
+  Functions with mission hash references: 0
+  Total resolved mission hashes: 0
+
+============================================================
+SECTION 5: RECONSTRUCTED MISSION ORDER & DEPENDENCIES
+============================================================
+
+   (0 missions in replay menu)
+
+============================================================
+SECTION 6: MISSION VARIANTS & BRANCHING POINTS
+============================================================
+  AIR_CATER [Chapter 4]:
+    -> AIR_CATER_DHF [idx=109]
+    -> AIR_CATER_DHP [idx=110]
+    -> AIR_CATER_DHS [idx=111]
+  AIR_FINAL [Chapter 4]:
+    -> AIR_FINAL_DATA_HACK_FAILED [idx=112]
+    -> AIR_FINAL_DATA_HACK_PASSED [idx=113]
+  ANT_INTRO [Chapter 3]:
+    -> ANT_INTRO_APARTMENT [idx=126]
+    -> ANT_INTRO_STORAGE [idx=127]
+  BIL_MOTEL [Chapter 2]:
+    -> BIL_MOTEL_NON_VIOLENT [idx=115]
+    -> BIL_MOTEL_VIOLENT [idx=116]
+  BIL_PENT [Chapter 5]:
+    -> BIL_PENT_M_MENDEZ [idx=102]
+    -> BIL_PENT_B_BRIAN [idx=103]
+  BIL_PICK [Chapter 1]:
+    -> BIL_PICK_DAY_TIME_START [idx=117]
+    -> BIL_PICK_NIGHT_TIME_START [idx=118]
+  FT_AMUCO [Chapter 1]:
+    -> FT_AMUCO_FIRST_INTERACTION [idx=119]
+    -> FT_AMUCO_SECOND_INTERACTION [idx=120]
+  FT_KMODSHP [Chapter 1]:
+    -> FT_KMODSHP_FIRST [idx=121]
+    -> FT_KMODSHP_SECOND [idx=122]
+  INT_PRISO [Chapter 1]:
+    -> INT_PRISO_TRIGGER_EARLY [idx=123]
+    -> INT_PRISO_TRIGGER_LATE [idx=124]
+  MNY_HOTEL [Chapter 4]:
+    -> MNY_HOTEL_AUTOLAUNCH [idx=146]
+  MNY_KIDNP [Chapter 4]:
+    -> MNY_KIDNP_AUTO-LAUNCH [idx=125]
+  ROB_BOAT_J [Chapter 3]:
+    -> ROB_BOAT_J_JASON [idx=143]
+
+============================================================
+SECTION 7: FINALE BRANCHING
+============================================================
+  BIL_PENT (97) -> Final mission with branching:
+    -> BIL_PENT_M_MENDEZ (102) - Ending M (Mendez path)
+    -> BIL_PENT_B_BRIAN (103) - Ending B (Brian path)
+  BIL_FINALE_M (144) - Finale variant M
+  BIL_FINAL_B (145) - Finale variant B
+  FIN_CONT (134) - Final content / post-credits
+  INT_CRED (108) - Credits sequence
+
+Saved full dependency graph to C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\mission_dependency_graph.json
+

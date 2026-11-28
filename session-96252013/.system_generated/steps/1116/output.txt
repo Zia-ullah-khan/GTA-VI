@@ -1,0 +1,16 @@
+Created At: 2026-11-25T17:49:48-05:00
+Completed At: 2026-11-25T17:49:57-05:00
+Command exited with code 0.
+
+Command output:
+PE @ 0x78, Machine=0x8664, Sections=10, ImageBase=0x140000000
+  .text      VA=0x1000     VSize=0x5f3f966  Raw=0x400      RSize=0x5f3fa00  Chars=0x60000020
+  .rdata     VA=0x5f41000  VSize=0x8a0c0c   Raw=0x5f3fe00  RSize=0x8a0e00   Chars=0x40000040
+  .data      VA=0x67e2000  VSize=0x43ec398  Raw=0x67e0c00  RSize=0x622e00   Chars=0xc0000040
+  .pdata     VA=0xabcf000  VSize=0x36cbac   Raw=0x6e03a00  RSize=0x36cc00   Chars=0x40000040
+  .retplne   VA=0xaf3c000  VSize=0xe4       Raw=0x7170600  RSize=0x200      Chars=0x0
+  .tls       VA=0xaf3d000  VSize=0x1481     Raw=0x7170800  RSize=0x1600     Chars=0xc0000040
+  .voltbl    VA=0xaf3f000  VSize=0x724      Raw=0x7171e00  RSize=0x800      Chars=0x0
+  .xbld      VA=0xaf40000  VSize=0x6b9      Raw=0x7172600  RSize=0x800      Chars=0xc0000040
+  .reloc     VA=0xaf41000  VSize=0x12a350   Raw=0x7172e00  RSize=0x12a400   Chars=0x42000040
+  .xbld      VA=0xb06c000  VSize=0xdc       Raw=0x729d200  RSize=0x200      Chars=0xc2000040

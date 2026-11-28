@@ -1,0 +1,10 @@
+
+The command exited with code 1.
+Output:
+Claude's version secured in output/claude_version and output/.
+Traceback (most recent call last):
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\setup_both_versions.py", line 284, in <module>
+    antigravity_order["metadata"]["pipeline_version"] = "Antigravity 2.0 (Deepmind AAC Edition)"
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'metadata'
+

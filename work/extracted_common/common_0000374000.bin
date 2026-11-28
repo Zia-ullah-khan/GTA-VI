@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="OPT_oldMachineMode"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <dir_shadow_num_cascades>1.000000 0.000000</dir_shadow_num_cascades>
+    <dir_shadow_distance_multiplier>0.010000 0.000000</dir_shadow_distance_multiplier>
+    <dir_shadow_softness>-1.000000 0.000000</dir_shadow_softness>
+    <dir_shadow_cascade0_scale>0.010000 0.000000</dir_shadow_cascade0_scale>
+    <water_reflection_far_clip>0.000000 0.000000</water_reflection_far_clip>
+    <water_foglight>0.000000 0.000000</water_foglight>
+    <fog_volume_light_range>0.000000 0.000000</fog_volume_light_range>
+    <reflection_lod_range_start>-1.000000 0.000000</reflection_lod_range_start>
+    <reflection_lod_range_end>-1.000000 0.000000</reflection_lod_range_end>
+    <reflection_slod_range_start>-1.000000 0.000000</reflection_slod_range_start>
+    <reflection_slod_range_end>-1.000000 0.000000</reflection_slod_range_end>
+    <far_clip>200.000000 200.000000</far_clip>
+    <no_weather_fx>1.000000 0.000000</no_weather_fx>
+    <no_gpu_fx>1.000000 0.000000</no_gpu_fx>
+    <no_rain>1.000000 0.000000</no_rain>
+    <lod_mult_grass>0.250000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="SpatialOptimization_Reduce"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="SpatialOptimization_Increase"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="reduceHDR_Reflection_0pt1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="TrainInterior"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>TrainInterior_Day</item>
+      <item>TrainInterior_Night</item>
+    </submodifiers>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="tbi_gas_station_01"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="tbi_material_lib_01"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="testbed_lighting_conv_store_03"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+   />
+  <modifier
+    name="testbed_lighting_conv_store_04"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="conv_store_05_B9"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+   />
+  <modifier
+    name="Bespoke_Testbed_lighting_conv_5"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Yellow_Brightest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Yellow_Bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Yellow_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Yellow_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Dark</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Yellow_Darkest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Orange_Brightest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Orange_Bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Orange_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Orange_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Dark</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Warm_Orange_Darkest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Yellow_Brightest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Yellow_Bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Yellow_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Yellow_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Dark</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Yellow_Darkest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Red_Brightest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Red_Bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Red_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Red_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Dark</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Red_Darkest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Blue_Brightest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Blue_Bright"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Bright</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Blue_Mid"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Blue_Dark"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Dark</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Modular_Tut_Cool_Blue_Darkest"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="sb28_ffd_1_gf"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="TrainInterior_Night"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.230000 0.500000 0.760000 0.790000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000</keyframe_alpha_value>
+      <lod_mult>0.600000 0.600000 0.800000 0.800000 0.800000 0.600000 0.600000</lod_mult>
+      <lod_mult_grass>0.300000 0.300000 0.600000 0.600000 0.600000 0.300000 0.300000</lod_mult_grass>
+      <dir_shadow_distance_multiplier>0.700000 0.700000 0.700000 0.700000 0.700000 0.700000 0.700000</dir_shadow_distance_multiplier>
+      <lod_mult_terrain_hd>0.100000 0.100000 0.300000 0.300000 0.300000 0.100000 0.100000</lod_mult_terrain_hd>
+      <lod_mult_terrain_lod>0.400000 0.400000 0.600000 0.600000 0.600000 0.400000 0.400000</lod_mult_terrain_lod>
+      <lod_mult_environment_hd>0.300000 0.300000 0.500000 0.500000 0.500000 0.300000 0.300000</lod_mult_environment_hd>
+      <lod_mult_environment_orphanhd>0.300000 0.300000 0.500000 0.500000 0.500000 0.300000 0.300000</lod_mult_environment_orphanhd>
+      <lod_mult_environment_lod>0.400000 0.400000 0.500000 0.500000 0.500000 0.400000 0.400000</lod_mult_environment_lod>
+      <lod_mult_vehicle_lod>0.500000 0.500000 0.800000 0.800000 0.800000 0.500000 0.500000</lod_mult_vehicle_lod>
+      <lod_mult_vehicle>0.500000 0.500000 1.000000 1.000000 1.000000 0.500000 0.500000</lod_mult_vehicle>
+    </axis>
+  </modifier>
+  <modifier
+    name="TrainInterior_Day"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_distance_multiplier>0.700000 0.000000</dir_shadow_distance_multiplier>
+    <lod_mult>0.800000 0.000000</lod_mult>
+    <lod_mult_terrain_hd>0.300000 0.000000</lod_mult_terrain_hd>
+    <lod_mult_terrain_lod>0.600000 0.000000</lod_mult_terrain_lod>
+    <lod_mult_environment_hd>0.500000 0.000000</lod_mult_environment_hd>
+    <lod_mult_environment_orphanhd>0.500000 0.000000</lod_mult_environment_orphanhd>
+    <lod_mult_environment_lod>0.500000 0.000000</lod_mult_environment_lod>
+    <lod_mult_grass>0.600000 0.000000</lod_mult_grass>
+    <lod_mult_vehicle_lod>0.800000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="BusInterior"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle>0.800000 0.000000</lod_mult_vehicle>
+  </modifier>
+  <modifier
+    name="BoatInterior"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.800000 0.000000</lod_mult_vehicle_lod>
+    <lod_mult_vehicle>0.800000 0.000000</lod_mult_vehicle>
+  </modifier>
+</timecycle_modifier_data>

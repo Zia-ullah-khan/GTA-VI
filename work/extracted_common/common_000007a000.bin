@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CEntityComponentLodManagerData>
+  <EntityComponentCounts>
+    <Components>
+      <Item>
+        <Type>CAvoidanceComponent</Type>
+        <DesiredCount value="250" />
+      </Item>
+      <Item>
+        <Type>CPedActionCoordinatorComponent</Type>
+        <DesiredCount value="60" />
+        <NotVisibleMinDistanceScaleFactor value="0.5" />
+        <NotVisibleMaxDistanceScaleFactor value="0.05" />
+      </Item>
+      <Item>
+        <Type>CPedAmbientContentValidationComponent</Type>
+        <DesiredCount value="100" />
+      </Item>
+      <Item>
+        <Type>CPedAttributeComponent</Type>
+        <DesiredCount value="10" />
+      </Item>
+      <Item>
+        <Type>CPedAudioComponent</Type>
+        <DesiredCount value="120" />
+      </Item>
+      <Item>
+        <Type>CPedAvoidanceComponent</Type>
+        <DesiredCount value="80" />
+      </Item>
+      <Item>
+        <Type>CPedBreatheComponent</Type>
+        <DesiredCount value="20" />
+        <MaxCreatedRemovedPerFrame value="10" />
+      </Item>
+      <Item>
+        <Type>CPedEventComponent</Type>
+        <DesiredCount value="60" />
+        <NotVisibleMinDistanceScaleFactor value="0.500000" />
+      </Item>
+      <Item>
+        <Type>CPedFacialComponent</Type>
+        <DesiredCount value="15" />
+      </Item>
+      <Item>
+        <Type>CPedFacialAnimComponent</Type>
+        <DesiredCount value="30" />
+      </Item>
+      <Item>
+        <Type>CPedFootstepComponent</Type>
+        <DesiredCount value="140" />
+      </Item>
+      <Item>
+        <Type>CPedGestureComponent</Type>
+        <DesiredCount value="120" />
+      </Item>
+      <Item>
+        <Type>CPedItemInteractionComponent</Type>
+        <DesiredCount value="100" />
+      </Item>
+      <Item>
+        <Type>CPedLookAtComponent</Type>
+        <DesiredCount value="40" />
+      </Item>
+      <Item>
+        <Type>CPedMotionComponent</Type>
+        <DesiredCount value="120" />
+        <NotVisibleMinDistanceScaleFactor value="0.500000" />
+        <MaxCreatedRemovedPerFrame value="4" />
+        <MaxTimesAllowedReachedCreatedRemovedPerFrame value="50"/>
+      </Item>
+      <Item>
+        <Type>CPedMotivationComponent</Type>
+        <DesiredCount value="60" />
+      </Item>
+      <Item>
+        <Type>CPedPublicTransportUserComponent</Type>
+        <DesiredCount value="45" />
+      </Item>
+      <Item>
+        <Type>CPedStaminaComponent</Type>
+        <DesiredCount value="15" />
+      </Item>
+      <Item>
+        <Type>CPedVfxComponent</Type>
+        <DesiredCount value="100" />
+      </Item>
+      <Item>
+        <Type>CPedWeaponComponent</Type>
+        <DesiredCount value="0" />
+        <MaxCreatedRemovedPerFrame value="25" />
+      </Item>
+      <Item>
+        <Type>CVehicleAiLodComponent</Type>
+        <DesiredCount value="200" />
+        <NotVisibleMinDistanceScaleFactor value="0.500000" />
+        <InteriorMinDistanceScaleFactor value="0.500000" />
+        <InteriorMaxDistanceScaleFactor value="0.200000" />
+        <DeepInteriorMinDistanceScaleFactor value="0.000000" />
+        <DeepInteriorMaxDistanceScaleFactor value="0.000000" />
+        <MaxCreatedRemovedPerFrame value="15" />
+        <MaxTimesAllowedReachedCreatedRemovedPerFrame value="30"/>
+      </Item>
+      <Item>
+        <Type>CVehicleAmbientContentValidationComponent</Type>
+        <DesiredCount value="120" />
+      </Item>
+      <Item>
+        <Type>CVehicleGadgetComponent</Type>
+        <DesiredCount value="120" />
+      </Item>
+      <Item>
+        <Type>CVehicleInstrumentComponent</Type>
+        <DesiredCount value="1" />
+      </Item>
+      <Item>
+        <Type>CVehicleMovablePartsComponent</Type>
+        <DesiredCount value="120" />
+      </Item>
+      <Item>
+        <Type>CVehicleOccupantComponent</Type>
+        <DesiredCount value="140" />
+      </Item>
+      <Item>
+        <Type>CVehiclePropsetComponent</Type>
+        <DesiredCount value="1" />
+      </Item>
+      <Item>
+        <Type>CVehicleVfxComponent</Type>
+        <DesiredCount value="100" />
+      </Item>
+      <Item>
+        <Type>CVehicleVfxTrailComponent</Type>
+        <DesiredCount value="25" />
+      </Item>
+      <Item>
+        <Type>CPropContainerComponent</Type>
+        <DesiredCount value="120" />
+        <NotVisibleMinDistanceScaleFactor value="0.1"/>
+        <NotVisibleMaxDistanceScaleFactor value="0.1"/>
+        <CountPassiveUse value="true"/>
+      </Item>
+      <Item>
+        <Type>CTowableComponent</Type>
+        <DesiredCount value="120" />
+        <CountPassiveUse value="true"/>
+      </Item>
+      <Item>
+        <Type>CVehicleTowingComponent</Type>
+        <DesiredCount value="100" />
+      </Item>
+      <Item>
+        <Type>CVehicleCargoComponent</Type>
+        <DesiredCount value="32" />
+      </Item>
+    </Components>
+  </EntityComponentCounts>
+</CEntityComponentLodManagerData>

@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="ARCADE_A_1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>1.000000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>0.800000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_contrast_amount>2.000133 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.010000 0.000000</postfx_contrast_pivot>
+    <postfx_motionblurlength>1.000000 0.000000</postfx_motionblurlength>
+    <postfx_motionblurlength_max>11.000000 0.000000</postfx_motionblurlength_max>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_exposure_tweak>0.000000 0.000000</postfx_exposure_tweak>
+    <postfx_desaturation>0.000000 0.000000</postfx_desaturation>
+    <indirect_light_sky_multiplier>3.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <light_distance_intensity>0.000000 0.000000</light_distance_intensity>
+    <light_distance_intensity_start>83.000000 0.000000</light_distance_intensity_start>
+    <light_distance_intensity_end>194.000000 0.000000</light_distance_intensity_end>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+    <light_col_mult_r>0.098039 1.000000</light_col_mult_r>
+    <light_col_mult_g>0.062745 1.000000</light_col_mult_g>
+    <light_col_mult_b>0.007843 1.000000</light_col_mult_b>
+    <local_atmosphere_fog_height>500.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>0.005000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.100000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>1.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>5.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <postfx_noise>0.500000 0.000000</postfx_noise>
+    <postfx_noise_size>0.506215 0.000000</postfx_noise_size>
+  </modifier>
+  <modifier
+    name="ARCADE_B_1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>0.762002 0.000000</minimum_wetness>
+    <maximum_wetness>0.789439 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>0.400000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>4590.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>0.000000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>7571.000000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>40000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <light_dir_col_r>0.647059 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.788235 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+    <sun_direction_z>-0.045000 0.000000</sun_direction_z>
+    <moon_direction_x>0.410000 0.000000</moon_direction_x>
+    <moon_direction_y>-0.440000 0.000000</moon_direction_y>
+    <moon_direction_z>0.700000 0.000000</moon_direction_z>
+    <postfx_exposure_min>1.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>1.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.407000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.850000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.768000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.979000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_top_col_mult>2.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.500000 0.000000</postfx_grad_bottom_col_mult>
+    <local_atmosphere_fog_density>0.100000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>50.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.005000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>50.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>250.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.689000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_voxel_noise_max>0.773900 0.000000</local_atmosphere_voxel_noise_max>
+    <local_atmosphere_voxel_noise_scale_mult_z>1.500000 0.000000</local_atmosphere_voxel_noise_scale_mult_z>
+    <gpu_fx_density_multiplier>0.020000 0.000000</gpu_fx_density_multiplier>
+    <gpu_drop_fx_size_x_multiplier>2.000000 0.000000</gpu_drop_fx_size_x_multiplier>
+    <gpu_drop_fx_size_y_multiplier>2.000000 0.000000</gpu_drop_fx_size_y_multiplier>
+    <gpu_ground_fx_size_x_multiplier>1.000000 0.000000</gpu_ground_fx_size_x_multiplier>
+    <gpu_ground_fx_size_y_multiplier>1.000000 0.000000</gpu_ground_fx_size_y_multiplier>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>0.200000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>200.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <local_atmosphere_voxel_detail_wind_vertical_speed>0.300000 0.000000</local_atmosphere_voxel_detail_wind_vertical_speed>
+    <sun_direction_x>0.114000 0.000000</sun_direction_x>
+    <sun_direction_y>0.274000 0.000000</sun_direction_y>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>0.827451 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>0.658824 1.000000</ped_light0_col_b>
+    <ped_light0_mult>30.000000 1.000000</ped_light0_mult>
+    <ped_light_falloff>0.000000 1.000000</ped_light_falloff>
+    <ped_light_falloff_start>1.000000 1.000000</ped_light_falloff_start>
+    <ped_light_wrap_dist>50.000000 1.000000</ped_light_wrap_dist>
+    <ped_light_wrap_min>0.678593 1.000000</ped_light_wrap_min>
+    <ped_light_wrap_max>1.000000 1.000000</ped_light_wrap_max>
+    <ped_light_fresnel>2.000000 1.000000</ped_light_fresnel>
+    <ped_light_ndotl_bias>0.418037 1.000000</ped_light_ndotl_bias>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <temperature_target>10.000000 0.000000</temperature_target>
+    <gbuffer_override_albedo_type_default_r>0.066667 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.066667 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.066667 0.000000</gbuffer_override_albedo_type_default_b>
+    <wind_gust_speed_min_kmh>0.200000 0.000000</wind_gust_speed_min_kmh>
+    <wind_gust_speed_max_kmh>1.000000 0.000000</wind_gust_speed_max_kmh>
+    <gbuffer_override_albedo_type_default_blend>0.800000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <local_atmosphere_diffusion_intensity_scale>4.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="ARCADE_B_2"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>0.763000 0.000000</minimum_wetness>
+    <maximum_wetness>0.765000 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>0.400000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>6500.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>-0.300000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>4980.500000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>40000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <light_dir_col_r>0.443137 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.560784 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>3.000000 1.000000</light_dir_mult>
+    <sun_direction_z>-0.350000 0.000000</sun_direction_z>
+    <moon_direction_x>-0.120000 0.000000</moon_direction_x>
+    <moon_direction_y>0.952000 0.000000</moon_direction_y>
+    <moon_direction_z>0.278000 0.000000</moon_direction_z>
+    <postfx_exposure_min>1.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>1.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.407000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.850000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.768000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.979000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.940000 0.000000</sun_direction_y>
+    <local_atmosphere_fog_density>0.100000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>50.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.005000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>50.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>250.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.689000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_voxel_noise_max>0.700000 0.000000</local_atmosphere_voxel_noise_max>
+    <local_atmosphere_voxel_noise_scale_mult_z>1.500000 0.000000</local_atmosphere_voxel_noise_scale_mult_z>
+    <local_atmosphere_voxel_detail_wind_vertical_speed>0.300000 0.000000</local_atmosphere_voxel_detail_wind_vertical_speed>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_top_col_mult>2.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.500000 0.000000</postfx_grad_bottom_col_mult>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>0.200000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>2.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>2.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>10.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>200.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <gpu_fx_density_multiplier>2.000000 0.000000</gpu_fx_density_multiplier>
+    <gpu_drop_fx_size_x_multiplier>2.000000 0.000000</gpu_drop_fx_size_x_multiplier>
+    <gpu_drop_fx_size_y_multiplier>2.000000 0.000000</gpu_drop_fx_size_y_multiplier>
+    <gpu_ground_fx_size_x_multiplier>1.000000 0.000000</gpu_ground_fx_size_x_multiplier>
+    <gpu_ground_fx_size_y_multiplier>1.000000 0.000000</gpu_ground_fx_size_y_multiplier>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <sky_moon_col_r>0.341176 0.000000</sky_moon_col_r>
+    <sky_moon_col_g>0.470588 0.000000</sky_moon_col_g>
+    <sky_moon_col_b>1.000000 0.000000</sky_moon_col_b>
+    <sky_moon_iten>100.000000 0.000000</sky_moon_iten>
+    <sky_moon_disc_size>3.000000 0.000000</sky_moon_disc_size>
+    <local_atmosphere_direct_light_intensity>1.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_direct_light_color_r>0.388235 0.000000</local_atmosphere_direct_light_color_r>
+    <local_atmosphere_direct_light_color_g>0.501961 0.000000</local_atmosphere_direct_light_color_g>
+    <local_atmosphere_direct_light_color_b>1.000000 0.000000</local_atmosphere_direct_light_color_b>
+    <local_atmosphere_anisotropy_high_density>0.946000 0.000000</local_atmosphere_anisotropy_high_density>
+    <local_atmosphere_diffusion_intensity_scale>4.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="ARCADE_B_3"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>0.763000 0.000000</minimum_wetness>
+    <maximum_wetness>0.765000 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>0.400000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>6500.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>-0.300000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>4980.500000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>40000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <sun_direction_z>0.100000 0.000000</sun_direction_z>
+    <moon_direction_x>-0.780000 0.000000</moon_direction_x>
+    <moon_direction_y>-0.690000 0.000000</moon_direction_y>
+    <moon_direction_z>0.354000 0.000000</moon_direction_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <postfx_exposure_min>-1.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-1.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.407000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.850000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.768000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.979000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <sun_direction_x>1.000000 0.000000</sun_direction_x>
+    <sun_direction_y>0.940000 0.000000</sun_direction_y>
+    <sky_moon_col_r>0.341176 0.000000</sky_moon_col_r>
+    <sky_moon_col_g>0.470588 0.000000</sky_moon_col_g>
+    <sky_moon_col_b>1.000000 0.000000</sky_moon_col_b>
+    <sky_moon_disc_size>3.000000 0.000000</sky_moon_disc_size>
+    <sky_moon_iten>100.000000 0.000000</sky_moon_iten>
+    <local_atmosphere_fog_density>0.100000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>50.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.005000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>50.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>250.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.742000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_voxel_noise_max>0.780000 0.000000</local_atmosphere_voxel_noise_max>
+    <local_atmosphere_voxel_noise_scale_mult_z>1.500000 0.000000</local_atmosphere_voxel_noise_scale_mult_z>
+    <local_atmosphere_voxel_detail_wind_vertical_speed>0.300000 0.000000</local_atmosphere_voxel_detail_wind_vertical_speed>
+    <local_atmosphere_direct_light_color_r>0.388235 0.000000</local_atmosphere_direct_light_color_r>
+    <local_atmosphere_direct_light_color_g>0.501961 0.000000</local_atmosphere_direct_light_color_g>
+    <local_atmosphere_direct_light_color_b>1.000000 0.000000</local_atmosphere_direct_light_color_b>
+    <local_atmosphere_direct_light_intensity>1.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_anisotropy_high_density>0.946000 0.000000</local_atmosphere_anisotropy_high_density>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_top_col_mult>2.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>0.500000 0.000000</postfx_grad_bottom_col_mult>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>0.200000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>2.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>2.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>10.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>200.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <gpu_fx_density_multiplier>2.000000 0.000000</gpu_fx_density_multiplier>
+    <gpu_drop_fx_size_x_multiplier>2.000000 0.000000</gpu_drop_fx_size_x_multiplier>
+    <gpu_drop_fx_size_y_multiplier>2.000000 0.000000</gpu_drop_fx_size_y_multiplier>
+    <gpu_ground_fx_size_x_multiplier>1.000000 0.000000</gpu_ground_fx_size_x_multiplier>
+    <gpu_ground_fx_size_y_multiplier>1.000000 0.000000</gpu_ground_fx_size_y_multiplier>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <sky_scattering_sun_intensity_multiplier>0.000000 0.000000</sky_scattering_sun_intensity_multiplier>
+    <local_atmosphere_cloud_shadow_alpha>0.000000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>1.000000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <sky_scattering_moon_illuminance>100.000000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_diffusion_intensity_scale>4.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="ARCADE_B_4"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>1.200000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>6500.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>-0.300000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>4980.500000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>400000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <light_dir_col_r>0.647059 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.788235 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+    <sun_direction_z>0.652000 0.000000</sun_direction_z>
+    <moon_direction_x>0.410000 0.000000</moon_direction_x>
+    <moon_direction_y>-0.440000 0.000000</moon_direction_y>
+    <moon_direction_z>0.862000 0.000000</moon_direction_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <postfx_exposure_min>2.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>2.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.245000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.900000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.599750 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="ARCADE_B_5"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>1.200000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>6500.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>-0.300000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>4980.500000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>400000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <light_dir_col_r>0.647059 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.788235 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+    <sun_direction_z>0.652000 0.000000</sun_direction_z>
+    <moon_direction_x>0.410000 0.000000</moon_direction_x>
+    <moon_direction_y>-0.440000 0.000000</moon_direction_y>
+    <moon_direction_z>0.862000 0.000000</moon_direction_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <postfx_exposure_min>2.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>2.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.245000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.900000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.599750 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="ARCADE_B_6"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_contrast_amount>1.200000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.200000 0.000000</postfx_contrast_pivot>
+    <maximum_soak>1.000000 0.000000</maximum_soak>
+    <minimum_soak>1.000000 0.000000</minimum_soak>
+    <minimum_wetness>1.000000 0.000000</minimum_wetness>
+    <maximum_wetness>1.000000 0.000000</maximum_wetness>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise_size>0.331000 0.000000</postfx_noise_size>
+    <postfx_noise>1.200000 0.000000</postfx_noise>
+    <postfx_white_balance_enabled>1.000000 1.000000</postfx_white_balance_enabled>
+    <postfx_white_balance_src_color_temp>6500.000000 0.000000</postfx_white_balance_src_color_temp>
+    <postfx_white_balance_src_color_tint>-0.300000 0.000000</postfx_white_balance_src_color_tint>
+    <postfx_white_balance_dst_color_temp>4980.500000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_white_balance_auto_mode_enabled>0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+    <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+    <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+    <postfx_white_balance_auto_color_temp_min>2500.000000 0.000000</postfx_white_balance_auto_color_temp_min>
+    <postfx_white_balance_auto_color_temp_max>400000.000000 0.000000</postfx_white_balance_auto_color_temp_max>
+    <light_dir_col_r>0.647059 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.788235 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+    <sun_direction_z>0.652000 0.000000</sun_direction_z>
+    <moon_direction_x>0.410000 0.000000</moon_direction_x>
+    <moon_direction_y>-0.440000 0.000000</moon_direction_y>
+    <moon_direction_z>0.862000 0.000000</moon_direction_z>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <postfx_exposure_min>2.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>2.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>0.245000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.900000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.599750 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="None">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <postfx_contrast_pivot>0.180000 0.180000 0.180000 0.180000 0.180000</postfx_contrast_pivot>
+      <postfx_contrast_amount>1.280000 1.280000 1.280000 1.280000 1.280000</postfx_contrast_amount>
+      <postfx_exposure_tweak>4.000000 4.000000 4.000000 4.000000 4.000000</postfx_exposure_tweak>
+      <postfx_vignette_tint_r>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_r>
+      <postfx_vignette_tint_g>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_g>
+      <postfx_vignette_tint_b>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_b>
+      <postfx_vignette_intensity>2.000000 1.500000 1.500000 1.500000 2.000000</postfx_vignette_intensity>
+      <postfx_vignette_axis_scale_x>1.000000 1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_x>
+      <postfx_vignette_axis_scale_y>1.000000 1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_y>
+      <postfx_vignette_inner_radius>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_vignette_inner_radius>
+      <postfx_vignette_outer_radius>3.000000 3.000000 3.000000 3.000000 3.000000</postfx_vignette_outer_radius>
+      <indirect_light_sky_multiplier>10.000000 10.000000 10.000000 10.000000 10.000000</indirect_light_sky_multiplier>
+      <indirect_light_sky_multiplier_coverage>100.000000 100.000000 100.000000 100.000000 100.000000</indirect_light_sky_multiplier_coverage>
+      <postfx_local_exposure_sh_contrast>0.206000 0.206000 0.206000 0.206000 0.206000</postfx_local_exposure_sh_contrast>
+      <postfx_local_exposure_hl_contrast>0.567000 0.567000 0.567000 0.567000 0.567000</postfx_local_exposure_hl_contrast>
+      <postfx_local_exposure_dt_contrast>1.200000 1.200000 1.000000 1.200000 1.200000</postfx_local_exposure_dt_contrast>
+      <postfx_local_exposure_blur_lum_amount>1.000000 1.000000 1.000000 1.000000 1.000000</postfx_local_exposure_blur_lum_amount>
+      <postfx_intensity_bloom>0.500000 0.300000 0.300000 0.300000 0.300000</postfx_intensity_bloom>
+      <postfx_white_balance_enabled>1.000000 1.000000 1.000000 1.000000 1.000000</postfx_white_balance_enabled>
+      <postfx_white_balance_src_color_temp>6500.000000 6500.000000 6500.000000 6500.000000 6500.000000</postfx_white_balance_src_color_temp>
+      <postfx_white_balance_src_color_tint>-0.320000 -0.320000 -0.320000 -0.320000 -0.320000</postfx_white_balance_src_color_tint>
+      <postfx_white_balance_dst_color_temp>6663.500000 6663.500000 6663.500000 6663.500000 6663.500000</postfx_white_balance_dst_color_temp>
+      <postfx_white_balance_auto_mode_enabled>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_white_balance_auto_mode_enabled>
+      <postfx_white_balance_auto_color_temp_blend>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_white_balance_auto_color_temp_blend>
+      <postfx_white_balance_auto_color_tint_blend>0.000000 0.000000 0.000000 0.000000 0.000000</postfx_white_balance_auto_color_tint_blend>
+      <postfx_white_balance_auto_color_temp_min>2500.000000 2500.000000 2500.000000 2500.000000 2500.000000</postfx_white_balance_auto_color_temp_min>
+      <postfx_white_balance_auto_color_temp_max>40000.000000 40000.000000 40000.000000 40000.000000 40000.000000</postfx_white_balance_auto_color_temp_max>
+      <postfx_scotopic_weight_bias>0.300000 0.300000 0.300000 0.300000 0.300000</postfx_scotopic_weight_bias>
+      <postfx_scotopic_weight_scale>0.300000 0.300000 0.300000 0.300000 0.300000</postfx_scotopic_weight_scale>
+      <postfx_scotopic_blue_shift_intensity>0.393000 0.393000 0.393000 0.393000 0.393000</postfx_scotopic_blue_shift_intensity>
+      <postfx_scotopic_col_r>0.941177 0.941177 0.941177 0.941177 0.941177</postfx_scotopic_col_r>
+      <postfx_scotopic_col_g>1.000000 1.000000 1.000000 1.000000 1.000000</postfx_scotopic_col_g>
+      <postfx_scotopic_col_b>0.933333 0.933333 0.933333 0.933333 0.933333</postfx_scotopic_col_b>
+      <lens_dist_use_auto_scaling>1.000000 1.000000 1.000000 1.000000 1.000000</lens_dist_use_auto_scaling>
+      <lens_dist_coeff>1.000000 1.000000 1.000000 1.000000 1.000000</lens_dist_coeff>
+      <lens_dist_cube_coeff>1.000000 1.000000 1.000000 1.000000 1.000000</lens_dist_cube_coeff>
+      <chrom_aberration_coeff>0.028000 0.052000 0.000000 0.032000 0.072000</chrom_aberration_coeff>
+      <chrom_aberration_coeff2>0.200000 0.066000 0.000000 0.026000 0.086000</chrom_aberration_coeff2>
+      <chrom_aberration_split_col_r>0.000000 0.000000 1.000000 0.254902 0.250980</chrom_aberration_split_col_r>
+      <chrom_aberration_split_col_g>0.043137 0.043137 0.000000 0.000000 0.000000</chrom_aberration_split_col_g>
+      <chrom_aberration_split_col_b>1.000000 1.000000 0.000000 1.000000 1.000000</chrom_aberration_split_col_b>
+      <chrom_aberration_spectrum_mode>0.558000 0.558000 0.000000 0.558000 0.558000</chrom_aberration_spectrum_mode>
+      <light_dir_mult>3.000000 3.000000 3.000000 3.000000 3.000000</light_dir_mult>
+      <light_dir_col_r>0.301961 0.301961 0.301961 0.301961 0.301961</light_dir_col_r>
+      <light_dir_col_g>0.435294 0.435294 0.435294 0.435294 0.435294</light_dir_col_g>
+      <light_dir_col_b>1.000000 1.000000 1.000000 1.000000 1.000000</light_dir_col_b>
+      <postfx_desaturation>0.000000 0.800000 1.500000 0.750000 0.000000</postfx_desaturation>
+      <postfx_noise>1.500000 0.500000 0.000000 0.500000 1.500000</postfx_noise>
+      <postfx_noise_size>0.300000 0.300000 0.000000 0.300000 0.300000</postfx_noise_size>
+      <postfx_grad_top_col_r>1.000000 1.000000 1.000000 0.270588 0.266667</postfx_grad_top_col_r>
+      <postfx_grad_top_col_g>0.760784 0.760784 1.000000 0.694118 0.686275</postfx_grad_top_col_g>
+      <postfx_grad_top_col_b>0.278431 0.278431 1.000000 1.000000 1.000000</postfx_grad_top_col_b>
+      <postfx_grad_middle_col_r>1.000000 1.000000 1.000000 0.270588 0.266667</postfx_grad_middle_col_r>
+      <postfx_grad_middle_col_g>0.788235 0.788235 1.000000 0.529412 0.521569</postfx_grad_middle_col_g>
+      <postfx_grad_middle_col_b>0.278431 0.278431 1.000000 1.000000 1.000000</postfx_grad_middle_col_b>
+      <postfx_grad_bottom_col_r>1.000000 1.000000 1.000000 0.317647 0.309804</postfx_grad_bottom_col_r>
+      <postfx_grad_bottom_col_g>0.803922 0.803922 1.000000 0.729412 0.721569</postfx_grad_bottom_col_g>
+      <postfx_grad_bottom_col_b>0.325490 0.325490 1.000000 1.000000 1.000000</postfx_grad_bottom_col_b>
+    </axis>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_F"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_C_1_DOF</item>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>2.000000 1.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.900000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_local_exposure_hl_contrast>0.410879 1.000000</postfx_local_exposure_hl_contrast>
+    <postfx_noise>1.446735 1.000000</postfx_noise>
+    <postfx_noise_size>0.494845 1.000000</postfx_noise_size>
+    <local_atmosphere_fog_density>1.000000 1.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>30.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>125.000000 1.000000</local_atmosphere_fog_falloff>
+    <light_direction_override>1.000000 1.000000</light_direction_override>
+    <moon_direction_override>1.000000 1.000000</moon_direction_override>
+    <moon_direction_x>0.080000 1.000000</moon_direction_x>
+    <sun_direction_x>0.000000 1.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 1.000000</sun_direction_y>
+    <sun_direction_z>-1.000000 1.000000</sun_direction_z>
+    <moon_direction_y>0.050000 1.000000</moon_direction_y>
+    <moon_direction_z>1.000000 1.000000</moon_direction_z>
+    <sun_direction_override>1.000000 1.000000</sun_direction_override>
+    <sky_scattering_moon_intensity_multiplier>1.000000 1.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_moon_illuminance>1.000000 1.000000</sky_scattering_moon_illuminance>
+    <postfx_local_exposure_sh_contrast>1.000000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_scotopic_blue_shift_intensity>0.393000 1.000000</postfx_scotopic_blue_shift_intensity>
+    <local_atmosphere_light_pollution_intensity>100000.000000 1.000000</local_atmosphere_light_pollution_intensity>
+    <local_atmosphere_sky_intensity>0.000000 1.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_custom_cloud_group_0_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_0_index>7.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <postfx_scotopic_weight_bias>0.100000 1.000000</postfx_scotopic_weight_bias>
+    <postfx_scotopic_weight_scale>0.100000 1.000000</postfx_scotopic_weight_scale>
+    <postfx_exposure_min>-1.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-1.000000 0.000000</postfx_exposure_max>
+    <postfx_color_grading_enabled>1.000000 1.000000</postfx_color_grading_enabled>
+    <postfx_desaturation>1.260000 0.000000</postfx_desaturation>
+    <light_dir_mult>3.000000 1.000000</light_dir_mult>
+    <light_dir_col_r>0.309804 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.466667 1.000000</light_dir_col_g>
+    <light_dir_col_b>0.972549 1.000000</light_dir_col_b>
+    <ped_light_falloff>8.000000 1.000000</ped_light_falloff>
+    <ped_light_falloff_start>1.000000 1.000000</ped_light_falloff_start>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <ped_light_wrap_dist>100.000000 1.000000</ped_light_wrap_dist>
+    <ped_light_wrap_max>0.000000 1.000000</ped_light_wrap_max>
+    <ped_light_ndotl_bias>0.000000 1.000000</ped_light_ndotl_bias>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>0.831373 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>0.729412 1.000000</ped_light0_col_b>
+    <ped_light0_mult>63.976158 1.000000</ped_light0_mult>
+    <ped_light0_amb_color_mult>1.000000 1.000000</ped_light0_amb_color_mult>
+    <postfx_local_exposure_dt_contrast>1.500000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_color_grading_global_gamma_b>1.000000 0.000000</postfx_color_grading_global_gamma_b>
+    <postfx_color_grading_global_gamma_g>0.950000 0.000000</postfx_color_grading_global_gamma_g>
+    <postfx_color_grading_global_gamma_r>0.950000 0.000000</postfx_color_grading_global_gamma_r>
+    <postfx_intensity_bloom>0.329897 0.000000</postfx_intensity_bloom>
+    <postfx_color_grading_global_offset_b>0.015150 0.000000</postfx_color_grading_global_offset_b>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_lens_flares_preset_id>9.000000 0.000000</postfx_lens_flares_preset_id>
+    <ped_light_wrap_min>0.145000 1.000000</ped_light_wrap_min>
+    <ped_light_fresnel>3.272085 1.000000</ped_light_fresnel>
+    <local_atmosphere_light_pollution_emissive_color_r>0.992157 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>0.227451 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>0.039216 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <local_atmosphere_light_pollution_emissive_intensity>1.000000 0.000000</local_atmosphere_light_pollution_emissive_intensity>
+    <local_atmosphere_diffusion_intensity_scale>7.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+    <light_override_mapdata_blend_color_r>0.152941 1.000000</light_override_mapdata_blend_color_r>
+    <light_override_mapdata_blend_color_g>0.458824 1.000000</light_override_mapdata_blend_color_g>
+    <light_override_mapdata_blend_color_b>1.000000 1.000000</light_override_mapdata_blend_color_b>
+    <light_override_mapdata_intensity>2.600000 0.000000</light_override_mapdata_intensity>
+    <light_override_mapdata_blend_value>0.500000 1.000000</light_override_mapdata_blend_value>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_P"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_C_1_DOF</item>
+      <item>ARCADE_C_1_P_color_submod</item>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_intensity>1.400000 1.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_local_exposure_hl_contrast>0.500000 1.000000</postfx_local_exposure_hl_contrast>
+    <light_direction_override>1.000000 1.000000</light_direction_override>
+    <moon_direction_override>1.000000 1.000000</moon_direction_override>
+    <moon_direction_x>0.080000 1.000000</moon_direction_x>
+    <sun_direction_x>0.000000 1.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 1.000000</sun_direction_y>
+    <sun_direction_z>-1.000000 1.000000</sun_direction_z>
+    <moon_direction_y>0.050000 1.000000</moon_direction_y>
+    <moon_direction_z>1.000000 1.000000</moon_direction_z>
+    <sun_direction_override>1.000000 1.000000</sun_direction_override>
+    <local_atmosphere_sky_intensity>0.000000 1.000000</local_atmosphere_sky_intensity>
+    <postfx_scotopic_weight_scale>0.100000 1.000000</postfx_scotopic_weight_scale>
+    <postfx_scotopic_weight_bias>0.100000 1.000000</postfx_scotopic_weight_bias>
+    <postfx_scotopic_blue_shift_intensity>0.393000 1.000000</postfx_scotopic_blue_shift_intensity>
+    <sky_scattering_moon_intensity_multiplier>1.000000 1.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_moon_illuminance>0.300000 1.000000</sky_scattering_moon_illuminance>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <local_atmosphere_custom_cloud_group_0_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_0_index>7.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_local_exposure_sh_contrast>0.950000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise>1.000000 1.000000</postfx_noise>
+    <postfx_noise_size>0.494845 1.000000</postfx_noise_size>
+    <local_atmosphere_fog_height>30.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>1.000000 1.000000</local_atmosphere_fog_density>
+    <light_override_mapdata_blend_value>0.100000 1.000000</light_override_mapdata_blend_value>
+    <ped_light0_amb_color_mult>1.000000 1.000000</ped_light0_amb_color_mult>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>0.831373 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>0.729412 1.000000</ped_light0_col_b>
+    <ped_light_fresnel>3.000000 1.000000</ped_light_fresnel>
+    <ped_light_wrap_max>0.000000 1.000000</ped_light_wrap_max>
+    <ped_light_wrap_min>0.140000 1.000000</ped_light_wrap_min>
+    <ped_light_wrap_dist>100.000000 1.000000</ped_light_wrap_dist>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <ped_light_falloff_start>1.000000 1.000000</ped_light_falloff_start>
+    <ped_light_falloff>8.000000 1.000000</ped_light_falloff>
+    <ped_light0_mult>35.000000 1.000000</ped_light0_mult>
+    <ped_light_ndotl_bias>0.000000 1.000000</ped_light_ndotl_bias>
+    <postfx_exposure_max>1.500000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-0.500000 0.000000</postfx_exposure_min>
+    <local_atmosphere_light_pollution_emissive_color_r>0.380392 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>0.611765 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>0.125490 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <local_atmosphere_light_pollution_emissive_intensity>0.200000 0.000000</local_atmosphere_light_pollution_emissive_intensity>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <local_atmosphere_diffusion_intensity_scale>5.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+    <local_atmosphere_fog_falloff>120.000000 1.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_light_pollution_intensity>100000.000000 1.000000</local_atmosphere_light_pollution_intensity>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_P2"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_C_1_DOF</item>
+      <item>ARCADE_C_1_P_color_submod</item>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_intensity>1.400000 1.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 1.000000</postfx_vignette_outer_radius>
+    <postfx_local_exposure_hl_contrast>0.500000 1.000000</postfx_local_exposure_hl_contrast>
+    <light_direction_override>1.000000 1.000000</light_direction_override>
+    <moon_direction_override>1.000000 1.000000</moon_direction_override>
+    <moon_direction_x>0.080000 1.000000</moon_direction_x>
+    <sun_direction_x>0.000000 1.000000</sun_direction_x>
+    <sun_direction_y>-1.000000 1.000000</sun_direction_y>
+    <sun_direction_z>-1.000000 1.000000</sun_direction_z>
+    <moon_direction_y>0.050000 1.000000</moon_direction_y>
+    <moon_direction_z>1.000000 1.000000</moon_direction_z>
+    <sun_direction_override>1.000000 1.000000</sun_direction_override>
+    <local_atmosphere_sky_intensity>0.000000 1.000000</local_atmosphere_sky_intensity>
+    <postfx_scotopic_weight_scale>0.100000 1.000000</postfx_scotopic_weight_scale>
+    <postfx_scotopic_weight_bias>0.100000 1.000000</postfx_scotopic_weight_bias>
+    <local_atmosphere_light_pollution_intensity>100000.000000 1.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_scotopic_blue_shift_intensity>0.393000 1.000000</postfx_scotopic_blue_shift_intensity>
+    <sky_scattering_moon_intensity_multiplier>1.000000 1.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_scattering_moon_illuminance>0.300000 1.000000</sky_scattering_moon_illuminance>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <local_atmosphere_custom_cloud_group_0_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <local_atmosphere_custom_cloud_group_0_index>7.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>1.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_local_exposure_sh_contrast>0.900000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_noise>1.000000 1.000000</postfx_noise>
+    <postfx_noise_size>0.494845 1.000000</postfx_noise_size>
+    <local_atmosphere_fog_height>65.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>80.000000 1.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density>1.000000 1.000000</local_atmosphere_fog_density>
+    <light_override_mapdata_blend_value>0.100000 1.000000</light_override_mapdata_blend_value>
+    <ped_light0_amb_color_mult>1.000000 1.000000</ped_light0_amb_color_mult>
+    <ped_light0_col_r>1.000000 1.000000</ped_light0_col_r>
+    <ped_light0_col_g>0.831373 1.000000</ped_light0_col_g>
+    <ped_light0_col_b>0.729412 1.000000</ped_light0_col_b>
+    <ped_light_fresnel>3.000000 1.000000</ped_light_fresnel>
+    <ped_light_wrap_max>0.000000 1.000000</ped_light_wrap_max>
+    <ped_light_wrap_min>0.140000 1.000000</ped_light_wrap_min>
+    <ped_light_wrap_dist>100.000000 1.000000</ped_light_wrap_dist>
+    <ped_light_falloff_end>1.000000 1.000000</ped_light_falloff_end>
+    <ped_light_falloff_start>1.000000 1.000000</ped_light_falloff_start>
+    <ped_light_falloff>8.000000 1.000000</ped_light_falloff>
+    <ped_light0_mult>35.000000 1.000000</ped_light0_mult>
+    <ped_light_ndotl_bias>0.000000 1.000000</ped_light_ndotl_bias>
+    <postfx_exposure_max>1.500000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-0.500000 0.000000</postfx_exposure_min>
+    <local_atmosphere_light_pollution_emissive_color_r>1.000000 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>0.219608 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>0.000000 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <local_atmosphere_light_pollution_emissive_intensity>0.400000 0.000000</local_atmosphere_light_pollution_emissive_intensity>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <local_atmosphere_diffusion_intensity_scale>7.000000 0.000000</local_atmosphere_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_H"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="heartbeat">
+      <keyframe_t_value>0.000000 0.253000 0.580000 1.000000</keyframe_t_value>
+      <postfx_vignette_axis_scale_x>1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_x>
+      <postfx_vignette_axis_scale_y>1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_y>
+      <postfx_vignette_inner_radius>0.500000 0.500000 0.500000 0.500000</postfx_vignette_inner_radius>
+      <postfx_vignette_outer_radius>3.000000 3.000000 3.000000 3.000000</postfx_vignette_outer_radius>
+      <lens_dist_use_auto_scaling>1.000000 0.000000 0.000000 1.000000</lens_dist_use_auto_scaling>
+      <postfx_color_grading_enabled>1.000000 1.000000 1.000000 1.000000</postfx_color_grading_enabled>
+      <chrom_aberration_coeff2>0.070000 0.000000 0.050000 0.070000</chrom_aberration_coeff2>
+      <postfx_intensity_bloom>0.500000 0.040000 0.040000 0.500000</postfx_intensity_bloom>
+      <postfx_vignette_tint_r>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_r>
+      <postfx_vignette_tint_g>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_g>
+      <postfx_vignette_tint_b>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_b>
+      <postfx_vignette_intensity>0.200000 0.000000 0.000000 0.200000</postfx_vignette_intensity>
+      <lens_dist_coeff>0.000200 0.000000 0.000000 0.000200</lens_dist_coeff>
+      <lens_dist_cube_coeff>0.010931 0.000000 0.000000 0.010931</lens_dist_cube_coeff>
+      <chrom_aberration_coeff>0.100000 0.500000 0.500000 0.100000</chrom_aberration_coeff>
+      <chrom_aberration_split_col_r>0.592157 0.000000 0.000000 0.592157</chrom_aberration_split_col_r>
+      <chrom_aberration_split_col_g>0.000000 0.000000 0.000000 0.000000</chrom_aberration_split_col_g>
+      <chrom_aberration_split_col_b>1.000000 0.000000 0.000000 1.000000</chrom_aberration_split_col_b>
+      <chrom_aberration_spectrum_mode>0.000000 0.000000 0.000000 0.000000</chrom_aberration_spectrum_mode>
+      <postfx_color_grading_global_gamma_b>1.300000 1.300000 1.300000 1.300000</postfx_color_grading_global_gamma_b>
+      <postfx_color_grading_global_gamma_g>1.100000 1.100000 1.100000 1.100000</postfx_color_grading_global_gamma_g>
+      <postfx_color_grading_global_gamma_r>1.000000 1.000000 1.000000 1.000000</postfx_color_grading_global_gamma_r>
+      <postfx_color_grading_global_gain_b>1.200000 1.200000 1.200000 1.200000</postfx_color_grading_global_gain_b>
+      <postfx_color_grading_global_gain_g>1.100000 1.100000 1.100000 1.100000</postfx_color_grading_global_gain_g>
+      <postfx_color_grading_global_gain_r>1.500000 1.500000 1.500000 1.500000</postfx_color_grading_global_gain_r>
+      <light_intensity_mult>3.000000 0.700000 1.000000 3.000000</light_intensity_mult>
+      <postfx_local_exposure_sh_contrast>0.970000 0.970000 0.970000 0.970000</postfx_local_exposure_sh_contrast>
+    </axis>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_HeartPulse"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="heartbeat">
+      <keyframe_t_value>0.000000 0.253000 0.580000 1.000000</keyframe_t_value>
+      <postfx_vignette_axis_scale_x>1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_x>
+      <postfx_vignette_axis_scale_y>1.000000 1.000000 1.000000 1.000000</postfx_vignette_axis_scale_y>
+      <postfx_vignette_inner_radius>0.500000 0.500000 0.500000 0.500000</postfx_vignette_inner_radius>
+      <postfx_vignette_outer_radius>3.000000 3.000000 3.000000 3.000000</postfx_vignette_outer_radius>
+      <lens_dist_use_auto_scaling>1.000000 0.000000 0.000000 1.000000</lens_dist_use_auto_scaling>
+      <postfx_color_grading_enabled>1.000000 1.000000 1.000000 1.000000</postfx_color_grading_enabled>
+      <chrom_aberration_coeff2>0.070000 0.000000 0.050000 0.070000</chrom_aberration_coeff2>
+      <postfx_intensity_bloom>0.500000 0.040000 0.040000 0.500000</postfx_intensity_bloom>
+      <postfx_vignette_tint_r>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_r>
+      <postfx_vignette_tint_g>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_g>
+      <postfx_vignette_tint_b>0.000000 0.000000 0.000000 0.000000</postfx_vignette_tint_b>
+      <postfx_vignette_intensity>0.200000 0.000000 0.000000 0.200000</postfx_vignette_intensity>
+      <lens_dist_coeff>0.000200 0.000000 0.000000 0.000200</lens_dist_coeff>
+      <lens_dist_cube_coeff>0.010931 0.000000 0.000000 0.010931</lens_dist_cube_coeff>
+      <chrom_aberration_coeff>0.100000 0.500000 0.500000 0.100000</chrom_aberration_coeff>
+      <chrom_aberration_split_col_r>0.592157 0.000000 0.000000 0.592157</chrom_aberration_split_col_r>
+      <chrom_aberration_split_col_g>0.000000 0.000000 0.000000 0.000000</chrom_aberration_split_col_g>
+      <chrom_aberration_split_col_b>1.000000 0.000000 0.000000 1.000000</chrom_aberration_split_col_b>
+      <chrom_aberration_spectrum_mode>0.000000 0.000000 0.000000 0.000000</chrom_aberration_spectrum_mode>
+      <postfx_color_grading_global_gamma_b>1.300000 1.300000 1.300000 1.300000</postfx_color_grading_global_gamma_b>
+      <postfx_color_grading_global_gamma_g>1.100000 1.100000 1.100000 1.100000</postfx_color_grading_global_gamma_g>
+      <postfx_color_grading_global_gamma_r>1.000000 1.000000 1.000000 1.000000</postfx_color_grading_global_gamma_r>
+      <postfx_color_grading_global_gain_b>1.200000 1.200000 1.200000 1.200000</postfx_color_grading_global_gain_b>
+      <postfx_color_grading_global_gain_g>1.100000 1.100000 1.100000 1.100000</postfx_color_grading_global_gain_g>
+      <postfx_color_grading_global_gain_r>1.500000 1.500000 1.500000 1.500000</postfx_color_grading_global_gain_r>
+      <light_intensity_mult>3.000000 0.700000 1.000000 3.000000</light_intensity_mult>
+      <postfx_local_exposure_sh_contrast>0.970000 0.970000 0.970000 0.970000</postfx_local_exposure_sh_contrast>
+    </axis>
+  </modifier>
+  <modifier
+    name="ARCADE_D_level1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_desaturation>1.400000 0.000000</postfx_desaturation>
+    <postfx_intensity_bloom>0.600000 0.000000</postfx_intensity_bloom>
+    <sun_direction_x>0.742735 0.000000</sun_direction_x>
+    <sun_direction_y>-0.530904 0.000000</sun_direction_y>
+    <sun_direction_z>0.242778 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <local_atmosphere_fog_density>0.003800 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>5.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.003000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>30.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.462221 0.000000</local_atmosphere_voxel_noise_min>
+    <gbuffer_override_albedo_type_default_r>0.243137 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.192157 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.152941 0.000000</gbuffer_override_albedo_type_default_b>
+    <gbuffer_override_albedo_type_vehicle_blend>0.000000 0.000000</gbuffer_override_albedo_type_vehicle_blend>
+    <gbuffer_override_albedo_type_tree_blend>0.350000 0.000000</gbuffer_override_albedo_type_tree_blend>
+    <gbuffer_override_albedo_type_pickup_r>1.000000 0.000000</gbuffer_override_albedo_type_pickup_r>
+    <gbuffer_override_albedo_type_pickup_g>1.000000 0.000000</gbuffer_override_albedo_type_pickup_g>
+    <gbuffer_override_albedo_type_pickup_b>1.000000 0.000000</gbuffer_override_albedo_type_pickup_b>
+    <gbuffer_override_albedo_type_pickup_blend>0.000000 0.000000</gbuffer_override_albedo_type_pickup_blend>
+    <gbuffer_override_albedo_type_terrain_r>0.568627 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>0.294118 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>0.137255 0.000000</gbuffer_override_albedo_type_terrain_b>
+    <gbuffer_override_albedo_type_terrain_blend>0.750000 0.000000</gbuffer_override_albedo_type_terrain_blend>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.903519 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_dt_contrast>1.700000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_noise>0.440000 0.000000</postfx_noise>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_noise_size>0.430000 0.000000</postfx_noise_size>
+    <gbuffer_override_albedo_type_ped_r>0.254902 0.000000</gbuffer_override_albedo_type_ped_r>
+    <gbuffer_override_albedo_type_ped_g>0.074510 0.000000</gbuffer_override_albedo_type_ped_g>
+    <gbuffer_override_albedo_type_ped_b>0.031373 0.000000</gbuffer_override_albedo_type_ped_b>
+    <gbuffer_override_albedo_type_default_blend>0.700000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <gbuffer_override_albedo_type_ped_blend>0.750000 0.000000</gbuffer_override_albedo_type_ped_blend>
+    <gbuffer_override_albedo_type_tree_r>0.349020 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>0.392157 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>0.098039 0.000000</gbuffer_override_albedo_type_tree_b>
+    <indirect_light_multibounce_multiplier>3.142000 0.000000</indirect_light_multibounce_multiplier>
+    <postfx_exposure>0.200000 0.000000</postfx_exposure>
+    <color_temperature_target>0.700000 0.000000</color_temperature_target>
+    <local_atmosphere_voxel_noise_max>0.657127 0.000000</local_atmosphere_voxel_noise_max>
+    <indirect_light_directional_multiplier>10.000000 0.000000</indirect_light_directional_multiplier>
+    <dir_shadow_num_cascades>2.000000 0.000000</dir_shadow_num_cascades>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="ARCADE_D_level2"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <sun_direction_x>0.742735 0.000000</sun_direction_x>
+    <sun_direction_y>-0.530904 0.000000</sun_direction_y>
+    <sun_direction_z>0.750000 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <gbuffer_override_albedo_type_default_r>0.243137 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.192157 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.152941 0.000000</gbuffer_override_albedo_type_default_b>
+    <gbuffer_override_albedo_type_vehicle_blend>0.000000 0.000000</gbuffer_override_albedo_type_vehicle_blend>
+    <gbuffer_override_albedo_type_tree_blend>0.350000 0.000000</gbuffer_override_albedo_type_tree_blend>
+    <gbuffer_override_albedo_type_pickup_r>1.000000 0.000000</gbuffer_override_albedo_type_pickup_r>
+    <gbuffer_override_albedo_type_pickup_g>1.000000 0.000000</gbuffer_override_albedo_type_pickup_g>
+    <gbuffer_override_albedo_type_pickup_b>1.000000 0.000000</gbuffer_override_albedo_type_pickup_b>
+    <gbuffer_override_albedo_type_pickup_blend>0.000000 0.000000</gbuffer_override_albedo_type_pickup_blend>
+    <gbuffer_override_albedo_type_terrain_blend>0.750000 0.000000</gbuffer_override_albedo_type_terrain_blend>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.903519 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_dt_contrast>1.700000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_noise>0.440000 0.000000</postfx_noise>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_noise_size>0.430000 0.000000</postfx_noise_size>
+    <gbuffer_override_albedo_type_ped_r>0.254902 0.000000</gbuffer_override_albedo_type_ped_r>
+    <gbuffer_override_albedo_type_ped_g>0.062745 0.000000</gbuffer_override_albedo_type_ped_g>
+    <gbuffer_override_albedo_type_ped_b>0.023529 0.000000</gbuffer_override_albedo_type_ped_b>
+    <gbuffer_override_albedo_type_default_blend>0.700000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <gbuffer_override_albedo_type_ped_blend>0.750000 0.000000</gbuffer_override_albedo_type_ped_blend>
+    <gbuffer_override_albedo_type_tree_r>0.274510 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>0.305882 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>0.086275 0.000000</gbuffer_override_albedo_type_tree_b>
+    <color_temperature_target>0.600000 0.000000</color_temperature_target>
+    <local_atmosphere_custom_cloud_group_0_index>-1.000000 0.000000</local_atmosphere_custom_cloud_group_0_index>
+    <local_atmosphere_custom_cloud_group_0_density>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_density>
+    <local_atmosphere_custom_cloud_group_0_position_x>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_x>
+    <local_atmosphere_custom_cloud_group_0_position_y>0.000000 0.000000</local_atmosphere_custom_cloud_group_0_position_y>
+    <indirect_light_multibounce_multiplier>3.142000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_directional_multiplier>2.000000 0.000000</indirect_light_directional_multiplier>
+    <local_atmosphere_cloud_map_position_x>0.140000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.160000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <postfx_desaturation>1.400000 0.000000</postfx_desaturation>
+    <postfx_intensity_bloom>0.600000 0.000000</postfx_intensity_bloom>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <dir_shadow_num_cascades>2.000000 0.000000</dir_shadow_num_cascades>
+    <postfx_local_exposure_sh_contrast>0.850000 0.000000</postfx_local_exposure_sh_contrast>
+    <gbuffer_override_albedo_type_terrain_r>0.568627 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>0.294118 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>0.137255 0.000000</gbuffer_override_albedo_type_terrain_b>
+  </modifier>
+  <modifier
+    name="ARCADE_D_level3"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>ARCADE_optimization_submod</item>
+    </submodifiers>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>3.000000 0.000000</postfx_vignette_outer_radius>
+    <sun_direction_x>0.564922 0.000000</sun_direction_x>
+    <sun_direction_y>-0.552312 0.000000</sun_direction_y>
+    <sun_direction_z>0.422222 0.000000</sun_direction_z>
+    <sun_direction_override>0.584980 0.000000</sun_direction_override>
+    <postfx_intensity_bloom>0.600000 0.000000</postfx_intensity_bloom>
+    <gbuffer_override_albedo_type_default_r>0.176471 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.137255 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.109804 0.000000</gbuffer_override_albedo_type_default_b>
+    <gbuffer_override_albedo_type_vehicle_blend>0.000000 0.000000</gbuffer_override_albedo_type_vehicle_blend>
+    <gbuffer_override_albedo_type_tree_blend>0.350000 0.000000</gbuffer_override_albedo_type_tree_blend>
+    <gbuffer_override_albedo_type_pickup_r>1.000000 0.000000</gbuffer_override_albedo_type_pickup_r>
+    <gbuffer_override_albedo_type_pickup_g>1.000000 0.000000</gbuffer_override_albedo_type_pickup_g>
+    <gbuffer_override_albedo_type_pickup_b>1.000000 0.000000</gbuffer_override_albedo_type_pickup_b>
+    <gbuffer_override_albedo_type_pickup_blend>0.000000 0.000000</gbuffer_override_albedo_type_pickup_blend>
+    <gbuffer_override_albedo_type_terrain_r>0.376471 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>0.203922 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>0.101961 0.000000</gbuffer_override_albedo_type_terrain_b>
+    <gbuffer_override_albedo_type_terrain_blend>0.750000 0.000000</gbuffer_override_albedo_type_terrain_blend>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.903519 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_dt_contrast>1.700000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_noise>0.440000 0.000000</postfx_noise>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_noise_size>0.430000 0.000000</postfx_noise_size>
+    <gbuffer_override_albedo_type_ped_r>0.125490 0.000000</gbuffer_override_albedo_type_ped_r>
+    <gbuffer_override_albedo_type_ped_g>0.039216 0.000000</gbuffer_override_albedo_type_ped_g>
+    <gbuffer_override_albedo_type_ped_b>0.019608 0.000000</gbuffer_override_albedo_type_ped_b>
+    <gbuffer_override_albedo_type_default_blend>0.700000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <gbuffer_override_albedo_type_ped_blend>0.750000 0.000000</gbuffer_override_albedo_type_ped_blend>
+    <gbuffer_override_albedo_type_tree_r>0.062745 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>0.078431 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>0.007843 0.000000</gbuffer_override_albedo_type_tree_b>
+    <indirect_light_multibounce_multiplier>2.000000 0.000000</indirect_light_multibounce_multiplier>
+    <color_temperature_target>0.700000 0.000000</color_temperature_target>
+    <indirect_light_directional_multiplier>5.000000 0.000000</indirect_light_directional_multiplier>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_cloud_map_position_x>-0.350000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>-0.478000 0.000000</local_atmosphere_cloud_map_position_y>
+    <sky_sun_disc_size>3.000000 0.000000</sky_sun_disc_size>
+    <postfx_lens_flares_intensity>0.001000 0.000000</postfx_lens_flares_intensity>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <gbuffer_override_albedo_type_default_r>0.176471 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.137255 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.109804 0.000000</gbuffer_override_albedo_type_default_b>
+    <gbuffer_override_albedo_type_tree_r>0.062745 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>0.078431 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>0.007843 0.000000</gbuffer_override_albedo_type_tree_b>
+    <gbuffer_override_albedo_type_terrain_r>0.376471 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>0.203922 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>0.101961 0.000000</gbuffer_override_albedo_type_terrain_b>
+    <postfx_desaturation>1.400000 0.000000</postfx_desaturation>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <sky_new_mie_scattering_col_r>1.000000 0.000000</sky_new_mie_scattering_col_r>
+    <sky_new_mie_scattering_col_g>0.650980 0.000000</sky_new_mie_scattering_col_g>
+    <sky_new_mie_scattering_col_b>0.470588 0.000000</sky_new_mie_scattering_col_b>
+    <sky_scattering_sun_col_r>1.000000 0.000000</sky_scattering_sun_col_r>
+    <sky_scattering_sun_col_g>0.690196 0.000000</sky_scattering_sun_col_g>
+    <sky_scattering_sun_col_b>0.576471 0.000000</sky_scattering_sun_col_b>
+  </modifier>
+  <modifier
+    name="ARCADE_Aalt"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_sky_multiplier>3.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <light_distance_intensity>0.000000 0.000000</light_distance_intensity>
+    <light_distance_intensity_start>83.000000 0.000000</light_distance_intensity_start>
+    <light_distance_intensity_end>194.000000 0.000000</light_distance_intensity_end>
+    <light_col_mult_r>0.098039 1.000000</light_col_mult_r>
+    <light_col_mult_g>0.062745 1.000000</light_col_mult_g>
+    <light_col_mult_b>0.007843 1.000000</light_col_mult_b>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>160.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.100000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>1.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>5.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <postfx_intensity_bloom>1.000000 0.000000</postfx_intensity_bloom>
+    <postfx_noise>0.400000 0.000000</postfx_noise>
+    <postfx_noise_size>0.501072 0.000000</postfx_noise_size>
+    <postfx_motionblurlength>1.000000 0.000000</postfx_motionblurlength>
+    <postfx_motionblurlength_max>11.000000 0.000000</postfx_motionblurlength_max>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>0.800000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.000000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_exposure_tweak>0.000000 0.000000</postfx_exposure_tweak>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_contrast_amount>2.500000 0.000000</postfx_contrast_amount>
+    <postfx_contrast_pivot>0.010000 0.000000</postfx_contrast_pivot>
+    <gbuffer_override_albedo_type_default_blend>1.000000 0.000000</gbuffer_override_albedo_type_default_blend>
+    <gbuffer_override_albedo_type_ped_r>0.000000 0.000000</gbuffer_override_albedo_type_ped_r>
+    <gbuffer_override_albedo_type_ped_g>0.000000 0.000000</gbuffer_override_albedo_type_ped_g>
+    <gbuffer_override_albedo_type_ped_b>0.000000 0.000000</gbuffer_override_albedo_type_ped_b>
+    <gbuffer_override_albedo_type_ped_blend>1.000000 0.000000</gbuffer_override_albedo_type_ped_blend>
+    <gbuffer_override_albedo_type_vehicle_r>0.086275 0.000000</gbuffer_override_albedo_type_vehicle_r>
+    <gbuffer_override_albedo_type_vehicle_g>0.086275 0.000000</gbuffer_override_albedo_type_vehicle_g>
+    <gbuffer_override_albedo_type_vehicle_b>0.086275 0.000000</gbuffer_override_albedo_type_vehicle_b>
+    <gbuffer_override_albedo_type_vehicle_blend>1.000000 0.000000</gbuffer_override_albedo_type_vehicle_blend>
+    <gbuffer_override_albedo_type_tree_r>0.043137 0.000000</gbuffer_override_albedo_type_tree_r>
+    <gbuffer_override_albedo_type_tree_g>0.043137 0.000000</gbuffer_override_albedo_type_tree_g>
+    <gbuffer_override_albedo_type_tree_b>0.043137 0.000000</gbuffer_override_albedo_type_tree_b>
+    <gbuffer_override_albedo_type_tree_blend>1.000000 0.000000</gbuffer_override_albedo_type_tree_blend>
+    <gbuffer_override_albedo_type_terrain_r>0.611765 0.000000</gbuffer_override_albedo_type_terrain_r>
+    <gbuffer_override_albedo_type_terrain_g>0.611765 0.000000</gbuffer_override_albedo_type_terrain_g>
+    <gbuffer_override_albedo_type_terrain_b>0.611765 0.000000</gbuffer_override_albedo_type_terrain_b>
+    <gbuffer_override_albedo_type_terrain_blend>1.000000 0.000000</gbuffer_override_albedo_type_terrain_blend>
+    <gbuffer_override_albedo_type_pickup_r>1.000000 0.000000</gbuffer_override_albedo_type_pickup_r>
+    <gbuffer_override_albedo_type_pickup_g>1.000000 0.000000</gbuffer_override_albedo_type_pickup_g>
+    <gbuffer_override_albedo_type_pickup_b>1.000000 0.000000</gbuffer_override_albedo_type_pickup_b>
+    <gbuffer_override_albedo_type_pickup_blend>1.000000 0.000000</gbuffer_override_albedo_type_pickup_blend>
+    <sky_new_ray_scattering_col_r>0.505882 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.505882 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.505882 0.000000</sky_new_ray_scattering_col_b>
+    <gbuffer_override_albedo_type_default_r>0.286275 0.000000</gbuffer_override_albedo_type_default_r>
+    <gbuffer_override_albedo_type_default_g>0.286275 0.000000</gbuffer_override_albedo_type_default_g>
+    <gbuffer_override_albedo_type_default_b>0.286275 0.000000</gbuffer_override_albedo_type_default_b>
+    <light_fallof_mult>5.000000 0.000000</light_fallof_mult>
+    <water_clip_scattering_r>1000.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>400.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>200.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>892.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>904.010010 0.000000</water_clip_extinction_b>
+    <postfx_desaturation>0.300000 0.000000</postfx_desaturation>
+    <local_atmosphere_cloud_shadow_alpha>0.500000 0.000000</local_atmosphere_cloud_shadow_alpha>
+    <local_atmosphere_cloud_shadow_alpha_scattering>0.500000 0.000000</local_atmosphere_cloud_shadow_alpha_scattering>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <moon_direction_z>0.506129 0.000000</moon_direction_z>
+    <moon_direction_y>0.794085 0.000000</moon_direction_y>
+    <moon_direction_x>-0.290099 0.000000</moon_direction_x>
+    <sky_scattering_moon_intensity_multiplier>0.100000 0.000000</sky_scattering_moon_intensity_multiplier>
+    <sky_moon_iten>1.000000 0.000000</sky_moon_iten>
+    <light_dir_mult>2.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="ARCADE_TL_Lighthouse"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="1"
+  >
+    <postfx_exposure_max>2.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>1.000000 0.000000</postfx_exposure_min>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_DOF"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_dof_focus_distance>10.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_dof_focal_length>48.000000 0.000000</postfx_dof_focal_length>
+    <postfx_dof_fnumber>1.000000 0.000000</postfx_dof_fnumber>
+  </modifier>
+  <modifier
+    name="ARCADE_C_1_P_color_submod"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_color_grading_enabled>1.000000 1.000000</postfx_color_grading_enabled>
+    <postfx_color_grading_global_saturation_a>1.000000 0.000000</postfx_color_grading_global_saturation_a>
+    <postfx_color_grading_global_contrast_r>1.000000 0.000000</postfx_color_grading_global_contrast_r>
+    <postfx_color_grading_global_contrast_g>1.100000 0.000000</postfx_color_grading_global_contrast_g>
+    <postfx_color_grading_global_contrast_b>1.000000 0.000000</postfx_color_grading_global_contrast_b>
+    <postfx_color_grading_global_offset_b>0.005000 1.000000</postfx_color_grading_global_offset_b>
+    <postfx_color_grading_global_saturation_b>0.900000 1.000000</postfx_color_grading_global_saturation_b>
+    <postfx_color_grading_global_saturation_g>1.000000 1.000000</postfx_color_grading_global_saturation_g>
+    <postfx_color_grading_global_saturation_r>1.200000 1.000000</postfx_color_grading_global_saturation_r>
+    <postfx_color_grading_global_gain_b>1.000000 1.000000</postfx_color_grading_global_gain_b>
+    <postfx_color_grading_global_gain_g>1.050000 1.000000</postfx_color_grading_global_gain_g>
+    <postfx_color_grading_global_gain_r>1.030000 1.000000</postfx_color_grading_global_gain_r>
+  </modifier>
+  <modifier
+    name="ARCADE_optimization_submod"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>-0.101617 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+  </modifier>
+  <modifier
+    name="ARCADE_TL_Void"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_PostFX_DynGradOff</item>
+      <item>ARCADE_optimization_submod</item>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>ARCADE_TL_1_CTR_submod</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.300000 0.000000</postfx_intensity_bloom>
+    <postfx_desaturation>0.000000 0.000000</postfx_desaturation>
+    <postfx_noise>0.500000 0.000000</postfx_noise>
+    <postfx_shift_cutoff>1.000000 0.000000</postfx_shift_cutoff>
+    <postfx_tonemap_filmic_exposure_dark>1.000000 0.000000</postfx_tonemap_filmic_exposure_dark>
+    <postfx_tonemap_filmic_b>0.352000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_c>0.575000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_d>0.350000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>0.550000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_d_bright>0.350000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_vignette_intensity>0.300000 0.000000</postfx_vignette_intensity>
+    <postfx_correct_col_r>0.956863 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>0.949020 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>0.933333 0.000000</postfx_correct_col_b>
+    <postfx_white_balance_enabled>0.000000 0.000000</postfx_white_balance_enabled>
+    <postfx_shift_col_r>0.000000 1.000000</postfx_shift_col_r>
+    <postfx_shift_col_g>0.000000 1.000000</postfx_shift_col_g>
+    <postfx_shift_col_b>0.000000 1.000000</postfx_shift_col_b>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_tonemap_filmic_a>0.608000 0.000000</postfx_tonemap_filmic_a>
+    <local_atmosphere_water_droplet_density_scale>0.050000 0.000000</local_atmosphere_water_droplet_density_scale>
+    <moon_direction_z>0.817391 0.000000</moon_direction_z>
+    <moon_direction_y>1.000000 0.000000</moon_direction_y>
+    <moon_direction_x>0.095652 0.000000</moon_direction_x>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <indirect_light_sky_global_multiplier>0.300000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_water>1.000000 0.000000</indirect_light_sky_multiplier_water>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <postfx_noise_size>0.700000 0.000000</postfx_noise_size>
+    <postfx_vignette_bloom_intensity>2.942478 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.300000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>1.700000 0.000000</postfx_vignette_outer_radius>
+    <sun_direction_z>-1.000000 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <sky_moon_disc_size>5.000000 0.000000</sky_moon_disc_size>
+    <sky_moon_iten>10.000000 0.000000</sky_moon_iten>
+    <sky_scattering_moon_illuminance>0.100000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>20.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <postfx_exposure_min>1.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>1.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="ARCADE_TD_Fog_EndSection"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density>1.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>95.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_light_pollution_emissive_color_r>0.250980 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>0.054902 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>0.000000 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <local_atmosphere_light_pollution_emissive_intensity>0.100000 0.000000</local_atmosphere_light_pollution_emissive_intensity>
+  </modifier>
+  <modifier
+    name="ARCADE_TL_1"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_PostFX_DynGradOff</item>
+      <item>ARCADE_optimization_submod</item>
+      <item>ARCADE_TL_1_CTR_submod</item>
+    </submodifiers>
+    <postfx_desaturation>0.000000 0.000000</postfx_desaturation>
+    <postfx_noise>0.500000 0.000000</postfx_noise>
+    <postfx_shift_cutoff>1.000000 0.000000</postfx_shift_cutoff>
+    <postfx_tonemap_filmic_exposure_dark>1.000000 0.000000</postfx_tonemap_filmic_exposure_dark>
+    <postfx_tonemap_filmic_b>0.352000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_c>0.575000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_d>0.350000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>0.550000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_d_bright>0.350000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_correct_col_r>0.956863 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>0.949020 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>0.933333 0.000000</postfx_correct_col_b>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_fog_density>0.005000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>20.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>200.000000 0.000000</local_atmosphere_fog_falloff>
+    <wind_speed_mult>1.000000 0.000000</wind_speed_mult>
+    <wind_override_prevailing_wind_angle>1.000000 0.000000</wind_override_prevailing_wind_angle>
+    <wind_prevailing_wind_angle>0.000000 0.000000</wind_prevailing_wind_angle>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>10000.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <wind_gust_speed_max_kmh>30.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_gust_speed_min_kmh>50.000000 0.000000</wind_gust_speed_min_kmh>
+    <postfx_shift_col_r>0.000000 1.000000</postfx_shift_col_r>
+    <postfx_shift_col_g>0.000000 1.000000</postfx_shift_col_g>
+    <postfx_shift_col_b>0.000000 1.000000</postfx_shift_col_b>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_exposure>3.500000 0.000000</postfx_exposure>
+    <postfx_tonemap_filmic_a>0.608000 0.000000</postfx_tonemap_filmic_a>
+    <local_atmosphere_water_droplet_density_scale>0.050000 0.000000</local_atmosphere_water_droplet_density_scale>
+    <moon_direction_z>0.817391 0.000000</moon_direction_z>
+    <moon_direction_y>1.000000 0.000000</moon_direction_y>
+    <moon_direction_x>0.095652 0.000000</moon_direction_x>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <indirect_light_sky_global_multiplier>0.300000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_water>1.000000 0.000000</indirect_light_sky_multiplier_water>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <postfx_noise_size>0.700000 0.000000</postfx_noise_size>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.300000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>1.700000 0.000000</postfx_vignette_outer_radius>
+    <sun_direction_z>-1.000000 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <sky_moon_disc_size>5.000000 0.000000</sky_moon_disc_size>
+    <sky_moon_iten>10.000000 0.000000</sky_moon_iten>
+    <sky_scattering_moon_illuminance>0.100000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>20.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <sky_stars_constellations_intensity_mult>10.000000 0.000000</sky_stars_constellations_intensity_mult>
+    <sky_stars_constellations_size_mult>0.879398 0.000000</sky_stars_constellations_size_mult>
+    <sky_stars_cloud_intensity_mult>10.000000 0.000000</sky_stars_cloud_intensity_mult>
+    <sky_stars_dense_intensity_mult>10.000000 0.000000</sky_stars_dense_intensity_mult>
+    <sky_stars_sparse_intensity_mult>10.000000 0.000000</sky_stars_sparse_intensity_mult>
+    <postfx_vignette_bloom_intensity>2.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_intensity>0.250000 0.000000</postfx_vignette_intensity>
+    <postfx_intensity_bloom>0.250000 0.000000</postfx_intensity_bloom>
+    <far_clip>1500.000000 1500.000000</far_clip>
+    <postfx_color_grading_enabled>1.000000 1.000000</postfx_color_grading_enabled>
+    <postfx_color_grading_global_gamma_a>1.120000 0.000000</postfx_color_grading_global_gamma_a>
+    <postfx_white_balance_enabled>0.000000 0.000000</postfx_white_balance_enabled>
+    <postfx_lens_flares_intensity>0.002500 0.000000</postfx_lens_flares_intensity>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_light_range_scale_ext</item>
+    </submodifiers>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <dir_shadow_num_cascades>3.000000 0.000000</dir_shadow_num_cascades>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_H_1"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Darkest</item>
+    </submodifiers>
+    <postfx_vignette_axis_scale_x>0.600000 1.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>0.600000 1.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 1.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>1.500000 1.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_intensity>1.000000 1.000000</postfx_vignette_intensity>
+    <postfx_color_grading_global_gamma_r>1.417134 1.000000</postfx_color_grading_global_gamma_r>
+    <postfx_local_exposure_sh_contrast>1.000000 1.000000</postfx_local_exposure_sh_contrast>
+    <postfx_color_grading_enabled>1.000000 1.000000</postfx_color_grading_enabled>
+    <postfx_vignette_tint_r>0.000000 1.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 1.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 1.000000</postfx_vignette_tint_b>
+    <postfx_color_grading_global_saturation_r>0.279379 0.000000</postfx_color_grading_global_saturation_r>
+    <postfx_color_grading_global_gain_r>2.996156 1.000000</postfx_color_grading_global_gain_r>
+    <postfx_color_grading_global_gamma_b>1.031092 1.000000</postfx_color_grading_global_gamma_b>
+    <postfx_color_grading_global_gamma_g>0.965546 1.000000</postfx_color_grading_global_gamma_g>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_grad_middle_bottom_midpoint>0.784994 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_bottom_col_r>0.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>0.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>0.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_noise>2.163356 0.000000</postfx_noise>
+    <postfx_noise_size>0.975281 0.000000</postfx_noise_size>
+    <postfx_grad_top_col_r>0.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>0.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_top_middle_midpoint>0.931461 0.000000</postfx_grad_top_middle_midpoint>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_1_FogHigh"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>W_MOD_wind_light</item>
+    </submodifiers>
+    <local_atmosphere_fog_height>170.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>0.020000 0.000000</local_atmosphere_fog_density>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_1_FogLow"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>W_MOD_wind_light</item>
+    </submodifiers>
+    <local_atmosphere_fog_height>145.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_density>0.800000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_falloff>10.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="ARCADE_water_optimization_submod"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="ARCADE_TC_Fog_VoidSection"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density>1.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>95.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_light_pollution_emissive_color_r>0.207843 0.000000</local_atmosphere_light_pollution_emissive_color_r>
+    <local_atmosphere_light_pollution_emissive_color_g>0.000000 0.000000</local_atmosphere_light_pollution_emissive_color_g>
+    <local_atmosphere_light_pollution_emissive_color_b>0.000000 0.000000</local_atmosphere_light_pollution_emissive_color_b>
+    <local_atmosphere_light_pollution_emissive_intensity>0.100000 0.000000</local_atmosphere_light_pollution_emissive_intensity>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_1_HF"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_light_range_scale_ext</item>
+      <item>ARCADE_SUR_1_FogHigh</item>
+    </submodifiers>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <dir_shadow_num_cascades>3.000000 0.000000</dir_shadow_num_cascades>
+  </modifier>
+  <modifier
+    name="ARCADE_SUR_1_LF"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_light_range_scale_ext</item>
+      <item>ARCADE_SUR_1_FogLow</item>
+    </submodifiers>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <dir_shadow_num_cascades>3.000000 0.000000</dir_shadow_num_cascades>
+  </modifier>
+  <modifier
+    name="ARCADE_TL_1_CTR_submod"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_dt_contrast>1.903226 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.812212 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.534562 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="ARCADE_TL_1_Inspect_Camera"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_PostFX_DynGradOff</item>
+      <item>ARCADE_optimization_submod</item>
+      <item>ARCADE_TL_1_CTR_submod</item>
+    </submodifiers>
+    <postfx_desaturation>0.000000 0.000000</postfx_desaturation>
+    <postfx_noise>0.500000 0.000000</postfx_noise>
+    <postfx_shift_cutoff>1.000000 0.000000</postfx_shift_cutoff>
+    <postfx_tonemap_filmic_exposure_dark>1.000000 0.000000</postfx_tonemap_filmic_exposure_dark>
+    <postfx_tonemap_filmic_b>0.352000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_c>0.575000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_d>0.350000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>0.550000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_d_bright>0.350000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_vignette_intensity>0.300000 0.000000</postfx_vignette_intensity>
+    <postfx_correct_col_r>0.956863 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>0.949020 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>0.933333 0.000000</postfx_correct_col_b>
+    <local_atmosphere_cloud_map_position_x>0.000000 0.000000</local_atmosphere_cloud_map_position_x>
+    <local_atmosphere_cloud_map_position_y>0.000000 0.000000</local_atmosphere_cloud_map_position_y>
+    <local_atmosphere_cloud_map_position_override>1.000000 0.000000</local_atmosphere_cloud_map_position_override>
+    <local_atmosphere_fog_density>0.005000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>20.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>200.000000 0.000000</local_atmosphere_fog_falloff>
+    <wind_speed_mult>1.000000 0.000000</wind_speed_mult>
+    <wind_override_prevailing_wind_angle>1.000000 0.000000</wind_override_prevailing_wind_angle>
+    <wind_prevailing_wind_angle>0.000000 0.000000</wind_prevailing_wind_angle>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>20.000000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>10000.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <wind_gust_speed_max_kmh>30.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_gust_speed_min_kmh>50.000000 0.000000</wind_gust_speed_min_kmh>
+    <postfx_white_balance_enabled>0.000000 0.000000</postfx_white_balance_enabled>
+    <postfx_shift_col_r>0.000000 1.000000</postfx_shift_col_r>
+    <postfx_shift_col_g>0.000000 1.000000</postfx_shift_col_g>
+    <postfx_shift_col_b>0.000000 1.000000</postfx_shift_col_b>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_exposure>3.500000 0.000000</postfx_exposure>
+    <postfx_tonemap_filmic_a>0.608000 0.000000</postfx_tonemap_filmic_a>
+    <local_atmosphere_water_droplet_density_scale>0.050000 0.000000</local_atmosphere_water_droplet_density_scale>
+    <moon_direction_z>0.817391 0.000000</moon_direction_z>
+    <moon_direction_y>1.000000 0.000000</moon_direction_y>
+    <moon_direction_x>0.095652 0.000000</moon_direction_x>
+    <light_direction_override>1.000000 0.000000</light_direction_override>
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <indirect_light_sky_global_multiplier>0.300000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_sky_multiplier>1.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_water>1.000000 0.000000</indirect_light_sky_multiplier_water>
+    <indirect_light_sky_multiplier_coverage>100.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <postfx_noise_size>0.700000 0.000000</postfx_noise_size>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.300000 0.000000</postfx_vignette_inner_radius>
+    <postfx_vignette_outer_radius>1.700000 0.000000</postfx_vignette_outer_radius>
+    <sun_direction_z>-1.000000 0.000000</sun_direction_z>
+    <sun_direction_y>-1.000000 0.000000</sun_direction_y>
+    <sun_direction_x>0.000000 0.000000</sun_direction_x>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+    <moon_direction_override>1.000000 0.000000</moon_direction_override>
+    <sky_moon_disc_size>5.000000 0.000000</sky_moon_disc_size>
+    <sky_moon_iten>10.000000 0.000000</sky_moon_iten>
+    <sky_scattering_moon_illuminance>0.100000 0.000000</sky_scattering_moon_illuminance>
+    <local_atmosphere_cloud_wind_noise_velocity_scale>20.000000 0.000000</local_atmosphere_cloud_wind_noise_velocity_scale>
+    <sky_stars_constellations_intensity_mult>10.000000 0.000000</sky_stars_constellations_intensity_mult>
+    <sky_stars_constellations_size_mult>0.879398 0.000000</sky_stars_constellations_size_mult>
+    <sky_stars_cloud_intensity_mult>10.000000 0.000000</sky_stars_cloud_intensity_mult>
+    <sky_stars_dense_intensity_mult>10.000000 0.000000</sky_stars_dense_intensity_mult>
+    <sky_stars_sparse_intensity_mult>10.000000 0.000000</sky_stars_sparse_intensity_mult>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+</timecycle_modifier_data>

@@ -1,0 +1,20 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -332,10 +332,10 @@
+     draw_speedrun_badge(ax, b4_x - 0.2, 14.9, mw4 + 0.4, 1.6, "CHAPTER 2 TRANSITION", "Hard cut to Port Gellhorn!\nMotel arrival & Lucia solo mode.\nSaves locked permanently.")
+     draw_arrow(ax, (b4_x + mw4/2, 14.3), (b4_x + mw4/2, 14.9), color="#f43f5e", lw=2.0)
+     
+-    out_path = os.path.join(WORKSPACE_DIR, "GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png")
+-    plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
+-    plt.close()
+-    print("Saved:", out_path)
++    out_path = os.path.join(ARTIFACT_DIR, "GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png")
++    plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
++    plt.close()
++    print("Saved to artifact dir:", out_path)
+ 
+ # =========================================================================
+ # 2. RENDER FULL CAMPAIGN SPEEDRUN MASTER FLOWCHART (ALL 5 CHAPTERS)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

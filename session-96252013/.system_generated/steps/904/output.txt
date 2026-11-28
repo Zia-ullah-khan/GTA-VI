@@ -1,0 +1,24 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\inspect_ch1_metadata.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -15,11 +15,11 @@
+ 
+ for m in ch1_ids:
+     info = missions.get(m, {})
+-    title = info.get("title")
+-    char = info.get("required_character")
+-    tod = info.get("time_of_day")
+-    replay = info.get("replay_menu_position")
+-    story_ord = info.get("story_list_order")
+-    auto_flag = info.get("auto_flagged_when")
+-    print(f"{m:16} | title: {title:22} | char: {str(char):8} | tod: {str(tod):20} | replay: {str(replay):4} | auto_flag: {auto_flag}")
++    title = str(info.get("title"))
++    char = str(info.get("required_character"))
++    tod = str(info.get("time_of_day"))
++    replay = str(info.get("replay_menu_position"))
++    story_ord = str(info.get("story_list_order"))
++    auto_flag = str(info.get("auto_flagged_when"))
++    print(f"{m:16} | title: {title:22} | char: {char:8} | tod: {tod:20} | replay: {replay:4} | auto_flag: {auto_flag}")
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

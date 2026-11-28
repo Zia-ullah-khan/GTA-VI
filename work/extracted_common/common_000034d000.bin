@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="Generic_Exposure_0"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_exposure_compensation_ev_cp0_x>-10.980822 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>4.921918 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-9.654795 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.913699 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.514386 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.320846 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-3.567123 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.973973 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>-0.041096 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-4.450685 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.071233 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-5.023288 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.071233 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.023288 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="Generic_Exposure_p1"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>0.100000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="Generic_Exposure_p5"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="Generic_Exposure_p25"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>0.250000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="Generic_Exposure_np1"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>-0.100000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="Generic_Pitch_Black"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_multiplier>0.000000 0.000000</indirect_light_multiplier>
+    <sky_new_intensity_sky>0.000000 0.000000</sky_new_intensity_sky>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <far_clip>1000.000000 1000.000000</far_clip>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HighCon_LowBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-7.973244 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>-0.684895 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-3.663786 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.919104 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-1.649583 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.410945 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.384851 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.628835 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.354000 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-4.303284 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>3.362504 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-6.235664 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>5.236181 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-6.305926 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_dt_contrast>1.150000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HighCon_MidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-9.910157 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.453440 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.865432 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.383177 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.456450 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.696265 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.176404 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.453027 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.128219 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.614707 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.196365 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.582068 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>6.920148 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.020115 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.150000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HighCon_HighBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-10.017894 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.750961 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.888702 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.633856 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-1.773714 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.907806 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.321614 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>0.853863 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.576213 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-0.523592 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>3.627162 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.572775 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.960040 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.111457 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_dt_contrast>1.150000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_MidCon_HighBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-8.408826 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.537044 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.818511 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.364248 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.188173 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.711463 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.229819 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.093294 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.861408 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.020503 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.863481 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.994369 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.914279 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.030959 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_LowCon_MidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-12.013771 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.424583 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-8.372515 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.158648 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-3.407092 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.261194 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.135590 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.115073 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.839620 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.366695 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>6.927827 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.310817 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.943668 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.707638 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.500000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>0.925000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.550000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_MidCon_MidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-7.701209 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.265235 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.341288 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.150038 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.344136 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.404394 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.100537 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.850680 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.222608 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.348245 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>4.690407 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.732450 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.644222 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.984606 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_LowCon_LowBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-12.045708 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>-1.356644 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.142912 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-1.461118 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-3.034803 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-3.211062 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.266235 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-4.203568 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.108920 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-5.413528 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>6.080577 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-5.796800 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.920007 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-6.319171 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.500000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.500000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.925000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_LowCon_HighBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-9.156658 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>3.276415 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-5.161992 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.641501 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.939793 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.895488 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.162045 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.162702 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.188543 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.439116 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.165920 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-2.940450 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>11.742591 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.125633 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_dt_contrast>0.925000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>0.500000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.550000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_MidCon_LowBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-7.791264 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>-0.860071 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.431343 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.975268 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.308114 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.845279 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.064515 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-3.291565 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.258630 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-4.789130 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>4.564330 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-5.596982 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.572178 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.596982 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_GunShops"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.030867 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_end_distance>2.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_highlights_percent>0.150000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_spot_meter_x>-0.144673 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>-0.158730 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.349206 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>0.833333 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <indirect_light_opt_reflection_ray_budget>1.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <postfx_local_exposure_sh_contrast>0.950000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_TattoShops"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_x>0.032274 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.028705 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>0.629501 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.681293 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.010000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>2.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>0.010000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <light_override_mapdata_intensity>0.600000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_TattoShops_Grillz"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>CS_PostFX_DynGradLOW</item>
+    </submodifiers>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.200000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_end_distance>0.800000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>0.500000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <light_override_mapdata_intensity>0.600000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.400000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HairSalon"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Brightest</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.200000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_spot_meter_x>0.164444 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>-0.184658 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>0.520997 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.187127 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_luminance_depth_weight_end_distance>1.500000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_vignette_axis_scale_y>1.300000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_axis_scale_x>1.300000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+  </modifier>
+  <modifier
+    name="CS_Exp_Blowout"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>32.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_MidCon_LowMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-9.983526 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.046889 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.623605 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.068308 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.319382 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.131473 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.053540 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.542656 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.270933 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.990354 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.971433 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-5.499223 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>8.979281 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.499223 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_MidCon_HighMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-8.372706 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.985988 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.782392 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.813192 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.201734 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.435830 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.012760 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.868628 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>2.430188 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.324434 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.929368 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.461478 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.980165 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.498068 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_LowCon_LowMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-11.959328 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.019923 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.056532 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.084551 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.840459 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.210093 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.071891 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.202599 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.303264 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.412560 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>6.141006 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.494064 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.980436 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.016435 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.500000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.500000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.925000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_LowCon_HighMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-8.876874 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.264602 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.736212 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.107610 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-2.823825 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.536185 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.046077 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.522005 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.304511 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.798419 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.444361 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.103805 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.021031 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.288988 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.550000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.500000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>0.925000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HighCon_HighMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp0_x>-9.931345 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.135193 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.802153 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>2.018088 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-1.864051 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.216557 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.310721 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>0.297921 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.707739 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-0.895792 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>4.315864 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.443433 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>7.960040 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.111457 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.150000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_HighCon_LowMidBright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-8.987615 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.506947 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-4.114608 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.456882 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-1.969497 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.178203 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.259593 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.562412 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>1.492687 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.980924 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>4.096074 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.616385 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>6.031926 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.534245 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.150000 0.000000</postfx_local_exposure_dt_contrast>
+  </modifier>
+  <modifier
+    name="CS_BoostLensFlare"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_lens_flares_intensity>1.000000 0.000000</postfx_lens_flares_intensity>
+  </modifier>
+  <modifier
+    name="CS_ReduceLensFlare"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+  </modifier>
+  <modifier
+    name="CS_ReduceHighlights"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>0.775000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_Flat"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp0_x>-13.964255 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>-0.004664 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.245617 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.004664 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.011574 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.004664 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.011574 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.004664 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.988425 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-0.004664 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.964255 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-0.027132 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.964255 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-0.027132 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="shop_menu_clothes"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_width>0.843036 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>-0.235869 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.127009 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_height>1.479637 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>2.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>4.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <light_override_mapdata_intensity>0.800000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_lowlights_percent>0.300000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="shop_menu_wardrobe"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_PostFX_DynGradOff</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_width>0.401772 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>-0.110940 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.125141 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_height>1.891834 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>3.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>3.500000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_lowlights_percent>0.300000 0.000000</postfx_exposure_lowlights_percent>
+    <light_override_mapdata_intensity>0.800000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+  </modifier>
+  <modifier
+    name="shop_menu_footwear"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_PostFX_DynGradMid</item>
+    </submodifiers>
+    <light_override_mapdata_intensity>0.800000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_spot_meter_x>0.115445 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>-0.313348 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.237593 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.482578 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>2.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>4.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.000000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.300000 0.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="shop_menu_accessories"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid_Bright</item>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <light_override_mapdata_intensity>0.800000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_spot_meter_x>0.112420 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.098150 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>0.702041 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.543092 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>4.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.800000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.000000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.300000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+  </modifier>
+  <modifier
+    name="CS_EXP_NewBase_Bright"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="7"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_luminance_depth_weight_enabled>1.000000 1.000000</postfx_exposure_luminance_depth_weight_enabled>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid>0.250000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.100000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_highlights_percent>0.100001 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp0_x>-14.959971 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.525043 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.079947 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.935900 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.850975 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.456915 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.007191 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.527410 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.267949 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.477023 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.936073 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.051537 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.997898 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.041251 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_height>1.250000 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>1.250000 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_DarkHaloFix"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_blur_lum_amount>0.172255 0.000000</postfx_local_exposure_blur_lum_amount>
+    <postfx_local_exposure_dt_contrast>1.275707 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>0.986750 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_intensity_bloom>0.030461 0.000000</postfx_intensity_bloom>
+    <postfx_lens_flares_intensity>0.007500 0.000000</postfx_lens_flares_intensity>
+    <postfx_contrast_pivot>0.016000 0.000000</postfx_contrast_pivot>
+    <postfx_contrast_amount>1.106913 0.000000</postfx_contrast_amount>
+    <postfx_desaturation>1.000000 0.000000</postfx_desaturation>
+  </modifier>
+  <modifier
+    name="CS_ReduceBloom"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="CS_LowContrast"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_local_exposure_sh_contrast>0.550000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.500000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_dt_contrast>1.000000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>0.550000 0.000000</postfx_local_exposure_blur_lum_amount>
+  </modifier>
+  <modifier
+    name="CS_HighContrast"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_local_exposure_dt_contrast>1.670377 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_contrast_amount>1.250000 0.000000</postfx_contrast_amount>
+  </modifier>
+  <modifier
+    name="CS_EXP_NewBase_Brighter"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="9"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.250000 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.250000 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.100001 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_luminance_depth_weight_enabled>1.000000 1.000000</postfx_exposure_luminance_depth_weight_enabled>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.250000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.100000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_compensation_ev_cp0_x>-13.966355 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.972302 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.263682 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.263138 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.869512 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.058677 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.064657 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-0.899081 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.082743 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-1.454066 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>8.071970 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-2.155566 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.988785 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.038913 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_EXP_NewBase_Dark"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_luminance_depth_weight_enabled>1.000000 1.000000</postfx_exposure_luminance_depth_weight_enabled>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid>0.250000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.100000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_highlights_percent>0.100001 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp0_x>-14.959971 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.525043 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-13.911194 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.693855 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.722533 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.552726 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.034030 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.942806 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.304657 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.636689 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.956279 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.746837 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.997898 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.041251 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_height>1.250000 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>1.250000 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_EXP_NewBase_Darker"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="11"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_luminance_depth_weight_enabled>1.000000 1.000000</postfx_exposure_luminance_depth_weight_enabled>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid>0.250000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.100000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_highlights_percent>0.100001 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp0_x>-15.275782 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.688385 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-14.073094 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.138769 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.671940 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-1.272076 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.080287 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.706050 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.077251 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.392953 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>6.025665 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-3.931866 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.997898 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.041251 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_height>1.250000 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>1.250000 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_EXP_NewBase"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="6"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+    <postfx_exposure_lowlights_percent>0.100000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_luminance_depth_weight_enabled>1.000000 1.000000</postfx_exposure_luminance_depth_weight_enabled>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid>0.250000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.100000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_highlights_percent>0.100001 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp0_x>-14.959971 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.525043 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-13.996432 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.973994 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.695694 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-0.137330 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.007191 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.527410 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>3.331496 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.221293 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>5.936073 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-4.051537 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>9.997898 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.041251 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_height>1.250000 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>1.250000 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_EXP_PitchBlack"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="6"
+    userFlags="0"
+  >
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-32.000000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_ModShops"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="CS_LocalExpShadowContrast"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+  </modifier>
+  <modifier
+    name="CS_LocalExpHighlightContrast"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="CS_PostFX_DynGradLOW"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_LOW</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="CS_PostFX_DynGradMID"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_MID</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="CS_PostFX_DynGradHIGH"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_HIGH</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="CS_PostFX_DynGradOFF"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="CS_EXP_Safehouse_Mirror"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>POSTFX_DynamicGradient_LOW</item>
+    </submodifiers>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.001000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_spot_meter_x>-0.052399 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>-0.063908 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>0.955941 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.473238 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.500000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_luminance_depth_weight_end_distance>7.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+  </modifier>
+  <modifier
+    name="CS_Inspection_Cards"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>CS_PostFX_DynGradOFF</item>
+    </submodifiers>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.100000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>0.100000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.034417 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_spot_meter_x>-0.129330 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.122402 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.422633 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_compensation_ev_cp0_x>-11.928412 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>1.763467 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.549421 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.005627 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.514264 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.111097 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.037603 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.888001 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.093388 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-3.125498 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>2.453913 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-2.796723 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.695951 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-5.434904 0.000000</postfx_exposure_compensation_ev_cp6_y>
+  </modifier>
+  <modifier
+    name="shop_menu_nails"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="10"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_width>1.249665 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>0.005548 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.040464 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_height>1.518117 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.100000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>3.500000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <light_override_mapdata_intensity>0.800000 0.000000</light_override_mapdata_intensity>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_lowlights_percent>0.300000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+  </modifier>
+  <modifier
+    name="CS_EXP_Gen_TattoShops_Piercings"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+      <item>Sub_PostFX_DynGradOff</item>
+    </submodifiers>
+    <postfx_exposure_spot_meter_x>0.089769 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.028705 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.413895 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.592730 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_highlights_percent>0.300000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_luminance_depth_weight_start_distance>0.100000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>4.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <light_override_mapdata_intensity>0.600000 0.000000</light_override_mapdata_intensity>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_local_exposure_sh_contrast>0.950000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_exposure_spot_meter_portal_width_multiplier>0.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+  </modifier>
+  <modifier
+    name="CS_noScreenSpaceSunShadows"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <enable_screen_space_shadow>1.000000 0.000000</enable_screen_space_shadow>
+  </modifier>
+  <modifier
+    name="CS_DisableSSR"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <reflection_ssr_opaque_enabled>0.000000 0.000000</reflection_ssr_opaque_enabled>
+  </modifier>
+  <modifier
+    name="meditation_minigame_exp"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>0.300000 0.000000</postfx_vignette_intensity>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.057762 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.590607 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.666747 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>4.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_compensation_ev_cp0_x>-12.858393 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>3.004296 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-5.921712 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.603920 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.915112 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.092481 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>1.202418 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.370748 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>5.286823 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.610143 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>2.947474 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-1.877825 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.087576 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.196832 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <indirect_light_sky_multiplier>0.000000 0.000000</indirect_light_sky_multiplier>
+    <indirect_light_sky_multiplier_coverage>10.000000 0.000000</indirect_light_sky_multiplier_coverage>
+    <postfx_vignette_axis_scale_x>0.800000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_outer_radius>1.500000 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+    <wind_gust_speed_min_kmh>0.000000 0.000000</wind_gust_speed_min_kmh>
+    <wind_gust_speed_max_kmh>5.000000 0.000000</wind_gust_speed_max_kmh>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>5.000000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>15.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>5.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>15.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_convection_ground_speed_kmh>0.000000 0.000000</wind_convection_ground_speed_kmh>
+    <wind_convection_onoffshore_speed_kmh>0.000000 0.000000</wind_convection_onoffshore_speed_kmh>
+  </modifier>
+  <modifier
+    name="vehicle_racing_hub_exp"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_luminance_depth_weight_start_distance>1.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>6.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>15.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_compensation_ev_cp0_x>-10.113545 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.099043 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-1.978961 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-0.275166 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-6.552232 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>1.009242 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>1.601813 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.326045 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>5.705155 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp5_x>2.884452 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.501227 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_y>-1.675680 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.067230 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-3.855940 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_spot_meter_x>-0.347349 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_spot_meter_y>0.079700 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_width>1.148563 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_height>1.221246 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_lowlights_percent>0.300000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <light_vehicle_secondary_falloff_mult>0.100000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_falloff_map_exterior_mult>0.700000 0.000000</light_falloff_map_exterior_mult>
+    <light_vehicle_primary_falloff_mult>0.030000 0.000000</light_vehicle_primary_falloff_mult>
+    <postfx_exposure_adaption_step_mult>2.000000 0.000000</postfx_exposure_adaption_step_mult>
+    <light_vehicle_cluster_falloff_mult>0.050000 0.000000</light_vehicle_cluster_falloff_mult>
+  </modifier>
+  <modifier
+    name="safehouse_roof_repair_exp"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    <light_dir_mult>1.500000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="intimacy_scene_shower"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_intensity_bloom>0.500000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="intimacy_scene_bed"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Sub_PostFX_DynGradLow</item>
+    </submodifiers>
+    <postfx_vignette_tint_r>0.341176 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.337255 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.337255 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_exposure_compensation_ev_cp0_x>-12.636025 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.640095 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-6.437950 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.705389 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-5.437002 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.365782 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>1.363973 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-1.359905 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>5.210169 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.335843 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>2.479810 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-1.564643 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>11.370420 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-4.153534 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.200000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_vignette_bloom_intensity>1.000000 0.000000</postfx_vignette_bloom_intensity>
+    <postfx_vignette_outer_radius>2.000000 0.000000</postfx_vignette_outer_radius>
+    <postfx_vignette_axis_scale_y>1.500000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_inner_radius>0.500000 0.000000</postfx_vignette_inner_radius>
+  </modifier>
+  <modifier
+    name="AnimScene_CameraSwitch_LOD"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>W_MOD_wind_strongGusty</item>
+    </submodifiers>
+    <indirect_light_opt_instance_list_bvh_angular_falloff_mult>0.650000 0.000000</indirect_light_opt_instance_list_bvh_angular_falloff_mult>
+    <indirect_light_opt_tree_bvh_angular_falloff_mult>0.650000 0.000000</indirect_light_opt_tree_bvh_angular_falloff_mult>
+  </modifier>
+  <modifier
+    name="AnimScene_LOD_ScreenSpaceModifier"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <screen_space_shadow_bias>0.500000 0.000000</screen_space_shadow_bias>
+  </modifier>
+  <modifier
+    name="lense_flare_warehouse_precinct"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_lens_flares_intensity>0.500000 0.000000</postfx_lens_flares_intensity>
+    <postfx_lens_flares_center_intensity_multiplier>5.000000 0.000000</postfx_lens_flares_center_intensity_multiplier>
+    <postfx_lens_flares_brightpass_treshold_start>1.000000 0.000000</postfx_lens_flares_brightpass_treshold_start>
+    <postfx_lens_flares_brightpass_treshold_end>0.000000 0.000000</postfx_lens_flares_brightpass_treshold_end>
+    <postfx_lens_flares_brightpass_treshold_scale>0.500000 0.000000</postfx_lens_flares_brightpass_treshold_scale>
+  </modifier>
+  <modifier
+    name="Generic_WindControl_ExtraCalm"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <wind_boundary_enclosed_space_damping_mult>2.000000 0.000000</wind_boundary_enclosed_space_damping_mult>
+    <wind_boundary_enclosed_space_damping_strength>0.800000 0.000000</wind_boundary_enclosed_space_damping_strength>
+    <no_weather_fx>1.000000 0.000000</no_weather_fx>
+  </modifier>
+  <modifier
+    name="CS_EXP_ADAPTATION"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_adaption_step_mult>300.000000 0.000000</postfx_exposure_adaption_step_mult>
+  </modifier>
+</timecycle_modifier_data>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WalkAndTalkProfileData>
+  <Profiles>
+    <Item key="WnT_Default">   
+      <PlayerLeadType>Player_WalkAndTalk</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>
+      <PedFollowType>Follow_WalkAndTalk</PedFollowType>  
+      <InteriorPedFollowType>Follow_Interior</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Interior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_WalkAndTalk</StairsPedFollowType> 
+      <PedLeadType>Lead_WalkAndTalk</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+      <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera>  
+      <Flags>UseIdleVariations CheckEmotionalPresetProfile</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>	
+      <LookAtFlags></LookAtFlags>	
+    </Item>
+    <Item key="WnT_Buddy"> 
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_Buddy</PedFollowType>
+      <InteriorPedFollowType>Follow_BuddyInterior</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_BuddyInterior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_Buddy</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_Relaxed</SpeedMatching> 
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching> 
+	  <Camera>
+      <CameraName></CameraName> 
+      <CameraDictionary></CameraDictionary> 	   
+	  </Camera>
+      <Flags>UseIdleVariations CheckEmotionalPresetProfile ConsiderAsBuddyFollowing</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>	
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>	
+    </Item>
+    <Item key="WnT_Hangout">
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_Partner</PedFollowType> 
+      <InteriorPedFollowType>Follow_PartnerInterior</InteriorPedFollowType>
+      <TightInteriorPedFollowType>Follow_PartnerInterior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_Partner</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_Urgent</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_WalkAndTalk</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>SpeedMatchingToSlowerPed UseIdleVariations CheckEmotionalPresetProfile ConsiderAsBuddyFollowing</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>		
+    </Item>
+    <Item key="WnT_Couple">     
+      <PlayerLeadType>Player_Couple</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_Couple</PlayerFollowType>  
+	  <PedFollowType>Follow_Couple</PedFollowType>
+      <InteriorPedFollowType>Follow_Couple</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Couple</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_Couple</StairsPedFollowType> 
+      <PedLeadType>Lead_Couple</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>SpeedMatchingToSlowerPed UseIdleVariations</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>	
+      <LookAtFlags></LookAtFlags>		
+    </Item>
+	<Item key="WnT_Handhold">     
+      <PlayerLeadType>Player_Handhold</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_Handhold</PlayerFollowType>  
+      <PedFollowType>Follow_Handhold</PedFollowType>
+      <InteriorPedFollowType>Follow_Handhold</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Handhold</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_WalkAndTalk</StairsPedFollowType> 
+      <PedLeadType>Lead_Handhold</PedLeadType> 
+      <SpeedMatching>SpeedMatch_Urgent</SpeedMatching>   
+      <InteriorSpeedMatching>SpeedMatch_Urgent</InteriorSpeedMatching>
+      <FallbackProfile>WnT_Default</FallbackProfile>
+	  <Camera>
+      <CameraName>HANDHOLDING_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>SpeedMatchingToSlowerPed</Flags>	 
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags></ExteriorFlags>	
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>	
+    </Item>
+	<Item key="WnT_Friendly">   
+      <PlayerLeadType>Player_WalkAndTalk</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_WalkAndTalk</PedFollowType>  
+      <InteriorPedFollowType>Follow_Interior</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Interior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_WalkAndTalk</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+      <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera>  
+      <Flags>SpeedMatchingToSlowerPed UseIdleVariations</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>	
+      <LookAtFlags></LookAtFlags>	
+    </Item>
+	<Item key="WnT_Stranger">     
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_WalkAndTalk</PedFollowType>  
+      <InteriorPedFollowType>Follow_Interior</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Interior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_WalkAndTalk</StairsPedFollowType> 
+      <PedLeadType>Lead_Stranger</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags></LookAtFlags>	  
+    </Item>
+	<Item key="WnT_Eager">     
+      <PlayerLeadType>Player_WalkAndTalk</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_Eager</PedFollowType>  
+      <InteriorPedFollowType>Follow_Interior</InteriorPedFollowType> 
+      <TightInteriorPedFollowType>Follow_Interior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_Eager</StairsPedFollowType> 
+      <PedLeadType>Lead_Eager</PedLeadType>  
+      <SpeedMatching>SpeedMatch_Relaxed</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations SpeedMatchingToSlowerPed</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags></ExteriorFlags>
+      <LookAtFlags></LookAtFlags>	  
+    </Item>
+	<Item key="WnT_Hassle">
+	  <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_Hassle</PedFollowType>  
+      <InteriorPedFollowType>Follow_Interior</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Interior</TightInteriorPedFollowType>  
+      <StairsPedFollowType>Follow_Hassle</StairsPedFollowType> 
+      <PedLeadType>Lead_Eager</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Relaxed</InteriorSpeedMatching>
+	  <Camera>
+		<CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+		<CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags></LookAtFlags>
+	</Item>
+	<Item key="WnT_Guard">     
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_NormalControl</PlayerFollowType>  
+      <PedFollowType>Follow_Guard</PedFollowType>  
+      <InteriorPedFollowType>Follow_Guard</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Guard</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_Guard</StairsPedFollowType> 
+      <PedLeadType>Lead_Stranger</PedLeadType>  
+      <SpeedMatching>SpeedMatch_WalkAndTalk</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_WalkAndTalk</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations SpeedMatchingToSlowerPed</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags></ExteriorFlags>
+      <LookAtFlags></LookAtFlags>	  
+    </Item>
+	<Item key="WnT_HandholdNormalSpeed">     
+      <PlayerLeadType>Player_Handhold</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_Handhold</PlayerFollowType>  
+      <PedFollowType>Follow_Handhold</PedFollowType>
+      <InteriorPedFollowType>Follow_Handhold</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Handhold</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_WalkAndTalk</StairsPedFollowType> 
+      <PedLeadType>Lead_Handhold</PedLeadType> 
+      <SpeedMatching>SpeedMatch_Urgent</SpeedMatching>   
+      <InteriorSpeedMatching>SpeedMatch_Urgent</InteriorSpeedMatching>
+      <FallbackProfile>WnT_Default</FallbackProfile>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags></Flags>	 
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags></ExteriorFlags>	
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>	
+    </Item>
+	<Item key="WnT_Arrest">     
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_NormalControl</PlayerFollowType>  
+      <PedFollowType>Follow_Arrest</PedFollowType>  
+      <InteriorPedFollowType>Follow_Arrest</InteriorPedFollowType>  
+      <TightInteriorPedFollowType>Follow_Arrest</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_Arrest</StairsPedFollowType> 
+      <PedLeadType>Lead_Stranger</PedLeadType>  
+      <SpeedMatching>SpeedMatch_Urgent</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_Urgent</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName>HANGOUT_WNT_TREATMENT</CameraName> 
+      <CameraDictionary>mech@walk_and_talk@directed_dialogue_treatments</CameraDictionary> 	  
+	  </Camera> 
+      <Flags></Flags>	
+      <InteriorFlags></InteriorFlags>	
+      <ExteriorFlags></ExteriorFlags>
+      <LookAtFlags></LookAtFlags>	  
+    </Item>
+	<Item key="WnT_PartnerCasual">
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_PartnerCasual</PedFollowType> 
+      <InteriorPedFollowType>Follow_PartnerInterior</InteriorPedFollowType>
+      <TightInteriorPedFollowType>Follow_PartnerTightInterior</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_PartnerCasual</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_PartnerCasual</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_PartnerCasual</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName></CameraName> 
+      <CameraDictionary></CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations CheckEmotionalPresetProfile ConsiderAsBuddyFollowing</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>		
+    </Item>
+	<Item key="WnT_PartnerRush">
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_PartnerRush</PedFollowType> 
+      <InteriorPedFollowType>Follow_PartnerInterior</InteriorPedFollowType>
+      <TightInteriorPedFollowType>Follow_PartnerInterior</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_PartnerRush</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_PartnerRush</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_PartnerRush</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName></CameraName> 
+      <CameraDictionary></CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations CheckEmotionalPresetProfile ConsiderAsBuddyFollowing</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>		
+    </Item>
+	<Item key="WnT_PartnerEscape">
+      <PlayerLeadType>Player_NormalControl</PlayerLeadType>
+      <PlayerFollowType>PlayerFollow_WalkAndTalk</PlayerFollowType>  
+      <PedFollowType>Follow_PartnerEscape</PedFollowType> 
+      <InteriorPedFollowType>Follow_PartnerInterior</InteriorPedFollowType>
+      <TightInteriorPedFollowType>Follow_PartnerInterior</TightInteriorPedFollowType> 
+      <StairsPedFollowType>Follow_PartnerEscape</StairsPedFollowType> 
+      <PedLeadType>Lead_Friendly</PedLeadType>  
+      <SpeedMatching>SpeedMatch_PartnerEscape</SpeedMatching>  
+      <InteriorSpeedMatching>SpeedMatch_PartnerEscape</InteriorSpeedMatching>
+	  <Camera>
+      <CameraName></CameraName> 
+      <CameraDictionary></CameraDictionary> 	  
+	  </Camera> 
+      <Flags>UseIdleVariations CheckEmotionalPresetProfile ConsiderAsBuddyFollowing</Flags>	
+      <InteriorFlags>EnableEvasion</InteriorFlags>	
+      <ExteriorFlags>EnableEvasion</ExteriorFlags>
+      <LookAtFlags>TimerLooksWhenStill</LookAtFlags>		
+    </Item>
+  </Profiles>
+</WalkAndTalkProfileData>

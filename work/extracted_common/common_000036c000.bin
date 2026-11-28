@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="----------WEATHER MOD LISTS----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="----------atmosphere MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_atmos_Hipr"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.150000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <sky_new_mie_phase_eccentricity>0.900000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_Clear"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <sky_new_ray_scattering_col_r>0.160100 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.374100 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913400 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_height_min_multiplier>7.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_new_mie_phase_eccentricity>0.800000 0.000000</sky_new_mie_phase_eccentricity>
+    <local_atmosphere_cloud_cirrus_density_x>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.050000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_Hazy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <sky_new_ray_scattering_col_r>0.160100 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.374100 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913400 0.000000</sky_new_ray_scattering_col_b>
+    <sky_scattering_height_min_multiplier>9.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_mie_phase_eccentricity>0.700000 0.000000</sky_new_mie_phase_eccentricity>
+    <local_atmosphere_cloud_cirrus_density_x>0.300000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_volume_pollution_density_mult>0.700000 0.000000</local_atmosphere_fog_volume_pollution_density_mult>
+    <sky_new_mie_density_scale>6.632608 0.000000</sky_new_mie_density_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_VHazy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_phase_eccentricity>0.600000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>10.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>50.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_cloud_cirrus_density_x>0.400000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_volume_pollution_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_pollution_density_mult>
+    <sky_new_mie_scattering_intensity>1.200000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_mie_absorption_intensity>13.927938 0.000000</sky_new_mie_absorption_intensity>
+    <sky_new_mie_density_scale>4.200000 0.000000</sky_new_mie_density_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_foggy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_Gradient_Foggy</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <sky_new_ray_scattering_col_r>0.160100 0.160100 0.160100 0.160100 0.160100</sky_new_ray_scattering_col_r>
+      <sky_new_ray_scattering_col_g>0.374100 0.374100 0.374100 0.374100 0.374100</sky_new_ray_scattering_col_g>
+      <sky_new_ray_scattering_col_b>0.913400 0.913400 0.913400 0.913400 0.913400</sky_new_ray_scattering_col_b>
+      <sky_new_mie_phase_eccentricity>0.500000 0.500000 0.500000 0.500000 0.500000</sky_new_mie_phase_eccentricity>
+      <sky_scattering_height_min_multiplier>20.000000 20.000000 20.000000 20.000000 20.000000</sky_scattering_height_min_multiplier>
+      <local_atmosphere_fog_density>0.003000 0.003000 0.003000 0.003000 0.003000</local_atmosphere_fog_density>
+      <local_atmosphere_fog_falloff>250.000000 250.000000 250.000000 250.000000 250.000000</local_atmosphere_fog_falloff>
+      <local_atmosphere_fog_density_layer_1>0.010000 0.010000 0.010000 0.010000 0.010000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>100.000000 100.000000 100.000000 100.000000 100.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+      <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+      <local_atmosphere_fog_height>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height>
+      <local_atmosphere_fog_shadow_intensity>200.000000 200.000000 200.000000 200.000000 200.000000</local_atmosphere_fog_shadow_intensity>
+      <local_atmosphere_fog_diffusion_intensity_scale>20.000000 20.000000 20.000000 20.000000 20.000000</local_atmosphere_fog_diffusion_intensity_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_Vfoggy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_Gradient_VFoggy</item>
+    </submodifiers>
+    <sky_new_ray_scattering_col_r>0.160100 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.374100 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913400 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_phase_eccentricity>0.300000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>20.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.010000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.020000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>150.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_volume_mist_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_mist_density_mult>
+    <local_atmosphere_fog_shadow_intensity>200.000000 0.000000</local_atmosphere_fog_shadow_intensity>
+    <local_atmosphere_fog_diffusion_intensity_scale>20.000000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_dust"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.529787 0.000000</sky_new_mie_phase_eccentricity>
+    <local_atmosphere_fog_density>0.000100 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_mie_density_scale>3.000000 0.000000</sky_new_mie_density_scale>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <sky_new_intensity_multiscattering>0.300000 0.000000</sky_new_intensity_multiscattering>
+    <sky_new_intensity_aerial>0.300000 0.000000</sky_new_intensity_aerial>
+    <sky_new_ray_scattering_col_r>0.380392 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.537255 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.941177 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_absorption_intensity>9.642765 0.000000</sky_new_mie_absorption_intensity>
+    <sky_new_mie_scattering_intensity>4.000000 0.000000</sky_new_mie_scattering_intensity>
+    <local_atmosphere_fog_diffusion_intensity_scale>0.000000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+    <sky_new_ozo_extinction_intensity>3.000000 0.000000</sky_new_ozo_extinction_intensity>
+    <sky_new_ozo_extinction_col_r>0.039216 0.000000</sky_new_ozo_extinction_col_r>
+    <sky_new_ozo_extinction_col_g>0.756863 0.000000</sky_new_ozo_extinction_col_g>
+    <sky_new_ozo_extinction_col_b>0.945098 0.000000</sky_new_ozo_extinction_col_b>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_Smoggy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.524138 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>10.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000100 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_intensity_multiscattering>0.500000 0.000000</sky_new_intensity_multiscattering>
+    <sky_scattering_vertical_scaling_height_min>100.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_vertical_scaling_height_faloff_range>200.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <local_atmosphere_cloud_cirrus_density_x>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.100000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_volume_pollution_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_pollution_density_mult>
+    <sky_new_mie_absorption_intensity>7.251632 0.000000</sky_new_mie_absorption_intensity>
+    <sky_new_intensity_aerial>0.700000 0.000000</sky_new_intensity_aerial>
+    <sky_new_mie_scattering_intensity>1.000000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_ozo_extinction_col_r>0.000000 0.000000</sky_new_ozo_extinction_col_r>
+    <sky_new_ozo_extinction_col_g>1.000000 0.000000</sky_new_ozo_extinction_col_g>
+    <sky_new_ozo_extinction_col_b>0.435294 0.000000</sky_new_ozo_extinction_col_b>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_MBay"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.815092 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>7.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_mie_absorption_intensity>4.309313 0.000000</sky_new_mie_absorption_intensity>
+    <sky_new_ray_scattering_col_r>0.403922 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.611765 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>1.000000 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_mie_scattering_intensity>1.300000 0.000000</sky_new_mie_scattering_intensity>
+    <direct_light_roughness_mod>0.693320 0.000000</direct_light_roughness_mod>
+    <local_atmosphere_cloud_cirrus_density_x>0.500000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.100000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <sky_scattering_vertical_scaling_height_min>600.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_scattering_vertical_scaling_height_faloff_range>150.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_new_mie_density_scale>2.000000 0.000000</sky_new_mie_density_scale>
+    <sky_new_intensity_aerial>0.700000 0.000000</sky_new_intensity_aerial>
+    <sky_new_intensity_multiscattering>0.300000 0.000000</sky_new_intensity_multiscattering>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_MBay2"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_scattering_height_min_multiplier>20.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <direct_light_roughness_mod>0.693320 0.000000</direct_light_roughness_mod>
+    <sky_new_mie_density_scale>2.000000 0.000000</sky_new_mie_density_scale>
+    <sky_new_mie_phase_eccentricity>0.744659 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_scattering_intensity>0.500000 0.000000</sky_new_mie_scattering_intensity>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <sky_new_intensity_aerial>0.500000 0.000000</sky_new_intensity_aerial>
+    <sky_scattering_diffusion_intensity>0.300000 0.000000</sky_scattering_diffusion_intensity>
+    <local_atmosphere_cloud_cirrus_density_x>0.500000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.100000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <sky_new_ray_scattering_col_r>0.160784 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.372549 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.913726 0.000000</sky_new_ray_scattering_col_b>
+    <sky_new_intensity_multiscattering>0.500000 0.000000</sky_new_intensity_multiscattering>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_midPressure"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.300000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000100 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>300.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_ray_scattering_col_r>0.215686 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.403922 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.894118 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_cloud_cirrus_density_x>0.300000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_diffusion_intensity_scale>0.100000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_midLowPressure"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000300 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>150.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_ray_scattering_col_r>0.317647 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.462745 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.839216 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_cloud_cirrostratus_falloff>3.798900 0.000000</local_atmosphere_cloud_cirrostratus_falloff>
+    <local_atmosphere_cloud_cirrus_density_x>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_cloud_cirrostratus_density>1.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+    <sky_new_mie_phase_eccentricity>0.300000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_absorption_intensity>14.000000 0.000000</sky_new_mie_absorption_intensity>
+    <local_atmosphere_fog_diffusion_intensity_scale>0.100000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_lowPressure"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.300000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000300 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>150.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_ray_scattering_col_r>0.407843 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.517647 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.800000 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_cloud_cirrostratus_density>1.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+    <local_atmosphere_cloud_cirrostratus_falloff>4.424195 0.000000</local_atmosphere_cloud_cirrostratus_falloff>
+    <sky_new_mie_scattering_intensity>1.000000 0.000000</sky_new_mie_scattering_intensity>
+    <sky_new_mie_absorption_intensity>6.000000 0.000000</sky_new_mie_absorption_intensity>
+    <local_atmosphere_fog_diffusion_intensity_scale>0.110000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_VerylowPressure"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="21"
+    userFlags="0"
+  >
+    <sky_new_mie_phase_eccentricity>0.100000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_scattering_height_min_multiplier>5.000000 0.000000</sky_scattering_height_min_multiplier>
+    <local_atmosphere_fog_density>0.000300 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>150.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>50.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <sky_new_ray_scattering_col_r>0.572549 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.639216 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.807843 0.000000</sky_new_ray_scattering_col_b>
+    <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.000000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_cloud_cirrostratus_density>1.000000 0.000000</local_atmosphere_cloud_cirrostratus_density>
+    <local_atmosphere_cloud_cirrostratus_falloff>4.000000 0.000000</local_atmosphere_cloud_cirrostratus_falloff>
+    <sky_new_mie_absorption_intensity>8.000000 0.000000</sky_new_mie_absorption_intensity>
+    <local_atmosphere_fog_diffusion_intensity_scale>0.100000 0.000000</local_atmosphere_fog_diffusion_intensity_scale>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_PatchyMist"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="22"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <local_fog_type_2_height_multiplier>1.000000 1.000000 0.000000 1.154753 1.000000</local_fog_type_2_height_multiplier>
+      <local_fog_type_2_density_multiplier>1.000000 0.124645 0.000000 1.000000 1.000000</local_fog_type_2_density_multiplier>
+      <local_fog_type_1_height_multiplier>1.000000 0.204127 1.321614 0.204127 1.000000</local_fog_type_1_height_multiplier>
+      <local_fog_type_1_density_multiplier>0.131665 0.115683 0.131665 0.071172 0.131665</local_fog_type_1_density_multiplier>
+      <local_fog_type_6_height_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_6_height_multiplier>
+      <local_fog_type_6_density_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_6_density_multiplier>
+      <local_fog_type_3_height_multiplier>0.000000 0.000000 0.000000 2.409727 0.000000</local_fog_type_3_height_multiplier>
+      <local_fog_type_5_density_multiplier>0.562850 1.000000 0.100000 0.000000 0.562850</local_fog_type_5_density_multiplier>
+      <local_fog_type_3_density_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_3_density_multiplier>
+      <local_fog_type_5_height_multiplier>1.000000 1.000000 1.000000 0.000000 1.000000</local_fog_type_5_height_multiplier>
+      <local_fog_height_falloff>100.000000 100.000000 300.000000 100.000000 100.000000</local_fog_height_falloff>
+      <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+      <local_atmosphere_cloud_cirrus_density_y>1.000000 0.000000 0.000000 0.000000 1.000000</local_atmosphere_cloud_cirrus_density_y>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+      <sky_new_ray_scattering_col_r>0.160100 0.160784 0.160784 0.160784 0.160100</sky_new_ray_scattering_col_r>
+      <sky_new_ray_scattering_col_g>0.374100 0.372549 0.372549 0.372549 0.374100</sky_new_ray_scattering_col_g>
+      <sky_new_ray_scattering_col_b>0.913400 0.913726 0.913726 0.913726 0.913400</sky_new_ray_scattering_col_b>
+      <sky_scattering_height_min_multiplier>7.000000 7.000000 7.000000 7.000000 7.000000</sky_scattering_height_min_multiplier>
+      <local_atmosphere_fog_shadow_intensity>500.000000 500.000000 1000.000000 500.000000 500.000000</local_atmosphere_fog_shadow_intensity>
+      <sky_new_mie_phase_eccentricity>0.131351 0.200000 0.200000 0.200000 0.131351</sky_new_mie_phase_eccentricity>
+      <local_atmosphere_fog_diffusion_intensity_scale>0.100000 0.000000 0.000000 0.000000 0.100000</local_atmosphere_fog_diffusion_intensity_scale>
+      <sky_scattering_diffusion_intensity>10.000000 10.000000 10.000000 10.000000 10.000000</sky_scattering_diffusion_intensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_Misty"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="22"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_Gradient_Misty</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <local_fog_type_2_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_2_height_multiplier>
+      <local_fog_type_2_density_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_2_density_multiplier>
+      <local_fog_type_1_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_1_height_multiplier>
+      <local_fog_type_1_density_multiplier>0.131665 0.131665 0.131665 0.131665 0.131665</local_fog_type_1_density_multiplier>
+      <local_fog_type_6_height_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_6_height_multiplier>
+      <local_fog_type_6_density_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_6_density_multiplier>
+      <local_fog_type_3_height_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_3_height_multiplier>
+      <local_fog_type_5_density_multiplier>0.562850 0.562850 0.562850 0.562850 0.562850</local_fog_type_5_density_multiplier>
+      <local_fog_type_3_density_multiplier>0.000000 0.000000 0.000000 0.000000 0.000000</local_fog_type_3_density_multiplier>
+      <local_fog_type_5_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_5_height_multiplier>
+      <local_atmosphere_cloud_cirrus_density_x>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+      <local_atmosphere_cloud_cirrus_density_y>0.200000 0.200000 0.200000 0.200000 0.200000</local_atmosphere_cloud_cirrus_density_y>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+      <sky_scattering_height_min_multiplier>7.000000 7.000000 7.000000 7.000000 7.000000</sky_scattering_height_min_multiplier>
+      <sky_new_ray_scattering_col_r>0.160100 0.160100 0.160100 0.160100 0.160100</sky_new_ray_scattering_col_r>
+      <sky_new_ray_scattering_col_g>0.374100 0.374100 0.374100 0.374100 0.374100</sky_new_ray_scattering_col_g>
+      <sky_new_ray_scattering_col_b>0.913400 0.913400 0.913400 0.913400 0.913400</sky_new_ray_scattering_col_b>
+      <local_atmosphere_fog_shadow_intensity>500.000000 500.000000 4000.000000 500.000000 500.000000</local_atmosphere_fog_shadow_intensity>
+      <sky_new_mie_phase_eccentricity>0.800000 0.800000 0.800000 0.800000 0.800000</sky_new_mie_phase_eccentricity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_atmos_SeaFog"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_Gradient_SeaFog</item>
+    </submodifiers>
+    <local_fog_type_6_density_multiplier>0.500000 0.000000</local_fog_type_6_density_multiplier>
+    <local_fog_type_6_height_multiplier>1.000000 0.000000</local_fog_type_6_height_multiplier>
+    <local_fog_height_falloff>200.000000 0.000000</local_fog_height_falloff>
+    <local_atmosphere_cloud_cirrus_density_x>0.200000 0.000000</local_atmosphere_cloud_cirrus_density_x>
+    <local_atmosphere_cloud_cirrus_density_y>0.300000 0.000000</local_atmosphere_cloud_cirrus_density_y>
+    <local_atmosphere_fog_volume_mist_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_mist_density_mult>
+    <sky_scattering_height_min_multiplier>10.000000 0.000000</sky_scattering_height_min_multiplier>
+    <sky_scattering_height_max_multiplier>2.000000 0.000000</sky_scattering_height_max_multiplier>
+    <sky_scattering_vertical_scaling_height_faloff_range>350.000000 0.000000</sky_scattering_vertical_scaling_height_faloff_range>
+    <sky_scattering_vertical_scaling_height_min>300.000000 0.000000</sky_scattering_vertical_scaling_height_min>
+    <sky_new_mie_phase_eccentricity>0.780000 0.000000</sky_new_mie_phase_eccentricity>
+    <sky_new_mie_scattering_intensity>2.000000 0.000000</sky_new_mie_scattering_intensity>
+  </modifier>
+  <modifier
+    name="----------precipitation MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_precip_0"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <local_atmosphere_rain_probabiliy>0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <gpu_fx_density>0.000000 0.000000</gpu_fx_density>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_20_drizzle"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_20</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.200000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.100000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.004000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.020000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>1.000000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_40_drizzle"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_40</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.400000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.100000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.004000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.020000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>1.000000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_60_drizzle"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_60</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.600000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.100000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.004000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.020000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>1.000000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_80_drizzle"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_80</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.800000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.100000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.004000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.020000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>1.000000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_100_drizzle"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_100</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.000000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.100000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.004000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.020000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>1.000000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_20_rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_20</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.200000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.500000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.050000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.500000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.008000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.040000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.900000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_intensity>100.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.300000 0.000000</local_atmosphere_rain_height_fog_falloff>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_40_rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_40</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.400000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.500000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.050000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.300000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.008000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.040000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.900000 0.000000</puddle_ripple_sharpness>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_60_rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_60</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.600000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.500000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.050000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.500000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.008000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.040000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.900000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_intensity>100.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.300000 0.000000</local_atmosphere_rain_height_fog_falloff>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_80_rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_80</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.800000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.500000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.050000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.500000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.008000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.040000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.900000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_intensity>100.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.300000 0.000000</local_atmosphere_rain_height_fog_falloff>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_100_rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_100</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>0.500000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.200000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.050000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>0.500000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.008000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.040000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.900000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_falloff>0.500000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_height_fog_intensity>75.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_20_HeavyRain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_20</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.200000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.300000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.100000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <gpu_fx_rain_decal_radius>0.015000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.060000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.800000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_fog_intensity>2.000000 0.000000</local_atmosphere_rain_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.500000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_height_fog_intensity>50.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_40_HeavyRain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_40</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.400000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.300000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.100000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <gpu_fx_rain_decal_radius>0.015000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.060000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.800000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_fog_intensity>1.000000 0.000000</local_atmosphere_rain_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.500000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_height_fog_intensity>50.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_60_HeavyRain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_60</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.600000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.300000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.100000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <gpu_fx_rain_decal_radius>0.015000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.060000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.800000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_fog_intensity>1.000000 0.000000</local_atmosphere_rain_fog_intensity>
+    <local_atmosphere_rain_height_fog_falloff>0.500000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_height_fog_intensity>50.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_80_HeavyRain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_80</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>0.800000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.300000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.100000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <gpu_fx_rain_decal_radius>0.015000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.060000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.800000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_falloff>0.500000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_fog_intensity>1.000000 0.000000</local_atmosphere_rain_fog_intensity>
+    <local_atmosphere_rain_height_fog_intensity>50.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_precip_100_HeavyRain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>MODULE_HighLevel_RainChance_100</item>
+    </submodifiers>
+    <local_atmosphere_rain_probabiliy>1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <local_atmosphere_rain_wetness_accumulation_rate>0.500000 0.000000</local_atmosphere_rain_wetness_accumulation_rate>
+    <local_atmosphere_rain_wetness_dry_rate>0.001000 0.000000</local_atmosphere_rain_wetness_dry_rate>
+    <local_atmosphere_rain_soak_accumulation_rate>0.100000 0.000000</local_atmosphere_rain_soak_accumulation_rate>
+    <local_atmosphere_rain_soak_dry_rate>0.000000 0.000000</local_atmosphere_rain_soak_dry_rate>
+    <local_atmosphere_rain_fog_intensity>2.000000 0.000000</local_atmosphere_rain_fog_intensity>
+    <gpu_fx_rain_decal_radius>0.015000 0.000000</gpu_fx_rain_decal_radius>
+    <hh_mirage_temperature_attenuation>0.000000 0.000000</hh_mirage_temperature_attenuation>
+    <hh_ly1_minIntensity>0.000000 0.000000</hh_ly1_minIntensity>
+    <hh_ly1_maxIntensity>0.000000 0.000000</hh_ly1_maxIntensity>
+    <hh_ly2_minIntensity>0.000000 0.000000</hh_ly2_minIntensity>
+    <hh_ly2_maxIntensity>0.000000 0.000000</hh_ly2_maxIntensity>
+    <hh_ly3_minIntensity>0.000000 0.000000</hh_ly3_minIntensity>
+    <hh_ly3_maxIntensity>0.000000 0.000000</hh_ly3_maxIntensity>
+    <hh_ly4_minIntensity>0.000000 0.000000</hh_ly4_minIntensity>
+    <hh_ly4_maxIntensity>0.000000 0.000000</hh_ly4_maxIntensity>
+    <puddle_ripple_distortion_intensity>0.060000 0.000000</puddle_ripple_distortion_intensity>
+    <puddle_ripple_sharpness>0.800000 0.000000</puddle_ripple_sharpness>
+    <local_atmosphere_rain_height_fog_falloff>0.600000 0.000000</local_atmosphere_rain_height_fog_falloff>
+    <local_atmosphere_rain_height_fog_intensity>50.000000 0.000000</local_atmosphere_rain_height_fog_intensity>
+  </modifier>
+  <modifier
+    name="----------Temperature MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_temperature_Cold"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.449881 0.717818 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>13.000000 11.000000 12.000000 17.000000 15.000000 13.000000</temperature_target>
+      <color_temperature_target>0.300000 0.200000 0.300000 0.420000 0.350000 0.300000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_Cool"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.274725 0.491559 0.658949 0.775335 1.000000</keyframe_t_value>
+      <temperature_target>17.000000 16.000000 18.000000 22.000000 18.000000 17.000000</temperature_target>
+      <color_temperature_target>0.400000 0.300000 0.420000 0.600000 0.420000 0.400000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.125000 0.250000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.125000 0.250000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_MidCool"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.227926 0.475985 0.683909 0.779325 1.000000</keyframe_t_value>
+      <temperature_target>20.000000 18.000000 25.000000 22.000000 21.000000 20.000000</temperature_target>
+      <color_temperature_target>0.490000 0.440000 0.660000 0.620000 0.600000 0.490000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.440000 0.375000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.440000 0.375000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_Mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.228197 0.482234 0.654027 0.775910 1.000000</keyframe_t_value>
+      <temperature_target>22.000000 21.000000 25.000000 24.000000 23.000000 22.000000</temperature_target>
+      <color_temperature_target>0.580000 0.500000 0.660000 0.620000 0.620000 0.580000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.440000 0.375000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.440000 0.375000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_MidWarm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.230183 0.491958 0.653443 0.763909 1.000000</keyframe_t_value>
+      <temperature_target>23.000000 22.000000 28.000000 27.000000 25.000000 23.000000</temperature_target>
+      <color_temperature_target>0.620000 0.600000 0.750000 0.720000 0.650000 0.620000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.625000 0.560000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.625000 0.560000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_Warm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.232178 0.481985 0.649454 0.763909 1.000000</keyframe_t_value>
+      <temperature_target>26.000000 23.000000 29.000000 28.000000 27.000000 26.000000</temperature_target>
+      <color_temperature_target>0.680000 0.620000 0.780000 0.750000 0.720000 0.680000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.690000 0.625000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.690000 0.625000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_Hot"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.232178 0.434176 0.600000 0.763909 1.000000</keyframe_t_value>
+      <temperature_target>27.000000 25.000000 30.000000 32.000000 30.000000 27.000000</temperature_target>
+      <color_temperature_target>0.720000 0.660000 0.800000 0.860000 0.800000 0.720000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.810000 0.750000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.810000 0.750000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_VeryHot"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="2"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.231515 0.489586 0.636358 0.763372 1.000000</keyframe_t_value>
+      <temperature_target>28.000000 26.000000 32.000000 34.000000 33.000000 28.000000</temperature_target>
+      <color_temperature_target>0.750000 0.650000 0.900000 0.990000 0.860000 0.750000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.950000 1.000000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+    <axis controlValue="underwaterDepth" input_min="0.000000" input_max="0.060000">
+      <temperature_target>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</temperature_target>
+      <color_temperature_target>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.950000 1.000000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+      <hh_ly1_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly1_minIntensity>
+      <hh_ly1_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly1_maxIntensity>
+      <hh_ly2_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly2_minIntensity>
+      <hh_ly2_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly2_maxIntensity>
+      <hh_ly3_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly3_minIntensity>
+      <hh_ly3_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly3_maxIntensity>
+      <hh_ly4_minIntensity>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_ly4_minIntensity>
+      <hh_ly4_maxIntensity>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</hh_ly4_maxIntensity>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_temperature_TEST_Mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.260112 0.570000 0.664000 0.742000 1.000000</keyframe_t_value>
+      <temperature_target>21.000000 21.000000 21.000000 21.000000 21.000000 21.000000</temperature_target>
+      <color_temperature_target>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</color_temperature_target>
+      <hh_mirage_temperature_attenuation>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</hh_mirage_temperature_attenuation>
+    </axis>
+  </modifier>
+  <modifier
+    name="----------Humidity MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_humidity_VeryHigh"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <humidity>0.900000 0.000000</humidity>
+    <color_temperature_tint>1.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="W_MOD_humidity_High"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <humidity>0.800000 0.000000</humidity>
+    <color_temperature_tint>0.850000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="W_MOD_humidity_MidHigh"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <humidity>0.750000 0.000000</humidity>
+    <color_temperature_tint>0.600000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="W_MOD_humidity_Mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <humidity>0.700000 0.000000</humidity>
+    <color_temperature_tint>0.500000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="W_MOD_humidity_Low"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <humidity>0.650000 0.000000</humidity>
+    <color_temperature_tint>0.300000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="----------Wind MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_wind_calmLight"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item>MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>1.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000</water_ocean_beaufort_scale>
+      <local_atmosphere_cloud_wind_shear>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_veryLight"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item>MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>1.300000 1.300000 1.000000 1.300000 1.300000 1.000000 1.300000</water_ocean_beaufort_scale>
+      <local_atmosphere_cloud_wind_shear>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_light"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.800000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>9.000000 9.000000 9.000000 9.000000 9.000000 9.000000 9.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>60.000000 60.000000 60.000000 60.000000 60.000000 60.000000 60.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>90.000000 90.000000 90.000000 90.000000 90.000000 90.000000 90.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>3.000000 3.000000 1.000000 3.000000 3.000000 1.000000 3.000000</water_ocean_beaufort_scale>
+      <local_atmosphere_cloud_wind_shear>25.000000 25.000000 25.000000 25.000000 25.000000 25.000000 25.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_lightGusty"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.800000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>13.000000 13.000000 13.000000 13.000000 13.000000 13.000000 13.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>8.000000 8.000000 8.000000 8.000000 8.000000 8.000000 8.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>17.000000 17.000000 17.000000 17.000000 17.000000 17.000000 17.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>22.000000 22.000000 22.000000 22.000000 22.000000 22.000000 22.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>60.000000 60.000000 60.000000 60.000000 60.000000 60.000000 60.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>100.000000 100.000000 100.000000 100.000000 100.000000 100.000000 100.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>4.000000 4.000000 1.000000 4.000000 4.000000 1.000000 4.000000</water_ocean_beaufort_scale>
+      <local_atmosphere_cloud_wind_shear>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_light_strongCon"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item>MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_convection_ground_speed_kmh>-24.525000 -24.000000 -24.525000 24.000000 24.000000 -24.525000 -24.525000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>-12.000000 -12.000000 -12.000000 12.000000 12.000000 -12.000000 -12.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_gust_speed_max_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>3.000000 3.000000 1.000000 3.000000 3.000000 1.000000 3.000000</water_ocean_beaufort_scale>
+      <local_atmosphere_cloud_wind_shear>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.300000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>80.000000 80.000000 80.000000 80.000000 80.000000 80.000000 80.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>5.000000 5.000000 2.000000 5.000000 5.000000 2.000000 5.000000</water_ocean_beaufort_scale>
+      <local_fog_type_4_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_4_height_multiplier>
+      <local_fog_type_4_density_multiplier>0.005000 0.005000 0.005000 0.005000 0.005000 0.005000 0.005000</local_fog_type_4_density_multiplier>
+      <local_atmosphere_cloud_wind_shear>25.000000 25.000000 25.000000 25.000000 25.000000 25.000000 25.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_midGusty"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.300000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>80.000000 80.000000 80.000000 80.000000 80.000000 80.000000 80.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>160.000000 160.000000 160.000000 160.000000 160.000000 160.000000 160.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>5.000000 5.000000 2.000000 5.000000 5.000000 2.000000 5.000000</water_ocean_beaufort_scale>
+      <local_fog_type_4_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_4_height_multiplier>
+      <local_fog_type_4_density_multiplier>0.005000 0.005000 0.005000 0.005000 0.005000 0.005000 0.005000</local_fog_type_4_density_multiplier>
+      <local_atmosphere_cloud_wind_shear>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_strong"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.100000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>8.000000 8.000000 8.000000 8.000000 8.000000 8.000000 8.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>40.000000 40.000000 40.000000 40.000000 40.000000 40.000000 40.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>50.000000 50.000000 50.000000 50.000000 50.000000 50.000000 50.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>100.000000 100.000000 100.000000 100.000000 100.000000 100.000000 100.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>150.000000 150.000000 150.000000 150.000000 150.000000 150.000000 150.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>6.000000 6.000000 3.000000 6.000000 6.000000 3.000000 6.000000</water_ocean_beaufort_scale>
+      <local_fog_type_4_density_multiplier>0.010000 0.010000 0.010000 0.010000 0.010000 0.010000 0.010000</local_fog_type_4_density_multiplier>
+      <local_fog_type_4_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_4_height_multiplier>
+      <local_atmosphere_cloud_wind_shear>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_strongGusty"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <submodifiers>
+      <item alpha="0.100000">MODULE_CloudWindVelocity_Up</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.300000 0.500000 0.700000 0.800000 1.000000</keyframe_t_value>
+      <wind_gust_speed_min_kmh>32.000000 32.000000 32.000000 32.000000 32.000000 32.000000 32.000000</wind_gust_speed_min_kmh>
+      <wind_gust_speed_max_kmh>54.000000 54.000000 54.000000 54.000000 54.000000 54.000000 54.000000</wind_gust_speed_max_kmh>
+      <wind_gust_duration_min>5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000</wind_gust_duration_min>
+      <wind_gust_duration_max>10.000000 10.000000 10.000000 10.000000 10.000000 10.000000 10.000000</wind_gust_duration_max>
+      <wind_convection_ground_speed_kmh>4.000000 4.000000 4.000000 4.000000 4.000000 4.000000 4.000000</wind_convection_ground_speed_kmh>
+      <wind_convection_onoffshore_speed_kmh>8.000000 8.000000 8.000000 8.000000 8.000000 8.000000 8.000000</wind_convection_onoffshore_speed_kmh>
+      <wind_prevailing_speed_min_at_bottom_falloff_kmh>35.000000 35.000000 35.000000 35.000000 35.000000 35.000000 35.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_max_at_bottom_falloff_kmh>55.000000 55.000000 55.000000 55.000000 55.000000 55.000000 55.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+      <wind_prevailing_speed_min_at_top_falloff_kmh>80.000000 80.000000 80.000000 80.000000 80.000000 80.000000 80.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+      <wind_prevailing_speed_max_at_top_falloff_kmh>160.000000 160.000000 160.000000 160.000000 160.000000 160.000000 160.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+      <wind_prevailing_speed_falloff_height_kmh>500.000000 500.000000 500.000000 500.000000 500.000000 500.000000 500.000000</wind_prevailing_speed_falloff_height_kmh>
+      <water_ocean_beaufort_scale>6.000000 6.000000 3.000000 6.000000 6.000000 3.000000 6.000000</water_ocean_beaufort_scale>
+      <local_fog_type_4_height_multiplier>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_fog_type_4_height_multiplier>
+      <local_fog_type_4_density_multiplier>0.010000 0.010000 0.010000 0.010000 0.010000 0.010000 0.010000</local_fog_type_4_density_multiplier>
+      <local_atmosphere_cloud_wind_shear>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</local_atmosphere_cloud_wind_shear>
+      <local_atmosphere_water_droplet_variance_scale>4.500000 4.500000 4.500000 4.500000 4.500000 4.500000 4.500000</local_atmosphere_water_droplet_variance_scale>
+      <wind_normal_up_blend_mult>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</wind_normal_up_blend_mult>
+      <wind_boundary_altitude_min>30.000000 30.000000 30.000000 30.000000 30.000000 30.000000 30.000000</wind_boundary_altitude_min>
+      <wind_boundary_altitude_max>130.000000 130.000000 130.000000 130.000000 130.000000 130.000000 130.000000</wind_boundary_altitude_max>
+      <wind_boundary_contribution_min>0.100000 0.100000 0.100000 0.100000 0.100000 0.100000 0.100000</wind_boundary_contribution_min>
+      <wind_boundary_contribution_max>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_boundary_contribution_max>
+      <wind_weather_particle_prevailing_wind_ratio>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</wind_weather_particle_prevailing_wind_ratio>
+    </axis>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_storm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <wind_gust_speed_min_kmh>50.000000 1.000000</wind_gust_speed_min_kmh>
+    <wind_gust_speed_max_kmh>70.000000 1.000000</wind_gust_speed_max_kmh>
+    <wind_gust_duration_min>5.000000 1.000000</wind_gust_duration_min>
+    <wind_gust_duration_max>10.000000 1.000000</wind_gust_duration_max>
+    <wind_convection_ground_speed_kmh>6.000000 1.000000</wind_convection_ground_speed_kmh>
+    <wind_convection_onoffshore_speed_kmh>12.000000 1.000000</wind_convection_onoffshore_speed_kmh>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>50.000000 1.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>90.000000 1.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>100.000000 1.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>160.000000 1.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>500.000000 1.000000</wind_prevailing_speed_falloff_height_kmh>
+    <water_ocean_beaufort_scale>9.000000 1.000000</water_ocean_beaufort_scale>
+    <local_fog_type_4_height_multiplier>1.000000 0.000000</local_fog_type_4_height_multiplier>
+    <local_fog_type_4_density_multiplier>0.015000 0.000000</local_fog_type_4_density_multiplier>
+    <local_atmosphere_cloud_wind_shear>30.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_water_droplet_variance_scale>6.000000 0.000000</local_atmosphere_water_droplet_variance_scale>
+    <wind_normal_up_um_angle_threshold>70.000000 0.000000</wind_normal_up_um_angle_threshold>
+    <wind_normal_up_blend_speed_max>25.000000 0.000000</wind_normal_up_blend_speed_max>
+    <wind_normal_up_blend_speed_min>10.000000 0.000000</wind_normal_up_blend_speed_min>
+    <wind_normal_up_blend_mult>1.000000 0.000000</wind_normal_up_blend_mult>
+    <wind_boundary_altitude_min>30.000000 0.000000</wind_boundary_altitude_min>
+    <wind_boundary_altitude_max>130.000000 0.000000</wind_boundary_altitude_max>
+    <wind_boundary_contribution_min>0.100000 0.000000</wind_boundary_contribution_min>
+    <wind_boundary_contribution_max>0.500000 0.000000</wind_boundary_contribution_max>
+    <wind_weather_particle_prevailing_wind_ratio>0.500000 0.000000</wind_weather_particle_prevailing_wind_ratio>
+  </modifier>
+  <modifier
+    name="W_MOD_wind_hurricane"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <wind_gust_speed_min_kmh>30.000000 1.000000</wind_gust_speed_min_kmh>
+    <wind_gust_speed_max_kmh>50.000000 1.000000</wind_gust_speed_max_kmh>
+    <wind_gust_duration_min>5.000000 1.000000</wind_gust_duration_min>
+    <wind_gust_duration_max>10.000000 1.000000</wind_gust_duration_max>
+    <wind_convection_ground_speed_kmh>12.000000 1.000000</wind_convection_ground_speed_kmh>
+    <wind_convection_onoffshore_speed_kmh>16.000000 1.000000</wind_convection_onoffshore_speed_kmh>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>80.000000 1.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>150.000000 1.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>160.000000 1.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>200.000000 1.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>500.000000 1.000000</wind_prevailing_speed_falloff_height_kmh>
+    <water_ocean_beaufort_scale>12.000000 1.000000</water_ocean_beaufort_scale>
+    <local_fog_type_4_height_multiplier>1.000000 0.000000</local_fog_type_4_height_multiplier>
+    <local_fog_type_4_density_multiplier>0.020000 0.000000</local_fog_type_4_density_multiplier>
+    <local_atmosphere_cloud_wind_shear>40.000000 0.000000</local_atmosphere_cloud_wind_shear>
+    <local_atmosphere_water_droplet_variance_scale>7.000000 0.000000</local_atmosphere_water_droplet_variance_scale>
+    <wind_normal_up_um_angle_threshold>70.000000 0.000000</wind_normal_up_um_angle_threshold>
+    <wind_normal_up_blend_speed_max>25.000000 0.000000</wind_normal_up_blend_speed_max>
+    <wind_normal_up_blend_speed_min>10.000000 0.000000</wind_normal_up_blend_speed_min>
+    <wind_normal_up_blend_mult>1.000000 0.000000</wind_normal_up_blend_mult>
+    <wind_boundary_altitude_min>30.000000 0.000000</wind_boundary_altitude_min>
+    <wind_boundary_altitude_max>130.000000 0.000000</wind_boundary_altitude_max>
+    <wind_boundary_contribution_min>0.100000 0.000000</wind_boundary_contribution_min>
+    <wind_boundary_contribution_max>0.500000 0.000000</wind_boundary_contribution_max>
+    <wind_weather_particle_prevailing_wind_ratio>0.500000 0.000000</wind_weather_particle_prevailing_wind_ratio>
+  </modifier>
+  <modifier
+    name="----------Fetch MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_fetch_VLow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <water_ocean_fetch>2.000000 0.000000</water_ocean_fetch>
+  </modifier>
+  <modifier
+    name="W_MOD_fetch_low"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <water_ocean_fetch>20.000000 0.000000</water_ocean_fetch>
+  </modifier>
+  <modifier
+    name="W_MOD_fetch_Mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <water_ocean_fetch>100.000000 0.000000</water_ocean_fetch>
+  </modifier>
+  <modifier
+    name="W_MOD_fetch_high"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <water_ocean_fetch>400.000000 0.000000</water_ocean_fetch>
+  </modifier>
+  <modifier
+    name="W_MOD_fetch_VHigh"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <water_ocean_fetch>800.000000 0.000000</water_ocean_fetch>
+  </modifier>
+  <modifier
+    name="----------Misc MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_misc_None"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_misc_thunderLow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_thunder_chance>0.050000 0.000000</vfx_thunder_chance>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_thunder_chance>0.300000 0.000000</vfx_thunder_chance>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderHigh"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_thunder_chance>1.000000 0.000000</vfx_thunder_chance>
+    <vfx_lightning_chance>1.000000 0.000000</vfx_lightning_chance>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+	<vfx_lightning_distance_min>1200.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>8000.000000 0.000000</vfx_lightning_distance_max>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderLightningLow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_lightning_chance>0.200000 0.000000</vfx_lightning_chance>
+    <vfx_thunder_chance>0.100000 0.000000</vfx_thunder_chance>
+    <vfx_lightning_distance_min>1200.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>8000.000000 0.000000</vfx_lightning_distance_max>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderLightningMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_lightning_chance>0.170000 0.000000</vfx_lightning_chance>
+    <vfx_thunder_chance>0.400000 0.000000</vfx_thunder_chance>
+    <vfx_lightning_distance_min>1200.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>8000.000000 0.000000</vfx_lightning_distance_max>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+	<vfxlightning_intensity_mult>4.000000 0.000000</vfxlightning_intensity_mult>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderLightningHigh"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_lightning_chance>0.080000 0.000000</vfx_lightning_chance>
+    <vfx_thunder_chance>0.500000 0.000000</vfx_thunder_chance>
+    <vfx_lightning_distance_min>1200.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>8000.000000 0.000000</vfx_lightning_distance_max>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_thunderLightningStorm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <vfx_lightning_chance>0.600000 0.000000</vfx_lightning_chance>
+    <vfx_thunder_chance>0.600000 0.000000</vfx_thunder_chance>
+    <vfx_lightning_distance_min>1200.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>3000.000000 0.000000</vfx_lightning_distance_max>
+    <sky_new_ozo_extinction_intensity>2.000000 0.000000</sky_new_ozo_extinction_intensity>
+	<vfxlightning_intensity_mult>5.000000 0.000000</vfxlightning_intensity_mult>
+  </modifier>
+  <modifier
+    name="W_MOD_misc_Hail"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <gpu_fx_hail>1.000000 0.000000</gpu_fx_hail>
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+    <gpu_fx_consistency>1.000000 0.000000</gpu_fx_consistency>
+  </modifier>
+  <modifier
+    name="----------Niceness MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="W_MOD_niceness_good"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <weather_niceness>1.000000 0.000000</weather_niceness>
+  </modifier>
+  <modifier
+    name="W_MOD_niceness_neutral"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <weather_niceness>0.000000 0.000000</weather_niceness>
+  </modifier>
+  <modifier
+    name="W_MOD_niceness_bad"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="20"
+    userFlags="0"
+  >
+    <weather_niceness>-1.000000 0.000000</weather_niceness>
+  </modifier>
+  <modifier
+    name="----------Base MOD LIST----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="20"
+    userFlags="0"
+   />
+  <modifier
+    name="BASE_MOD_water_fresnelRoughness"
+    description=""
+    groupApplyTag="Base"
+    localApplyIndex="0"
+    userFlags="8"
+  >
+    <water_fresnel_roughness_weight_min>0.300000 0.000000</water_fresnel_roughness_weight_min>
+    <water_fresnel_roughness_weight_max>1.000000 0.000000</water_fresnel_roughness_weight_max>
+  </modifier>
+  <modifier
+    name="Base_MOD_lightningDirToD"
+    description=""
+    groupApplyTag="Base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.198005 0.208511 0.791490 0.803989 1.000000</keyframe_t_value>
+      <vfx_lightning_allow_dirlight_override>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</vfx_lightning_allow_dirlight_override>
+	  <vfx_lightning_distance_min>8000.000000 8000.000000 8000.000000 8000.000000 8000.000000 8000.000000</vfx_lightning_distance_min>
+	  <vfx_lightning_distance_max>8000.000000 8000.000000 8000.000000 8000.000000 8000.000000 8000.000000</vfx_lightning_distance_max>
+    </axis>
+  </modifier>
+</timecycle_modifier_data>

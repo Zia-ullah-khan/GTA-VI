@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedMotivationInfoManager>
+
+	<EventMotivationImpactProfiles>
+		<Item key="DEFAULT">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.9"/>
+									<ChangeMax value="0.6"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.6"/>
+									<ChangeMax value="0.3"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.3"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.7"/>
+									<ChangeMax value="0.4"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.4"/>
+									<ChangeMax value="0.2"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.2"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.5"/>
+									<ChangeMax value="0.3"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.3"/>
+									<ChangeMax value="0.1"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.1"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.25"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.05"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.05"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams/>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="AGGRO">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.6"/>
+									<ChangeMax value="0.3"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.3"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.45"/>
+									<ChangeMax value="0.2"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.2"/>
+									<ChangeMax value="0.1"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.1"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.35"/>
+									<ChangeMax value="0.1"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="60"/>
+									<ChangeMin value="0.1"/>
+									<ChangeMax value="0.05"/>
+								</Item>
+								<Item>
+									<DistanceMin value="60"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.05"/>
+									<ChangeMax value="0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="20"/>
+									<ChangeMin value="0.2"/>
+									<ChangeMax value="0.1"/>
+								</Item>
+								<Item>
+									<DistanceMin value="20"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.10"/>
+									<ChangeMax value="0.0"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams/>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="DEFAULT_HORSE">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="1.0"/>
+								<ChangeMax value="0.33"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.33"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.5"/>
+								<ChangeMax value="0.25"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.5"/>
+								<ChangeMax value="0.25"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.5"/>
+								<ChangeMax value="0.25"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="10"/>
+								<ChangeMin value="0.013"/>
+								<ChangeMax value="0.013"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="PLAYER_HORSE_BONDING_LEVEL_0">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.8"/>
+								<ChangeMax value="0.4"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.4"/>
+								<ChangeMax value="0.2"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.2"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.4"/>
+								<ChangeMax value="0.2"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.2"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.2"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="PLAYER_HORSE_BONDING_LEVEL_1">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.5"/>
+								<ChangeMax value="0.25"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.075"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.075"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.15"/>
+								<ChangeMax value="0.075"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.075"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0.075"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.075"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="PLAYER_HORSE_BONDING_LEVEL_2">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.25"/>
+								<ChangeMax value="0.1"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0.05"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.05"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.125"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.075"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.05"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+		<Item key="PLAYER_HORSE_BONDING_LEVEL_3">
+			<EventTypes>
+				<Item key="HighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.1"/>
+								<ChangeMax value="0.025"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumHighImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.05"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0.00625"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.00625"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.025"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0.00625"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.00625"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="MediumLowImpact">
+					<MotivationImpacts>
+						<Item>
+							<Motivation>FEAR_STATE</Motivation>
+							<ImpactParams>
+								<Item>
+									<DistanceMin value="0"/>
+									<DistanceMax value="100"/>
+									<ChangeMin value="0.15"/>
+									<ChangeMax value="0.15"/>
+								</Item>
+							</ImpactParams>	
+						</Item>
+						<Item>
+							<Motivation>AGITATION_STATE</Motivation>
+							<ImpactParams>
+							<Item>
+								<DistanceMin value="0"/>
+								<DistanceMax value="20"/>
+								<ChangeMin value="0.02"/>
+								<ChangeMax value="0.0125"/>
+							</Item>
+							<Item>
+								<DistanceMin value="20"/>
+								<DistanceMax value="60"/>
+								<ChangeMin value="0.0125"/>
+								<ChangeMax value="0.00625"/>
+							</Item>
+							<Item>
+								<DistanceMin value="60"/>
+								<DistanceMax value="100"/>
+								<ChangeMin value="0.00625"/>
+								<ChangeMax value="0"/>
+							</Item>
+							</ImpactParams>
+						</Item>
+					</MotivationImpacts>
+				</Item>
+				<Item key="LowImpact">
+					<MotivationImpacts>
+					</MotivationImpacts>
+				</Item>
+			</EventTypes>
+		</Item>
+		
+	</EventMotivationImpactProfiles>
+	
+	<PedMotivationDefinitions>
+		<Item>
+			<DefaultState value="1.0" />
+			<StartingStateValueMin value="0.4" />
+			<StartingStateValueMax value="0.6"/>
+		</Item>
+
+		<Item>
+			<MotivationType>FearMotivation</MotivationType>
+			<IsAlerted value="true"/>
+		</Item>
+
+		<Item>
+			<MotivationType>DirectedMotivation</MotivationType>
+			<IsAlerted value="true"/>
+		</Item>
+
+		<Item>
+			<DecayRate value="0.03" />
+			<MinTimeBeforeDecayAfterStateChange value="1.0" />
+		</Item>
+
+		<Item>
+			<DecayRate value="0.0003" />
+			<Enabled value="false" />
+		</Item>
+
+		<Item>
+			<DecayRate value="0.0003" />
+			<Enabled value="false" />
+		</Item>
+
+		<Item>
+		</Item>
+
+		<Item>
+			<MotivationType>DirectedMotivation</MotivationType>
+			<IsAlerted value="true"/>
+		</Item>
+
+		<Item>
+			<DecayRate value="0.033" />
+			<MotivationType>FearMotivation</MotivationType>
+			<MinTimeBeforeDecayAfterStateChange value="1.5" />
+		</Item>
+
+		<Item>
+			<MotivationType>DirectedMotivation</MotivationType>
+			<IsAlerted value="true"/>
+		</Item>
+
+		<Item>
+			<DefaultState value="0.0" />
+			<DecayRate value="0.004" />
+			<PlayerDecayRate value="0.003" />
+			<Enabled value="true" />
+			<MinTimeBeforeDecayAfterStateChange value="120.0" />
+			<PlayerMinTimeBeforeDecayAfterStateChange value="180.0" />
+		</Item>
+
+		<Item>
+			<DefaultState value="0.0" />
+			<DecayRate value="0.025" />
+			<PlayerDecayRate value="0.033" />
+			<Enabled value="true" />
+			<MinTimeBeforeDecayAfterStateChange value="10.0" />
+			<PlayerMinTimeBeforeDecayAfterStateChange value="6.0" />
+		</Item>    
+
+		<Item>
+			<DefaultState value="0.0" />
+			<DecayRate value="0.01" />
+			<PlayerDecayRate value="0.01" />
+			<Enabled value="true" />
+			<MinTimeBeforeDecayAfterStateChange value="25.0" />
+			<PlayerMinTimeBeforeDecayAfterStateChange value="25.0" />
+		</Item> 
+
+		<Item>
+			<DefaultState value="0.0" />
+			<DecayRate value="0.01" />
+			<PlayerDecayRate value="0.01" />
+			<Enabled value="true" />
+			<MinTimeBeforeDecayAfterStateChange value="25.0" />
+			<PlayerMinTimeBeforeDecayAfterStateChange value="25.0" />
+		</Item> 
+	</PedMotivationDefinitions>
+
+	<DefaultFearProfileName>NoIncrementConstantDecay</DefaultFearProfileName>
+  
+	<aFearResponseProfiles>
+
+		<Item>
+			<Name>NoIncrementConstantDecay</Name>
+			<Priority value="0" />
+			<Min value="0.0" />
+			<Max value="1.0" />
+			<InitIncrement value="0.0" />
+			<MaxIncRate value="0.0" />
+			<MaxIncRateDistance value="0.0" />
+			<ZeroRateDistance value="0.0" />
+			<MaxDecRate value="0.0" />
+			<MaxDecRateDistance value="0.0"/>
+			<ModulateDecRateByCurrentState value="false" />
+			<ApplyDecay value="true" />
+		</Item>	
+
+		<Item>
+			<Name>Low</Name>
+			<Priority value="0" />
+			<Min value="0.0" />
+			<Max value="0.5" />
+			<InitIncrement value="0.05" />
+			<MaxIncRate value="0.0" />
+			<MaxIncRateDistance value="0.0" />
+			<ZeroRateDistance value="0.0" />
+			<MaxDecRate value="1.0" />
+			<MaxDecRateDistance value="0.0"/>
+			<ModulateDecRateByCurrentState value="false" />
+			<ApplyDecay value="false" />
+		</Item>	
+
+		<Item>
+			<Name>Medium</Name>
+			<Priority value="1" />
+			<Min value="0.0" />
+			<Max value="0.75" />
+			<InitIncrement value="0.2" />
+			<MaxIncRate value="1.0" />
+			<MaxIncRateDistance value="2.0" />
+			<ZeroRateDistance value="5.0" />
+			<MaxDecRate value="1.0" />
+			<MaxDecRateDistance value="30.0"/>
+			<ModulateDecRateByCurrentState value="true" />
+			<ApplyDecay value="false" />	
+		</Item>		
+
+		<Item>
+			<Name>High</Name>
+			<Priority value="2" />
+			<Min value="0.0" />
+			<Max value="1.0" />
+			<InitIncrement value="0.2" />
+			<MaxIncRate value="1.0" />
+			<MaxIncRateDistance value="5.0" />
+			<ZeroRateDistance value="20.0" />
+			<MaxDecRate value="0.2" />
+			<MaxDecRateDistance value="50.0"/>
+			<ModulateDecRateByCurrentState value="true" />
+			<ApplyDecay value="false" />
+		</Item>	
+	</aFearResponseProfiles>
+
+</CPedMotivationInfoManager>

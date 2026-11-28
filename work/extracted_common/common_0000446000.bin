@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CUpperBodyIdleConditionManager>
+	<Conditions>
+	  <!-- EMOTIONAL LAYERS-->
+	  <Item key="SCENARIO_EMOTIONAL_LAYER_ACTIVE" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionIsScenarioEmotionalLayerActive">
+			  <Ped>PrimaryEntity</Ped>
+		  </pCondition>
+	  </Item>
+	  <Item key="SCENARIO_EMOTIONAL_LAYER_INACTIVE" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionNot">
+			  <Condition type="CAIConditionIsScenarioEmotionalLayerActive">
+				  <Ped>PrimaryEntity</Ped>
+			  </Condition>
+		  </pCondition>
+	  </Item>
+	  
+	  <Item key="SCENARIO_EMOTION_ANGRY" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionBlackboardString">
+			<Name>EmotionalStateScenario</Name>
+			<Compare>Angry</Compare>
+		  </pCondition>
+	  </Item>
+	  
+	  <Item key="SCENARIO_EMOTION_CURIOUS" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionBlackboardString">
+			<Name>EmotionalStateScenario</Name>
+			<Compare>Curious</Compare>
+		  </pCondition>
+	  </Item>
+	  
+	  <Item key="SCENARIO_EMOTION_DRUNK" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionBlackboardString">
+			<Name>EmotionalStateScenario</Name>
+			<Compare>Drunk</Compare>
+		  </pCondition>
+	  </Item>
+	  
+	  <Item key="SCENARIO_EMOTION_NERVOUS" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionBlackboardString">
+			<Name>EmotionalStateScenario</Name>
+			<Compare>Nervous</Compare>
+		  </pCondition>
+	  </Item>
+	  
+	  <Item key="SCENARIO_EMOTION_SAD" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionBlackboardString">
+			<Name>EmotionalStateScenario</Name>
+			<Compare>Sad</Compare>
+		  </pCondition>
+	  </Item>
+	  
+	  
+	<!-- BODY POSES-->	
+    <Item key="PELVIS_PINNED_UPPERBODY_LEGS_IN_CONTACT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionAnd">
+			<Conditions>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_arms_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>head_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+			</Conditions>
+		</pCondition>
+    </Item>
+	  
+    <Item key="HEAD_ARMS_LOWER_PINNED_SPINE_IN_CONTACT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionAnd">
+			<Conditions>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_arms_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>head_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+			</Conditions>
+		</pCondition>
+    </Item>
+	  
+	<Item key="LOWER_PINNED_ARMS_SPINE_IN_CONTACT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionAnd">
+			<Conditions>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_arms_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+			</Conditions>
+		</pCondition>
+    </Item>	  
+	  
+	<Item key="LARM_PELVIS_PINNED_RARM_SPINE_LEGS_IN_CONTACT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionAnd">
+			<Conditions>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_arms_in_contact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_legs_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+			</Conditions>
+		</pCondition>
+    </Item>
+	  
+	  
+	<Item key="LARM_LOWER_PINNED_RARM_SPINE_INCONTACT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionAnd">
+			<Conditions>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>right_arm_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				</Item>
+				<Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					<Ped>PrimaryEntity</Ped>
+					<BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				</Item>
+			</Conditions>
+		</pCondition>
+    </Item>
+	
+	<Item key="RARM_LOWER_PINNED_LARM_INCONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>right_arm_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>left_arm_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+
+	<Item key="LARM_LOWER_PINNED_RARM_INCONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>right_arm_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+	  
+	<Item key="PELVIS_PINNED_ARMS_LEGS_IN_CONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_arms_in_contact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>	  
+	  
+	<Item key="ARMS_LOWER_PINNED" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_arms_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+	  
+	<Item key="LOWER_PINNED_ARMS_INCONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_arms_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+	  
+	<Item key="LOWER_PINNED_SPINE_IN_CONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>spine_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>hips_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>both_legs_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+	  
+	<Item key="LARM_PINNED_RARM_IN_CONTACT" type="CUpperBodyIdleCondition">
+		  <pCondition type="CAIConditionAnd">
+			  <Conditions>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>right_arm_incontact</BodyAnimConstraintInfoStateSet>
+				  </Item>
+				  <Item type="CAIConditionBodyAnimConstraintInfoStateSet">
+					  <Ped>PrimaryEntity</Ped>
+					  <BodyAnimConstraintInfoStateSet>left_arm_pinned</BodyAnimConstraintInfoStateSet>
+				  </Item>
+			  </Conditions>
+		  </pCondition>
+	</Item>
+
+	<Item key="ARMS_PINNED" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionBodyAnimConstraintInfoStateSet">
+			<Ped>PrimaryEntity</Ped>
+			<BodyAnimConstraintInfoStateSet>both_arms_pinned</BodyAnimConstraintInfoStateSet>
+		</pCondition>
+	</Item>
+
+	<Item key="DEFAULT" type="CUpperBodyIdleCondition">
+		<pCondition type="CAIConditionTrue">
+			<Ped>PrimaryEntity</Ped>
+		</pCondition>
+	</Item>
+
+</Conditions>
+</CUpperBodyIdleConditionManager>

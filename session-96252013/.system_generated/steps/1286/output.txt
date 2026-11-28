@@ -1,0 +1,39 @@
+Created At: 2026-11-25T17:59:14-05:00
+Completed At: 2026-11-25T17:59:24-05:00
+Command exited with code 0.
+
+Command output:
+L570863: public static VmValue func_109DF2(VmValue arg0, VmValue arg1) // 0x109DF2
+L570874: v_109E01_2 = Virtual.type_2CCF60C524636BC1.Method_5(p0, as_i32(v_109DFD_1));
+L570879: [VmFunction(0x109E09)]
+L570880: public static VmValue func_109E09(VmValue arg0, VmValue arg1) // 0x109E09
+L570891: label_109E09: ;
+L572806: [VmFunction(0x10AA55)]
+L572807: public static void func_10AA55(VmValue arg0, VmValue arg1) // 0x10AA55
+L572863: label_10AA55: ;
+L572976: Virtual.type_37658EE3464E5234.Method_0(v_10AB3D_1, v_10AB39_0[0], 1);
+L572980: Virtual.type_37658EE3464E5234.Method_0(v_10AB55_3, v_10AB51_2[0], 1);
+L572984: Virtual.type_37658EE3464E5234.Method_0(v_10AB6D_5, v_10AB69_4[0], 1);
+L572988: Virtual.type_37658EE3464E5234.Method_0(v_10AB85_7, v_10AB81_6[0], 1);
+L572992: Virtual.type_37658EE3464E5234.Method_0(v_10AB9D_9, v_10AB99_8[0], 1);
+L572996: Virtual.type_37658EE3464E5234.Method_0(v_10ABB5_11, v_10ABB1_10[0], 1);
+L573000: Virtual.type_37658EE3464E5234.Method_0(v_10ABCD_13, v_10ABC9_12[0], 1);
+L573004: Virtual.type_37658EE3464E5234.Method_0(v_10ABE5_15, v_10ABE1_14[0], 1);
+L573008: Virtual.type_37658EE3464E5234.Method_0(v_10ABFD_17, v_10ABF9_16[0], 1);
+L573014: Virtual.type_37658EE3464E5234.Method_0(v_10AC17_1, v_10AC13_0[0], 1);
+L573018: v_10AC34_4 = Virtual.type_37658EE3464E5234.Method_1(v_10AC2F_3, v_10AC2B_2[0], 1);
+L573031: v_10AC4F_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC4A_1, v_10AC46_0[0], 1);
+L573044: Virtual.type_37658EE3464E5234.Method_0(v_10AC65_1, v_10AC61_0[0], 1);
+L573050: v_10AC82_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC7D_1, v_10AC79_0[0], 1);
+L573063: v_10AC9D_2 = Virtual.type_37658EE3464E5234.Method_1(v_10AC98_1, v_10AC94_0[0], 1);
+L573076: Virtual.type_37658EE3464E5234.Method_0(v_10ACB3_1, v_10ACAF_0[0], 1);
+L573082: Virtual.type_37658EE3464E5234.Method_0(v_10ACCB_1, v_10ACC7_0[0], 1);
+L573118: v_10AD26_2 = Virtual.type_37658EE3464E5234.Method_1(load_u64(v_10AD14_1, 0x18), local_1, load_u8(local_0, 0x10));
+L573130: v_10AD4D_2 = Virtual.type_37658EE3464E5234.Method_1(load_u64(v_10AD3B_1, 0x18), local_3, load_u8(local_2, 0x10));
+L966172: v_1C31D1_0 = Virtual.type_37658EE3464E5234.Method_2(load_u64(p0, 0x38), 2);
+L2180671: public static class type_2CCF60C524636BC1
+L2180673: public static VmValue Method_5(VmValue p0, VmValue p1) => Vm.Virtual("type_2CCF60C524636BC1", 5, 1, p0, p1)[0];
+L2180966: public static class type_37658EE3464E5234
+L2180968: public static void Method_0(VmValue p0, VmValue p1, VmValue p2) => Vm.Virtual("type_37658EE3464E5234", 0, 0, p0, p1, p2);
+L2180969: public static VmValue Method_1(VmValue p0, VmValue p1, VmValue p2) => Vm.Virtual("type_37658EE3464E5234", 1, 1, p0, p1, p2)[0];
+L2180970: public static VmValue Method_2(VmValue p0, VmValue p1) => Vm.Virtual("type_37658EE3464E5234", 2, 1, p0, p1)[0];

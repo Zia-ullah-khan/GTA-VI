@@ -1,0 +1,37 @@
+"""Print per-function mission reference summaries for one script from the decomp_mission_refs index."""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("index_json", type=Path)
+    parser.add_argument("script_name")
+    parser.add_argument("--names", type=int, default=14)
+    args = parser.parse_args()
+
+    index = json.loads(args.index_json.read_text(encoding="utf-8"))
+    functions = index.get(args.script_name)
+    if functions is None:
+        print(f"No references recorded for {args.script_name}", file=sys.stderr)
+        return 1
+
+    for function, entries in sorted(functions.items(), key=lambda item: item[1][0][0]):
+        ordered = []
+        for _, name in entries:
+            if name not in ordered:
+                ordered.append(name)
+
+        shown = ", ".join(ordered[:args.names])
+        suffix = " ..." if len(ordered) > args.names else ""
+        print(f"{function} lines {entries[0][0]}..{entries[-1][0]} hits={len(entries)} missions={len(ordered)}: "
+              f"{shown}{suffix}")
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

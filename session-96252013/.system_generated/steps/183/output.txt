@@ -1,0 +1,23 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\speedrun_primitives.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -41,13 +41,13 @@
+     
+     icon_str = ""
+     if icon_type == "phone":
+-        icon_str = "[☎ CALL] "
++        icon_str = "[CALL] "
+     elif icon_type == "text":
+-        icon_str = "[✉ MSG] "
++        icon_str = "[MSG] "
+     elif icon_type == "mailbox":
+-        icon_str = "[📭 MAIL] "
++        icon_str = "[MAILBOX] "
+     elif icon_type == "cash":
+-        icon_str = "[💰 CASH] "
++        icon_str = "[$ CASH] "
+         
+     full_text = icon_str + text
+     ax.text(x + w/2, y + h/2, full_text, ha="center", va="center", fontsize=7.2, fontweight="bold" if icon_type=="phone" else "normal", color="#09090b", zorder=4)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

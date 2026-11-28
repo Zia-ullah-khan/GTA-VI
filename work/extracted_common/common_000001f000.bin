@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Combat__GoalData__Store>
+  <RoleSettings>
+    <Default>
+      <StyleMod>None</StyleMod>
+    </Default>
+    <DataMap>
+      <Item key="Attack">
+        <StyleMod>CG_Attack</StyleMod>
+      </Item>
+      <Item key="Defend">
+        <StyleMod>CG_Defend</StyleMod>
+      </Item>
+      <Item key="HoldGround">
+        <StyleMod>CG_HoldGround</StyleMod>
+      </Item>
+      <Item key="AggressiveAttack">
+        <StyleMod>CG_AggressiveAttack</StyleMod>
+      </Item>
+      <Item key="HunkerDown">
+        <StyleMod>CG_HunkerDown</StyleMod>
+      </Item>
+    </DataMap>
+  </RoleSettings>
+  <PriorityCalculators>
+    <DataMap>
+      <Item key="CompoundChopShop" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundChopShop</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="121.000000" />
+            <Priority value="10.000000" />
+          </Item>
+          <Item>
+            <MaxDistSq value="225.000000" />
+            <Priority value="5.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+	  <Item key="CompoundDrugHouse" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundDrugHouse</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="121.000000" />
+            <Priority value="10.000000" />
+          </Item>
+          <Item>
+            <MaxDistSq value="225.000000" />
+            <Priority value="5.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+	  <Item key="CompoundFishingShacks" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundFishingShacks</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="400.000000" />
+            <Priority value="15.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+      <Item key="CompoundGoodsStore" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundGoodsStore</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="100.000000" />
+            <Priority value="11.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+      <Item key="CompoundStagingPoint" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundStagingPoint</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="400.000000" />
+            <Priority value="10.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+      <Item key="CompoundCarTheftRing" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundCarTheftRing</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="144.000000" />
+            <Priority value="10.000000" />
+          </Item>
+          <Item>
+            <MaxDistSq value="225.000000" />
+            <Priority value="5.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+      <Item key="FrontExoticAnimals" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>FrontExoticAnimals</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="121.000000" />
+            <Priority value="10.000000" />
+          </Item>
+          <Item>
+            <MaxDistSq value="225.000000" />
+            <Priority value="5.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+      <Item key="CompoundStashHouse" type="Combat__GoalData__EntityDistanceBasedPriorityCalculator">
+        <Name>CompoundStashHouse</Name>
+        <IgnoreDefaultPriority value="false" />
+        <DistancePriorities>
+          <Item>
+            <MaxDistSq value="64.000000" />
+            <Priority value="10.000000" />
+          </Item>
+          <Item>
+            <MaxDistSq value="81.000000" />
+            <Priority value="5.000000" />
+          </Item>
+        </DistancePriorities>
+      </Item>
+    </DataMap>
+  </PriorityCalculators>
+</Combat__GoalData__Store>

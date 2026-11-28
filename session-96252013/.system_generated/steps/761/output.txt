@@ -1,0 +1,14 @@
+
+The command exited with code 1.
+Output:
+Traceback (most recent call last):
+  File "C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\build_outputs.py", line 267, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\build_outputs.py", line 251, in main
+    attach_script_references(missions, script_evidence)
+  File "C:\Users\<user>\Downloads\GTA6.Xbox.v1.0.2.1-CYBERLEEK\work\build_outputs.py", line 132, in attach_script_references
+    references = script_evidence["scripts_referencing_mission_id"]
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'scripts_referencing_mission_id'
+

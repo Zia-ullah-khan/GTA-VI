@@ -1,0 +1,98 @@
+Created At: 2026-11-25T17:55:38-05:00
+Completed At: 2026-11-25T17:55:43-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x14215fdf0 ===
+  0x14215fdf0: cli      
+  0x14215fdf1: mov      r8, r15
+  0x14215fdf4: call     0x14215fb74
+  0x14215fdf9: test     eax, eax
+  0x14215fdfb: jne      0x14215ff00
+  0x14215fe01: vmovups  xmm0, xmmword ptr [r15]
+  0x14215fe06: dec      ebx
+  0x14215fe08: add      r14, 0x10
+  0x14215fe0c: xor      ebp, ebp
+  0x14215fe0e: vmovups  xmmword ptr [rdi], xmm0
+  0x14215fe12: add      rdi, 0x10
+  0x14215fe16: test     ebx, ebx
+  0x14215fe18: jne      0x14215fd25
+  0x14215fe1e: jmp      0x14215ff09
+  0x14215fe23: mov      eax, dword ptr [rsi + 0xf0]
+  0x14215fe29: lea      r8, [rsi + 0x100]
+  0x14215fe30: mov      rcx, r14
+  0x14215fe33: mov      rdx, rdi
+  0x14215fe36: mov      r9d, ebx
+  0x14215fe39: mov      qword ptr [rsp + 0x20], rsi
+  0x14215fe3e: mov      dword ptr [rsp + 0x28], eax
+  0x14215fe42: call     0x145648da0
+  0x14215fe47: mov      eax, ebx
+  0x14215fe49: vmovups  xmm0, xmmword ptr [rdi + rax - 0x10]
+  0x14215fe4f: vmovups  xmmword ptr [rsi + 0x100], xmm0
+  0x14215fe57: jmp      0x14215ff09
+  0x14215fe5c: mov      rdx, qword ptr [rsi + 0x148]
+  0x14215fe63: mov      ecx, r15d
+  0x14215fe66: mov      r8d, 0x26
+  0x14215fe6c: call     0x141f67860
+=== 0x145647af0 ===
+  0x145647af0: push     rsi
+  0x145647af1: adc      byte ptr [rsi + rbp + 0xf], dh
+  0x145647af5: adc      byte ptr [rbp + 0x68], al
+  0x145647af8: movups   xmmword ptr [rdx], xmm0
+  0x145647afb: movups   xmm1, xmmword ptr [rbp + 0x78]
+  0x145647aff: movups   xmmword ptr [rdx + 0x10], xmm1
+  0x145647b03: movups   xmm0, xmmword ptr [rbp + 0x88]
+  0x145647b0a: movups   xmmword ptr [rdx + 0x20], xmm0
+  0x145647b0e: movsd    xmm1, qword ptr [rbp + 0x98]
+  0x145647b16: movsd    qword ptr [rdx + 0x30], xmm1
+  0x145647b1b: add      qword ptr [r14 + 8], 0x38
+  0x145647b20: jmp      0x145647b2f
+  0x145647b22: lea      r8, [rbp + 0x68]
+  0x145647b26: mov      rcx, r14
+  0x145647b29: call     0x145648ab0
+  0x145647b2e: nop      
+  0x145647b2f: cmp      qword ptr [rbp + 0xb8], 0x10
+  0x145647b37: jb       0x145647b47
+  0x145647b39: xor      edx, edx
+  0x145647b3b: mov      rcx, qword ptr [rbp + 0xa0]
+  0x145647b42: call     0x145613720
+  0x145647b47: add      r15, 0x10
+  0x145647b4b: mov      ecx, dword ptr [r13]
+  0x145647b4f: shl      rcx, 4
+  0x145647b53: mov      rax, qword ptr [r13 + 8]
+  0x145647b57: movabs   rdx, 0xffffffffffff
+  0x145647b61: and      rax, rdx
+  0x145647b64: add      rcx, rax
+  0x145647b67: cmp      r15, rcx
+  0x145647b6a: jne      0x145647ad0
+=== 0x1456480d0 ===
+  0x1456480d0: and      al, 0x68
+  0x1456480d3: call     0x145613720
+  0x1456480d8: test     esi, esi
+  0x1456480da: jns      0x145648118
+  0x1456480dc: mov      qword ptr [rsp + 0x68], r15
+  0x1456480e1: mov      qword ptr [rsp + 0x78], r15
+  0x1456480e6: mov      qword ptr [rbp - 0x80], r12
+  0x1456480ea: mov      dword ptr [rbx], esi
+  0x1456480ec: xorps    xmm0, xmm0
+  0x1456480ef: xor      eax, eax
+  0x1456480f1: movups   xmmword ptr [rbx + 8], xmm0
+  0x1456480f5: movups   xmmword ptr [rbx + 0x18], xmm0
+  0x1456480f9: movups   xmmword ptr [rbx + 0x28], xmm0
+  0x1456480fd: mov      qword ptr [rbx + 0x38], rax
+  0x145648101: movups   xmm0, xmmword ptr [rsp + 0x68]
+  0x145648106: movups   xmmword ptr [rbx + 0x40], xmm0
+  0x14564810a: movups   xmm1, xmmword ptr [rsp + 0x78]
+  0x14564810f: movups   xmmword ptr [rbx + 0x50], xmm1
+  0x145648113: jmp      0x1456482b7
+  0x145648118: lea      rcx, [rbp - 0x38]
+  0x14564811c: call     0x145648790
+  0x145648121: mov      dword ptr [rsp + 0x50], eax
+  0x145648125: mov      qword ptr [rbp + 8], r15
+  0x145648129: mov      qword ptr [rbp + 0x20], r12
+  0x14564812d: mov      qword ptr [rbp + 0x18], r15
+  0x145648131: mov      byte ptr [rbp + 8], 0
+  0x145648135: cmp      word ptr [rdi + 0xe], 3
+  0x14564813a: jne      0x145648234
+  0x145648140: lea      rdx, [rip + 0x1145329]
+  0x145648147: mov      rcx, rdi

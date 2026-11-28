@@ -1,0 +1,79 @@
+Created At: 2026-11-25T18:09:33-05:00
+Completed At: 2026-11-25T18:09:51-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x141acdb00 ===
+  0x141acdb00: push rsi
+  0x141acdb01: sub rsp, 0x20
+  0x141acdb05: mov rsi, rcx
+  0x141acdb08: mov ecx, 8
+  0x141acdb0d: mov edx, 8
+  0x141acdb12: call 0x144d9c160
+  0x141acdb17: test rax, rax
+  0x141acdb1a: je 0x141acdb26
+  0x141acdb1c: lea rcx, [rip + 0x4c7d63d]
+  0x141acdb23: mov qword ptr [rax], rcx
+  0x141acdb26: mov qword ptr [rsi], rax
+  0x141acdb29: add rsp, 0x20
+  0x141acdb2d: pop rsi
+  0x141acdb2e: ret 
+=== 0x14582c4b0 ===
+  0x14582c4b0: push rsi
+  0x14582c4b1: sub rsp, 0x20
+  0x14582c4b5: mov rsi, rcx
+  0x14582c4b8: mov ecx, 8
+  0x14582c4bd: mov edx, 8
+  0x14582c4c2: call 0x144d9c160
+  0x14582c4c7: test rax, rax
+  0x14582c4ca: je 0x14582c4d6
+  0x14582c4cc: lea rcx, [rip + 0xf1ebfd]
+  0x14582c4d3: mov qword ptr [rax], rcx
+  0x14582c4d6: mov qword ptr [rsi], rax
+  0x14582c4d9: add rsp, 0x20
+  0x14582c4dd: pop rsi
+  0x14582c4de: ret 
+=== 0x14582c4e0 ===
+  0x14582c4e0: push rsi
+  0x14582c4e1: push rdi
+  0x14582c4e2: sub rsp, 0x28
+  0x14582c4e6: vxorps xmm0, xmm0, xmm0
+  0x14582c4ea: mov byte ptr [rcx + 8], dl
+  0x14582c4ed: mov rax, rcx
+  0x14582c4f0: vmovups ymmword ptr [rcx + 0x10], ymm0
+  0x14582c4f5: vmovups ymmword ptr [rcx + 0x20], ymm0
+  0x14582c4fa: lea rcx, [rip + 0xed160f]
+  0x14582c501: mov qword ptr [rax], rcx
+  0x14582c504: xor ecx, ecx
+  0x14582c506: mov qword ptr [rax + 0x40], rcx
+  0x14582c50a: mov rdx, qword ptr [r8]
+  0x14582c50d: mov qword ptr [r8], rcx
+  0x14582c510: mov qword ptr [rax + 0x48], rdx
+  0x14582c514: mov rdx, qword ptr [r9]
+  0x14582c517: mov qword ptr [r9], rcx
+  0x14582c51a: mov qword ptr [rax + 0x50], rdx
+  0x14582c51e: mov qword ptr [rax + 0x58], rcx
+  0x14582c522: mov rcx, qword ptr [r8]
+  0x14582c525: test rcx, rcx
+  0x14582c528: jne 0x14582c53c
+  0x14582c52a: mov rcx, qword ptr [r9]
+  0x14582c52d: test rcx, rcx
+  0x14582c530: jne 0x14582c558
+  0x14582c532: add rsp, 0x28
+  0x14582c536: pop rdi
+  0x14582c537: pop rsi
+  0x14582c538: vzeroupper 
+  0x14582c53b: ret 
+=== 0x144c11690 ===
+  0x144c11690: test edx, edx
+  0x144c11692: je 0x144c1169f
+  0x144c11694: cmp edx, 1
+  0x144c11697: jne 0x144c116af
+  0x144c11699: mov rax, qword ptr [rcx + 0x50]
+  0x144c1169d: jmp 0x144c116a3
+  0x144c1169f: mov rax, qword ptr [rcx + 0x48]
+  0x144c116a3: test rax, rax
+  0x144c116a6: je 0x144c116af
+  0x144c116a8: mov qword ptr [rcx + 0x58], rax
+  0x144c116ac: mov al, 1
+  0x144c116ae: ret 

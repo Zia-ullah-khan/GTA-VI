@@ -1,0 +1,83 @@
+Created At: 2026-11-25T17:50:44-05:00
+Completed At: 2026-11-25T17:50:49-05:00
+Command exited with code 0.
+
+Command output:
+=== Native 0xD0D3FDB70A5FEE95 RVA=0x3ccf7c0 Raw=0x3ccebc0 ===
+  0x143ccf7c0: push     rsi
+  0x143ccf7c1: push     rdi
+  0x143ccf7c2: sub      rsp, 0x28
+  0x143ccf7c6: cmp      dword ptr [rcx + 0x10], 0
+  0x143ccf7ca: mov      rsi, rcx
+  0x143ccf7cd: js       0x143ccf800
+  0x143ccf7cf: lea      rdi, [rip + 0x6e04d0a]
+  0x143ccf7d6: mov      rcx, rdi
+  0x143ccf7d9: call     0x140004b40
+  0x143ccf7de: mov      rax, qword ptr [rsi]
+  0x143ccf7e1: mov      ecx, dword ptr [rax]
+  0x143ccf7e3: call     0x14208de50
+  0x143ccf7e8: mov      rcx, qword ptr [rsi + 8]
+  0x143ccf7ec: movzx    eax, al
+  0x143ccf7ef: mov      qword ptr [rcx], rax
+  0x143ccf7f2: mov      rcx, rdi
+  0x143ccf7f5: add      rsp, 0x28
+  0x143ccf7f9: pop      rdi
+  0x143ccf7fa: pop      rsi
+  0x143ccf7fb: jmp      0x144d9dab0
+  0x143ccf800: mov      rax, qword ptr [rsi]
+  0x143ccf803: movabs   rcx, 0xd0d3fdb70a5fee95
+  0x143ccf80d: mov      qword ptr [rax], rcx
+  0x143ccf810: jmp      0x143ccf7cf
+  0x143ccf812: int3     
+=== Native 0x1F246A04BDDA99AE RVA=0x3cd4ac0 Raw=0x3cd3ec0 ===
+  0x143cd4ac0: push     rsi
+  0x143cd4ac1: push     rdi
+  0x143cd4ac2: sub      rsp, 0x28
+  0x143cd4ac6: cmp      dword ptr [rcx + 0x10], 0
+  0x143cd4aca: mov      rsi, rcx
+  0x143cd4acd: js       0x143cd4b03
+  0x143cd4acf: lea      rdi, [rip + 0x6dffa0a]
+  0x143cd4ad6: mov      rcx, rdi
+  0x143cd4ad9: call     0x140004b40
+  0x143cd4ade: mov      rax, qword ptr [rsi]
+  0x143cd4ae1: mov      ecx, dword ptr [rax]
+  0x143cd4ae3: mov      edx, dword ptr [rax + 8]
+  0x143cd4ae6: call     0x143ce1000
+  0x143cd4aeb: mov      rcx, qword ptr [rsi + 8]
+  0x143cd4aef: movzx    eax, al
+  0x143cd4af2: mov      qword ptr [rcx], rax
+  0x143cd4af5: mov      rcx, rdi
+  0x143cd4af8: add      rsp, 0x28
+  0x143cd4afc: pop      rdi
+  0x143cd4afd: pop      rsi
+  0x143cd4afe: jmp      0x144d9dab0
+  0x143cd4b03: mov      rax, qword ptr [rsi]
+  0x143cd4b06: movabs   rcx, 0x1f246a04bdda99ae
+  0x143cd4b10: mov      qword ptr [rax], rcx
+  0x143cd4b13: jmp      0x143cd4acf
+=== Native 0x09E3FC0CC35714E5 RVA=0x3c18ac0 Raw=0x3c17ec0 ===
+  0x143c18ac0: push     rsi
+  0x143c18ac1: push     rdi
+  0x143c18ac2: sub      rsp, 0x28
+  0x143c18ac6: cmp      dword ptr [rcx + 0x10], 0
+  0x143c18aca: mov      rsi, rcx
+  0x143c18acd: js       0x143c18af9
+  0x143c18acf: lea      rdi, [rip + 0x6ebba0a]
+  0x143c18ad6: mov      rcx, rdi
+  0x143c18ad9: call     0x140004b40
+  0x143c18ade: mov      rax, qword ptr [rsi]
+  0x143c18ae1: mov      ecx, dword ptr [rax]
+  0x143c18ae3: mov      edx, dword ptr [rax + 8]
+  0x143c18ae6: call     0x143c20d70
+  0x143c18aeb: mov      rcx, rdi
+  0x143c18aee: add      rsp, 0x28
+  0x143c18af2: pop      rdi
+  0x143c18af3: pop      rsi
+  0x143c18af4: jmp      0x144d9dab0
+  0x143c18af9: mov      rax, qword ptr [rsi]
+  0x143c18afc: movabs   rcx, 0x9e3fc0cc35714e5
+  0x143c18b06: mov      qword ptr [rax], rcx
+  0x143c18b09: jmp      0x143c18acf
+  0x143c18b0b: int3     
+  0x143c18b0c: int3     
+  0x143c18b0d: int3     

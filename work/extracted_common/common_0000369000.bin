@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="AIWE_Terrain_Tess_Low"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_dist_multiplier>0.400000 0.000000</terrain_tessellation_dist_multiplier>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_Tess_Medium"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_dist_multiplier>0.600000 0.000000</terrain_tessellation_dist_multiplier>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_Tess_High"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_dist_multiplier>0.800000 0.000000</terrain_tessellation_dist_multiplier>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_Tess_Full"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_dist_multiplier>1.000000 0.000000</terrain_tessellation_dist_multiplier>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_HD_Dist_0.5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_hd>0.500000 0.000000</lod_mult_terrain_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_HD_Dist_0.3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_hd>0.300000 0.000000</lod_mult_terrain_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_HD_Dist_0.1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_hd>0.100000 0.000000</lod_mult_terrain_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_Tess_Quality_Med"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_max_factor>8.000000 0.000000</terrain_tessellation_max_factor>
+    <terrain_tessellation_error_scale>2.000000 0.000000</terrain_tessellation_error_scale>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_Tess_Shallow_Water"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <terrain_tessellation_underwater_threshold_offset>-0.680000 0.000000</terrain_tessellation_underwater_threshold_offset>
+    <terrain_tessellation_sea_height_bias_offset>0.100000 0.000000</terrain_tessellation_sea_height_bias_offset>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_HD_Dist_0.4"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_hd>0.400000 0.000000</lod_mult_terrain_hd>
+  </modifier>
+</timecycle_modifier_data>

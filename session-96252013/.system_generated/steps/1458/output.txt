@@ -1,0 +1,76 @@
+Created At: 2026-11-25T18:08:29-05:00
+Completed At: 2026-11-25T18:08:31-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x140613740 ===
+  0x140613740: test rcx, rcx
+  0x140613743: je 0x140613754
+  0x140613745: mov rax, qword ptr [rcx]
+  0x140613748: xor edx, edx
+  0x14061374a: xor r8d, r8d
+  0x14061374d: mov rax, qword ptr [rax + 0x20]
+  0x140613751: jmp rax
+  0x140613754: xor eax, eax
+  0x140613756: ret 
+=== vtable 0x1466fdb70 ===
+  [0 +0x0] -> 0x140c10850
+      0x140c10850: push rsi
+      0x140c10851: sub rsp, 0x20
+      0x140c10855: mov rsi, rcx
+      0x140c10858: test edx, edx
+      0x140c1085a: je 0x140c10869
+      0x140c1085c: mov edx, 0x40
+      0x140c10861: mov rcx, rsi
+      0x140c10864: call 0x144d9c130
+      0x140c10869: mov rax, rsi
+      0x140c1086c: add rsp, 0x20
+      0x140c10870: pop rsi
+      0x140c10871: ret 
+  [1 +0x8] -> 0x140004870
+      0x140004870: mov al, 1
+      0x140004872: ret 
+  [2 +0x10] -> 0x140004810
+      0x140004810: xor eax, eax
+      0x140004812: ret 
+  [3 +0x18] -> 0x140004870
+      0x140004870: mov al, 1
+      0x140004872: ret 
+  [4 +0x20] -> 0x140004870
+      0x140004870: mov al, 1
+      0x140004872: ret 
+  [5 +0x28] -> 0x140004870
+      0x140004870: mov al, 1
+      0x140004872: ret 
+=== 0x145e90390 (factory case) ===
+  0x145e90390: push rsi
+  0x145e90391: push rdi
+  0x145e90392: sub rsp, 0x28
+  0x145e90396: mov rsi, rcx
+  0x145e90399: cmp dl, 2
+  0x145e9039c: jne 0x145e903fe
+  0x145e9039e: mov ecx, 0x1a0
+  0x145e903a3: call 0x144f97130
+  0x145e903a8: test rax, rax
+  0x145e903ab: je 0x145e9048b
+  0x145e903b1: mov rdi, rax
+  0x145e903b4: vxorps xmm0, xmm0, xmm0
+  0x145e903b8: mov byte ptr [rax + 8], 2
+  0x145e903bc: xor edx, edx
+  0x145e903be: mov r8d, 0xfffffffe
+  0x145e903c4: mov rcx, rdi
+  0x145e903c7: vmovups ymmword ptr [rax + 0x10], ymm0
+  0x145e903cc: vmovups ymmword ptr [rax + 0x20], ymm0
+  0x145e903d1: lea rax, [rip + 0x86d858]
+  0x145e903d8: add rcx, 0x40
+  0x145e903dc: mov qword ptr [rdi], rax
+  0x145e903df: vzeroupper 
+  0x145e903e2: call 0x141b43cb5
+  0x145e903e7: lea rax, [rip + 0x86d802]
+  0x145e903ee: mov qword ptr [rdi], rax
+  0x145e903f1: mov qword ptr [rsi], rdi
+  0x145e903f4: add rsp, 0x28
+  0x145e903f8: pop rdi
+  0x145e903f9: pop rsi
+  0x145e903fa: vzeroupper 
+  0x145e903fd: ret 

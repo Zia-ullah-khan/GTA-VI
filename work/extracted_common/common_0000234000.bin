@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CStandardPosesManager>
+  <LabelGroups>
+    <Item key="Main">
+	  <FilterFlag>SPLGFF_Main</FilterFlag>
+	  <Labels>
+	    <Item>Crouch</Item>
+		<Item>SitOnGround</Item>
+		<Item>SitOnChair</Item>
+		<Item>Standing</Item>
+		<Item>LyingFront</Item>
+		<Item>LyingBack</Item>
+		<Item>LyingSideL</Item>
+		<Item>LyingSideR</Item>
+		<Item>LeanForward</Item>
+	  </Labels>
+	</Item>
+	<Item key="Arms">
+	  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	  <Labels>
+		<Item>DownL</Item>
+		<Item>DownR</Item>
+		<Item>UpL</Item>
+		<Item>UpR</Item>
+		<Item>ForwardR</Item>
+		<Item>ForwardL</Item>
+		<Item>SideR</Item>
+		<Item>SideL</Item>
+	  </Labels>
+	</Item>
+	<Item key="Legs">
+	  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	  <Labels>
+	    <Item>Neutral</Item>
+		<Item>Crossed</Item>
+		<Item>LFootFWD</Item>
+		<Item>RFootFWD</Item>
+		<Item>Kneel</Item>
+	  </Labels>
+	</Item>
+  </LabelGroups>
+  <PoseAssignments>
+    <Item key="Pose_Crouch_FeetTogether">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Crouch</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Crouch_LFootFWD">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Crouch</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>LFootFWD</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Crouch_RFootFWD">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Crouch</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>RFootFWD</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="pose_crouched_normal_idle">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Crouch</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>LFootFWD</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="pose_getup_from_ass">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnGround</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>ForwardL</Item>
+			<Item>ForwardR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Kneel_BKneeDown">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnGround</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Kneel</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="pose_lay_on_ground_back">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnGround</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="pose_lay_on_ground_front">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingFront</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_LSide">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingSideL</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+		    <Item>UpL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnBack">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingBack</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnBack_ArmsDown">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingBack</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnBack_ArmsUp">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingBack</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>UpR</Item>
+			<Item>UpL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnFront">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingFront</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnFront_ArmsDown">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingFront</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_OnFront_ArmsUp">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingFront</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>UpR</Item>
+			<Item>UpL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Lying_Ground_RSide">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingSideR</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>UpR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_On_Ground_Pushup">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>LyingFront</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownL</Item>
+			<Item>DownR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Sit_Chair_AtTable_FeetTogether_HandsOffTable">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnChair</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Sit_Chair_AtTable_FeetTogether_HandsOnTable">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnChair</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownL</Item>
+			<Item>DownR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Sit_Chair_AtTable_FeetTogether_HandsOnTable_WithPropRH">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnChair</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownL</Item>
+			<Item>DownR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Sit_Chair_FeetTogether">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnChair</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+	<Item key="Pose_Sit_Chair_FeetTogether_MoverAdjusted">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnChair</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>	
+    <Item key="Pose_Sit_Ground_FeetTogether">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnGround</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>ForwardL</Item>
+			<Item>ForwardR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="pose_sit_on_ground_crossed">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>SitOnGround</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>ForwardL</Item>
+			<Item>ForwardR</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Crossed</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Squat_FeetTogether_ArmsDown">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Crouch</Item>
+		    <Item>LeanForward</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>ForwardR</Item>
+			<Item>ForwardL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Stand_FeetTogether_ArmsNeutral">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Standing</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>DownR</Item>
+			<Item>DownL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+    <Item key="Pose_Stand_FeetTogether_ArmsUp">
+	  <LabelGroups>
+        <Item key="Main">
+		  <FilterFlag>SPLGFF_Main</FilterFlag>
+	      <Labels>
+	        <Item>Standing</Item>
+	      </Labels>
+	    </Item>
+	    <Item key="Arms">
+		  <FilterFlag>SPLGFF_Arms</FilterFlag>
+	      <Labels>
+	        <Item>UpR</Item>
+			<Item>UpL</Item>
+	      </Labels>
+	    </Item>
+		<Item key="Legs">
+		  <FilterFlag>SPLGFF_Legs</FilterFlag>
+	      <Labels>
+	        <Item>Neutral</Item>
+	      </Labels>
+	    </Item>
+      </LabelGroups>
+	</Item>
+  </PoseAssignments>
+</CStandardPosesManager>

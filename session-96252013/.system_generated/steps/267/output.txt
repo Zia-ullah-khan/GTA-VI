@@ -1,0 +1,31 @@
+
+The command exited with code 1.
+Output:
+Generating GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png...
+Traceback (most recent call last):
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py", line 491, in <module>
+    render_speedrun_chapter_1()
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py", line 336, in render_speedrun_chapter_1
+    plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\pyplot.py", line 1346, in savefig
+    res = fig.savefig(fname, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\figure.py", line 3515, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backend_bases.py", line 2289, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backend_bases.py", line 2146, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backends\backend_agg.py", line 537, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backends\backend_agg.py", line 486, in _print_pil
+    mpl.image.imsave(
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\image.py", line 1722, in imsave
+    image.save(fname, **pil_kwargs)
+  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 2708, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png'
+

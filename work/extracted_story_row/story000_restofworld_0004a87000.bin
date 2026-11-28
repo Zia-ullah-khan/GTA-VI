@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CDataFileMgr__ContentChangeSetDef>
+  <!--Auto-Generated. Do not manually edit! Please contact Tools for assistance.-->
+  <id>story000_restofworld_vfx</id>
+  <registrationGroup />
+  <fileList>
+    <Item>
+      <filename>$(target)/data/effects/ptfx/drawables.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_DEFAULT</contents>
+    </Item>
+    <Item>
+      <filename>$(target)/data/effects/ptfx/fxlists.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_DEFAULT</contents>
+    </Item>
+    <Item>
+      <filename>$(target)/data/effects/ptfxassetinfo</filename>
+      <fileType>PTFXASSETINFO_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_DEFAULT</contents>
+    </Item>
+  </fileList>
+  <flags>Default</flags>
+  <changesetIncludeFlags />
+  <mapAddAtPhase value="0" />
+  <mapRemoveAtPhase value="0" />
+  <executionConditions>
+    <activeChangesetConditions />
+    <genericConditions />
+  </executionConditions>
+</CDataFileMgr__ContentChangeSetDef>

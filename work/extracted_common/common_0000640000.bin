@@ -1,0 +1,3198 @@
+clouds.stratus.noise_weights.medium 0.3# Visual Configuration Table
+# Platform tunnings: See platform specific file
+
+# stores intial values for configuration of in game elements
+#Name	Value
+#Values to use with height based reflection map
+heightReflect.width	100.00
+heightReflect.height	220.00
+heightReflect.specularoffset	0.15
+heightReflect.waterspeed	1.00
+
+
+#Values for rain GPU particle effect
+rain.NumberParticles.ps3	16384
+rain.NumberParticles	16384
+rain.UseLitShader	1.00
+# rain.gravity	0.00	0.00	-0.98
+rain.gravity.x	0.00
+rain.gravity.y	0.00
+rain.gravity.z	-0.98
+rain.fadeInScale	2.00
+rain.diffuse	1.00
+rain.ambient	0.40
+rain.wrapScale	0.60
+rain.wrapBias	0.40
+# rain.defaultlight	1.00	1.00	1.00
+rain.defaultlight.red	1.00
+rain.defaultlight.green	1.00
+rain.defaultlight.blue	1.00
+rain.defaultlight.alpha	16.00
+weatherparticle.enablePreTransmission 0.0
+
+//Height map optimizations
+heightMap.lodDowngradeDistance 2.5
+heightMap.vehicleRemovalDistanceHighSettings 30.0
+heightMap.vehicleRemovalDistanceLowSettings 10.0
+
+#General weather configuration
+weather.CycleDuration 120
+
+weather.nicenessThreshold 1.0
+
+weather.dryingSpeedAtMinTemp 1.0
+weather.dryingSpeedMinTemp 10.0
+weather.dryingSpeedAtMaxTemp 1.0
+weather.dryingSpeedMaxTemp 50.0
+
+weather.dryingSpeedAtMinHumidity 1.0
+weather.dryingSpeedMinHumidity 10.0
+weather.dryingSpeedAtMaxHumidity 1.0
+weather.dryingSpeedMaxHumidity 50.0
+
+weather.windInterpChangeChance 0.3
+weather.windInterpChangeStep 0.01
+
+aerowake.downwash.radiusgrowth 10.0
+aerowake.downwash.volumemovedmin 5.0
+aerowake.downwash.volumemovedmax 6500.0
+aerowake.downwash.minspeedforvolume 25.0
+aerowake.downwash.maxspeedforvolume 100.0
+aerowake.downwash.maxintensityfadetime 50.0
+
+#########################
+# Planetary Atmospheric Model
+#########################
+
+#Config for static values for skyhat
+sky.latitude.YPosMin	-10000.0
+sky.latitude.YPosMax	10000.0
+sky.latitude.rangeMin	24.0
+sky.latitude.rangeMax	27.6
+
+sky.longitude.XPosMin	-11000.0
+sky.longitude.XPosMax	4000.0
+sky.longitude.rangeMin	-81.8
+sky.longitude.rangeMax	-79.6
+
+#This is in days of the year
+sky.daylightsavingstime.start	79
+sky.daylightsavingstime.end		298
+
+#The range for the high level values
+sky.tcMinLongitude -9728.0
+sky.tcMaxLongituude 11264.0
+sky.tcMaxHeight 5000.0
+sky.tcMinHeight -500.0
+
+#Config for night sky stars
+stars.constellations.size				1.0
+stars.constellations.intensity			0.01
+stars.constellations.intensityGalaxy 	0.05
+
+stars.cloud.color.red 		1.0
+stars.cloud.color.green 	0.5
+stars.cloud.color.blue 		0.0
+stars.cloud.intensity 		0.01
+stars.cloud.intensityGalaxy 0.02
+stars.cloud.axisBlend 		4.0
+
+stars.dense.color.red 		0.549
+stars.dense.color.green 	0.627
+stars.dense.color.blue 		1.0
+stars.dense.intensity 		1.0
+stars.dense.intensityGalaxy 3.0
+stars.dense.tiling 			4.0
+stars.dense.axisBlend 		4.0
+
+stars.sparse.color.red 			0.709
+stars.sparse.color.green 		0.627
+stars.sparse.color.blue 		1.00
+stars.sparse.intensity 			1.0
+stars.sparse.intensityGalaxy 	30.0
+stars.sparse.tiling 			4.0
+stars.sparse.axisBlend 			0.5
+
+stars.frequency 			2.0
+stars.noiseTiling 			4.0
+stars.heightBlend 			3000.0
+stars.blinkHeightBlend 		24000.0
+
+stars.baseAmbient.red			0.0
+stars.baseAmbient.green			0.0
+stars.baseAmbient.blue			0.0
+stars.baseAmbientGalaxy.red		0.0
+stars.baseAmbientGalaxy.green 	0.0
+stars.baseAmbientGalaxy.blue	0.0
+
+stars.galaxyAxis.x 			0.000
+stars.galaxyAxis.y 			1.000
+stars.galaxyAxis.z 			0.000
+stars.galaxyAxisAngle 		2.048
+stars.northAxis.x 			0.000
+stars.northAxis.y 			0.888
+stars.northAxis.z 			0.460
+stars.northAxisAngle 		2.048
+stars.rotationRate 			0.15
+
+stars.blinkGain.mult 		8.0
+stars.blinkGain.bias 		0.5
+
+stars.constellationStarPower	1.5
+
+#config values for vehicle settings
+car.headlights.angle	-0.7
+car.headlights.split	0.0
+car.headlights.global.HeadlightIntensityMult	5.0
+car.headlights.global.HeadlightDistMult	1.0
+car.headlights.global.HeadlightShadowFadeDist	75.0
+car.headlights.global.HeadlightShadowBlur		0.0
+car.headlights.global.ConeInnerAngleMod	1.0
+car.headlights.global.ConeOuterAngleMod	1.0
+car.headlights.global.OnlyOneLightMod	0.8
+car.headlights.global.Fake2LightsAngleMod	0.93
+car.headlights.global.Fake2LightsDisplacementMod	0.17
+car.headlights.submarine.Fake2LightsAngleMod 0.830
+car.headlights.submarine.Fake2LightsDisplacementMod	0.0
+car.headlights.fullbeam.IntensityMult	2.0
+car.headlights.fullbeam.DistMult	1.3
+car.headlights.fullbeam.CoronaIntensityMult	2.0
+car.headlights.fullbeam.CoronaSizeMult	2.0
+car.headlights.aim.fullbeam.mod	0.0
+car.headlights.aim.dippedbeam.mod	-0.2
+car.headlights.aim.fullbeam.angle	0.0
+car.headlights.aim.dipeedbeam.angle	0.0
+car.headlights.player.intensitymult	1.2
+car.headlights.player.distmult	5
+car.headlights.player.exponentmult	3.0
+
+# car headlight volume lights data
+car.headlights.volume.intensityscale	0.005
+car.headlights.volume.sizescale		1.0
+car.headlights.volume.outerintensity	0.0
+car.headlights.volume.outerexponent	50.0
+# car.headlights.volume.outerVolumeColor
+car.headlights.volume.outerVolumeColor.red	0.00
+car.headlights.volume.outerVolumeColor.green	0.00
+car.headlights.volume.outerVolumeColor.blue	0.00
+
+car.coronas.MainFadeRatio	0.25
+car.coronas.BeginStart	50.0
+car.coronas.BeginEnd	300.0
+car.coronas.CutoffStart	290.0
+car.coronas.CutoffEnd	300.0
+car.coronas.underwaterFade		0.4
+
+# draft vehicle settings
+draftvehicle.light.glassdamagerange 0.5
+
+
+# Lod distances for vehicles
+car.lod.distance.high	80.00
+car.lod.distance.low	160.00
+
+# security lights
+security.light.deactivate.short	10.0
+security.light.deactivate.medium	30.0
+security.light.deactivate.long	50.0
+
+#Config values for traffic lights
+# trafficLight.red.color	1.00	0.20	0.05
+trafficLight.red.color.red	1.00
+trafficLight.red.color.green	0.003
+trafficLight.red.color.blue	0.0001
+# trafficLight.amber.color	1.00	0.30	0.05
+trafficLight.amber.color.red	1.00
+trafficLight.amber.color.green	0.30
+trafficLight.amber.color.blue	0.001
+# trafficLight.green.color	0.10	1.00	0.50
+trafficLight.green.color.red	0.01
+trafficLight.green.color.green	1.00
+trafficLight.green.color.blue	0.135
+
+trafficLight.near.na.color.red		1.00
+trafficLight.near.na.color.green	1.00
+trafficLight.near.na.color.blue		1.00
+trafficLight.near.intensity		1.75
+trafficLight.near.radius		1.5
+trafficlight.near.falloffExp 		4.0
+trafficLight.near.innerConeAngle	0.10
+trafficLight.near.outerConeAngle	10.00
+trafficLight.near.coronaHDR		10.0
+trafficLight.near.coronaSize		1.5
+trafficLight.nearFadeStart	30.0
+trafficLight.nearFadeEnd	35.0
+
+#Config values for Grass
+grass.OverrideWindNormalUpBlend		0.0
+grass.WindNormalUpBlendWithUm		1.0
+grass.WindNormalUpBlendMult			0.5
+grass.WindNormalUpBlendMinSpeed		10.0
+grass.WindNormalUpBlendMaxSpeed		25.0
+grass.WindNormalUpUmAngleThreshold  60.0
+
+#Config values for Tree Imposters
+imposter.color.blendRange	54.00
+imposter.color.blendBias	128.00
+imposter.color.size1	128.00
+imposter.color.amt1	12.00
+imposter.color.size2	64.00
+imposter.color.amt2	12.00
+# imposter.backgroundColor	0.20	0.20	0.10
+imposter.backgroundColor.red	0.20
+imposter.backgroundColor.green	0.20
+imposter.backgroundColor.blue	0.10
+imposter.shadow.blendRange	12.00
+imposter.shadow.blendBias	128.00
+imposter.shadow.size1	256.00
+imposter.shadow.amt1	12.00
+imposter.shadow.size2	128.00
+imposter.shadow.amt2	64.00
+imposter.trees.fadelength 10.0
+imposter.trees.SLODFadeLength 25.0
+imposter.trees.distanceScaleStart 500.0
+imposter.trees.distanceScaleEnd 800.0
+imposter.trees.SLODShrinkScaleW 1.0
+imposter.trees.SLODShrinkScaleH 1.0
+imposter.trees.SLODTranslucencyMin 0.25
+imposter.trees.SLODTranslucencyMax 0.8
+imposter.trees.SLODEmbossScale 12.0
+imposter.trees.SLODEmbossOffset 0.03
+imposter.trees.SLODEmbossMin 0.1
+imposter.trees.SLODEmbossMax 0.9
+imposter.trees.ReflectionDistScale 0.15
+imposter.trees.pregenBlendWidth 0.333333
+imposter.trees.airplanePush 0.0
+imposter.trees.viewAnglePush 0.0
+imposter.trees.imposterDistScale 1.0
+imposter.trees.SLODDistanceScale 1.0
+imposter.trees.shadowAlphaScale 0.6
+imposter.trees.shadowDitherSpread 1.0
+imposter.trees.baseFOV 42.19
+imposter.trees.singleTapThreshold 1.0
+imposter.trees.weightScaleStart 300.0
+imposter.trees.weightScaleEnd 2000.0
+imposter.trees.weightScaleMin 1.0
+imposter.trees.weightScaleMax 10.0
+imposter.trees.windScalingNearDist 190.0
+imposter.trees.windScalingFarDist 2000.0
+imposter.trees.gbuffDiffuseScaleRed 0.6
+imposter.trees.gbuffDiffuseScaleGreen 0.8
+imposter.trees.gbuffDiffuseScaleBlue 0.8
+imposter.trees.gbuffTranslucencyOffset 0.7
+imposter.trees.gbuffScaleStart 100.0
+imposter.trees.gbuffScaleRange 1000.0
+imposter.trees.qualityThresholds.x 1.0 
+imposter.trees.qualityThresholds.y 1.5 
+imposter.trees.qualityThresholds.z 2.0 
+
+imposter.trees.verticalsplit.maxdistance 96.0
+imposter.trees.verticalsplit.heightscale 16.0
+
+#Config values for horse coat shine
+horse.coatShineDecrease 0.0
+
+#Config values for ped dirt
+ped.dirtTextureCount 2
+
+charredPed.rgb.x                        0.098
+charredPed.rgb.y                        0.098
+charredPed.rgb.z                        0.098
+charredPed.pedAlphaChannel              1
+charredPed.animalAlphaChannel           1
+charredPed.normalContribution           1.0
+charredPed.normalScale                  2.0
+charredPed.materialContribution         1.0
+charredPed.roughnessLow                 0.0
+charredPed.roughnessHigh                1.0
+charredPed.metallic                     0.0
+charredPed.alphaCurve                   1.0
+charredPed.boostAlphaCurve              1.0
+charredPed.lowEndAlphaCutoff            0.0
+charredPed.alphaThresholdStartPosition  0.0
+charredPed.alphaThresholdEndPosition    1.0
+charredPed.alphaThresholdStartValue     1.0
+charredPed.alphaThresholdEndValue       1.0
+charredPed.vertMultStartPosition        0.0
+charredPed.vertMultEndPosition          1.0
+charredPed.vertMultStartValue           1.0
+charredPed.vertMultEndValue             1.0
+charredPed.interpRate					1.0
+
+
+#Config values for ped eyes
+ped.eyeDilationScale 2
+ped.eyeDilationMin 0.0
+ped.eyeDilationMax 1.0
+ped.eyeDilationMid 0.5
+ped.eyeDilationExposureMin -10
+ped.eyeDilationExposureMax 8
+ped.eyeDilationGlobalActive 1
+ped.eyeDilationLerpRate 0.5
+
+#Config values for ped lods
+ped.lods.enableSlodFade					1.0
+ped.lods.slodFadeTime					0.5
+ped.lods.slodFadeLodLimit				2.0
+ped.lods.enableDeformationLodTweak		0.0
+
+#Config values for peds
+ped.ambientvolume.maxstrength	1.000
+ped.ambientvolume.fadestart	60.000
+ped.ambientvolume.fadeend	64.000
+ped.ambientvolume.baseintensity 0.000
+ped.windUmToggle 1.000
+
+#Config for water level dirt line.
+ped.waterlinedirt.minwetdifference		0.3
+ped.waterlinedirt.wetdifferencerange	1.0
+ped.waterlinedirt.widthbelow			0.015
+ped.waterlinedirt.widthabove			0.09
+
+#player dirt overrides
+peddirt.interp.rate            120.0 # in seconds
+
+clothdirt.player.rgb.x			                0.35
+clothdirt.player.rgb.y			                0.29
+clothdirt.player.rgb.z			                0.23
+clothdirt.player.basestrength                    1.0
+clothdirt.player.booststrength                   0.0
+clothdirt.player.corpsestrength                  0.0
+clothdirt.player.pedAlphaChannel        			1
+clothdirt.player.normalContribution				0.75
+clothdirt.player.normalScale						1.0
+clothdirt.player.materialContribution			1.0
+clothdirt.player.roughnessLow					0.6
+clothdirt.player.roughnessHigh					1.0
+clothdirt.player.metallic						0.0
+clothdirt.player.alphaCurve						1.0
+clothdirt.player.boostAlphaCurve					1.0
+clothdirt.player.lowEndAlphaCutoff				0.0
+clothdirt.player.alphaThresholdStartPosition		0.0
+clothdirt.player.alphaThresholdEndPosition		1.0
+clothdirt.player.alphaThresholdStartValue		1.0
+clothdirt.player.alphaThresholdEndValue			1.0
+clothdirt.player.vertMultStartPosition			0.0
+clothdirt.player.vertMultEndPosition				1.0
+clothdirt.player.vertMultStartValue				1.0
+clothdirt.player.vertMultEndValue				1.0
+
+skindirt.player.rgb.x			                0.35
+skindirt.player.rgb.y			                0.29
+skindirt.player.rgb.z			                0.23
+skindirt.player.basestrength                     0.0
+skindirt.player.booststrength                    0.0
+skindirt.player.corpsestrength                   0.0
+skindirt.player.pedAlphaChannel         			2
+skindirt.player.normalContribution				0.25
+skindirt.player.normalScale						1.0
+skindirt.player.materialContribution				1.0
+skindirt.player.roughnessLow						0.6
+skindirt.player.roughnessHigh					1.0
+skindirt.player.metallic							0.0
+skindirt.player.alphaCurve						1.0
+skindirt.player.boostAlphaCurve					1.0
+skindirt.player.lowEndAlphaCutoff				0.0
+skindirt.player.alphaThresholdStartPosition		0.0
+skindirt.player.alphaThresholdEndPosition		1.0
+skindirt.player.alphaThresholdStartValue			1.0
+skindirt.player.alphaThresholdEndValue			1.0
+skindirt.player.vertMultStartPosition			0.0
+skindirt.player.vertMultEndPosition				1.0
+skindirt.player.vertMultStartValue				1.0
+skindirt.player.vertMultEndValue					1.0
+
+hidedirt.horse.rgb.x			                0.35
+hidedirt.horse.rgb.y			                0.29
+hidedirt.horse.rgb.z			                0.23
+hidedirt.horse.basestrength                    1.0
+hidedirt.horse.booststrength                   1.0
+hidedirt.horse.corpsestrength                  0.2
+hidedirt.horse.pedAlphaChannel        			3
+hidedirt.horse.animalAlphaChannel        		3
+hidedirt.horse.normalContribution				1.0
+hidedirt.horse.normalScale						1.0
+hidedirt.horse.materialContribution			1.0
+hidedirt.horse.roughnessLow					0.6
+hidedirt.horse.roughnessHigh					1.0
+hidedirt.horse.metallic						0.0
+hidedirt.horse.alphaCurve						1.0
+hidedirt.horse.boostAlphaCurve					1.0
+hidedirt.horse.lowEndAlphaCutoff				0.0
+hidedirt.horse.alphaThresholdStartPosition		0.0
+hidedirt.horse.alphaThresholdEndPosition		1.0
+hidedirt.horse.alphaThresholdStartValue		1.0
+hidedirt.horse.alphaThresholdEndValue			1.0
+hidedirt.horse.vertMultStartPosition			0.0
+hidedirt.horse.vertMultEndPosition				1.0
+hidedirt.horse.vertMultStartValue				1.0
+hidedirt.horse.vertMultEndValue				1.0
+
+skindirt.horse.rgb.x			                0.35
+skindirt.horse.rgb.y			                0.29
+skindirt.horse.rgb.z			                0.23
+skindirt.horse.basestrength                     1.0
+skindirt.horse.booststrength                    1.0
+skindirt.horse.corpsestrength                   0.2
+skindirt.horse.pedAlphaChannel         			3
+skindirt.horse.animalAlphaChannel        		3
+skindirt.horse.normalContribution				1.0
+skindirt.horse.normalScale						1.0
+skindirt.horse.materialContribution				1.0
+skindirt.horse.roughnessLow						0.6
+skindirt.horse.roughnessHigh					1.0
+skindirt.horse.metallic							0.0
+skindirt.horse.alphaCurve						1.0
+skindirt.horse.boostAlphaCurve					1.0
+skindirt.horse.lowEndAlphaCutoff				0.0
+skindirt.horse.alphaThresholdStartPosition		0.0
+skindirt.horse.alphaThresholdEndPosition		1.0
+skindirt.horse.alphaThresholdStartValue			1.0
+skindirt.horse.alphaThresholdEndValue			1.0
+skindirt.horse.vertMultStartPosition			0.0
+skindirt.horse.vertMultEndPosition				1.0
+skindirt.horse.vertMultStartValue				1.0
+skindirt.horse.vertMultEndValue					1.0
+
+rpgDirtPedCount 1
+
+clothdirt.animal.rgb.x			                0.35
+clothdirt.animal.rgb.y			                0.29
+clothdirt.animal.rgb.z			                0.23
+clothdirt.animal.basestrength                    1.0
+clothdirt.animal.booststrength                   1.0
+clothdirt.animal.corpsestrength                  0.2
+clothdirt.animal.pedAlphaChannel        			1
+clothdirt.animal.normalContribution				0.75
+clothdirt.animal.normalScale						1.0
+clothdirt.animal.materialContribution			1.0
+clothdirt.animal.roughnessLow					0.6
+clothdirt.animal.roughnessHigh					1.0
+clothdirt.animal.metallic						0.0
+clothdirt.animal.alphaCurve						1.0
+clothdirt.animal.boostAlphaCurve					1.0
+clothdirt.animal.lowEndAlphaCutoff				0.0
+clothdirt.animal.alphaThresholdStartPosition		0.0
+clothdirt.animal.alphaThresholdEndPosition		1.0
+clothdirt.animal.alphaThresholdStartValue		1.0
+clothdirt.animal.alphaThresholdEndValue			1.0
+clothdirt.animal.vertMultStartPosition			0.0
+clothdirt.animal.vertMultEndPosition				1.0
+clothdirt.animal.vertMultStartValue				1.0
+clothdirt.animal.vertMultEndValue				1.0
+
+skindirt.animal.rgb.x			                0.35
+skindirt.animal.rgb.y			                0.29
+skindirt.animal.rgb.z			                0.23
+skindirt.animal.basestrength                     0.95
+skindirt.animal.booststrength                    1.0
+skindirt.animal.corpsestrength                   0.5
+skindirt.animal.pedAlphaChannel         			2
+skindirt.animal.normalContribution				0.25
+skindirt.animal.normalScale						1.0
+skindirt.animal.materialContribution				1.0
+skindirt.animal.roughnessLow						0.6
+skindirt.animal.roughnessHigh					1.0
+skindirt.animal.metallic							0.0
+skindirt.animal.alphaCurve						1.0
+skindirt.animal.boostAlphaCurve					1.0
+skindirt.animal.lowEndAlphaCutoff				0.0
+skindirt.animal.alphaThresholdStartPosition		0.0
+skindirt.animal.alphaThresholdEndPosition		1.0
+skindirt.animal.alphaThresholdStartValue			1.0
+skindirt.animal.alphaThresholdEndValue			1.0
+skindirt.animal.vertMultStartPosition			0.0
+skindirt.animal.vertMultEndPosition				1.0
+skindirt.animal.vertMultStartValue				1.0
+skindirt.animal.vertMultEndValue					1.0
+
+
+
+# player dirt increment rules (change are in seconds or quantity for some)
+# note we list the ones that result in cleaning the ped first as they
+# should take precedence
+peddirt.change.player.fadetogrubby    3.0
+peddirt.change.player.inwater         2.0
+peddirt.change.player.inrain          5.0
+peddirt.change.player.waterfall       2.0
+peddirt.change.player.indirt          45.0
+peddirt.change.player.sliding         1.0
+peddirt.change.player.collidewithdirt 1.0   # number of collisions with a dirty material (any body part)
+peddirt.change.player.carcasscarried  1.0   # number carcasses carried
+peddirt.change.player.inbath          2.0
+
+peddirt.change.horse.fadetogrubby    3.0
+peddirt.change.horse.inwater         2.0
+peddirt.change.horse.inrain          5.0
+peddirt.change.horse.waterfall       2.0
+peddirt.change.horse.indirt          15.0
+peddirt.change.horse.sliding         1.0
+peddirt.change.horse.collidewithdirt 1.0   # number of collisions with a dirty material (any body part)
+peddirt.change.horse.carcasscarried  1.0   # number carcasses carried
+peddirt.change.horse.inbath          2.0
+
+peddirt.change.animal.fadetogrubby    3.0
+peddirt.change.animal.inwater         2.0
+peddirt.change.animal.inrain          5.0
+peddirt.change.animal.waterfall       2.0
+peddirt.change.animal.indirt          120.0
+peddirt.change.animal.sliding         1.0
+peddirt.change.animal.collidewithdirt 1.0   # number of collisions with a dirty material (any body part)
+peddirt.change.animal.carcasscarried  1.0   # number carcasses carried
+peddirt.change.animal.inbath          2.0
+
+# player dirt increment rates (rates are in percentages)
+peddirt.rate.player.fadetogrubby           -1.0
+peddirt.rate.player.min.fadetogrubby       70.0
+peddirt.rate.player.max.fadetogrubby       -1.0 # -1 don't care
+peddirt.rate.player.inwater                -1.0
+peddirt.rate.player.min.inwater            20.0
+peddirt.rate.player.max.inwater            -1.0
+peddirt.rate.player.inrain                 -1.0
+peddirt.rate.player.min.inrain             20.0
+peddirt.rate.player.max.inrain             -1.0
+peddirt.rate.player.waterfall              -1.0
+peddirt.rate.player.min.waterfall          20.0
+peddirt.rate.player.max.waterfall          -1.0
+peddirt.rate.player.indirt                 1.0
+peddirt.rate.player.min.indirt             0.0
+peddirt.rate.player.max.indirt             60.0
+peddirt.rate.player.sliding                0.5
+peddirt.rate.player.min.sliding            2.0
+peddirt.rate.player.max.sliding            20.0
+peddirt.rate.player.collidewithdirt        1.0
+peddirt.rate.player.min.collidewithdirt    0.0
+peddirt.rate.player.max.collidewithdirt    80.0
+peddirt.rate.player.carcasscarried         1.0
+peddirt.rate.player.min.carcasscarried     0.0
+peddirt.rate.player.max.carcasscarried     20.0
+peddirt.rate.player.inbath                 -4.0
+peddirt.rate.player.min.inbath             0.0
+peddirt.rate.player.max.inbath             0.0
+
+peddirt.rate.horse.fadetogrubby           -1.0
+peddirt.rate.horse.min.fadetogrubby       70.0
+peddirt.rate.horse.max.fadetogrubby       -1.0 # -1 don't care
+peddirt.rate.horse.inwater                -1.0
+peddirt.rate.horse.min.inwater            20.0
+peddirt.rate.horse.max.inwater            -1.0
+peddirt.rate.horse.inrain                 -1.0
+peddirt.rate.horse.min.inrain             20.0
+peddirt.rate.horse.max.inrain             -1.0
+peddirt.rate.horse.waterfall              -1.0
+peddirt.rate.horse.min.waterfall          20.0
+peddirt.rate.horse.max.waterfall          -1.0
+peddirt.rate.horse.indirt                 2.0
+peddirt.rate.horse.min.indirt             0.0
+peddirt.rate.horse.max.indirt             100.0
+peddirt.rate.horse.sliding                0.5
+peddirt.rate.horse.min.sliding            2.0
+peddirt.rate.horse.max.sliding            20.0
+peddirt.rate.horse.collidewithdirt        1.0
+peddirt.rate.horse.min.collidewithdirt    0.0
+peddirt.rate.horse.max.collidewithdirt    60.0
+peddirt.rate.horse.carcasscarried         1.0
+peddirt.rate.horse.min.carcasscarried     0.0
+peddirt.rate.horse.max.carcasscarried     20.0
+peddirt.rate.horse.inbath                 -4.0
+peddirt.rate.horse.min.inbath             0.0
+peddirt.rate.horse.max.inbath             0.0
+
+peddirt.rate.animal.fadetogrubby           -1.0
+peddirt.rate.animal.min.fadetogrubby       70.0
+peddirt.rate.animal.max.fadetogrubby       -1.0 # -1 don't care
+peddirt.rate.animal.inwater                -1.0
+peddirt.rate.animal.min.inwater            20.0
+peddirt.rate.animal.max.inwater            -1.0 # -1 don't care
+peddirt.rate.animal.inrain                 -1.0
+peddirt.rate.animal.min.inrain             20.0
+peddirt.rate.animal.max.inrain             -1.0
+peddirt.rate.animal.waterfall              -1.0
+peddirt.rate.animal.min.waterfall          20.0
+peddirt.rate.animal.max.waterfall          -1.0
+peddirt.rate.animal.indirt                 2.0
+peddirt.rate.animal.min.indirt             0.0
+peddirt.rate.animal.max.indirt             100.0
+peddirt.rate.animal.sliding                0.5
+peddirt.rate.animal.min.sliding            2.0
+peddirt.rate.animal.max.sliding            20.0
+peddirt.rate.animal.collidewithdirt        1.0
+peddirt.rate.animal.min.collidewithdirt    0.0
+peddirt.rate.animal.max.collidewithdirt    60.0
+peddirt.rate.animal.carcasscarried         1.0
+peddirt.rate.animal.min.carcasscarried     0.0
+peddirt.rate.animal.max.carcasscarried     20.0
+peddirt.rate.animal.inbath                 -4.0
+peddirt.rate.animal.min.inbath             0.0
+peddirt.rate.animal.max.inbath             0.0
+
+peddirt.mountedModifier.player 0.4
+peddirt.mountedModifier.horse 0.4
+peddirt.mountedModifier.animal 0.4
+
+pedLight.color.red	1.000
+pedLight.color.green	1.000
+pedLight.color.blue	1.000
+pedlight.intensity	6.000
+pedlight.radius	6.000
+pedlight.innerConeAngle	30.000
+pedlight.outerConeAngle	45.000
+pedlight.coronaHDR 1.000
+pedlight.coronaSize 2.087
+pedlight.falloffExp	32.000
+pedlight.volumeIntensity 0.300
+pedlight.volumeSize 0.400
+pedlight.volumeExponent 70.000
+pedLight.volumeColor.x 1.000
+pedLight.volumeColor.y 1.000
+pedLight.volumeColor.z 0.500
+pedLight.volumeColor.w 1.000
+pedlight.fade 20.000
+pedlight.shadowFade 15.000
+pedlight.specularFade 10.000
+
+pedFpsLight.color.red	1.000
+pedFpsLight.color.green	1.000
+pedFpsLight.color.blue	1.000
+pedFpslight.intensity	6.000
+pedFpslight.radius	16.000
+pedFpslight.innerConeAngle	30.000
+pedFpslight.outerConeAngle	45.000
+pedFpslight.coronaHDR 1.000
+pedFpslight.coronaSize 2.087
+pedFpslight.falloffExp	128.000
+pedFpslight.volumeIntensity 0.0500
+pedFpslight.volumeSize 0.400
+pedFpslight.volumeExponent 70.000
+pedFpsLight.volumeColor.x 1.000
+pedFpsLight.volumeColor.y 1.000
+pedFpsLight.volumeColor.z 0.500
+pedFpsLight.volumeColor.w 1.000
+pedFpslight.fade 20.000
+pedFpslight.shadowFade 15.000
+pedFpslight.specularFade 10.000
+
+# Eye Wetness settings
+ped.eye.basewetness							0.250
+ped.eyecap.wetness							0.280
+
+# Eye lighting
+ped.eye.lighting.sclera.specbump.uvScale	0.300
+ped.eye.lighting.sclera.specbump.intensity	1.000
+ped.eye.lighting.iris.metallic				0.500
+ped.eye.lighting.iris.anisotropy			0.800
+ped.eye.lighting.iris.normal.uvscale		0.750
+ped.eye.lighting.iris.normal.edge			0.650
+ped.eye.lighting.iris.normal.curve			1.000
+ped.eye.lighting.iris.roughness				0.800
+ped.eye.lighting.tearline.thinFilmThickness	3.500
+
+# Skin dual spec settings
+ped.skin.dualspec.normalbumpscale			1.500
+ped.skin.dualspec.uvscale					1.200
+ped.skin.dualspec.varianceScale				0.900
+ped.skin.dualspec.varianceMipBias			0.000
+
+# Skin lighting
+ped.skin.lightTextureSpecMip.min			0.700
+ped.skin.lightTextureSpecMip.max			1.000
+ped.skin.lighting.indirectRoughnessScale	1.000
+
+# Skin Cavity settings
+ped.skin.cavity.sssMaskReductionScale		0.000
+ped.skin.cavity.sunTanBurnReductionScale	0.350
+ped.skin.cavity.dirtLayerReductionScale		0.000
+
+ped.skin.cavity.detailmap.min				0.000
+ped.skin.cavity.detailmap.max				0.580
+ped.skin.cavity.detailmap.curve				4.000
+
+ped.skin.curvatureScale 					0.660
+
+# Sun Tan RPG
+ped.skin.sunTanRpg.exposeRate				0.0100
+ped.skin.sunTanRpg.coverRate				0.0100
+
+# Wrinkle Normal - Skin AO
+ped.skin.wrinklenormal.ao.slope				1.000
+ped.skin.wrinklenormal.ao.strength			0.000
+
+# Lod distances for peds
+ped.lod.distance.high	10.00
+ped.lod.distance.medium	20.00
+ped.lod.distance.low	60.00
+pedincar.lod.distance.high	7.00
+
+# ped detail
+
+ped.detail[0].roughness -0.550000
+ped.detail[1].roughness -0.150000
+ped.detail[2].roughness -0.100000
+ped.detail[3].roughness -0.300000
+ped.detail[4].roughness -0.300000
+ped.detail[5].roughness -0.300000
+ped.detail[6].roughness -0.300000
+ped.detail[7].roughness -0.300000
+ped.detail[8].roughness 0.000000
+ped.detail[9].roughness -0.100000
+ped.detail[10].roughness -0.100000
+ped.detail[11].roughness -0.180000
+ped.detail[12].roughness -0.100000
+ped.detail[13].roughness -0.100000
+ped.detail[14].roughness -0.100000
+ped.detail[15].roughness -0.080000
+
+ped.detailskin[0].roughness -0.350000
+ped.detailskin[1].roughness -0.350000
+ped.detailskin[2].roughness -0.350000
+ped.detailskin[3].roughness -0.280000
+ped.detailskin[4].roughness -0.350000
+ped.detailskin[5].roughness -0.350000
+ped.detailskin[6].roughness -0.350000
+ped.detailskin[7].roughness -0.350000
+ped.detailskin[8].roughness -0.350000
+ped.detailskin[9].roughness -0.350000
+ped.detailskin[10].roughness -0.350000
+ped.detailskin[11].roughness -0.350000
+ped.detailskin[12].roughness -0.350000
+ped.detailskin[13].roughness -0.350000
+ped.detailskin[14].roughness -0.350000
+ped.detailskin[15].roughness -0.350000
+
+ped.detailanimal[0].roughness -0.550000
+ped.detailanimal[1].roughness -0.150000
+ped.detailanimal[2].roughness -0.100000
+ped.detailanimal[3].roughness -0.300000
+ped.detailanimal[4].roughness -0.300000
+ped.detailanimal[5].roughness -0.300000
+ped.detailanimal[6].roughness -0.300000
+ped.detailanimal[7].roughness -0.300000
+ped.detailanimal[8].roughness 0.000000
+ped.detailanimal[9].roughness -0.100000
+ped.detailanimal[10].roughness -0.100000
+ped.detailanimal[11].roughness -0.180000
+ped.detailanimal[12].roughness -0.100000
+ped.detailanimal[13].roughness -0.100000
+ped.detailanimal[14].roughness -0.100000
+ped.detailanimal[15].roughness -0.080000
+
+ped.detailskin[0].ao 1.750000
+ped.detailskin[1].ao 1.750000
+ped.detailskin[2].ao 1.750000
+ped.detailskin[3].ao 1.750000
+ped.detailskin[4].ao 1.750000
+ped.detailskin[5].ao 1.750000
+ped.detailskin[6].ao 1.750000
+ped.detailskin[7].ao 1.750000
+ped.detailskin[8].ao 1.750000
+ped.detailskin[9].ao 1.750000
+ped.detailskin[10].ao 1.750000
+ped.detailskin[11].ao 1.750000
+ped.detailskin[12].ao 1.750000
+ped.detailskin[13].ao 1.750000
+ped.detailskin[14].ao 1.750000
+ped.detailskin[15].ao 1.750000
+
+#Config Values for Camera Events	Val start	Val End	MB start	MB End
+# cam.followped.blur.zoom	0	0.10	0.00	0.025
+cam.followped.blur.zoom.x	0
+cam.followped.blur.zoom.y	0.10
+cam.followped.blur.zoom.z	0.00
+cam.followped.blur.zoom.w	0.025
+# cam.followped.blur.damage	0	10.00	0.00	0.025
+cam.followped.blur.damage.x	0
+cam.followped.blur.damage.y	10.00
+cam.followped.blur.damage.z	0.00
+cam.followped.blur.damage.w	0.025
+# cam.followped.blur.falling	3	10.00	0.00	0.1
+cam.followped.blur.falling.x	3
+cam.followped.blur.falling.y	10.00
+cam.followped.blur.falling.z	0.00
+cam.followped.blur.falling.w	0.1
+# cam.followped.blur.beta	0.045	0.05	0.00	0.01
+cam.followped.blur.beta.x	0.045
+cam.followped.blur.beta.y	0.05
+cam.followped.blur.beta.z	0.00
+cam.followped.blur.beta.w	0.01
+cam.followped.blur.damage.time	500
+cam.followped.blur.damage.attacktime	0.1
+cam.followped.blur.damage.decaytime	0.3
+cam.followped.blur.cap	0.3
+# cam.aimweapon.blur.zoom	0	0.10	0.00	0.1
+cam.aimweapon.blur.zoom.x	0
+cam.aimweapon.blur.zoom.y	0.10
+cam.aimweapon.blur.zoom.z	0.00
+cam.aimweapon.blur.zoom.w	0.1
+# cam.aimweapon.blur.damage	0	10.00	0.00	0.1
+cam.aimweapon.blur.damage.x	0
+cam.aimweapon.blur.damage.y	10.00
+cam.aimweapon.blur.damage.z	0.00
+cam.aimweapon.blur.damage.w	0.1
+cam.aimweapon.blur.damage.time	1000
+cam.aimweapon.blur.interp	0.05
+cam.aimweapon.blur.damage.attacktime	0.1
+cam.aimweapon.blur.damage.decaytime	0.3
+cam.aimweapon.blur.cap	1
+# cam.followvehicle.blur.zoom	0	0.10	0.00	0.025
+cam.followvehicle.blur.zoom.x	0
+cam.followvehicle.blur.zoom.y	0.10
+cam.followvehicle.blur.zoom.z	0.00
+cam.followvehicle.blur.zoom.w	0.025
+# cam.followvehicle.blur.speed	25	50.00	0.00	0.2
+cam.followvehicle.blur.speed.x	25
+cam.followvehicle.blur.speed.y	50.00
+cam.followvehicle.blur.speed.z	0.00
+cam.followvehicle.blur.speed.w	0.2
+# cam.followvehicle.blur.damage	50	100.00	0.00	0.03
+cam.followvehicle.blur.damage.x	50
+cam.followvehicle.blur.damage.y	100.00
+cam.followvehicle.blur.damage.z	0.00
+cam.followvehicle.blur.damage.w	0.03
+cam.followvehicle.blur.damage.time	500
+cam.followvehicle.blur.cap	0.3
+cam.game.blur.wasted	0.1
+cam.game.blur.wasted.fadetime	1000
+cam.game.blur.busted	0.1
+cam.game.blur.busted.fadetime	1000
+cam.game.blur.cap	1
+cam.fpsweapon.blur	0.001
+cam.fpsweapon.sniperinitime	300
+cam.fpsweapon.blur.cap	1
+cam.intermezzo.stuntjump.blur	0.02
+
+# Containers LOD
+lod.container.caploddist	750
+
+# distant lights
+distantlights.numvertexbuffers                      30.0
+distantlights.size						            4.0
+distantlights.sizeUpscale				            2.0
+# this was calculated as 16 pixel radius / 2560 pixel screen width * 100% = 0.625%
+# why not use pixels directly? we could have a large discrepancy between per platform resolutions, so to avoid that, use a percentile
+distantlights.maxRadiusAsScreenWidthPercentage      0.625
+distantlights.angularFadeOutDistanceStart           100.0
+distantlights.angularFadeOutDistanceEnd             1000.0
+distantlights.fadeInnerAngleStart                   0.0
+distantlights.fadeOuterAngleStart                   90.0
+distantlights.fadeInnerAngleEnd                     0.0
+distantlights.fadeOuterAngleEnd                     120.0
+distantlights.offsetTowardsCameraDistance           0.0
+distantlights.offsetAlongLightDirection             0.1
+distantlights.twinkleDistanceMin		            100.0
+distantlights.twinkleDistanceMax		            5000.0
+distantlights.twinkleAmount				            100.0
+distantlights.twinkleSpeed				            5
+distantlights.sizeDistStart				            100
+distantlights.sizeDist					            1000
+distantlights.streetlight.HDRIntensity	            20.0         # actually regular HDR intensity, but didn't want to rename it. can probably be removed too since we get intensity from LODLightCompiler
+distantlights.lightScreenCoverage                   0.011111
+distantlights.lightWorldArea                        0.05
+distantlights.transmittanceScale                    0.7
+
+# Window Emissives
+windowemissives.useCubeIndexBuffer 						1 		# for deferred window emissives
+windowemissives.deferredQuadScales.0					1.0
+windowemissives.deferredQuadScales.1					1.0
+windowemissives.deferredQuadScales.2					1.0
+windowemissives.deferredQuadScales.3					1.0
+windowemissives.deferredQuadDistances.0					0.0
+windowemissives.deferredQuadDistances.1					50.0
+windowemissives.deferredQuadDistances.2					200.0
+windowemissives.deferredQuadDistances.3					500.0
+windowemissives.deferredWindowPadding                   0.002
+windowemissives.additiveQuadScales.0 					0.0
+windowemissives.additiveQuadScales.1					0.2
+windowemissives.additiveQuadScales.2					0.5
+windowemissives.additiveQuadScales.3					1.0
+windowemissives.additiveQuadDistances.0					80
+windowemissives.additiveQuadDistances.1					100
+windowemissives.additiveQuadDistances.2					200
+windowemissives.additiveQuadDistances.3					500
+windowemissives.additiveQuadIntensityMultiplier			5.0
+windowemissives.textureAtlasGridSize					16
+windowemissives.textureGammaExponent					1.3
+windowemissives.transmittanceSurfaceThickness 			0.02
+windowemissives.transmittanceGrazingAngleThickness 		2.0
+windowemissives.crossfadeLength					 		100.0
+windowemissives.lodLevelForAdditiveFadeIn				2 		# at the end of which lod do we fade in? 0 = end of HD, 1 = LOD, 2 = SLOD, 3 = SLOD2, 4 = SLOD3
+windowemissives.normalBumpPerLOD.0                      0.004
+windowemissives.normalBumpPerLOD.1                      0.101
+windowemissives.normalBumpPerLOD.2                      0.201
+windowemissives.normalBumpPerLOD.3                      0.5
+windowemissives.normalBumpPerLOD.4                      1.0
+windowemissives.normalBumpPerLOD.5                      1.0
+windowemissives.streamingExtents                        8000
+windowemissives.quadLodLightEmissiveIntensityMultiplier 1.0
+
+# Emissive night values
+emissive.night.start.time		22
+emissive.night.end.time			4
+
+# Misc Values
+misc.useNoCoverageTechniques	1.0
+
+misc.DOFBlurMultiplier.HD	1
+misc.DOFBlurMultiplier.SD	0.5
+misc.Multiplier.heightStart	100
+misc.Multiplier.heightEnd	250.00
+misc.Multiplier.farClipMultiplier	1
+misc.3dMarkers.FrontLightIntensity	10.00
+misc.3dMarkers.frontLightExponent	32
+
+misc.dof.useBlurOptimization			1
+misc.dof.useBlurOptimizationInCutscenes	1
+
+# White balance
+whiteBalance.autoAdaptationSpeed 	0.15
+whiteBalance.weatherMinColdTemp		-10
+whiteBalance.weatherMaxColdTemp 	19.0
+whiteBalance.weatherMinWarmTemp		21.0
+whiteBalance.weatherMaxWarmTemp		50.0
+whiteBalance.weatherMinCCT			4000.0
+whiteBalance.weatherNeutralCCT		6500.0
+whiteBalance.weatherMaxCCT			60000.0
+
+# coronas
+misc.coronas.bloomIntensityMultiplier			2.0
+misc.coronas.bloomSizeMultiplier				1.0
+misc.coronas.bloomEnergyThreshold				1000.0
+misc.coronas.renderExcessEnergyInBloom			1
+misc.coronas.constantSizeScaleGlobal			0.0085
+misc.coronas.constantSizeIntensityGlobal		150.0
+misc.coronas.useConstantSizeOnScreen			1
+misc.coronas.useFOVScale						1
+misc.coronas.referenceFOV						50.0
+misc.coronas.useBloomCoronaTexture				1
+misc.coronas.sizeScaleGlobal					0.35
+misc.coronas.intensityScaleGlobal				2.5
+misc.coronas.intensityScaleWater				5.0
+misc.coronas.sizeScaleWater						1.0
+misc.coronas.sizeScaleEnvReflection				1.0
+misc.coronas.sizeAdjustNear						3.0
+misc.coronas.sizeAdjustDistance					3.0
+misc.coronas.zBiasMultiplier					10.0
+misc.coronas.zBiasDistanceNear					20.0
+misc.coronas.zBiasDistanceFar					50.0
+misc.coronas.zBias.fromFinalSizeMultiplier 		0.1
+misc.coronas.zBias.nearScalingStartDist		1.0
+misc.coronas.zBias.nearScalingEndDist			2.0
+misc.coronas.occlusionSizeScale					0.1
+misc.coronas.occlusionSizeMax					32.0
+misc.coronas.baseValueR							0.0
+misc.coronas.baseValueG							0.0
+misc.coronas.baseValueB							0.0
+misc.coronas.zBias.min								0.0
+misc.coronas.zBias.max								0.35
+misc.coronas.zBias.additionalBias.Default			0.01
+misc.coronas.zBias.additionalBias.WaterReflection	0.0
+misc.coronas.zBias.additionalBias.EnvReflection		0.0
+misc.coronas.zBias.additionalBias.MirrorReflection	0.0
+misc.coronas.dir.mult.fadeoff.start					50.0
+misc.coronas.dir.mult.fadeoff.dist					100.0
+misc.coronas.interiorFadeStart						15.0
+misc.coronas.interiorFadeDist 						5.0
+misc.coronas.underwaterFadeDist						4.0
+misc.coronas.farRangeMultiplier						1.2
+misc.coronas.bloomMinScreenSize						16.0
+misc.coronas.m_doNGCoronas						1.0
+misc.coronas.m_rotationSpeed					0.05
+misc.coronas.m_rotationSpeedRampedUp			0.15
+misc.coronas.m_layer1Muliplier					0.5
+misc.coronas.m_layer2Muliplier					0.5
+misc.coronas.m_scaleRampUp						1.5
+misc.coronas.m_scaleRampUpAngle					20.0
+misc.coronas.screenEdgeMinDistForFade	        0.95
+misc.coronas.grazingAngleFadeThreshold          100.0 # this angle should be in 2nd [90, 180] or 3rd [180, 270] quadrant
+misc.coronas.renderPreAlpha                     1.0
+misc.coronas.useAlphaDepthForBloom              1.0
+
+misc.rendering.ggx.minRoughness 0.0002
+misc.rendering.ggx.luxCompression 16.0
+misc.rendering.prefilteredEnvMap 1.0
+misc.rendering.reflectionProbes.enableSearchRadius 0
+misc.rendering.reflectionProbes.fadeInTime 2.0
+misc.rendering.minIntensityForDirectionalLight 0.001
+misc.rendering.globalConservativeFilteringBiasGSAA 0.5
+misc.rendering.globalGrazingAngleRoughnessFalloff 10.0
+misc.rendering.globalGlintsWetnessThresholdMin 0.25
+misc.rendering.globalGlintsWetnessThresholdMax 0.75
+misc.rendering.glintsHQLightsDistanceFade 0.5
+misc.rendering.glintsLQLightsDistanceFade 0.4
+misc.rendering.glintsLocalLightsDistanceFadeSoftness 0.2
+misc.rendering.glintsNearDepthFadeThreshold 0.1 	# pixel radius in world space in millimeters
+misc.rendering.glintsNearDepthFadeSoftness 0.5 		# pixel radius in world space in millimeters
+misc.rendering.glintsFarDepthFadeThreshold 20.0 	# pixel radius in world space in millimeters
+misc.rendering.glintsFarDepthFadeSoftness 10.0 		# pixel radius in world space in millimeters
+misc.rendering.globalFlakesLodScale 0.5
+misc.rendering.globalFlakesTruncCosTheta 0.015
+misc.rendering.globalFlakesTruncMaxRoughness 0.25
+misc.rendering.specularMicroOcclusionMin 5.0 	# [0, 255]
+misc.rendering.specularMicroOcclusionMax 20.0 	# [0, 255]
+misc.rendering.glintsScreenSpaceScale 1.7
+misc.rendering.globalDecalRRNormalBendAmount 0.5 # Max normal bend towards the view at grazing angles
+misc.rendering.globalRRFadeDistance 100.0
+misc.rendering.globalRRFadeSoftness 0.5 # Softness when viewing the surface at 0 degrees
+misc.rendering.retroreflectionLayerRoughness_GlassBead 0.75
+misc.rendering.retroreflectionLayerRoughness_Prismatic 0.15
+misc.rendering.retroreflectionLayerRoughness_Eye 0.4
+misc.rendering.sheenBaseLayerRoughness 0.85
+misc.rendering.sheenIridescenceLayerRoughness 0.5
+misc.rendering.sheenAnisoBaseLayerRoughness 0.75
+misc.rendering.sheenAnisoBaseLayerDesaturation 0.9
+misc.rendering.thinFilmThicknessFadeThreshold 0.05
+misc.rendering.emissiveDiffractionLightDecoherenceThreshold 0.15
+misc.rendering.emissiveDiffractionF0 0.5
+misc.rendering.prismaticSheetDiffractionLightDecoherenceThreshold 0.2
+misc.rendering.prismaticSheetDiffractionF0 0.2
+misc.rendering.wetnessRoughness_Common 0.1
+misc.rendering.wetnessRoughness_Vegetation 0.3
+misc.rendering.wetnessRoughness_Skin 0.05
+misc.rendering.wetnessRoughness_SkinSaturationThreshold 1.0
+
+misc.rendering.vehicleBatchLodMetalness 0.7
+misc.rendering.vehicleBatchLodMetallicRoughness 0.5
+misc.rendering.vehicleBatchLodDielectricRoughness 0.3
+
+misc.rendering.localLightAreaTextureRoughnessRadiusMin 0.2
+misc.rendering.localLightAreaTextureRoughnessRadiusMax 0.8
+
+# PRISMATIC SHEET DIFFRACTION
+brdf.diffraction.prismaticSheet.profileSlitWidth 0.5
+brdf.diffraction.prismaticSheet.profileSpaceWidth 0.25
+brdf.diffraction.prismaticSheet.profileN 5
+
+# MIRAGES
+misc.mirages.maxMirageViewingAngle 2.0 # degrees
+misc.mirages.safeMirageCutoffAngleScale 1.2 # [1.0, 5.0]
+misc.mirages.surfaceNonMetalAttenuation 0.7
+misc.mirages.surfaceDiffuseAlbedoLuminanceAttenuation 0.4
+misc.mirages.surfaceDiffuseAlbedoLuminanceRescaleMin 0.2
+misc.mirages.surfaceDiffuseAlbedoLuminanceRescaleMax 0.5
+misc.mirages.mirageNoiseAnimSpeed 0.03
+misc.mirages.mirageNoiseUVScale 0.001
+misc.mirages.mirageHeatNoiseScale 0.1
+misc.mirages.mirageNormalBendScale 0.03
+
+# RETROREFLECTION AUX LIGHT
+misc.retroreflection.cameraLightDistanceRemapMin 0.4
+misc.retroreflection.cameraLightDistanceRemapMax 4.0
+misc.retroreflection.cameraLightIntensityRemapMin 0.15
+misc.retroreflection.cameraLightIntensityRemapMax 1.0
+misc.retroreflection.cameraLightConeRescaleMin 0.0
+misc.retroreflection.cameraLightConeRescaleMax 1.0
+
+# FOG
+misc.scattering_transmittance_system	1
+misc.fog.use_max_time_step				0
+misc.fog.displacement_map_scale			2000.0
+misc.fog.precision						0.5
+misc.fog.precision_low					0.3
+misc.fog.distance_coverage				22000.0
+misc.fog.taa_jitter_scale				0.5
+misc.fog.dither_scale_max				1.0
+misc.fog.dither_scale_min				0.2
+misc.fog.voxel_temporal_blend_density	0.9
+misc.fog.voxel_temporal_blend_shadows	0.85
+misc.fog.voxel_temporal_blend_shadows_no_taa 0.95
+misc.fog.voxel_wind_reproj_strength		1.0
+misc.fog.blur							0.0
+misc.fog.bilateral_fill					0.0
+misc.fog.bilateral_dither_fov_min		20.0
+misc.fog.bilateral_dither_fov_max		45.0
+misc.fog.bilateral_dither_fov_mult		2.0
+misc.fog.bilateral_dither				1.5
+misc.fog.bilateral_dither_disocclusion_near	8.0
+misc.fog.bilateral_dither_disocclusion_far	4.0
+misc.fog.bilateral_dither_disocclusion_start	500.0
+misc.fog.bilateral_dither_disocclusion_range	100.0
+misc.fog.reconstruction_depth_bias		0.1
+misc.fog.ray_recast_supported		1.0
+misc.fog.denoising.lum_bias				0.0
+misc.fog.denoising.lum_scale			1.0
+misc.fog.denoising.bilateral_depth_threshold	0.1
+misc.fog.denoising.temporal_fill_blend	0.5
+misc.fog.transmittance_threshold		0.001
+misc.fog.voxel_jitter_xy_scale			1.0
+misc.fog.voxel_noise_scale				50.0
+misc.fog.voxel_noise_fade_dist			5000.0
+misc.fog.voxel_shadow_responsiveness	0.0
+misc.fog.voxel_num_cascade_shadow_samples 1
+misc.fog.voxel_num_cascade_shadow_samples_close 1
+misc.fog.weather_map_resolution			256
+misc.fog.cirrus_scale					0.6
+misc.fog.cirrus_control_scale			0.6
+misc.fog.planar_reflection_temporal_blend 0.95
+misc.fog.terrain_shadow_bias			-0.006
+misc.fog.density_map_height_min			-60.0
+misc.fog.density_map_height_max			784.0
+misc.fog.fog_volume_wind_scale			0.9
+misc.fog.fog_volume_wind_bias			0.1
+misc.fog.fog_volume_wind_min			1.0
+misc.fog.fog_volume_wind_max			10.0
+misc.fog.fog_volume_inv_wind_scale		0.75
+misc.fog.fog_volume_inv_wind_bias		0.25
+misc.fog.fog_volume_inv_wind_min		1.0
+misc.fog.fog_volume_inv_wind_max		6.0
+misc.fog.enableheightfog	1.0
+misc.fog.noise				1
+misc.fog.cloud_shadow_offset	1.0
+misc.fog.cloud_shadow_coverage	10000.0
+misc.fog.cascade_shadow_fadeout_distance_start 250.0
+misc.fog.cascade_shadow_fadeout_distance_range 50.0
+misc.fog.light_pollution.bounds_max_x 3591
+misc.fog.light_pollution.bounds_max_y 17671
+misc.fog.light_pollution.bounds_min_x -12551
+misc.fog.light_pollution.bounds_min_y -8199
+misc.fog.fog_map_type_1_height_multiplier 150
+misc.fog.fog_map_type_2_height_multiplier 200
+misc.fog.fog_map_type_3_height_multiplier 10
+misc.fog.fog_map_type_4_height_multiplier 60
+misc.fog.fog_map_type_5_height_multiplier 100
+misc.fog.fog_map_type_6_height_multiplier 250
+misc.fog.terrain_height_occlusion_bias 10
+misc.fog.diffusion_normalizer 0.35
+# Temporary water scattering tunings
+misc.fog.enable_water_scattering 1.0
+misc.fog.water_caustic_scale 4.0
+misc.fog.water_caustic_world_scale 0.25
+misc.fog.water_caustic_depth_fade 0.0
+misc.fog.water_caustic_mip_scale 1.0
+misc.fog.water_caustic_shallow_fade 6
+misc.fog.water_caustic_bump_intensity 0.25
+misc.fog.water_caustic_normal_offset 1
+misc.fog.water_scattering_isotropic_scale 4
+misc.fog.water_scattering_phase_scale 0.15
+misc.fog.water_scattering_caustics_scale 0.15
+
+misc.fog.sky_radiance_cache.camera_raymarch_bias 150.0
+misc.fog.sky_radiance_cache.temporal_blend 0.5
+
+misc.fog.bloommod.alpha_depth_blend_power 0.125
+misc.fog.bloommod.alpha_depth_distance_clamp 10.0
+misc.fog.bloommod.alpha_depth_distance_threshold_min 0.25
+misc.fog.bloommod.alpha_depth_distance_threshold_max 0.4
+
+misc.fog.fog_volume_wind_noise_fade_start 25.0
+misc.fog.fog_volume_wind_noise_fade_range 50.0
+
+misc.fog.entitymask.fog_dissipation_min_scale				0.0
+misc.fog.entitymask.fog_dissipation_fade_scale_min_distance	3.0
+misc.fog.entitymask.fog_dissipation_fade_scale_max_distance	15.0
+
+misc.planet_albedo_r 0.1
+misc.planet_albedo_g 0.5
+misc.planet_albedo_b 1.0
+misc.planet_roughness 0.35
+
+misc.BloomIntensityClamp.HD	10
+misc.BloomIntensityClamp.SD	10.00
+misc.BloomIntensityClamp.SD.ps3	5.00
+misc.CrossPMultiplier.GlobalEnvironmentReflection	1.00
+misc.CrossPMultiplier.MidBlur	1.00
+misc.CrossPMultiplier.Farblur	1.00
+misc.CrossPMultiplier.Desaturation 	1.00
+misc.HiDof.nearBlur	1
+misc.HiDof.midBlur	0.20
+misc.HiDof.farBlur	1.00
+misc.cutscene.nearBlurMin	0.2
+misc.PedKillOverlay.duration 750.0f
+
+misc.MoonDimMult				0.3
+
+misc.HDRLimit					100000.0
+misc.HDRNoiseStrengthMult		0.25
+
+misc.AlphaFadeEnabledTree		1
+misc.AlphaFadeEnabledGrass		1
+misc.AlphaFadeEnabledGrassBatch	1
+
+misc.AlphaScaleExpTree              1.0
+
+misc.AlphaScaleExpGrass			    2.0
+misc.AlphaScaleExpGrassBatch	    0.0
+
+misc.UseWheelsForPushVolumes		1.0
+
+// Sun Rise/Sun Set period & angles
+// For angle, 0.5 is sunrise horizon (east).  1.5 is sunset horizon (west)
+misc.SunRise.StartHour				6.0
+misc.SunRise.EndHour				8.0
+misc.SunRise.StartAngle				0.505
+misc.SunRise.EndAngle				0.605
+misc.SunSet.StartHour				18.0
+misc.SunSet.EndHour					20.0
+misc.SunSet.StartAngle				1.40
+misc.SunSet.EndAngle				1.5
+misc.Sun.Yaw						0.0
+misc.Sun.Roll						122
+misc.Moon.RollOffset				240
+misc.Moon.Speed 					1.0
+misc.Moon.Cycle 					0.5
+misc.Moon.Wobble.Frequency			0.0
+misc.Moon.Wobble.Amplitude			0.1
+misc.Moon.Wobble.Offset				0.8
+
+// Used for day/night fade of lighting
+misc.SunRise.Light.StartHour			6.0
+misc.SunSet.Light.StartHour				20.0
+
+// tc interior/portal blend rate/min
+misc.tc.interiorHardBlendTemporalRate 0.25
+misc.InteriorBlendStr.Rate			0.07
+misc.PortalBlendWeight.Min			0.005
+
+ShadowFeezor.MaxAngleOffset			0.02
+
+# Entity batch
+entitybatch.mininstancesize				1.0
+entitybatch.maxinstancesize				5.0
+entitybatch.minlodbias					1.0
+entitybatch.maxlodbias					1.0
+entitybatch.LodFade.Range				0.1
+entitybatch.LodFade.Power				4.0
+entitybatch.LodFade.AltRangeOrRatio		10.0
+entitybatch.UseAoAsTintMask				1
+
+# Entity Mask
+entityMask.blur.visible.minStrength			0.0
+entityMask.blur.visible.maxStrength			0.0
+entityMask.blur.visible.minStrength2		0.75
+entityMask.blur.visible.maxStrength2		0.75
+entityMask.blur.visible.depthBlendCurveExp	0.0
+entityMask.blur.visible.depthBlendNearDist	0.0
+entityMask.blur.visible.depthBlendFarDist	0.0
+
+entityMask.blur.occluded.minStrength		0.2
+entityMask.blur.occluded.maxStrength		0.2
+entityMask.blur.occluded.minStrength2		0.5
+entityMask.blur.occluded.maxStrength2		1.0
+entityMask.blur.occluded.depthBlendCurveExp	0.0
+entityMask.blur.occluded.depthBlendNearDist	5.0
+entityMask.blur.occluded.depthBlendFarDist	10.0
+
+entityMask.blur.analysis.maxBias[0]			1.0
+entityMask.blur.analysis.maxBias[1]			0.75
+entityMask.blur.analysis.maxBias[2]			0.5
+entityMask.blur.analysis.maxBias[3]			0.25
+entityMask.blur.analysis.maxBias[4]			0.0
+
+# Tonemapping
+Tonemapping.bright.filmic.A                                             0.22
+Tonemapping.bright.filmic.B                                             0.3
+Tonemapping.bright.filmic.C                                             0.10
+Tonemapping.bright.filmic.D                                             0.2
+Tonemapping.bright.filmic.E                                             0.01
+Tonemapping.bright.filmic.F                                             0.3
+Tonemapping.bright.filmic.W                                            11.2
+Tonemapping.bright.filmic.W.HDR                                        1.0
+
+Tonemapping.bright.filmic.exposure	-5.0
+
+Tonemapping.dark.filmic.A                                                0.22
+Tonemapping.dark.filmic.B                                                0.3
+Tonemapping.dark.filmic.C                                                0.10
+Tonemapping.dark.filmic.D                                                0.2
+Tonemapping.dark.filmic.E                                0.0
+Tonemapping.dark.filmic.F                                0.3
+Tonemapping.dark.filmic.W                                               11.20
+Tonemapping.dark.filmic.W.HDR                                           1.0
+
+Tonemapping.dark.filmic.exposure		-2.5
+
+
+# Exposure
+Exposure.curve.scale	                    -1.15
+Exposure.curve.verticalOffset	            6.9
+Exposure.curve.horizontalOffset	            0
+Exposure.curve.bending                      0
+Exposure.curve.blend.scale	                -1.5
+Exposure.curve.blend.verticalOffset	        15
+Exposure.curve.blend.horizontalOffset	        0
+Exposure.curve.blend.bending                    0
+Exposure.curve.perPixel.scale	            -1.15
+Exposure.curve.perPixel.verticalOffset	    6.9
+Exposure.curve.perPixel.horizontalOffset    0
+Exposure.curve.perPixel.bending	            0
+
+Exposure.Compression.Override 0
+Exposure.Compression.Override.Value 16.0
+Exposure.Compression.Min 1.0
+Exposure.Compression.Max 256.0
+Exposure.Compression.Min.Luminance 0.1
+Exposure.Compression.Max.Luminance 300.0
+
+Exposure.KeyValueMode.Enabled 		0.0
+
+# Spot meter
+SpotMeter.PortalAdaption.CosineThreshold 0.8 # a cosine of 0 means totally perpendicular, a cosine of 1 means totally aligned.
+SpotMeter.AimingBlendInTimeMs  300.0
+SpotMeter.AimingBlendOutTimeMs 1000.0
+SpotMeter.FastModeMinSpeedMph 15.0
+SpotMeter.FastModeMaxSpeedMph 70.0
+SpotMeter.FastModeAttackTime 0.08
+SpotMeter.FastModeReleaseTime 0.25
+
+# Adaptation
+Adaptation.min.step.size 	0.01
+Adaptation.max.step.size 	100
+Adaptation.step.size.mult 	0.65
+Adaptation.threshold 		0.0
+
+# Threat indicators
+ThreatIndicators.RingDiameter      0.8
+ThreatIndicators.StrokeThicknessPx 12.0
+
+# TEMP Settings  ------------------------------
+
+# Exposure
+TEMP.Exposure.curve.scale	5.17
+TEMP.Exposure.curve.power	-0.83
+TEMP.Exposure.curve.offset	-10
+
+# Adaptation
+TEMP.Adaptation.min.step.size 	0.15
+TEMP.Adaptation.max.step.size 	3.0
+TEMP.Adaptation.step.size.mult 	1.5
+TEMP.Adaptation.threshold 		0.0
+TEMP.Adaptation.sun.exposure.tweak	-2.0
+
+# Terrain
+TEMP.Terrain.materailA.lookup	0.0
+
+
+#----------------------------------------------------
+
+
+# Cloud speeds
+cloud.speed.hats	1.0
+
+# lod fade distances
+lod.fadedist.orphanhd	20.0
+lod.fadedist.hd			20.0
+lod.fadedist.lod		20.0
+lod.fadedist.slod1		20.0
+lod.fadedist.slod2		25.0
+lod.fadedist.slod3		25.0
+lod.fadedist.slod4		25.0
+
+# Directional ambient adjust
+directional.ambient.exposure.adjust.min		1.0
+directional.ambient.exposure.adjust.mult	3.0
+
+// Natural ambient adjust
+natural.ambient.exposure.adjust.min		0.5
+natural.ambient.exposure.adjust.max		1.5
+
+// Rim lighting
+rim.lighting.width.start					0.3
+rim.lighting.width.end						0.9
+rim.lighting.transition.angle				0.0
+rim.lighting.downmask.angle					0.3
+rim.lighting.main.colour.intensity			1.0
+rim.lighting.offangle.colour.intensity		0.3
+
+// Reflection tweaks
+reflection.tweaks.interior.artificial.boost	2.0
+reflection.tweaks.exterior.artificial.boost	2.0
+reflection.tweaks.emissive.boost			5.0
+reflection.treeClipPlaneDist				2.5
+
+// Light component cutoff
+lights.cutoff.distance					1000.0
+lights.cutoff.shadow.distance			1001.0
+lights.cutoff.specular.distance			1002.0
+lights.cutoff.volumetric.distance		1003.0
+lights.cutoff.nonGbuf.distance			75.0
+lights.cutoff.nonGbuf.falloffThreshold	75.0
+lights.cutoff.map.distance				1004.0
+
+lights.ssao.distance.start				0.0
+lights.ssao.distance.end				1000.0
+lights.ssao.distance.start.str			0.0
+lights.ssao.distance.end.str			0.0
+
+lights.screenshadow.raylength             0.1
+lights.screenshadow.farrayclampdistance	  1.5f
+lights.screenshadow.cutoff                0.05
+lights.screenshadow.noldist               80.0
+lights.screenshadow.wraplightingdepthbias 0.035
+lights.screenshadow.translucentcutoff     0.05
+lights.screenshadow.translucentopacity    0.5
+lights.screenshadow.thicknessWithSmap	  0.09
+lights.screenshadow.opaqueOpacity		  0.8
+
+lights.anim.candle.intensityfreq 0.6661
+lights.anim.candle.positionfreqx 1.0980
+lights.anim.candle.positionfreqy 1.2140
+lights.anim.candle.positionfreqz 1.2980
+lights.anim.candle.positionoffxy 0.0005
+lights.anim.candle.positionoffz  0.0030
+
+lights.anim.fire.intensityfreq 0.6661
+lights.anim.fire.positionfreqx 1.0980
+lights.anim.fire.positionfreqy 1.2140
+lights.anim.fire.positionfreqz 1.2980
+lights.anim.fire.positionoffxy 0.0005
+lights.anim.fire.positionoffz  0.0030
+
+lights.degradationAnimationTimeMultiplier = 5.0
+
+// Light volume global scalar
+lights.volume.scalar					1000.0f
+
+lights.volume.phasefunction.enable					1.0
+lights.volume.phasefunction.spot.anisotropy			0.65
+lights.volume.phasefunction.spot.minimum			0.3
+lights.volume.phasefunction.point.anisotropy		0.65
+lights.volume.phasefunction.point.minimum			0.3
+
+lights.retroreflect.color.red	1.0
+lights.retroreflect.color.green 1.0
+lights.retroreflect.color.blue	1.0
+lights.retroreflect.intensity	1000.0f
+lights.retroreflect.emissiveMult	0.0f
+
+// Light resizing
+lights.shrink.step 0.075f
+
+// Local lights.
+lights.localLights.portalCullingAreaSizeThreshold 0.45
+
+// local shadow fade
+// enable commented out until feature removed from shadowsupcomingfeatures commandline
+# lights.globalshadowfadescreenspace.enable 		 0
+# lights.globaldynamicshadowfadescreenspace.enable 	 0
+lights.globalshadowfadescreenspace.fadeAtDiameter 	 0.225
+lights.globaldynamicshadowfadescreenspace.fadeAtDiameter 0.45
+lights.globalshadowfadescreenspace.interior.fadeAtDiameter 	 0.55
+lights.globaldynamicshadowfadescreenspace.interior.fadeAtDiameter 0.9
+
+// UV Party Mode
+lights.uvPartyMode.lightColor.red 	0.004
+lights.uvPartyMode.lightColor.green 0.04
+lights.uvPartyMode.lightColor.blue 	1.00
+lights.uvPartymode.uvIntensity		3.0
+
+// Shadow Mask
+shadowmask.advancedcullplanes.startAngle 100
+shadowmask.advancedcullplanes.endAngle   110
+
+// Light Sensor
+lightsensor.bias					50.0
+lightsensor.gain					-0.4
+lightsensor.useRemappedGain			1.0
+lightsensor.irradianceThreshold		2200.0
+lightsensor.ignorePhoneSpotmeter 	1.0
+lightsensor.responseLatency         4
+lightsensor.minOutputIntensity      0.0002
+lightsensor.maxOutputIntensity      2.2
+
+// Bloom
+bloom.threshold.min					0.4
+bloom.threshold.power				1.0
+
+bloom.threshold.expsoure.diff.min	0.0
+bloom.threshold.expsoure.diff.max	1.1
+
+bloom.blurblendmult.large	5.0
+bloom.blurblendmult.med		0.645
+bloom.blurblendmult.small	0.630
+
+bloom.airy.enable 			1.0
+bloom.airy.downsampledInput 0.0
+bloom.airy.weight2			0.712
+bloom.airy.weight4			0.588
+bloom.airy.weight8			0.449
+bloom.airy.weight16			0.384
+bloom.airy.weight32			0.345
+bloom.airy.weight64			0.325
+bloom.airy.weight128		0.319
+bloom.airy.weight256		0.317
+
+bloom.airy.colour2.red 		1.0
+bloom.airy.colour2.green	1.0
+bloom.airy.colour2.blue		1.0
+bloom.airy.colour4.red 		1.0
+bloom.airy.colour4.green	1.0
+bloom.airy.colour4.blue		1.0
+bloom.airy.colour8.red 		1.0
+bloom.airy.colour8.green	1.0
+bloom.airy.colour8.blue		1.0
+bloom.airy.colour16.red 	1.0
+bloom.airy.colour16.green	1.0
+bloom.airy.colour16.blue	1.0
+bloom.airy.colour32.red 	1.0
+bloom.airy.colour32.green	1.0
+bloom.airy.colour32.blue	1.0
+bloom.airy.colour64.red 	1.0
+bloom.airy.colour64.green	1.0
+bloom.airy.colour64.blue	1.0
+bloom.airy.colour128.red 	1.0
+bloom.airy.colour128.green	1.0
+bloom.airy.colour128.blue	1.0
+bloom.airy.colour256.red 	1.0
+bloom.airy.colour256.green	1.0
+bloom.airy.colour256.blue	1.0
+
+fxaa.forceDisable								1.0
+
+temporalaa.convergenceTime 						0.15
+temporalaa.responsiveConvergenceTime 			0.1
+
+temporalaa.convergenceTimeDepthMin 				0.0
+temporalaa.convergenceTimeDepthMax				250.0
+temporalaa.convergenceTimeFar					1.0
+
+temporalaa.convergenceTimeForwardSpeedMin		0.0
+temporalaa.convergenceTimeForwardSpeedMax		0.1
+temporalaa.convergenceTimeForward				0.2
+
+temporalaa.waterConvergenceTime                 0.05
+temporalaa.waterConvergenceTimeFar              0.35
+temporalaa.waterBlendDepthMin					3.0
+temporalaa.waterBlendDepthMax					150.0
+
+temporalaa.enableFilter.screenSpaceShadows      1.0
+
+temporalaa.exposureScale						1.0
+temporalaa.exposureOffset						0.0
+
+temporalaa.forceResponsiveVegetation			1.0
+
+temporalaa.varianceGammaMin			1.25
+temporalaa.varianceGammaMax			1.25
+temporalaa.varianceGammaResponsive	0.9
+temporalaa.varianceVelocityMax		0.003
+temporalaa.varianceGammaLumScale	0.5
+temporalaa.varianceAntiFlickerLumMin	0.3
+temporalaa.varianceAntiFlickerLumMax	0.4
+
+sharpen.intensity 								0.15
+sharpen.upsample.intensity							0.1
+
+// Minimap alpha
+UI.minimap.alpha				0.8
+
+// Puddles
+puddles.scale 					0.01
+puddles.range 					0.0
+puddles.depth					0.6
+puddles.depthtest				0.200
+puddles.reflectivity			1.0
+puddles.strength				0.5
+puddles.animspeed				30.
+puddles.ripples.minsize			0.008
+puddles.ripples.maxsize			0.03
+puddles.ripples.speed			7
+puddles.ripples.minduration		4.0
+puddles.ripples.maxduration		10.0
+puddles.ripples.windstrength	0.02
+puddles.ripples.windBumpUVScale 1.0
+puddles.ripples.ripplestrength	0.3
+puddles.ripples.winddamping		0.05
+puddles.ripples.playerspeed		5.0
+puddles.ripples.playermapsize	15
+puddles.ripples.playerRippleSize 0.005
+puddles.ripples.playerRippleLifetime 20.0
+
+puddles.ripples.vehiclemapsize 40.0
+puddles.ripples.vehicleRippleSize 0.00065
+puddles.ripples.vehicleRippleLifetime 25.0
+puddles.ripples.vehicleRippleVelocity 25.0
+
+// LOD lights
+lodlight.ssaoStrength			1.5
+lodlight.ssaoStrengthOffset		0.5
+
+lodlight.small.range			500.0
+lodlight.medium.range			1500.0
+lodlight.large.range			3500.0
+
+lodlight.small.fadeout			100.0
+lodlight.medium.fadeout			100.0
+lodlight.large.fadeout			150.0
+
+lodlight.distant.interior.range		0.0
+lodlight.distant.small.range		3000.0
+lodlight.distant.medium.range	    6500.0
+lodlight.distant.large.range		10000.0
+
+lodlight.distant.small.fadeNear 30
+lodlight.distant.small.fadeFar 37
+
+lodlight.distant.medium.fadeNear 37
+lodlight.distant.medium.fadeFar 100
+
+lodlight.distant.large.fadeNear 70
+lodlight.distant.large.fadeFar 150
+
+lodlight.omnishadowocclusionthreshold 0.25
+lodlight.omnishadowopacity 0.9
+lodlight.directionalshadowocclusionthreshold 0.75
+lodlight.directionalshadowopacity 1.0
+
+vehicle.dirt.maxBuildupMultiplier	4
+
+// Horizon Vehicle Light
+horizonvehiclelight.headlightColor1_r	0.97
+horizonvehiclelight.headlightColor1_g	0.98
+horizonvehiclelight.headlightColor1_b	0.95
+horizonvehiclelight.headlightColor2_r	0.92
+horizonvehiclelight.headlightColor2_g	0.83
+horizonvehiclelight.headlightColor2_b	0.18
+horizonvehiclelight.taillightColor_r	0.96
+horizonvehiclelight.taillightColor_g	0.08
+horizonvehiclelight.taillightColor_b	0.0
+horizonvehiclelight.emissiveMult		3.0
+horizonvehiclelight.quadSize			1.5
+horizonvehiclelight.tailnessBias		0.3
+
+// Vehicle lights
+vehicle.lights.useClusterLights 1.0
+vehicle.lights.clusterFalloffMultiplier 0.01
+
+vehicle.lights.maxLodLightDistance 200.0
+
+vehicle.lights.usePlayerArchetypeGroupTCs 1
+
+vehicle.lights.useGroundPlane 1
+vehicle.lights.groundPlaneOffset 0.1
+vehicle.lights.groundPlaneViewScale 0.25
+vehicle.lights.groundPlaneViewMax 0.25
+vehicle.lights.distantTrafficGroundPlaneOffset 2.0
+vehicle.lights.roadBoundaryMaxSearchDistance 10.0
+vehicle.lights.roadBoundarySearchBias 0.1
+vehicle.lights.roadBoundaryBeyondThreshold 3.0
+vehicle.lights.roadBoundaryOffsetMultiplier 3.0
+vehicle.lights.groundPlaneFade 0.12
+
+vehicle.lights.disableThrowAboveHeight 1
+vehicle.lights.disableThrowAboveHeightThreshold 1.5
+vehicle.lights.disableThrowAboveHeightFade 1.0
+
+vehicle.lights.disableThrowAboveAngle 0
+vehicle.lights.disableThrowAboveAngleThreshold 0
+vehicle.lights.disableThrowAboveAngleFade 10
+
+vehicle.lights.daytimeFalloffMultiplier 1.0
+
+vehicle.lights.playerHeadlightMultiplier 3.5
+
+vehicle.lights.frontTrafficFallOffAdjustment 0.0
+vehicle.lights.rearTrafficFallOffAdjustment 0.0
+
+vehicle.lights.useEmissiveAreaNormalization 1
+vehicle.lights.emissiveAreaNormalizationScale 10.0
+
+vehicle.lights.proceduralCoronas.sizeBias 0.0
+vehicle.lights.proceduralCoronas.sizeScale 1.0
+vehicle.lights.proceduralCoronas.intensityBias 0.0
+vehicle.lights.proceduralCoronas.intensityScale 1.0
+
+vehicle.lights.proceduralCoronas.diodes.fadeInStart 0.3
+vehicle.lights.proceduralCoronas.diodes.fadeInEnd 5.0
+
+vehicle.lights.proceduralCoronas.area.fadeInStart 6.0
+vehicle.lights.proceduralCoronas.area.fadeInEnd 25.0
+
+vehicle.lights.degradationAnimationTimeMultiplier 5.0
+
+vehicle.lights.usingAutoHeadlightsProb 0.7
+vehicle.lights.manuallyTurnOnHeadlightsInTunnelProb 0.5
+vehicle.lights.maxAnimActivationDelay 1.0
+vehicle.lights.nighttimeMaxSunThreshold 6.0
+vehicle.lights.nighttimeMinSunThreshold -2.0
+
+vehicle.lights.openDoorAutoShutdownTimer 60.0
+
+vehicle.lights.ambientLightHighbeamThreshold 0.13
+vehicle.lights.autoHighbeamTrafficVisAngle 0.96
+vehicle.lights.autoHighbeamMaxTrafficDistance 180
+
+vehicle.lights.autoHighbeamIlluminanceHighThreshold 0.25
+vehicle.lights.autoHighbeamIlluminanceLowThreshold 0.02
+
+vehicle.lights.UseTwinLightOptimizations	0
+vehicle.lights.fadeDistance.main		300.0
+vehicle.lights.fadeDistance.secondary	40.0
+vehicle.lights.fadeDistance.sirens	150.0
+vehicle.lights.fadeDistance.neon	80.0
+vehicle.lights.fadeLength	10.0
+vehicle.lights.glassdamagerange 0.2
+vehicle.lights.interiorFadeTime 2.0
+vehicle.lights.interiorFadeScale 0.1
+vehicle.lights.interiorFadeBias 0.0
+vehicle.lights.reflector.roughnessModifier 0.25
+
+vehicle.lights.infiniteRR.intensityMultiplier 0.1
+vehicle.lights.infiniteRR.nearbyTrafficForwardDistCutoff 10.0
+vehicle.lights.infiniteRR.nearbyTrafficSideDistCutoff 5.0
+vehicle.lights.infiniteRR.nearbyTrafficUpDistCutoff 5.0
+
+vehicle.lights.useMultiDiodeReflectors 1.0
+vehicle.lights.distributeMultiDiodeReflectorEnergy 1.0
+
+// Vehicle wheel mud growth rate
+vehicle.wheelmud.growth.hard		0.25
+vehicle.wheelmud.growth.soft		0.5
+vehicle.wheelmud.growth.deep		1.0
+vehicle.wheelmud.growth.snowLoose	1.0
+vehicle.wheelmud.growth.snowCompact	0.25
+
+// negative mud growth rate
+vehicle.wheelmud.growth.noneMud		-0.05
+vehicle.wheelmud.growth.noneSnow	-0.5
+
+vehicle.wheelmud.vertPushScale.hard			0.015
+vehicle.wheelmud.vertPushScale.soft			0.015
+vehicle.wheelmud.vertPushScale.deep			0.015
+vehicle.wheelmud.vertPushScale.snowLoose	0.015
+vehicle.wheelmud.vertPushScale.snowCompact	0.015
+
+vehicle.weather.minDrySpeed		0.001
+vehicle.weather.maxDrySpeed		0.01
+vehicle.weather.minDryTemp		15
+vehicle.weather.maxDryTemp		30
+vehicle.weather.minMeltSpeed	0.0
+vehicle.weather.maxMeltSpeed	0.01
+vehicle.weather.minMeltTemp		0.0
+vehicle.weather.maxMeltTemp		15.0
+
+//Vehicle snow settings
+vehicle.snow.alphaChannel 2
+vehicle.snow.fallOffAngle 1.0
+vehicle.snow.fallOffBase 0.0
+vehicle.snow.alphaCutoff 0.0
+vehicle.snow.alphaCurve 1.0
+
+vehicle.snow.thresholdStartPosition 0.0
+vehicle.snow.thresholdEndPosition 1.0
+vehicle.snow.thresholdStartValue 1.0
+vehicle.snow.thresholdEndValue 1.0
+
+vehicle.fastWheelShadowDist  50.0
+
+// weapon lights
+weapon.lights.staticShadowMap.maxCount 8.0
+weapon.lights.staticShadowMap.distanceThreshold 20.0
+weapon.lights.falloff.blendStartDist 20.0
+weapon.lights.falloff.blendEndDist 22.0
+weapon.lights.falloff.ambientMultiplier 0.5
+
+//Particle Shadow intensity
+particles.shadowintensity		0.5
+particles.alphaAdditiveLuminanceMin 0.0
+particles.alphaAdditiveLuminanceMax 2.0
+
+// Fire
+fire.maxEntityFireBrokenFrags		15.0
+fire.attemptToBreakFragIntervalInMs	33.0
+fire.attemptsToBreakFragPerInterval 2
+fire.attemptToBreakFragChance		0.5
+fire.mapFireSnowLuminanceThresholdLow	0.7
+fire.mapFireSnowLuminanceThresholdHigh	0.8
+
+// Ped light
+ped.light.direction.x			-0.714
+ped.light.direction.y			-0.499
+ped.light.direction.z			-0.490
+
+ped.light.fade.day.start		5.99
+ped.light.fade.day.end			6.0
+
+ped.light.fade.night.start		19.99
+ped.light.fade.night.end		20.0
+
+ped.light.wrap.distance			50.0
+ped.light.wrap.min				0.2
+ped.light.wrap.max				1.0
+ped.light.roughness.min			0.65
+
+ped.light.roughness.threshold	0.0
+ped.light.amb.intensity			1.0
+ped.light.refsamp.intensity		0.0
+ped.light.refsamp.roughness		1.0
+
+// adjustments when player is carrying a torch/lantern
+player.lantern.falloff.nearest.light.dist.min	20.0
+player.lantern.falloff.nearest.light.dist.max	50.0
+player.lantern.falloff.maxscale					3.0
+player.lantern.falloff.approach					2.0
+player.lantern.mod.approach						5.0
+
+// ped light dir based axis
+// 1 - world axis based Z
+// 0 - camera based xyz
+ped.light0.direction.basedaxis	0.0
+ped.light1.direction.basedaxis	0.0
+ped.light2.direction.basedaxis	0.0
+ped.light3.direction.basedaxis	0.0
+
+//ped phone light properties
+ped.phonelight.color.r			1.0
+ped.phonelight.color.g			1.0
+ped.phonelight.color.b			1.0
+ped.phonelight.intensity		4.0
+ped.phonelight.radius			0.9
+ped.phonelight.falloffexp		15.0
+ped.phonelight.cone.inner		0.0
+ped.phonelight.cone.outer		90.0
+
+//Adaptive DOF
+adaptivedof.exposureMin				-2.5
+adaptivedof.exposureMax				2.5
+
+occlusion.primeZ.enabled					0.0
+occlusion.gbufferTestBias					0.00002
+occlusion.shadowTestBias					0.0001
+
+// This setting controls whether traditional shadow occlusion is expected to be enabled by default.
+// TimeCycles will still override this value, and we will still test the projected shadow against the
+// gbuf occlusion buffer even if traditional shadow occlusion is disabled
+occlusion.defaultTraditionalShadowOcclusion	0.0
+
+ssdo.obscurance_normalizer_exterior		1.6
+ssdo.obscurance_normalizer_interior		1.6
+ssdo.obscurance_radius_min				0.05
+ssdo.obscurance_radius_max				0.5
+ssdo.local_light_ao_intensity_exterior	1.0
+ssdo.local_light_ao_intensity_interior	0.85
+ssdo.screen_space_width_min				0.02
+ssdo.screen_space_width_max				0.1
+ssdo.reflection_occlusion_strength		8.0
+ssdo.reflection_occlusion_bias			0.08
+ssdo.upscale_dither_radius				4.0
+ssdo.temporal_blend_taa_on				0.8
+ssdo.temporal_blend_taa_off				0.95
+
+ambientmap.skyProbeClassification		1.0
+ambientmap.bounceConeAngle				1.0
+
+puddlemap.bounding.radius		25.0
+
+bloodflow.exertionmin                  0.7
+bloodflow.exertionmax				   1.0
+
+bloodflow.blushcontrol.temperature.min	35.0
+bloodflow.blushcontrol.temperature.max	45.0
+bloodflow.blushcontrol.exertion.min		0.7
+bloodflow.blushcontrol.exertion.max		1.0
+bloodflow.blushcontrol.rate.increase	1.0
+bloodflow.blushcontrol.rate.decrease	0.01
+bloodflow.blushcontrol.scale			0.5
+
+#ped fur
+pedfur.layerShadowMin					0.2
+pedfur.minLayers					2.0
+pedfur.maxLayers					20.0
+pedfur.length						0.05
+pedfur.lengthJitter					1.0
+pedfur.finLengthAdjustment				1.0
+pedfur.shellOpacityAdjustment       1.0
+pedfur.finOpacityAdjustment				1.0
+pedfur.stiffness					0.6
+pedfur.perVtxStiffness					0.0
+pedfur.perVtxScriptedStiffness			0.0
+pedfur.perVtxHacklesStiffness			0.0
+pedfur.dirtStiffness					0.0
+pedfur.wetStiffness					0.0
+pedfur.lodDist						23.0
+pedfur.defaultFOVY					50.0
+pedfur.attenuationCoeffSquared			1.21
+pedfur.attenuationCoeffLinear			-0.22
+pedfur.attenuationCoeffConstant 		0.0
+pedfur.gravityWindBlend					0.0
+pedfur.noiseUVScale					2.0
+pedfur.aoBlend						1.0
+pedfur.aoFurDepth					0.0
+pedfur.baseTranslucencyAdj				0.0
+pedfur.tipTranslucencyAdj				0.0
+pedfur.maskUsingBlueTint				0.0
+pedfur.enableFurCloseUpOpt      1.0
+
+#fur fin
+furFin.shellLayerStart			0.19
+furFin.shellCompression			0.40
+furFin.finStartPosition			0.10
+furFin.finLayerInc			    3.00
+furFin.finCompression			0.50
+furFin.finLayerCompensation		0.85
+furFin.finFurBlur               0.0
+furFin.shellFurBlur             0.05
+furFin.newAlpha                 0.0
+furFin.newFurSoften             0.0
+furFin.newFurFluffUp            0.0
+
+nearCameraFade.enabled                      1.0
+nearCameraFade.depthMin                     0.0
+nearCameraFade.depthMax                     0.5
+nearCameraFade.static.depthMin              0.15
+nearCameraFade.static.depthMax              0.2
+nearCameraFade.static.motionThreshold       0.02
+nearCameraFade.static.adaptionRate          1.0
+nearCameraFade.lookingGlass.depthMin        2.0
+nearCameraFade.lookingGlass.depthMax        3.0
+nearCameraFade.lookingGlass.static.depthMin 2.0
+nearCameraFade.lookingGlass.static.depthMax 2.5
+
+# RenderListBuilder - Settings that affect how we build render lists
+renderListBuilder.renderTerrainAfterCutout	1.0
+
+# tiled lighting
+tiledlighting.enabled.x64 					0
+
+# direct light fade controls
+misc.SunFade.Threshold						100
+misc.SunFade.ThresholdLength				10
+misc.MoonFade.Threshold						100
+misc.MoonFade.ThresholdLength				5
+
+# Screen shadow near
+screenshadownear.numsamplesmin		32
+screenshadownear.numsamplesmax		32
+screenshadownear.raylengthmin			.10
+screenshadownear.raylengthmax			.10
+screenshadownear.opacitymin		 	0.25
+screenshadownear.opacitymax	       	0.25
+screenshadownear.cutoff				0.0225
+screenshadownear.translucentcutoff       0.015
+screenshadownear.translucentopacity      0.25
+
+# Screen shadow far
+screenshadowfar.numsamplesmin		32
+screenshadowfar.numsamplesmax		32
+screenshadowfar.raylengthmin		0.075
+screenshadowfar.raylengthmax		0.075
+screenshadowfar.opacitymin		    0.9
+screenshadowfar.opacitymax		    0.9
+screenshadowfar.cutoff			    0.023
+screenshadowfar.translucentcutoff       	    0.025
+screenshadowfar.translucentopacity      	    0.95
+
+# Screen shadow rtfar
+screenshadowrtfar.numsamplesmin		32
+screenshadowrtfar.numsamplesmax		32
+screenshadowrtfar.raylengthmin		0.075
+screenshadowrtfar.raylengthmax		0.075
+screenshadowrtfar.opacitymin		    0.65
+screenshadowrtfar.opacitymax		    0.65
+screenshadowrtfar.cutoff			    0.0125
+screenshadowrtfar.translucentcutoff       	    0.010
+screenshadowrtfar.translucentopacity      	    0.4
+
+# Screen shadow ped
+screenshadowped.numsamplesmin		12
+screenshadowped.numsamplesmax		12
+screenshadowped.raylengthmin		.035
+screenshadowped.raylengthmax		.17
+screenshadowped.opacitymin		    0.5
+screenshadowped.opacitymax		    0.5
+screenshadowped.cutoff			    0.075
+screenshadowped.translucentcutoff       	    0.075
+screenshadowped.translucentopacity      	    0.5
+
+#move to nearer cascade fade out range
+screenshadow.NearFarDist                    500.0     ## keep in sync with the Tree/Instance List BVH Radius 
+screenshadow.FarDist						600.0
+screenshadow.NoLDist	                    150.0
+screenshadow.opaqueopacity		    		0.5
+screenshadow.AirFarRayLength				0.25
+
+worldheightshadow.numsamplesmin             1
+worldheightshadow.raylengthmin              50.0
+worldheightshadow.numsamplesmax             8
+worldheightshadow.raylengthmax              400.0
+worldheightshadow.errorScale                64.0
+worldheightshadow.errorBias                 0.011f
+
+// cascade shadow
+cascadeshadows.maxCascades                  4.0
+cascadeshadows.edgeFilterScale		    	3.0
+cascadeshadows.shaderSlopeBiasFactor		.045
+cascadeshadows.earlyOutTexelSizeRatioThreshold 1.4
+
+// cascade shadow - entity tracker
+cascadeshadow.entitytracker.pushamt			2.2
+cascadeshadow.entitytracker.extendedlastcascadescale	1.75
+cascadeshadow.entitytracker.aircraftexpweight		0.99
+cascadeshadow.entitytracker.maxradius			25.0
+cascadeshadow.entitytracker.lookatrangetightenfactor	0.8
+cascadeshadow.entitytracker.lookatrangetightenfactorped	1.4
+cascadeshadow.entitytracker.focalobjectblend		1.0
+cascadeshadow.entitytracker.dynamicrange		0.01
+cascadeshadow.entitytracker.dynamicquant		0.005
+cascadeshadow.entitytracker.transitionblend		0.1
+
+# minv maxv applymin applymax
+# cascadeshadow.entitytracker.extendradius	2.5 1.08 1.2 5.0
+cascadeshadow.entitytracker.extendradius.minv		2.95
+cascadeshadow.entitytracker.extendradius.maxv		1.0
+cascadeshadow.entitytracker.extendradius.applymin	1.2
+cascadeshadow.entitytracker.extendradius.applymax	5.0
+
+# minv maxv applymin applymax
+# cascadeshadow.entitytracker.extendcascadecar	1.0 1.5 1.2 8.0
+cascadeshadow.entitytracker.extendcascadecar.minv	0.9
+cascadeshadow.entitytracker.extendcascadecar.maxv	1.5
+cascadeshadow.entitytracker.extendcascadecar.applymin	1.2
+cascadeshadow.entitytracker.extendcascadecar.applymax	7.0
+
+# minv maxv applymin applymax
+# cascadeshadow.entitytracker.extendcascade	5.0 6.0 5.0 8.0
+cascadeshadow.entitytracker.extendcascade.minv		5.0
+cascadeshadow.entitytracker.extendcascade.maxv		6.0
+cascadeshadow.entitytracker.extendcascade.applymin	5.0
+cascadeshadow.entitytracker.extendcascade.applymax	8.0
+
+# minv maxv applymin applymax
+# cascadeshadow.entitytracker.splitzexpweight
+cascadeshadow.entitytracker.splitzexpweight.minv	0.96
+cascadeshadow.entitytracker.splitzexpweight.maxv	0.86
+cascadeshadow.entitytracker.splitzexpweight.applymin	1.2
+cascadeshadow.entitytracker.splitzexpweight.applymax	4.0
+
+#sniperscope
+cascadeshadow.entitytracker.sniperscope.nearplanesize		1.7
+cascadeshadow.entitytracker.sniperscope.maxdistance		450.0
+cascadeshadow.entitytracker.sniperscope.samplerange		.35
+cascadeshadow.entitytracker.sniperscope.smoothamount		.025
+cascadeshadow.entitytracker.sniperscope.expweight		.93
+
+#softshadows
+cascadeshadow.softshadows.angularDiameterOfSun   		.53
+cascadeshadow.softshadows.angularDiameterFullyCloudCoveredSun   10.
+cascadeshadow.softshadows.maxDistance				30.
+cascadeshadow.softshadows.interiorsoftness			0.25
+
+#esm
+cascadeshadow.esm.enablefardepthrejection			1
+
+# local light shadow tuning
+localshadows.dynamicShadowFadeTime 				 		.5
+localshadows.dynamicShadowFadeHysteresis 		 		1.0
+localshadows.dynamicShadowFadePercentOfStaticFade 		0.6
+localshadows.lightSizeClampValue						1.0
+localshadows.lightSizeDisableBallotThreshold			0.25
+localshadows.shadowBlurMaxSize 							100
+
+shadowqualitycontrol.useDirectionalFade				0.0
+shadowqualitycontrol.exposureThreshold				0.075
+shadowqualitycontrol.nightDrivingMod.fadeDuration	1.
+shadowqualitycontrol.actionperformance.minWantedLevel				3
+shadowqualitycontrol.actionperformance.costUpperThreshold.high		0.5
+shadowqualitycontrol.actionperformance.costLowerThreshold.high		0.35
+shadowqualitycontrol.actionperformance.costUpperThreshold.low		0.4
+shadowqualitycontrol.actionperformance.costLowerThreshold.low		0.25
+shadowqualitycontrol.actionperformance.fadeApproachRate				0.1
+
+
+#Config values for ped sweat - ambient peds
+ped.sweat.ambient.min.temp 0.0
+ped.sweat.ambient.room.temp 22.0
+ped.sweat.ambient.max.temp 32.0
+ped.sweat.ambient.temp.mult 1.0
+ped.sweat.ambient.humidity.min 0.63
+ped.sweat.ambient.humidity.max 1.0
+ped.sweat.ambient.humidity.rate 0.005
+ped.sweat.ambient.wind.rate 0.01
+ped.sweat.ambient.wind.min 12.0
+ped.sweat.ambient.wind.max 25.0
+ped.sweat.ambient.decal.min 0.75
+ped.sweat.ambient.decal.timeIntervalMs 10000
+ped.sweat.ambient.decal.frameInterval 200
+ped.sweat.ambient.exertion.required 0.390
+ped.sweat.ambient.exertion.minIncrease 0.004
+ped.sweat.ambient.exertion.maxIncrease 0.020
+ped.sweat.ambient.exertion.minDecrease 0.0015
+ped.sweat.ambient.exertion.maxDecrease 0.01
+ped.sweat.ambient.stress.stealth.mult 0.7
+ped.sweat.ambient.stress.combat.mult 1.0
+ped.sweat.ambient.stress.rate 0.005
+ped.sweat.ambient.stress.max 0.8
+ped.sweat.ambient.rate 1.0f
+ped.sweat.ambient.sweatCap.humidity 0.5
+ped.sweat.ambient.sweatCap.temp 0.5
+ped.sweat.ambient.sweatCap.tempAndHumidity 0.85
+ped.sweat.ambient.sweatMult.maxReduction 0.35
+ped.sweat.ambient.schlubbyLawPed.sweatBoost 0.65
+
+#Config values for ped sweat - player / companion
+ped.sweat.player.min.temp 0.0
+ped.sweat.player.room.temp 25.0
+ped.sweat.player.max.temp 35.0
+ped.sweat.player.temp.mult 0.90
+ped.sweat.player.humidity.min 0.66
+ped.sweat.player.humidity.max 1.0
+ped.sweat.player.humidity.rate 0.005
+ped.sweat.player.wind.rate 0.01
+ped.sweat.player.wind.min 12.0
+ped.sweat.player.wind.max 25.0
+ped.sweat.player.decal.min 0.50
+ped.sweat.player.decal.timeIntervalMs 10000
+ped.sweat.player.decal.frameInterval 200
+ped.sweat.player.exertion.required 0.395
+ped.sweat.player.exertion.minIncrease 0.002
+ped.sweat.player.exertion.maxIncrease 0.010
+ped.sweat.player.exertion.minDecrease 0.0015
+ped.sweat.player.exertion.maxDecrease 0.01
+ped.sweat.player.stress.stealth.mult 0.7
+ped.sweat.player.stress.combat.mult 1.0
+ped.sweat.player.stress.rate 0.005
+ped.sweat.player.stress.max 0.8
+ped.sweat.player.rate 1.0f
+ped.sweat.player.sweatCap.humidity 0.5
+ped.sweat.player.sweatCap.temp 0.5
+ped.sweat.player.sweatCap.tempAndHumidity 0.75
+ped.sweat.player.sweatMult.maxReduction 0.0
+
+
+
+ped.sweat.nonskin.threshold 0.35
+ped.sweat.nonskin.scale 0.9
+ped.sweat.skin.threshold 0.0
+ped.sweat.skin.scale 1.0
+ped.sweat.skin.bakeReduce 0.3
+
+#Config values for in-water sweat (both player and horse)
+sweat.inwater.temp 10.0
+sweat.inwater.humidity 0.0
+
+wetness.skin.tiling 0.14
+wetness.skin.curve 1.15
+wetness.skin.min 0.1
+wetness.skin.max 1.3
+wetness.skin.layer.min 0.70
+wetness.skin.layer.max 0.95
+
+#Config values for ped drying rates based on temp
+ped.baseDrySpeed 0.025
+ped.dryRateMin 1.0
+ped.dryRateMinTemp 10.0
+ped.dryRateMax 1.0
+ped.dryRateMaxTemp 50.0
+ped.dryRateSweatScale 0.5
+
+ped.dirtWashMult 0.0
+#Changing the wetness control values here only changes them for bank builds, you will need to harass a programmer to do the following to get the changes into non-bank builds
+#Run the game and go to Weather/Wetness Modifiers/Wetness Control Values For Final Shaders
+#This will show the values that need to get put in the defines contained in shaderlib_shared.h
+
+#Wetness effects on pbr
+wetnesseffects.artificialAmbient.soakRangeShift 0.0
+wetnesseffects.artificialAmbient.soakRangeMult 1.0
+
+wetnesseffects.ped.skin.Bottom 0.0
+wetnesseffects.ped.skin.MidBottom 0.50
+wetnesseffects.ped.skin.MidTop 0.70
+wetnesseffects.ped.skin.Top 0.96
+wetnesseffects.ped.skin.RangeStart 0.0
+wetnesseffects.ped.skin.RangeEnd 0.7
+
+wetnesseffects.ped.hair.gloss.Bottom 0.7
+wetnesseffects.ped.hair.gloss.MidBottom 0.8
+wetnesseffects.ped.hair.gloss.MidTop 0.9
+wetnesseffects.ped.hair.gloss.Top 1.00
+wetnesseffects.ped.hair.gloss.RangeStart 0.0
+wetnesseffects.ped.hair.gloss.RangeEnd 1.0
+
+wetnesseffects.ped.garmentSkin.Bottom 0.0
+wetnesseffects.ped.garmentSkin.MidBottom 0.5
+wetnesseffects.ped.garmentSkin.MidTop 0.66
+wetnesseffects.ped.garmentSkin.Top 0.73
+wetnesseffects.ped.garmentSkin.RangeStart 0.1
+wetnesseffects.ped.garmentSkin.RangeEnd 0.85
+
+wetnesseffects.ped.nonSkin.Bottom 0.0
+wetnesseffects.ped.nonSkin.MidBottom 0.09
+wetnesseffects.ped.nonSkin.MidTop 0.20
+wetnesseffects.ped.nonSkin.Top 0.4
+wetnesseffects.ped.nonSkin.RangeStart 0.0
+wetnesseffects.ped.nonSkin.RangeEnd 1
+
+wetnesseffects.ped.nonSkin.darkenAlbedo.Bottom 0.0
+wetnesseffects.ped.nonSkin.darkenAlbedo.MidBottom 0.19
+wetnesseffects.ped.nonSkin.darkenAlbedo.MidTop 0.50
+wetnesseffects.ped.nonSkin.darkenAlbedo.Top 0.7
+wetnesseffects.ped.nonSkin.darkenAlbedo.RangeStart 0.0
+wetnesseffects.ped.nonSkin.darkenAlbedo.RangeEnd 0.4
+
+wetnesseffects.angleFromUpAffected 0.375
+wetnesseffects.angleFromUpAffected.SoakModifier 2.0
+
+// weathering
+weathering.wetness.puddle_height_min -0.5
+weathering.wetness.puddle_height_max 0.88
+weathering.wetness.puddle_height_fade 0.005
+weathering.wetness.puddle_ripple_height 0.1
+weathering.wetness.puddle_scattering_r 20
+weathering.wetness.puddle_scattering_g 20
+weathering.wetness.puddle_scattering_b 20
+weathering.wetness.puddle_absorbtion_r 40
+weathering.wetness.puddle_absorbtion_g 40
+weathering.wetness.puddle_absorbtion_b 40
+weathering.wetness.mud_puddle_intensity_scale 100.0
+weathering.wetness.wetness_height_influence_intensity 2.0
+weathering.wetness.height_influence_intensity_fadeDistance_start 10.0
+weathering.wetness.height_influence_intensity_fadeDistance_end 100.0
+weathering.wetness.crevice_threshold 0.25
+
+// Spatter accumulation
+weathering.wetness.spatter_threshold 0.2
+weathering.wetness.screen_space_spatter_reflection_normal_intensity 10.0
+weathering.wetness.non_alpha_spatter_reflection_normal_intensity 1.0
+weathering.wetness.alpha_spatter_reflection_normal_intensity 1.0
+weathering.wetness.alpha_spatter_refraction_normal_intensity 2.0
+weathering.wetness.spatter_accumulation_alpha_spatter_index_of_refraction 1.3
+weathering.wetness.spatter_accumulation_uv_scale 3.0
+weathering.wetness.spatter_accumulation_fade_distance 10.0
+weathering.wetness.spatter_roughness 0.25
+weathering.wetness.alpha_vertex_dryness_rescale_max 0.7
+
+weathering.wetness.rain_intensity_threshold_for_animated_spatter 0.1
+weathering.wetness.soak_condition_for_ambient_spatter_on_objects 0.6
+
+weathering.wetness.puddle_control_map_min_x -13312
+weathering.wetness.puddle_control_map_min_y -9728
+weathering.wetness.puddle_control_map_max_x 5120
+weathering.wetness.puddle_control_map_max_y 11264
+weathering.wetness.puddle_control_erosion_min -0.5
+weathering.wetness.puddle_control_erosion_max 1.0
+weathering.wetness.puddle_control_mult 1
+weathering.wetness.vertex_weight_puddle_influence 1
+weathering.wetness.soak_puddle_threshold 0.1
+weathering.wetness.terrain_wetness_reduction_slope_normal 0.0
+
+weathering.wetness.environment_tint_map_max_x 5120
+weathering.wetness.environment_tint_map_max_y 11264
+weathering.wetness.environment_tint_map_min_x -13312
+weathering.wetness.environment_tint_map_min_y -9728
+
+weathering.wetness.albedo_luminance_darkening_influence_min 0.35
+weathering.wetness.albedo_luminance_darkening_influence_max 0.65
+weathering.wetness.porosity_diffuse_influence_max 1.0
+weathering.wetness.porosity_specular_influence_min 0.8
+weathering.wetness.porosity_specular_influence_max 1.5
+weathering.wetness.roughness_to_porosity_min 0.3
+weathering.wetness.roughness_to_porosity_max 1.0
+weathering.wetness.reflectivity_to_porosity_scale 2.0
+
+weathering.wetness.wetness_diffuse_blend_rescale_min 0.0
+weathering.wetness.wetness_diffuse_blend_rescale_max 0.5
+weathering.wetness.wetness_specular_blend_rescale_min 0.15
+weathering.wetness.wetness_specular_blend_rescale_max 1.0
+
+weathering.wetness.garmentskintone.albedo_luminance_influence_min 0.0
+weathering.wetness.garmentskintone.albedo_luminance_influence_max 0.35
+weathering.wetness.garmentskintone.wetness_diffuse_blend_rescale_min 0.12
+weathering.wetness.garmentskintone.wetness_diffuse_blend_rescale_max 0.66
+
+weathering.wetness.alpha_wetness_value_increase_speed 0.2
+weathering.wetness.dynamic_alpha_wetness_value_decrease_speed 0.025
+weathering.wetness.static_alpha_wetness_value_decrease_speed 0.001
+
+// Vehicle environment wetness
+weathering.wetness.vehicle_wetness_evaporate_scale_max 0.5
+weathering.wetness.vehicle_wetness_evaporate_scale_min 0.3
+weathering.wetness.max_vehicle_wetness_accumulation_from_clouds 0.85
+weathering.wetness.vehicle_velocity_dryness_threshold_start 0.1
+weathering.wetness.windshield_wiper_dirt_fade_distance 40.0
+weathering.wetness.windshield_wiper_smudge_fade_distance 12.0
+
+// vertex painted wetness
+weathering.wetness.vertex_wetness_rescale_start 0.0
+weathering.wetness.vertex_wetness_rescale_end 1.0
+weathering.wetness.vertex_wetness_min_value 0.0
+weathering.wetness.vertex_wetness_max_value 1.2
+weathering.wetness.vertex_puddle_rescale_start 0.595
+weathering.wetness.vertex_puddle_rescale_end 1.0
+weathering.wetness.vertex_puddle_min_value 0.0
+weathering.wetness.vertex_puddle_max_value 1.0
+weathering.wetness.vertex_puddle_scale 0.8
+weathering.wetness.vertex_wetness_height_influence_scale 0.1
+weathering.wetness.vertex_puddle_height_influence_scale 0.1
+weathering.wetness.vertex_puddle_slope_range_normal 0.03
+weathering.wetness.vertex_puddle_slope_range_height 0.99
+weathering.puddle_slope_range_height_influence_intensity 0.95
+weathering.wetness.puddle_mask_slope_range_normal 0.997
+weathering.wetness.puddle_mask_slope_range_height 0.98
+weathering.wetness.dryness_edge_noise_uv_scale 0.075
+weathering.wetness.dryness_edge_noise_intensity 1.0
+
+//Dust
+weathering.dust.dust_intensity_vegetation_scale 1.5
+weathering.dust.dust_uv_scale 1.0
+
+//Weather particles
+weatherparticle.decal_radius_random_offset 0.01
+
+//  motion blur for third person view
+motionblur.MBTargetMinSpeed 0.1
+motionblur.MBTargetMaxSpeed 10.0
+motionblur.MBLowSpeedScale 1.0
+motionblur.MBHighSpeedScale 1.5
+motionblur.MBCameraRotMinSpeed 0.0
+motionblur.MBCameraRotMaxSpeed 5.0
+motionblur.MBLowCameraRotSpeedScale 1.0
+motionblur.MBHighCameraRotSpeedScale 0.3
+
+//  motion blur for First person view
+motionblur.fpv.MBTargetMinSpeed 0.1
+motionblur.fpv.MBTargetMaxSpeed 10.0
+motionblur.fpv.MBLowSpeedScale 1.0
+motionblur.fpv.MBHighSpeedScale 1.25
+motionblur.fpv.MBCameraRotMinSpeed 0.0
+motionblur.fpv.MBCameraRotMaxSpeed 5.0
+motionblur.fpv.MBLowCameraRotSpeedScale 0.75
+motionblur.fpv.MBHighCameraRotSpeedScale 0.3
+
+defaultmotionblur.enabled			1
+defaultmotionblur.strength			0.2
+defaultmotionblur.fpv.enabled		1
+defaultmotionblur.fpv.strength		0.2
+
+motionblur.MassiveBlurThreshold		330
+
+
+// water reflection
+waterreflection.renderinterior 1
+waterreflection.planar.other					0
+waterreflection.planar.ped						0
+waterreflection.planar.object					0
+waterreflection.planar.dummy_object				1
+waterreflection.planar.vehicle					0
+waterreflection.planar.animated_building		0
+waterreflection.planar.lolod_building			1
+waterreflection.planar.hilod_building			0
+waterreflection.planar.light					1
+waterreflection.planar.tree						0
+waterreflection.planar.instancelist				0
+
+// vfx
+vfx.tvPlaylistManager.disable 1.0
+vfx.pdecal.drawPoolSize 5000
+vfx.decal.culledInstTexLoadDist 10.0
+vfx.decal.culledInstTexLoadDistAnticipatedCamera 15.0
+
+
+# Terrain
+terrain.ApplyCavityBias     0.0
+terrain.CavityBiasLows      0.32
+terrain.CavityBiasLowMids   0.68
+terrain.CavityBiasHighMids  0.9
+terrain.CavityBiasHighs     0.95
+
+terrain.detail[0].roughness 	0.0
+terrain.detail[1].roughness 	0.0
+terrain.detail[2].roughness 	0.0
+terrain.detail[3].roughness	0.0
+terrain.detail[4].roughness	0.0
+terrain.detail[5].roughness	0.0
+terrain.detail[6].roughness	0.0
+terrain.detail[7].roughness	0.0
+terrain.detail[8].roughness	0.0
+terrain.detail[9].roughness	0.0
+terrain.detail[10].roughness	0.0
+terrain.detail[11].roughness	0.0
+terrain.detail[12].roughness	0.0
+terrain.detail[13].roughness	0.0
+terrain.detail[14].roughness	0.0
+terrain.detail[15].roughness	0.0
+
+terrain.approximate_vegetation.distance_min 0
+terrain.approximate_vegetation.distance_max 50
+terrain.approximate_vegetation.tile_coverage 400
+terrain.approximate_vegetation.pixel_coverage 32
+terrain.approximate_vegetation.noise_min 0.19
+terrain.approximate_vegetation.noise_max 0.2
+terrain.approximate_vegetation.noise_offset 0.1
+terrain.approximate_vegetation.normal_blend 0.25
+terrain.approximate_vegetation.normal_bumpiness 7.0
+terrain.approximate_vegetation.height_scale_min 0.2
+terrain.approximate_vegetation.height_scale_max 2.0
+terrain.approximate_vegetation.translucency_scale 0.1
+terrain.approximate_vegetation.roughness_scale 0.1
+terrain.approximate_vegetation.grass_mask_min 0.05
+terrain.approximate_vegetation.water_grass_mask 0.0
+terrain.approximate_vegetation.grass.distance_min 0.0
+terrain.approximate_vegetation.grass.distance_max 20.0
+terrain.approximate_vegetation.grass.opacity 1.0
+terrain.approximate_vegetation.grass.height 0.04
+terrain.approximate_vegetation.grass.tangent_normal_scale 25.0
+
+terrain.approximate_geometry.distance_min 125.0
+terrain.approximate_geometry.distance_max 225.0
+terrain.approximate_geometry.tile_coverage 1000.0
+terrain.approximate_geometry.pixel_coverage 16.0
+terrain.approximate_geometry.translucency_threshold 0.1
+terrain.approximate_geometry.detail_override 0.1
+
+terrain.vegetation_normal_view_bias.intensity 1.0
+terrain.vegetation_normal_view_bias.distance_min 50.0
+terrain.vegetation_normal_view_bias.distance_max 2000.0
+
+#used for oceans
+tessellation.water.heightBias -0.20
+tessellation.underwaterDistanceMultiplier.cameraAbove 0.1
+tessellation.underwaterDistanceMultiplier.cameraBelow 0.5
+
+#used for rivers
+tessellation.water.river.heightBias -0.20
+tessellation.river.underwaterDistanceMultiplier.cameraAbove 0.1
+tessellation.river.underwaterDistanceMultiplier.cameraBelow 0.5
+
+# HBO
+hbo.global_scaling_min 0.1
+hbo.global_scaling_max 2.0
+hbo.global_scaling_near_distance 10.0
+hbo.global_scaling_far_distance 200.0
+hbo.global_scaling_gain -0.1
+hbo.global_scaling_bias 0.75
+
+# scales for distance when using the scope / binocular / phone
+zoomedDistanceScale.hbo.min 1
+zoomedDistanceScale.hbo.max 4
+
+# ---------- push sphere : Use for ped pushing the grass (land) and lilies on the water
+# How far behind the player the grass will stay pushed down (and will gradually get push back up)
+pushSphere.pushSphereTailSize 			1.0
+# When idle the trail behind the player is set to its minimum (0 length).  This variable tell how fast the tail should grow when we start moving
+pushSphere.pushSphereTailGrowSpeed		0.25
+# When idle the trail behind the player is set to its minimum (0 length).  When we change direction abruptly, or we stop moving, the tail shrink to 0.
+#	This variable tell us how fast it will shring to 0
+pushSphere.pushSphereTailShrinkSpeed	1.0
+# When idle the grass under the ped can be pushed down.  This is telling us how much it should be pushed down
+# 	[0, 1]
+# 	0 = not push down at all
+#	1 = push down to its maximum
+pushSphere.pushSphereStrengthIdle		0.5
+# the tail brighness can be modified
+#	[0, 1]
+#	0 = change down to black
+#	1 = unchanged
+pushSphere.pushSphereDimColor			0.8
+# the grass is being pushed forward mostly.  This variable allow the grass to be push side way a little as well
+#	[0, 1]
+#	0 = no side push at all
+#	1 = max side push
+pushSphere.pushSphereStrengthSide		0.25
+
+# Final bump intensity result multipler (needs to be toned down on veg to avoid excessive lighting changes).
+water.windgustmap.floatingveg.multiplier				0.589
+# Multiplier for offsetting horizontal vert position by normal.
+water.windgustmap.floatingveg.vertoffsetbynormalfactor	0.5
+# River shader/mesh values applied to all floating veg.
+water.windgustmap.floatingveg.ripplescale				0.067
+water.windgustmap.floatingveg.bumpintensity				0.1569
+water.windgustmap.floatingveg.flowmapvalue				0.57
+water.windgustmap.roughnessprominence					20.0
+
+# Water local lights fade near and far.
+water.locallights.fadenear								13.0
+water.locallights.fadefar								16.0
+
+# Water_pool.fx
+water.water_pool.ripplescale.							0.13
+water.water_pool.ripplebumpiness						0.065
+water.pool.minWindSpeed                                 1.100981
+water.pool.maxWindSpeed                                 30
+water.pool.minSimScale                                  0.00300000003
+water.pool.maxSimScale                                  0.556296885
+
+# Ripple noise/variation.
+water.ripplevariation.noiserepeatsize1					18.0
+water.ripplevariation.noiserepeatsize2					19.0
+water.ripplevariation.tonemaplow						0.1
+water.ripplevariation.tonemaphigh						0.9
+water.ripplevariation.multiplierlow						0.5
+water.ripplevariation.multiplierhigh					1.8
+
+# Offset variation
+water.offsetvariation.tilesize							20.0
+water.offsetvariation.fadenear							20.0
+water.offsetvariation.fadefar							30.0
+
+# River bump mapping.
+water.bump.low.texturescale1							2.3
+water.bump.low.texturescale2							2.3
+water.bump.high.texturescale1							9.2
+water.bump.high.texturescale2							9.2
+water.bump.fadestart									50.0
+water.bump.fadeend										100.0
+
+# River foam.
+water.riverfoam.flowvectorscale							8.0
+water.riverfoam.depthfade.range							1.0
+water.riverfoam.depthfade.noisetexturespan				5.0
+water.riverfoam.depthfade.tonemaplower					0.290
+water.riverfoam.depthfade.tonemapupper					0.593
+
+# Water pollen layer.
+water.pollenlayer.texturespan							2.0
+water.pollenlayer.fadestart								150.0
+water.pollenlayer.fadeend								300.0
+water.pollenlayer.noise.texturespan						2.5
+water.pollenlayer.noise.scale							1.0
+
+water.esm_light_bleed_reduction							0.5
+
+# Water combined reflections.
+water.combinedreflections.temporalblend					0.98
+water.combinedreflections.jitterscale					0.0
+water.combinedreflections.confidence.ssr				1.0
+water.combinedreflections.confidence.reflmap			1.0
+water.combinedreflections.confidence.heightmap			1.0
+water.combinedreflections.confidence.planar				1.0
+water.combinedreflections.normalblend					1.0
+water.combinedreflections.normalblendmin				100.0
+water.combinedreflections.normalblendmax				200.0
+water.combinedreflections.reflmapblendmin				10
+water.combinedreflections.reflmapblendmax				20
+water.combinedreflections.planarblenddist				20
+water.combinedreflections.edgeblendx					0.95
+water.combinedreflections.edgeblendy					0.85
+water.combinedreflections.rippleintensity				0.1
+water.combinedreflections.oceannormalshiftdistancemin	200.0
+water.combinedreflections.oceannormalshiftdistancemax	300.0
+water.combinedreflections.interiorblendthreshold		0.9
+water.combinedreflections.depthconservationthreshold	10.0
+water.combinedreflections.depthconservationdistance		10.0
+
+# Water tessellation allowances for river sim (as % of sim rectangle).
+water.tessellation.allowance1over4						5.0
+water.tessellation.allowance1over2						5.0
+water.tessellation.allowance1							5.0
+
+# White water foam settings.
+water.riverfoam.create.tonemapupper						0.75
+water.riverfoam.create.tonemaplower						0.2
+water.riverfoam.dissolve.tonemapupper					1.0
+water.riverfoam.dissolve.tonemaplower					0.8
+water.riverfoam.texturedetail.fadenear					180.0
+water.riverfoam.texturedetail.fadefar					200.0
+
+water.shading.underwaterblur							0.1
+water.shading.volumetrics.multi_bounce_compensation		1.0
+water.shading.volumetrics.history_blend					0.85
+water.shading.volumetrics.dither_scale					0.0
+
+# Ocean roughness modifier settings.
+water.oceanroughness.beaufortmin						2.0
+water.oceanroughness.beaufortmax						5.0
+
+# Ocean shore line foam settings.
+water.shorelinefoam.multiplier							1.0
+
+water.shorelinefoam.depththreshold						3.0
+water.shorelinefoam.maxaccumulation						1.0
+
+water.shorelinefoam.shallow.detectradius				6.65
+water.shorelinefoam.shallow.accumulate					0.8
+water.shorelinefoam.shallow.decay						0.2
+
+water.shorelinefoam.steep.detectradius					1.5
+water.shorelinefoam.steep.accumulate					0.4
+water.shorelinefoam.steep.decay							0.2
+
+water.shorelinefoam.wavesearch.start					2.0
+water.shorelinefoam.wavesearch.end						8.0
+water.shorelinefoam.wavesearch.stepsize					1.0
+water.shorelinefoam.wavesearch.minamplitude				0.2
+water.shorelinefoam.wavesearch.maxamplitude				5.0
+water.shorelinefoam.wavesearch.minwavelength			1.0
+water.shorelinefoam.wavesearch.maxwavelength			22.5
+
+water.shorelinefoam.rendering.tonemap.low.athighintensity	0.0
+water.shorelinefoam.rendering.tonemap.high.athighintensity	0.163
+water.shorelinefoam.rendering.tonemap.low.atlowintensity	0.611
+water.shorelinefoam.rendering.tonemap.high.atlowintensity	0.975
+
+water.shorelinefoam.rendering.coarsetexturerepeat					10.0
+water.shorelinefoam.rendering.coarseuvrollovertime					4.0
+water.shorelinefoam.rendering.finetexturerepeat						5.0
+water.shorelinefoam.rendering.fineuvrollovertime					2.0
+
+water.shorelinefoam.rendering.bevel.viewdotproductnotvisible		0.0
+water.shorelinefoam.rendering.bevel.viewdotproductfullyvisible		0.3
+water.shorelinefoam.rendering.bevel.scenedepthtowaterdepthrange		100.0
+water.shorelinefoam.rendering.intensityscenedepthtowaterdepthrange	25.0
+
+water.shorelinefoam.steepmask.heightthreshold			1.6
+
+# Flow velocity settings
+water.flowVelocity.scale								1.665
+
+# Water oil film settings.
+water.oilfilm.fadestart									100.0
+water.oilfilm.fadeend									200.0
+
+# Water depth occluder settings.
+water.depthoccluders.glancingviewthreshold				0.9
+water.depthoccluders.steepviewthreshold					1.0
+water.depthoccluders.additionalverticaloffset				0.2
+
+# Water reflection/roughness settings.
+water.roughnessonreflections.bumpintensitylow			0.0
+water.roughnessonreflections.bumpintensityhigh			255.0
+water.roughnessonreflections.depthadjust				1.0
+water.roughnessonreflections.gradientadjust				1.0
+water.roughnessonreflections.maxupwardslerp				0.02
+
+# Water Second Pass Refraction
+water.secondrefractionpass.blur							1.6
+water.secondrefractionpass.strength						0.01
+water.secondrefractionpass.shallowmaskrange				0.3
+
+water.replay.simactivitytexture.divvelthreshold			0.45
+water.replay.simactivitytexture.radius					20.0
+
+water.replay.riverfoammaxentries						512.0
+water.replay.oceanfoammaxentries						512.0
+water.replay.shorelinefoammaxentries					512.0
+water.replay.riversimmaxpatches							512.0
+water.replay.oceansimmaxpatches							512.0
+water.replay.oceanhighdetaildeltas						73.0
+
+# Water viewport foam.
+water.viewportfoam.minviewingangle						0.01
+water.viewportfoam.visiblearea0							200.0
+water.viewportfoam.visiblearea1							500.0
+water.viewportfoam.visiblearea2							1000.0
+water.viewportfoam.visiblearea3							2000.0
+
+# Boat wakes.
+water.boatwakes.highintensity.textureremaplow			0.000000
+water.boatwakes.highintensity.textureremaphigh			1.0
+water.boatwakes.lowintensity.textureremaplow			0.065
+water.boatwakes.lowintensity.textureremaphigh			1.0
+water.boatwakes.texturerepeat							18.000000
+water.boatwakes.agetointensitypower						0.025
+water.boatwakes.agetointensitypowercubicinterval		0.5
+# Water Vehicle Related
+water.vehicle.stencil_offset                            0.0
+
+# water tessellation control
+tessellation.water.screenspaceerror						0.01
+tessellation.water.near									52.
+tessellation.water.far									55.
+
+# deepsurface tessellation control
+tessellation.deepsurface.screenspaceerror				1.05
+
+# HeatHaze Underwater settings
+heathaze.underwater.distance.start						90.0
+heathaze.underwater.distance.end						187.5
+heathaze.underwater.intensity.min						0.0
+heathaze.underwater.intensity.max						1.0
+heathaze.underwater.length.x							8.0
+heathaze.underwater.length.y							2.0
+heathaze.underwater.bloom.intensityMod					0.0
+heathaze.underwater.sample1.scale.x						2.0
+heathaze.underwater.sample1.scale.y						2.0
+heathaze.underwater.sample1.offset.x					0.0
+heathaze.underwater.sample1.offset.y					0.0
+heathaze.underwater.sample1.anim.x.phase				1.571
+heathaze.underwater.sample1.anim.x.frequency			1.571
+heathaze.underwater.sample1.anim.x.amplitude			3.0
+heathaze.underwater.sample1.anim.y.speed				20.0
+heathaze.underwater.sample2.scale.x						1.0
+heathaze.underwater.sample2.scale.y						1.0
+heathaze.underwater.sample2.offset.x					0.0
+heathaze.underwater.sample2.offset.y					0.0
+heathaze.underwater.sample2.anim.x.phase				0.0
+heathaze.underwater.sample2.anim.x.frequency			0.628
+heathaze.underwater.sample2.anim.x.amplitude			0.5
+heathaze.underwater.sample2.anim.y.speed				3.0
+
+# Gore mesh settings
+metapedgore.head.maxgoremesh	100.0
+
+# HDR vignette
+vignette.gradientcurve 18
+
+# HDR
+HDR.OverridePaperWhiteBrightness 	0
+HDR.MinPaperWhiteBrightness 		50.0
+HDR.MaxPaperWhiteBrightness 		1000.0
+HDR.DefaultPaperWhiteBrightness 	300.0
+HDR.sRGBTransformEnabled			0
+HDR.UseCustomWhitePointParams		1
+HDR.PaperWhiteRefBlackPoint			0.00175
+
+# HDR 10 to SDR tonemapping
+HDR10ToSDR.tm.midLevelIn			0.18
+HDR10ToSDR.tm.midLevelOut			0.18
+HDR10ToSDR.tm.contrast				1.3
+HDR10ToSDR.tm.highlights			0.995
+HDR10ToSDR.tm.hdrMax				100.0
+HDR10ToSDR.tm.saturation.r			0.0
+HDR10ToSDR.tm.saturation.g			0.0
+HDR10ToSDR.tm.saturation.b			0.0
+HDR10ToSDR.tm.crosstalk.r			4.0
+HDR10ToSDR.tm.crosstalk.g			2.0
+HDR10ToSDR.tm.crosstalk.b			8.0
+HDR10ToSDR.tm.saturationCrosstalk.r	4.0
+HDR10ToSDR.tm.saturationCrosstalk.g	1.0
+HDR10ToSDR.tm.saturationCrosstalk.b	16.0
+
+# HDR display mapping
+HDRDisplayMapping.huePreservingRatio			0.6
+HDRDisplayMapping.minLuminanceForCompression	0.5
+HDRDisplayMapping.minSaturation					0.2
+HDRDisplayMapping.saturationBoost				1.8
+HDRDisplayMapping.saturationBoostHLMinRatio		0.6
+HDRDisplayMapping.saturationExponent			1.3
+HDRDisplayMapping.enabled						0
+
+# Composite dithering
+dithering.LDR.Range					255
+dithering.HDR.Range					511
+
+dynamicDithering.LDR.Min.Range		255
+dynamicDithering.LDR.Max.Range		255
+dynamicDithering.LDR.Luminance.Min	0.00
+dynamicDithering.LDR.Luminance.Max	1.00
+
+dynamicDithering.HDR.Min.R.Range	2048
+dynamicDithering.HDR.Max.R.Range	64
+dynamicDithering.HDR.Min.G.Range	2048
+dynamicDithering.HDR.Max.G.Range	64
+dynamicDithering.HDR.Min.B.Range	2048
+dynamicDithering.HDR.Max.B.Range	64
+
+dynamicDithering.Luminance.R.Min	0.00
+dynamicDithering.Luminance.R.Max	1.00
+dynamicDithering.Luminance.G.Min	0.00
+dynamicDithering.Luminance.G.Max	1.00
+dynamicDithering.Luminance.B.Min	0.00
+dynamicDithering.Luminance.B.Max	1.00
+
+dynamicDithering.CurveExponent		2.0
+
+dynamicDithering.UsePerChannelLuminance 0.0
+
+dynamicDithering.4K.LDR.Min.Range		255
+dynamicDithering.4K.LDR.Max.Range		255
+dynamicDithering.4K.LDR.Luminance.Min	0.00
+dynamicDithering.4K.LDR.Luminance.Max	1.00
+
+dynamicDithering.4K.HDR.Min.R.Range	2048
+dynamicDithering.4K.HDR.Max.R.Range	32
+dynamicDithering.4K.HDR.Min.G.Range	2048
+dynamicDithering.4K.HDR.Max.G.Range	32
+dynamicDithering.4K.HDR.Min.B.Range	2048
+dynamicDithering.4K.HDR.Max.B.Range	32
+
+dynamicDithering.4K.Luminance.R.Min	0.00
+dynamicDithering.4K.Luminance.R.Max	1.00
+dynamicDithering.4K.Luminance.G.Min	0.00
+dynamicDithering.4K.Luminance.G.Max	1.00
+dynamicDithering.4K.Luminance.B.Min	0.00
+dynamicDithering.4K.Luminance.B.Max	1.00
+
+dynamicDithering.4K.CurveExponent		1.0
+
+dynamicDithering.4K.UsePerChannelLuminance 0.0
+
+HDR10Dithering.enabled 	1
+HDR10Dithering.dynNoise 1
+HDR10Dithering.range 	1023
+
+
+# Weapon setup
+weapon.engravingMatCutoff 0.2
+weapon.engravingMatIntensity 2.3
+weapon.engravingMatRange 0.0
+weapon.rustNormalScale1 1.0
+weapon.rustNormalScale2 0.17
+weapon.rustNormalBumpScale 0.95
+weapon.normalFlipped 0
+weapon.rustNoiseAlphaChannel 1
+weapon.rustHueAlphaChannel 1
+weapon.rustEdging 0.3
+weapon.dirtBreakupShift 1.0
+weapon.dirtBreakupModulation 0.5
+weapon.dirtNoiseAlphaChannel 1
+weapon.useDirtBreakup 1
+weapon.dirtTechnique 2
+weapon.detailTiling 1.5
+
+# Mirrors
+mirror.sharpenamount 0.25
+
+
+# Weather Color Correction Controls.
+WeatherColorCorrection.Humidity.Min 0
+WeatherColorCorrection.Humidity.BaseMin 0.49
+WeatherColorCorrection.Humidity.BaseMax 0.51
+WeatherColorCorrection.Humidity.Max 1
+WeatherColorCorrection.Temperature.Min -10.0
+WeatherColorCorrection.Temperature.BaseMin 14.0
+WeatherColorCorrection.Temperature.BaseMax 16.0
+WeatherColorCorrection.Temperature.Max 35.0
+
+# Light Falloff Multiplier Settings
+LightFalloff.Multiplier.low 1.0
+LightFalloff.Multiplier.medium 1.0
+LightFalloff.Multiplier.high 1.0
+LightFalloff.Multiplier.ultra 1.0
+
+
+
+# Light Animation
+LightAnimation.nonTaaAdjustment	0.7
+
+
+# Global Illumination
+gi.screen_probes.lum_weight_blend 0.005
+gi.screen_probes.lum_weight_exposure_scale 0.05
+gi.screen_probes.responsiveness_curve 4
+gi.screen_probes.luminance_responsiveness_scale 1
+gi.screen_probes.luminance_responsiveness_variance_scale_x 1.5
+gi.screen_probes.luminance_responsiveness_variance_scale_y 2.0
+gi.screen_probes.luminance_responsiveness_exposure_scale 0.0
+gi.screen_probes.luminance_responsiveness_exposure_bias 1.0
+gi.screen_probes.velocity_responsiveness_scale 16
+gi.screen_probes.bent_cone_dist_min 1.0
+gi.screen_probes.bent_cone_dist_max 2.0
+gi.screen_probes.bent_cone_exponent 1.0
+gi.screen_probes.cutout_fallback_albedo_blend 1
+gi.screen_probes.occlusion_volume_threshold 0.1
+gi.screen_probes.occlusion_volume_backface_threshold 0.5
+gi.screen_probes.probe_fallback_normal_bias 0.15
+gi.screen_probes.prefilter_lum_weight_exposure_scale 0.01
+gi.screen_probes.screen_space_ray_bias_min 0.1
+gi.screen_probes.screen_space_ray_bias_max 15.0
+gi.screen_probes.screen_space_ray_bias_max_dist 15.0
+gi.screen_probes.screen_space_max_dist 0.1
+gi.screen_probes.screen_space_max_dist_far 50
+gi.screen_probes.screen_space_coverage_depth_scale 0.1
+gi.screen_probes.indirect_specular_roughness_scale 0.35
+gi.screen_probes.interpolation_dither 1.0
+gi.screen_probes.temporal_frame_count_max 16
+gi.specular.alpha_roughness_bias 0
+gi.specular.water_roughness_bias -0.1
+gi.specular.roughness_bias 0
+gi.specular.roughness_denoise_scale 1
+gi.specular.min_reflection_cone 0.0
+gi.specular.cutout_fallback_albedo_blend 1
+gi.specular.importance_sample_bias 0.2
+gi.specular.temporal_history_clamp_variance_gamma 1
+gi.specular.temporal_history_clamp_variance_gamma_max 1
+gi.specular.temporal_neighborhood_weight 0.75
+gi.specular.temporal_lum_weight 1.0
+gi.specular.temporal_frame_count_min 8
+gi.specular.temporal_frame_count_max 8
+gi.specular.temporal_resolve1 1
+gi.specular.temporal_resolve2_water 1
+gi.specular.upscale_dither_scale_low 0.0
+gi.specular.upscale_dither_scale_high 0.02
+gi.specular.upscale_dither_roughness_scale 0.125
+gi.specular.upscale_dither_scale_confidence_weight 0.5
+gi.specular.upscale_boost_variance_min 0.0
+gi.specular.upscale_lum_weight 0.05
+gi.specular.bilateral_filter_roughness_cone_scale 0.01
+gi.specular.bilateral_filter_variance_min 0.02
+gi.specular.bilateral_filter_lum_weight 0.05
+gi.specular.bilateral_filter_width 0.01
+gi.specular.alpha_roughness_cutoff.x 0.15
+gi.specular.alpha_roughness_cutoff.y 0.3
+gi.specular.alpha_depth_cutoff.x 75.0
+gi.specular.alpha_depth_cutoff.y 150.0
+gi.specular.bent_cone_occlusion 1.0
+gi.specular.occlusion_volume_threshold 0.1
+gi.specular.occlusion_volume_backface_threshold 0.5
+gi.specular.view_angle_roughness_fade_min 0.05
+gi.specular.view_angle_roughness_fade_max 0.075
+gi.specular.view_angle_roughness_fade_vehicles_min 0.2
+gi.specular.view_angle_roughness_fade_vehicles_max 0.25
+gi.specular.view_angle_roughness_fade_alpha_min 0.1
+gi.specular.view_angle_roughness_fade_alpha_max 0.2
+gi.specular.screen_space_temporal_fade_max 8
+gi.specular.ssr.coverage 0.2
+gi.diffuse.temporal_blend_max_frames 16
+gi.diffuse.temporal_blend_max_frames_dynamic 16
+gi.diffuse.temporal_disocclusion_threshold 12
+gi.diffuse.temporal_disocclusion_threshold_dynamic 4
+gi.diffuse.surface_width_min 0.1
+gi.diffuse.emitter_surface_width_min 1.0
+gi.diffuse.emitter_ray_spread_angle 8.0
+gi.probes.cutout_fallback_albedo_blend 1
+gi.probes.spatial_filter_angle_threshold 0.995
+gi.probes.spatial_filter_iterations 4
+gi.probes.deringing_strength 1
+gi.probes.irradiance_cache.height_scale_0 1
+gi.probes.irradiance_cache.height_scale_1 1
+gi.probes.irradiance_cache.height_scale_2 0.5
+gi.probes.irradiance_cache.height_scale_3 0.25
+gi.probes.irradiance_cache.height_scale_4 0.25
+gi.probes.irradiance_cache.shading_signal_threshold 1
+gi.probes.irradiance_cache.shading_change_lum_threshold 0.4
+gi.probes.irradiance_cache.max_gather_probes 256
+gi.probes.irradiance_cache.max_shade_probes 256
+gi.probes.primary.height_scale_0 1
+gi.probes.primary.height_scale_1 1
+gi.probes.primary.height_scale_2 0.5
+gi.probes.primary.height_scale_3 0.25
+gi.probes.primary.height_scale_4 0.25
+gi.probes.primary.lum_weight_exposure_scale 0
+gi.probes.primary.lum_weight_exposure_bias 0
+gi.probes.primary.lum_weight_exposure_scale_int 0
+gi.probes.primary.lum_weight_exposure_bias_int 0.05
+gi.probes.primary.lum_weight_exposure_scale_ov 0
+gi.probes.primary.lum_weight_exposure_bias_ov 0.05
+gi.probes.primary.shading_signal_threshold 1
+gi.probes.primary.shading_change_lum_threshold 0.25
+gi.probes.primary.max_gather_probes 256
+gi.probes.primary.max_shade_probes 256
+gi.probes.ray_random_offset 0.5
+gi.probes.surface_width_min 0.5
+gi.probes.emitter_surface_width_min 1.0
+gi.probes.ray_spread_angle 4.0
+gi.probes.verify_shading_change_lum_threshold 0.1
+gi.probes.allow_weapon_lights 1.0
+gi.probes.allow_weapon_lights_interior_only 0.0
+gi.probes.allow_vehicle_lights 0.0
+gi.bent_cones.specular_occlusion_scale 1.0
+gi.bent_cones.specular_occlusion_min 0.5
+gi.bent_cones.specular_occlusion_max 1.0
+gi.bent_cones.specular_precise 0
+gi.bent_cones.radius_multiplier 1.0
+gi.bent_cones.radius_multiplier_hair 0.5
+gi.bent_cones.radius_bias 16.0
+gi.bent_cones.length_curve_min 3.0
+gi.bent_cones.length_curve_max_int 2.0
+gi.bent_cones.length_curve_max_ext 3.0
+gi.bent_cones.length_curve_sr_min 2.0
+gi.bent_cones.length_curve_sr_max 3.0
+gi.bent_cones.length_curve_sr_veg_min 15.0
+gi.bent_cones.length_curve_sr_veg_max 25.0
+gi.bent_cones.falloff 0.03
+gi.bent_cones.thin_occluder_compensation 0.005
+gi.bent_cones.contribution 0.97
+gi.bent_cones.contribution_translucency 0.97
+gi.bent_cones.length_responsiveness_contribution 0.5
+gi.bent_cones.dilated_length_responsiveness_contribution 1.0
+gi.world_space_diff_rejection_dist 0
+gi.temporal_normal_diff_threshold 0.99
+gi.translucency_threshold 0.1
+gi.light_pollution.distance_falloff_0_x 500
+gi.light_pollution.distance_falloff_0_y 2000
+gi.light_pollution.distance_falloff_1_x 2800
+gi.light_pollution.distance_falloff_1_y 3300
+gi.light_pollution.distance_falloff_mid_point 0.75
+gi.light_pollution.bounce_distance_falloff_x 10000
+gi.light_pollution.bounce_distance_falloff_y 9000
+gi.light_pollution.bounce_distance_falloff_near_x 100
+gi.light_pollution.bounce_distance_falloff_near_y 150
+gi.light_pollution.bounce_height_falloff_min 0
+gi.light_pollution.bounce_height_falloff_max 100
+gi.light_pollution.height_falloff_min 0
+gi.light_pollution.height_falloff_max 275
+gi.lights.cluster_coverage 128
+gi.lights.min_size_ext 1
+gi.lights.min_size_int 1
+gi.lights.angular_threshold_min 5
+gi.lights.angular_threshold_max 6
+gi.lights.vehicle_light_distance_min 80
+gi.lights.vehicle_light_distance_max 85
+gi.lights.vehicle_light_weight_scale 0.5
+gi.lights.int_ext_weight_bias 4
+gi.lights.same_interior_extra_weight_bias 4
+gi.lights.most_visible_interior_extra_weight_bias 4
+gi.near_light_albedo_contribution 0
+gi.height_map_occlusion_distance_min 20
+gi.height_map_occlusion_distance_max 150
+gi.height_map_occlusion_offset_scale 25
+gi.height_map_occlusion_scale 5
+gi.height_map_occlusion_scale_multibounce 10
+gi.height_map_occlusion_bias -2
+gi.shadow_cascade_bias 0.01
+gi.emissive_area_max 2.0
+gi.reflective_caustics.sun_intensity 2.0
+gi.reflective_caustics.ambient_intensity 0.3
+gi.reflective_caustics.distance 20.0
+
+# Upscaler
+
+upscaler.TAA2.bloomLuminanceFilterWeight0 0.0
+upscaler.TAA2.bloomLuminanceFilterWeight1 0.0
+upscaler.TAA2.bloomLuminanceFilterWeight2 0.0
+upscaler.TAA2.bloomLuminanceFilterWeight3 0.0
+
+upscaler.PSSR.bloomLuminanceFilterWeight0 0.2
+upscaler.PSSR.bloomLuminanceFilterWeight1 0.005
+upscaler.PSSR.bloomLuminanceFilterWeight2 0.0
+upscaler.PSSR.bloomLuminanceFilterWeight3 0.0
+
+upscaler.FSR4.bloomLuminanceFilterWeight0 0.1
+upscaler.FSR4.bloomLuminanceFilterWeight1 0.0
+upscaler.FSR4.bloomLuminanceFilterWeight2 0.0
+upscaler.FSR4.bloomLuminanceFilterWeight3 0.0
+
+# Raytracing
+raytracing.water_mesh_height_threshold 4.0
+raytracing.translucelcy_portal_distance_threshold 0.6
+
+#########################
+# Alpha
+#########################
+alpha.roughnessToSpecFresnel.maxRoughness 0.2
+alpha.roughnessToSpecFresnel.fadeSoftness 0.1
+alpha.cubemapInteriorVisibility 0.7
+
+alpha.transmission.cullViewportSize.quality.high 0.05
+alpha.transmission.cullViewportSize.quality.low 0.07
+
+alpha.transmission.cullViewportSize.ped.quality.high 0.05
+alpha.transmission.cullViewportSize.ped.quality.low 0.07
+
+alpha.transmission.cullViewportSize.fadeStartPercent 0.10
+alpha.transmission.cullViewportSize.ignoreRoughnessThreshold 0.8
+
+#########################
+# Liquid Shader
+#########################
+liquid.angularAccelerationScale				1.0
+liquid.minDamping 							5.0
+liquid.minTorqueMagForMaxRippleIntensity	0.015
+liquid.maxDamping 							15.0
+liquid.defaultFillAmount					0.75
+liquid.defaultViscosity						0.0
+liquid.hashTileSize							0.15
+liquid.linearAccelerationFalloffStart		1.0
+liquid.linearAccelerationFalloffExtent		1.0
+liquid.linearAccelerationScale				1.0
+liquid.pendulumLengthScale					0.1
+liquid.pendulumMass							1.0
+liquid.rippleDecayRate						0.3
+liquid.rippleMaxIntensity					1.0
+liquid.rippleMinIntensity					0.01
+liquid.torqueFalloffStart					0.05
+liquid.torqueFalloffExtent					0.05
+liquid.maxTintCount							128
+liquid.maxSpillRate							0.1
+liquid.spillVfxScale						1.0
+liquid.spillVfxAlphaMin						0.1
+liquid.spillVfxAlphaMax						0.7
+liquid.spillVfxTransmittanceThicknessMin	0.01
+liquid.spillVfxTransmittanceThicknessMax	0.075
+liquid.tintReadBackInterpolation			0.0
+liquid.fluidLevelBoneConvergenceRate		0.02
+
+#########################
+# QR Code
+#########################
+qrcode.dotScale				0.9
+qrcode.logoScale			0.25
+qrcode.innerBorderWidth		0.07
+qrcode.outerBorderWidth		0.015
+qrCode.safeZonePaddingScale	0.55
+
+#########################
+# Debug
+#########################
+debug.validation.diffuse.min 30
+debug.validation.diffuse.max 240
+debug.validation.metal.min 0.2
+debug.validation.metal.max 0.8
+debug.validation.metal.diffuseMax 0.729
+debug.validation.specular.min 1.0
+debug.validation.specular.roughnessMin 0.01
+debug.validation.sheen.off 0.0
+debug.validation.sheen.metalOn 0.1
+debug.validation.translucency.off 0.0
+debug.validation.translucency.metalOn 0.1
+
+debug.translucency.phaseremapmult 0.4
+debug.translucency.phaseremapbias 0.3
+debug.translucency.phasemult 3.0
+
+# VRS parameters
+
+# 0: 1x1, 1:2x2, 2:4x4
+vrs.maxsr 1
+
+vrs.final.lumdervconst 4.0
+vrs.final.sensitivity 0.1
+vrs.final.motionscale 0.4
+vrs.final.ehqscale 4.0
+
+vrs.final.min.luma 10.0
+vrs.final.tempcorrscale 0.7
+
+vrs.final.min.normaledge 0.95
+
+
+# LookDev
+lookdev.exposure -13.5
+lookdev.time 12
+lookdev.force_aces 1
+lookdev.env_intensity 500
+lookdev.env_rotation 0
+lookdev.use_directional_light 0
+
+# window emissives palette
+window.colorPalette.0 6127614
+window.colorPalette.1 6127614
+window.colorPalette.2 13294588
+window.colorPalette.3 15266047
+window.colorPalette.4 16775656
+window.colorPalette.5 16768183
+window.colorPalette.6 16757859
+window.colorPalette.7 16750375
+window.colorPalette.8 16737801
+window.colorPalette.9 16186285
+window.colorPalette.10 15726934
+window.colorPalette.11 14417853
+window.colorPalette.12 11337577
+window.colorPalette.13 10158042
+window.colorPalette.14 2621360
+window.colorPalette.15 2621309
+window.colorPalette.16 3294343
+window.colorPalette.17 5268103
+window.colorPalette.18 7107974
+window.colorPalette.19 8159368
+window.colorPalette.20 8947068
+window.colorPalette.21 8942946
+window.colorPalette.22 8937525
+window.colorPalette.23 8933653
+window.colorPalette.24 8926725
+window.colorPalette.25 8619612
+window.colorPalette.26 8357166
+window.colorPalette.27 7702629
+window.colorPalette.28 6064184
+window.colorPalette.29 5408884
+window.colorPalette.30 1411166
+window.colorPalette.31 1411139
+window.colorPalette.32 1712966
+window.colorPalette.33 2765638
+window.colorPalette.34 3685702
+window.colorPalette.35 4277063
+window.colorPalette.36 4670785
+window.colorPalette.37 4668723
+window.colorPalette.38 4665884
+window.colorPalette.39 4663819
+window.colorPalette.40 4660227
+window.colorPalette.41 4474416
+window.colorPalette.42 4343064
+window.colorPalette.43 4015925
+window.colorPalette.44 3163933
+window.colorPalette.45 2836285
+window.colorPalette.46 739121
+window.colorPalette.47 739107
+window.colorPalette.48 739107
+window.colorPalette.49 1580327
+window.colorPalette.50 2040359
+window.colorPalette.51 2369064
+window.colorPalette.52 2631460
+window.colorPalette.53 2630173
+window.colorPalette.54 2628624
+window.colorPalette.55 2627590
+window.colorPalette.56 2625538
+window.colorPalette.57 2500379
+window.colorPalette.58 2434829
+window.colorPalette.59 2238494
+window.colorPalette.60 1779728
+window.colorPalette.61 1583138
+window.colorPalette.62 403483
+window.colorPalette.63 403476

@@ -1,0 +1,11 @@
+
+The command exited with code 0.
+Output:
+decomp_mission_refs keys/len: 199
+Sample keys: ['0x0073741BBF863C76.ysc.cs', '0x01DEF83E0F656A0F.ysc.cs', '0x02C3AF298FB50310.ysc.cs', '0x0631B3366B5E7138.ysc.cs', '0x0646F1BCAA83A4DC.ysc.cs', '0x072370F89A3E0CF1.ysc.cs', '0x076E75B43E4AD994.ysc.cs', '0x08406376B91986A4.ysc.cs', '0x096C65EAB5EC19E3.ysc.cs', '0x0A6ECD814BD0DF36.ysc.cs']
+0x0073741BBF863C76.ysc.cs: {'func_00B7E5': [[23063, 'BAN_CARTE']]}
+0x01DEF83E0F656A0F.ysc.cs: {'func_0096C1': [[17303, 'CLB_VIDEO']], 'func_01DB8B': [[44581, 'CLB_VIDEO'], [44646, 'CLB_VIDEO'], [44712, 'CLB_VIDEO']], 'func_022309': [[51711, 'CLB_VIDEO']], 'func_023208': [[53766, 'CLB_VIDEO']], 'func_037B76': [[87129, 'CLB_VIDEO']]}
+0x02C3AF298FB50310.ysc.cs: {'func_001D4F': [[3002, 'BIL_FUN']], 'func_012D76': [[31493, 'BIL_FUN']], 'func_05BC01': [[154443, 'BIL_FUN'], [154453, 'BIL_FUN']], 'func_05C77B': [[155849, 'BIL_FUN'], [155990, 'BIL_FUN'], [156000, 'BIL_FUN'], [156010, 'BIL_FUN']], 'func_05D654': [[156751, 'BIL_FUN']], 'func_073AD4': [[189103, 'BIL_FUN']], 'func_0765F4': [[192923, 'BIL_FUN']], 'func_07F3EE': [[206152, 'BIL_FUN']], 'func_082BC6': [[211912, 'BIL_FUN']], 'func_0B7EEF': [[307711, 'BIL_FUN'], [307721, 'BIL_FUN']], 'func_0BA889': [[313418, 'BIL_FUN'], [313424, 'BIL_FUN']], 'func_0BC227': [[314514, 'BIL_FUN']]}
+0x0631B3366B5E7138.ysc.cs: {'func_00009A': [[116, 'INT_AIR']], 'func_001670': [[2338, 'INT_AIR'], [2374, 'INT_AIR']]}
+0x0646F1BCAA83A4DC.ysc.cs: {'func_03D982': [[100161, 'MNY_KIDNP']]}
+

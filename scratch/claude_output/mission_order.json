@@ -1,0 +1,3950 @@
+{
+  "metadata": {
+    "build_version": "1.0.2.1",
+    "build_version_evidence": "appxmanifest.xml and MicrosoftGame.Config <Identity Version>",
+    "status": "partial_inventory_with_script_evidence",
+    "decompiled_script_source": "C:\\Users\\<user>\\Downloads\\americas_scripts_23_11_2026",
+    "decompiled_script_caveat": "Separate folder supplied by the user. Its relationship to this build is not verified beyond 144 of 145 CMissions ID hashes occurring in it. It contains no string heap, so no display text.",
+    "script_flow_facts_recovered": 16,
+    "prerequisite_edges_recovered": 0,
+    "replay_menu_cross_mission_links_recovered": 4,
+    "total_main_story_mission_count": null,
+    "total_mandatory_any_percent_count": null,
+    "replay_menu_mission_entries": 97,
+    "cmissions_table_entries": 145,
+    "null_means": "unknown: not recoverable from this dump. It does not mean none or false.",
+    "ordering_caveat": "replay_menu_position is the progress-menu display order inside each chapter filter. It is not an unlock order and must not be used as a prerequisite chain.",
+    "blockers": [
+      "No game executable in the dump, so no key material and no native tables",
+      "RPF9 name tables are encrypted, so extracted files have no names",
+      "Script objects in script.rpf and story000_script.rpf use 32-bit hashed identifiers and block-cipher-encrypted string tables (LSNS)",
+      "67% of story000_script.rpf (52.2 MB in 31 regions) is neither zlib nor plaintext",
+      "No localized text table was found in readable form, so display titles are unavailable",
+      "The decompiled scripts reference strings only as heap offsets (Vm.StringConstant) and the heap is not included, natives are mostly unnamed hashes, and mission scripts reference only their own mission ID, so availability conditions were not found in script code"
+    ]
+  },
+  "missions": [
+    {
+      "id": "INT_PROLO",
+      "display_name": null,
+      "display_name_text_key": "INT_PROLO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_PROLO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 0,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 1,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[0]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=1]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xFE2C49933556469C"
+      ]
+    },
+    {
+      "id": "INT_CHASE",
+      "display_name": null,
+      "display_name_text_key": "INT_CHASE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_CHASE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 1,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 2,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[1]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=2]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x473489E898504D8B"
+      ]
+    },
+    {
+      "id": "FT_AMUCO",
+      "display_name": null,
+      "display_name_text_key": "PROG_FT_AMUCO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "FT_AMUCO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 2,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 3,
+      "name_prefixed_variant_entries": [
+        "FT_AMUCO_FIRST_INTERACTION",
+        "FT_AMUCO_SECOND_INTERACTION"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[2]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=3]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4B2597A83EC83FE0",
+        "0x5B908217D52280D3"
+      ]
+    },
+    {
+      "id": "FT_KMODSHP",
+      "display_name": null,
+      "display_name_text_key": "PROG_FT_KMODSHP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "FT_KMODSHP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 3,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 4,
+      "name_prefixed_variant_entries": [
+        "FT_KMODSHP_FIRST",
+        "FT_KMODSHP_SECOND"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[3]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=4]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3D9897741AACE500"
+      ]
+    },
+    {
+      "id": "COM_KBOS_SHOP",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_SHOP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_SHOP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 4,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 5,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[4]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=5]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4B964E7CC9E02659",
+        "0xC074B3FB8D93C7CF"
+      ]
+    },
+    {
+      "id": "COM_KBOS_COLAT",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_COLAT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_COLAT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 5,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 6,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[5]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=6]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x1D4A090C51E42555",
+        "0x5BA958AB43340AD0",
+        "0x69B5F3FBB0807F99"
+      ]
+    },
+    {
+      "id": "COM_KBOS_NEIGHB",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_NEIGHB",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_NEIGHB",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 6,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 8,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[6]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=8]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2E9E03407A50A38F",
+        "0x6C16554B0A3608BA"
+      ]
+    },
+    {
+      "id": "COM_KBOS_RADR",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_RADR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_RADR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 7,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 7,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[7]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=7]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x9B2CA8C7DA7C36F2",
+        "0xD69156FCD51D20A6"
+      ]
+    },
+    {
+      "id": "CSC_TRH_CHART",
+      "display_name": null,
+      "display_name_text_key": "CSC_TRH_CHART",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CSC_TRH_CHART",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 8,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 101,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[8]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=101]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0A6ECD814BD0DF36",
+        "0xEBEE5C6E02300FEF"
+      ]
+    },
+    {
+      "id": "COM_SFH_MVFN",
+      "display_name": null,
+      "display_name_text_key": "COM_SFH_MVFN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_SFH_MVFN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 9,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 9,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[9]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=9]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x8DEFE4AAC6E95B38",
+        "0x9D8140FE58B82DDD",
+        "0xCB466D0841607AEC"
+      ]
+    },
+    {
+      "id": "INT_PRISO",
+      "display_name": null,
+      "display_name_text_key": "INT_PRISO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_PRISO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 10,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 10,
+      "name_prefixed_variant_entries": [
+        "INT_PRISO_TRIGGER_EARLY",
+        "INT_PRISO_TRIGGER_LATE"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[10]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=10]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x535DA4A52E93778E",
+        "0xC6BDAE24928E8293"
+      ]
+    },
+    {
+      "id": "INT_BANK",
+      "display_name": null,
+      "display_name_text_key": "INT_BANK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_BANK",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 11,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 11,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[11]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=11]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x26D72E132872F6D7",
+        "0x326A1A4D4787ABC7"
+      ]
+    },
+    {
+      "id": "CTI_PIL_RD_SH",
+      "display_name": null,
+      "display_name_text_key": "CTI_PIL_RD_BC_PARENT",
+      "label_names_different_cmissions_id": "CTI_PIL_RD_BC_PARENT",
+      "replay_entry_unlock_id": "CTI_PIL_RD_SH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 12,
+      "texture_chapter_tag": null,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": false,
+      "unique_mission_index": null,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[12]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "COM_KBOS_PLNDATE",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_PLNDATE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_PLNDATE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 13,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 13,
+      "name_prefixed_variant_entries": [
+        "COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[13]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=13]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x59F8DDC0B1BFB14E",
+        "0xAF5AB3B55709F291"
+      ]
+    },
+    {
+      "id": "INT_PLNSH",
+      "display_name": null,
+      "display_name_text_key": "INT_PLNSH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_PLNSH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 14,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 14,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[14]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=14]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x1456948D2B804385",
+        "0x9E7702F9E3951B6C",
+        "0xD6DA4FF46709E305"
+      ]
+    },
+    {
+      "id": "BIL_FUN",
+      "display_name": null,
+      "display_name_text_key": "BIL_FUN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_FUN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 15,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 15,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[15]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=15]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x02C3AF298FB50310",
+        "0x1EEC9E6A38E4931E"
+      ]
+    },
+    {
+      "id": "INT_AIR",
+      "display_name": null,
+      "display_name_text_key": "INT_AIR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "INT_AIR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 16,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 16,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[16]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=16]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0631B3366B5E7138",
+        "0xB27420D7168C6FF5"
+      ]
+    },
+    {
+      "id": "COM_KBOS_CLEAN",
+      "display_name": null,
+      "display_name_text_key": "COM_KBOS_CLEAN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_KBOS_CLEAN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 17,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 17,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[17]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=17]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x49B6A57628E3A19A",
+        "0xE153B5E514A27F43"
+      ]
+    },
+    {
+      "id": "HO_PAR_KEYCO",
+      "display_name": null,
+      "display_name_text_key": "HO_PAR_KEYCO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "HO_PAR_KEYCO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 18,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 18,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[18]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=18]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCDDE40BD045A305B",
+        "0xE059BF940B24091F"
+      ]
+    },
+    {
+      "id": "BIL_PICK",
+      "display_name": null,
+      "display_name_text_key": "BIL_PICK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_WHEEL",
+      "replay_entry_keyed_to_other_mission": true,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 19,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 19,
+      "name_prefixed_variant_entries": [
+        "BIL_PICK_DAY_TIME_START",
+        "BIL_PICK_NIGHT_TIME_START"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[19]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=19]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3AE01C5F7A47E3AD",
+        "0x71FB4CD86CA79011"
+      ]
+    },
+    {
+      "id": "BIL_HOUSE",
+      "display_name": null,
+      "display_name_text_key": "BIL_HOUSE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_WHEEL",
+      "replay_entry_keyed_to_other_mission": true,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 20,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 20,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[20]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=20]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xD857B864401037B2"
+      ]
+    },
+    {
+      "id": "BIL_WHEEL",
+      "display_name": null,
+      "display_name_text_key": "BIL_WHEEL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_WHEEL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 1",
+      "replay_menu_position": 21,
+      "texture_chapter_tag": 1,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 21,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[21]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=21]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x9D35585ACC87EB83"
+      ]
+    },
+    {
+      "id": "MTL_WAKE",
+      "display_name": null,
+      "display_name_text_key": "MTL_WAKE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_WAKE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 0,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 22,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[0]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=22]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x873A45F9DE932367"
+      ]
+    },
+    {
+      "id": "MTL_AMBUL",
+      "display_name": null,
+      "display_name_text_key": "MTL_AMBUL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_AMBUL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 1,
+      "texture_chapter_tag": null,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": false,
+      "unique_mission_index": null,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[1]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "FT_MOTEL_SHOP",
+      "display_name": null,
+      "display_name_text_key": "PROG_FT_MOTEL_SHOP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "FT_MOTEL_SHOP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 2,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 24,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[2]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=24]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCBB412F4549E13F9"
+      ]
+    },
+    {
+      "id": "MTL_DRIVE",
+      "display_name": null,
+      "display_name_text_key": "MTL_DRIVE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_DRIVE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 3,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 25,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[3]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=25]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x993E7006AFB1864E",
+        "0xAAA45BAFE76F86FB"
+      ]
+    },
+    {
+      "id": "COM_MECH_INTR",
+      "display_name": null,
+      "display_name_text_key": "COM_MECH_INTR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_MECH_INTR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 4,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 26,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[4]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=26]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6324977FFBD8751E",
+        "0xCB466D0841607AEC"
+      ]
+    },
+    {
+      "id": "CTI_MECH_STFC",
+      "display_name": null,
+      "display_name_text_key": "CTI_MECH_STFC",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CTI_MECH_STFC",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 5,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 27,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[5]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=27]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x69B5F3FBB0807F99",
+        "0xE585D6196B47F6AB"
+      ]
+    },
+    {
+      "id": "MTL_PAIN",
+      "display_name": null,
+      "display_name_text_key": "MTL_PAIN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_PAIN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 6,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 28,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[6]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=28]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x38675991245DB9EA",
+        "0x6A00703E75733E00",
+        "0xCEC98E1E77B8DB5E"
+      ]
+    },
+    {
+      "id": "MTL_MONT",
+      "display_name": null,
+      "display_name_text_key": "MTL_MONT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_MONT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 7,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 29,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[7]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=29]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x1B2472EF340C552A",
+        "0x9636C2A9A3CA8011"
+      ]
+    },
+    {
+      "id": "HO_PAR_FRINT",
+      "display_name": null,
+      "display_name_text_key": "PROG_HO_PAR_FRINT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "HO_PAR_FRINT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 8,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 30,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[8]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=30]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2CC10383B818622E"
+      ]
+    },
+    {
+      "id": "MTL_CONT",
+      "display_name": null,
+      "display_name_text_key": "MTL_CONT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_CONT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 9,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 31,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[9]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=31]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x69986FBDD4EA007D",
+        "0x7DC8A0796A68CCB7",
+        "0xD6DA4FF46709E305"
+      ]
+    },
+    {
+      "id": "MTL_MUD",
+      "display_name": null,
+      "display_name_text_key": "MTL_MUD",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MTL_MUD",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 10,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 32,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[10]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=32]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2CC10383B818622E",
+        "0x89E363CE571D367C",
+        "0xE67EA23D19CDCEE5"
+      ]
+    },
+    {
+      "id": "CSC_DRT_CNVY",
+      "display_name": null,
+      "display_name_text_key": "CSC_DRT_CNVY",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CSC_DRT_CNVY",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 11,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 33,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[11]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=33]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xB16EA38A3AB3120F",
+        "0xCAF8110C409445EF"
+      ]
+    },
+    {
+      "id": "BIL_MOTEL",
+      "display_name": null,
+      "display_name_text_key": "BIL_MOTEL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_MOTEL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 2",
+      "replay_menu_position": 12,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 34,
+      "name_prefixed_variant_entries": [
+        "BIL_MOTEL_NON_VIOLENT",
+        "BIL_MOTEL_VIOLENT"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_2/Items[12]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=34]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x25E164D654E9929E",
+        "0x514A96DB9A2F0242"
+      ]
+    },
+    {
+      "id": "CLB_MEET",
+      "display_name": null,
+      "display_name_text_key": "CLB_MEET",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_MEET",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 0,
+      "texture_chapter_tag": 2,
+      "chapter_sources_agree": false,
+      "in_cmissions_table": true,
+      "unique_mission_index": 35,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[0]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=35]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6A3D594F689754AF"
+      ]
+    },
+    {
+      "id": "CLB_DEAL",
+      "display_name": null,
+      "display_name_text_key": "CLB_DEAL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_DEAL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 1,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 36,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[1]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=36]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x5064033CA072C00A",
+        "0xD6D0DBE7FCBC18EE"
+      ]
+    },
+    {
+      "id": "ROB_VEH",
+      "display_name": null,
+      "display_name_text_key": "ROB_VEH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ROB_VEH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 2,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 37,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[2]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=37]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3B84B1C0A58B2CBF",
+        "0xB3387A9F91B92948"
+      ]
+    },
+    {
+      "id": "ANT_INTRO",
+      "display_name": null,
+      "display_name_text_key": "ANT_INTRO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ANT_INTRO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 3,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 99,
+      "name_prefixed_variant_entries": [
+        "ANT_INTRO_APARTMENT",
+        "ANT_INTRO_STORAGE"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[3]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=99]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2B87210672A3FA58",
+        "0xB952FAB1539FD993"
+      ]
+    },
+    {
+      "id": "CSC_MOM_FLIP",
+      "display_name": null,
+      "display_name_text_key": "CSC_MOM_FLIP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CSC_MOM_FLIP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 4,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 40,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[4]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=40]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xAE3960C55BE07D76",
+        "0xC5DD21CB36077938"
+      ]
+    },
+    {
+      "id": "CSC_MOM_MSEVN",
+      "display_name": null,
+      "display_name_text_key": "CSC_MOM_MSEVN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CSC_MOM_MSEVN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 5,
+      "texture_chapter_tag": null,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 41,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[5]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=41]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x36483C169311F9F6",
+        "0x7C06AAC913A983AF"
+      ]
+    },
+    {
+      "id": "COM_DEAL_INTR",
+      "display_name": null,
+      "display_name_text_key": "PROG_COM_DEAL_INTR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_DEAL_INTR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 6,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 42,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[6]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=42]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x670B21808B5930B5"
+      ]
+    },
+    {
+      "id": "COM_DLR_MISS",
+      "display_name": null,
+      "display_name_text_key": "COM_DLR_MISS",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_DLR_MISS",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 7,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 43,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[7]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=43]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x096C65EAB5EC19E3"
+      ]
+    },
+    {
+      "id": "AO_DEAL_T_SYNTH",
+      "display_name": null,
+      "display_name_text_key": "PROG_AO_DEAL_T_SYNTH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AO_DEAL_T_SYNTH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 8,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 44,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[8]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=44]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2EF967F2ED888B0F"
+      ]
+    },
+    {
+      "id": "COM_DLR_COOK",
+      "display_name": null,
+      "display_name_text_key": "COM_DLR_COOK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_DLR_COOK",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 9,
+      "texture_chapter_tag": null,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 45,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[9]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=45]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x98BB36F278C460DC",
+        "0xA8B7336717D1D4B1"
+      ]
+    },
+    {
+      "id": "COM_ROB_DRIVEPREP",
+      "display_name": null,
+      "display_name_text_key": "COM_ROB_DRIVEPREP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_ROB_DRIVEPREP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 10,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 46,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[10]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=46]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x49AEE88C7B319467",
+        "compoundcriminalvehiclechopshop",
+        "robbergetawaydriverprep"
+      ]
+    },
+    {
+      "id": "CLB_SCUFF",
+      "display_name": null,
+      "display_name_text_key": "CLB_SCUFF",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_SCUFF",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 11,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 47,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[11]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=47]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2669F71272246081",
+        "0xE8737FD1FE985F01"
+      ]
+    },
+    {
+      "id": "COM_CBO_CBINT",
+      "display_name": null,
+      "display_name_text_key": "COM_CBO_CBINT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_CBO_CBINT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 12,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 48,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[12]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=48]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0FD7829051D53FC8",
+        "0x676AE1262661D6BC"
+      ]
+    },
+    {
+      "id": "ROB_DRIVE",
+      "display_name": null,
+      "display_name_text_key": "ROB_DRIVE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ROB_DRIVE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 13,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 49,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[13]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=49]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xEB1495D90A45DE03",
+        "0xFCF09315830C7B90"
+      ]
+    },
+    {
+      "id": "BIL_RED",
+      "display_name": null,
+      "display_name_text_key": "BIL_RED",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_RED",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 14,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 50,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[14]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=50]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xA0EDC25D329F4A97",
+        "0xB1E118E21FF05335"
+      ]
+    },
+    {
+      "id": "ROB_BOAT_J",
+      "display_name": null,
+      "display_name_text_key": "ROB_BOAT_J",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ROB_BOAT_J",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 15,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 51,
+      "name_prefixed_variant_entries": [
+        "ROB_BOAT_J_JASON"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[15]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=51]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3A06D540DBC8183A"
+      ]
+    },
+    {
+      "id": "ROB_BANK",
+      "display_name": null,
+      "display_name_text_key": "ROB_BANK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ROB_BANK",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 16,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 52,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[16]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=52]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0E4E96800BFFBED7",
+        "0xB99B21FBAD7423DC"
+      ]
+    },
+    {
+      "id": "CTI_SHOW_HATH",
+      "display_name": null,
+      "display_name_text_key": "PROG_CTI_SHOW_HATH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CTI_SHOW_HATH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 17,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 53,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[17]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=53]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x69B5F3FBB0807F99"
+      ]
+    },
+    {
+      "id": "BAN_SETUP",
+      "display_name": null,
+      "display_name_text_key": "BAN_SETUP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_RESCU",
+      "replay_entry_keyed_to_other_mission": true,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 18,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 56,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[18]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=56]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3A440869D85E2AD4",
+        "0x42D826F8C4726062"
+      ]
+    },
+    {
+      "id": "BAN_RESCU",
+      "display_name": null,
+      "display_name_text_key": "BAN_RESCU",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_RESCU",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 19,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 57,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[19]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=57]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3E7CA918F823BF54",
+        "0xB5B6608D2B545576"
+      ]
+    },
+    {
+      "id": "CLB_STEAL",
+      "display_name": null,
+      "display_name_text_key": "CLB_STEAL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_STEAL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 20,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 58,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[20]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=58]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0CC43003AB7CC877",
+        "0xE6FE893ACC8EF0E0"
+      ]
+    },
+    {
+      "id": "BAN_EXPLO",
+      "display_name": null,
+      "display_name_text_key": "BAN_EXPLO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_EXPLO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 21,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 59,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[21]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=59]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x836D9358535556E2",
+        "0xC3F59AF90984AE73"
+      ]
+    },
+    {
+      "id": "BAN_CARTE",
+      "display_name": null,
+      "display_name_text_key": "BAN_CARTE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_CARTE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 22,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 60,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[22]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=60]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0073741BBF863C76",
+        "0x5259D2EC68F0BFAF"
+      ]
+    },
+    {
+      "id": "BAN_SAFE",
+      "display_name": null,
+      "display_name_text_key": "BAN_SAFE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_SAFE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 23,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 61,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[23]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=61]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x39A9C581CB4300F3",
+        "0x749B10952E8DFB45"
+      ]
+    },
+    {
+      "id": "CLB_VIDEO",
+      "display_name": null,
+      "display_name_text_key": "CLB_VIDEO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_VIDEO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 24,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 62,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[24]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=62]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x01DEF83E0F656A0F",
+        "0x1D47481F603828AE",
+        "compoundsan4sanrecordingstudio"
+      ]
+    },
+    {
+      "id": "CLB_TOWER",
+      "display_name": null,
+      "display_name_text_key": "CLB_TOWER",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_TOWER",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 25,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 63,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[25]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=63]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6823303D69F9EE39",
+        "0xFCAA2F3BF0A4D9B2"
+      ]
+    },
+    {
+      "id": "BAN_PKBMB",
+      "display_name": null,
+      "display_name_text_key": "PROG_FT_BAN_DISTR",
+      "label_names_different_cmissions_id": "FT_BAN_DISTR",
+      "replay_entry_unlock_id": "BAN_PKBMB",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 26,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 141,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[26]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=141]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x414696C79D9ED598",
+        "0xB99F5731E401E7F7"
+      ]
+    },
+    {
+      "id": "BAN_FINAL",
+      "display_name": null,
+      "display_name_text_key": "BAN_FINAL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BAN_FINAL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 3",
+      "replay_menu_position": 27,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 65,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[27]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=65]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xA59181FFDB0364A6",
+        "0xA9D520073044E02F"
+      ]
+    },
+    {
+      "id": "MNY_HOTEL",
+      "display_name": null,
+      "display_name_text_key": "MNY_HOTEL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "SFH_TAXI",
+      "replay_entry_keyed_to_other_mission": true,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 0,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 66,
+      "name_prefixed_variant_entries": [
+        "MNY_HOTEL_AUTOLAUNCH"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[0]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=66]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x08406376B91986A4",
+        "0xF002837E781D15F9"
+      ]
+    },
+    {
+      "id": "SFH_TAXI",
+      "display_name": null,
+      "display_name_text_key": "SFH_TAXI",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "SFH_TAXI",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 1,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": false,
+      "in_cmissions_table": true,
+      "unique_mission_index": 67,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[1]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=67]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6CA297878C5BB5AB"
+      ]
+    },
+    {
+      "id": "MNY_CAR",
+      "display_name": null,
+      "display_name_text_key": "MNY_CAR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MNY_CAR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 2,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 68,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[2]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=68]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x152C4D0223DC80A0",
+        "0x397855C86941FD45"
+      ]
+    },
+    {
+      "id": "CSC_DIG_DATA",
+      "display_name": null,
+      "display_name_text_key": "CSC_DIG_DATA",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CSC_DIG_DATA",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 3,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 69,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[3]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=69]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x5790446DC681224C",
+        "0x6CD421C25A32969F",
+        "0xCC1F3003B3FA7796"
+      ]
+    },
+    {
+      "id": "MNY_PARTY",
+      "display_name": null,
+      "display_name_text_key": "MNY_PARTY",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MNY_PARTY",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 4,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 70,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[4]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=70]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x9DF177AC3BFB6CAA",
+        "0xC56DC9BE26F556B5"
+      ]
+    },
+    {
+      "id": "AIR_TAIL",
+      "display_name": null,
+      "display_name_text_key": "AIR_TAIL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_TAIL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 5,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 71,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[5]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=71]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3559C51549C3989D",
+        "0x947D998BD81F7AC1",
+        "0xFA6776FBAD8B474B"
+      ]
+    },
+    {
+      "id": "CLB_HELI",
+      "display_name": null,
+      "display_name_text_key": "CLB_HELI",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_HELI",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 6,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 72,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[6]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=72]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3FA675FA7AEC3F1E",
+        "0xBA739377C5ABC682"
+      ]
+    },
+    {
+      "id": "AO_SHOW_L_EXP",
+      "display_name": null,
+      "display_name_text_key": "AO_SHOW_L_EXP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AO_SHOW_L_EXP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 7,
+      "texture_chapter_tag": 3,
+      "chapter_sources_agree": false,
+      "in_cmissions_table": true,
+      "unique_mission_index": 54,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[7]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=54]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4C79572EA44F9250",
+        "0xEECABCFE27EF0913"
+      ]
+    },
+    {
+      "id": "COM_SHOW_TRAILER",
+      "display_name": null,
+      "display_name_text_key": "COM_SHOW_TRAILER",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COM_SHOW_TRAILER",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 8,
+      "texture_chapter_tag": null,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 55,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[8]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=55]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3ADABF9512F60231",
+        "0x9F7085DA9691EC18"
+      ]
+    },
+    {
+      "id": "AIR_TRAIN",
+      "display_name": null,
+      "display_name_text_key": "AIR_TRAIN",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_TRAIN",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 9,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 73,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[9]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=73]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x072370F89A3E0CF1",
+        "0xCC5B11D31FB41D7A"
+      ]
+    },
+    {
+      "id": "CLB_PROMO",
+      "display_name": null,
+      "display_name_text_key": "CLB_PROMO",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_PROMO",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 10,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 74,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[10]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=74]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x33786B0109739204",
+        "0xF6C087B98123DC54"
+      ]
+    },
+    {
+      "id": "AIR_BEACH",
+      "display_name": null,
+      "display_name_text_key": "AIR_BEACH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_BEACH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 11,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 75,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[11]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=75]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x8BAEDA947BA19E92",
+        "0xCFBA039399CEBAE6"
+      ]
+    },
+    {
+      "id": "AIR_BUS",
+      "display_name": null,
+      "display_name_text_key": "AIR_BUS",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_BUS",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 12,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 76,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[12]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=76]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x677006F7816AFC6F",
+        "0xA6AD7D2757F57D44"
+      ]
+    },
+    {
+      "id": "AIR_GANG",
+      "display_name": null,
+      "display_name_text_key": "AIR_GANG",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_GANG",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 13,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 77,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[13]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=77]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x5A0F5200818021F8",
+        "0xD32EF6DABDADFD3E"
+      ]
+    },
+    {
+      "id": "AIR_SCOPE",
+      "display_name": null,
+      "display_name_text_key": "AIR_SCOPE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_SCOPE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 14,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 78,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[14]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=78]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4C6550356988A66A",
+        "0xD16C288F708ACB79"
+      ]
+    },
+    {
+      "id": "MNY_ESCRT",
+      "display_name": null,
+      "display_name_text_key": "MNY_ESCRT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MNY_ESCRT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 15,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 79,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[15]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=79]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3DB39EE0EB9FC29F",
+        "0x960587C486AD4437"
+      ]
+    },
+    {
+      "id": "CLB_EVI",
+      "display_name": null,
+      "display_name_text_key": "CLB_EVI",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_EVI",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 16,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 80,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[16]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=80]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x462099146A801B58",
+        "0x816B589A50329F68",
+        "0x947D998BD81F7AC1"
+      ]
+    },
+    {
+      "id": "AIR_TRUCK",
+      "display_name": null,
+      "display_name_text_key": "AIR_TRUCK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_TRUCK",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 17,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 81,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[17]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=81]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x724A311490B0F06A",
+        "0xF91BE2E22A204E90"
+      ]
+    },
+    {
+      "id": "MNY_KIDNP",
+      "display_name": null,
+      "display_name_text_key": "MNY_KIDNP",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "MNY_KIDNP",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 18,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 82,
+      "name_prefixed_variant_entries": [
+        "MNY_KIDNP_AUTO-LAUNCH"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[18]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=82]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0646F1BCAA83A4DC",
+        "0x4D0119EE5B21585E"
+      ]
+    },
+    {
+      "id": "CLB_PARTY",
+      "display_name": null,
+      "display_name_text_key": "CLB_PARTY",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "CLB_PARTY",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 19,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 83,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[19]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=83]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x076E75B43E4AD994",
+        "0x1722A5D76BDBA80F"
+      ]
+    },
+    {
+      "id": "AIR_DRONE",
+      "display_name": null,
+      "display_name_text_key": "AIR_DRONE",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_DRONE",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 20,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 84,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[20]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=84]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4F9DB4C88611128D",
+        "0xCFC0150F18619AE4"
+      ]
+    },
+    {
+      "id": "AIR_HACK",
+      "display_name": null,
+      "display_name_text_key": "AIR_HACK",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_HACK",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 21,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 85,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[21]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=85]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2DC56A5F41279DAB",
+        "0x35625AD20860503E"
+      ]
+    },
+    {
+      "id": "AIR_RECRU",
+      "display_name": null,
+      "display_name_text_key": "AIR_RECRU",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_RECRU",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 22,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 86,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[22]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=86]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x1144A710F5DB7EB5",
+        "0x15236279DF070F3A"
+      ]
+    },
+    {
+      "id": "AIR_CATER",
+      "display_name": null,
+      "display_name_text_key": "AIR_CATER",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_CATER",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 23,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 87,
+      "name_prefixed_variant_entries": [
+        "AIR_CATER_DHF",
+        "AIR_CATER_DHP",
+        "AIR_CATER_DHS"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[23]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=87]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCE0432BF698DEB0C",
+        "0xD9492B20506C409A"
+      ]
+    },
+    {
+      "id": "AIR_FINAL",
+      "display_name": null,
+      "display_name_text_key": "AIR_FINAL",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "AIR_FINAL",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 24,
+      "texture_chapter_tag": 4,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 88,
+      "name_prefixed_variant_entries": [
+        "AIR_FINAL_DATA_HACK_FAILED",
+        "AIR_FINAL_DATA_HACK_PASSED"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[24]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=88]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0DC5CFBFA0C6288D",
+        "0x5FCB40D75929A57C"
+      ]
+    },
+    {
+      "id": "ROB_DEATH",
+      "display_name": null,
+      "display_name_text_key": "ROB_DEATH",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "ROB_DEATH",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 25,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": false,
+      "in_cmissions_table": true,
+      "unique_mission_index": 89,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[25]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=89]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x0DB39FF3A1962F0D",
+        "0xA4C56906E50F676B"
+      ]
+    },
+    {
+      "id": "BIL_CONFR",
+      "display_name": null,
+      "display_name_text_key": "BIL_CONFR",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_CONFR",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 4",
+      "replay_menu_position": 26,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": false,
+      "in_cmissions_table": true,
+      "unique_mission_index": 90,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[26]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=90]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xB7519F4FCF35BB41"
+      ]
+    },
+    {
+      "id": "COA_HELIS",
+      "display_name": null,
+      "display_name_text_key": "COA_HELIS",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COA_HELIS",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 0,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 91,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[0]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=91]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x96FAE5BE63A12676"
+      ]
+    },
+    {
+      "id": "BIL_BOSS",
+      "display_name": null,
+      "display_name_text_key": "BIL_BOSS",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_BOSS",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 1,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 92,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[1]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=92]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x7D127247D31ACDF1",
+        "0x96FAE5BE63A12676"
+      ]
+    },
+    {
+      "id": "BIL_PREG",
+      "display_name": null,
+      "display_name_text_key": "BIL_PREG",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_PREG",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 2,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 93,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[2]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=93]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x756DF2C591F658F1",
+        "0xD61A644D7D95CA4C"
+      ]
+    },
+    {
+      "id": "COA_DOG",
+      "display_name": null,
+      "display_name_text_key": "COA_DOG",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "COA_DOG",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 3,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 94,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[3]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=94]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3C6308FFBA0D762F",
+        "0x5704889922B1A6F6"
+      ]
+    },
+    {
+      "id": "BIL_LAW",
+      "display_name": null,
+      "display_name_text_key": "COA_SHIP",
+      "label_names_different_cmissions_id": "COA_SHIP",
+      "replay_entry_unlock_id": "BIL_LAW",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 4,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 100,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[4]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=100]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x75D0206637F3D170",
+        "0x989B3404D634B676"
+      ]
+    },
+    {
+      "id": "BIL_PRECI",
+      "display_name": null,
+      "display_name_text_key": "BIL_PRECI",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_PRECI",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 5,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 96,
+      "name_prefixed_variant_entries": [],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[5]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=96]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x68D1DA54D5F56F92",
+        "0xBD556B134276941D"
+      ]
+    },
+    {
+      "id": "BIL_PENT",
+      "display_name": null,
+      "display_name_text_key": "BIL_PENT",
+      "label_names_different_cmissions_id": null,
+      "replay_entry_unlock_id": "BIL_PENT",
+      "replay_entry_keyed_to_other_mission": false,
+      "replay_entry_evaluator": "uiUnlockEvaluatorMission",
+      "chapter_or_act": "Chapter 5",
+      "replay_menu_position": 6,
+      "texture_chapter_tag": 5,
+      "chapter_sources_agree": true,
+      "in_cmissions_table": true,
+      "unique_mission_index": 97,
+      "name_prefixed_variant_entries": [
+        "BIL_PENT_B_BRIAN",
+        "BIL_PENT_M_MENDEZ"
+      ],
+      "protagonist": null,
+      "prerequisites": null,
+      "unlocks": null,
+      "trigger_type": null,
+      "is_bottleneck": null,
+      "any_percent_required": null,
+      "evidence": [
+        "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_5/Items[6]",
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=97]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xA2C9C79CE68DF7B4"
+      ]
+    }
+  ],
+  "script_flow_evidence": [
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "FT_KMODSHP_SECOND",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572975 (0xE48C934A = joaat('ft_kmodshp_second'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "COM_KBOS_SHOP",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572979 (0x2D7D2164 = joaat('com_kbos_shop'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "COM_KBOS_COLAT",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572983 (0x5AE70594 = joaat('com_kbos_colat'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "COM_KBOS_RADR",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572987 (0x21D03E4F = joaat('com_kbos_radr'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "COM_KBOS_NEIGHB",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572991 (0xC8513199 = joaat('com_kbos_neighb'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "COM_KBOS_CLEAN",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572995 (0x10BE4C94 = joaat('com_kbos_clean'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "HO_PAR_KEYCO",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:572999 (0x420623AF = joaat('ho_par_keyco'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "RecoverDropTipShackDonnieAlive",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:573003 (0x0094C57A = joaat('recoverdroptipshackdonniealive'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MTL_WAKE",
+      "also_when_argument_equals": [],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "RecoverDropTipShackDonnieDeadUnknown",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+        "0xD2601E252151E04B.ysc.cs:573007 (0xEAB842AC = joaat('recoverdroptipshackdonniedeadunknown'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MNY_HOTEL",
+      "also_when_argument_equals": [
+        "MNY_HOTEL_AUTOLAUNCH"
+      ],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "ANT_SRCH",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+        "0xD2601E252151E04B.ysc.cs:573013 (0xF17F1279 = joaat('ant_srch'))",
+        "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MNY_HOTEL",
+      "also_when_argument_equals": [
+        "MNY_HOTEL_AUTOLAUNCH"
+      ],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "ANT_CHASE",
+      "only_if_neither_flag_set": [
+        "ANT_CHASE_AUTOLAUNCH",
+        "ANT_CHASE"
+      ],
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+        "0xD2601E252151E04B.ysc.cs:573043 (0xAE78970F = joaat('ant_chase'))",
+        "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))",
+        "0xD2601E252151E04B.ysc.cs:573017 (0xDE5B4EBF = joaat('ant_chase_autolaunch')) tested with Virtual.type_37658EE3464E5234.Method_1",
+        "0xD2601E252151E04B.ysc.cs:573030 (0xAE78970F = joaat('ant_chase')) tested with Virtual.type_37658EE3464E5234.Method_1"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MNY_HOTEL",
+      "also_when_argument_equals": [
+        "MNY_HOTEL_AUTOLAUNCH"
+      ],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "ANT_INTRO_APARTMENT",
+      "only_if_neither_flag_set": [
+        "ANT_INTRO_APARTMENT",
+        "ANT_INTRO_STORAGE"
+      ],
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+        "0xD2601E252151E04B.ysc.cs:573075 (0x3AD0562C = joaat('ant_intro_apartment'))",
+        "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))",
+        "0xD2601E252151E04B.ysc.cs:573049 (0x3AD0562C = joaat('ant_intro_apartment')) tested with Virtual.type_37658EE3464E5234.Method_1",
+        "0xD2601E252151E04B.ysc.cs:573062 (0xD3FDD3BE = joaat('ant_intro_storage')) tested with Virtual.type_37658EE3464E5234.Method_1"
+      ]
+    },
+    {
+      "kind": "handler_sets_flag",
+      "function": "func_10AA55",
+      "when_argument_equals": "MNY_HOTEL",
+      "also_when_argument_equals": [
+        "MNY_HOTEL_AUTOLAUNCH"
+      ],
+      "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+      "target": "ANT_RECOV",
+      "only_if_neither_flag_set": null,
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+        "0xD2601E252151E04B.ysc.cs:573081 (0xC90E04B5 = joaat('ant_recov'))",
+        "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))"
+      ]
+    },
+    {
+      "kind": "either_flag_test",
+      "function": "func_10AD05",
+      "returns_true_if_any_flag_set": [
+        "BIL_FINALE_M",
+        "BIL_FINAL_B"
+      ],
+      "action": "Virtual.type_37658EE3464E5234.Method_1(store, id, flag)",
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs:573115 (0xF8FB7ACC = joaat('bil_finale_m'))",
+        "0xD2601E252151E04B.ysc.cs:573127 (0x96F9A142 = joaat('bil_final_b'))"
+      ]
+    },
+    {
+      "kind": "complementary_enable",
+      "function": "func_055F3F",
+      "ids": [
+        "BIL_PICK_NIGHT_TIME_START",
+        "BIL_PICK_DAY_TIME_START"
+      ],
+      "action": "Native._0x480014E54CD33903(id, bool) called with a boolean and its negation; the boolean includes an integer comparison '< 17'",
+      "evidence": [
+        "story000.ysc.cs:116320 (0xC943252B = joaat('bil_pick_night_time_start'))",
+        "story000.ysc.cs:116325 (0xBBBBEBF6 = joaat('bil_pick_day_time_start'))"
+      ]
+    },
+    {
+      "kind": "id_membership_switch",
+      "function": "func_109E09",
+      "returns_1_for_mission_ids": [
+        "AIR_BEACH",
+        "AIR_BUS",
+        "AIR_CATER_DHF",
+        "AIR_CATER_DHP",
+        "AIR_CATER_DHS",
+        "AIR_DRONE",
+        "AIR_FINAL_DATA_HACK_FAILED",
+        "AIR_FINAL_DATA_HACK_PASSED",
+        "AIR_GANG",
+        "AIR_HACK",
+        "AIR_RECRU",
+        "AIR_SCOPE",
+        "AIR_TAIL",
+        "AIR_TRAIN",
+        "AIR_TRUCK",
+        "ANT_CHASE",
+        "ANT_CHASE_AUTOLAUNCH",
+        "ANT_INTRO_APARTMENT",
+        "ANT_INTRO_STORAGE",
+        "ANT_RECOV",
+        "ANT_SRCH",
+        "AO_DEAL_T_SYNTH",
+        "AO_SHOW_L_EXP",
+        "BAN_CARTE",
+        "BAN_EXPLO",
+        "BAN_FINAL",
+        "BAN_PKBMB",
+        "BAN_RESCU",
+        "BAN_SAFE",
+        "BAN_SETUP",
+        "BIL_BOSS",
+        "BIL_CONFR",
+        "BIL_FINALE_M",
+        "BIL_FINAL_B",
+        "BIL_FUN",
+        "BIL_HOUSE",
+        "BIL_LAW",
+        "BIL_MOTEL_NON_VIOLENT",
+        "BIL_MOTEL_VIOLENT",
+        "BIL_PENT_B_BRIAN",
+        "BIL_PENT_M_MENDEZ",
+        "BIL_PICK_DAY_TIME_START",
+        "BIL_PICK_NIGHT_TIME_START",
+        "BIL_PRECI",
+        "BIL_PREG",
+        "BIL_RED",
+        "BIL_WHEEL",
+        "CLB_DEAL",
+        "CLB_EVI",
+        "CLB_HELI",
+        "CLB_MEET",
+        "CLB_PARTY",
+        "CLB_PROMO",
+        "CLB_SCUFF",
+        "CLB_STEAL",
+        "CLB_TOWER",
+        "CLB_VIDEO",
+        "COA_DOG",
+        "COA_HELIS",
+        "COA_SHIP",
+        "COM_CBO_CBINT",
+        "COM_DEAL_INTR",
+        "COM_DLR_COOK",
+        "COM_DLR_MISS",
+        "COM_KBOS_CLEAN",
+        "COM_KBOS_COLAT",
+        "COM_KBOS_NEIGHB",
+        "COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE",
+        "COM_KBOS_RADR",
+        "COM_KBOS_SHOP",
+        "COM_MECH_INTR",
+        "COM_ROB_DRIVEPREP",
+        "COM_SFH_FLTPK",
+        "COM_SFH_MVFN",
+        "COM_SHOW_TRAILER",
+        "COM_UP_BBWOR",
+        "CSC_DIG_DATA",
+        "CSC_DRT_CNVY",
+        "CSC_MOM_FLIP",
+        "CSC_MOM_MSEVN",
+        "CSC_TRH_CHART",
+        "CTI_MECH_STFC",
+        "CTI_SHOW_HATH",
+        "FIN_CONT",
+        "FT_AMUCO_FIRST_INTERACTION",
+        "FT_AMUCO_SECOND_INTERACTION",
+        "FT_BAN_DISTR",
+        "FT_KMODSHP_FIRST",
+        "FT_KMODSHP_SECOND",
+        "FT_MOTEL_SHOP",
+        "FT_UP_MMRENT_MANAGER_CONFRONTED",
+        "FT_UP_MMRENT_MANAGER_INITIAL",
+        "FT_UP_MMRENT_MANAGER_LATE_COPS",
+        "FT_UP_MMRENT_MANAGER_LATE_NO_COPS",
+        "HO_PAR_FRINT",
+        "HO_PAR_KEYCO",
+        "INT_AIR",
+        "INT_BANK",
+        "INT_CHASE",
+        "INT_CRED",
+        "INT_PLNSH",
+        "INT_PRISO_TRIGGER_EARLY",
+        "INT_PRISO_TRIGGER_LATE",
+        "INT_PROLO",
+        "MNY_CAR",
+        "MNY_ESCRT",
+        "MNY_HOTEL",
+        "MNY_HOTEL_AUTOLAUNCH",
+        "MNY_KIDNP",
+        "MNY_KIDNP_AUTO-LAUNCH",
+        "MNY_PARTY",
+        "MTL_CHECK_HIGH_REL",
+        "MTL_CHECK_LOW_REL",
+        "MTL_CONT",
+        "MTL_DRIVE",
+        "MTL_MONT",
+        "MTL_MUD",
+        "MTL_PAIN",
+        "MTL_WAKE",
+        "ROB_BANK",
+        "ROB_BOAT_J_JASON",
+        "ROB_BOAT_L_LUCIA",
+        "ROB_DEATH",
+        "ROB_DRIVE",
+        "ROB_VEH",
+        "RecoverDropTipShackDonnieAlive",
+        "RecoverDropTipShackDonnieDeadUnknown",
+        "SFH_TAXI",
+        "UP_MLSPM",
+        "UP_MLSPM_CONFRONT",
+        "robbergetawaydriverprep"
+      ],
+      "mission_ids_not_in_switch": [
+        "AIR_CATER",
+        "AIR_FINAL",
+        "ANT_GIVE",
+        "ANT_INTRO",
+        "BIL_MOTEL",
+        "BIL_PENT",
+        "BIL_PICK",
+        "COM_KBOS_PLNDATE",
+        "CTI_PIL_RD_BC_PARENT",
+        "FT_AMUCO",
+        "FT_KMODSHP",
+        "FT_UP_MMRENT",
+        "INT_PRISO",
+        "ROB_BOAT_J"
+      ],
+      "other_values_in_switch": [
+        "0x32C69AC9"
+      ],
+      "evidence": [
+        "0xD2601E252151E04B.ysc.cs func_109E09 (lines 570880..572796), equality tests ending in 'return 1'"
+      ]
+    }
+  ],
+  "replay_menu_cross_mission_links": [
+    {
+      "replay_entry": "BIL_PICK",
+      "unlock_id_mission": "BIL_WHEEL",
+      "evaluator": "uiUnlockEvaluatorMission",
+      "meaning": "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.",
+      "evidence": "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[19] fields ID vs UnlockId"
+    },
+    {
+      "replay_entry": "BIL_HOUSE",
+      "unlock_id_mission": "BIL_WHEEL",
+      "evaluator": "uiUnlockEvaluatorMission",
+      "meaning": "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.",
+      "evidence": "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[20] fields ID vs UnlockId"
+    },
+    {
+      "replay_entry": "BAN_SETUP",
+      "unlock_id_mission": "BAN_RESCU",
+      "evaluator": "uiUnlockEvaluatorMission",
+      "meaning": "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.",
+      "evidence": "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[18] fields ID vs UnlockId"
+    },
+    {
+      "replay_entry": "MNY_HOTEL",
+      "unlock_id_mission": "SFH_TAXI",
+      "evaluator": "uiUnlockEvaluatorMission",
+      "meaning": "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.",
+      "evidence": "data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[0] fields ID vs UnlockId"
+    }
+  ],
+  "cmissions_entries_not_in_replay_menu": [
+    {
+      "id": "CTI_PIL_RD_BC_PARENT",
+      "unique_mission_index": 12,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=12]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "robbergetawaydriverprep",
+      "unique_mission_index": 23,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=23]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4C79572EA44F9250",
+        "0x6E7119D7F1831018",
+        "robbergetawaydriverprep"
+      ]
+    },
+    {
+      "id": "ANT_SRCH",
+      "unique_mission_index": 38,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=38]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x41B8EA7521139C19",
+        "0x5850105A4C0FA947"
+      ]
+    },
+    {
+      "id": "ANT_CHASE",
+      "unique_mission_index": 39,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=39]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x17BC1BEE364B6876",
+        "0xA5D80A2E94A00586"
+      ]
+    },
+    {
+      "id": "FT_BAN_DISTR",
+      "unique_mission_index": 64,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=64]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x94454F7093653CE9"
+      ]
+    },
+    {
+      "id": "COA_SHIP",
+      "unique_mission_index": 95,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=95]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xE4AD97726932567C"
+      ]
+    },
+    {
+      "id": "ANT_RECOV",
+      "unique_mission_index": 98,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=98]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4C5B97400653CA3F",
+        "0x4FF779290BBD7992"
+      ]
+    },
+    {
+      "id": "BIL_PENT_M_MENDEZ",
+      "unique_mission_index": 102,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=102]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "BIL_PENT_B_BRIAN",
+      "unique_mission_index": 103,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=103]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "MTL_CHECK_LOW_REL",
+      "unique_mission_index": 104,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=104]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "MTL_CHECK_HIGH_REL",
+      "unique_mission_index": 105,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=105]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "RecoverDropTipShackDonnieAlive",
+      "unique_mission_index": 106,
+      "texture_chapter_tag": null,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=106]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xC17DE3C4FAC91348"
+      ]
+    },
+    {
+      "id": "RecoverDropTipShackDonnieDeadUnknown",
+      "unique_mission_index": 107,
+      "texture_chapter_tag": null,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=107]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x53994764DDC06BB5",
+        "0xC17DE3C4FAC91348"
+      ]
+    },
+    {
+      "id": "INT_CRED",
+      "unique_mission_index": 108,
+      "texture_chapter_tag": null,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=108]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "AIR_CATER_DHF",
+      "unique_mission_index": 109,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=109]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCE0432BF698DEB0C"
+      ]
+    },
+    {
+      "id": "AIR_CATER_DHP",
+      "unique_mission_index": 110,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=110]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCE0432BF698DEB0C"
+      ]
+    },
+    {
+      "id": "AIR_CATER_DHS",
+      "unique_mission_index": 111,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=111]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xCE0432BF698DEB0C"
+      ]
+    },
+    {
+      "id": "AIR_FINAL_DATA_HACK_FAILED",
+      "unique_mission_index": 112,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=112]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x5FCB40D75929A57C"
+      ]
+    },
+    {
+      "id": "AIR_FINAL_DATA_HACK_PASSED",
+      "unique_mission_index": 113,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=113]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x5FCB40D75929A57C"
+      ]
+    },
+    {
+      "id": "ANT_CHASE_AUTOLAUNCH",
+      "unique_mission_index": 114,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=114]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "BIL_MOTEL_NON_VIOLENT",
+      "unique_mission_index": 115,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=115]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x514A96DB9A2F0242"
+      ]
+    },
+    {
+      "id": "BIL_MOTEL_VIOLENT",
+      "unique_mission_index": 116,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=116]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x514A96DB9A2F0242"
+      ]
+    },
+    {
+      "id": "BIL_PICK_DAY_TIME_START",
+      "unique_mission_index": 117,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=117]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3AE01C5F7A47E3AD"
+      ]
+    },
+    {
+      "id": "BIL_PICK_NIGHT_TIME_START",
+      "unique_mission_index": 118,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=118]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3AE01C5F7A47E3AD",
+        "0xED879E82B50285AA"
+      ]
+    },
+    {
+      "id": "FT_AMUCO_FIRST_INTERACTION",
+      "unique_mission_index": 119,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=119]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "FT_AMUCO_SECOND_INTERACTION",
+      "unique_mission_index": 120,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=120]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "FT_KMODSHP_FIRST",
+      "unique_mission_index": 121,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=121]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x224CF31C94E0534D",
+        "0x3D9897741AACE500",
+        "0x947D998BD81F7AC1"
+      ]
+    },
+    {
+      "id": "FT_KMODSHP_SECOND",
+      "unique_mission_index": 122,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=122]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3D9897741AACE500",
+        "0x947D998BD81F7AC1"
+      ]
+    },
+    {
+      "id": "INT_PRISO_TRIGGER_EARLY",
+      "unique_mission_index": 123,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=123]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "INT_PRISO_TRIGGER_LATE",
+      "unique_mission_index": 124,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=124]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "MNY_KIDNP_AUTO-LAUNCH",
+      "unique_mission_index": 125,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=125]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "ANT_INTRO_APARTMENT",
+      "unique_mission_index": 126,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=126]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2B87210672A3FA58"
+      ]
+    },
+    {
+      "id": "ANT_INTRO_STORAGE",
+      "unique_mission_index": 127,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=127]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x2B87210672A3FA58"
+      ]
+    },
+    {
+      "id": "COM_SFH_FLTPK",
+      "unique_mission_index": 129,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=129]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x8DDFD163850750E1"
+      ]
+    },
+    {
+      "id": "COM_UP_BBWOR",
+      "unique_mission_index": 130,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=130]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x4E709585684F663C"
+      ]
+    },
+    {
+      "id": "ROB_BOAT_L_LUCIA",
+      "unique_mission_index": 131,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=131]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x35A38A0C3CB6F988"
+      ]
+    },
+    {
+      "id": "UP_MLSPM",
+      "unique_mission_index": 132,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=132]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x893F6F2845801B14",
+        "0xCBB412F4549E13F9"
+      ]
+    },
+    {
+      "id": "UP_MLSPM_CONFRONT",
+      "unique_mission_index": 133,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=133]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "FIN_CONT",
+      "unique_mission_index": 134,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=134]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0xEA93A06B749BC006"
+      ]
+    },
+    {
+      "id": "ANT_GIVE",
+      "unique_mission_index": 135,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=135]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x3DAF28C4E2EFF1EA"
+      ]
+    },
+    {
+      "id": "FT_UP_MMRENT",
+      "unique_mission_index": 136,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=136]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6E65DA15F641D698"
+      ]
+    },
+    {
+      "id": "FT_UP_MMRENT_MANAGER_INITIAL",
+      "unique_mission_index": 137,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=137]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6E65DA15F641D698",
+        "0xCBB412F4549E13F9"
+      ]
+    },
+    {
+      "id": "FT_UP_MMRENT_MANAGER_CONFRONTED",
+      "unique_mission_index": 138,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=138]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6E65DA15F641D698",
+        "0xCBB412F4549E13F9"
+      ]
+    },
+    {
+      "id": "FT_UP_MMRENT_MANAGER_LATE_NO_COPS",
+      "unique_mission_index": 139,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=139]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6E65DA15F641D698"
+      ]
+    },
+    {
+      "id": "FT_UP_MMRENT_MANAGER_LATE_COPS",
+      "unique_mission_index": 140,
+      "texture_chapter_tag": 2,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=140]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x6E65DA15F641D698"
+      ]
+    },
+    {
+      "id": "COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE",
+      "unique_mission_index": 142,
+      "texture_chapter_tag": 1,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=142]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x59F8DDC0B1BFB14E"
+      ]
+    },
+    {
+      "id": "ROB_BOAT_J_JASON",
+      "unique_mission_index": 143,
+      "texture_chapter_tag": 3,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=143]"
+      ],
+      "decompiled_mission_scripts_referencing_id": [
+        "0x35A38A0C3CB6F988"
+      ]
+    },
+    {
+      "id": "BIL_FINALE_M",
+      "unique_mission_index": 144,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=144]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "BIL_FINAL_B",
+      "unique_mission_index": 145,
+      "texture_chapter_tag": 5,
+      "name_prefix_of_listed_mission": false,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=145]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    },
+    {
+      "id": "MNY_HOTEL_AUTOLAUNCH",
+      "unique_mission_index": 146,
+      "texture_chapter_tag": 4,
+      "name_prefix_of_listed_mission": true,
+      "evidence": [
+        "common.rpf @ 0x219000 (zlib payload, XML root <CMissions>) Item[UniqueMissionIndex=146]"
+      ],
+      "decompiled_mission_scripts_referencing_id": []
+    }
+  ]
+}

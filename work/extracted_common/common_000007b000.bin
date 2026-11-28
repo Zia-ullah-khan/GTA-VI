@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CFleeDecisionMakerData>
+  <Profiles>
+    <Item key="Bird">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="0.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="0.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="0.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="1.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="0.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="0.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weight value="1.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="0.0" />
+      <ConstrainedMaxDropHeight value="0.0" />
+      <ConstrainedCheck value="false" />
+      <ConstrainedIgnoreThreat value="false" />
+      <ConstrainedAllowStairs value="false" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="false" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="BirdWithGroundFlee">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="0.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="0.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="0.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="1.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="0.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="0.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weight value="1.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="0.0" />
+      <ConstrainedMaxDropHeight value="0.0" />
+      <ConstrainedCheck value="false" />
+      <ConstrainedIgnoreThreat value="false" />
+      <ConstrainedAllowStairs value="false" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="false" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="BurstFlyer">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="0.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="5.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="1.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="10.000000" />
+        <Weights>
+          <Item>
+            <Dist value="0.000000" />
+            <Weight value="1.000000" />
+          </Item>
+          <Item>
+            <Dist value="5.000000" />
+            <Weight value="1.000000" />
+          </Item>
+          <Item>
+            <Dist value="6.000000" />
+            <Weight value="0.000000" />
+          </Item>
+        </Weights>
+      </BurstFly>
+      <Penned>
+        <Weight value="1.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="0.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="0.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="0.0" />
+      <ConstrainedMaxDropHeight value="0.0" />
+      <ConstrainedCheck value="true" />
+      <ConstrainedIgnoreThreat value="true" />
+      <ConstrainedAllowStairs value="true" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="true" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="default">
+      <Cower>
+        <Weight value="1.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="1.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="1.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="1.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="1.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="0.500000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="1.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="3.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="1.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="3.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="0.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="1.6" />
+      <ConstrainedMaxDropHeight value="3.0" />
+      <ConstrainedCheck value="true" />
+      <ConstrainedIgnoreThreat value="false" />
+      <ConstrainedAllowStairs value="true" />
+      <ConstrainedAllowClimbsAndDrops value="true" />
+      <ConstrainedAllowLadders value="true" />
+      <ConstrainedAllowShallowWater value="true" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="HORSE">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="1.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="10.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="1.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="3.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="0.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="1.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="0.0" />
+      <ConstrainedMaxDropHeight value="0.0" />
+      <ConstrainedCheck value="true" />
+      <ConstrainedIgnoreThreat value="true" />
+      <ConstrainedAllowStairs value="false" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="true" />
+      <ConstrainedAllowDeepWater value="true" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="Human">
+      <Cower>
+        <Weight value="1.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="10.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="1.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="1.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="1.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="1.000000" />
+        <Weights>
+          <Item>
+            <Dist value="5.000000" />
+            <Weight value="0.000000" />
+            <WeightOnUnescapableArea value="1.000000" />
+          </Item>
+          <Item>
+            <Dist value="5.010000" />
+            <Weight value="1.000000" />
+          </Item>
+        </Weights>
+      </Hide>
+      <Trapped>
+        <Weight value="0.500000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="10.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="0.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="1.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="0.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="0.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="1.6" />
+      <ConstrainedMaxDropHeight value="3.0" />
+      <ConstrainedCheck value="true" />
+      <ConstrainedIgnoreThreat value="false" />
+      <ConstrainedAllowStairs value="true" />
+      <ConstrainedAllowLadders value="true" />
+      <ConstrainedAllowShallowWater value="true" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="true" />
+    </Item>
+    <Item key="SmallWildAnimal">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="0.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="10.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="0.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="3.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="3.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="1.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <ConstrainedMaxClimbHeight value="0.0" />
+      <ConstrainedMaxDropHeight value="0.0" />
+      <ConstrainedCheck value="false" />
+      <ConstrainedIgnoreThreat value="false" />
+      <ConstrainedAllowStairs value="false" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="false" />
+      <ConstrainedAllowDeepWater value="false" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+    <Item key="WildAnimal">
+      <Cower>
+        <Weight value="0.000000" />
+        <Weights />
+      </Cower>
+      <RunAway>
+        <Weight value="1.000000" />
+        <Weights />
+      </RunAway>
+      <Mount>
+        <Weight value="0.000000" />
+        <Weights />
+      </Mount>
+      <TakeVehicle>
+        <Weight value="0.000000" />
+        <Weights />
+      </TakeVehicle>
+      <InTraffic>
+        <Weight value="1.000000" />
+        <Weights />
+      </InTraffic>
+      <Scenario>
+        <Weight value="10.000000" />
+        <Weights />
+      </Scenario>
+      <InteriorCover>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorCover>
+      <Hide>
+        <Weight value="0.000000" />
+        <Weights />
+      </Hide>
+      <Trapped>
+        <Weight value="1.000000" />
+        <Weights />
+      </Trapped>
+      <Town>
+        <Weight value="0.000000" />
+        <Weights />
+      </Town>
+      <CrimeReport>
+        <Weight value="0.000000" />
+        <Weights />
+      </CrimeReport>
+      <BurstFly>
+        <Weight value="0.000000" />
+        <Weights />
+      </BurstFly>
+      <Penned>
+        <Weight value="3.000000" />
+        <Weights />
+      </Penned>
+      <InteriorEscape>
+        <Weight value="0.000000" />
+        <Weights />
+      </InteriorEscape>
+      <FishFlee>
+        <Weight value="3.000000" />
+        <Weights />
+      </FishFlee>
+      <Flock>
+        <Weight value="1.000000" />
+        <Weights />
+      </Flock>
+      <Fly>
+        <Weights value="0.000000" />
+        <Weights />
+      </Fly>
+      <FleeGoal>
+        <Weights value="3.000000" />
+        <Weights />
+      </FleeGoal>
+      <ConstrainedMaxClimbHeight value="5.0" />
+      <ConstrainedMaxDropHeight value="10.0" />
+      <ConstrainedCheck value="true" />
+      <ConstrainedIgnoreThreat value="true" />
+      <ConstrainedAllowStairs value="true" />
+      <ConstrainedAllowLadders value="false" />
+      <ConstrainedAllowShallowWater value="true" />
+      <ConstrainedAllowDeepWater value="true" />
+      <ConstrainedAllowDoors value="false" />
+    </Item>
+  </Profiles>
+</CFleeDecisionMakerData>

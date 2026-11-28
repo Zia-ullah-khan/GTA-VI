@@ -1,0 +1,184 @@
+Command exited with code 0.
+
+Command output:
+=== 0x0CB4AD0F8360F51B.ysc.cs (1) ===
+  61975: if (((as_i32(local_0) == as_i32(0xFFFFFFFFDFA7F6E3))))
+=== 0x1456948D2B804385.ysc.cs (5) ===
+  467: v_000385_0 = Imports.module_0x0CB4AD0F8360F51B.func_01EE2F(byte_offset(p0, 0x110), 0x715D2C95, 1);
+  2047: local_1 = 0x715D2C95;
+  6657: v_003FC1_8 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  7462: v_0045D9_0 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  7628: v_004721_0 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+=== 0x224CF31C94E0534D.ysc.cs (31) ===
+  127: store_i32(Vm.Address(v_00007E_2, 0), 0x0, 0xFFFFFFFFD52EAFA6);
+  340: store_i32(Vm.Address(v_000372_2, 0), 0x0, 0x51A6BB9D);
+  493: local_1 = 0x6477BE;
+  502: local_5 = 0x72EB1F8F;
+  511: local_9 = 0x29E26420;
+  767: if (((as_i32(p1) != as_i32(0x51A6BB9D))))
+  831: if (((as_i32(load_i32(Vm.Address(parameters, 1), 0x0)) != as_i32(0x51A6BB9D))))
+  2844: if (((as_i32(p1) == as_i32(0xFFFFFFFFA9EBD5C0))))
+  2893: if (((as_i32(p1) == as_i32(0x1E4C3E7F))))
+  6066: local_90 = 0xFFFFFFFFA9EBD5C0;
+  6070: local_90 = 0x1E4C3E7F;
+  6119: v_0035ED_7 = Virtual.type_21EAE09A8DBFBD2E.Method_2(v_0035A2_2, 0, v_00359E_0[0], v_0035AB_3[0], 0xFFFFFFFFDFA7F6E3, v_0035C8_4[0], 12, v_0035DE_5, v_
+  6247: store_i32(Vm.Address(v_003746_1, 0), 0x0, 0xFFFFFFFFD52EAFA6);
+  6264: store_i32(Vm.Address(v_003779_0, 0), 0x0, 0xFFFFFFFFD52EAFA6);
+  6268: store_i32(Vm.Address(v_003796_2, 0), 0x0, 0xFFFFFFFFD52EAFA6);
+=== 0x23EB42804F0887FA.ysc.cs (1) ===
+  140860: if (((as_i32(load_i32(v_042636_0, 0x8)) != as_i32(0xFFFFFFFFDFA7F6E3))))
+=== 0x3D9897741AACE500.ysc.cs (4) ===
+  14597: Virtual.type_F337B470D91B81CC.Method_0(v_007BF7_4, 0xFFFFFFFFDFA7F6E3, 1, v_007BF3_3[0]);
+  14708: Virtual.type_F337B470D91B81CC.Method_0(v_007D40_6, 0xFFFFFFFFDFA7F6E3, 0, v_007D3C_5[0]);
+  36506: v_0148C9_3 = func_001A83(load_u64(p0, 0x8), 0xFFFFFFFFD52EAFA6);
+  36509: v_0148DE_5 = func_001A83(load_u64(p0, 0x8), 0xFFFFFFFFE2F59F21);
+=== 0x44ADD8BDA2C0E28D.ysc.cs (4) ===
+  493: store_i32(Vm.Address(v_00048E_2, 0), 0x0, 0x51A6BB9D);
+  2559: store_i32(Vm.Address(v_001441_0, 0), 0x0, 0x51A6BB9D);
+  2752: if (((as_i32(local_0) == as_i32(0x51A6BB9D))))
+  5749: store_i32(Vm.Address(v_003378_3, 0), 0x0, 0x51A6BB9D);
+=== 0x473489E898504D8B.ysc.cs (38) ===
+  2948: local_25 = 0x715D2C95;
+  21161: store_i32(Vm.Address(v_00BD2C_0, 0), 0x0, 0x715D2C95);
+  23339: store_i32(Vm.Address(v_00D371_6, 0), 0x0, 0x715D2C95);
+  23562: store_i32(Vm.Address(v_00D645_0, 0), 0x0, 0x715D2C95);
+  23704: store_i32(Vm.Address(v_00D7A4_1, 0), 0x0, 0x715D2C95);
+  23764: store_i32(Vm.Address(v_00D83D_0, 0), 0x0, 0x715D2C95);
+  23907: store_i32(Vm.Address(v_00D9A7_1, 0), 0x0, 0x715D2C95);
+  23968: store_i32(Vm.Address(v_00DA4C_0, 0), 0x0, 0x715D2C95);
+  24015: store_i32(Vm.Address(v_00DAC9_0, 0), 0x0, 0x715D2C95);
+  24158: store_i32(Vm.Address(v_00DC33_1, 0), 0x0, 0x715D2C95);
+  24211: store_i32(Vm.Address(v_00DCD8_0, 0), 0x0, 0x715D2C95);
+  29491: v_00FEE0_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  29493: store_i32(Vm.Address(v_00FEEC_2, 0), 0x0, 0x715D2C95);
+  29522: v_00FFA0_5 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  29524: store_i32(Vm.Address(v_00FFAC_6, 0), 0x0, 0x715D2C95);
+=== 0x49B6A57628E3A19A.ysc.cs (4) ===
+  10861: (stack_006CA8_0, stack_006CA8_1) = (v_006C6D_2[0], 0x715D2C95);
+  10867: (stack_006C97_0, stack_006C97_1) = (v_006C6D_2[0], 0x715D2C95);
+  18991: v_00B399_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  18993: store_i32(Vm.Address(v_00B3A5_2, 0), 0x0, 0x715D2C95);
+=== 0x53994764DDC06BB5.ysc.cs (2) ===
+  1702: store_i32(v_000D32_1, 0x0, 0x715D2C95);
+  2758: Operations.array_set_u32(v_00156A_3, 0, 0x715D2C95);
+=== 0x8DDFD163850750E1.ysc.cs (2) ===
+  74: v_000041_0 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  7358: v_0047C9_0 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+=== 0x94454F7093653CE9.ysc.cs (3) ===
+  934: local_1 = 0x715D2C95;
+  47405: local_30 = 0x715D2C95;
+  102564: local_16 = 0x715D2C95;
+=== 0x947D998BD81F7AC1.ysc.cs (2) ===
+  1360532: local_9 = 0x51A6BB9D;
+  1368537: store_i32(p0, 0xB4, 0xFFFFFFFFDFA7F6E3);
+=== 0x94FED3C4262CE8CB.ysc.cs (4) ===
+  40983: Imports.native.func_02B015(Vm.Address(v_017F39_7, 0), 0x715D2C95);
+  41097: Imports.native.func_02B015(Vm.Address(v_0182BC_12, 0), 0x715D2C95);
+  41303: Imports.native.func_02B015(Vm.Address(v_018918_12, 0), 0x715D2C95);
+  41509: Imports.native.func_02B015(Vm.Address(v_018F60_12, 0), 0x715D2C95);
+=== 0x9E7702F9E3951B6C.ysc.cs (40) ===
+  86: local_10 = 0x715D2C95;
+  94: v_0000C5_7 = Virtual.type_21EAE09A8DBFBD2E.Method_1(v_00006B_2, v_000067_0[0], v_00007B_3[0], 0x715D2C95, v_000097_4[0], 14, v_0000B6_5, v_0000BF_6, l
+  792: v_0006B4_2 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  12601: v_006FB4_8 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  22560: if (((as_i32(p1) == as_i32(0x715D2C95))))
+  25617: v_00DCF0_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  25619: store_i32(Vm.Address(v_00DCFC_2, 0), 0x0, 0x715D2C95);
+  25693: v_00DECB_5 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  25695: store_i32(Vm.Address(v_00DED7_6, 0), 0x0, 0x715D2C95);
+  25772: v_00E0B0_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  25774: store_i32(Vm.Address(v_00E0BC_2, 0), 0x0, 0x715D2C95);
+  25789: v_00E115_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  25791: store_i32(Vm.Address(v_00E121_2, 0), 0x0, 0x715D2C95);
+  25834: v_00E230_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  25836: store_i32(Vm.Address(v_00E23C_2, 0), 0x0, 0x715D2C95);
+=== 0xB27420D7168C6FF5.ysc.cs (1) ===
+  15395: local_1 = 0x715D2C95;
+=== 0xC17DE3C4FAC91348.ysc.cs (14) ===
+  6670: store_i32(((as_i64(v_00380C_1) + as_i64(12))), 0x0, 0x715D2C95);
+  10498: local_12 = 0x715D2C95;
+  10506: v_006145_7 = Virtual.type_21EAE09A8DBFBD2E.Method_2(v_0060F0_2, 0, v_0060EC_0[0], v_0060F9_3[0], 0x715D2C95, v_006116_4[0], 14, v_006136_5, v_00613F_6
+  10523: local_8 = 0x715D2C95;
+  10531: v_0060D2_7 = Virtual.type_21EAE09A8DBFBD2E.Method_2(v_00607F_2, 0, v_00607B_0[0], v_006088_3[0], 0x715D2C95, v_0060A3_4[0], 14, v_0060C3_5, v_0060CC_6
+  10580: local_20 = 0x715D2C95;
+  10588: v_00622B_7 = Virtual.type_21EAE09A8DBFBD2E.Method_2(v_0061D6_2, 0, v_0061D2_0[0], v_0061DF_3[0], 0x715D2C95, v_0061FC_4[0], 14, v_00621C_5, v_006225_6
+  10915: if (((as_i32(p1) == as_i32(0x715D2C95))))
+  10934: v_006490_0 = Native._0xCFF4391AEED220A9(0x715D2C95); // RVA: 0x04BD3B00
+  17102: v_00A3B3_1 = Virtual.type_752610ECA5D5315D.Method_59(p0, 0x715D2C95, p1);
+  17104: store_i32(Vm.Address(v_00A3BF_2, 0), 0x0, 0x715D2C95);
+  17133: v_00A473_1 = Virtual.type_752610ECA5D5315D.Method_59(p0, 0x715D2C95, p1);
+  17135: store_i32(Vm.Address(v_00A47F_2, 0), 0x0, 0x715D2C95);
+  83668: Operations.array_set_u32(v_033763_2, 0, 0x715D2C95);
+=== 0xC6BDAE24928E8293.ysc.cs (36) ===
+  20888: local_5 = 0x715D2C95;
+  20989: local_5 = 0x715D2C95;
+  24098: local_13 = 0x715D2C95;
+  25971: if (((as_i32(p1) == as_i32(0x715D2C95))))
+  36831: v_01373C_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  36833: store_i32(Vm.Address(v_013748_2, 0), 0x0, 0x715D2C95);
+  37206: v_014070_5 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  37208: store_i32(Vm.Address(v_01407C_6, 0), 0x0, 0x715D2C95);
+  37223: v_0140EA_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  37225: store_i32(Vm.Address(v_0140F6_2, 0), 0x0, 0x715D2C95);
+  37403: v_0145F0_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  37405: store_i32(Vm.Address(v_0145FC_2, 0), 0x0, 0x715D2C95);
+  37754: v_014FDE_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+  37756: store_i32(Vm.Address(v_014FEA_2, 0), 0x0, 0x715D2C95);
+  37822: v_0151C6_1 = Virtual.type_94E1A0545218483E.Method_70(p0, 0x715D2C95, p1);
+=== 0xD2601E252151E04B.ysc.cs (7) ===
+  229401: local_22 = 0x51A6BB9D;
+  273587: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  476592: if (((as_i32(local_2) == as_i32(0x715D2C95))))
+  700829: if (((as_i32(local_23) == as_i32(0x715D2C95))))
+  816648: local_22 = 0x51A6BB9D;
+  936193: local_24 = 0x51A6BB9D;
+  1797692: store_i32(Vm.Address(v_3891D9_4, 0), 0x0, 0xFFFFFFFFD52EAFA6);
+=== 0xD50CE03DE879CABC.ysc.cs (8) ===
+  2606: Virtual.type_F337B470D91B81CC.Method_0(v_0013A9_5, 0xFFFFFFFFDFA7F6E3, 1, v_0013A5_4[0]);
+  2634: Virtual.type_F337B470D91B81CC.Method_0(v_001497_5, 0xFFFFFFFFDFA7F6E3, 1, v_001493_4[0]);
+  3006: Virtual.type_F337B470D91B81CC.Method_0(v_001825_1, 0xFFFFFFFFDFA7F6E3, 1, v_001821_0[0]);
+  11149: Virtual.type_F337B470D91B81CC.Method_0(v_006487_7, 0xFFFFFFFFDFA7F6E3, 1, v_006483_6[0]);
+  18979: v_00AFFE_0 = Imports.module_0x0CB4AD0F8360F51B.func_01EE2F(byte_offset(p0, 0x238), 0xFFFFFFFFDFA7F6E3, 0);
+  19399: Virtual.type_F337B470D91B81CC.Method_0(v_00B439_1, 0xFFFFFFFFDFA7F6E3, 0, v_00B435_0[0]);
+  25933: Virtual.type_F337B470D91B81CC.Method_0(v_00F64D_5, 0xFFFFFFFFDFA7F6E3, 1, v_00F649_4[0]);
+  26289: Virtual.type_F337B470D91B81CC.Method_0(v_00FC14_4, 0xFFFFFFFFDFA7F6E3, 1, v_00FC10_3[0]);
+=== 0xE153B5E514A27F43.ysc.cs (2) ===
+  5073: v_0034DE_4 = Virtual.type_F0015E43B9BFD5A1.Method_16(p0, 0x715D2C95, p1);
+  5075: store_i32(Vm.Address(v_0034EA_5, 0), 0x0, 0x715D2C95);
+=== 0xFCCE52743B88B1A0.ysc.cs (4) ===
+  2203: if (((as_i32(local_0) == as_i32(0x51A6BB9D))))
+  2889: v_0017B1_0 = Native._0xCF9EA4775A01F6EF(0x51A6BB9D, 1); // RVA: 0x04465C70
+  5880: store_i32(Vm.Address(v_0032C7_0, 0), 0x0, 0x51A6BB9D);
+  7552: store_i32(Vm.Address(v_0041DE_3, 0), 0x0, 0x51A6BB9D);
+=== shared.ysc.cs (30) ===
+  905572: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  905754: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  905963: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  906009: local_8 = 0x715D2C95;
+  906440: return 0x715D2C95;
+  906554: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  906587: return 0x715D2C95;
+  906683: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  906789: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  907033: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  907269: if (((as_i32(p1) == as_i32(0x715D2C95))))
+  907299: local_4 = 0x715D2C95;
+  909054: if (((as_i32(p0) > as_i32(0x715D2C95))))
+  909072: if (((as_i32(p0) == as_i32(0x715D2C95))))
+  909327: if (((as_i32(p1) > as_i32(0x715D2C95))))
+=== story000.ysc.cs (23) ===
+  97449: local_22 = 0x715D2C95;
+  97453: local_24 = 0x715D2C95;
+  98026: Imports.native.func_02B015(Vm.Address(v_0445A3_3, 0), 0x715D2C95);
+  98033: (stack_0445FA_0, stack_0445FA_1, stack_0445FA_2, stack_0445FA_3, stack_0445FA_4, stack_0445FA_5, stack_0445FA_6, stack_0445FA_7) = (v_044596_2, v_0445
+  98037: (stack_0445E3_0, stack_0445E3_1, stack_0445E3_2, stack_0445E3_3, stack_0445E3_4, stack_0445E3_5, stack_0445E3_6, stack_0445E3_7) = (v_044596_2, v_0445
+  98048: Imports.native.func_02B015(Vm.Address(v_04461E_3, 0), 0x715D2C95);
+  98055: (stack_044675_0, stack_044675_1, stack_044675_2, stack_044675_3, stack_044675_4, stack_044675_5, stack_044675_6, stack_044675_7) = (v_044611_2, v_0446
+  98059: (stack_04465E_0, stack_04465E_1, stack_04465E_2, stack_04465E_3, stack_04465E_4, stack_04465E_5, stack_04465E_6, stack_04465E_7) = (v_044611_2, v_0446
+  98070: Imports.native.func_02B015(Vm.Address(v_044699_3, 0), 0x715D2C95);
+  98077: (stack_0446F0_0, stack_0446F0_1, stack_0446F0_2, stack_0446F0_3, stack_0446F0_4, stack_0446F0_5, stack_0446F0_6, stack_0446F0_7) = (v_04468C_2, v_0446
+  98081: (stack_0446D9_0, stack_0446D9_1, stack_0446D9_2, stack_0446D9_3, stack_0446D9_4, stack_0446D9_5, stack_0446D9_6, stack_0446D9_7) = (v_04468C_2, v_0446
+  98092: Imports.native.func_02B015(Vm.Address(v_044714_3, 0), 0x715D2C95);
+  98099: (stack_04476B_0, stack_04476B_1, stack_04476B_2, stack_04476B_3, stack_04476B_4, stack_04476B_5, stack_04476B_6, stack_04476B_7) = (v_044707_2, v_0447
+  98103: (stack_044754_0, stack_044754_1, stack_044754_2, stack_044754_3, stack_044754_4, stack_044754_5, stack_044754_6, stack_044754_7) = (v_044707_2, v_0447
+  98114: Imports.native.func_02B015(Vm.Address(v_04478F_3, 0), 0x715D2C95);

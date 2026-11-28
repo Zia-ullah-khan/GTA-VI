@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SSetupData>
+  <!--Auto-Generated. Do not manually edit! Please contact Tools for assistance.-->
+  <deviceName>story000_restofworld</deviceName>
+  <datFile>content.xml</datFile>
+  <timeStamp />
+  <nameHash>story000_restofworld</nameHash>
+  <contentChangeSets />
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_AUDIO</NameHash>
+      <ContentChangeSets>
+        <Item>story000_restofworld_audio_rpf</Item>
+        <Item>story000_restofworld_audio_metadata</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>GROUP_DEFAULT</NameHash>
+      <ContentChangeSets>
+        <Item>story000_restofworld_animscenes</Item>
+        <Item>story000_restofworld_animscenes_gestures</Item>
+        <Item>story000_restofworld_audio_generated</Item>
+        <Item>story000_restofworld_binks</Item>
+        <Item>story000_restofworld_cinematic</Item>
+        <Item>story000_restofworld_generic</Item>
+        <Item>story000_restofworld_ingame_animation</Item>
+        <Item>story000_restofworld_ttdb</Item>
+        <Item>story000_restofworld_vfx</Item>
+      </ContentChangeSets>
+    </Item>
+  </contentChangeSetGroups>
+  <startupScript />
+  <type>EXTRACONTENT_LEVEL_PACK</type>
+  <order value="1" />
+  <minorOrder value="0" />
+  <dependencyPackHash />
+  <requiredVersion />
+  <subPackCount value="0" />
+  <platformDataUnderRoot value="false" />
+</SSetupData>

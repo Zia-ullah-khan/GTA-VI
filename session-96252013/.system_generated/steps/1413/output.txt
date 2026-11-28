@@ -1,0 +1,70 @@
+Created At: 2026-11-25T18:05:56-05:00
+Completed At: 2026-11-25T18:05:59-05:00
+Command exited with code 0.
+
+Command output:
+L  39: public static void func_00000C(VmValue arg0) // 0x00000C
+L 128: v_000085_5 = Virtual.type_14B43CAE46E19D28.Method_61(v_000082_4, v_00007E_2[0]);
+L 138: v_0000BA_11 = Virtual.type_14B43CAE46E19D28.Method_61(v_0000B7_10, v_0000B3_8[0]);
+L 148: v_0000EF_17 = Virtual.type_14B43CAE46E19D28.Method_61(v_0000EC_16, v_0000E8_14[0]);
+L 158: v_000125_23 = Virtual.type_14B43CAE46E19D28.Method_61(v_000122_22, v_00011E_20[0]);
+L 168: v_00015C_29 = Virtual.type_14B43CAE46E19D28.Method_61(v_000159_28, v_000155_26[0]);
+L 178: v_000193_35 = Virtual.type_14B43CAE46E19D28.Method_61(v_000190_34, v_00018C_32[0]);
+L 188: v_0001CA_41 = Virtual.type_14B43CAE46E19D28.Method_61(v_0001C7_40, v_0001C3_38[0]);
+L1147: public static void func_000A94(VmValue arg0, VmValue arg1, VmValue arg2, VmValue arg3, VmValue arg4, VmValue arg5, VmValue arg6, VmValue arg
+L1247: public static void func_000B36(VmValue arg0, VmValue arg1, VmValue arg2) // 0x000B36
+L1400: public static void func_000C83(VmValue arg0, VmValue arg1, VmValue arg2) // 0x000C83
+L2656: v_001A64_2 = Virtual.type_14B43CAE46E19D28.Method_61(v_001A61_1, v_001A5D_0[0]);
+L2669: Virtual.type_14B43CAE46E19D28.Method_32(v_001A8B_1, v_001A87_0[0], 0, 0);
+L2673: Virtual.type_14B43CAE46E19D28.Method_60(v_001AA1_3, v_001A9D_2[0], 1);
+L2698: v_001ABD_2 = Virtual.type_14B43CAE46E19D28.Method_61(v_001ABA_1, v_001AB6_0[0]);
+L2711: Virtual.type_14B43CAE46E19D28.Method_60(v_001AE4_1, v_001AE0_0[0], 0);
+L3394: func_000C83(p0, p1, p2);
+L3407: func_000C83(p0, p1, p2);
+L4391: Builtins.System.Delegate.Ctor(v_00278C_6, local_0, Vm.Function(0x90670B40U, 0x0024AB));
+L4403: Builtins.System.Delegate.Ctor(v_0027D0_12, local_4, Vm.Function(0xBAB1B2FBU, 0x027101));
+L6248: v_00374D_3 = Virtual.type_14B43CAE46E19D28.Method_61(v_00374A_2, v_003746_1[0]);
+L6265: Virtual.type_14B43CAE46E19D28.Method_32(v_00377D_1, v_003779_0[0], 0, 0);
+L6269: Virtual.type_14B43CAE46E19D28.Method_60(v_00379A_3, v_003796_2[0], 1);
+L6277: v_0037BB_3 = Virtual.type_14B43CAE46E19D28.Method_61(v_0037B8_2, v_0037B4_1[0]);
+L6294: Virtual.type_14B43CAE46E19D28.Method_32(v_0037EB_1, v_0037E7_0[0], 0, 0);
+L6298: Virtual.type_14B43CAE46E19D28.Method_60(v_003808_3, v_003804_2[0], 1);
+L6350: v_0038CF_3 = Virtual.type_14B43CAE46E19D28.Method_61(v_0038CC_2, v_0038C8_1[0]);
+L6367: Virtual.type_14B43CAE46E19D28.Method_32(v_0038FF_1, v_0038FB_0[0], 0, 0);
+L6371: Virtual.type_14B43CAE46E19D28.Method_60(v_00391C_3, v_003918_2[0], 1);
+L6454: v_003A0D_3 = Virtual.type_14B43CAE46E19D28.Method_61(v_003A0A_2, v_003A06_1[0]);
+L6471: Virtual.type_14B43CAE46E19D28.Method_32(v_003A40_1, v_003A3C_0[0], 0, 0);
+L6475: Virtual.type_14B43CAE46E19D28.Method_60(v_003A5D_3, v_003A59_2[0], 1);
+L6755: v_003D5A_3 = Virtual.type_14B43CAE46E19D28.Method_61(v_003D57_2, v_003D53_1[0]);
+L6768: Virtual.type_14B43CAE46E19D28.Method_32(v_003D85_1, v_003D81_0[0], 0, 0);
+L6772: Virtual.type_14B43CAE46E19D28.Method_60(v_003D9F_3, v_003D9B_2[0], 1);
+L6783: v_003DD0_2 = Virtual.type_14B43CAE46E19D28.Method_61(v_003DCD_1, v_003DC9_0[0]);
+L6796: Virtual.type_14B43CAE46E19D28.Method_32(v_003DFC_1, v_003DF8_0[0], 0, 0);
+L6800: Virtual.type_14B43CAE46E19D28.Method_60(v_003E16_3, v_003E12_2[0], 1);
+L6812: v_003E4C_2 = Virtual.type_14B43CAE46E19D28.Method_61(v_003E49_1, v_003E45_0[0]);
+L6825: Virtual.type_14B43CAE46E19D28.Method_32(v_003E79_1, v_003E75_0[0], 0, 0);
+L6829: Virtual.type_14B43CAE46E19D28.Method_60(v_003E93_3, v_003E8F_2[0], 1);
+L6846: v_003EDF_2 = Virtual.type_14B43CAE46E19D28.Method_61(v_003EDC_1, v_003ED8_0[0]);
+L6859: Virtual.type_14B43CAE46E19D28.Method_32(v_003F0C_1, v_003F08_0[0], 0, 0);
+L6863: Virtual.type_14B43CAE46E19D28.Method_60(v_003F26_3, v_003F22_2[0], 1);
+L6872: Builtins.System.Delegate.Ctor(v_003F40_1, p0, Vm.Function(0x90670B40U, 0x000A94));
+L6876: Builtins.System.Delegate.Ctor(v_003F59_3, p0, Vm.Function(0x90670B40U, 0x000B36));
+L6880: Builtins.System.Delegate.Ctor(v_003F72_5, p0, Vm.Function(0x90670B40U, 0x0020DE));
+L6914: Builtins.System.Delegate.Ctor(v_003F97_1, p0, Vm.Function(0x90670B40U, 0x000A94));
+L6918: Builtins.System.Delegate.Ctor(v_003FB0_3, p0, Vm.Function(0x90670B40U, 0x000B36));
+L6922: Builtins.System.Delegate.Ctor(v_003FC9_5, p0, Vm.Function(0x90670B40U, 0x0020EC));
+L7065: Builtins.System.Delegate.Ctor(v_00408C_9, p0, Vm.Function(0x90670B40U, 0x002677));
+L7121: Builtins.System.Delegate.Ctor(v_004126_2, p0, Vm.Function(0x90670B40U, 0x0026A6));
+L7125: Builtins.System.Delegate.Ctor(v_00413F_4, p0, Vm.Function(0x90670B40U, 0x0026B5));
+L7178: Builtins.System.Delegate.Ctor(v_0041CF_1, p0, Vm.Function(0x90670B40U, 0x0026E0));
+L7407: Builtins.System.Delegate.Ctor(v_00434B_9, p0, Vm.Function(0x90670B40U, 0x002677));
+L7451: Builtins.System.Delegate.Ctor(v_0043E5_2, p0, Vm.Function(0x90670B40U, 0x0026A6));
+L7455: Builtins.System.Delegate.Ctor(v_0043FE_4, p0, Vm.Function(0x90670B40U, 0x0026B5));
+L7496: Builtins.System.Delegate.Ctor(v_00448E_1, p0, Vm.Function(0x90670B40U, 0x0026E0));
+L7606: Builtins.System.Delegate.Ctor(v_004610_5, v_0045EB_4, Vm.Function(0x90670B40U, 0x002735));
+L7646: Builtins.System.Delegate.Ctor(v_00467C_5, v_004657_4, Vm.Function(0x90670B40U, 0x002735));
+L7686: Builtins.System.Delegate.Ctor(v_0046E8_5, v_0046C3_4, Vm.Function(0x90670B40U, 0x002735));
+L7903: public static class type_14B43CAE46E19D28
+L7905: public static void Method_32(VmValue p0, VmValue p1, VmValue p2, VmValue p3) => Vm.Virtual("type_14B43CAE46E19D28", 32, 0, p0, p1, p2, p3);
+L7906: public static void Method_60(VmValue p0, VmValue p1, VmValue p2) => Vm.Virtual("type_14B43CAE46E19D28", 60, 0, p0, p1, p2);
+L7907: public static VmValue Method_61(VmValue p0, VmValue p1) => Vm.Virtual("type_14B43CAE46E19D28", 61, 1, p0, p1)[0];

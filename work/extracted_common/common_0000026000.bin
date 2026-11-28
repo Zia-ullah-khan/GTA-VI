@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CConversationList>
+
+	<ConversationList>
+		<Item key="PAIRED_PED_WANDERING">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIBehaviourConditionArePedsPaired">
+						<LeaderPed>PrimaryEntity</LeaderPed>
+						<FollowerPed>SecondaryEntity</FollowerPed>
+						<AllowRoleSwap value="true"/>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_ARE_NORMAL_FOR_AMBIENT_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionArePedScenarioConfigFlagsSet">
+							<Ped>PrimaryEntity</Ped>
+							<ConfigFlags>CPED_SCENARIO_CONFIG_FLAG_UsingScenario</ConfigFlags>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionArePedScenarioConfigFlagsSet">
+							<Ped>SecondaryEntity</Ped>
+							<ConfigFlags>CPED_SCENARIO_CONFIG_FLAG_UsingScenario</ConfigFlags>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInPublicTransport"/>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_AGITATED"/>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_COUPLE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_HURRIED_LOCO"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+						<Item ref="TOPIC_LISTENING_RELAXED_WANDERING"/>
+						<Item ref="TOPIC_BEACH_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_BEACH_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_BEACH_LISTENING_GROUP"/>
+						<Item ref="TOPIC_BEACH_LISTENING_FUN_SWIM"/> 
+						<Item ref="TOPIC_BEACH_LISTENING_SWIM"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_GROUP"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="7.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="BLATHER_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionReferenced">
+									<Name>IS_PED_COUPLE</Name>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_FEMALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_FEMALETARGET"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="BLATHER_COUPLE_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_PED_COUPLE</Name>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING1_COUPLE"/>
+						<Item ref="TOPIC_BLATHERING2_COUPLE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="GROUP_CHATS_CONTEXTUAL">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_CHAT_WEALTHY"/>
+						<Item ref="TOPIC_GROUP_CHAT_KEYSFUN"/>
+						<Item ref="TOPIC_GROUP_CHAT_COOLSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_PARTYSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGIRLS"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGUYS"/>
+						<Item ref="TOPIC_GROUP_CHAT_CONSPIRACIES"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_HOMELESS_STIM"/>
+						<Item ref="RIFF_DUO_HOMELESS_STIM"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="IN_SCENARIO_EXTERIOR">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_ARE_NORMAL_FOR_AMBIENT_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionOr">
+							<Conditions>
+								<Condition type="CAIConditionIsInPublicTransport">
+									<Ped>PrimaryEntity</Ped>
+								</Condition>
+								<Condition type="CAIConditionIsInPublicTransport">
+									<Ped>SecondaryEntity</Ped>
+								</Condition>
+								<Condition type="CAIConditionIsInInterior">
+									<Ped>PrimaryEntity</Ped>
+								</Condition>
+								<Condition type="CAIConditionIsInInterior">
+									<Ped>SecondaryEntity</Ped>
+								</Condition>
+								<Condition type="CAIConditionScenarioActivityTypeCheck">
+									<Ped>PrimaryEntity</Ped>
+									<ActivityType>Workout</ActivityType>
+								</Condition>
+								<Condition type="CAIConditionScenarioActivityTypeCheck">
+									<Ped>SecondaryEntity</Ped>
+									<ActivityType>Workout</ActivityType>
+								</Condition>
+							</Conditions>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_AGITATED"/>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_COUPLE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+						<Item ref="TOPIC_LISTENING_RELAXED_SCENARIO"/>
+						<Item ref="TOPIC_BEACH_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_BEACH_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_BEACH_LISTENING_GROUP"/>
+						<Item ref="TOPIC_BEACH_LISTENING_FUN_SWIM"/> 
+						<Item ref="TOPIC_BEACH_LISTENING_SWIM"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_GROUP"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_NO_RESPONSE"/>
+						<Item ref="TOPIC_KEYS_LISTENING_GOSSIP"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="BLATHER_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionReferenced">
+									<Name>IS_PED_COUPLE</Name>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_FEMALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_FEMALETARGET"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="BLATHER_COUPLE_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_PED_COUPLE</Name>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING1_COUPLE"/>
+						<Item ref="TOPIC_BLATHERING2_COUPLE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="GROUP_CHATS_RANDOM">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_RANDOM_GROUP_1"/>
+						<Item ref="TOPIC_RANDOM_GROUP_2"/>
+						<Item ref="TOPIC_RANDOM_GROUP_3"/>
+						<Item ref="TOPIC_RANDOM_GROUP_4"/>
+						<Item ref="TOPIC_RANDOM_GROUP_5"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="GROUP_CHATS_CONTEXTUAL">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_CHAT_WEALTHY"/>
+						<Item ref="TOPIC_GROUP_CHAT_KEYSFUN"/>
+						<Item ref="TOPIC_GROUP_CHAT_COOLSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_PARTYSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGIRLS"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGUYS"/>
+						<Item ref="TOPIC_GROUP_CHAT_CONSPIRACIES"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_WORKOUT_CREW"/>
+						<Item ref="RIFF_SOLO_ATV"/>
+						<Item ref="RIFF_SOLO_CONSTRUCTION"/>
+						<Item ref="RIFF_DUO_WORKOUT_CREW"/>
+						<Item ref="RIFF_DUO_ATV"/>
+						<Item ref="RIFF_DUO_CONSTRUCTION"/>
+						<Item ref="RIFF_SOLO_ELDERLY"/>
+						<Item ref="RIFF_DUO_ELDERLY"/>
+						<Item ref="RIFF_SOLO_ELDERLY_WEED"/>
+						<Item ref="RIFF_DUO_ELDERLY_WEED"/>
+						<Item ref="RIFF_SOLO_ELDERLY_STIM"/>
+						<Item ref="RIFF_DUO_ELDERLY_STIM"/>
+						<Item ref="RIFF_SOLO_ELDERLY_DEPRESS"/>
+						<Item ref="RIFF_DUO_ELDERLY_DEPRESS"/>
+						<Item ref="RIFF_SOLO_HOMELESS"/>
+						<Item ref="RIFF_DUO_HOMELESS"/>
+						<Item ref="RIFF_SOLO_HOMELESS_WEED"/>
+						<Item ref="RIFF_DUO_HOMELESS_WEED"/>
+						<Item ref="RIFF_SOLO_HOMELESS_DEPRESS"/>
+						<Item ref="RIFF_DUO_HOMELESS_DEPRESS"/>
+						<Item ref="RIFF_SOLO_TWEAKER"/>
+						<Item ref="RIFF_DUO_TWEAKER"/>
+						<Item ref="RIFF_SOLO_KEYS_FAM"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="SIMPLE_CHATS_STORY">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_MOTELYES"/>
+						<Item ref="TOPIC_LISTENING_MOTELNO"/>
+						<Item ref="TOPIC_LISTENING_DANNYYES"/>
+						<Item ref="TOPIC_LISTENING_DANNYNO"/>
+						<Item ref="TOPIC_LISTENING_LINDAYES"/>
+						<Item ref="TOPIC_LISTENING_LINDANO"/>
+						<Item ref="TOPIC_LISTENING_MOTELMEAN"/>
+						<Item ref="TOPIC_LISTENING_JAYLAHMEAN"/>
+						<Item ref="TOPIC_LISTENING_BAYSIDEGOSSIP"/>
+						<Item ref="TOPIC_LISTENING_CSRELAXED"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="GROUP_CHATS_STORY">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_CHAT_MOTELGOSSIP"/>
+						<Item ref="TOPIC_GROUP_CHAT_MOTELPROBLEMS"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+				<Item key="RIFFS_STORY">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_MOTEL_DAY"/>
+						<Item ref="RIFF_SOLO_MOTEL_NIGHT"/>
+						<Item ref="RIFF_SOLO_MOTEL_OFFICE"/>
+						<Item ref="RIFF_SOLO_MOTEL_POOL"/>
+						<Item ref="RIFF_SOLO_BAYSIDE_DAY"/>
+						<Item ref="RIFF_SOLO_BAYSIDE_NIGHT"/>
+						<Item ref="RIFF_SOLO_PENTHOUSE_BALCONY"/>
+						<Item ref="RIFF_SOLO_CS_COUPLE"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+			</Variations>
+		</Item>
+		
+		<Item key="IN_SCENARIO_INTERIOR">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_ARE_NORMAL_FOR_AMBIENT_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionIsInInterior">
+								<Ped>PrimaryEntity</Ped>
+							</Condition>
+							<Condition type="CAIConditionIsInInterior">
+								<Ped>SecondaryEntity</Ped>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionAnd">
+							<Conditions>
+								<Condition type="CAIConditionScenarioActivityTypeCheck">
+									<Ped>PrimaryEntity</Ped>
+									<ActivityType>Workout</ActivityType>
+								</Condition>
+								<Condition type="CAIConditionScenarioActivityTypeCheck">
+									<Ped>SecondaryEntity</Ped>
+									<ActivityType>Workout</ActivityType>
+								</Condition>
+							</Conditions>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_AGITATED"/>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_COUPLE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+						<Item ref="TOPIC_LISTENING_RELAXED_SCENARIO"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_GROUP"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.0f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="BLATHER_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionReferenced">
+									<Name>IS_PED_COUPLE</Name>
+								</Condition>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Conditions type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>Club</LocationName>
+										</Condition>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>PartySpaceLow</LocationName>
+										</Condition>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>PartySpaceHigh</LocationName>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>StripClub</Type>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>NightClub</Type>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>Bar</Type>
+										</Condition>
+									</Conditions>
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_FEMALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_FEMALETARGET"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.00f"/>
+				</Item>
+				<Item key="BLATHER_COUPLE_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionNot">
+								<Conditions type="CAIConditionOr">
+									<Conditions>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>Club</LocationName>
+										</Condition>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>PartySpaceLow</LocationName>
+										</Condition>
+										<Condition type="CAIConditionLocationName">
+											<LocationName>PartySpaceHigh</LocationName>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>StripClub</Type>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>NightClub</Type>
+										</Condition>
+										<Condition type="CAIConditionPedIsInBusiness">
+											<Type>Bar</Type>
+										</Condition>
+									</Conditions>
+								</Conditions>
+							</Condition>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_PED_COUPLE</Name>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING1_COUPLE"/>
+						<Item ref="TOPIC_BLATHERING2_COUPLE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.0f"/>
+				</Item>
+				<Item key="GROUP_CHATS_RANDOM">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_RANDOM_GROUP_1"/>
+						<Item ref="TOPIC_RANDOM_GROUP_2"/>
+						<Item ref="TOPIC_RANDOM_GROUP_3"/>
+						<Item ref="TOPIC_RANDOM_GROUP_4"/>
+						<Item ref="TOPIC_RANDOM_GROUP_5"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.00f"/>
+				</Item>
+				<Item key="GROUP_CHATS_CONTEXTUAL">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_CHAT_WEALTHY"/>
+						<Item ref="TOPIC_GROUP_CHAT_KEYSFUN"/>
+						<Item ref="TOPIC_GROUP_CHAT_COOLSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_PARTYSCENE"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGIRLS"/>
+						<Item ref="TOPIC_GROUP_CHAT_HOOKUPGUYS"/>
+						<Item ref="TOPIC_GROUP_CHAT_CONSPIRACIES"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.00f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_WORKOUT_CREW"/>
+						<Item ref="RIFF_SOLO_ATV"/>
+						<Item ref="RIFF_SOLO_CONSTRUCTION"/>
+						<Item ref="RIFF_DUO_WORKOUT_CREW"/>
+						<Item ref="RIFF_DUO_ATV"/>
+						<Item ref="RIFF_DUO_CONSTRUCTION"/>
+						<Item ref="RIFF_SOLO_ELDERLY"/>
+						<Item ref="RIFF_DUO_ELDERLY"/>
+						<Item ref="RIFF_SOLO_ELDERLY_WEED"/>
+						<Item ref="RIFF_DUO_ELDERLY_WEED"/>
+						<Item ref="RIFF_SOLO_ELDERLY_STIM"/>
+						<Item ref="RIFF_DUO_ELDERLY_STIM"/>
+						<Item ref="RIFF_SOLO_ELDERLY_DEPRESS"/>
+						<Item ref="RIFF_DUO_ELDERLY_DEPRESS"/>
+						<Item ref="RIFF_SOLO_HOMELESS"/>
+						<Item ref="RIFF_DUO_HOMELESS"/>
+						<Item ref="RIFF_SOLO_HOMELESS_WEED"/>
+						<Item ref="RIFF_DUO_HOMELESS_WEED"/>
+						<Item ref="RIFF_SOLO_HOMELESS_DEPRESS"/>
+						<Item ref="RIFF_DUO_HOMELESS_DEPRESS"/>
+						<Item ref="RIFF_SOLO_TWEAKER"/>
+						<Item ref="RIFF_DUO_TWEAKER"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="RIFFS_STORY">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>MajorNarrativeCharacters</Tag>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_RUSTY_ANCHOR"/>
+						<Item ref="RIFF_SOLO_PENTHOUSE"/>
+						<Item ref="RIFF_SOLO_PIANO_BREAK"/>
+						<Item ref="RIFF_SOLO_MUSIC_PROD"/>
+						<Item ref="RIFF_SOLO_MUSIC_MUTTER"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="4.5f"/>
+				</Item>
+			</Variations>
+		</Item>
+		
+		<Item key="DANCER_IN_SCENARIO_INTERIOR">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>GC_Dancer</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>GC_Dancer</Tag>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_DANCER_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_DANCER_LISTENING_NO"/>
+						<Item ref="TOPIC_DANCER_LISTENING_YES"/>
+						<Item ref="TOPIC_DANCER_LISTENING_MEAN"/>
+						<Item ref="TOPIC_DANCER_LISTENING_W_BARTENDER"/>
+						<Item ref="TOPIC_DANCER_LISTENING_W_BOUNCER"/>
+						<Item ref="TOPIC_DANCER_LISTENING_W_BOUNCER"/>
+						<Item ref="TOPIC_DANCER_LISTENING_W_PATRON"/>
+						<Item ref="TOPIC_DANCER_LISTENING_GROUP_PATRON"/>
+						<Item ref="TOPIC_PATRON_LISTENING_NO_DANCER"/>
+						<Item ref="TOPIC_PATRON_LISTENING_RELAXED_DANCER"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="3.0f"/>
+				</Item>
+				<Item key="DANCER_RIFFS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>GC_Dancer</Tag>
+							</Condition>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>SecondaryEntity</Ped>
+								<Tag>GC_Dancer</Tag>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_ON_FLOOR"/>
+						<Item ref="RIFF_SOLO_ON_FLOOR_BUSY"/>
+						<Item ref="RIFF_SOLO_ON_FLOOR_SLOW"/>
+						<Item ref="RIFF_SOLO_ON_FLOOR_N1N"/>
+						<Item ref="RIFF_SOLO_ON_FLOOR_JOH"/>
+						<Item ref="RIFF_SOLO_ON_FLOOR_DEL"/>
+						<Item ref="RIFF_SOLO_ON_BREAK"/>
+						<Item ref="RIFF_SOLO_ON_BREAK_N1N"/>
+						<Item ref="RIFF_SOLO_ON_BREAK_JOH"/>
+						<Item ref="RIFF_SOLO_ON_BREAK_DEL"/>
+						<Item ref="RIFF_DUO_ON_FLOOR"/>
+						<Item ref="RIFF_DUO_ON_FLOOR_BUSY"/>
+						<Item ref="RIFF_DUO_ON_FLOOR_SLOW"/>
+						<Item ref="RIFF_DUO_ON_FLOOR_N1N"/>
+						<Item ref="RIFF_DUO_ON_FLOOR_JOH"/>
+						<Item ref="RIFF_DUO_ON_FLOOR_DEL"/>
+						<Item ref="RIFF_DUO_ON_BREAK"/>
+						<Item ref="RIFF_DUO_ON_BREAK_N1N"/>
+						<Item ref="RIFF_DUO_ON_BREAK_JOH"/>
+						<Item ref="RIFF_DUO_ON_BREAK_DEL"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="3.0f"/>
+				</Item>
+				<Item key="PATRON_RIFFS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="AICondition__Ped__HasProfileTag">
+								<Ped>PrimaryEntity</Ped>
+								<Tag>GC_Dancer</Tag>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Condition type="AICondition__Ped__HasProfileTag">
+									<Ped>SecondaryEntity</Ped>
+									<Tag>GC_Dancer</Tag>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_PATRON"/>
+						<Item ref="RIFF_SOLO_PATRON_BUSY"/>
+						<Item ref="RIFF_SOLO_PATRON_SLOW"/>
+						<Item ref="RIFF_SOLO_PATRON_N1N"/>
+						<Item ref="RIFF_SOLO_PATRON_JOH"/>
+						<Item ref="RIFF_SOLO_PATRON_DEL"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="3.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="GANG_IN_SCENARIO_EXTERIOR">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Ped>SecondaryEntity</Ped>
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInInterior">
+							<Ped>PrimaryEntity</Ped>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInInterior">
+							<Ped>SecondaryEntity</Ped>
+						</Condition>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="GROUP_CHATS_GANG">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_GANG_AMBIENT"/>
+						<Item ref="TOPIC_GROUP_GANG_COMPOUND"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.00f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_GANG_GUARDING"/>
+						<Item ref="RIFF_DUO_GANG_GUARDING"/>
+						<Item ref="RIFF_SOLO_GANG_WEED"/>
+						<Item ref="RIFF_DUO_GANG_WEED"/>
+						<Item ref="RIFF_SOLO_GANG_STIM"/>
+						<Item ref="RIFF_DUO_GANG_STIM"/>
+						<Item ref="RIFF_SOLO_GANG_DEPRESS"/>
+						<Item ref="RIFF_DUO_GANG_DEPRESS"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+		
+		<Item key="GANG_IN_SCENARIO_INTERIOR">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Ped>SecondaryEntity</Ped>
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionIsInInterior">
+						<Ped>PrimaryEntity</Ped>
+					</Condition>
+					<Condition type="CAIConditionIsInInterior">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.0f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="GROUP_CHATS_GANG">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_GANG_AMBIENT"/>
+						<Item ref="TOPIC_GROUP_GANG_COMPOUND"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.00f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_GANG_GUARDING"/>
+						<Item ref="RIFF_DUO_GANG_GUARDING"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="2.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="GANG_PAIRED_PED_WANDERING">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIConditionBehaviourPersonality">
+						<Ped>SecondaryEntity</Ped>
+						<Personality>Gang</Personality>
+					</Condition>
+					<Condition type="CAIBehaviourConditionArePedsPaired">
+						<LeaderPed>PrimaryEntity</LeaderPed>
+						<FollowerPed>SecondaryEntity</FollowerPed>
+						<AllowRoleSwap value="true"/>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_GANG_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+				</Item>
+				<Item key="GROUP_CHATS_GANG">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_GROUP_GANG_AMBIENT"/>
+						<Item ref="TOPIC_GROUP_GANG_COMPOUND"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.00f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="LAW_CONVOS">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_LAW_ENFORCEMENT</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>IS_LAW_ENFORCEMENT_SECONDARY</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInInterior">
+							<Ped>PrimaryEntity</Ped>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInInterior">
+							<Ped>SecondaryEntity</Ped>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<Condition type="CAIBehaviourConditionArePedsPaired">
+								<LeaderPed>PrimaryEntity</LeaderPed>
+								<FollowerPed>SecondaryEntity</FollowerPed>
+								<AllowRoleSwap value="true"/>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>PEDS_CAN_TRIGGER_STANDARD_SCENARIO_CONVO</Name>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">					
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_MEAN"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+				<Item key="RIFFS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="RIFF_SOLO_PATROL"/>
+						<Item ref="RIFF_DUO_PATROL"/>
+						<Item ref="RIFF_SOLO_CRIMESCENE"/>
+						<Item ref="RIFF_DUO_CRIMESCENE"/>
+						<Item ref="RIFF_SOLO_MILITARY"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="MOBILE_CONVERSATION">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>					
+					<Condition type="CAIConditionOr">
+						<Conditions>
+							<CAICondition type ="CAIConditionNot">
+								<Condition type ="CAIConditionPedIsInGroup">
+									<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+								</Condition>
+							</CAICondition>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="1"/>
+								<HumansOnly value="true"/>
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+						</Conditions>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="MOBILE_AGITATED">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionPedHasRole">
+									<Ped>PrimaryEntity</Ped>
+									<Role>Guard</Role>
+								</Condition>
+							</Condition>
+							<Condition type="CAIConditionHealthState">
+								<HealthState>HS_Healthy</HealthState>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<TopicResponses>
+						<Item ref="MOBILE_PHONE_AGITATED"/>
+						<Item ref="MOBILE_PHONE_AGITATED2"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="PHONE_INTERJECT_RESUME_SEGUE"/>
+					</ResumingInterjects>
+				</Item>
+				<Item key="MOBILE_LISTENING"> 
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionHasCommunicationArea"/>
+							</Condition>
+							<Condition type="CAIConditionHealthState">
+								<HealthState>HS_Healthy</HealthState>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<IntroResponse ref="MOBILE_PHONE_LISTENING_INTRO"/>
+					<OutroResponse ref="MOBILE_PHONE_LISTENING_OUTRO"/>
+					<TopicResponses>
+						<Item ref="MOBILE_PHONE_LISTENING"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="PHONE_INTERJECT_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+					</Transitions>
+					<ExtendChance value="0.38f"/>
+				</Item>
+				<Item key="MOBILE_AGITATED_FX">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionHasCommunicationArea"/>
+							</Condition>
+							<Condition type="CAIConditionHealthState">
+								<HealthState>HS_Healthy</HealthState>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<IntroResponse ref="MOBILE_PHONE_AGITATED_FX_INTRO"/>
+					<OutroResponse ref="MOBILE_PHONE_AGITATED_FX_OUTRO"/>
+					<TopicResponses>
+						<Item ref="MOBILE_PHONE_AGITATED_FX"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="PHONE_INTERJECT_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+					</Transitions>
+					<ExtendChance value="0.38f"/>
+				</Item>
+				<Item key="MOBILE_FX">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionHasCommunicationArea"/>
+							</Condition>
+							<Condition type="CAIConditionHealthState">
+								<HealthState>HS_Healthy</HealthState>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<IntroResponse ref="MOBILE_PHONE_FX_INTRO"/>
+					<OutroResponse ref="MOBILE_PHONE_FX_OUTRO"/>
+					<TopicResponses>
+						<Item ref="MOBILE_PHONE_FX"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="PHONE_INTERJECT_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+					</Transitions>
+					<ExtendChance value="0.38f"/>
+				</Item>
+			</Variations>
+			<BehaviorFlags>CBF_Monologue CBF_UsesMobilePhone CBF_DoNotSuspend</BehaviorFlags>
+		</Item>
+
+		<Item key="MOBILE_BROWSE_PHONE_KEEP_OUT">
+			<QualificationCondition type="NULL"/>
+			<Variations>
+				<Item key="MOBILE_MUTTER_KEEP_OUT">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="PHONE_MUTTER_BORED"/>
+						<Item ref="PHONE_MUTTER_AMUSED"/>
+						<Item ref="PHONE_MUTTER_DISGUSTED"/>
+						<Item ref="PHONE_MUTTER_WORRIED"/>
+						<Item ref="PHONE_MUTTER_MOCK"/>
+						<Item ref="PHONE_MUTTER_SYMPATHIZE"/>
+						<Item ref="PHONE_MUTTER_CHORTLE"/>
+						<Item ref="PHONE_MUTTER_INTERESTED"/>
+						<Item ref="PHONE_MUTTER_EXCITED"/>
+						<Item ref="PHONE_MUTTER_DISAPPOINTED"/>
+						<Item ref="PHONE_MUTTER_IMPRESSED"/>
+						<Item ref="PHONE_MUTTER_NOT_IMPRESSED"/>
+					</TopicResponses>
+					<ExtendChance value="1.00f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="10.0f"/>
+				</Item>
+			</Variations>
+			<MinRepeatTime value="15000"/>
+			<BehaviorFlags>CBF_Monologue CBF_BrowsePhone CBF_KeepPhoneOutAtEnd CBF_DoNotSuspend</BehaviorFlags>
+		</Item>
+
+		<Item key="MOBILE_BROWSE_PHONE">
+			<QualificationCondition type="NULL"/>
+			<Variations>
+				<Item key="MOBILE_MUTTER">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="PHONE_MUTTER_BORED"/>
+						<Item ref="PHONE_MUTTER_AMUSED"/>
+						<Item ref="PHONE_MUTTER_DISGUSTED"/>
+						<Item ref="PHONE_MUTTER_WORRIED"/>
+						<Item ref="PHONE_MUTTER_MOCK"/>
+						<Item ref="PHONE_MUTTER_SYMPATHIZE"/>
+						<Item ref="PHONE_MUTTER_CHORTLE"/>
+						<Item ref="PHONE_MUTTER_INTERESTED"/>
+						<Item ref="PHONE_MUTTER_EXCITED"/>
+						<Item ref="PHONE_MUTTER_DISAPPOINTED"/>
+						<Item ref="PHONE_MUTTER_IMPRESSED"/>
+						<Item ref="PHONE_MUTTER_NOT_IMPRESSED"/>
+					</TopicResponses>
+					<ExtendChance value="0.35f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="10.0f"/>
+				</Item>
+			</Variations>
+			<MinRepeatTime value="15000"/>
+			<BehaviorFlags>CBF_Monologue CBF_BrowsePhone CBF_DoNotSuspend</BehaviorFlags>
+		</Item>
+		
+		<Item key="PEDTYPE_DIALOGUE_CONVERSATIONS">
+			<QualificationCondition type="CAIConditionReferenced">
+				<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+			</QualificationCondition>
+			<Variations>
+				<Item key="PEDTYPE_ROLE_DIALOGUE">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionHasCommunicationArea"/>
+							<Condition type="CAIConditionPedsHaveSameCommunicationArea">
+								<Ped1>PrimaryEntity</Ped1>
+								<Ped2>SecondaryEntity</Ped2>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<TopicResponses>
+						<Item ref="PEDTYPE_DIALOGUE_TOPIC"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="20.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="BUDDY_VEHICLE_CONVERSATIONS">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionIsBuddy">
+						<Ped>PrimaryEntity</Ped>
+					</Item>
+					<Item type="CAIConditionIsInAVehicle">
+						<Ped>PrimaryEntity</Ped>
+					</Item>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="BUDDY_VEHICLE_CONVO_LEISURE">
+					<InitiatorCondition type="NULL" />
+					<IntroResponse ref="NULL" />
+					<OutroResponse ref="NULL" />
+					<TopicResponses>
+						<Item ref="VEHICLE_BANTER_LEISURE_PRAGMATIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_LEISURE_ROMANTIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_LEISURE_CHAOTIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_LEISURE_COOL_CONVO"/>
+					</TopicResponses>
+					<ResumingInterjects />
+					<Transitions />
+					<MinDistance value="0.000000" />
+					<MaxDistance value="0.000000" />
+					<ExtendChance value="1.000000" />
+					<Adjectives>CA_Leisure</Adjectives>
+				</Item>
+				<Item key="BUDDY_VEHICLE_CONVO_CRIME">
+					<InitiatorCondition type="NULL" />
+					<IntroResponse ref="NULL" />
+					<OutroResponse ref="NULL" />
+					<TopicResponses>
+						<Item ref="VEHICLE_BANTER_CRIME_PRAGMATIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_CRIME_ROMANTIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_CRIME_CHAOTIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_CRIME_COOL_CONVO"/>
+					</TopicResponses>
+					<ResumingInterjects />
+					<Transitions />
+					<MinDistance value="0.000000" />
+					<MaxDistance value="0.000000" />
+					<ExtendChance value="1.000000" />
+					<Adjectives>CA_Criminal</Adjectives>
+				</Item>
+				<Item key="BUDDY_VEHICLE_CONVO_BLACKMAIL">
+					<InitiatorCondition type="NULL" />
+					<IntroResponse ref="NULL" />
+					<OutroResponse ref="NULL" />
+					<TopicResponses>
+						<Item ref="VEHICLE_BANTER_FLOW_PRAGMATIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_FLOW_ROMANTIC_CONVO"/>
+					</TopicResponses>
+					<ResumingInterjects />
+					<Transitions />
+					<MinDistance value="0.000000" />
+					<MaxDistance value="0.000000" />
+					<ExtendChance value="1.000000" />
+					<Adjectives>CA_Blackmail</Adjectives>
+				</Item>
+				<Item key="BUDDY_VEHICLE_CONVO_DESTRUCTIVE">
+					<InitiatorCondition type="NULL" />
+					<IntroResponse ref="NULL" />
+					<OutroResponse ref="NULL" />
+					<TopicResponses>
+						<Item ref="VEHICLE_BANTER_FLOW_CHAOTIC_CONVO"/>
+						<Item ref="VEHICLE_BANTER_FLOW_COOL_CONVO"/>
+					</TopicResponses>
+					<ResumingInterjects />
+					<Transitions />
+					<MinDistance value="0.000000" />
+					<MaxDistance value="0.000000" />
+					<ExtendChance value="1.000000" />
+					<Adjectives>CA_Destructive</Adjectives>
+				</Item>
+			</Variations>
+			<Adjectives>CA_InVehicle</Adjectives>
+			<BehaviorFlags>CBF_AllowsPlayer</BehaviorFlags>
+			<Priority value="0" />
+			<IsEnabled value="true" />
+		</Item>
+
+		<Item key="DOGWALKER_WANDERING">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Item type="CAIConditionPedOwnsPetInTheirGroup">
+						<Ped>PrimaryEntity</Ped>
+						<GroupTypes>GROUP_FLAG_Ped</GroupTypes>
+					</Item>
+					<Item type="CAIConditionReferenced">
+						<Name>IS_PED_DOG_SPECIES</Name>
+						<PrimaryEntityOverride>SecondaryEntity</PrimaryEntityOverride>
+					</Item>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="CHAT_TO_DOG">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="CHAT_DOGWALKER_WALK_WITH_DOG"/>
+						<Item ref="CHAT_DOGWALKER_JOG_WITH_DOG"/>
+						<Item ref="DOGWALKER_WALK_YELL_AT_DOG"/>
+						<Item ref="DOGWALKER_BLATHERING"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+				</Item>
+			</Variations>
+			<BehaviorFlags>CBF_HasAnimalConverser CBF_DoNotSuspend</BehaviorFlags>
+		</Item>
+
+		<Item key="SCENARIO_EXIT">
+			<QualificationCondition type="NULL"/>
+			<Variations>
+				<Item key="STATIC_CHAT_EXIT">
+					<InitiatorCondition type="NULL"/>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="GENERIC_EXIT_SCENARIO"/>
+						<Item ref="LETS_HEAD_OUT_EXIT_SCENARIO"/>
+						<Item ref="BAD_WEATHER_EXIT_SCENARIO"/>
+					</TopicResponses>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<Adjectives>CA_ExitScenario</Adjectives>
+				</Item>
+			</Variations>
+			<Adjectives>CA_ExitScenario</Adjectives>
+			<BehaviorFlags>CBF_ExitScenario CBF_DoNotSuspend</BehaviorFlags>
+		</Item>
+
+		<Item key="PASSING_BY_WANDERING">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIBehaviourConditionArePedsPaired">
+							<LeaderPed>PrimaryEntity</LeaderPed>
+							<FollowerPed>SecondaryEntity</FollowerPed>
+							<AllowRoleSwap value="true"/>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionInSameGroup">
+							<GroupTypes>GROUP_FLAG_Ped</GroupTypes>
+						</Condition>
+					</Condition>
+					<Condition type="CAIConditionAngleToTargetRelativeToHeading">
+						<FromEntity>PrimaryEntity</FromEntity>
+						<TargetEntity>SecondaryEntity</TargetEntity>
+						<MinAngleDegrees value="-105.0f"/>
+						<MaxAngleDegrees value="105.0f"/>
+					</Condition>
+					<Condition type="CAIConditionAngleToTargetRelativeToHeading">
+						<FromEntity>SecondaryEntity</FromEntity>
+						<TargetEntity>PrimaryEntity</TargetEntity>
+						<MinAngleDegrees value="-105.0f"/>
+						<MaxAngleDegrees value="105.0f"/>
+					</Condition>
+					<Condition type="CAIConditionNot">
+						<Condition type="CAIConditionIsInPublicTransport"/>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="POST_DISPUTE">
+					<InitiatorCondition type="CAIConditionPedHasSimpleMemoryForPlayer">
+						<PlayerPed>TertiaryEntity</PlayerPed>
+						<MemoryType>DisputeEscalated</MemoryType>
+						<QueryTimeMS value="20000" />
+						<MinTimeMS value="1000" />
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="POST_DISPUTE_WARN_NEUTRAL"/>
+						<Item ref="POST_DISPUTE_WARN_MALE"/>
+						<Item ref="POST_DISPUTE_WARN_FEMALE"/>
+					</TopicResponses>
+					<MinDistance value="2.0f"/>
+					<MaxDistance value="9.0f"/>
+				</Item>
+			</Variations>
+		</Item>
+
+		<Item key="PUBLIC_TRANSPORT">
+			<QualificationCondition type="CAIConditionAnd">
+				<Conditions>
+					<Condition type="CAIConditionInSameGroup"/>
+					<Condition type="CAIConditionReferenced">
+						<Name>PED_CAN_TRIGGER_CONVERSATIONS</Name>
+					</Condition>
+					<Condition type="CAIConditionReferenced">
+						<Name>PEDS_ARE_NORMAL_FOR_AMBIENT_CONVO</Name>
+					</Condition>
+					<Condition type="CAIConditionIsInPublicTransport"/>
+					<Condition type="CAIConditionIsInPublicTransport">
+						<Ped>SecondaryEntity</Ped>
+					</Condition>
+				</Conditions>
+			</QualificationCondition>
+			<Variations>
+				<Item key="SIMPLE_CHATS">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_LISTENING_CREW_FEMALE"/>
+						<Item ref="TOPIC_LISTENING_CREW_MALE"/>
+						<Item ref="TOPIC_LISTENING_COUPLE"/>
+						<Item ref="TOPIC_LISTENING_GROUP"/>
+						<Item ref="TOPIC_LISTENING_NO_RESPONSE"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_GROUP"/>
+						<Item ref="TOPIC_HOMELESS_LISTENING_NO_RESPONSE"/>
+					</TopicResponses>
+					<Transitions>
+						<Item ref="TRANSITION_SILENT"/>
+						<Item ref="TRANSITION_SILENT_SWITCH"/>
+					</Transitions>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<ExtendChance value="0.5f"/>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<ExtendChance value="0.0" />
+				</Item>
+				<Item key="CHAT_LISTENING_BIG_MOMENT">
+					<InitiatorCondition type="NULL"/>
+					<BehaviorFlags>CBF_UsesRandomStage CBF_DoNotSuspend</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_FEMALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_ACCUSED_MALE"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_FUNNY"/>
+						<Item ref="TOPIC_CHAT_LISTENING_BIG_OUTRAGE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="7.0f"/>
+					<MinDistanceFromPlayer value="20.0f"/>
+					<ExtendChance value="0.0" />
+				</Item>
+				<Item key="BLATHER_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionNot">
+								<Condition type="CAIConditionReferenced">
+									<Name>IS_PED_COUPLE</Name>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_MALETARGET"/>
+						<Item ref="TOPIC_BLATHERING_ANYWHERE_FEMALETARGET"/>
+						<Item ref="TOPIC_BLATHERING2_ANYWHERE_FEMALETARGET"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.00f"/>
+					<ExtendChance value="0.0" />
+				</Item>
+				<Item key="BLATHER_COUPLE_CHATS">
+					<InitiatorCondition type="CAIConditionAnd">
+						<Conditions>
+							<Condition type="CAIConditionGroupMemberCount">
+								<UpperBound value="2" />
+								<IgnoreDeadMembers value="true" />
+								<HumansOnly value="true" />
+								<GroupTypes>GROUP_FLAG_Modular</GroupTypes>
+							</Condition>
+							<Condition type="CAIConditionReferenced">
+								<Name>IS_PED_COUPLE</Name>
+							</Condition>
+						</Conditions>
+					</InitiatorCondition>
+					<BehaviorFlags>CBF_AudibleOnly</BehaviorFlags>
+					<IntroResponse ref="NULL"/>
+					<OutroResponse ref="NULL"/>
+					<TopicResponses>
+						<Item ref="TOPIC_BLATHERING1_COUPLE"/>
+						<Item ref="TOPIC_BLATHERING2_COUPLE"/>
+					</TopicResponses>
+					<ResumingInterjects>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT"/>
+						<Item ref="TEASE_COMMENT_GROUP_CONVERSATION_RESUMING_INTERJECT_SWITCH"/>
+						<Item ref="AGITATED_RESUME_SEGUE"/>
+						<Item ref="GENERIC_RESUME_SEGUE"/>
+					</ResumingInterjects>
+					<MinDistance value="0.0f"/>
+					<MaxDistance value="5.0f"/>
+					<ExtendChance value="0.0" />
+				</Item>
+			</Variations>
+			<MinRepeatTime value="15000"/>
+		</Item>
+	</ConversationList>
+		
+</CConversationList>

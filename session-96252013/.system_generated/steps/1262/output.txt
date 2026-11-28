@@ -1,0 +1,47 @@
+Created At: 2026-11-25T17:58:08-05:00
+Completed At: 2026-11-25T17:58:14-05:00
+Command exited with code 0.
+
+Command output:
+=== 0xD2601E252151E04B.ysc.cs ===
+  L571109: if (((as_i32(local_1) > as_i32(0xFFFFFFFFAB5B5242))))
+  L571127: if (((as_i32(local_1) == as_i32(0xFFFFFFFFAB5B5242))))
+  L571370: if (((as_i32(local_1) == as_i32(0xFFFFFFFFD244CB70))))
+  L571524: if (((as_i32(local_1) > as_i32(0xFFFFFFFFE48C934A))))
+  L571542: if (((as_i32(local_1) == as_i32(0xFFFFFFFFE48C934A))))
+  L571796: if (((as_i32(local_1) > as_i32(0x3DA4607))))
+  L571814: if (((as_i32(local_1) == as_i32(0x3DA4607))))
+  L572327: if (((as_i32(local_1) > as_i32(0x62131F35))))
+  L572519: if (((as_i32(local_1) == as_i32(0x5CB7DB5C))))
+  L572548: if (((as_i32(local_1) == as_i32(0x62131F35))))
+  L572975: store_i32(Vm.Address(v_10AB39_0, 0), 0x0, 0xFFFFFFFFE48C934A);
+  L667046: local_1 = 0x3DA4607;
+=== 0x5B908217D52280D3.ysc.cs ===
+  L43760: local_77 = 0xFFFFFFFFCC31EF42;
+=== 0x4B2597A83EC83FE0.ysc.cs ===
+  L2020: local_11 = 0xFFFFFFFFCC31EF42;
+  L3072: Virtual.type_F337B470D91B81CC.Method_0(v_001B02_3, 0x5ADB2543, 1, v_001B15_6[0]);
+  L3350: store_i32(Vm.Address(v_001DE0_2, 0), 0x0, 0x5ADB2543);
+  L6746: Virtual.type_F337B470D91B81CC.Method_0(v_004001_0, 0x5ADB2543, 0, v_004014_3[0]);
+  L21257: Virtual.type_F337B470D91B81CC.Method_0(v_00C984_0, 0x5ADB2543, 0, v_00C997_3[0]);
+  L22522: Virtual.type_F337B470D91B81CC.Method_0(v_00D4C6_0, 0x5ADB2543, 0, v_00D4DA_3[0]);
+  L22525: store_i32(Vm.Address(v_00D4F3_4, 0), 0x0, 0x5ADB2543);
+  L25690: Virtual.type_F337B470D91B81CC.Method_0(v_00F300_0, 0x5ADB2543, 0, v_00F311_2);
+  L25795: Virtual.type_F337B470D91B81CC.Method_0(v_00F43F_5, 0x5ADB2543, 1, v_00F44E_8);
+=== 0xFE2C49933556469C.ysc.cs ===
+  L4547: local_10 = 0x62131F35;
+=== 0x947D998BD81F7AC1.ysc.cs ===
+  L882485: local_6 = 0xFFFFFFFFD244CB70;
+  L882490: local_8 = 0xFFFFFFFFE48C934A;
+  L1368537: store_i32(p0, 0xB4, 0xFFFFFFFFDFA7F6E3);
+=== 0x0CB4AD0F8360F51B.ysc.cs ===
+  L61975: if (((as_i32(local_0) == as_i32(0xFFFFFFFFDFA7F6E3))))
+=== 0xD50CE03DE879CABC.ysc.cs ===
+  L2606: Virtual.type_F337B470D91B81CC.Method_0(v_0013A9_5, 0xFFFFFFFFDFA7F6E3, 1, v_0013A5_4[0]);
+  L2634: Virtual.type_F337B470D91B81CC.Method_0(v_001497_5, 0xFFFFFFFFDFA7F6E3, 1, v_001493_4[0]);
+  L3006: Virtual.type_F337B470D91B81CC.Method_0(v_001825_1, 0xFFFFFFFFDFA7F6E3, 1, v_001821_0[0]);
+  L11149: Virtual.type_F337B470D91B81CC.Method_0(v_006487_7, 0xFFFFFFFFDFA7F6E3, 1, v_006483_6[0]);
+  L18979: v_00AFFE_0 = Imports.module_0x0CB4AD0F8360F51B.func_01EE2F(byte_offset(p0, 0x238), 0xFFFFFFFFDFA7F6E3, 0);
+  L19399: Virtual.type_F337B470D91B81CC.Method_0(v_00B439_1, 0xFFFFFFFFDFA7F6E3, 0, v_00B435_0[0]);
+  L25933: Virtual.type_F337B470D91B81CC.Method_0(v_00F64D_5, 0xFFFFFFFFDFA7F6E3, 1, v_00F649_4[0]);
+  L26289: Virtual.type_F337B470D91B81CC.Method_0(v_00FC14_4, 0xFFFFFFFFDFA7F6E3, 1, v_00FC10_3[0]);

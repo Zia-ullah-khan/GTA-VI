@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Relationships__GroupsData>
+  <Groups>
+    <Item key="REL_NO_RELATIONSHIP" />
+    <Item key="PLAYER">
+      <Flags>DoesntAffectWantedLevel</Flags>
+      <Relationships>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_COMPANION_GROUP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PLAYER_ALLY">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PLAYER_ENEMY">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_RE_ENEMY">
+      <Relationships>
+        <Item key="REL_RE_ENEMY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="CIV">
+      <Relationships>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CAPTIVE_ANIMAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="COP">
+      <Relationships>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOATING">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="GEN_POP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="BODY_BUILDER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PLAYER_COP">
+      <Flags>ConsiderEveryoneFriendlyUnlessDangerous</Flags>
+      <Relationships>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="CRIMINAL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="MILITARY">
+      <Relationships>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PLAYER_LIKE">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PLAYER_DISLIKE">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_COMPANION_GROUP">
+      <Relationships>
+        <Item key="REL_COMPANION_GROUP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_WILD_ANIMAL">
+      <Relationships>
+        <Item key="REL_WILD_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_WILD_ANIMAL_BIRD">
+      <Relationships>
+        <Item key="REL_WILD_ANIMAL_BIRD">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_WILD_ANIMAL_PREDATOR">
+      <Relationships>
+        <Item key="REL_WILD_ANIMAL_PREDATOR">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_BOAR">
+      <Relationships>
+        <Item key="REL_BOAR">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_ALLIGATOR">
+      <Relationships>
+        <Item key="REL_ALLIGATOR">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_HEN_ANIMAL">
+      <Relationships>
+        <Item key="REL_HEN_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_DOMESTICATED_ANIMAL">
+      <Relationships>
+        <Item key="REL_DOMESTICATED_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="CRIMINAL">
+      <Relationships>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="CRIMINAL_PLAYER_ENEMY">
+      <Relationships>
+        <Item key="CRIMINAL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_KOLT_AND_ASSOCIATES">
+      <Relationships>
+        <Item key="REL_GANG_KOLT_AND_ASSOCIATES">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_FAP">
+      <Relationships>
+        <Item key="REL_GANG_FAP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_KINGFISHERS">
+      <Relationships>
+        <Item key="REL_GANG_KINGFISHERS">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GANG_LA_POLILLA_NEGRA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_M7">
+      <Relationships>
+        <Item key="REL_GANG_M7">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_CASHCITY">
+      <Relationships>
+        <Item key="REL_GANG_CASHCITY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_LA_POLILLA_NEGRA">
+      <Relationships>
+        <Item key="REL_GANG_LA_POLILLA_NEGRA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GANG_KINGFISHERS">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GANG_GUARDIA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_GUARDIA">
+      <Relationships>
+        <Item key="REL_GANG_GUARDIA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GANG_LA_POLILLA_NEGRA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_GRAVELLIS">
+      <Relationships>
+        <Item key="REL_GANG_GRAVELLIS">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_RUSSIANMAFIA">
+      <Relationships>
+        <Item key="REL_GANG_RUSSIANMAFIA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_PTT">
+      <Relationships>
+        <Item key="REL_GANG_PTT">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_FINAL_CHAPTER">
+      <Relationships>
+        <Item key="REL_GANG_FINAL_CHAPTER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_3AM_CLUB">
+      <Relationships>
+        <Item key="REL_GANG_3AM_CLUB">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG_SAN_4_SAN">
+      <Relationships>
+        <Item key="REL_GANG_SAN_4_SAN">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PILL_GANG">
+      <Relationships>
+        <Item key="REL_PILL_GANG">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_BILL_MAFIA">
+      <Relationships>
+        <Item key="REL_BILL_MAFIA">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GANG">
+      <Relationships>
+        <Item key="REL_GANG">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_GUARD">
+      <Relationships>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CAPTIVE_ANIMAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_DOMESTICATED_PET_ANIMAL">
+      <Relationships>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_DOMESTICATED_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_DOMESTICATED_PET_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_HATE_ALL_PEDS">
+      <Relationships>
+        <Item key="BODY_BUILDER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CRIMINAL">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CRIMINAL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="GEN_POP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BILL_MAFIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BOATING">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_COMPANION_GROUP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_3AM_CLUB">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_CASHCITY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_FAP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_FINAL_CHAPTER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_GRAVELLIS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_GUARDIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_KINGFISHERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_KOLT_AND_ASSOCIATES">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_LA_POLILLA_NEGRA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_M7">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_PTT">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_RUSSIANMAFIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_SAN_4_SAN">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_NO_RELATIONSHIP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PED_BRAWLERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PILL_GANG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_RE_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_HATE_ALL_PEDS_BUT_PLAYER">
+      <Relationships>
+        <Item key="BODY_BUILDER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CRIMINAL">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="CRIMINAL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="GEN_POP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BILL_MAFIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BOATING">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_COMPANION_GROUP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_3AM_CLUB">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_CASHCITY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_FAP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_FINAL_CHAPTER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_GRAVELLIS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_GUARDIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_KINGFISHERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_KOLT_AND_ASSOCIATES">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_LA_POLILLA_NEGRA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_M7">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_PTT">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_RUSSIANMAFIA">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GANG_SAN_4_SAN">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_NO_RELATIONSHIP">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PED_BRAWLERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PILL_GANG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_DISLIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_RE_ENEMY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_CAPTIVE_ANIMAL">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CAPTIVE_ANIMAL">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_PED_BRAWLERS">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PED_BRAWLERS">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+    <Item key="TOURIST">
+      <Relationships>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="TOURIST_MID_OLD">
+      <Relationships>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="TOURIST_YOUNG">
+      <Relationships>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="CITY_URBAN">
+      <Relationships>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="GEN_POP">
+      <Relationships>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_PLAYER_COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CAPTIVE_ANIMAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="BODY_BUILDER">
+      <Relationships>
+        <Item key="BODY_BUILDER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="VICECITY_LOCALS">
+      <Relationships>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="OLDER_POP">
+      <Relationships>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="SHABBY_HOMELESS">
+      <Relationships>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="GEN_POP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="TWEAKERS">
+      <Relationships>
+        <Item key="TOURIST">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TOURIST_MID_OLD">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TOURIST_YOUNG">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="CITY_URBAN">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLDER_POP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="GEN_POP">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="CIV">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="RURAL">
+      <Relationships>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REDNECKS">
+      <Relationships>
+        <Item key="REDNECKS">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="RURAL">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="JUNKIES">
+      <Relationships>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="OLD_MONEY">
+      <Relationships>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="OLD_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="NEW_MONEY">
+      <Relationships>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="NEW_MONEY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="SNOBBY_FASHIONABLE">
+      <Relationships>
+        <Item key="VICECITY_LOCALS">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="SHABBY_HOMELESS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="JUNKIES">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="TWEAKERS">ACQUAINTANCE_TYPE_PED_DISLIKE</Item>
+        <Item key="SNOBBY_FASHIONABLE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_SERVICE">
+      <Relationships>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_BOUNCER">
+      <Relationships>
+        <Item key="REL_BOUNCER">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_BOATING">
+      <Relationships>
+        <Item key="REL_BOATING">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_CONSTRUCTION">
+      <Relationships>
+        <Item key="REL_CONSTRUCTION">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_GUARD">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="REL_SERVICE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="COP">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+        <Item key="MILITARY">ACQUAINTANCE_TYPE_PED_RESPECT</Item>
+      </Relationships>
+    </Item>
+    <Item key="REL_ARCADE_ZOMBIE">
+      <Relationships>
+        <Item key="PLAYER">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_ARCADE_ZOMBIE">ACQUAINTANCE_TYPE_PED_LIKE</Item>
+        <Item key="REL_PLAYER_ALLY">ACQUAINTANCE_TYPE_PED_HATE</Item>
+        <Item key="REL_PLAYER_LIKE">ACQUAINTANCE_TYPE_PED_HATE</Item>
+      </Relationships>
+    </Item>
+  </Groups>
+</Relationships__GroupsData>

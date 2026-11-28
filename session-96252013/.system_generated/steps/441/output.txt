@@ -1,0 +1,30 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -146,6 +146,24 @@
+             zorder=4
+         )
+ 
++def draw_column_bridge(ax, x_start, y_start, x_end, y_end, gutter_x, badge_text="", color="#f43f5e", lw=1.8):
++    ax.plot([x_start, gutter_x, gutter_x, x_end], [y_start, y_start, y_end, y_end], color=color, lw=lw, zorder=3)
++    ax.annotate(
++        "",
++        xy=(x_end, y_end), xytext=(x_end - 0.35, y_end),
++        arrowprops=dict(arrowstyle="->,head_width=0.32,head_length=0.42", color=color, lw=lw),
++        zorder=3
++    )
++    if badge_text:
++        badge_y = (y_start + y_end) / 2
++        ax.text(
++            gutter_x, badge_y, badge_text,
++            ha="center", va="center", fontsize=6.8, fontweight="bold",
++            color="#fde047",
++            bbox=dict(boxstyle="round,pad=0.18", facecolor="#18140f", edgecolor=color, lw=1.0),
++            zorder=4
++        )
++
+ def setup_header(ax, title, subtitle, w_total, y_top=11.5):
+     ax.text(
+         w_total / 2, y_top,
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

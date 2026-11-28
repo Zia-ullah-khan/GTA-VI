@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleComponentSetManager>
+  <Infos>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_VEHICLE</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="8" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="400" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxTrailComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="8" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleTowingComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleCargoComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_TRUCK</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="8" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="300" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="250" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="10" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_BARGE</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="25" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="2000" />
+          <MaxDistance value="3000" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="250" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_AIRCRAFT</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="2500" />
+        </Item>
+        <Item>
+          <Type>CVehicleCargoComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="500" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="20" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="2000" />
+          <MaxDistance value="3000" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="2000" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="2" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_BOAT</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="12" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="1000" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxTrailComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="1000" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="50" />
+          <MaxDistance value="100" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleTowingComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleCargoComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>STANDARD_JETSKI_OR_KAYAK</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="8" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="200" />
+          <MaxDistance value="280" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="1000" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxTrailComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="1000" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="2" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleTowingComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleCargoComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+    <Item type="CVehicleComponentSetInfo">
+      <Name>VEHICLE_CRANE</Name>
+      <EntityComponentsInfo>
+        <Item>
+          <Type>CVehicleAiLodComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleAmbientContentValidationComponent</Type>
+          <MinDistance value="150" />
+          <MaxDistance value="200" />
+        </Item>
+        <Item>
+          <Type>CVehicleGadgetComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleInstrumentComponent</Type>
+          <MinDistance value="1" />
+          <MaxDistance value="8" />
+        </Item>
+        <Item>
+          <Type>CVehicleMovablePartsComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="60" />
+        </Item>
+        <Item>
+          <Type>CVehicleOccupantComponent</Type>
+          <MinDistance value="120" />
+          <MaxDistance value="180" />
+        </Item>
+        <Item>
+          <Type>CVehiclePropsetComponent</Type>
+          <MinDistance value="30" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="400" />
+        </Item>
+        <Item>
+          <Type>CVehicleVfxTrailComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CAvoidanceComponent</Type>
+          <MinDistance value="40" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CPropContainerComponent</Type>
+          <MinDistance value="2" />
+          <MaxDistance value="50" />
+        </Item>
+        <Item>
+          <Type>CTowableComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+        <Item>
+          <Type>CVehicleTowingComponent</Type>
+          <MinDistance value="250" />
+          <MaxDistance value="300" />
+        </Item>
+        <Item>
+          <Type>CVehicleCargoComponent</Type>
+          <MinDistance value="20" />
+          <MaxDistance value="40" />
+        </Item>
+      </EntityComponentsInfo>
+    </Item>
+  </Infos>
+  <DefaultSet ref="STANDARD_VEHICLE" />
+</CVehicleComponentSetManager>

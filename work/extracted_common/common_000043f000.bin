@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CCompanionAnalysisRuleSetAlerted__Tunables">
+      <Name>CCompanionAnalysisRuleSetAlerted</Name>
+      <Test value="3.000000" />
+    </Item>
+    <Item type="CCompanionAnalysisRuleSetCatNMouse__Tunables">
+      <Name>CCompanionAnalysisRuleSetCatNMouse</Name>
+      <StartRetreatingClosestThreatETA value="3.000000" />
+      <StartRetreatingClosestThreatDistance value="10.000000" />
+      <StartRetreatingClosestThreatDistanceAndCanSeeMe value="15.000000" />
+      <ContinueRetreatingTime value="3.000000" />
+      <ContinueRetreatingClosestThreatETA value="6.000000" />
+      <ContinueRetreatingClosestThreatDistance value="15.000000" />
+      <StartAdvancingClosestThreatMaxDistance value="40.000000" />
+      <StartAdvancingClosestThreatMinDistance value="30.000000" />
+      <StartAdvancingNotAdvancingNotRetreatingTime value="6.000000" />
+      <ContinueAdvancingClosestThreatLOSTime value="0.500000" />
+      <ContinueAdvancingClosestThreatSeesMeTime value="0.500000" />
+      <ContinueAdvancingClosestThreatDistance value="30.000000" />
+      <StandAndFightClosestThreatDistance value="9.000000" />
+    </Item>
+    <Item type="CCompanionAnalysisRuleSetCombat__Tunables">
+      <Name>CCompanionAnalysisRuleSetCombat</Name>
+      <Test value="3.000000" />
+    </Item>
+    <Item type="CCompanionAnalysisRuleSetDefault__Tunables">
+      <Name>CCompanionAnalysisRuleSetDefault</Name>
+      <Test value="3.000000" />
+    </Item>
+    <Item type="CCompanionAnalysisRuleSetLead__Tunables">
+      <Name>CCompanionAnalysisRuleSetLead</Name>
+    </Item>
+  </Tunables>
+</CTuningFile>

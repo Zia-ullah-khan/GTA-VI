@@ -1,0 +1,455 @@
+<Sprinklers__RootData>
+	<Types>
+		<Item key="LargeStatic360">
+			<ClipSet></ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__SingleClipProvider">
+				<Clip>Loop</Clip>
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Farm</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="2"/>
+				<MaxRequestRange value="25"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FixedArcData">
+				<Arc value="360"/>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<VFXName>ent_amb_fountain_sprinkler_lawn_360</VFXName>
+					<VFXAttachBone>sprinkler_head</VFXAttachBone>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="10"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="0.5" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="1" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+			<WetnessLifetime value="10" />
+			<WetnessTarget value="0.7" />
+			<WetnessSpeed value="0.05" />
+			<WetnessFalloff value="1" />
+		</Item>
+		<Item key="LargeStaticDirected">
+			<ClipSet></ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__SingleClipProvider">
+				<Clip>Loop</Clip>
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Farm</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="0.5"/>
+				<MaxRequestRange value="40"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FlexiArcData">
+				<AnimSweepAngles>
+					<Item value="0" />
+				</AnimSweepAngles>
+				<VFXArcs>
+					<Item value="3" />
+					<Item value="5" />
+					<Item value="10" />
+					<Item value="15" />
+					<Item value="20" />
+					<Item value="25" />
+					<Item value="30" />
+					<Item value="35" />
+					<Item value="40" />
+					<Item value="45" />
+					<Item value="50" />
+					<Item value="55" />
+					<Item value="60" />
+					<Item value="65" />
+					<Item value="70" />
+					<Item value="75" />
+					<Item value="80" />
+					<Item value="85" />
+					<Item value="90" />
+					<Item value="95" />
+					<Item value="100" />
+					<Item value="105" />
+					<Item value="110" />
+					<Item value="115" />
+					<Item value="120" />
+					<Item value="125" />
+					<Item value="130" />
+					<Item value="135" />
+					<Item value="140" />
+					<Item value="145" />
+					<Item value="150" />
+					<Item value="155" />
+					<Item value="160" />
+					<Item value="165" />
+					<Item value="170" />
+					<Item value="175" />
+					<Item value="180" />
+				</VFXArcs>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<VFXName>ent_anm_sprinkler_lawn_rotor</VFXName>
+					<VFXAttachBone>sprinkler_head</VFXAttachBone>
+					<VFXArcEvo>
+						<Name>angle</Name>
+						<Min value="0"/>
+						<Max value="180"/>
+					</VFXArcEvo>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="20"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="0.5" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="1" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+			<WetnessLifetime value="10" />
+			<WetnessTarget value="0.7" />
+			<WetnessSpeed value="0.05" />
+			<WetnessFalloff value="1" />
+		</Item>
+		<Item key="MediumStatic360">
+			<ClipSet></ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__SingleClipProvider">
+				<Clip>Loop</Clip>
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Garden</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="0.5"/>
+				<MaxRequestRange value="20"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FixedArcData">
+				<Arc value="360"/>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<VFXName>ent_amb_fountain_sprinkler_lawn_360</VFXName>
+					<VFXAttachBone>sprinkler_head</VFXAttachBone>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="10"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="0.5" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="0.5" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+			<WetnessLifetime value="10" />
+			<WetnessTarget value="0.7" />
+			<WetnessSpeed value="0.05" />
+			<WetnessFalloff value="1" />
+		</Item>
+		<Item key="MediumStaticDirected">
+			<ClipSet></ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__SingleClipProvider">
+				<Clip>Loop</Clip>
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Garden</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="0.5"/>
+				<MaxRequestRange value="40"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FlexiArcData">
+				<AnimSweepAngles>
+					<Item value="0" />
+				</AnimSweepAngles>
+				<VFXArcs>
+					<Item value="3" />
+					<Item value="5" />
+					<Item value="10" />
+					<Item value="15" />
+					<Item value="20" />
+					<Item value="25" />
+					<Item value="30" />
+					<Item value="35" />
+					<Item value="40" />
+					<Item value="45" />
+					<Item value="50" />
+					<Item value="55" />
+					<Item value="60" />
+					<Item value="65" />
+					<Item value="70" />
+					<Item value="75" />
+					<Item value="80" />
+					<Item value="85" />
+					<Item value="90" />
+					<Item value="95" />
+					<Item value="100" />
+					<Item value="105" />
+					<Item value="110" />
+					<Item value="115" />
+					<Item value="120" />
+					<Item value="125" />
+					<Item value="130" />
+					<Item value="135" />
+					<Item value="140" />
+					<Item value="145" />
+					<Item value="150" />
+					<Item value="155" />
+					<Item value="160" />
+					<Item value="165" />
+					<Item value="170" />
+					<Item value="175" />
+					<Item value="180" />
+				</VFXArcs>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<VFXName>ent_anm_sprinkler_lawn_rotor</VFXName>
+					<VFXAttachBone>sprinkler_head</VFXAttachBone>
+					<VFXArcEvo>
+						<Name>angle</Name>
+						<Min value="0"/>
+						<Max value="180"/>
+					</VFXArcEvo>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="20"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="0.5" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="0.5" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+			<WetnessLifetime value="10" />
+			<WetnessTarget value="0.7" />
+			<WetnessSpeed value="0.05" />
+			<WetnessFalloff value="1" />
+		</Item>
+		<Item key="Popup360">
+			<ClipSet>CLIPSET@AMBIENT@PROP_OBJECTS@GARDEN_SPRINKLERS@POP_UP_360</ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__SingleClipProvider">
+				<Clip>Loop</Clip>
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Garden</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="0.5"/>
+				<MaxRequestRange value="20"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FixedArcData">
+				<Arc value="360"/>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<VFXName>ent_amb_fountain_sprinkler_lawn_360</VFXName>
+					<VFXAttachBone>Nozzle</VFXAttachBone>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="10"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="1" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="0" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+			<WetnessLifetime value="10" />
+			<WetnessTarget value="0.7" />
+			<WetnessSpeed value="0.05" />
+			<WetnessFalloff value="1" />
+		</Item>
+		<Item key="PopupRotatingDirected">
+			<ClipSet>CLIPSET@AMBIENT@PROP_OBJECTS@GARDEN_SPRINKLERS@POP_UP_ROTATE</ClipSet>
+			<EnterClip type="Sprinklers__SingleClipProvider">
+				<Clip>Enter</Clip>
+			</EnterClip>
+			<LoopClip type="Sprinklers__FlexiClipProvider">
+			</LoopClip>
+			<ExitClip type="Sprinklers__SingleClipProvider">
+				<Clip>Exit</Clip>
+			</ExitClip>
+			<Type>Garden</Type>
+			<Range type="Sprinklers__FlexiRangeData">
+				<MinRequestRange value="0.5"/>
+				<MaxRequestRange value="40"/>
+				<DefaultRange value="5" />
+			</Range>
+			<Arc type="Sprinklers__FlexiArcData">
+				<AnimSweepAngles>
+					<Item value="0" />
+					<Item value="30" />
+					<Item value="60" />
+					<Item value="90" />
+					<Item value="120" />
+					<Item value="150" />
+					<Item value="180" />
+					<Item value="210" />
+					<Item value="240" />
+					<Item value="270" />
+					<Item value="300" />
+					<Item value="330" />
+					<Item value="360" />
+				</AnimSweepAngles>
+				<VFXArcs>
+					<Item value="3" />
+					<Item value="10" />
+					<Item value="20" />
+					<Item value="30" />
+					<Item value="40" />
+					<Item value="50" />
+					<Item value="60" />
+					<Item value="70" />
+					<Item value="80" />
+					<Item value="90" />
+					<Item value="100" />
+					<Item value="110" />
+					<Item value="120" />
+					<Item value="130" />
+					<Item value="140" />
+					<Item value="150" />
+					<Item value="160" />
+					<Item value="170" />
+					<Item value="180" />
+				</VFXArcs>
+			</Arc>
+			<ArcCenter1 value="0"/>
+			<VFXOptions>
+				<Item>
+					<MinValidRange value="25"/>
+					<VFXName>ent_anm_sprinkler_lawn_rotor</VFXName>
+					<VFXAttachBone>Nozzle</VFXAttachBone>
+					<VFXArcEvo>
+						<Name>angle</Name>
+						<Min value="0"/>
+						<Max value="180"/>
+					</VFXArcEvo>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="20"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="1" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="0" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+				<Item>
+					<VFXName>ent_anm_sprinkler_lawn_rotor</VFXName>
+					<VFXAttachBone>Nozzle</VFXAttachBone>
+					<VFXArcEvo>
+						<Name>angle</Name>
+						<Min value="0"/>
+						<Max value="180"/>
+					</VFXArcEvo>
+					<VFXRangeEvo>
+						<Name>range</Name>
+						<Min value="3"/>
+						<Max value="20"/>
+					</VFXRangeEvo>
+					<VFXFixedEvos>
+						<Item>
+							<Name>pitch</Name>
+							<Value value="0.5" />
+						</Item>
+						<Item>
+							<Name>pitchangle</Name>
+							<Value value="0" />
+						</Item>
+					</VFXFixedEvos>
+					<VFXFogEvoName>fogVolume</VFXFogEvoName>
+				</Item>
+			</VFXOptions>
+		</Item>
+	</Types>
+	<ModelMappings>
+		<Item key="prop_am_farm_sprinkler_01a">LargeStatic360</Item>
+		<Item key="prop_am_farm_sprinkler_02a">MediumStatic360</Item>
+		<Item key="prop_am_farm_sprinkler_02b">MediumStaticDirected</Item>
+		<Item key="prop_am_farm_sprinkler_03a">LargeStatic360</Item>
+		<Item key="prop_am_garden_sprinkler_03a">Popup360</Item>
+		<Item key="prop_am_garden_sprinkler_03b">PopupRotatingDirected</Item>
+		<Item key="prop_am_garden_sprinkler_03c">PopupRotatingDirected</Item>
+		<Item key="prop_am_garden_sprinkler_03d">PopupRotatingDirected</Item>
+	</ModelMappings>
+</Sprinklers__RootData>

@@ -1,0 +1,51 @@
+Created At: 2026-11-25T17:56:08-05:00
+Completed At: 2026-11-25T17:56:12-05:00
+Command exited with code 0.
+
+Command output:
+=== sub_1404304a0 ===
+  0x1404304a0: push     r15
+  0x1404304a2: push     r14
+  0x1404304a4: push     r13
+  0x1404304a6: push     r12
+  0x1404304a8: push     rsi
+  0x1404304a9: push     rdi
+  0x1404304aa: push     rbp
+  0x1404304ab: push     rbx
+  0x1404304ac: sub      rsp, 0x38
+  0x1404304b0: movsxd   r14, dword ptr [rdx]
+  0x1404304b3: mov      rsi, rcx
+  0x1404304b6: xor      ecx, ecx
+  0x1404304b8: mov      qword ptr [rsi], rcx
+  0x1404304bb: mov      dword ptr [rsi + 8], 0
+  0x1404304c2: mov      qword ptr [rsi + 0x10], rcx
+  0x1404304c6: test     r14, r14
+  0x1404304c9: je       0x14043056e
+  0x1404304cf: mov      rdi, rdx
+  0x1404304d2: lea      rdx, [r14*8]
+  0x1404304da: mov      ecx, 4
+  0x1404304df: call     0x144d9c140
+  0x1404304e4: mov      word ptr [rsi + 0xa], r14w
+  0x1404304e9: mov      rbx, rax
+  0x1404304ec: mov      qword ptr [rsi], rax
+  0x1404304ef: mov      eax, r14d
+  0x1404304f2: xor      r13d, r13d
+  0x1404304f5: xor      r14d, r14d
+  0x1404304f8: xor      r15d, r15d
+  0x1404304fb: mov      qword ptr [rsp + 0x28], rax
+  0x140430500: mov      ebp, dword ptr [rdi + r13*8 + 8]
+  0x140430505: mov      r12d, dword ptr [rdi + r13*8 + 4]
+  0x14043050a: movzx    eax, r13w
+  0x14043050e: lea      rdx, [rsp + 0x24]
+  0x140430513: mov      rcx, rbp
+  0x140430516: shl      rcx, 0x20
+  0x14043051a: or       rcx, r12
+  0x14043051d: mov      qword ptr [rbx + rax*8], rcx
+  0x140430521: mov      ecx, r12d
+  0x140430524: call     0x145269670
+  0x140430529: test     al, al
+  0x14043052b: jne      0x140430540
+  0x14043052d: mov      ecx, r12d
+  0x140430530: lea      rdx, [rsp + 0x34]
+  0x140430535: call     0x1404305b0
+  0x14043053a: test     al, al

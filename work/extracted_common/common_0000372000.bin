@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="testbed_preview_CaL_mod"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>Sub_Calibration_Exposure</item>
+    </submodifiers>
+    <postfx_white_balance_auto_model_probe_illum_ratio>0.000000 0.000000</postfx_white_balance_auto_model_probe_illum_ratio>
+  </modifier>
+  <modifier
+    name="PROC_INT_Deco"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <postfx_correct_col_r>1.000000 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>1.000000 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>1.000000 0.000000</postfx_correct_col_b>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="PROC_INT_LowEnd"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="PROC_INT_MidEnd"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="PROC_INT_GasStation"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="INT_Mall1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="PROC_INT_Barber"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>1000.000000 1000.000000</far_clip>
+  </modifier>
+  <modifier
+    name="PROC_INT_burgerShot"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="generic_int_lowend1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_Clinic"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_01SN06A"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_01SN12B"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+    <indirect_light_multiplier>0.000000 0.000000</indirect_light_multiplier>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_02SN12A"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_02SN06A"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_02SN12B"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="GENERIC_INT_01SN12A"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+  >
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="gen_bank"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_intensity_mult>1.000000 0.000000</light_intensity_mult>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="gen_burgershot_1"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="2"
+   />
+  <modifier
+    name="water_level_default"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_ocean_tidal_offset>0.000000 0.000000</water_ocean_tidal_offset>
+  </modifier>
+  <modifier
+    name="water_level_low"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_ocean_tidal_offset>-0.450000 0.000000</water_ocean_tidal_offset>
+  </modifier>
+  <modifier
+    name="water_level_high"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_ocean_tidal_offset>0.450000 0.000000</water_ocean_tidal_offset>
+  </modifier>
+  <modifier
+    name="water_level_surge"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_ocean_tidal_offset>2.000000 0.000000</water_ocean_tidal_offset>
+  </modifier>
+  <modifier
+    name="Default_Int_High"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Default_Int_Mid"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Default_Int_Low"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.100000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>0.000000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="BS_Modern_High_Com_Interior"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_intensity_bloom>0.050000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.250000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_vignette_intensity>0.400000 0.000000</postfx_vignette_intensity>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+  </modifier>
+  <modifier
+    name="testbed_lighting_exposureroom"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="FAKEaces"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_tonemap_filmic_override_dark>1.000000 0.000000</postfx_tonemap_filmic_override_dark>
+    <postfx_tonemap_filmic_override_bright>1.000000 0.000000</postfx_tonemap_filmic_override_bright>
+    <postfx_tonemap_filmic_f>9.200000 0.000000</postfx_tonemap_filmic_f>
+    <postfx_tonemap_filmic_e>-0.100000 0.000000</postfx_tonemap_filmic_e>
+    <postfx_tonemap_filmic_d>0.030000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_c>0.130000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_b>0.400000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_a>0.900000 0.000000</postfx_tonemap_filmic_a>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>0.900000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_b_bright>0.400000 0.000000</postfx_tonemap_filmic_b_bright>
+    <postfx_tonemap_filmic_c_bright>0.130000 0.000000</postfx_tonemap_filmic_c_bright>
+    <postfx_tonemap_filmic_d_bright>0.030000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_tonemap_filmic_e_bright>-0.100000 0.000000</postfx_tonemap_filmic_e_bright>
+    <postfx_tonemap_filmic_f_bright>9.200000 0.000000</postfx_tonemap_filmic_f_bright>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="FAKEaces2"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <postfx_tonemap_filmic_override_dark>1.000000 0.000000</postfx_tonemap_filmic_override_dark>
+    <postfx_tonemap_filmic_a>0.870000 0.000000</postfx_tonemap_filmic_a>
+    <postfx_tonemap_filmic_b>0.500000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_c>0.036000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_d>0.030000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_e>-0.430000 0.000000</postfx_tonemap_filmic_e>
+    <postfx_tonemap_filmic_f>10.000000 0.000000</postfx_tonemap_filmic_f>
+    <postfx_tonemap_filmic_override_bright>1.000000 0.000000</postfx_tonemap_filmic_override_bright>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>0.870000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_b_bright>0.500000 0.000000</postfx_tonemap_filmic_b_bright>
+    <postfx_tonemap_filmic_c_bright>0.036000 0.000000</postfx_tonemap_filmic_c_bright>
+    <postfx_tonemap_filmic_d_bright>-0.030000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_tonemap_filmic_e_bright>-0.430000 0.000000</postfx_tonemap_filmic_e_bright>
+    <postfx_tonemap_filmic_f_bright>10.000000 0.000000</postfx_tonemap_filmic_f_bright>
+    <postfx_exposure>0.500000 0.000000</postfx_exposure>
+  </modifier>
+  <modifier
+    name="FakeaAces3"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_tonemap_filmic_override_dark>1.000000 0.000000</postfx_tonemap_filmic_override_dark>
+    <postfx_tonemap_filmic_a>3.270000 0.000000</postfx_tonemap_filmic_a>
+    <postfx_tonemap_filmic_b>1.370000 0.000000</postfx_tonemap_filmic_b>
+    <postfx_tonemap_filmic_c>0.070000 0.000000</postfx_tonemap_filmic_c>
+    <postfx_tonemap_filmic_d>0.050000 0.000000</postfx_tonemap_filmic_d>
+    <postfx_tonemap_filmic_e>0.000000 0.000000</postfx_tonemap_filmic_e>
+    <postfx_tonemap_filmic_f>16.000000 0.000000</postfx_tonemap_filmic_f>
+    <postfx_tonemap_filmic_override_bright>1.000000 0.000000</postfx_tonemap_filmic_override_bright>
+    <postfx_tonemap_filmic_exposure_bright>-2.000000 0.000000</postfx_tonemap_filmic_exposure_bright>
+    <postfx_tonemap_filmic_a_bright>3.270000 0.000000</postfx_tonemap_filmic_a_bright>
+    <postfx_tonemap_filmic_b_bright>1.370000 0.000000</postfx_tonemap_filmic_b_bright>
+    <postfx_tonemap_filmic_c_bright>0.070000 0.000000</postfx_tonemap_filmic_c_bright>
+    <postfx_tonemap_filmic_d_bright>0.050000 0.000000</postfx_tonemap_filmic_d_bright>
+    <postfx_tonemap_filmic_e_bright>0.000000 0.000000</postfx_tonemap_filmic_e_bright>
+    <postfx_tonemap_filmic_f_bright>16.000000 0.000000</postfx_tonemap_filmic_f_bright>
+  </modifier>
+  <modifier
+    name="testbed_lighting_conv_store_01"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <light_shadow_fade_distance_mult>1.500000 0.000000</light_shadow_fade_distance_mult>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_intensity_bloom>0.175000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="tbl_gasstation_01_shopfloor"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+  </modifier>
+  <modifier
+    name="DisableLocalBounce"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="calibration"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_vignette_tint_r>1.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>1.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>1.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_exposure_min>-13.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-13.000000 0.000000</postfx_exposure_max>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <postfx_tonemap_lumin_only>1.000000 0.000000</postfx_tonemap_lumin_only>
+    <reflection_render_hd>1.000000 0.000000</reflection_render_hd>
+    <light_ambient_override>1.000000 1.000000</light_ambient_override>
+    <weather_fixed_hipr_noon>1.000000 0.000000</weather_fixed_hipr_noon>
+    <postfx_apply_aces_rec709>1.000000 0.000000</postfx_apply_aces_rec709>
+  </modifier>
+  <modifier
+    name="testbed_lighting_cnv_bran_front"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>1.600000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="testbed_lighting_cnv_bran_back"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_exposure>0.600000 0.000000</postfx_exposure>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Test_Master_Sub_TC"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Test_Sub_TC_01</item>
+    </submodifiers>
+    <postfx_intensity_bloom>0.000000 0.000000</postfx_intensity_bloom>
+    <postfx_correct_col_r>1.000000 0.000000</postfx_correct_col_r>
+    <postfx_correct_col_g>1.000000 0.000000</postfx_correct_col_g>
+    <postfx_correct_col_b>1.000000 0.000000</postfx_correct_col_b>
+    <reflection_tweak_directional>0.000000 0.000000</reflection_tweak_directional>
+    <far_clip>100.000000 100.000000</far_clip>
+  </modifier>
+  <modifier
+    name="Test_Sub_TC_01"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_col_r>1.000000 1.000000</light_dir_col_r>
+    <light_dir_col_g>0.000000 1.000000</light_dir_col_g>
+    <light_dir_col_b>1.000000 1.000000</light_dir_col_b>
+  </modifier>
+  <modifier
+    name="UFO_Dark_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>0.500000 0.000000</indirect_light_emissive_multiplier>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_exposure_max>0.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>0.000000 0.000000</postfx_exposure_min>
+    <postfx_lens_flares_intensity>0.003000 0.000000</postfx_lens_flares_intensity>
+    <indirect_light_near_light_luminance_r>0.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <coronas_interior_fade>0.000000 0.000000</coronas_interior_fade>
+  </modifier>
+  <modifier
+    name="UFO_Egg_Room_01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Hot</item>
+      <item>Humidity_highControl_veryHigh</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_exposure_max>1.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>1.000000 0.000000</postfx_exposure_min>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <postfx_local_exposure_sh_contrast>0.900000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_dt_contrast>1.000000 0.000000</postfx_local_exposure_dt_contrast>
+    <postfx_local_exposure_blur_lum_amount>1.000000 0.000000</postfx_local_exposure_blur_lum_amount>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_emissive_multiplier>0.700000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_near_light_luminance_r>0.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <coronas_interior_fade>0.000000 0.000000</coronas_interior_fade>
+  </modifier>
+  <modifier
+    name="UFO_Alien_Water_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>-6.000000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>1.000000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.000000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>-4.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>10.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_exposure_compensation_ev_cp0_x>-13.960741 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>-2.013268 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-8.423181 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>-1.936000 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.000000 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>-2.000000 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.000000 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.000000 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-2.000000 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>8.172722 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-2.013268 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>10.172722 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-2.013268 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <wind_convection_ground_speed_kmh>0.000000 0.000000</wind_convection_ground_speed_kmh>
+    <wind_convection_onoffshore_speed_kmh>22.000000 0.000000</wind_convection_onoffshore_speed_kmh>
+    <local_atmosphere_fog_volume_waterfall_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_waterfall_density_mult>
+    <water_clip_scattering_r>0.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>11.200000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.600000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.600000 0.000000</water_clip_extinction_b>
+    <postfx_exposure_max>3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_emissive_multiplier>0.000000 0.000000</indirect_light_emissive_multiplier>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+  </modifier>
+  <modifier
+    name="UFO_White_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cold</item>
+      <item>Humidity_highControl_veryLow</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <indirect_light_multibounce_multiplier>0.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>0.300000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <postfx_intensity_bloom>0.020000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-3.500000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <coronas_interior_fade>0.000000 0.000000</coronas_interior_fade>
+  </modifier>
+  <modifier
+    name="UFO_Orrery"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cool</item>
+      <item>Humidity_highControl_Low</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_exposure_min>-6.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-6.000000 0.000000</postfx_exposure_max>
+    <postfx_intensity_bloom>0.410000 0.000000</postfx_intensity_bloom>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <indirect_light_near_light_luminance_r>0.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <coronas_interior_fade>0.000000 0.000000</coronas_interior_fade>
+  </modifier>
+  <modifier
+    name="UFO_FuelRoom"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>POSTFX_DynamicGradient_OFF</item>
+      <item>Temp_midControl_Hot</item>
+      <item>Humidity_midControl_High</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <local_atmosphere_fog_density>0.000000 0.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>-4.800000 0.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>0.100000 0.000000</local_atmosphere_fog_falloff>
+    <local_atmosphere_fog_density_layer_1>0.010000 0.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>150.000000 0.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>30.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_intensity_bloom>0.410000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-6.000000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <wind_prevailing_speed_min_at_bottom_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_min_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_max_at_bottom_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_max_at_bottom_falloff_kmh>
+    <wind_prevailing_speed_min_at_top_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_min_at_top_falloff_kmh>
+    <wind_prevailing_speed_max_at_top_falloff_kmh>1.000000 0.000000</wind_prevailing_speed_max_at_top_falloff_kmh>
+    <wind_prevailing_speed_falloff_height_kmh>1.000000 0.000000</wind_prevailing_speed_falloff_height_kmh>
+    <indirect_light_near_light_luminance_r>0.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+    <indirect_light_emissive_multiplier>0.300000 0.000000</indirect_light_emissive_multiplier>
+  </modifier>
+  <modifier
+    name="TC_MOD_Volume_Test"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_near_light_distance_min>0.000000 0.000000</indirect_light_near_light_distance_min>
+    <indirect_light_near_light_distance_max>20.000000 0.000000</indirect_light_near_light_distance_max>
+    <indirect_light_near_light_occlusion_min>0.000000 0.000000</indirect_light_near_light_occlusion_min>
+    <indirect_light_near_light_occlusion_max>1.000000 0.000000</indirect_light_near_light_occlusion_max>
+    <indirect_light_near_light_luminance_r>100.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <sky_new_ray_scattering_col_r>0.941177 0.000000</sky_new_ray_scattering_col_r>
+    <sky_new_ray_scattering_col_g>0.011765 0.000000</sky_new_ray_scattering_col_g>
+    <sky_new_ray_scattering_col_b>0.294118 0.000000</sky_new_ray_scattering_col_b>
+    <postfx_grad_bottom_col_r>0.956863 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>0.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>0.227451 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>0.956863 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>0.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>0.227451 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>0.956863 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>0.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>0.223529 0.000000</postfx_grad_top_col_b>
+  </modifier>
+  <modifier
+    name="DS_07_CarPark_Basement"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <postfx_local_exposure_sh_contrast>0.750000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.771290 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="TC_Water_rendering_disabled"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="Player_Drunk_Light_animations"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="4"
+  >
+    <axis controlValue="heartbeat">
+      <keyframe_t_value>0.000000 0.430910 0.564190 1.000000</keyframe_t_value>
+      <light_intensity_mult>0.300000 3.000000 3.000000 0.300000</light_intensity_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="UFO_White_Room_Milk_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cold</item>
+      <item>Humidity_highControl_veryLow</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>0.300000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <postfx_intensity_bloom>0.020000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-3.500000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+  </modifier>
+  <modifier
+    name="UFO_White_Room_Last_Room"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cold</item>
+      <item>Humidity_highControl_veryLow</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>0.300000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <postfx_intensity_bloom>0.020000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-3.500000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+  </modifier>
+  <modifier
+    name="SecondaryTC_Mod_Test_01"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+   />
+  <modifier
+    name="Sub_Calibration_Exposure"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="0"
+  >
+    <postfx_exposure_min>-13.250000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-13.250000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="UFO_White_Room_Box"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Temp_highControl_Cold</item>
+      <item>Humidity_highControl_veryLow</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <indirect_light_multibounce_multiplier>0.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>0.300000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>1.000000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <postfx_intensity_bloom>0.020000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure_min>-3.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-3.500000 0.000000</postfx_exposure_max>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_lens_flares_intensity>0.000000 0.000000</postfx_lens_flares_intensity>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+  </modifier>
+  <modifier
+    name="UFO_Dark_Room_Box_Mod"
+    description=""
+    groupApplyTag="Interior_Volume"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <submodifiers>
+      <item>Sub_Interior_Generic_PostFx</item>
+      <item>Humidity_highControl_Low</item>
+      <item>Temp_highControl_Cool</item>
+      <item>POSTFX_DynamicGradient_OFF</item>
+    </submodifiers>
+    <indirect_light_local_lights_multiplier>0.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>0.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_emissive_multiplier>0.500000 0.000000</indirect_light_emissive_multiplier>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+    <indirect_light_near_light_luminance_r>0.000000 0.000000</indirect_light_near_light_luminance_r>
+    <indirect_light_near_light_luminance_g>0.000000 0.000000</indirect_light_near_light_luminance_g>
+    <indirect_light_near_light_luminance_b>0.000000 0.000000</indirect_light_near_light_luminance_b>
+    <local_atmosphere_voxel_noise_min>0.500000 0.000000</local_atmosphere_voxel_noise_min>
+    <local_atmosphere_sky_intensity>0.000000 0.000000</local_atmosphere_sky_intensity>
+    <local_atmosphere_direct_light_intensity>0.000000 1.000000</local_atmosphere_direct_light_intensity>
+    <local_atmosphere_dir_light_scattering_strength>0.000000 0.000000</local_atmosphere_dir_light_scattering_strength>
+    <local_atmosphere_light_pollution_intensity>0.000000 0.000000</local_atmosphere_light_pollution_intensity>
+    <postfx_exposure_min>0.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>0.000000 0.000000</postfx_exposure_max>
+    <postfx_lens_flares_intensity>0.003000 0.000000</postfx_lens_flares_intensity>
+    <postfx_white_balance_weather_temp_blend>0.000000 0.000000</postfx_white_balance_weather_temp_blend>
+  </modifier>
+  <modifier
+    name="Humidity_highControl_High"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <humidity>0.700000 0.000000</humidity>
+    <color_temperature_tint>0.750000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="AIWE_Humidity_highControl_High"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <temperature_target>40.000000 0.000000</temperature_target>
+    <color_temperature_target>1.000000 0.000000</color_temperature_target>
+    <color_temperature_tint>1.000000 0.000000</color_temperature_tint>
+    <humidity>1.000000 0.000000</humidity>
+  </modifier>
+  <modifier
+    name="Sub_Int_TimeSpeed_80_AllDay"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <time_speed_mult>0.800000 0.000000</time_speed_mult>
+  </modifier>
+  <modifier
+    name="Sub_Int_TimeSpeed_50_DayOnly"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="5"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.270000 0.700000 0.720000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</keyframe_alpha_value>
+      <time_speed_mult>1.000000 1.000000 0.500000 0.500000 1.000000 1.000000</time_speed_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="Sub_Int_TimeSpeed_50_NightOnly"
+    description=""
+    groupApplyTag="INTERIOR"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.230000 0.255000 0.767000 0.797000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</keyframe_alpha_value>
+      <time_speed_mult>0.500000 0.500000 1.000000 1.000000 0.500000 0.500000</time_speed_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="Render_Booth_Calibration"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="100"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp0_x>-3.346310 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-0.034701 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.013599 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.000000 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.000000 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.869170 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>40.000000 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_end_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>9.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_start_distance>8.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_spot_meter_portal_width_multiplier>3.000000 0.000000</postfx_exposure_spot_meter_portal_width_multiplier>
+    <postfx_exposure_spot_meter_height>1.605735 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>0.551971 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_key_value>1.000000 0.000000</postfx_exposure_key_value>
+    <postfx_exposure_min>-32.000000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>32.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_albedo_free_luminance_amount>1.000000 0.000000</postfx_exposure_albedo_free_luminance_amount>
+    <postfx_exposure_lowlights_percent>0.001000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.000000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_adaption_step_mult>226.806458 0.000000</postfx_exposure_adaption_step_mult>
+    <postfx_vignette_intensity>0.000000 0.000000</postfx_vignette_intensity>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+  </modifier>
+  <modifier
+    name="render_booth_calibration_ext"
+    description=""
+    groupApplyTag="Animscene"
+    localApplyIndex="4"
+    userFlags="0"
+  >
+    <sun_direction_x>0.033079 0.000000</sun_direction_x>
+    <sun_direction_y>0.335878 0.000000</sun_direction_y>
+    <sun_direction_z>1.000000 0.000000</sun_direction_z>
+    <sun_direction_override>1.000000 0.000000</sun_direction_override>
+  </modifier>
+  <modifier
+    name="render_booth_neutral_makeup_generic"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp3_x>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.000000 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.869170 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>40.000000 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_end_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>9.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_start_distance>8.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_spot_meter_height>1.605735 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>0.551971 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_min>-6.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-6.500000 0.000000</postfx_exposure_max>
+    <postfx_exposure_albedo_free_luminance_amount>1.000000 0.000000</postfx_exposure_albedo_free_luminance_amount>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>1.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_exposure_lowlights_percent>0.001000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.000000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp2_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.000000 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.013599 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp1_x>-0.034701 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp0_x>-3.346310 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_contrast_amount>1.000000 0.000000</postfx_contrast_amount>
+    <postfx_tonemap_use_curve>0.000000 0.000000</postfx_tonemap_use_curve>
+    <postfx_exposure_key_value>1.000000 0.000000</postfx_exposure_key_value>
+    <postfx_color_grading_enabled>0.000000 0.000000</postfx_color_grading_enabled>
+    <postfx_white_balance_midtones_dst_color_temp>6500.000000 0.000000</postfx_white_balance_midtones_dst_color_temp>
+    <postfx_white_balance_highlights_src_color_temp>6500.000000 0.000000</postfx_white_balance_highlights_src_color_temp>
+    <postfx_white_balance_highlights_dst_color_temp>6500.000000 0.000000</postfx_white_balance_highlights_dst_color_temp>
+    <postfx_white_balance_dst_color_temp>6500.000000 0.000000</postfx_white_balance_dst_color_temp>
+  </modifier>
+  <modifier
+    name="render_booth_neutral_makeup_highend"
+    description=""
+    groupApplyTag="final"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_compensation_ev_cp3_x>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>4.000000 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>7.869170 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>40.000000 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_exposure_luminance_depth_weight_max>0.001000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_mid>1.000000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_end_distance>10.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>9.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_start_distance>8.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_spot_meter_height>1.605735 0.000000</postfx_exposure_spot_meter_height>
+    <postfx_exposure_spot_meter_width>0.551971 0.000000</postfx_exposure_spot_meter_width>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <postfx_exposure_spot_meter_x>0.000000 0.000000</postfx_exposure_spot_meter_x>
+    <postfx_exposure_max>-6.700000 0.000000</postfx_exposure_max>
+    <postfx_exposure_albedo_free_luminance_amount>1.000000 0.000000</postfx_exposure_albedo_free_luminance_amount>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>1.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_exposure_lowlights_percent>0.001000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_highlights_percent>0.000000 0.000000</postfx_exposure_highlights_percent>
+    <postfx_exposure_compensation_ev_cp2_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp2_x>-7.000000 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp1_y>0.013599 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp1_x>-0.034701 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp0_y>0.000000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp0_x>-3.346310 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_contrast_amount>1.000000 0.000000</postfx_contrast_amount>
+    <postfx_tonemap_use_curve>0.000000 0.000000</postfx_tonemap_use_curve>
+    <postfx_exposure_key_value>1.000000 0.000000</postfx_exposure_key_value>
+    <postfx_color_grading_enabled>0.000000 0.000000</postfx_color_grading_enabled>
+    <postfx_white_balance_midtones_dst_color_temp>6500.000000 0.000000</postfx_white_balance_midtones_dst_color_temp>
+    <postfx_white_balance_highlights_src_color_temp>6500.000000 0.000000</postfx_white_balance_highlights_src_color_temp>
+    <postfx_white_balance_highlights_dst_color_temp>6500.000000 0.000000</postfx_white_balance_highlights_dst_color_temp>
+    <postfx_white_balance_dst_color_temp>6500.000000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_exposure_min>-6.700000 0.000000</postfx_exposure_min>
+  </modifier>
+  <modifier
+    name="Start_Pos_Exp_Weighting_Ped"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+    <postfx_exposure_luminance_depth_weight_min>0.873400 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.100000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_end_distance>7.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>5.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_start_distance>3.000000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+  </modifier>
+  <modifier
+    name="Start_Pos_Exp_Weighting_Car"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_lowlights_percent>0.200000 0.000000</postfx_exposure_lowlights_percent>
+    <postfx_exposure_luminance_depth_weight_start_distance>5.500000 0.000000</postfx_exposure_luminance_depth_weight_start_distance>
+    <postfx_exposure_luminance_depth_weight_mid_distance>7.000000 0.000000</postfx_exposure_luminance_depth_weight_mid_distance>
+    <postfx_exposure_luminance_depth_weight_end_distance>30.000000 0.000000</postfx_exposure_luminance_depth_weight_end_distance>
+    <postfx_exposure_luminance_depth_weight_min>1.000000 0.000000</postfx_exposure_luminance_depth_weight_min>
+    <postfx_exposure_luminance_depth_weight_mid>0.021000 0.000000</postfx_exposure_luminance_depth_weight_mid>
+    <postfx_exposure_luminance_depth_weight_max>0.010000 0.000000</postfx_exposure_luminance_depth_weight_max>
+  </modifier>
+  <modifier
+    name="Exterior_Exposure_Bright_Area"
+    description=""
+    groupApplyTag="exposure_Overides"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <postfx_exposure_highlights_percent>0.500000 1.000000</postfx_exposure_highlights_percent>
+  </modifier>
+  <modifier
+    name="Exterior_CarPark_Mid"
+    description=""
+    groupApplyTag="exposure_Overides"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>EXP_Generic_Mid</item>
+    </submodifiers>
+    <postfx_exposure_compensation_ev_cp0_x>-14.000000 0.000000</postfx_exposure_compensation_ev_cp0_x>
+    <postfx_exposure_compensation_ev_cp0_y>2.000000 0.000000</postfx_exposure_compensation_ev_cp0_y>
+    <postfx_exposure_compensation_ev_cp1_x>-11.392603 0.000000</postfx_exposure_compensation_ev_cp1_x>
+    <postfx_exposure_compensation_ev_cp1_y>1.768603 0.000000</postfx_exposure_compensation_ev_cp1_y>
+    <postfx_exposure_compensation_ev_cp2_x>-11.971999 0.000000</postfx_exposure_compensation_ev_cp2_x>
+    <postfx_exposure_compensation_ev_cp2_y>2.184224 0.000000</postfx_exposure_compensation_ev_cp2_y>
+    <postfx_exposure_compensation_ev_cp3_x>-0.031459 0.000000</postfx_exposure_compensation_ev_cp3_x>
+    <postfx_exposure_compensation_ev_cp3_y>-2.361322 0.000000</postfx_exposure_compensation_ev_cp3_y>
+    <postfx_exposure_compensation_ev_cp4_x>7.175900 0.000000</postfx_exposure_compensation_ev_cp4_x>
+    <postfx_exposure_compensation_ev_cp4_y>-5.105033 0.000000</postfx_exposure_compensation_ev_cp4_y>
+    <postfx_exposure_compensation_ev_cp5_x>25.017908 0.000000</postfx_exposure_compensation_ev_cp5_x>
+    <postfx_exposure_compensation_ev_cp5_y>-11.947737 0.000000</postfx_exposure_compensation_ev_cp5_y>
+    <postfx_exposure_compensation_ev_cp6_x>32.000000 0.000000</postfx_exposure_compensation_ev_cp6_x>
+    <postfx_exposure_compensation_ev_cp6_y>-14.579510 0.000000</postfx_exposure_compensation_ev_cp6_y>
+    <postfx_local_exposure_sh_contrast>0.800000 0.000000</postfx_local_exposure_sh_contrast>
+    <postfx_local_exposure_hl_contrast>0.900000 0.000000</postfx_local_exposure_hl_contrast>
+  </modifier>
+  <modifier
+    name="AIWE_WindControl_Calm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <wind_boundary_enclosed_space_damping_mult>1.000000 0.000000</wind_boundary_enclosed_space_damping_mult>
+    <wind_boundary_enclosed_space_damping_strength>0.800000 0.000000</wind_boundary_enclosed_space_damping_strength>
+    <no_weather_fx>1.000000 0.000000</no_weather_fx>
+  </modifier>
+  <modifier
+    name="AIWE_WindControl_ExtraCalm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <wind_boundary_enclosed_space_damping_mult>2.000000 0.000000</wind_boundary_enclosed_space_damping_mult>
+    <wind_boundary_enclosed_space_damping_strength>0.800000 0.000000</wind_boundary_enclosed_space_damping_strength>
+    <no_weather_fx>1.000000 0.000000</no_weather_fx>
+  </modifier>
+  <modifier
+    name="AIWE_DisableCaustics"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_reflective_caustics_intensity>0.000000 0.000000</indirect_light_reflective_caustics_intensity>
+  </modifier>
+  <modifier
+    name="AIWE_Indirect_UnderwaterLevel"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_override_water_level>0.000000 0.000000</indirect_light_override_water_level>
+  </modifier>
+  <modifier
+    name="AIWE_Lightning_Distant_Strikes"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <vfx_lightning_distance_min>4000.000000 0.000000</vfx_lightning_distance_min>
+    <vfx_lightning_distance_max>8000.000000 0.000000</vfx_lightning_distance_max>
+  </modifier>
+  <modifier
+    name="AIWE_NoWeatherFX"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <no_weather_fx>1.000000 0.000000</no_weather_fx>
+  </modifier>
+  <modifier
+    name="UFO_Egg_Room_DOF_01"
+    description=""
+    groupApplyTag="Script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_dof_fnumber>1.600000 0.000000</postfx_dof_fnumber>
+    <postfx_dof_focal_length>12.000000 0.000000</postfx_dof_focal_length>
+    <postfx_dof_focus_distance>2.000000 0.000000</postfx_dof_focus_distance>
+    <postfx_dof_override_focus_distance_blend>1.000000 0.000000</postfx_dof_override_focus_distance_blend>
+    <postfx_dof_override_focal_length_blend>1.000000 0.000000</postfx_dof_override_focal_length_blend>
+    <postfx_dof_override_fnumber_blend>1.000000 0.000000</postfx_dof_override_fnumber_blend>
+  </modifier>
+</timecycle_modifier_data>

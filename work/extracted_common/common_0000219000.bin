@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CMissions>
+	<Version value="3"/>
+	<Missions>
+		<Item type="CMission">
+			<UniqueMissionIndex value="1"/>
+			<MissionId>INT_PROLO</MissionId>
+			<Description>PROG_INT_PROLO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_PROLO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="2"/>
+			<MissionId>INT_CHASE</MissionId>
+			<Description>PROG_INT_CHASE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_CHASE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="3"/>
+			<MissionId>FT_AMUCO</MissionId>
+			<Description>PROG_FT_AMUCO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_AMUCO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="4"/>
+			<MissionId>FT_KMODSHP</MissionId>
+			<Description>PROG_FT_KMODSHP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_KMODSHP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="5"/>
+			<MissionId>COM_KBOS_SHOP</MissionId>
+			<Description>PROG_COM_KBOS_SHOP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_SHOP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="6"/>
+			<MissionId>COM_KBOS_COLAT</MissionId>
+			<Description>PROG_COM_KBOS_COLAT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_COLAT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="7"/>
+			<MissionId>COM_KBOS_RADR</MissionId>
+			<Description>PROG_COM_KBOS_RADR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_RADR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="8"/>
+			<MissionId>COM_KBOS_NEIGHB</MissionId>
+			<Description>PROG_COM_KBOS_NEIGHB_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_NEIGHB</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="9"/>
+			<MissionId>COM_SFH_MVFN</MissionId>
+			<Description>PROG_COM_SFH_MVFN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_SFH_MVFN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="10"/>
+			<MissionId>INT_PRISO</MissionId>
+			<Description>PROG_INT_PRISO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_PRISO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="11"/>
+			<MissionId>INT_BANK</MissionId>
+			<Description>PROG_INT_BANK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_BANK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="12"/>
+			<MissionId>CTI_PIL_RD_BC_PARENT</MissionId>
+			<Description>PROG_CTI_PIL_RD_BC_PARENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_CTI_PIL_RD_BC_PARENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="13"/>
+			<MissionId>COM_KBOS_PLNDATE</MissionId>
+			<Description>PROG_COM_KBOS_PLNDATE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_PLNDATE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="14"/>
+			<MissionId>INT_PLNSH</MissionId>
+			<Description>PROG_INT_PLNSH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_PLNSH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="15"/>
+			<MissionId>BIL_FUN</MissionId>
+			<Description>PROG_BIL_FUN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_FUN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="16"/>
+			<MissionId>INT_AIR</MissionId>
+			<Description>PROG_INT_AIR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_AIR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="17"/>
+			<MissionId>COM_KBOS_CLEAN</MissionId>
+			<Description>PROG_COM_KBOS_CLEAN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_CLEAN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="18"/>
+			<MissionId>HO_PAR_KEYCO</MissionId>
+			<Description>PROG_HO_PAR_KEYCO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_HO_PAR_KEYCO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="19"/>
+			<MissionId>BIL_PICK</MissionId>
+			<Description>PROG_BIL_PICK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_PICK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="20"/>
+			<MissionId>BIL_HOUSE</MissionId>
+			<Description>PROG_BIL_HOUSE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_HOUSE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="21"/>
+			<MissionId>BIL_WHEEL</MissionId>
+			<Description>PROG_BIL_WHEEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_WHEEL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="22"/>
+			<MissionId>MTL_WAKE</MissionId>
+			<Description>PROG_MTL_WAKE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_WAKE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="23"/>
+			<MissionId>robbergetawaydriverprep</MissionId>
+			<Description>PROG_CTI_ROB_DRIVEPREP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CTI_ROB_DRIVEPREP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="24"/>
+			<MissionId>FT_MOTEL_SHOP</MissionId>
+			<Description>PROG_FT_MOTEL_SHOP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_MOTEL_SHOP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="25"/>
+			<MissionId>MTL_DRIVE</MissionId>
+			<Description>PROG_MTL_DRIVE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_DRIVE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="26"/>
+			<MissionId>COM_MECH_INTR</MissionId>
+			<Description>PROG_COM_MECH_INTR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_COM_MECH_INTR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="27"/>
+			<MissionId>CTI_MECH_STFC</MissionId>
+			<Description>PROG_CTI_MECH_STFC_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_CTI_MECH_STFC</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="28"/>
+			<MissionId>MTL_PAIN</MissionId>
+			<Description>PROG_MTL_PAIN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_PAIN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="29"/>
+			<MissionId>MTL_MONT</MissionId>
+			<Description>PROG_MTL_MONT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_MONT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="30"/>
+			<MissionId>HO_PAR_FRINT</MissionId>
+			<Description>PROG_HO_PAR_FRINT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_HO_PAR_FRINT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="31"/>
+			<MissionId>MTL_CONT</MissionId>
+			<Description>PROG_MTL_CONT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_CONT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="32"/>
+			<MissionId>MTL_MUD</MissionId>
+			<Description>PROG_MTL_MUD_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_MUD</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="33"/>
+			<MissionId>CSC_DRT_CNVY</MissionId>
+			<Description>PROG_CSC_DRT_CNVY_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_CSC_DRT_CNVY</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="34"/>
+			<MissionId>BIL_MOTEL</MissionId>
+			<Description>PROG_BIL_MOTEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_BIL_MOTEL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="35"/>
+			<MissionId>CLB_MEET</MissionId>
+			<Description>PROG_CLB_MEET_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_CLB_MEET</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="36"/>
+			<MissionId>CLB_DEAL</MissionId>
+			<Description>PROG_CLB_DEAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CLB_DEAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="37"/>
+			<MissionId>ROB_VEH</MissionId>
+			<Description>PROG_ROB_VEH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_VEH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="38"/>
+			<MissionId>ANT_SRCH</MissionId>
+			<Description>PROG_ANT_SRCH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_SRCH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="39"/>
+			<MissionId>ANT_CHASE</MissionId>
+			<Description>PROG_ANT_CHASE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_CHASE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="40"/>
+			<MissionId>CSC_MOM_FLIP</MissionId>
+			<Description>PROG_CSC_MOM_FLIP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CSC_MOM_FLIP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="41"/>
+			<MissionId>CSC_MOM_MSEVN</MissionId>
+			<Description>PROG_CSC_MOM_MSEVN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CSC_MOM_MSEVN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="42"/>
+			<MissionId>COM_DEAL_INTR</MissionId>
+			<Description>PROG_COM_DEAL_INTR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_COM_DEAL_INTR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="43"/>
+			<MissionId>COM_DLR_MISS</MissionId>
+			<Description>PROG_COM_DLR_MISS_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_COM_DLR_MISS</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="44"/>
+			<MissionId>AO_DEAL_T_SYNTH</MissionId>
+			<Description>PROG_AO_DEAL_T_SYNTH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_AO_DEAL_T_SYNTH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="45"/>
+			<MissionId>COM_DLR_COOK</MissionId>
+			<Description>PROG_COM_DLR_COOK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CSC_DLR_COOK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="46"/>
+			<MissionId>COM_ROB_DRIVEPREP</MissionId>
+			<Description>PROG_CTI_ROB_DRIVEPREP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CTI_ROB_DRIVEPREP</TextureName>
+		</Item>		
+		<Item type="CMission">
+			<UniqueMissionIndex value="47"/>
+			<MissionId>CLB_SCUFF</MissionId>
+			<Description>PROG_CLB_SCUFF_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CLB_SCUFF</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="48"/>
+			<MissionId>COM_CBO_CBINT</MissionId>
+			<Description>PROG_COM_CBO_CBINT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_COM_CUBN_INTR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="49"/>
+			<MissionId>ROB_DRIVE</MissionId>
+			<Description>PROG_ROB_DRIVE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_DRIVE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="50"/>
+			<MissionId>BIL_RED</MissionId>
+			<Description>PROG_BIL_RED_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BIL_RED</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="51"/>
+			<MissionId>ROB_BOAT_J</MissionId>
+			<Description>PROG_ROB_BOAT_J_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_BOAT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="52"/>
+			<MissionId>ROB_BANK</MissionId>
+			<Description>PROG_ROB_BANK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_BANK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="53"/>
+			<MissionId>CTI_SHOW_HATH</MissionId>
+			<Description>PROG_CTI_SHOW_HATH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CTI_SHOW_HATH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="54"/>
+			<MissionId>AO_SHOW_L_EXP</MissionId>
+			<Description>PROG_AO_SHOW_L_EXP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_AO_SHOW_L_EXP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="55"/>
+			<MissionId>COM_SHOW_TRAILER</MissionId>
+			<Description>PROG_COM_SHOW_TRAILER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_COM_SHOW_TRAILER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="56"/>
+			<MissionId>BAN_SETUP</MissionId>
+			<Description>PROG_BAN_SETUP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_SETUP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="57"/>
+			<MissionId>BAN_RESCU</MissionId>
+			<Description>PROG_BAN_RESCU_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_RESCU</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="58"/>
+			<MissionId>CLB_STEAL</MissionId>
+			<Description>PROG_CLB_STEAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CLB_STEAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="59"/>
+			<MissionId>BAN_EXPLO</MissionId>
+			<Description>PROG_BAN_EXPLO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_EXPLO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="60"/>
+			<MissionId>BAN_CARTE</MissionId>
+			<Description>PROG_BAN_CARTE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_CARTE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="61"/>
+			<MissionId>BAN_SAFE</MissionId>
+			<Description>PROG_BAN_SAFE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_SAFE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="62"/>
+			<MissionId>CLB_VIDEO</MissionId>
+			<Description>PROG_CLB_VIDEO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CLB_VIDEO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="63"/>
+			<MissionId>CLB_TOWER</MissionId>
+			<Description>PROG_CLB_TOWER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_CLB_TOWER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="64"/>
+			<MissionId>FT_BAN_DISTR</MissionId>
+			<Description>PROG_FT_BAN_DISTR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_FT_BAN_DISTR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="65"/>
+			<MissionId>BAN_FINAL</MissionId>
+			<Description>PROG_BAN_FINAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_FINAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="66"/>
+			<MissionId>MNY_HOTEL</MissionId>
+			<Description>PROG_MNY_HOTEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_HOTEL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="67"/>
+			<MissionId>SFH_TAXI</MissionId>
+			<Description>PROG_SFH_TAXI_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_SFH_TAXI</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="68"/>
+			<MissionId>MNY_CAR</MissionId>
+			<Description>PROG_MNY_CAR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_CAR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="69"/>
+			<MissionId>CSC_DIG_DATA</MissionId>
+			<Description>PROG_CSC_DIG_DATA_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_CSC_DIG_DATA</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="70"/>
+			<MissionId>MNY_PARTY</MissionId>
+			<Description>PROG_MNY_PARTY_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_PARTY</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="71"/>
+			<MissionId>AIR_TAIL</MissionId>
+			<Description>PROG_AIR_TAIL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_TAIL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="72"/>
+			<MissionId>CLB_HELI</MissionId>
+			<Description>PROG_CLB_HELI_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_CLB_HELI</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="73"/>
+			<MissionId>AIR_TRAIN</MissionId>
+			<Description>PROG_AIR_TRAIN_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_TRAIN</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="74"/>
+			<MissionId>CLB_PROMO</MissionId>
+			<Description>PROG_CLB_PROMO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_CLB_PROMO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="75"/>
+			<MissionId>AIR_BEACH</MissionId>
+			<Description>PROG_AIR_BEACH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_BEACH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="76"/>
+			<MissionId>AIR_BUS</MissionId>
+			<Description>PROG_AIR_BUS_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_BUS</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="77"/>
+			<MissionId>AIR_GANG</MissionId>
+			<Description>PROG_AIR_GANG_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_GANG</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="78"/>
+			<MissionId>AIR_SCOPE</MissionId>
+			<Description>PROG_AIR_SCOPE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_SCOPE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="79"/>
+			<MissionId>MNY_ESCRT</MissionId>
+			<Description>PROG_MNY_ESCRT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_ESCRT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="80"/>
+			<MissionId>CLB_EVI</MissionId>
+			<Description>PROG_CLB_EVI_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_CLB_EVI</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="81"/>
+			<MissionId>AIR_TRUCK</MissionId>
+			<Description>PROG_AIR_TRUCK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_TRUCK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="82"/>
+			<MissionId>MNY_KIDNP</MissionId>
+			<Description>PROG_MNY_KIDNP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_KIDNP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="83"/>
+			<MissionId>CLB_PARTY</MissionId>
+			<Description>PROG_CLB_PARTY_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_CLB_PARTY</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="84"/>
+			<MissionId>AIR_DRONE</MissionId>
+			<Description>PROG_AIR_DRONE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_DRONE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="85"/>
+			<MissionId>AIR_HACK</MissionId>
+			<Description>PROG_AIR_HACK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_HACK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="86"/>
+			<MissionId>AIR_RECRU</MissionId>
+			<Description>PROG_AIR_RECRU_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_RECRU</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="87"/>
+			<MissionId>AIR_CATER</MissionId>
+			<Description>PROG_AIR_CATER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_CATER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="88"/>
+			<MissionId>AIR_FINAL</MissionId>
+			<Description>PROG_AIR_FINAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_FINAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="89"/>
+			<MissionId>ROB_DEATH</MissionId>
+			<Description>PROG_ROB_DEATH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_ROB_DEATH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="90"/>
+			<MissionId>BIL_CONFR</MissionId>
+			<Description>PROG_BIL_CONFR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_CONFR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="91"/>
+			<MissionId>COA_HELIS</MissionId>
+			<Description>PROG_COA_HELIS_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_COA_HELIS</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="92"/>
+			<MissionId>BIL_BOSS</MissionId>
+			<Description>PROG_BIL_BOSS_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_BOSS</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="93"/>
+			<MissionId>BIL_PREG</MissionId>
+			<Description>PROG_BIL_PREG_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_PREG</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="94"/>
+			<MissionId>COA_DOG</MissionId>
+			<Description>PROG_COA_DOG_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_COA_DOG</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="95"/>
+			<MissionId>COA_SHIP</MissionId>
+			<Description>PROG_COA_SHIP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_COA_SHIP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="96"/>
+			<MissionId>BIL_PRECI</MissionId>
+			<Description>PROG_BIL_PRECI_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_PRECI</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="97"/>
+			<MissionId>BIL_PENT</MissionId>
+			<Description>PROG_BIL_PENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_PENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="98"/>
+			<MissionId>ANT_RECOV</MissionId>
+			<Description>PROG_ANT_RECOV_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_RECOV</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="99"/>
+			<MissionId>ANT_INTRO</MissionId>
+			<Description>PROG_ANT_INTRO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_INTRO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="100"/>
+			<MissionId>BIL_LAW</MissionId>
+			<Description>PROG_BIL_LAW_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_LAW</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="101"/>
+			<MissionId>CSC_TRH_CHART</MissionId>
+			<Description>PROG_CSC_TRH_CHART_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_CSC_TRH_CHART</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="102"/>
+			<MissionId>BIL_PENT_M_MENDEZ</MissionId>
+			<Description>PROG_BIL_PENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_PENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="103"/>
+			<MissionId>BIL_PENT_B_BRIAN</MissionId>
+			<Description>PROG_BIL_PENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_BIL_PENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="104"/>
+			<MissionId>MTL_CHECK_LOW_REL</MissionId>
+			<Description>PROG_MTL_CHECK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_CHECK_LOW_REL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="105"/>
+			<MissionId>MTL_CHECK_HIGH_REL</MissionId>
+			<Description>PROG_MTL_CHECK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_MTL_CHECK_HIGH_REL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="106"/>
+			<MissionId>RecoverDropTipShackDonnieAlive</MissionId>
+			<Description>PROG_CTI_PIL_RD_SH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CTI_PIL_RD_SH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="107"/>
+			<MissionId>RecoverDropTipShackDonnieDeadUnknown</MissionId>
+			<Description>PROG_CTI_PIL_RD_SH_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CTI_PIL_RD_SH</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="108"/>
+			<MissionId>INT_CRED</MissionId>
+			<Description>PROG_INT_CRED_DESC</Description>
+			<TextureName>SAVE_GAME_INT_CRED_FIN_CONT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="109"/>
+			<MissionId>AIR_CATER_DHF</MissionId>
+			<Description>PROG_AIR_CATER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_CATER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="110"/>
+			<MissionId>AIR_CATER_DHP</MissionId>
+			<Description>PROG_AIR_CATER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_CATER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="111"/>
+			<MissionId>AIR_CATER_DHS</MissionId>
+			<Description>PROG_AIR_CATER_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_CATER</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="112"/>
+			<MissionId>AIR_FINAL_DATA_HACK_FAILED</MissionId>
+			<Description>PROG_AIR_FINAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_FINAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="113"/>
+			<MissionId>AIR_FINAL_DATA_HACK_PASSED</MissionId>
+			<Description>PROG_AIR_FINAL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_AIR_FINAL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="114"/>
+			<MissionId>ANT_CHASE_AUTOLAUNCH</MissionId>
+			<Description>PROG_ANT_CHASE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_CHASE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="115"/>
+			<MissionId>BIL_MOTEL_NON_VIOLENT</MissionId>
+			<Description>PROG_BIL_MOTEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_BIL_MOTEL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="116"/>
+			<MissionId>BIL_MOTEL_VIOLENT</MissionId>
+			<Description>PROG_BIL_MOTEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_BIL_MOTEL</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="117"/>
+			<MissionId>BIL_PICK_DAY_TIME_START</MissionId>
+			<Description>PROG_BIL_PICK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_PICK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="118"/>
+			<MissionId>BIL_PICK_NIGHT_TIME_START</MissionId>
+			<Description>PROG_BIL_PICK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_BIL_PICK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="119"/>
+			<MissionId>FT_AMUCO_FIRST_INTERACTION</MissionId>
+			<Description>PROG_FT_AMUCO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_AMUCO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="120"/>
+			<MissionId>FT_AMUCO_SECOND_INTERACTION</MissionId>
+			<Description>PROG_FT_AMUCO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_AMUCO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="121"/>
+			<MissionId>FT_KMODSHP_FIRST</MissionId>
+			<Description>PROG_FT_KMODSHP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_KMODSHP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="122"/>
+			<MissionId>FT_KMODSHP_SECOND</MissionId>
+			<Description>PROG_FT_KMODSHP_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_FT_KMODSHP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="123"/>
+			<MissionId>INT_PRISO_TRIGGER_EARLY</MissionId>
+			<Description>PROG_INT_PRISO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_PRISO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="124"/>
+			<MissionId>INT_PRISO_TRIGGER_LATE</MissionId>
+			<Description>PROG_INT_PRISO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_INT_PRISO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="125"/>
+			<MissionId>MNY_KIDNP_AUTO-LAUNCH</MissionId>
+			<Description>MNY_KIDNP_DESC_PM</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_KIDNP</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="126"/>
+			<MissionId>ANT_INTRO_APARTMENT</MissionId>
+			<Description>PROG_ANT_INTRO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_INTRO</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="127"/>
+			<MissionId>ANT_INTRO_STORAGE</MissionId>
+			<Description>PROG_ANT_INTRO_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_INTRO</TextureName>
+		</Item>	
+		<Item type="CMission">
+			<UniqueMissionIndex value="129"/>
+			<MissionId>COM_SFH_FLTPK</MissionId>
+			<Description>PROG_COM_SFH_FLTPK_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_SFH_FLTPK</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="130"/>
+			<MissionId>COM_UP_BBWOR</MissionId>
+			<Description>PROG_COM_UP_BBWOR_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_COM_UP_BBWOR</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="131"/>
+			<MissionId>ROB_BOAT_L_LUCIA</MissionId>
+			<Description>PROG_ROB_BOAT_J_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_BOAT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="132"/>
+			<MissionId>UP_MLSPM</MissionId>
+			<Description>PROG_UP_MLSPM_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_UP_MLSPM</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="133"/>
+			<MissionId>UP_MLSPM_CONFRONT</MissionId>
+			<Description>PROG_UP_MLSPM_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_UP_MLSPM</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="134"/>
+			<MissionId>FIN_CONT</MissionId>
+			<Description>PROG_FIN_CONT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_FIN_CONT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="135"/>
+			<MissionId>ANT_GIVE</MissionId>
+			<Description>PROG_ANT_GIVE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ANT_GIVE</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="136"/>
+			<MissionId>FT_UP_MMRENT</MissionId>
+			<Description>PROG_FT_UP_MMRENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_UP_MMRENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="137"/>
+			<MissionId>FT_UP_MMRENT_MANAGER_INITIAL</MissionId>
+			<Description>PROG_FT_UP_MMRENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_UP_MMRENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="138"/>
+			<MissionId>FT_UP_MMRENT_MANAGER_CONFRONTED</MissionId>
+			<Description>PROG_FT_UP_MMRENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_UP_MMRENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="139"/>
+			<MissionId>FT_UP_MMRENT_MANAGER_LATE_NO_COPS</MissionId>
+			<Description>PROG_FT_UP_MMRENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_UP_MMRENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="140"/>
+			<MissionId>FT_UP_MMRENT_MANAGER_LATE_COPS</MissionId>
+			<Description>PROG_FT_UP_MMRENT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH2_FT_UP_MMRENT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="141"/>
+			<MissionId>BAN_PKBMB</MissionId>
+			<Description>PROG_BAN_PKBMB_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_BAN_PKBMB</TextureName>
+		</Item>
+			<Item type="CMission">
+			<UniqueMissionIndex value="142"/>
+			<MissionId>COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE</MissionId>
+			<Description>PROG_COM_KBOS_PLNDATE_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH1_COM_KBOS_PLNDATE</TextureName>
+		</Item>
+			<Item type="CMission">
+			<UniqueMissionIndex value="143"/>
+			<MissionId>ROB_BOAT_J_JASON</MissionId>
+			<Description>PROG_ROB_BOAT_J_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH3_ROB_BOAT</TextureName>
+		</Item>
+			<Item type="CMission">
+			<UniqueMissionIndex value="144"/>
+			<MissionId>BIL_FINALE_M</MissionId>
+			<Description>PROG_FIN_CONT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_FIN_CONT</TextureName>
+		</Item>
+			<Item type="CMission">
+			<UniqueMissionIndex value="145"/>
+			<MissionId>BIL_FINAL_B</MissionId>
+			<Description>PROG_FIN_CONT_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH5_FIN_CONT</TextureName>
+		</Item>
+		<Item type="CMission">
+			<UniqueMissionIndex value="146"/>
+			<MissionId>MNY_HOTEL_AUTOLAUNCH</MissionId>
+			<Description>PROG_MNY_HOTEL_DESC_REPLAY</Description>
+			<TextureName>GRID_SML_L_CH4_MNY_HOTEL</TextureName>
+		</Item>
+	</Missions>
+</CMissions>

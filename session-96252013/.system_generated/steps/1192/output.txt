@@ -1,0 +1,306 @@
+Created At: 2026-11-25T17:53:45-05:00
+Completed At: 2026-11-25T17:53:49-05:00
+Command exited with code 0.
+
+Command output:
+3571350:         VmValue v_630418_2 = default;
+3571351:         VmValue v_63041B_3 = default;
+3571352:         VmValue v_63042F_0 = default;
+3571353:         VmValues v_63043F_0 = null!;
+3571354:         VmValue v_630443_1 = default;
+3571355:         VmValues v_630446_2 = null!;
+3571356:         VmValues v_63046F_0 = null!;
+3571357:         VmValue v_630478_1 = default;
+3571358:         VmValues v_630492_0 = null!;
+3571359:         VmValue v_630496_1 = default;
+3571360:         VmValue v_630496_2 = default;
+3571361:         VmValue v_630499_3 = default;
+3571362:         VmValues v_6304AE_0 = null!;
+3571363:         VmValue v_6304B2_1 = default;
+3571364:         VmValue v_6304B2_2 = default;
+3571365:         VmValue v_6304B5_3 = default;
+3571366:         VmValues v_6304CD_0 = null!;
+3571367:         VmValue v_6304D1_1 = default;
+3571368:         VmValues v_6304D4_2 = null!;
+3571369:         VmValues v_6304FD_0 = null!;
+3571370:         VmValue v_630506_1 = default;
+3571371:         VmValues v_63051B_0 = null!;
+3571372:         VmValue v_63051F_1 = default;
+3571373:         VmValue v_63051F_2 = default;
+3571374:         VmValue v_630522_3 = default;
+3571375:         VmValues v_630537_0 = null!;
+3571376:         VmValue v_63053B_1 = default;
+3571377:         VmValue v_63053B_2 = default;
+3571378:         VmValue v_63053E_3 = default;
+3571379:         VmValues v_630556_0 = null!;
+3571380:         VmValue v_63055A_1 = default;
+3571381:         VmValues v_63055D_2 = null!;
+3571382:         VmValues v_630594_0 = null!;
+3571383:         VmValue v_630598_1 = default;
+3571384:         VmValues v_63059B_2 = null!;
+3571385:         VmValues v_6305C7_0 = null!;
+3571386:         VmValue v_6305CB_1 = default;
+3571387:         VmValue v_6305EA_0 = default;
+3571388:         VmValue v_630618_0 = default;
+3571389:         VmValue v_630618_1 = default;
+3571390:         VmValue v_630633_0 = default;
+3571391:         VmValue v_630652_0 = default;
+3571392:         VmValue v_63066F_0 = default;
+3571393:         VmValue v_63067E_1 = default;
+3571394:         VmValue v_63068D_0 = default;
+3571395:         VmValue v_63069C_1 = default;
+3571396:         VmValue v_6306B0_0 = default;
+3571397:         VmValues v_6306FF_0 = null!;
+3571398:         VmValue v_630703_1 = default;
+3571399:         VmValues v_630706_2 = null!;
+3571400:         VmValues v_630736_0 = null!;
+3571401:         VmValue v_63073A_1 = default;
+3571402:         VmValues v_63073D_2 = null!;
+3571403:         label_63013F: ;
+3571404:         v_63014B_0 = p5;
+3571405:         v_63014B_1 = ((1UL << unchecked((int)(12))));
+3571406:         local_3 = ((1UL << unchecked((int)(12))));
+3571407:         if (((as_u32(((as_i32(((as_u32(v_63014B_0) & as_u32(v_63014B_1)))) == as_i32(local_3)))) == 0)))
+3571408:         {
+3571409:         goto label_630185;
+3571410:         }
+3571411:         else
+3571412:         {
+3571413:         goto label_630157;
+3571414:         }
+3571415:         label_630157: ;
+3571416:         v_63015F_0 = zero_slots(1);
+3571417:         v_630163_1 = p0;
+3571418:         store_i32(Vm.Address(v_63015F_0, 0), 0x0, 0xFFFFFFFFC167084A);
+3571419:         v_630166_2 = zero_slots(2);
+3571420:         local_5 = v_63015F_0[0];
+3571421:         local_4 = Vm.Address(v_630166_2, 0);
+3571422:         store_i32(Vm.Address(v_630166_2, 0), 0x0, local_5);
+3571423:         store_ref(local_4, 0x8, 0);
+3571424:         store_bytes(v_630163_1, 0x0, 16, new VmValues(v_630166_2[0], v_630166_2[1]));
+3571425:         return 0;
+3571426:         label_630185: ;
+3571427:         local_6 = p1;
+3571428:         local_7 = p2;
+3571429:         v_630190_0 = load_bytes(Vm.Address(locals, 6), 0x0, 16);
+3571430:         zero_bytes(Vm.Address(locals, 8), 16);
+3571431:         v_63019F_1 = Builtins.System.Guid.op_Equality(v_630190_0[0], v_630190_0[1], local_8, local_9);
+3571432:         if (((as_u32(v_63019F_1) != 0)))
+3571433:         {
+3571434:         goto label_6301B5;
+3571435:         }
+3571436:         else
+3571437:         {
+3571438:         goto label_6301A6;
+3571439:         }
+3571440:         label_6301A6: ;
+3571441:         v_6301AA_0 = Native.ENTITY.DOES_ENTITY_EXIST(local_6, local_7); // RVA: 0x03C07510
+3571442:         stack_6301B7_0 = v_6301AA_0;
+3571443:         goto label_6301B7;
+3571444:         label_6301B5: ;
+3571445:         stack_6301B7_0 = 0;
+3571446:         goto label_6301B7;
+3571447:         label_6301B7: ;
+3571448:         if (((as_u32(stack_6301B7_0) != 0)))
+3571449:         {
+3571450:         goto label_6301BF;
+3571451:         }
+3571452:         else
+3571453:         {
+3571454:         goto label_6301BA;
+3571455:         }
+3571456:         label_6301BA: ;
+3571457:         stack_6301D8_0 = 0;
+3571458:         goto label_6301D8;
+3571459:         label_6301BF: ;
+3571460:         v_6301C9_0 = zero_slots(1);
+3571461:         v_6301CD_1 = p1;
+3571462:         v_6301CD_2 = p2;
+3571463:         store_i32(Vm.Address(v_6301C9_0, 0), 0x0, 0xFFFFFFFF8C570222);
+3571464:         v_6301D0_3 = Native._0x5F92584040AFFA8B(v_6301CD_1, v_6301CD_2, v_6301C9_0[0]); // RVA: 0x04A82780
+3571465:         stack_6301D8_0 = v_6301D0_3;
+3571466:         goto label_6301D8;
+3571467:         label_6301D8: ;
+3571468:         v_6301DE_0 = func_0D29D0(stack_6301D8_0, p5, Vm.Address(locals, 1));
+3571469:         local_0 = v_6301DE_0;
+3571470:         v_6301F0_1 = zero_slots(1);
+3571471:         v_6301F4_2 = p6;
+3571472:         store_i32(Vm.Address(v_6301F0_1, 0), 0x0, 0x45EEBD7D);
+3571473:         v_6301F9_3 = Native.DECORATOR.DECOR_IS_REGISTERED_AS_TYPE(v_6301F0_1[0], 3); // RVA: 0x03CDA590
+3571474:         if (((as_u32(v_6301F9_3) == 0)))
+3571475:         {
+3571476:         stack_63023C_0 = v_6301F4_2;
+3571477:         goto label_63023C;
+3571478:         }
+3571479:         else
+3571480:         {
+3571481:         stack_630204_0 = v_6301F4_2;
+3571482:         goto label_630204;
+3571483:         }
+3571484:         label_630204: ;
+3571485:         v_63020E_0 = zero_slots(1);
+3571486:         v_630212_1 = p1;
+3571487:         v_630212_2 = p2;
+3571488:         store_i32(Vm.Address(v_63020E_0, 0), 0x0, 0x45EEBD7D);
+3571489:         v_630215_3 = Native.DECORATOR.DECOR_EXIST_ON(v_630212_1, v_630212_2, v_63020E_0[0]); // RVA: 0x03CDA370
+3571490:         if (((as_u32(v_630215_3) == 0)))
+3571491:         {
+3571492:         stack_63023C_0 = stack_630204_0;
+3571493:         goto label_63023C;
+3571494:         }
+3571495:         else
+3571496:         {
+3571497:         stack_630220_0 = stack_630204_0;
+3571498:         goto label_630220;
+3571499:         }
+3571500:         label_630220: ;
+3571501:         v_63022A_0 = zero_slots(1);
+3571502:         v_63022E_1 = p1;
+3571503:         v_63022E_2 = p2;
+3571504:         store_i32(Vm.Address(v_63022A_0, 0), 0x0, 0x45EEBD7D);
+3571505:         v_630231_3 = Native.DECORATOR.DECOR_GET_INT(v_63022E_1, v_63022E_2, v_63022A_0[0]); // RVA: 0x03CDA430
+3571506:         (stack_63023E_0, stack_63023E_1) = (stack_630220_0, v_630231_3);
+3571507:         goto label_63023E;
+3571508:         label_63023C: ;
+3571509:         (stack_63023E_0, stack_63023E_1) = (stack_63023C_0, 0);
+3571510:         goto label_63023E;
+3571511:         label_63023E: ;
+3571512:         v_63023E_0 = Virtual.type_42326796F51F37E3.Method_29(stack_63023E_0, stack_63023E_1);
+3571513:         local_2 = v_63023E_0;
+3571514:         if (((as_u32(p9) == 0)))
+3571515:         {
+3571516:         goto label_63039C;
+3571517:         }
+3571518:         else
+3571519:         {
+3571520:         goto label_63024F;
+3571521:         }
+3571522:         label_63024F: ;
+3571523:         if (((as_i32(p9) != as_i32(3))))
+3571524:         {
+3571525:         goto label_630264;
+3571526:         }
+3571527:         else
+3571528:         {
+3571529:         goto label_63025A;
+3571530:         }
+3571531:         label_63025A: ;
+3571532:         zero_bytes(p0, 16);
+3571533:         return 1;
+3571534:         label_630264: ;
+3571535:         if (((as_i32(p9) != as_i32(6))))
+3571536:         {
+3571537:         goto label_6302EA;
+3571538:         }
+3571539:         else
+3571540:         {
+3571541:         goto label_63026F;
+3571542:         }
+3571543:         label_63026F: ;
+3571544:         switch (as_i32(((as_i32(p9) - 1))))
+3571545:         {
+3571546:         case 0:
+3571547:         case 3:
+3571548:         case 4:
+3571549:         case 5:
+3571550:         case 6:
+3571551:         case 7:
+3571552:         case 8:
+3571553:         case 9:
+3571554:         case 10:
+3571555:         stack_630283_0 = p0;
+3571556:         goto label_630283;
+3571557:         case 1:
+3571558:         case 2:
+3571559:         stack_6302D5_0 = p0;
+3571560:         goto label_6302D5;
+3571561:         case 11:
+3571562:         stack_6302AC_0 = p0;
+3571563:         goto label_6302AC;
+3571564:         default:
+3571565:         stack_630280_0 = p0;
+3571566:         goto label_630280;
+3571567:         }
+3571568:         label_630280: ;
+3571569:         stack_6302D5_0 = stack_630280_0;
+3571570:         goto label_6302D5;
+3571571:         label_630283: ;
+3571572:         v_630289_0 = zero_slots(1);
+3571573:         store_i32(Vm.Address(v_630289_0, 0), 0x0, 0x6A7E72C7);
+3571574:         v_630290_1 = zero_slots(2);
+3571575:         local_13 = v_630289_0[0];
+3571576:         local_12 = Vm.Address(v_630290_1, 0);
+3571577:         store_i32(local_12, 0x0, local_13);
+3571578:         store_ref(local_12, 0x8, 0);
+3571579:         (stack_6302E0_0, stack_6302E0_1, stack_6302E0_2) = (stack_630283_0, v_630290_1[0], v_630290_1[1]);
+3571580:         goto label_6302E0;
+3571581:         label_6302AC: ;
+3571582:         v_6302B2_0 = zero_slots(1);
+3571583:         store_i32(Vm.Address(v_6302B2_0, 0), 0x0, 0x107411A2);
+3571584:         v_6302B9_1 = zero_slots(2);
+3571585:         local_15 = v_6302B2_0[0];
+3571586:         local_14 = Vm.Address(v_6302B9_1, 0);
+3571587:         store_i32(local_14, 0x0, local_15);
+3571588:         store_ref(local_14, 0x8, 0);
+3571589:         (stack_6302E0_0, stack_6302E0_1, stack_6302E0_2) = (stack_6302AC_0, v_6302B9_1[0], v_6302B9_1[1]);
+3571590:         goto label_6302E0;
+3571591:         label_6302D5: ;
+3571592:         zero_bytes(Vm.Address(locals, 10), 16);
+3571593:         (stack_6302E0_0, stack_6302E0_1, stack_6302E0_2) = (stack_6302D5_0, local_10, local_11);
+3571594:         goto label_6302E0;
+3571595:         label_6302E0: ;
+3571596:         store_bytes(stack_6302E0_0, 0x0, 16, new VmValues(stack_6302E0_1, stack_6302E0_2));
+3571597:         return 0;
+3571598:         label_6302EA: ;
+3571599:         if (((as_u32(local_2) == 0)))
+3571600:         {
+3571601:         goto label_630321;
+3571602:         }
+3571603:         else
+3571604:         {
+3571605:         goto label_6302EF;
+3571606:         }
+3571607:         label_6302EF: ;
+3571608:         v_6302F7_0 = zero_slots(1);
+3571609:         v_6302FB_1 = p0;
+3571610:         store_i32(Vm.Address(v_6302F7_0, 0), 0x0, 0x29BAE75F);
+3571611:         v_6302FE_2 = zero_slots(2);
+3571612:         local_17 = v_6302F7_0[0];
+3571613:         local_16 = Vm.Address(v_6302FE_2, 0);
+3571614:         store_i32(local_16, 0x0, local_17);
+3571615:         store_ref(local_16, 0x8, 0);
+3571616:         store_bytes(v_6302FB_1, 0x0, 16, new VmValues(v_6302FE_2[0], v_6302FE_2[1]));
+3571617:         return 0;
+3571618:         label_630321: ;
+3571619:         switch (as_i32(((as_i32(p9) - 1))))
+3571620:         {
+3571621:         case 0:
+3571622:         case 3:
+3571623:         case 4:
+3571624:         case 5:
+3571625:         case 6:
+3571626:         case 7:
+3571627:         case 8:
+3571628:         case 9:
+3571629:         case 10:
+3571630:         stack_630335_0 = p0;
+3571631:         goto label_630335;
+3571632:         case 1:
+3571633:         case 2:
+3571634:         stack_630387_0 = p0;
+3571635:         goto label_630387;
+3571636:         case 11:
+3571637:         stack_63035E_0 = p0;
+3571638:         goto label_63035E;
+3571639:         default:
+3571640:         stack_630332_0 = p0;
+3571641:         goto label_630332;
+3571642:         }
+3571643:         label_630332: ;
+3571644:         stack_630387_0 = stack_630332_0;
+3571645:         goto label_630387;
+3571646:         label_630335: ;
+3571647:         v_63033B_0 = zero_slots(1);
+3571648:         store_i32(Vm.Address(v_63033B_0, 0), 0x0, 0x6A7E72C7);
+3571649:         v_630342_1 = zero_slots(2);
+3571650:         local_21 = v_63033B_0[0];

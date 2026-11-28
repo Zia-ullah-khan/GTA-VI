@@ -1,0 +1,28 @@
+
+The command exited with code 1.
+Output:
+=== REPLAY MENU CROSS MISSION LINKS ===
+{'replay_entry': 'BIL_PICK', 'unlock_id_mission': 'BIL_WHEEL', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[19] fields ID vs UnlockId'}
+{'replay_entry': 'BIL_HOUSE', 'unlock_id_mission': 'BIL_WHEEL', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_1/Items[20] fields ID vs UnlockId'}
+{'replay_entry': 'BAN_SETUP', 'unlock_id_mission': 'BAN_RESCU', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_3/Items[18] fields ID vs UnlockId'}
+{'replay_entry': 'MNY_HOTEL', 'unlock_id_mission': 'SFH_TAXI', 'evaluator': 'uiUnlockEvaluatorMission', 'meaning': "The progress-menu replay entry is keyed to another mission's state. This is menu-reveal data, not a mission availability prerequisite.", 'evidence': 'data.rpf @ 0x12010000 (zlib payload, RBF0 root <uiProgressDataset>) Topics/record/Categories/missions_card/.../Filters/missions_chapter_4/Items[0] fields ID vs UnlockId'}
+
+=== MISSIONS IN REPLAY MENU (97) ===
+Ch1 [Idx   1 | Pos  0] INT_PROLO                 -> 
+Ch1 [Idx   2 | Pos  1] INT_CHASE                 -> 
+Ch1 [Idx   3 | Pos  2] FT_AMUCO                  -> 
+Ch1 [Idx   4 | Pos  3] FT_KMODSHP                -> 
+Ch1 [Idx   5 | Pos  4] COM_KBOS_SHOP             -> 
+Ch1 [Idx   6 | Pos  5] COM_KBOS_COLAT            -> 
+Ch1 [Idx   8 | Pos  6] COM_KBOS_NEIGHB           -> 
+Ch1 [Idx   7 | Pos  7] COM_KBOS_RADR             -> 
+Ch1 [Idx 101 | Pos  8] CSC_TRH_CHART             -> 
+Ch1 [Idx   9 | Pos  9] COM_SFH_MVFN              -> 
+Ch1 [Idx  10 | Pos 10] INT_PRISO                 -> 
+Ch1 [Idx  11 | Pos 11] INT_BANK                  -> 
+Traceback (most recent call last):
+  File "C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\print_mission_order.py", line 18, in <module>
+    print(f"Ch{ch} [Idx {idx:3d} | Pos {pos:2d}] {mid:25s} -> {name}")
+                        ^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+

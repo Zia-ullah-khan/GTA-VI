@@ -1,0 +1,15 @@
+
+The command exited with code 1.
+Output:
+At line:10 char:82
++ ... r'(\d+)\.\s+([A-Za-z0-9\s\'\&\-\!\,\?]+?)(?:<br/>|\"|\n|?|\(|\:|\-)', ...
++                                                                 ~
+An empty pipe element is not allowed.
+At line:20 char:37
++     print(f'  {k:2d}: {title_map[k]}')
++                                     ~~
+The string is missing the terminator: '.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : EmptyPipeElement
+ 
+

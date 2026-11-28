@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="render_booth_ped"
+    description=""
+    groupApplyTag="Animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <fog_start>100.000000 0.000000</fog_start>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_vignette_intensity>0.000000 0.000000</postfx_vignette_intensity>
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>1.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <postfx_local_exposure_enabled>0.000000 0.000000</postfx_local_exposure_enabled>
+    <postfx_tonemap_use_curve>0.000000 0.000000</postfx_tonemap_use_curve>
+    <postfx_contrast_amount>1.000000 0.000000</postfx_contrast_amount>
+    <postfx_color_grading_enabled>0.000000 0.000000</postfx_color_grading_enabled>
+    <postfx_white_balance_dst_color_temp>6500.000000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_exposure_min>-2.500000 0.000000</postfx_exposure_min>
+    <postfx_exposure_max>-2.500000 0.000000</postfx_exposure_max>
+  </modifier>
+  <modifier
+    name="render_booth_ped_day"
+    description=""
+    groupApplyTag="Animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <fog_start>100.000000 0.000000</fog_start>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>-0.500000 0.000000</postfx_exposure>
+    <postfx_exposure_spot_meter_y>0.000000 0.000000</postfx_exposure_spot_meter_y>
+    <temperature_target>21.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="render_booth_veh"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_intensity>0.300000 0.000000</postfx_vignette_intensity>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <fog_start>100.000000 0.000000</fog_start>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <temperature_target>21.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="render_booth_veh_checker"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <fog_start>100.000000 0.000000</fog_start>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <reflection_occlusion_depth_threshold>0.336000 0.000000</reflection_occlusion_depth_threshold>
+    <postfx_exposure_max>-3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-3.000000 0.000000</postfx_exposure_min>
+    <temperature_target>21.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="render_booth_veh_hangar"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <fog_start>100.000000 0.000000</fog_start>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <reflection_occlusion_depth_threshold>0.336000 0.000000</reflection_occlusion_depth_threshold>
+    <postfx_exposure_max>-3.000000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-3.000000 0.000000</postfx_exposure_min>
+    <temperature_target>21.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="testbed_lighting_conv_store_02"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="1"
+  >
+    <postfx_exposure>1.000000 0.000000</postfx_exposure>
+    <postfx_grad_top_col_mult>0.500000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_bottom_col_mult>1.500000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_vignette_intensity>0.400000 0.000000</postfx_vignette_intensity>
+    <postfx_vignette_axis_scale_x>1.000000 0.000000</postfx_vignette_axis_scale_x>
+    <postfx_vignette_axis_scale_y>1.000000 0.000000</postfx_vignette_axis_scale_y>
+    <postfx_vignette_tint_r>0.000000 0.000000</postfx_vignette_tint_r>
+    <postfx_vignette_tint_g>0.000000 0.000000</postfx_vignette_tint_g>
+    <postfx_vignette_tint_b>0.000000 0.000000</postfx_vignette_tint_b>
+    <postfx_intensity_bloom>0.250000 0.000000</postfx_intensity_bloom>
+  </modifier>
+  <modifier
+    name="render_booth_ped_dome"
+    description=""
+    groupApplyTag="Animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <postfx_exposure_max>-11.700000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-11.700000 0.000000</postfx_exposure_min>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_midpoint>0.500000 0.000000</postfx_grad_midpoint>
+    <postfx_grad_top_middle_midpoint>0.500000 0.000000</postfx_grad_top_middle_midpoint>
+    <postfx_grad_middle_bottom_midpoint>0.500000 0.000000</postfx_grad_middle_bottom_midpoint>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_grad_top_col_fade>1.000000 0.000000</postfx_grad_top_col_fade>
+    <postfx_grad_middle_col_fade>1.000000 0.000000</postfx_grad_middle_col_fade>
+    <postfx_grad_bottom_col_fade>1.000000 0.000000</postfx_grad_bottom_col_fade>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_vignette_intensity>1.000000 0.000000</postfx_vignette_intensity>
+    <fog_start>100.000000 0.000000</fog_start>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_local_exposure_hl_contrast>1.000000 0.000000</postfx_local_exposure_hl_contrast>
+    <postfx_local_exposure_sh_contrast>1.000000 0.000000</postfx_local_exposure_sh_contrast>
+    <temperature_target>21.000000 0.000000</temperature_target>
+  </modifier>
+  <modifier
+    name="render_booth_ped_validation"
+    description=""
+    groupApplyTag="Animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_start>100.000000 0.000000</fog_start>
+    <postfx_grad_middle_col_r>1.000000 0.000000</postfx_grad_middle_col_r>
+    <postfx_grad_middle_col_g>1.000000 0.000000</postfx_grad_middle_col_g>
+    <postfx_grad_middle_col_b>1.000000 0.000000</postfx_grad_middle_col_b>
+    <postfx_grad_top_col_mult>1.000000 0.000000</postfx_grad_top_col_mult>
+    <postfx_grad_middle_col_mult>1.000000 0.000000</postfx_grad_middle_col_mult>
+    <ped_light0_mult>0.000000 1.000000</ped_light0_mult>
+    <indirect_light_multibounce_multiplier>1.000000 0.000000</indirect_light_multibounce_multiplier>
+    <postfx_grad_top_col_r>1.000000 0.000000</postfx_grad_top_col_r>
+    <postfx_grad_top_col_g>1.000000 0.000000</postfx_grad_top_col_g>
+    <postfx_grad_top_col_b>1.000000 0.000000</postfx_grad_top_col_b>
+    <postfx_intensity_bloom>0.150000 0.000000</postfx_intensity_bloom>
+    <postfx_grad_bottom_col_r>1.000000 0.000000</postfx_grad_bottom_col_r>
+    <postfx_grad_bottom_col_g>1.000000 0.000000</postfx_grad_bottom_col_g>
+    <postfx_grad_bottom_col_b>1.000000 0.000000</postfx_grad_bottom_col_b>
+    <postfx_grad_bottom_col_mult>1.000000 0.000000</postfx_grad_bottom_col_mult>
+    <postfx_vignette_intensity>0.000000 0.000000</postfx_vignette_intensity>
+    <postfx_tonemap_use_curve>0.000000 0.000000</postfx_tonemap_use_curve>
+    <postfx_color_grading_enabled>0.000000 0.000000</postfx_color_grading_enabled>
+    <temperature_target>21.000000 0.000000</temperature_target>
+    <indirect_light_local_lights_multiplier>1.000000 0.000000</indirect_light_local_lights_multiplier>
+    <indirect_light_directional_multiplier>1.000000 0.000000</indirect_light_directional_multiplier>
+    <indirect_light_sky_global_multiplier>1.000000 0.000000</indirect_light_sky_global_multiplier>
+    <postfx_contrast_amount>1.000000 0.000000</postfx_contrast_amount>
+    <postfx_white_balance_dst_color_temp>6500.000000 0.000000</postfx_white_balance_dst_color_temp>
+    <postfx_local_exposure_enabled>0.000000 0.000000</postfx_local_exposure_enabled>
+    <postfx_exposure_max>-2.500000 0.000000</postfx_exposure_max>
+    <postfx_exposure_min>-2.500000 0.000000</postfx_exposure_min>
+  </modifier>
+  <modifier
+    name="----------Volume Mods----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Vol_Sprinkler_Rain"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <gpu_fx_min_density>0.200000 0.000000</gpu_fx_min_density>
+    <gpu_fx_min_heaviness>0.100000 0.000000</gpu_fx_min_heaviness>
+  </modifier>
+  <modifier
+    name="TC_MOD_Volume_DisableRipples"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <puddle_ripple_density_scale>0.000000 0.000000</puddle_ripple_density_scale>
+  </modifier>
+  <modifier
+    name="----------Old Weather Modules----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="----------daily rain probability----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_weather_rain_allDayDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="11"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.131831 0.197746 0.263662 0.409435 0.482321 0.555207 0.745934 0.812178 0.878423 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allDayLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="11"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.131831 0.197746 0.263662 0.409435 0.482321 0.555207 0.745934 0.812178 0.878423 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allDayDry"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_rain_probabiliy>0.000000 0.000000</local_atmosphere_rain_probabiliy>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allMornDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200954 0.305855 0.423880 0.537855 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyMornDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.260000 0.280000 0.300000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midMornDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.300000 0.343000 0.375000 0.400000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateMornDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.400000 0.449094 0.480000 0.500000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allMornLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.314000 0.426000 0.500000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyMornLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.244094 0.262000 0.279000 0.300000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midMornLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.300000 0.333000 0.400000 0.450000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateMornLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.400000 0.420000 0.456000 0.478000 0.500000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 0.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allAftDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.430000 0.511000 0.635000 0.743000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyAftDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.500000 0.510000 0.544000 0.600000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midAftDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.600000 0.639000 0.688000 0.700000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateAftDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.700000 0.741094 0.791000 0.800000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allAftLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.502000 0.571000 0.635000 0.800000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyAftLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.500000 0.530000 0.559000 0.600000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midAftLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.600000 0.630000 0.666000 0.700000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateAftLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.430000 0.511000 0.635000 0.743000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allEveDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.802000 0.831000 0.872012 0.993954 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 0.000000 1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyEveDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.700000 0.801000 0.873000 0.900000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 0.000000 1.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midEveDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.430000 0.511000 0.635000 0.743000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateEveDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.900000 0.909000 0.953000 0.986094 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allEveLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.724902 0.796526 0.911968 0.981909 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyEveLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.700000 0.733000 0.777000 0.800000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midEveLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.806000 0.837094 0.872000 0.920000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateEveLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.900000 0.934000 0.958000 0.983000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>0.000000 0.000000 1.000000 1.000000 1.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allNiteDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.204938 0.337722 0.788361 0.914286 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyNiteDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.026188 0.055000 0.066000 0.955000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 1.000000 0.000000 0.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midNiteDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.100000 0.117000 0.127000 0.150000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 1.000000 0.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateNiteDp"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.162000 0.181000 0.200000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_allNiteLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.185021 0.351664 0.666867 0.854535 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_earlyNiteLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.026000 0.055000 0.066000 0.950000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 1.000000 0.000000 0.000000 0.000000 1.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_midNiteLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.100000 0.117000 0.127000 0.150000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_rain_lateNiteLr"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.150000 0.162000 0.181000 0.200000 1.000000</keyframe_t_value>
+      <local_atmosphere_rain_probabiliy>1.000000 0.000000 1.000000 1.000000 0.000000 0.000000</local_atmosphere_rain_probabiliy>
+    </axis>
+  </modifier>
+  <modifier
+    name="----------daily temperature----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_weather_temp_ColdDay_coldNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>15.000000 15.000000 19.000000 17.000000 16.000000 15.000000</temperature_target>
+      <color_temperature_target>0.300000 0.300000 0.460000 0.420000 0.400000 0.300000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_coolDay_coldNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>17.000000 15.000000 23.000000 21.000000 19.000000 18.000000</temperature_target>
+      <color_temperature_target>0.420000 0.300000 0.620000 0.500000 0.480000 0.440000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_midDay_coldNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>18.000000 15.000000 25.000000 23.000000 21.000000 18.000000</temperature_target>
+      <color_temperature_target>0.440000 0.300000 0.700000 0.640000 0.500000 0.440000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_warmDay_coldNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>19.000000 16.000000 30.000000 29.000000 27.000000 20.000000</temperature_target>
+      <color_temperature_target>0.440000 0.400000 0.800000 0.770000 0.700000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_hotDay_coldNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>20.000000 15.000000 35.000000 33.000000 30.000000 20.000000</temperature_target>
+      <color_temperature_target>0.480000 0.300000 1.000000 0.890000 0.850000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_ColdDay_coolNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>18.000000 17.000000 19.000000 19.000000 18.750000 18.000000</temperature_target>
+      <color_temperature_target>0.440000 0.420000 0.460000 0.500000 0.460000 0.440000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_coolDay_coolNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>18.000000 17.000000 23.000000 22.000000 19.000000 18.000000</temperature_target>
+      <color_temperature_target>0.440000 0.420000 0.620000 0.600000 0.460000 0.440000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_midDay_coolNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>20.000000 19.000000 24.000000 25.000000 23.000000 21.000000</temperature_target>
+      <color_temperature_target>0.480000 0.460000 0.680000 0.660000 0.620000 0.500000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_warmDay_coolNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>20.000000 17.000000 30.000000 29.000000 22.000000 20.000000</temperature_target>
+      <color_temperature_target>0.480000 0.420000 0.800000 0.770000 0.600000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_hotDay_coolNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>20.000000 17.000000 35.000000 30.000000 22.000000 20.000000</temperature_target>
+      <color_temperature_target>0.480000 0.420000 1.000000 0.800000 0.600000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_ColdDay_midNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>21.000000 20.000000 19.000000 19.000000 20.000000 21.000000</temperature_target>
+      <color_temperature_target>0.500000 0.480000 0.460000 0.460000 0.480000 0.500000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_coolDay_midNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>20.500000 20.000000 23.000000 22.000000 20.000000 20.500000</temperature_target>
+      <color_temperature_target>0.500000 0.480000 0.620000 0.600000 0.480000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_midDay_midNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>21.000000 20.000000 25.000000 24.000000 22.000000 21.000000</temperature_target>
+      <color_temperature_target>0.500000 0.480000 0.700000 0.660000 0.620000 0.500000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_warmDay_midNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>25.000000 21.000000 30.000000 27.500000 27.000000 25.000000</temperature_target>
+      <color_temperature_target>0.660000 0.500000 0.800000 0.750000 0.750000 0.660000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_hotDay_midNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>21.000000 20.000000 35.000000 33.000000 30.000000 21.000000</temperature_target>
+      <color_temperature_target>0.500000 0.480000 1.000000 0.890000 0.800000 0.500000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_ColdDay_warmNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>25.000000 25.000000 20.000000 19.000000 21.000000 23.000000</temperature_target>
+      <color_temperature_target>0.700000 0.700000 0.480000 0.470000 0.500000 0.620000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_coolDay_warmNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>25.000000 25.500000 23.000000 23.000000 20.000000 20.000000</temperature_target>
+      <color_temperature_target>0.700000 0.700000 0.620000 0.620000 0.480000 0.480000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_midDay_warmNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>24.000000 23.000000 24.000000 24.000000 23.000000 23.000000</temperature_target>
+      <color_temperature_target>0.750000 0.620000 0.700000 0.640000 0.620000 0.700000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_warmDay_warmNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>25.000000 23.000000 30.000000 29.000000 23.000000 25.000000</temperature_target>
+      <color_temperature_target>0.770000 0.700000 0.800000 0.770000 0.700000 0.770000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_hotDay_warmNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>27.000000 25.000000 35.000000 33.000000 26.000000 25.000000</temperature_target>
+      <color_temperature_target>0.800000 0.770000 1.000000 0.890000 0.700000 0.770000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_ColdDay_hotNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>28.000000 25.000000 21.000000 20.000000 23.000000 28.000000</temperature_target>
+      <color_temperature_target>0.890000 0.750000 0.500000 0.480000 0.620000 0.890000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_coolDay_hotNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>26.000000 25.000000 21.000000 19.000000 23.000000 26.000000</temperature_target>
+      <color_temperature_target>0.800000 1.000000 0.500000 0.480000 0.620000 0.800000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_midDay_hotNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>28.500000 25.000000 24.000000 25.500000 27.000000 28.500000</temperature_target>
+      <color_temperature_target>0.900000 0.660000 0.660000 0.700000 0.700000 0.900000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_warmDay_hotNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>27.000000 25.000000 30.000000 29.500000 28.500000 27.000000</temperature_target>
+      <color_temperature_target>0.800000 0.660000 0.800000 0.800000 0.800000 0.800000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_temp_hotDay_hotNight"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.650000 0.800000 0.901000 1.000000</keyframe_t_value>
+      <temperature_target>30.000000 28.000000 34.000000 34.000000 32.500000 30.000000</temperature_target>
+      <color_temperature_target>0.890000 0.750000 1.000000 0.890000 0.890000 0.890000</color_temperature_target>
+    </axis>
+  </modifier>
+  <modifier
+    name="----------daily fog and mist mods----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_weather_mist_morning"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.242000 0.319000 0.659500 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_density_layer_1>0.000000 0.010000 0.010000 0.010000 0.001000 0.000000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 1.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>0.000000 5.000000 70.000000 5.000000 5.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_volume_mist_density_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_mist_evening"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.711000 0.772000 0.939000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_density_layer_1>0.000000 0.050000 0.010000 0.050000 0.000000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>0.000000 5.000000 70.000000 5.000000 0.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_volume_mist_density_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_mist_night"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.250000 0.747000 0.877000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_density_layer_1>0.010000 0.010000 0.001000 0.001000 0.010000 0.010000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_falloff_layer_1>70.000000 40.000000 5.000000 5.000000 50.000000 70.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_volume_mist_density_mult>1.000000 0.000000 0.000000 0.000000 0.000000 0.000000</local_atmosphere_fog_volume_mist_density_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_mist_allday"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density_layer_1>0.000000 1.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 1.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>0.000000 1.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+  </modifier>
+  <modifier
+    name="MODULE_weather_mist_debug"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density_layer_1>0.000000 1.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_height_layer_1>0.000000 1.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>0.000000 1.000000</local_atmosphere_fog_falloff_layer_1>
+    <local_atmosphere_fog_volume_mist_density_mult>1.000000 1.000000</local_atmosphere_fog_volume_mist_density_mult>
+  </modifier>
+  <modifier
+    name="MODULE_weather_seaFog_morning"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="17"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.104000 0.250000 0.418000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_falloff_layer_1>5.000000 100.000000 250.000000 150.000000 5.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_density_layer_1>0.001000 0.001000 0.060000 0.001000 0.001000</local_atmosphere_fog_density_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000100 0.000000 0.000000 0.000000 0.000100</local_atmosphere_fog_height_layer_1>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_seaFog_evening"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.522000 0.731000 0.849000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_falloff_layer_1>5.000000 100.000000 250.000000 50.000000 5.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 1.000000 1.000000 1.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_density_layer_1>0.001000 0.001000 0.070000 0.001000 0.001000</local_atmosphere_fog_density_layer_1>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_seaFog_night"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="5"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.125000 0.343000 0.747000 1.000000</keyframe_t_value>
+      <local_atmosphere_fog_falloff_layer_1>250.000000 100.000000 5.000000 50.000000 250.000000</local_atmosphere_fog_falloff_layer_1>
+      <local_atmosphere_fog_height_layer_1>0.000000 0.000000 0.000000 1.000000 0.000000</local_atmosphere_fog_height_layer_1>
+      <local_atmosphere_fog_density_layer_1>0.070000 0.010000 0.001000 0.001000 0.070000</local_atmosphere_fog_density_layer_1>
+    </axis>
+  </modifier>
+  <modifier
+    name="MODULE_weather_slightlyHazeyDay"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+  >
+    <local_atmosphere_fog_density>0.000200 1.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>2000.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="MODULE_weather_HazeyDay"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+  >
+    <local_atmosphere_fog_density>0.000300 1.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>0.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>2000.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="MODULE_weather_veryHazeyDay"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="10"
+    userFlags="16"
+  >
+    <local_atmosphere_fog_density>0.000500 1.000000</local_atmosphere_fog_density>
+    <local_atmosphere_fog_height>1.000000 1.000000</local_atmosphere_fog_height>
+    <local_atmosphere_fog_falloff>5000.000000 0.000000</local_atmosphere_fog_falloff>
+  </modifier>
+  <modifier
+    name="MODULE_weather_dust_debug"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_fog_density_layer_1>0.000000 1.000000</local_atmosphere_fog_density_layer_1>
+    <local_atmosphere_fog_volume_dust_density_mult>1.000000 0.000000</local_atmosphere_fog_volume_dust_density_mult>
+    <local_atmosphere_fog_height_layer_1>0.000000 1.000000</local_atmosphere_fog_height_layer_1>
+    <local_atmosphere_fog_falloff_layer_1>0.000000 1.000000</local_atmosphere_fog_falloff_layer_1>
+  </modifier>
+  <modifier
+    name="----------daily humidity mods----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="MODULE_weather_veryhighHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.900000 0.900000</humidity>
+    <color_temperature_tint>1.000000 1.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_highHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.800000 0.800000</humidity>
+    <color_temperature_tint>0.850000 0.850000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_highlowHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.750000 0.750000</humidity>
+    <color_temperature_tint>0.750000 0.750000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_midhighHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.700000 0.700000</humidity>
+    <color_temperature_tint>0.600000 0.600000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_midHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.650000 0.650000</humidity>
+    <color_temperature_tint>0.500000 0.500000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_midlowHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.600000 0.600000</humidity>
+    <color_temperature_tint>0.400000 0.400000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_lowHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.550000 0.550000</humidity>
+    <color_temperature_tint>0.300000 0.300000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="MODULE_weather_verylowHumidity"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <humidity>0.450000 0.450000</humidity>
+    <color_temperature_tint>0.000000 0.000000</color_temperature_tint>
+  </modifier>
+  <modifier
+    name="----------rain test----------"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Rain_test"
+    description=""
+    groupApplyTag="Season"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <gpu_fx_density>1.000000 0.000000</gpu_fx_density>
+    <gpu_fx_heaviness>1.000000 0.000000</gpu_fx_heaviness>
+  </modifier>
+</timecycle_modifier_data>

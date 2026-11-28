@@ -1,0 +1,31 @@
+Created At: 2026-11-25T17:53:30-05:00
+Completed At: 2026-11-25T17:53:35-05:00
+Command exited with code 0.
+
+Command output:
+=== UNLOCK_IS_UNLOCKED RVA=0x044CB870 ===
+  0x1444cb870: push     rsi
+  0x1444cb871: push     rdi
+  0x1444cb872: sub      rsp, 0x28
+  0x1444cb876: cmp      dword ptr [rcx + 0x10], 0
+  0x1444cb87a: mov      rsi, rcx
+  0x1444cb87d: js       0x1444cb8b3
+  0x1444cb87f: lea      rdi, [rip + 0x6608c5a]
+  0x1444cb886: mov      rcx, rdi
+  0x1444cb889: call     0x140004b40
+  0x1444cb88e: mov      rax, qword ptr [rsi]
+  0x1444cb891: mov      ecx, dword ptr [rax]
+  0x1444cb893: mov      edx, dword ptr [rax + 8]
+  0x1444cb896: call     0x141500390
+  0x1444cb89b: mov      rcx, qword ptr [rsi + 8]
+  0x1444cb89f: movzx    eax, al
+  0x1444cb8a2: mov      qword ptr [rcx], rax
+  0x1444cb8a5: mov      rcx, rdi
+  0x1444cb8a8: add      rsp, 0x28
+  0x1444cb8ac: pop      rdi
+  0x1444cb8ad: pop      rsi
+  0x1444cb8ae: jmp      0x144d9dab0
+  0x1444cb8b3: mov      rax, qword ptr [rsi]
+  0x1444cb8b6: movabs   rcx, 0x49fbf18a3b499f38
+  0x1444cb8c0: mov      qword ptr [rax], rcx
+  0x1444cb8c3: jmp      0x1444cb87f

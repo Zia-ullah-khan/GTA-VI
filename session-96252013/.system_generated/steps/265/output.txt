@@ -1,0 +1,27 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -640,9 +640,9 @@
+     # Chapter 3 Summary Nodes
+     ch3_nodes = [
+         ("45. Welcome to Vice City", "Arrival in the Metropolis", "", "normal", 12.2),
+-        ("46-54. Establishing Syndicate", "Meet Heders -> Top Billing", "", "normal", 11.0),
+-        ("55-56. Major Alliances", "Boobie Ike & Raul Bautista", "Cartel Allies", "milestone", 9.8),
+-        ("61. Sinfrontera Bank Scope", "Planning the Vault Score", "Heist Plan", "heist", 8.6),
++        ("50. South Leonida Real Estate", "Safehouse Unlocked -> 3 Strands Open", "Safehouse", "milestone", 11.0),
++        ("51-60. 3 Parallel Strands", "Tyrone / Boobie & Dre / Raul & Randy", "3 Strands", "normal", 9.8),
++        ("61. Sinfrontera Bank Scope", "All 3 Strands Converge Into Heist!", "Heist Plan", "heist", 8.6),
+         ("62-69. Heist Preps (5 Tasks)", "Nicole Park, Cell Towers, Intel", "5 Prep Jobs", "heist", 7.1),
+         ("70. THE CARTEL HEIST", "Sinfrontera Vault Score ($10.5M)", "HEIST CLIMAX", "point_of_no_return", 5.1),
+     ]
+@@ -684,7 +684,7 @@
+         
+     # 3 Endings
+     ew, eh = 4.2, 1.05
+-    draw_card(ax, cols[4]["x"] + 0.2, 5.8, ew, eh, "ENDING A: BONNIE & CLYDE", "Survive Together in the Keys\nReq: 'Hot Together' + $2M Savings", "CANONICAL", "ending", fontsize=7.8)
++    draw_card(ax, cols[4]["x"] + 0.2, 5.8, ew, eh, "ENDING A: BONNIE & CLYDE", "Survive Together in the Keys\nRewards $2M Take (Trust Choice)", "CANONICAL", "ending", fontsize=7.8)
+     draw_arrow(ax, (cols[4]["x"] + 0.2 + ew/2, 7.7), (cols[4]["x"] + 0.2 + ew/2, 5.8 + eh), color="#10b981")
+     
+     draw_card(ax, cols[4]["x"] + 0.2, 4.2, ew, eh, "ENDING B: THE DEAL", "Accept Mendez's Immunity Plea\nProtective Custody Separation", "COMPROMISE", "heist", fontsize=7.8)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

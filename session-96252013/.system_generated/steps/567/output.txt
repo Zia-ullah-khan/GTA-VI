@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 13
+    print(f'[{item.get(" unique_mission_index\)}]
+                       ^
+SyntaxError: unterminated string literal (detected at line 13)
+

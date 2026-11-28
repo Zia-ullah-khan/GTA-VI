@@ -1,0 +1,3708 @@
+[
+ {
+  "file": "pack\\story000_bvh4\\story000_bvh4.rpf",
+  "size": 5632,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 4,
+  "zlib_streams_page_aligned": 1,
+  "distinct_page_stream_magics": 1,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 1,
+    "sample_offsets": [
+     4096
+    ]
+   }
+  ]
+ },
+ {
+  "file": "microsoft_gameconfig.bin",
+  "size": 8192,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 0,
+  "zlib_streams_page_aligned": 0,
+  "distinct_page_stream_magics": 0,
+  "page_stream_magics": []
+ },
+ {
+  "file": "appdata0.rpf",
+  "size": 8880,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 0,
+  "zlib_streams_page_aligned": 0,
+  "distinct_page_stream_magics": 0,
+  "page_stream_magics": []
+ },
+ {
+  "file": "pack\\core_licenses\\core_licenses_data.rpf",
+  "size": 13536,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 3,
+  "zlib_streams_page_aligned": 1,
+  "distinct_page_stream_magics": 1,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 1,
+    "sample_offsets": [
+     12288
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\core_restofworld001\\core_restofworld001.rpf",
+  "size": 791984,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 33,
+  "zlib_streams_page_aligned": 1,
+  "distinct_page_stream_magics": 1,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 1,
+    "sample_offsets": [
+     790528
+    ]
+   }
+  ]
+ },
+ {
+  "file": "Catalog000.bin",
+  "size": 815104,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 0,
+  "zlib_streams_page_aligned": 0,
+  "distinct_page_stream_magics": 0,
+  "page_stream_magics": []
+ },
+ {
+  "file": "script.rpf",
+  "size": 4358960,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 1057,
+  "zlib_streams_page_aligned": 702,
+  "distinct_page_stream_magics": 2,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 701,
+    "sample_offsets": [
+     876544,
+     880640,
+     888832,
+     897024,
+     905216,
+     913408
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     339968
+    ]
+   }
+  ]
+ },
+ {
+  "file": "common.rpf",
+  "size": 6642192,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 956,
+  "zlib_streams_page_aligned": 201,
+  "distinct_page_stream_magics": 13,
+  "page_stream_magics": [
+   {
+    "magic_hex": "3c3f786d",
+    "ascii": "<?xm",
+    "count": 154,
+    "sample_offsets": [
+     49152,
+     98304,
+     106496,
+     110592,
+     135168,
+     155648
+    ]
+   },
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 35,
+    "sample_offsets": [
+     45056,
+     53248,
+     81920,
+     102400,
+     118784,
+     126976
+    ]
+   },
+   {
+    "magic_hex": "4d484955",
+    "ascii": "MHIU",
+    "count": 2,
+    "sample_offsets": [
+     1327104,
+     1499136
+    ]
+   },
+   {
+    "magic_hex": "21030000",
+    "ascii": "!\u0003\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     708608
+    ]
+   },
+   {
+    "magic_hex": "50414d48",
+    "ascii": "PAMH",
+    "count": 1,
+    "sample_offsets": [
+     1224704
+    ]
+   },
+   {
+    "magic_hex": "3c537072",
+    "ascii": "<Spr",
+    "count": 1,
+    "sample_offsets": [
+     2228224
+    ]
+   },
+   {
+    "magic_hex": "000000c0",
+    "ascii": "\u0000\u0000\u0000\u00c0",
+    "count": 1,
+    "sample_offsets": [
+     2342912
+    ]
+   },
+   {
+    "magic_hex": "3c435475",
+    "ascii": "<CTu",
+    "count": 1,
+    "sample_offsets": [
+     4464640
+    ]
+   },
+   {
+    "magic_hex": "20202020",
+    "ascii": "    ",
+    "count": 1,
+    "sample_offsets": [
+     6496256
+    ]
+   },
+   {
+    "magic_hex": "203c2f49",
+    "ascii": " </I",
+    "count": 1,
+    "sample_offsets": [
+     6524928
+    ]
+   },
+   {
+    "magic_hex": "636c6f75",
+    "ascii": "clou",
+    "count": 1,
+    "sample_offsets": [
+     6553600
+    ]
+   },
+   {
+    "magic_hex": "616c7068",
+    "ascii": "alph",
+    "count": 1,
+    "sample_offsets": [
+     6610944
+    ]
+   },
+   {
+    "magic_hex": "53505331",
+    "ascii": "SPS1",
+    "count": 1,
+    "sample_offsets": [
+     6619136
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\shared_minigame000_bvh4\\shared_minigame000_bvh4.rpf",
+  "size": 61987040,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 2561,
+  "zlib_streams_page_aligned": 1,
+  "distinct_page_stream_magics": 1,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 1,
+    "sample_offsets": [
+     61984768
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\story000\\story000_script.rpf",
+  "size": 78023728,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 2823,
+  "zlib_streams_page_aligned": 2310,
+  "distinct_page_stream_magics": 2,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 2309,
+    "sample_offsets": [
+     51707904,
+     51720192,
+     51732480,
+     51744768,
+     51757056,
+     51769344
+    ]
+   },
+   {
+    "magic_hex": "ad767119",
+    "ascii": "\u00advq\u0019",
+    "count": 1,
+    "sample_offsets": [
+     57565184
+    ]
+   }
+  ]
+ },
+ {
+  "file": "textures.rpf",
+  "size": 192585024,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 2758,
+  "zlib_streams_page_aligned": 1,
+  "distinct_page_stream_magics": 1,
+  "page_stream_magics": [
+   {
+    "magic_hex": "45445550",
+    "ascii": "EDUP",
+    "count": 1,
+    "sample_offsets": [
+     191668224
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\story000_restofworld\\story000_restofworld.rpf",
+  "size": 198354992,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 630,
+  "zlib_streams_page_aligned": 7,
+  "distinct_page_stream_magics": 4,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 3,
+    "sample_offsets": [
+     78143488,
+     78147584,
+     198352896
+    ]
+   },
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 2,
+    "sample_offsets": [
+     61825024,
+     61894656
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     18706432
+    ]
+   },
+   {
+    "magic_hex": "a6000000",
+    "ascii": "\u00a6\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     70893568
+    ]
+   }
+  ]
+ },
+ {
+  "file": "shaders.rpf",
+  "size": 411695600,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 4219,
+  "zlib_streams_page_aligned": 16,
+  "distinct_page_stream_magics": 15,
+  "page_stream_magics": [
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     275820544,
+     276271104
+    ]
+   },
+   {
+    "magic_hex": "50530009",
+    "ascii": "PS\u0000\t",
+    "count": 1,
+    "sample_offsets": [
+     274173952
+    ]
+   },
+   {
+    "magic_hex": "7c000000",
+    "ascii": "|\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     275656704
+    ]
+   },
+   {
+    "magic_hex": "ffffffff",
+    "ascii": "\u00ff\u00ff\u00ff\u00ff",
+    "count": 1,
+    "sample_offsets": [
+     275935232
+    ]
+   },
+   {
+    "magic_hex": "1a7e1a8b",
+    "ascii": "\u001a~\u001a\u008b",
+    "count": 1,
+    "sample_offsets": [
+     282710016
+    ]
+   },
+   {
+    "magic_hex": "390001d5",
+    "ascii": "9\u0000\u0001\u00d5",
+    "count": 1,
+    "sample_offsets": [
+     304508928
+    ]
+   },
+   {
+    "magic_hex": "8002727e",
+    "ascii": "\u0080\u0002r~",
+    "count": 1,
+    "sample_offsets": [
+     305627136
+    ]
+   },
+   {
+    "magic_hex": "383cb8be",
+    "ascii": "8<\u00b8\u00be",
+    "count": 1,
+    "sample_offsets": [
+     307482624
+    ]
+   },
+   {
+    "magic_hex": "366d7410",
+    "ascii": "6mt\u0010",
+    "count": 1,
+    "sample_offsets": [
+     316874752
+    ]
+   },
+   {
+    "magic_hex": "290001d5",
+    "ascii": ")\u0000\u0001\u00d5",
+    "count": 1,
+    "sample_offsets": [
+     324108288
+    ]
+   },
+   {
+    "magic_hex": "1e2e3604",
+    "ascii": "\u001e.6\u0004",
+    "count": 1,
+    "sample_offsets": [
+     332464128
+    ]
+   },
+   {
+    "magic_hex": "f42a1056",
+    "ascii": "\u00f4*\u0010V",
+    "count": 1,
+    "sample_offsets": [
+     340701184
+    ]
+   },
+   {
+    "magic_hex": "5593ca08",
+    "ascii": "U\u0093\u00ca\b",
+    "count": 1,
+    "sample_offsets": [
+     346693632
+    ]
+   },
+   {
+    "magic_hex": "8056fa00",
+    "ascii": "\u0080V\u00fa\u0000",
+    "count": 1,
+    "sample_offsets": [
+     353841152
+    ]
+   },
+   {
+    "magic_hex": "87b79492",
+    "ascii": "\u0087\u00b7\u0094\u0092",
+    "count": 1,
+    "sample_offsets": [
+     354521088
+    ]
+   }
+  ]
+ },
+ {
+  "file": "data.rpf",
+  "size": 481544304,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 29052,
+  "zlib_streams_page_aligned": 3052,
+  "distinct_page_stream_magics": 15,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 2106,
+    "sample_offsets": [
+     77824,
+     81920,
+     135168,
+     139264,
+     151552,
+     163840
+    ]
+   },
+   {
+    "magic_hex": "52424630",
+    "ascii": "RBF0",
+    "count": 840,
+    "sample_offsets": [
+     166297600,
+     166301696,
+     166305792,
+     166309888,
+     166313984,
+     166318080
+    ]
+   },
+   {
+    "magic_hex": "4746582a",
+    "ascii": "GFX*",
+    "count": 86,
+    "sample_offsets": [
+     171954176,
+     171962368,
+     177745920,
+     182398976,
+     182988800,
+     187637760
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 6,
+    "sample_offsets": [
+     89120768,
+     448360448,
+     449228800,
+     449310720,
+     459563008,
+     473354240
+    ]
+   },
+   {
+    "magic_hex": "42400000",
+    "ascii": "B@\u0000\u0000",
+    "count": 3,
+    "sample_offsets": [
+     11481088,
+     410943488,
+     432287744
+    ]
+   },
+   {
+    "magic_hex": "ffffffff",
+    "ascii": "\u00ff\u00ff\u00ff\u00ff",
+    "count": 2,
+    "sample_offsets": [
+     16322560,
+     16441344
+    ]
+   },
+   {
+    "magic_hex": "acd7a2a8",
+    "ascii": "\u00ac\u00d7\u00a2\u00a8",
+    "count": 1,
+    "sample_offsets": [
+     176402432
+    ]
+   },
+   {
+    "magic_hex": "f174bcb1",
+    "ascii": "\u00f1t\u00bc\u00b1",
+    "count": 1,
+    "sample_offsets": [
+     444710912
+    ]
+   },
+   {
+    "magic_hex": "240100f1",
+    "ascii": "$\u0001\u0000\u00f1",
+    "count": 1,
+    "sample_offsets": [
+     445087744
+    ]
+   },
+   {
+    "magic_hex": "ec51b8c1",
+    "ascii": "\u00ecQ\u00b8\u00c1",
+    "count": 1,
+    "sample_offsets": [
+     453767168
+    ]
+   },
+   {
+    "magic_hex": "0c000000",
+    "ascii": "\f\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     463810560
+    ]
+   },
+   {
+    "magic_hex": "02040000",
+    "ascii": "\u0002\u0004\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     465567744
+    ]
+   },
+   {
+    "magic_hex": "02000000",
+    "ascii": "\u0002\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     466972672
+    ]
+   },
+   {
+    "magic_hex": "687716ce",
+    "ascii": "hw\u0016\u00ce",
+    "count": 1,
+    "sample_offsets": [
+     469127168
+    ]
+   },
+   {
+    "magic_hex": "0000803f",
+    "ascii": "\u0000\u0000\u0080?",
+    "count": 1,
+    "sample_offsets": [
+     473210880
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\shared_minigame000\\shared_minigame000.rpf",
+  "size": 810581008,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 5106,
+  "zlib_streams_page_aligned": 53,
+  "distinct_page_stream_magics": 17,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 32,
+    "sample_offsets": [
+     8192,
+     20480,
+     45056,
+     69632,
+     102400,
+     155648
+    ]
+   },
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 4,
+    "sample_offsets": [
+     810553344,
+     810557440,
+     810561536,
+     810565632
+    ]
+   },
+   {
+    "magic_hex": "42400000",
+    "ascii": "B@\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     523792384,
+     579497984
+    ]
+   },
+   {
+    "magic_hex": "00800080",
+    "ascii": "\u0000\u0080\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     708386816,
+     744378368
+    ]
+   },
+   {
+    "magic_hex": "1a000000",
+    "ascii": "\u001a\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     163840
+    ]
+   },
+   {
+    "magic_hex": "19000000",
+    "ascii": "\u0019\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     172032
+    ]
+   },
+   {
+    "magic_hex": "3d000000",
+    "ascii": "=\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     176128
+    ]
+   },
+   {
+    "magic_hex": "45020000",
+    "ascii": "E\u0002\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     180224
+    ]
+   },
+   {
+    "magic_hex": "56000000",
+    "ascii": "V\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     188416
+    ]
+   },
+   {
+    "magic_hex": "14000000",
+    "ascii": "\u0014\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     466944
+    ]
+   },
+   {
+    "magic_hex": "a6000000",
+    "ascii": "\u00a6\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     471040
+    ]
+   },
+   {
+    "magic_hex": "12000000",
+    "ascii": "\u0012\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     557056
+    ]
+   },
+   {
+    "magic_hex": "ad0882f0",
+    "ascii": "\u00ad\b\u0082\u00f0",
+    "count": 1,
+    "sample_offsets": [
+     668622848
+    ]
+   },
+   {
+    "magic_hex": "005cf52c",
+    "ascii": "\u0000\\\u00f5,",
+    "count": 1,
+    "sample_offsets": [
+     672235520
+    ]
+   },
+   {
+    "magic_hex": "04802937",
+    "ascii": "\u0004\u0080)7",
+    "count": 1,
+    "sample_offsets": [
+     714694656
+    ]
+   },
+   {
+    "magic_hex": "f5ff0250",
+    "ascii": "\u00f5\u00ff\u0002P",
+    "count": 1,
+    "sample_offsets": [
+     734248960
+    ]
+   },
+   {
+    "magic_hex": "3c3f786d",
+    "ascii": "<?xm",
+    "count": 1,
+    "sample_offsets": [
+     810569728
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\core_restofworld\\core_restofworld.rpf",
+  "size": 1295760752,
+  "raw_magic_hits": [
+   {
+    "offset": 517143726,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584718ffb7a000f82d5e6005b000db801fc013e08d40"
+   },
+   {
+    "offset": 717858052,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458473f2c539d529024187f0dd9ba110947f220679301"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 2404,
+  "zlib_streams_page_aligned": 11,
+  "distinct_page_stream_magics": 4,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 5,
+    "sample_offsets": [
+     54157312,
+     54165504,
+     54198272,
+     54206464,
+     54214656
+    ]
+   },
+   {
+    "magic_hex": "52424630",
+    "ascii": "RBF0",
+    "count": 3,
+    "sample_offsets": [
+     33419264,
+     33423360,
+     54218752
+    ]
+   },
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 2,
+    "sample_offsets": [
+     54222848,
+     1295757312
+    ]
+   },
+   {
+    "magic_hex": "08000080",
+    "ascii": "\b\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     19435520
+    ]
+   }
+  ]
+ },
+ {
+  "file": "anim.rpf",
+  "size": 4407626384,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 130659,
+  "zlib_streams_page_aligned": 328,
+  "distinct_page_stream_magics": 82,
+  "page_stream_magics": [
+   {
+    "magic_hex": "4d6f5645",
+    "ascii": "MoVE",
+    "count": 148,
+    "sample_offsets": [
+     4389670912,
+     4389675008,
+     4389679104,
+     4389683200,
+     4389687296,
+     4389691392
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 80,
+    "sample_offsets": [
+     16232448,
+     21254144,
+     24363008,
+     51490816,
+     57917440,
+     58015744
+    ]
+   },
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 16,
+    "sample_offsets": [
+     24576,
+     450162688,
+     450170880,
+     450179072,
+     4397019136,
+     4397449216
+    ]
+   },
+   {
+    "magic_hex": "03000000",
+    "ascii": "\u0003\u0000\u0000\u0000",
+    "count": 4,
+    "sample_offsets": [
+     50266112,
+     247533568,
+     327413760,
+     360767488
+    ]
+   },
+   {
+    "magic_hex": "2ad31be7",
+    "ascii": "*\u00d3\u001b\u00e7",
+    "count": 3,
+    "sample_offsets": [
+     17829888,
+     158793728,
+     171794432
+    ]
+   },
+   {
+    "magic_hex": "88560988",
+    "ascii": "\u0088V\t\u0088",
+    "count": 1,
+    "sample_offsets": [
+     54722560
+    ]
+   },
+   {
+    "magic_hex": "9c70ea2a",
+    "ascii": "\u009cp\u00ea*",
+    "count": 1,
+    "sample_offsets": [
+     126300160
+    ]
+   },
+   {
+    "magic_hex": "00725eb2",
+    "ascii": "\u0000r^\u00b2",
+    "count": 1,
+    "sample_offsets": [
+     244998144
+    ]
+   },
+   {
+    "magic_hex": "81fba93c",
+    "ascii": "\u0081\u00fb\u00a9<",
+    "count": 1,
+    "sample_offsets": [
+     295624704
+    ]
+   },
+   {
+    "magic_hex": "ea2af729",
+    "ascii": "\u00ea*\u00f7)",
+    "count": 1,
+    "sample_offsets": [
+     311508992
+    ]
+   },
+   {
+    "magic_hex": "1f83e935",
+    "ascii": "\u001f\u0083\u00e95",
+    "count": 1,
+    "sample_offsets": [
+     344883200
+    ]
+   },
+   {
+    "magic_hex": "d2ba8c2b",
+    "ascii": "\u00d2\u00ba\u008c+",
+    "count": 1,
+    "sample_offsets": [
+     443551744
+    ]
+   },
+   {
+    "magic_hex": "51dd9448",
+    "ascii": "Q\u00dd\u0094H",
+    "count": 1,
+    "sample_offsets": [
+     465412096
+    ]
+   },
+   {
+    "magic_hex": "5fd44f11",
+    "ascii": "_\u00d4O\u0011",
+    "count": 1,
+    "sample_offsets": [
+     476696576
+    ]
+   },
+   {
+    "magic_hex": "f44cdafd",
+    "ascii": "\u00f4L\u00da\u00fd",
+    "count": 1,
+    "sample_offsets": [
+     510562304
+    ]
+   },
+   {
+    "magic_hex": "c281c6a2",
+    "ascii": "\u00c2\u0081\u00c6\u00a2",
+    "count": 1,
+    "sample_offsets": [
+     626376704
+    ]
+   },
+   {
+    "magic_hex": "720549b2",
+    "ascii": "r\u0005I\u00b2",
+    "count": 1,
+    "sample_offsets": [
+     648974336
+    ]
+   },
+   {
+    "magic_hex": "e7d167c1",
+    "ascii": "\u00e7\u00d1g\u00c1",
+    "count": 1,
+    "sample_offsets": [
+     844488704
+    ]
+   },
+   {
+    "magic_hex": "1e36cd0e",
+    "ascii": "\u001e6\u00cd\u000e",
+    "count": 1,
+    "sample_offsets": [
+     853225472
+    ]
+   },
+   {
+    "magic_hex": "92089204",
+    "ascii": "\u0092\b\u0092\u0004",
+    "count": 1,
+    "sample_offsets": [
+     878694400
+    ]
+   },
+   {
+    "magic_hex": "1e143db4",
+    "ascii": "\u001e\u0014=\u00b4",
+    "count": 1,
+    "sample_offsets": [
+     914759680
+    ]
+   },
+   {
+    "magic_hex": "2a7c1379",
+    "ascii": "*|\u0013y",
+    "count": 1,
+    "sample_offsets": [
+     976871424
+    ]
+   },
+   {
+    "magic_hex": "ac4b7a93",
+    "ascii": "\u00acKz\u0093",
+    "count": 1,
+    "sample_offsets": [
+     1054826496
+    ]
+   },
+   {
+    "magic_hex": "68f8d58d",
+    "ascii": "h\u00f8\u00d5\u008d",
+    "count": 1,
+    "sample_offsets": [
+     1069527040
+    ]
+   },
+   {
+    "magic_hex": "1ae5e46b",
+    "ascii": "\u001a\u00e5\u00e4k",
+    "count": 1,
+    "sample_offsets": [
+     1072201728
+    ]
+   },
+   {
+    "magic_hex": "6775d725",
+    "ascii": "gu\u00d7%",
+    "count": 1,
+    "sample_offsets": [
+     1107259392
+    ]
+   },
+   {
+    "magic_hex": "58d94c29",
+    "ascii": "X\u00d9L)",
+    "count": 1,
+    "sample_offsets": [
+     1182228480
+    ]
+   },
+   {
+    "magic_hex": "0763cf8e",
+    "ascii": "\u0007c\u00cf\u008e",
+    "count": 1,
+    "sample_offsets": [
+     1184161792
+    ]
+   },
+   {
+    "magic_hex": "f9f90e2a",
+    "ascii": "\u00f9\u00f9\u000e*",
+    "count": 1,
+    "sample_offsets": [
+     1263448064
+    ]
+   },
+   {
+    "magic_hex": "e9766abd",
+    "ascii": "\u00e9vj\u00bd",
+    "count": 1,
+    "sample_offsets": [
+     1296486400
+    ]
+   },
+   {
+    "magic_hex": "2e164f1f",
+    "ascii": ".\u0016O\u001f",
+    "count": 1,
+    "sample_offsets": [
+     1417928704
+    ]
+   },
+   {
+    "magic_hex": "9cc9bbdd",
+    "ascii": "\u009c\u00c9\u00bb\u00dd",
+    "count": 1,
+    "sample_offsets": [
+     1427275776
+    ]
+   },
+   {
+    "magic_hex": "01979f68",
+    "ascii": "\u0001\u0097\u009fh",
+    "count": 1,
+    "sample_offsets": [
+     1461628928
+    ]
+   },
+   {
+    "magic_hex": "6e9f609a",
+    "ascii": "n\u009f`\u009a",
+    "count": 1,
+    "sample_offsets": [
+     1479774208
+    ]
+   },
+   {
+    "magic_hex": "e55b0e6c",
+    "ascii": "\u00e5[\u000el",
+    "count": 1,
+    "sample_offsets": [
+     1496129536
+    ]
+   },
+   {
+    "magic_hex": "cf50a941",
+    "ascii": "\u00cfP\u00a9A",
+    "count": 1,
+    "sample_offsets": [
+     1594781696
+    ]
+   },
+   {
+    "magic_hex": "b43cd9b8",
+    "ascii": "\u00b4<\u00d9\u00b8",
+    "count": 1,
+    "sample_offsets": [
+     1666584576
+    ]
+   },
+   {
+    "magic_hex": "81eeb25d",
+    "ascii": "\u0081\u00ee\u00b2]",
+    "count": 1,
+    "sample_offsets": [
+     1748230144
+    ]
+   },
+   {
+    "magic_hex": "701353c8",
+    "ascii": "p\u0013S\u00c8",
+    "count": 1,
+    "sample_offsets": [
+     1828913152
+    ]
+   },
+   {
+    "magic_hex": "20293818",
+    "ascii": " )8\u0018",
+    "count": 1,
+    "sample_offsets": [
+     1864200192
+    ]
+   },
+   {
+    "magic_hex": "e0204978",
+    "ascii": "\u00e0 Ix",
+    "count": 1,
+    "sample_offsets": [
+     2016862208
+    ]
+   },
+   {
+    "magic_hex": "9c13a090",
+    "ascii": "\u009c\u0013\u00a0\u0090",
+    "count": 1,
+    "sample_offsets": [
+     2017071104
+    ]
+   },
+   {
+    "magic_hex": "40350b50",
+    "ascii": "@5\u000bP",
+    "count": 1,
+    "sample_offsets": [
+     2041036800
+    ]
+   },
+   {
+    "magic_hex": "73437bd4",
+    "ascii": "sC{\u00d4",
+    "count": 1,
+    "sample_offsets": [
+     2136436736
+    ]
+   },
+   {
+    "magic_hex": "fd9cfa37",
+    "ascii": "\u00fd\u009c\u00fa7",
+    "count": 1,
+    "sample_offsets": [
+     2264006656
+    ]
+   },
+   {
+    "magic_hex": "73ec32b7",
+    "ascii": "s\u00ec2\u00b7",
+    "count": 1,
+    "sample_offsets": [
+     2303746048
+    ]
+   },
+   {
+    "magic_hex": "da2a869b",
+    "ascii": "\u00da*\u0086\u009b",
+    "count": 1,
+    "sample_offsets": [
+     2357075968
+    ]
+   },
+   {
+    "magic_hex": "3bd92886",
+    "ascii": ";\u00d9(\u0086",
+    "count": 1,
+    "sample_offsets": [
+     2426265600
+    ]
+   },
+   {
+    "magic_hex": "f0030150",
+    "ascii": "\u00f0\u0003\u0001P",
+    "count": 1,
+    "sample_offsets": [
+     2464333824
+    ]
+   },
+   {
+    "magic_hex": "10090250",
+    "ascii": "\u0010\t\u0002P",
+    "count": 1,
+    "sample_offsets": [
+     2465566720
+    ]
+   },
+   {
+    "magic_hex": "4520b229",
+    "ascii": "E \u00b2)",
+    "count": 1,
+    "sample_offsets": [
+     2474786816
+    ]
+   },
+   {
+    "magic_hex": "75006bdd",
+    "ascii": "u\u0000k\u00dd",
+    "count": 1,
+    "sample_offsets": [
+     2520817664
+    ]
+   },
+   {
+    "magic_hex": "4ff72fe8",
+    "ascii": "O\u00f7/\u00e8",
+    "count": 1,
+    "sample_offsets": [
+     2522746880
+    ]
+   },
+   {
+    "magic_hex": "ba714330",
+    "ascii": "\u00baqC0",
+    "count": 1,
+    "sample_offsets": [
+     2528727040
+    ]
+   },
+   {
+    "magic_hex": "1d0ebab4",
+    "ascii": "\u001d\u000e\u00ba\u00b4",
+    "count": 1,
+    "sample_offsets": [
+     2566930432
+    ]
+   },
+   {
+    "magic_hex": "0c28252b",
+    "ascii": "\f(%+",
+    "count": 1,
+    "sample_offsets": [
+     2805653504
+    ]
+   },
+   {
+    "magic_hex": "c23f47d4",
+    "ascii": "\u00c2?G\u00d4",
+    "count": 1,
+    "sample_offsets": [
+     2962223104
+    ]
+   },
+   {
+    "magic_hex": "72da2bfb",
+    "ascii": "r\u00da+\u00fb",
+    "count": 1,
+    "sample_offsets": [
+     2966024192
+    ]
+   },
+   {
+    "magic_hex": "8f627ba2",
+    "ascii": "\u008fb{\u00a2",
+    "count": 1,
+    "sample_offsets": [
+     3022258176
+    ]
+   },
+   {
+    "magic_hex": "259ecb45",
+    "ascii": "%\u009e\u00cbE",
+    "count": 1,
+    "sample_offsets": [
+     3043143680
+    ]
+   }
+  ]
+ },
+ {
+  "file": "packs.rpf",
+  "size": 4798213264,
+  "raw_magic_hits": [
+   {
+    "offset": 3927147250,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "4758543241e59571662dcf1da0aebdd64c19ee894ae394cf"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 144553,
+  "zlib_streams_page_aligned": 404,
+  "distinct_page_stream_magics": 28,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 310,
+    "sample_offsets": [
+     144916480,
+     144924672,
+     144957440,
+     144969728,
+     144977920,
+     145010688
+    ]
+   },
+   {
+    "magic_hex": "42400000",
+    "ascii": "B@\u0000\u0000",
+    "count": 52,
+    "sample_offsets": [
+     1139412992,
+     1140842496,
+     1146982400,
+     1271754752,
+     1280630784,
+     1305493504
+    ]
+   },
+   {
+    "magic_hex": "0f000080",
+    "ascii": "\u000f\u0000\u0000\u0080",
+    "count": 10,
+    "sample_offsets": [
+     1901207552,
+     1938649088,
+     1950683136,
+     2618667008,
+     2638045184,
+     2653806592
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 4,
+    "sample_offsets": [
+     158633984,
+     3118305280,
+     4081442816,
+     4784390144
+    ]
+   },
+   {
+    "magic_hex": "0e000080",
+    "ascii": "\u000e\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     2681884672,
+     2889334784,
+     2937712640
+    ]
+   },
+   {
+    "magic_hex": "02000080",
+    "ascii": "\u0002\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     3056934912,
+     3314429952
+    ]
+   },
+   {
+    "magic_hex": "ffffff7f",
+    "ascii": "\u00ff\u00ff\u00ff\u007f",
+    "count": 2,
+    "sample_offsets": [
+     4755206144,
+     4755263488
+    ]
+   },
+   {
+    "magic_hex": "357494ae",
+    "ascii": "5t\u0094\u00ae",
+    "count": 1,
+    "sample_offsets": [
+     76656640
+    ]
+   },
+   {
+    "magic_hex": "88845a81",
+    "ascii": "\u0088\u0084Z\u0081",
+    "count": 1,
+    "sample_offsets": [
+     80191488
+    ]
+   },
+   {
+    "magic_hex": "177d6b80",
+    "ascii": "\u0017}k\u0080",
+    "count": 1,
+    "sample_offsets": [
+     93724672
+    ]
+   },
+   {
+    "magic_hex": "03742340",
+    "ascii": "\u0003t#@",
+    "count": 1,
+    "sample_offsets": [
+     137457664
+    ]
+   },
+   {
+    "magic_hex": "cef4d03f",
+    "ascii": "\u00ce\u00f4\u00d0?",
+    "count": 1,
+    "sample_offsets": [
+     158908416
+    ]
+   },
+   {
+    "magic_hex": "76ad6cac",
+    "ascii": "v\u00adl\u00ac",
+    "count": 1,
+    "sample_offsets": [
+     191893504
+    ]
+   },
+   {
+    "magic_hex": "3b000080",
+    "ascii": ";\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1253236736
+    ]
+   },
+   {
+    "magic_hex": "11000080",
+    "ascii": "\u0011\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1446760448
+    ]
+   },
+   {
+    "magic_hex": "25000080",
+    "ascii": "%\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1455788032
+    ]
+   },
+   {
+    "magic_hex": "0d000080",
+    "ascii": "\r\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1616494592
+    ]
+   },
+   {
+    "magic_hex": "05000080",
+    "ascii": "\u0005\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1623769088
+    ]
+   },
+   {
+    "magic_hex": "10000080",
+    "ascii": "\u0010\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     1743941632
+    ]
+   },
+   {
+    "magic_hex": "038d1b6c",
+    "ascii": "\u0003\u008d\u001bl",
+    "count": 1,
+    "sample_offsets": [
+     1820786688
+    ]
+   },
+   {
+    "magic_hex": "474d5f55",
+    "ascii": "GM_U",
+    "count": 1,
+    "sample_offsets": [
+     3072888832
+    ]
+   },
+   {
+    "magic_hex": "3e000080",
+    "ascii": ">\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     3558862848
+    ]
+   },
+   {
+    "magic_hex": "08000080",
+    "ascii": "\b\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     3714273280
+    ]
+   },
+   {
+    "magic_hex": "04000080",
+    "ascii": "\u0004\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     3914444800
+    ]
+   },
+   {
+    "magic_hex": "07000080",
+    "ascii": "\u0007\u0000\u0000\u0080",
+    "count": 1,
+    "sample_offsets": [
+     3933569024
+    ]
+   },
+   {
+    "magic_hex": "00000300",
+    "ascii": "\u0000\u0000\u0003\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4748787712
+    ]
+   },
+   {
+    "magic_hex": "ffffff00",
+    "ascii": "\u00ff\u00ff\u00ff\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4778209280
+    ]
+   },
+   {
+    "magic_hex": "800b1da0",
+    "ascii": "\u0080\u000b\u001d\u00a0",
+    "count": 1,
+    "sample_offsets": [
+     4790112256
+    ]
+   }
+  ]
+ },
+ {
+  "file": "navmeshes.rpf",
+  "size": 6707512496,
+  "raw_magic_hits": [],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 90452,
+  "zlib_streams_page_aligned": 61,
+  "distinct_page_stream_magics": 33,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 22,
+    "sample_offsets": [
+     785936384,
+     846397440,
+     913264640,
+     1103810560,
+     1711525888,
+     2614460416
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 6,
+    "sample_offsets": [
+     103034880,
+     785965056,
+     1103839232,
+     3471560704,
+     6253457408,
+     6330982400
+    ]
+   },
+   {
+    "magic_hex": "04000000",
+    "ascii": "\u0004\u0000\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     28033024,
+     98140160
+    ]
+   },
+   {
+    "magic_hex": "fd4fc737",
+    "ascii": "\u00fdO\u00c77",
+    "count": 2,
+    "sample_offsets": [
+     846426112,
+     6263762944
+    ]
+   },
+   {
+    "magic_hex": "45135fde",
+    "ascii": "E\u0013_\u00de",
+    "count": 1,
+    "sample_offsets": [
+     141168640
+    ]
+   },
+   {
+    "magic_hex": "5c435cc5",
+    "ascii": "\\C\\\u00c5",
+    "count": 1,
+    "sample_offsets": [
+     195108864
+    ]
+   },
+   {
+    "magic_hex": "807733c5",
+    "ascii": "\u0080w3\u00c5",
+    "count": 1,
+    "sample_offsets": [
+     239927296
+    ]
+   },
+   {
+    "magic_hex": "341dd8c4",
+    "ascii": "4\u001d\u00d8\u00c4",
+    "count": 1,
+    "sample_offsets": [
+     318582784
+    ]
+   },
+   {
+    "magic_hex": "00801ac6",
+    "ascii": "\u0000\u0080\u001a\u00c6",
+    "count": 1,
+    "sample_offsets": [
+     868507648
+    ]
+   },
+   {
+    "magic_hex": "c31a0200",
+    "ascii": "\u00c3\u001a\u0002\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1003446272
+    ]
+   },
+   {
+    "magic_hex": "c48a0100",
+    "ascii": "\u00c4\u008a\u0001\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1009364992
+    ]
+   },
+   {
+    "magic_hex": "00000008",
+    "ascii": "\u0000\u0000\u0000\b",
+    "count": 1,
+    "sample_offsets": [
+     1427075072
+    ]
+   },
+   {
+    "magic_hex": "05001a00",
+    "ascii": "\u0005\u0000\u001a\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1510055936
+    ]
+   },
+   {
+    "magic_hex": "3200e700",
+    "ascii": "2\u0000\u00e7\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1518796800
+    ]
+   },
+   {
+    "magic_hex": "d3860200",
+    "ascii": "\u00d3\u0086\u0002\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1590370304
+    ]
+   },
+   {
+    "magic_hex": "23002f00",
+    "ascii": "#\u0000/\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1758826496
+    ]
+   },
+   {
+    "magic_hex": "52015504",
+    "ascii": "R\u0001U\u0004",
+    "count": 1,
+    "sample_offsets": [
+     2491904000
+    ]
+   },
+   {
+    "magic_hex": "a400c300",
+    "ascii": "\u00a4\u0000\u00c3\u0000",
+    "count": 1,
+    "sample_offsets": [
+     2533523456
+    ]
+   },
+   {
+    "magic_hex": "000064c5",
+    "ascii": "\u0000\u0000d\u00c5",
+    "count": 1,
+    "sample_offsets": [
+     2573266944
+    ]
+   },
+   {
+    "magic_hex": "000053c5",
+    "ascii": "\u0000\u0000S\u00c5",
+    "count": 1,
+    "sample_offsets": [
+     2694279168
+    ]
+   },
+   {
+    "magic_hex": "26004000",
+    "ascii": "&\u0000@\u0000",
+    "count": 1,
+    "sample_offsets": [
+     2778046464
+    ]
+   },
+   {
+    "magic_hex": "ed9c0100",
+    "ascii": "\u00ed\u009c\u0001\u0000",
+    "count": 1,
+    "sample_offsets": [
+     3285635072
+    ]
+   },
+   {
+    "magic_hex": "1b00b300",
+    "ascii": "\u001b\u0000\u00b3\u0000",
+    "count": 1,
+    "sample_offsets": [
+     3399192576
+    ]
+   },
+   {
+    "magic_hex": "62006400",
+    "ascii": "b\u0000d\u0000",
+    "count": 1,
+    "sample_offsets": [
+     3632627712
+    ]
+   },
+   {
+    "magic_hex": "6600ba00",
+    "ascii": "f\u0000\u00ba\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4292853760
+    ]
+   },
+   {
+    "magic_hex": "09003b01",
+    "ascii": "\t\u0000;\u0001",
+    "count": 1,
+    "sample_offsets": [
+     4301099008
+    ]
+   },
+   {
+    "magic_hex": "016b0200",
+    "ascii": "\u0001k\u0002\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4386385920
+    ]
+   },
+   {
+    "magic_hex": "0000f043",
+    "ascii": "\u0000\u0000\u00f0C",
+    "count": 1,
+    "sample_offsets": [
+     4429692928
+    ]
+   },
+   {
+    "magic_hex": "04fd0100",
+    "ascii": "\u0004\u00fd\u0001\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4459102208
+    ]
+   },
+   {
+    "magic_hex": "00008e44",
+    "ascii": "\u0000\u0000\u008eD",
+    "count": 1,
+    "sample_offsets": [
+     4568444928
+    ]
+   },
+   {
+    "magic_hex": "05002c00",
+    "ascii": "\u0005\u0000,\u0000",
+    "count": 1,
+    "sample_offsets": [
+     4610740224
+    ]
+   },
+   {
+    "magic_hex": "0000b444",
+    "ascii": "\u0000\u0000\u00b4D",
+    "count": 1,
+    "sample_offsets": [
+     4649504768
+    ]
+   },
+   {
+    "magic_hex": "0000aac5",
+    "ascii": "\u0000\u0000\u00aa\u00c5",
+    "count": 1,
+    "sample_offsets": [
+     5317668864
+    ]
+   }
+  ]
+ },
+ {
+  "file": "pack\\core_bvh4\\core_bvh4.rpf",
+  "size": 8297921520,
+  "raw_magic_hits": [
+   {
+    "offset": 4301661209,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "4758543292b1b4caad151e084b9ee1e7ef5965efb03cacac"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 566210,
+  "zlib_streams_page_aligned": 6,
+  "distinct_page_stream_magics": 4,
+  "page_stream_magics": [
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 3,
+    "sample_offsets": [
+     8297824256,
+     8297832448,
+     8297840640
+    ]
+   },
+   {
+    "magic_hex": "49d449d6",
+    "ascii": "I\u00d4I\u00d6",
+    "count": 1,
+    "sample_offsets": [
+     2702082048
+    ]
+   },
+   {
+    "magic_hex": "8eaf3548",
+    "ascii": "\u008e\u00af5H",
+    "count": 1,
+    "sample_offsets": [
+     3164655616
+    ]
+   },
+   {
+    "magic_hex": "3c3f786d",
+    "ascii": "<?xm",
+    "count": 1,
+    "sample_offsets": [
+     8297820160
+    ]
+   }
+  ]
+ },
+ {
+  "file": "movies.rpf",
+  "size": 8832481776,
+  "raw_magic_hits": [
+   {
+    "offset": 596527628,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854327ad48422280240dca640f58da9820a6a50315586"
+   },
+   {
+    "offset": 678208055,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432624c9c2b5cb75ea558a9940112faf0d5f53eafbd"
+   },
+   {
+    "offset": 1921535360,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432269be202ee6316a43aa9a743c4068d3015d64006"
+   },
+   {
+    "offset": 2629402803,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584749c455522b5b403c64275bef0fe61eeed4835955"
+   },
+   {
+    "offset": 3193255433,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847083a942d0916447d16b8cb0043956c8d2c9b909a"
+   },
+   {
+    "offset": 4678905998,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847d84ac4b7486231c96d01c80288ceb872a9251497"
+   },
+   {
+    "offset": 5022327232,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458474b81b22a2a0285ee025852eea1963cb2c985a495"
+   },
+   {
+    "offset": 5840408413,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847748d4ca458eb8d38411d851a11c20071ca00bf00"
+   },
+   {
+    "offset": 5941562356,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584780766da3964a60635c47771d69e462a5bea188ca"
+   },
+   {
+    "offset": 7229290729,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458477805246bcaf1c1d096a5c62df5fdf43cd01d41c4"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 273,
+  "zlib_streams_page_aligned": 0,
+  "distinct_page_stream_magics": 0,
+  "page_stream_magics": []
+ },
+ {
+  "file": "pack\\story000\\story000.rpf",
+  "size": 20022508672,
+  "raw_magic_hits": [
+   {
+    "offset": 3377078515,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432dcba9b90c92e156c0db0b81e4271e6b05f9c6974"
+   },
+   {
+    "offset": 8756514343,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432d44a1fede0c050036477efab894e6cee31447606"
+   },
+   {
+    "offset": 10288969565,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847763550787bd267ed8765c1da7c308d5e8b41d63b"
+   },
+   {
+    "offset": 11869758207,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854322956d0f206134084804190e646438805864598a1"
+   },
+   {
+    "offset": 15337639148,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854322bc919ab79a49f36ef46604f97007a7b6a3d81b0"
+   },
+   {
+    "offset": 16244077869,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432faa113d2e4f9f92e882ddc20e237cb6f501c4d29"
+   },
+   {
+    "offset": 16865134776,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432a54a27b4ba7402a4940d988684a8506729390b24"
+   },
+   {
+    "offset": 17064097467,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584705dac8311b957ad0158684a01504c95252570106"
+   },
+   {
+    "offset": 17183678338,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584774cdba61c2aee99a9525369b170014a90e22625b"
+   },
+   {
+    "offset": 18052931519,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "4758543257c578578200a022e3a38c6b402612eee1838891"
+   },
+   {
+    "offset": 18182181421,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432a02515112a14428a04300b328044a38ad4fac6ee"
+   },
+   {
+    "offset": 18285495632,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584720b1d54f1a53900a83d48653b042f930787d4e38"
+   },
+   {
+    "offset": 18741810223,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432237fa14418041019aa120180005e885ca2304c28"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 141858,
+  "zlib_streams_page_aligned": 4511,
+  "distinct_page_stream_magics": 73,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 4322,
+    "sample_offsets": [
+     4748951552,
+     4748963840,
+     4748972032,
+     4748984320,
+     4748992512,
+     4749000704
+    ]
+   },
+   {
+    "magic_hex": "4d6f5645",
+    "ascii": "MoVE",
+    "count": 40,
+    "sample_offsets": [
+     4748718080,
+     4748722176,
+     4748726272,
+     4748730368,
+     4748734464,
+     4748738560
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 38,
+    "sample_offsets": [
+     8896512,
+     14438400,
+     25088000,
+     94609408,
+     120897536,
+     121954304
+    ]
+   },
+   {
+    "magic_hex": "42400000",
+    "ascii": "B@\u0000\u0000",
+    "count": 16,
+    "sample_offsets": [
+     14606929920,
+     14670639104,
+     14745448448,
+     14853226496,
+     14885076992,
+     15084306432
+    ]
+   },
+   {
+    "magic_hex": "efbbbf3c",
+    "ascii": "\u00ef\u00bb\u00bf<",
+    "count": 10,
+    "sample_offsets": [
+     16694255616,
+     16694259712,
+     16694263808,
+     16694267904,
+     16694272000,
+     16694276096
+    ]
+   },
+   {
+    "magic_hex": "88560988",
+    "ascii": "\u0088V\t\u0088",
+    "count": 5,
+    "sample_offsets": [
+     82509824,
+     163651584,
+     2240466944,
+     2241929216,
+     2279165952
+    ]
+   },
+   {
+    "magic_hex": "00800080",
+    "ascii": "\u0000\u0080\u0000\u0080",
+    "count": 4,
+    "sample_offsets": [
+     14611652608,
+     14816124928,
+     14816878592,
+     14896013312
+    ]
+   },
+   {
+    "magic_hex": "03000000",
+    "ascii": "\u0003\u0000\u0000\u0000",
+    "count": 3,
+    "sample_offsets": [
+     40116224,
+     148090880,
+     2205777920
+    ]
+   },
+   {
+    "magic_hex": "51404a31",
+    "ascii": "Q@J1",
+    "count": 3,
+    "sample_offsets": [
+     96567296,
+     105234432,
+     191524864
+    ]
+   },
+   {
+    "magic_hex": "00010000",
+    "ascii": "\u0000\u0001\u0000\u0000",
+    "count": 3,
+    "sample_offsets": [
+     294862848,
+     362479616,
+     16423833600
+    ]
+   },
+   {
+    "magic_hex": "69305564",
+    "ascii": "i0Ud",
+    "count": 2,
+    "sample_offsets": [
+     14354571264,
+     14392864768
+    ]
+   },
+   {
+    "magic_hex": "02000080",
+    "ascii": "\u0002\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     14581964800,
+     15983259648
+    ]
+   },
+   {
+    "magic_hex": "01000080",
+    "ascii": "\u0001\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     14815510528,
+     15992553472
+    ]
+   },
+   {
+    "magic_hex": "f5ff0050",
+    "ascii": "\u00f5\u00ff\u0000P",
+    "count": 2,
+    "sample_offsets": [
+     15016439808,
+     16079233024
+    ]
+   },
+   {
+    "magic_hex": "2ad31be7",
+    "ascii": "*\u00d3\u001b\u00e7",
+    "count": 1,
+    "sample_offsets": [
+     39276544
+    ]
+   },
+   {
+    "magic_hex": "9c70ea2a",
+    "ascii": "\u009cp\u00ea*",
+    "count": 1,
+    "sample_offsets": [
+     82821120
+    ]
+   },
+   {
+    "magic_hex": "6fe4d7ee",
+    "ascii": "o\u00e4\u00d7\u00ee",
+    "count": 1,
+    "sample_offsets": [
+     138072064
+    ]
+   },
+   {
+    "magic_hex": "0aa87669",
+    "ascii": "\n\u00a8vi",
+    "count": 1,
+    "sample_offsets": [
+     190242816
+    ]
+   },
+   {
+    "magic_hex": "8db79d92",
+    "ascii": "\u008d\u00b7\u009d\u0092",
+    "count": 1,
+    "sample_offsets": [
+     291696640
+    ]
+   },
+   {
+    "magic_hex": "fbaa8771",
+    "ascii": "\u00fb\u00aa\u0087q",
+    "count": 1,
+    "sample_offsets": [
+     450699264
+    ]
+   },
+   {
+    "magic_hex": "1634e3d6",
+    "ascii": "\u00164\u00e3\u00d6",
+    "count": 1,
+    "sample_offsets": [
+     701579264
+    ]
+   },
+   {
+    "magic_hex": "26537374",
+    "ascii": "&Sst",
+    "count": 1,
+    "sample_offsets": [
+     881897472
+    ]
+   },
+   {
+    "magic_hex": "4ff5e8bd",
+    "ascii": "O\u00f5\u00e8\u00bd",
+    "count": 1,
+    "sample_offsets": [
+     897761280
+    ]
+   },
+   {
+    "magic_hex": "65a8e1f6",
+    "ascii": "e\u00a8\u00e1\u00f6",
+    "count": 1,
+    "sample_offsets": [
+     932212736
+    ]
+   },
+   {
+    "magic_hex": "4e6421a7",
+    "ascii": "Nd!\u00a7",
+    "count": 1,
+    "sample_offsets": [
+     1045659648
+    ]
+   },
+   {
+    "magic_hex": "ce6ffca4",
+    "ascii": "\u00ceo\u00fc\u00a4",
+    "count": 1,
+    "sample_offsets": [
+     1077895168
+    ]
+   },
+   {
+    "magic_hex": "80649ee2",
+    "ascii": "\u0080d\u009e\u00e2",
+    "count": 1,
+    "sample_offsets": [
+     1161814016
+    ]
+   },
+   {
+    "magic_hex": "74d99649",
+    "ascii": "t\u00d9\u0096I",
+    "count": 1,
+    "sample_offsets": [
+     1276620800
+    ]
+   },
+   {
+    "magic_hex": "6672b1b5",
+    "ascii": "fr\u00b1\u00b5",
+    "count": 1,
+    "sample_offsets": [
+     1333542912
+    ]
+   },
+   {
+    "magic_hex": "fda0855c",
+    "ascii": "\u00fd\u00a0\u0085\\",
+    "count": 1,
+    "sample_offsets": [
+     1348337664
+    ]
+   },
+   {
+    "magic_hex": "e1610f68",
+    "ascii": "\u00e1a\u000fh",
+    "count": 1,
+    "sample_offsets": [
+     1467830272
+    ]
+   },
+   {
+    "magic_hex": "c29c2feb",
+    "ascii": "\u00c2\u009c/\u00eb",
+    "count": 1,
+    "sample_offsets": [
+     1830940672
+    ]
+   },
+   {
+    "magic_hex": "fa3818b6",
+    "ascii": "\u00fa8\u0018\u00b6",
+    "count": 1,
+    "sample_offsets": [
+     1915744256
+    ]
+   },
+   {
+    "magic_hex": "04703f1a",
+    "ascii": "\u0004p?\u001a",
+    "count": 1,
+    "sample_offsets": [
+     2181771264
+    ]
+   },
+   {
+    "magic_hex": "58069ee1",
+    "ascii": "X\u0006\u009e\u00e1",
+    "count": 1,
+    "sample_offsets": [
+     2202996736
+    ]
+   },
+   {
+    "magic_hex": "51e5606c",
+    "ascii": "Q\u00e5`l",
+    "count": 1,
+    "sample_offsets": [
+     2215530496
+    ]
+   },
+   {
+    "magic_hex": "d47692c0",
+    "ascii": "\u00d4v\u0092\u00c0",
+    "count": 1,
+    "sample_offsets": [
+     2351013888
+    ]
+   },
+   {
+    "magic_hex": "7b0d39be",
+    "ascii": "{\r9\u00be",
+    "count": 1,
+    "sample_offsets": [
+     2396078080
+    ]
+   },
+   {
+    "magic_hex": "4f6bdccd",
+    "ascii": "Ok\u00dc\u00cd",
+    "count": 1,
+    "sample_offsets": [
+     2683113472
+    ]
+   },
+   {
+    "magic_hex": "30f71250",
+    "ascii": "0\u00f7\u0012P",
+    "count": 1,
+    "sample_offsets": [
+     2704711680
+    ]
+   },
+   {
+    "magic_hex": "8a076771",
+    "ascii": "\u008a\u0007gq",
+    "count": 1,
+    "sample_offsets": [
+     2792476672
+    ]
+   },
+   {
+    "magic_hex": "7061636b",
+    "ascii": "pack",
+    "count": 1,
+    "sample_offsets": [
+     3036897280
+    ]
+   },
+   {
+    "magic_hex": "507a4c50",
+    "ascii": "PzLP",
+    "count": 1,
+    "sample_offsets": [
+     3053719552
+    ]
+   },
+   {
+    "magic_hex": "6848c721",
+    "ascii": "hH\u00c7!",
+    "count": 1,
+    "sample_offsets": [
+     3351457792
+    ]
+   },
+   {
+    "magic_hex": "f73959e6",
+    "ascii": "\u00f79Y\u00e6",
+    "count": 1,
+    "sample_offsets": [
+     3944513536
+    ]
+   },
+   {
+    "magic_hex": "4db1b59e",
+    "ascii": "M\u00b1\u00b5\u009e",
+    "count": 1,
+    "sample_offsets": [
+     4060037120
+    ]
+   },
+   {
+    "magic_hex": "70f20950",
+    "ascii": "p\u00f2\tP",
+    "count": 1,
+    "sample_offsets": [
+     4135264256
+    ]
+   },
+   {
+    "magic_hex": "3a1819fc",
+    "ascii": ":\u0018\u0019\u00fc",
+    "count": 1,
+    "sample_offsets": [
+     4682293248
+    ]
+   },
+   {
+    "magic_hex": "050000fb",
+    "ascii": "\u0005\u0000\u0000\u00fb",
+    "count": 1,
+    "sample_offsets": [
+     4758564864
+    ]
+   },
+   {
+    "magic_hex": "16e0a508",
+    "ascii": "\u0016\u00e0\u00a5\b",
+    "count": 1,
+    "sample_offsets": [
+     13452365824
+    ]
+   },
+   {
+    "magic_hex": "1a000000",
+    "ascii": "\u001a\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14327676928
+    ]
+   },
+   {
+    "magic_hex": "3d000000",
+    "ascii": "=\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14328291328
+    ]
+   },
+   {
+    "magic_hex": "45020000",
+    "ascii": "E\u0002\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14328627200
+    ]
+   },
+   {
+    "magic_hex": "1748020b",
+    "ascii": "\u0017H\u0002\u000b",
+    "count": 1,
+    "sample_offsets": [
+     14328700928
+    ]
+   },
+   {
+    "magic_hex": "56000000",
+    "ascii": "V\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14328922112
+    ]
+   },
+   {
+    "magic_hex": "a6000000",
+    "ascii": "\u00a6\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14329319424
+    ]
+   },
+   {
+    "magic_hex": "12000000",
+    "ascii": "\u0012\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     14330474496
+    ]
+   },
+   {
+    "magic_hex": "3e268c3f",
+    "ascii": ">&\u008c?",
+    "count": 1,
+    "sample_offsets": [
+     14551547904
+    ]
+   },
+   {
+    "magic_hex": "da6d171d",
+    "ascii": "\u00dam\u0017\u001d",
+    "count": 1,
+    "sample_offsets": [
+     14555664384
+    ]
+   },
+   {
+    "magic_hex": "cbbffe3e",
+    "ascii": "\u00cb\u00bf\u00fe>",
+    "count": 1,
+    "sample_offsets": [
+     14560104448
+    ]
+   }
+  ]
+ },
+ {
+  "file": "audio.rpf",
+  "size": 28543454672,
+  "raw_magic_hits": [
+   {
+    "offset": 4504067692,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854326db92173aead4174db4d2d5c132193c2e8801a3f"
+   },
+   {
+    "offset": 5968929457,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854320239411eea12b08049cd442e5dbccc74b58438f9"
+   },
+   {
+    "offset": 6394827250,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458475abd57adc26e63f5eec1c07afe8a54c6be983297"
+   },
+   {
+    "offset": 6961801203,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854321acce30c8bf546d0f6b77e14ba84b6decd13bf50"
+   },
+   {
+    "offset": 7702515338,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432cbb6a3a51723a9f0f528b519aa71b96fc973b685"
+   },
+   {
+    "offset": 8085062242,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584798e58f99de31e04b0a547793eff264a7781f1c4e"
+   },
+   {
+    "offset": 10726790796,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "4758543240d153df4c13732d8fe152a127ec3665fe992b35"
+   },
+   {
+    "offset": 11591475606,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432f2c17e73af56ec3d105adc18a39f56fd0c88e3ea"
+   },
+   {
+    "offset": 14387986244,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "4758543260fd771730e069f9a8fb51c0993ebc7f4ec0aa4f"
+   },
+   {
+    "offset": 14513553552,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584733504843357048312650481f1791581218a65a0a"
+   },
+   {
+    "offset": 16627856293,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854320611824a470bc93d0029e2851800000480010081"
+   },
+   {
+    "offset": 16925938065,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847c992e14340ccd7484aa2218570c006871064492e"
+   },
+   {
+    "offset": 17214542238,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584772a571b35338e5eea7316f073b47465670054685"
+   },
+   {
+    "offset": 18578342724,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854324a87fa43227d016145084d09c98afa8aa000f8c5"
+   },
+   {
+    "offset": 23233430744,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432f969cf7048eafa4f6538ce9b34a3d4b2d523f709"
+   },
+   {
+    "offset": 25590935278,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458470759de15d8188278d05bde7e23973e79ac774d84"
+   },
+   {
+    "offset": 25857710444,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854325e081116ab3c64a5d0f15e73b7c647ce1b0a78c9"
+   },
+   {
+    "offset": 26409616372,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458473a0460d71691ff37444312e454df0129479da9be"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 1631,
+  "zlib_streams_page_aligned": 21,
+  "distinct_page_stream_magics": 18,
+  "page_stream_magics": [
+   {
+    "magic_hex": "12000000",
+    "ascii": "\u0012\u0000\u0000\u0000",
+    "count": 3,
+    "sample_offsets": [
+     17338368,
+     18755584,
+     18759680
+    ]
+   },
+   {
+    "magic_hex": "1a000000",
+    "ascii": "\u001a\u0000\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     20480,
+     32768
+    ]
+   },
+   {
+    "magic_hex": "414d425f",
+    "ascii": "AMB_",
+    "count": 1,
+    "sample_offsets": [
+     28672
+    ]
+   },
+   {
+    "magic_hex": "64726976",
+    "ascii": "driv",
+    "count": 1,
+    "sample_offsets": [
+     188416
+    ]
+   },
+   {
+    "magic_hex": "29000000",
+    "ascii": ")\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     217088
+    ]
+   },
+   {
+    "magic_hex": "42617365",
+    "ascii": "Base",
+    "count": 1,
+    "sample_offsets": [
+     221184
+    ]
+   },
+   {
+    "magic_hex": "19000000",
+    "ascii": "\u0019\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     225280
+    ]
+   },
+   {
+    "magic_hex": "3d000000",
+    "ascii": "=\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     393216
+    ]
+   },
+   {
+    "magic_hex": "45020000",
+    "ascii": "E\u0002\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     622592
+    ]
+   },
+   {
+    "magic_hex": "01000000",
+    "ascii": "\u0001\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     1699840
+    ]
+   },
+   {
+    "magic_hex": "56000000",
+    "ascii": "V\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     7659520
+    ]
+   },
+   {
+    "magic_hex": "4d0f0038",
+    "ascii": "M\u000f\u00008",
+    "count": 1,
+    "sample_offsets": [
+     10448896
+    ]
+   },
+   {
+    "magic_hex": "14000000",
+    "ascii": "\u0014\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     11186176
+    ]
+   },
+   {
+    "magic_hex": "636f7265",
+    "ascii": "core",
+    "count": 1,
+    "sample_offsets": [
+     11538432
+    ]
+   },
+   {
+    "magic_hex": "a6000000",
+    "ascii": "\u00a6\u0000\u0000\u0000",
+    "count": 1,
+    "sample_offsets": [
+     11542528
+    ]
+   },
+   {
+    "magic_hex": "ffffffff",
+    "ascii": "\u00ff\u00ff\u00ff\u00ff",
+    "count": 1,
+    "sample_offsets": [
+     12644352
+    ]
+   },
+   {
+    "magic_hex": "13917713",
+    "ascii": "\u0013\u0091w\u0013",
+    "count": 1,
+    "sample_offsets": [
+     10446282752
+    ]
+   },
+   {
+    "magic_hex": "1e249461",
+    "ascii": "\u001e$\u0094a",
+    "count": 1,
+    "sample_offsets": [
+     13480230912
+    ]
+   }
+  ]
+ },
+ {
+  "file": "levels.rpf",
+  "size": 76155065056,
+  "raw_magic_hits": [
+   {
+    "offset": 8923580679,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847219f4bcae498cf24e76083bb55a8e8fb41d8004f"
+   },
+   {
+    "offset": 20298689118,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432c4a1d47f36bebecf6affb6450f31d7768ab1cec3"
+   },
+   {
+    "offset": 20314409861,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458470aec3103b055097d435077d0fd8a3abd4149f7e1"
+   },
+   {
+    "offset": 24627216181,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432c0f7ba3fe721fd4b9d0ce2fe352c8a2c93733d6a"
+   },
+   {
+    "offset": 26608540920,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847c2d27e7c7079d45de2d326524d3cd6f9bb4f45bc"
+   },
+   {
+    "offset": 28616440801,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432ed6f76e303e80ff30fe69b62b5408d0b569507f3"
+   },
+   {
+    "offset": 28843403959,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584708a7ec7b8b35e3da589577bf30c3af1a3113edaf"
+   },
+   {
+    "offset": 33075733125,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432fae560e76a299c1b2b8e966bc4d966954c844d9d"
+   },
+   {
+    "offset": 36061190826,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847d7136985ff634f4fd83a521b22adf07fe23ff735"
+   },
+   {
+    "offset": 42438730929,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847fd4d91457c31e8367d63f475b42dcbd7521f017f"
+   },
+   {
+    "offset": 48640110144,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432a622a4cf43a44822c9ff6d7faf4082d494d36172"
+   },
+   {
+    "offset": 52724671256,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432dbf752925842dbd693772fa8dbcadad064c1db2d"
+   },
+   {
+    "offset": 53273112595,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "3254584744f47f17bae7c6b83bb43fce9b7150caa9ab7593"
+   },
+   {
+    "offset": 57943634476,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847f3e145782fa16661b6ba16c1cbdc601ca39d243d"
+   },
+   {
+    "offset": 62881702761,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432ee6938123a3f59cc4d422352447558ec00df755f"
+   },
+   {
+    "offset": 63793940290,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847e8b6c85fd162de6729ea0ff888bfa8453a85fda4"
+   },
+   {
+    "offset": 67467954457,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "325458473e80b94fca78e6db0920bba5fab15211fb42a66b"
+   },
+   {
+    "offset": 67842317050,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "47585432ca1e43e2963e70c940dc122812b7a012358bcbd5"
+   },
+   {
+    "offset": 69808785711,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847fc87fdbbfed81dbbeb8f236928d36a0d191e50a0"
+   },
+   {
+    "offset": 73208337902,
+    "magic": "2TXG",
+    "header_plausible": false,
+    "context": "32545847bcc2f344b29187f82391d63167d4431ee4451cea"
+   },
+   {
+    "offset": 73799182749,
+    "magic": "GXT2",
+    "header_plausible": false,
+    "context": "475854324a2369d64390ac4804329a4e86ac434c400c0867"
+   }
+  ],
+  "zlib_start_magic_hits": [],
+  "zlib_streams_16_aligned": 1120060,
+  "zlib_streams_page_aligned": 9439,
+  "distinct_page_stream_magics": 523,
+  "page_stream_magics": [
+   {
+    "magic_hex": "5053494e",
+    "ascii": "PSIN",
+    "count": 5794,
+    "sample_offsets": [
+     118784,
+     122880,
+     126976,
+     135168,
+     139264,
+     143360
+    ]
+   },
+   {
+    "magic_hex": "50414d48",
+    "ascii": "PAMH",
+    "count": 1476,
+    "sample_offsets": [
+     71348977664,
+     71348981760,
+     71348985856,
+     71348989952,
+     71348994048,
+     71348998144
+    ]
+   },
+   {
+    "magic_hex": "42400000",
+    "ascii": "B@\u0000\u0000",
+    "count": 831,
+    "sample_offsets": [
+     4197310464,
+     4222984192,
+     4228653056,
+     4247134208,
+     4270514176,
+     4329082880
+    ]
+   },
+   {
+    "magic_hex": "01000102",
+    "ascii": "\u0001\u0000\u0001\u0002",
+    "count": 391,
+    "sample_offsets": [
+     71355187200,
+     71355191296,
+     71355195392,
+     71355199488,
+     71355203584,
+     71355207680
+    ]
+   },
+   {
+    "magic_hex": "00000000",
+    "ascii": "\u0000\u0000\u0000\u0000",
+    "count": 126,
+    "sample_offsets": [
+     4180897792,
+     6113218560,
+     7107350528,
+     7317041152,
+     8023801856,
+     8039727104
+    ]
+   },
+   {
+    "magic_hex": "02000080",
+    "ascii": "\u0002\u0000\u0000\u0080",
+    "count": 52,
+    "sample_offsets": [
+     13518635008,
+     19485974528,
+     20109602816,
+     27745701888,
+     29744906240,
+     32175964160
+    ]
+   },
+   {
+    "magic_hex": "00800080",
+    "ascii": "\u0000\u0080\u0000\u0080",
+    "count": 37,
+    "sample_offsets": [
+     6086316032,
+     10558267392,
+     17529999360,
+     20990976000,
+     21310902272,
+     22701211648
+    ]
+   },
+   {
+    "magic_hex": "01000080",
+    "ascii": "\u0001\u0000\u0000\u0080",
+    "count": 35,
+    "sample_offsets": [
+     4867080192,
+     4904644608,
+     7866523648,
+     8692740096,
+     15498866688,
+     16991010816
+    ]
+   },
+   {
+    "magic_hex": "03000080",
+    "ascii": "\u0003\u0000\u0000\u0080",
+    "count": 25,
+    "sample_offsets": [
+     6808936448,
+     9085026304,
+     15024840704,
+     16888954880,
+     34603257856,
+     40767856640
+    ]
+   },
+   {
+    "magic_hex": "80000000",
+    "ascii": "\u0080\u0000\u0000\u0000",
+    "count": 17,
+    "sample_offsets": [
+     4504752128,
+     4765249536,
+     15133122560,
+     23350575104,
+     26328797184,
+     29839179776
+    ]
+   },
+   {
+    "magic_hex": "06000000",
+    "ascii": "\u0006\u0000\u0000\u0000",
+    "count": 17,
+    "sample_offsets": [
+     12781395968,
+     15641853952,
+     17429225472,
+     23178002432,
+     33295482880,
+     33867296768
+    ]
+   },
+   {
+    "magic_hex": "06000080",
+    "ascii": "\u0006\u0000\u0000\u0080",
+    "count": 13,
+    "sample_offsets": [
+     5526728704,
+     8581992448,
+     12446629888,
+     15721816064,
+     21874929664,
+     29555560448
+    ]
+   },
+   {
+    "magic_hex": "04000080",
+    "ascii": "\u0004\u0000\u0000\u0080",
+    "count": 10,
+    "sample_offsets": [
+     5053030400,
+     7555624960,
+     8113782784,
+     9169432576,
+     30168076288,
+     33662906368
+    ]
+   },
+   {
+    "magic_hex": "09000080",
+    "ascii": "\t\u0000\u0000\u0080",
+    "count": 9,
+    "sample_offsets": [
+     6902091776,
+     9516777472,
+     24740200448,
+     25782767616,
+     34422587392,
+     68094218240
+    ]
+   },
+   {
+    "magic_hex": "07000080",
+    "ascii": "\u0007\u0000\u0000\u0080",
+    "count": 9,
+    "sample_offsets": [
+     9226678272,
+     17881419776,
+     23221133312,
+     25695023104,
+     45306249216,
+     65620168704
+    ]
+   },
+   {
+    "magic_hex": "f5ff0050",
+    "ascii": "\u00f5\u00ff\u0000P",
+    "count": 9,
+    "sample_offsets": [
+     10802253824,
+     16114679808,
+     21346078720,
+     37090525184,
+     53308612608,
+     54228144128
+    ]
+   },
+   {
+    "magic_hex": "52424630",
+    "ascii": "RBF0",
+    "count": 9,
+    "sample_offsets": [
+     67557621760,
+     67557625856,
+     67557638144,
+     67557679104,
+     67557707776,
+     67557711872
+    ]
+   },
+   {
+    "magic_hex": "08000080",
+    "ascii": "\b\u0000\u0000\u0080",
+    "count": 7,
+    "sample_offsets": [
+     4401074176,
+     7234412544,
+     23746273280,
+     30102900736,
+     44205092864,
+     54941376512
+    ]
+   },
+   {
+    "magic_hex": "0000803f",
+    "ascii": "\u0000\u0000\u0080?",
+    "count": 6,
+    "sample_offsets": [
+     8074973184,
+     10699673600,
+     11251511296,
+     14148755456,
+     29938622464,
+     30879928320
+    ]
+   },
+   {
+    "magic_hex": "f5ff0150",
+    "ascii": "\u00f5\u00ff\u0001P",
+    "count": 6,
+    "sample_offsets": [
+     8668479488,
+     21250453504,
+     31848808448,
+     35177644032,
+     43856236544,
+     66081398784
+    ]
+   },
+   {
+    "magic_hex": "05000080",
+    "ascii": "\u0005\u0000\u0000\u0080",
+    "count": 5,
+    "sample_offsets": [
+     5253799936,
+     17163026432,
+     31968215040,
+     34282713088,
+     70369792000
+    ]
+   },
+   {
+    "magic_hex": "0b000080",
+    "ascii": "\u000b\u0000\u0000\u0080",
+    "count": 5,
+    "sample_offsets": [
+     8248868864,
+     31687901184,
+     38798336000,
+     70372990976,
+     70726946816
+    ]
+   },
+   {
+    "magic_hex": "16000080",
+    "ascii": "\u0016\u0000\u0000\u0080",
+    "count": 4,
+    "sample_offsets": [
+     4295663616,
+     8356032512,
+     49490219008,
+     75082108928
+    ]
+   },
+   {
+    "magic_hex": "00000003",
+    "ascii": "\u0000\u0000\u0000\u0003",
+    "count": 4,
+    "sample_offsets": [
+     6384627712,
+     8031666176,
+     17554214912,
+     27854180352
+    ]
+   },
+   {
+    "magic_hex": "0d000080",
+    "ascii": "\r\u0000\u0000\u0080",
+    "count": 4,
+    "sample_offsets": [
+     6468337664,
+     23028441088,
+     34425794560,
+     60604071936
+    ]
+   },
+   {
+    "magic_hex": "0e000080",
+    "ascii": "\u000e\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     4399005696,
+     16039460864,
+     27549192192
+    ]
+   },
+   {
+    "magic_hex": "19000080",
+    "ascii": "\u0019\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     10851749888,
+     53711065088,
+     70781792256
+    ]
+   },
+   {
+    "magic_hex": "13000080",
+    "ascii": "\u0013\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     16689676288,
+     26653134848,
+     33499283456
+    ]
+   },
+   {
+    "magic_hex": "17000080",
+    "ascii": "\u0017\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     21482270720,
+     25197838336,
+     43946078208
+    ]
+   },
+   {
+    "magic_hex": "15000080",
+    "ascii": "\u0015\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     22820966400,
+     45295362048,
+     67807010816
+    ]
+   },
+   {
+    "magic_hex": "1b000080",
+    "ascii": "\u001b\u0000\u0000\u0080",
+    "count": 3,
+    "sample_offsets": [
+     26475257856,
+     43956998144,
+     68151017472
+    ]
+   },
+   {
+    "magic_hex": "03800380",
+    "ascii": "\u0003\u0080\u0003\u0080",
+    "count": 3,
+    "sample_offsets": [
+     27222458368,
+     28265705472,
+     29038776320
+    ]
+   },
+   {
+    "magic_hex": "01010101",
+    "ascii": "\u0001\u0001\u0001\u0001",
+    "count": 3,
+    "sample_offsets": [
+     45761097728,
+     54090883072,
+     62635323392
+    ]
+   },
+   {
+    "magic_hex": "01000000",
+    "ascii": "\u0001\u0000\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     389726208,
+     3832832000
+    ]
+   },
+   {
+    "magic_hex": "0a000080",
+    "ascii": "\n\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     5688258560,
+     47294984192
+    ]
+   },
+   {
+    "magic_hex": "14000080",
+    "ascii": "\u0014\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     7200649216,
+     68188942336
+    ]
+   },
+   {
+    "magic_hex": "00800680",
+    "ascii": "\u0000\u0080\u0006\u0080",
+    "count": 2,
+    "sample_offsets": [
+     7211986944,
+     20968718336
+    ]
+   },
+   {
+    "magic_hex": "03800080",
+    "ascii": "\u0003\u0080\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     8043278336,
+     14469058560
+    ]
+   },
+   {
+    "magic_hex": "03800480",
+    "ascii": "\u0003\u0080\u0004\u0080",
+    "count": 2,
+    "sample_offsets": [
+     9611481088,
+     20986855424
+    ]
+   },
+   {
+    "magic_hex": "08000150",
+    "ascii": "\b\u0000\u0001P",
+    "count": 2,
+    "sample_offsets": [
+     10358480896,
+     24601477120
+    ]
+   },
+   {
+    "magic_hex": "32000080",
+    "ascii": "2\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     11065102336,
+     70353870848
+    ]
+   },
+   {
+    "magic_hex": "31000080",
+    "ascii": "1\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     11544911872,
+     48606580736
+    ]
+   },
+   {
+    "magic_hex": "38478526",
+    "ascii": "8G\u0085&",
+    "count": 2,
+    "sample_offsets": [
+     12308606976,
+     15405068288
+    ]
+   },
+   {
+    "magic_hex": "2b000080",
+    "ascii": "+\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     13293383680,
+     22092234752
+    ]
+   },
+   {
+    "magic_hex": "3ace513f",
+    "ascii": ":\u00ceQ?",
+    "count": 2,
+    "sample_offsets": [
+     14540173312,
+     14540222464
+    ]
+   },
+   {
+    "magic_hex": "bd378635",
+    "ascii": "\u00bd7\u00865",
+    "count": 2,
+    "sample_offsets": [
+     15927164928,
+     17600991232
+    ]
+   },
+   {
+    "magic_hex": "18000080",
+    "ascii": "\u0018\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     16639016960,
+     17677742080
+    ]
+   },
+   {
+    "magic_hex": "1a000080",
+    "ascii": "\u001a\u0000\u0000\u0080",
+    "count": 2,
+    "sample_offsets": [
+     17042915328,
+     68101451776
+    ]
+   },
+   {
+    "magic_hex": "147fe1e6",
+    "ascii": "\u0014\u007f\u00e1\u00e6",
+    "count": 2,
+    "sample_offsets": [
+     18302619648,
+     22535753728
+    ]
+   },
+   {
+    "magic_hex": "63300000",
+    "ascii": "c0\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     21451124736,
+     25690714112
+    ]
+   },
+   {
+    "magic_hex": "1139913f",
+    "ascii": "\u00119\u0091?",
+    "count": 2,
+    "sample_offsets": [
+     23554670592,
+     23554707456
+    ]
+   },
+   {
+    "magic_hex": "a4010000",
+    "ascii": "\u00a4\u0001\u0000\u0000",
+    "count": 2,
+    "sample_offsets": [
+     31648944128,
+     76154273792
+    ]
+   },
+   {
+    "magic_hex": "f5ff0550",
+    "ascii": "\u00f5\u00ff\u0005P",
+    "count": 2,
+    "sample_offsets": [
+     35532697600,
+     74539634688
+    ]
+   },
+   {
+    "magic_hex": "f79de061",
+    "ascii": "\u00f7\u009d\u00e0a",
+    "count": 2,
+    "sample_offsets": [
+     37187502080,
+     40289820672
+    ]
+   },
+   {
+    "magic_hex": "ffffffff",
+    "ascii": "\u00ff\u00ff\u00ff\u00ff",
+    "count": 2,
+    "sample_offsets": [
+     67944476672,
+     69025050624
+    ]
+   },
+   {
+    "magic_hex": "040000e0",
+    "ascii": "\u0004\u0000\u0000\u00e0",
+    "count": 2,
+    "sample_offsets": [
+     71756185600,
+     73093513216
+    ]
+   },
+   {
+    "magic_hex": "060000e0",
+    "ascii": "\u0006\u0000\u0000\u00e0",
+    "count": 2,
+    "sample_offsets": [
+     72956727296,
+     73431875584
+    ]
+   },
+   {
+    "magic_hex": "529e4197",
+    "ascii": "R\u009eA\u0097",
+    "count": 1,
+    "sample_offsets": [
+     65011712
+    ]
+   },
+   {
+    "magic_hex": "47bca28d",
+    "ascii": "G\u00bc\u00a2\u008d",
+    "count": 1,
+    "sample_offsets": [
+     1421860864
+    ]
+   },
+   {
+    "magic_hex": "3b37a91c",
+    "ascii": ";7\u00a9\u001c",
+    "count": 1,
+    "sample_offsets": [
+     1421983744
+    ]
+   }
+  ]
+ }
+]

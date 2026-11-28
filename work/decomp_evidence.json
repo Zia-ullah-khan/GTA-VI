@@ -1,0 +1,871 @@
+{
+ "source_dir": "C:\\Users\\<user>\\Downloads\\americas_scripts_23_11_2026",
+ "facts": [
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "FT_KMODSHP_SECOND",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572975 (0xE48C934A = joaat('ft_kmodshp_second'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "COM_KBOS_SHOP",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572979 (0x2D7D2164 = joaat('com_kbos_shop'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "COM_KBOS_COLAT",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572983 (0x5AE70594 = joaat('com_kbos_colat'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "COM_KBOS_RADR",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572987 (0x21D03E4F = joaat('com_kbos_radr'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "COM_KBOS_NEIGHB",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572991 (0xC8513199 = joaat('com_kbos_neighb'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "COM_KBOS_CLEAN",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572995 (0x10BE4C94 = joaat('com_kbos_clean'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "HO_PAR_KEYCO",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:572999 (0x420623AF = joaat('ho_par_keyco'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "RecoverDropTipShackDonnieAlive",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:573003 (0x0094C57A = joaat('recoverdroptipshackdonniealive'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MTL_WAKE",
+   "also_when_argument_equals": [],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "RecoverDropTipShackDonnieDeadUnknown",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))",
+    "0xD2601E252151E04B.ysc.cs:573007 (0xEAB842AC = joaat('recoverdroptipshackdonniedeadunknown'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MNY_HOTEL",
+   "also_when_argument_equals": [
+    "MNY_HOTEL_AUTOLAUNCH"
+   ],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "ANT_SRCH",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+    "0xD2601E252151E04B.ysc.cs:573013 (0xF17F1279 = joaat('ant_srch'))",
+    "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MNY_HOTEL",
+   "also_when_argument_equals": [
+    "MNY_HOTEL_AUTOLAUNCH"
+   ],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "ANT_CHASE",
+   "only_if_neither_flag_set": [
+    "ANT_CHASE_AUTOLAUNCH",
+    "ANT_CHASE"
+   ],
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+    "0xD2601E252151E04B.ysc.cs:573043 (0xAE78970F = joaat('ant_chase'))",
+    "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))",
+    "0xD2601E252151E04B.ysc.cs:573017 (0xDE5B4EBF = joaat('ant_chase_autolaunch')) tested with Virtual.type_37658EE3464E5234.Method_1",
+    "0xD2601E252151E04B.ysc.cs:573030 (0xAE78970F = joaat('ant_chase')) tested with Virtual.type_37658EE3464E5234.Method_1"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MNY_HOTEL",
+   "also_when_argument_equals": [
+    "MNY_HOTEL_AUTOLAUNCH"
+   ],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "ANT_INTRO_APARTMENT",
+   "only_if_neither_flag_set": [
+    "ANT_INTRO_APARTMENT",
+    "ANT_INTRO_STORAGE"
+   ],
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+    "0xD2601E252151E04B.ysc.cs:573075 (0x3AD0562C = joaat('ant_intro_apartment'))",
+    "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))",
+    "0xD2601E252151E04B.ysc.cs:573049 (0x3AD0562C = joaat('ant_intro_apartment')) tested with Virtual.type_37658EE3464E5234.Method_1",
+    "0xD2601E252151E04B.ysc.cs:573062 (0xD3FDD3BE = joaat('ant_intro_storage')) tested with Virtual.type_37658EE3464E5234.Method_1"
+   ]
+  },
+  {
+   "kind": "handler_sets_flag",
+   "function": "func_10AA55",
+   "when_argument_equals": "MNY_HOTEL",
+   "also_when_argument_equals": [
+    "MNY_HOTEL_AUTOLAUNCH"
+   ],
+   "action": "Virtual.type_37658EE3464E5234.Method_0(store, id, 1)",
+   "target": "ANT_RECOV",
+   "only_if_neither_flag_set": null,
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:572946 (0x2625203A = joaat('mny_hotel'))",
+    "0xD2601E252151E04B.ysc.cs:573081 (0xC90E04B5 = joaat('ant_recov'))",
+    "0xD2601E252151E04B.ysc.cs:572955 (0x32367ABD = joaat('mny_hotel_autolaunch'))"
+   ]
+  },
+  {
+   "kind": "either_flag_test",
+   "function": "func_10AD05",
+   "returns_true_if_any_flag_set": [
+    "BIL_FINALE_M",
+    "BIL_FINAL_B"
+   ],
+   "action": "Virtual.type_37658EE3464E5234.Method_1(store, id, flag)",
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs:573115 (0xF8FB7ACC = joaat('bil_finale_m'))",
+    "0xD2601E252151E04B.ysc.cs:573127 (0x96F9A142 = joaat('bil_final_b'))"
+   ]
+  },
+  {
+   "kind": "complementary_enable",
+   "function": "func_055F3F",
+   "ids": [
+    "BIL_PICK_NIGHT_TIME_START",
+    "BIL_PICK_DAY_TIME_START"
+   ],
+   "action": "Native._0x480014E54CD33903(id, bool) called with a boolean and its negation; the boolean includes an integer comparison '< 17'",
+   "evidence": [
+    "story000.ysc.cs:116320 (0xC943252B = joaat('bil_pick_night_time_start'))",
+    "story000.ysc.cs:116325 (0xBBBBEBF6 = joaat('bil_pick_day_time_start'))"
+   ]
+  },
+  {
+   "kind": "id_membership_switch",
+   "function": "func_109E09",
+   "returns_1_for_mission_ids": [
+    "AIR_BEACH",
+    "AIR_BUS",
+    "AIR_CATER_DHF",
+    "AIR_CATER_DHP",
+    "AIR_CATER_DHS",
+    "AIR_DRONE",
+    "AIR_FINAL_DATA_HACK_FAILED",
+    "AIR_FINAL_DATA_HACK_PASSED",
+    "AIR_GANG",
+    "AIR_HACK",
+    "AIR_RECRU",
+    "AIR_SCOPE",
+    "AIR_TAIL",
+    "AIR_TRAIN",
+    "AIR_TRUCK",
+    "ANT_CHASE",
+    "ANT_CHASE_AUTOLAUNCH",
+    "ANT_INTRO_APARTMENT",
+    "ANT_INTRO_STORAGE",
+    "ANT_RECOV",
+    "ANT_SRCH",
+    "AO_DEAL_T_SYNTH",
+    "AO_SHOW_L_EXP",
+    "BAN_CARTE",
+    "BAN_EXPLO",
+    "BAN_FINAL",
+    "BAN_PKBMB",
+    "BAN_RESCU",
+    "BAN_SAFE",
+    "BAN_SETUP",
+    "BIL_BOSS",
+    "BIL_CONFR",
+    "BIL_FINALE_M",
+    "BIL_FINAL_B",
+    "BIL_FUN",
+    "BIL_HOUSE",
+    "BIL_LAW",
+    "BIL_MOTEL_NON_VIOLENT",
+    "BIL_MOTEL_VIOLENT",
+    "BIL_PENT_B_BRIAN",
+    "BIL_PENT_M_MENDEZ",
+    "BIL_PICK_DAY_TIME_START",
+    "BIL_PICK_NIGHT_TIME_START",
+    "BIL_PRECI",
+    "BIL_PREG",
+    "BIL_RED",
+    "BIL_WHEEL",
+    "CLB_DEAL",
+    "CLB_EVI",
+    "CLB_HELI",
+    "CLB_MEET",
+    "CLB_PARTY",
+    "CLB_PROMO",
+    "CLB_SCUFF",
+    "CLB_STEAL",
+    "CLB_TOWER",
+    "CLB_VIDEO",
+    "COA_DOG",
+    "COA_HELIS",
+    "COA_SHIP",
+    "COM_CBO_CBINT",
+    "COM_DEAL_INTR",
+    "COM_DLR_COOK",
+    "COM_DLR_MISS",
+    "COM_KBOS_CLEAN",
+    "COM_KBOS_COLAT",
+    "COM_KBOS_NEIGHB",
+    "COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE",
+    "COM_KBOS_RADR",
+    "COM_KBOS_SHOP",
+    "COM_MECH_INTR",
+    "COM_ROB_DRIVEPREP",
+    "COM_SFH_FLTPK",
+    "COM_SFH_MVFN",
+    "COM_SHOW_TRAILER",
+    "COM_UP_BBWOR",
+    "CSC_DIG_DATA",
+    "CSC_DRT_CNVY",
+    "CSC_MOM_FLIP",
+    "CSC_MOM_MSEVN",
+    "CSC_TRH_CHART",
+    "CTI_MECH_STFC",
+    "CTI_SHOW_HATH",
+    "FIN_CONT",
+    "FT_AMUCO_FIRST_INTERACTION",
+    "FT_AMUCO_SECOND_INTERACTION",
+    "FT_BAN_DISTR",
+    "FT_KMODSHP_FIRST",
+    "FT_KMODSHP_SECOND",
+    "FT_MOTEL_SHOP",
+    "FT_UP_MMRENT_MANAGER_CONFRONTED",
+    "FT_UP_MMRENT_MANAGER_INITIAL",
+    "FT_UP_MMRENT_MANAGER_LATE_COPS",
+    "FT_UP_MMRENT_MANAGER_LATE_NO_COPS",
+    "HO_PAR_FRINT",
+    "HO_PAR_KEYCO",
+    "INT_AIR",
+    "INT_BANK",
+    "INT_CHASE",
+    "INT_CRED",
+    "INT_PLNSH",
+    "INT_PRISO_TRIGGER_EARLY",
+    "INT_PRISO_TRIGGER_LATE",
+    "INT_PROLO",
+    "MNY_CAR",
+    "MNY_ESCRT",
+    "MNY_HOTEL",
+    "MNY_HOTEL_AUTOLAUNCH",
+    "MNY_KIDNP",
+    "MNY_KIDNP_AUTO-LAUNCH",
+    "MNY_PARTY",
+    "MTL_CHECK_HIGH_REL",
+    "MTL_CHECK_LOW_REL",
+    "MTL_CONT",
+    "MTL_DRIVE",
+    "MTL_MONT",
+    "MTL_MUD",
+    "MTL_PAIN",
+    "MTL_WAKE",
+    "ROB_BANK",
+    "ROB_BOAT_J_JASON",
+    "ROB_BOAT_L_LUCIA",
+    "ROB_DEATH",
+    "ROB_DRIVE",
+    "ROB_VEH",
+    "RecoverDropTipShackDonnieAlive",
+    "RecoverDropTipShackDonnieDeadUnknown",
+    "SFH_TAXI",
+    "UP_MLSPM",
+    "UP_MLSPM_CONFRONT",
+    "robbergetawaydriverprep"
+   ],
+   "mission_ids_not_in_switch": [
+    "AIR_CATER",
+    "AIR_FINAL",
+    "ANT_GIVE",
+    "ANT_INTRO",
+    "BIL_MOTEL",
+    "BIL_PENT",
+    "BIL_PICK",
+    "COM_KBOS_PLNDATE",
+    "CTI_PIL_RD_BC_PARENT",
+    "FT_AMUCO",
+    "FT_KMODSHP",
+    "FT_UP_MMRENT",
+    "INT_PRISO",
+    "ROB_BOAT_J"
+   ],
+   "other_values_in_switch": [
+    "0x32C69AC9"
+   ],
+   "evidence": [
+    "0xD2601E252151E04B.ysc.cs func_109E09 (lines 570880..572796), equality tests ending in 'return 1'"
+   ]
+  }
+ ],
+ "scripts_referencing_mission_id": {
+  "AIR_BEACH": [
+   "0x8BAEDA947BA19E92",
+   "0xCFBA039399CEBAE6"
+  ],
+  "AIR_BUS": [
+   "0x677006F7816AFC6F",
+   "0xA6AD7D2757F57D44"
+  ],
+  "AIR_CATER": [
+   "0xCE0432BF698DEB0C",
+   "0xD9492B20506C409A"
+  ],
+  "AIR_CATER_DHF": [
+   "0xCE0432BF698DEB0C"
+  ],
+  "AIR_CATER_DHP": [
+   "0xCE0432BF698DEB0C"
+  ],
+  "AIR_CATER_DHS": [
+   "0xCE0432BF698DEB0C"
+  ],
+  "AIR_DRONE": [
+   "0x4F9DB4C88611128D",
+   "0xCFC0150F18619AE4"
+  ],
+  "AIR_FINAL": [
+   "0x0DC5CFBFA0C6288D",
+   "0x5FCB40D75929A57C"
+  ],
+  "AIR_FINAL_DATA_HACK_FAILED": [
+   "0x5FCB40D75929A57C"
+  ],
+  "AIR_FINAL_DATA_HACK_PASSED": [
+   "0x5FCB40D75929A57C"
+  ],
+  "AIR_GANG": [
+   "0x5A0F5200818021F8",
+   "0xD32EF6DABDADFD3E"
+  ],
+  "AIR_HACK": [
+   "0x2DC56A5F41279DAB",
+   "0x35625AD20860503E"
+  ],
+  "AIR_RECRU": [
+   "0x1144A710F5DB7EB5",
+   "0x15236279DF070F3A"
+  ],
+  "AIR_SCOPE": [
+   "0x4C6550356988A66A",
+   "0xD16C288F708ACB79"
+  ],
+  "AIR_TAIL": [
+   "0x3559C51549C3989D",
+   "0x947D998BD81F7AC1",
+   "0xFA6776FBAD8B474B"
+  ],
+  "AIR_TRAIN": [
+   "0x072370F89A3E0CF1",
+   "0xCC5B11D31FB41D7A"
+  ],
+  "AIR_TRUCK": [
+   "0x724A311490B0F06A",
+   "0xF91BE2E22A204E90"
+  ],
+  "ANT_CHASE": [
+   "0x17BC1BEE364B6876",
+   "0xA5D80A2E94A00586"
+  ],
+  "ANT_GIVE": [
+   "0x3DAF28C4E2EFF1EA"
+  ],
+  "ANT_INTRO": [
+   "0x2B87210672A3FA58",
+   "0xB952FAB1539FD993"
+  ],
+  "ANT_INTRO_APARTMENT": [
+   "0x2B87210672A3FA58"
+  ],
+  "ANT_INTRO_STORAGE": [
+   "0x2B87210672A3FA58"
+  ],
+  "ANT_RECOV": [
+   "0x4C5B97400653CA3F",
+   "0x4FF779290BBD7992"
+  ],
+  "ANT_SRCH": [
+   "0x41B8EA7521139C19",
+   "0x5850105A4C0FA947"
+  ],
+  "AO_DEAL_T_SYNTH": [
+   "0x2EF967F2ED888B0F"
+  ],
+  "AO_SHOW_L_EXP": [
+   "0x4C79572EA44F9250",
+   "0xEECABCFE27EF0913"
+  ],
+  "BAN_CARTE": [
+   "0x0073741BBF863C76",
+   "0x5259D2EC68F0BFAF"
+  ],
+  "BAN_EXPLO": [
+   "0x836D9358535556E2",
+   "0xC3F59AF90984AE73"
+  ],
+  "BAN_FINAL": [
+   "0xA59181FFDB0364A6",
+   "0xA9D520073044E02F"
+  ],
+  "BAN_PKBMB": [
+   "0x414696C79D9ED598",
+   "0xB99F5731E401E7F7"
+  ],
+  "BAN_RESCU": [
+   "0x3E7CA918F823BF54",
+   "0xB5B6608D2B545576"
+  ],
+  "BAN_SAFE": [
+   "0x39A9C581CB4300F3",
+   "0x749B10952E8DFB45"
+  ],
+  "BAN_SETUP": [
+   "0x3A440869D85E2AD4",
+   "0x42D826F8C4726062"
+  ],
+  "BIL_BOSS": [
+   "0x7D127247D31ACDF1",
+   "0x96FAE5BE63A12676"
+  ],
+  "BIL_CONFR": [
+   "0xB7519F4FCF35BB41"
+  ],
+  "BIL_FUN": [
+   "0x02C3AF298FB50310",
+   "0x1EEC9E6A38E4931E"
+  ],
+  "BIL_HOUSE": [
+   "0xD857B864401037B2"
+  ],
+  "BIL_LAW": [
+   "0x75D0206637F3D170",
+   "0x989B3404D634B676"
+  ],
+  "BIL_MOTEL": [
+   "0x25E164D654E9929E",
+   "0x514A96DB9A2F0242"
+  ],
+  "BIL_MOTEL_NON_VIOLENT": [
+   "0x514A96DB9A2F0242"
+  ],
+  "BIL_MOTEL_VIOLENT": [
+   "0x514A96DB9A2F0242"
+  ],
+  "BIL_PENT": [
+   "0xA2C9C79CE68DF7B4"
+  ],
+  "BIL_PICK": [
+   "0x3AE01C5F7A47E3AD",
+   "0x71FB4CD86CA79011"
+  ],
+  "BIL_PICK_DAY_TIME_START": [
+   "0x3AE01C5F7A47E3AD"
+  ],
+  "BIL_PICK_NIGHT_TIME_START": [
+   "0x3AE01C5F7A47E3AD",
+   "0xED879E82B50285AA"
+  ],
+  "BIL_PRECI": [
+   "0x68D1DA54D5F56F92",
+   "0xBD556B134276941D"
+  ],
+  "BIL_PREG": [
+   "0x756DF2C591F658F1",
+   "0xD61A644D7D95CA4C"
+  ],
+  "BIL_RED": [
+   "0xA0EDC25D329F4A97",
+   "0xB1E118E21FF05335"
+  ],
+  "BIL_WHEEL": [
+   "0x9D35585ACC87EB83"
+  ],
+  "CLB_DEAL": [
+   "0x5064033CA072C00A",
+   "0xD6D0DBE7FCBC18EE"
+  ],
+  "CLB_EVI": [
+   "0x462099146A801B58",
+   "0x816B589A50329F68",
+   "0x947D998BD81F7AC1"
+  ],
+  "CLB_HELI": [
+   "0x3FA675FA7AEC3F1E",
+   "0xBA739377C5ABC682"
+  ],
+  "CLB_MEET": [
+   "0x6A3D594F689754AF"
+  ],
+  "CLB_PARTY": [
+   "0x076E75B43E4AD994",
+   "0x1722A5D76BDBA80F"
+  ],
+  "CLB_PROMO": [
+   "0x33786B0109739204",
+   "0xF6C087B98123DC54"
+  ],
+  "CLB_SCUFF": [
+   "0x2669F71272246081",
+   "0xE8737FD1FE985F01"
+  ],
+  "CLB_STEAL": [
+   "0x0CC43003AB7CC877",
+   "0xE6FE893ACC8EF0E0"
+  ],
+  "CLB_TOWER": [
+   "0x6823303D69F9EE39",
+   "0xFCAA2F3BF0A4D9B2"
+  ],
+  "CLB_VIDEO": [
+   "0x01DEF83E0F656A0F",
+   "0x1D47481F603828AE",
+   "compoundsan4sanrecordingstudio"
+  ],
+  "COA_DOG": [
+   "0x3C6308FFBA0D762F",
+   "0x5704889922B1A6F6"
+  ],
+  "COA_HELIS": [
+   "0x96FAE5BE63A12676"
+  ],
+  "COA_SHIP": [
+   "0xE4AD97726932567C"
+  ],
+  "COM_CBO_CBINT": [
+   "0x0FD7829051D53FC8",
+   "0x676AE1262661D6BC"
+  ],
+  "COM_DEAL_INTR": [
+   "0x670B21808B5930B5"
+  ],
+  "COM_DLR_COOK": [
+   "0x98BB36F278C460DC",
+   "0xA8B7336717D1D4B1"
+  ],
+  "COM_DLR_MISS": [
+   "0x096C65EAB5EC19E3"
+  ],
+  "COM_KBOS_CLEAN": [
+   "0x49B6A57628E3A19A",
+   "0xE153B5E514A27F43"
+  ],
+  "COM_KBOS_COLAT": [
+   "0x1D4A090C51E42555",
+   "0x5BA958AB43340AD0",
+   "0x69B5F3FBB0807F99"
+  ],
+  "COM_KBOS_NEIGHB": [
+   "0x2E9E03407A50A38F",
+   "0x6C16554B0A3608BA"
+  ],
+  "COM_KBOS_PLNDATE": [
+   "0x59F8DDC0B1BFB14E",
+   "0xAF5AB3B55709F291"
+  ],
+  "COM_KBOS_PLNDATE_PLANE_N_DINNER_DATE": [
+   "0x59F8DDC0B1BFB14E"
+  ],
+  "COM_KBOS_RADR": [
+   "0x9B2CA8C7DA7C36F2",
+   "0xD69156FCD51D20A6"
+  ],
+  "COM_KBOS_SHOP": [
+   "0x4B964E7CC9E02659",
+   "0xC074B3FB8D93C7CF"
+  ],
+  "COM_MECH_INTR": [
+   "0x6324977FFBD8751E",
+   "0xCB466D0841607AEC"
+  ],
+  "COM_ROB_DRIVEPREP": [
+   "0x49AEE88C7B319467",
+   "compoundcriminalvehiclechopshop",
+   "robbergetawaydriverprep"
+  ],
+  "COM_SFH_FLTPK": [
+   "0x8DDFD163850750E1"
+  ],
+  "COM_SFH_MVFN": [
+   "0x8DEFE4AAC6E95B38",
+   "0x9D8140FE58B82DDD",
+   "0xCB466D0841607AEC"
+  ],
+  "COM_SHOW_TRAILER": [
+   "0x3ADABF9512F60231",
+   "0x9F7085DA9691EC18"
+  ],
+  "COM_UP_BBWOR": [
+   "0x4E709585684F663C"
+  ],
+  "CSC_DIG_DATA": [
+   "0x5790446DC681224C",
+   "0x6CD421C25A32969F",
+   "0xCC1F3003B3FA7796"
+  ],
+  "CSC_DRT_CNVY": [
+   "0xB16EA38A3AB3120F",
+   "0xCAF8110C409445EF"
+  ],
+  "CSC_MOM_FLIP": [
+   "0xAE3960C55BE07D76",
+   "0xC5DD21CB36077938"
+  ],
+  "CSC_MOM_MSEVN": [
+   "0x36483C169311F9F6",
+   "0x7C06AAC913A983AF"
+  ],
+  "CSC_TRH_CHART": [
+   "0x0A6ECD814BD0DF36",
+   "0xEBEE5C6E02300FEF"
+  ],
+  "CTI_MECH_STFC": [
+   "0x69B5F3FBB0807F99",
+   "0xE585D6196B47F6AB"
+  ],
+  "CTI_SHOW_HATH": [
+   "0x69B5F3FBB0807F99"
+  ],
+  "FIN_CONT": [
+   "0xEA93A06B749BC006"
+  ],
+  "FT_AMUCO": [
+   "0x4B2597A83EC83FE0",
+   "0x5B908217D52280D3"
+  ],
+  "FT_BAN_DISTR": [
+   "0x94454F7093653CE9"
+  ],
+  "FT_KMODSHP": [
+   "0x3D9897741AACE500"
+  ],
+  "FT_KMODSHP_FIRST": [
+   "0x224CF31C94E0534D",
+   "0x3D9897741AACE500",
+   "0x947D998BD81F7AC1"
+  ],
+  "FT_KMODSHP_SECOND": [
+   "0x3D9897741AACE500",
+   "0x947D998BD81F7AC1"
+  ],
+  "FT_MOTEL_SHOP": [
+   "0xCBB412F4549E13F9"
+  ],
+  "FT_UP_MMRENT": [
+   "0x6E65DA15F641D698"
+  ],
+  "FT_UP_MMRENT_MANAGER_CONFRONTED": [
+   "0x6E65DA15F641D698",
+   "0xCBB412F4549E13F9"
+  ],
+  "FT_UP_MMRENT_MANAGER_INITIAL": [
+   "0x6E65DA15F641D698",
+   "0xCBB412F4549E13F9"
+  ],
+  "FT_UP_MMRENT_MANAGER_LATE_COPS": [
+   "0x6E65DA15F641D698"
+  ],
+  "FT_UP_MMRENT_MANAGER_LATE_NO_COPS": [
+   "0x6E65DA15F641D698"
+  ],
+  "HO_PAR_FRINT": [
+   "0x2CC10383B818622E"
+  ],
+  "HO_PAR_KEYCO": [
+   "0xCDDE40BD045A305B",
+   "0xE059BF940B24091F"
+  ],
+  "INT_AIR": [
+   "0x0631B3366B5E7138",
+   "0xB27420D7168C6FF5"
+  ],
+  "INT_BANK": [
+   "0x26D72E132872F6D7",
+   "0x326A1A4D4787ABC7"
+  ],
+  "INT_CHASE": [
+   "0x473489E898504D8B"
+  ],
+  "INT_PLNSH": [
+   "0x1456948D2B804385",
+   "0x9E7702F9E3951B6C",
+   "0xD6DA4FF46709E305"
+  ],
+  "INT_PRISO": [
+   "0x535DA4A52E93778E",
+   "0xC6BDAE24928E8293"
+  ],
+  "INT_PROLO": [
+   "0xFE2C49933556469C"
+  ],
+  "MNY_CAR": [
+   "0x152C4D0223DC80A0",
+   "0x397855C86941FD45"
+  ],
+  "MNY_ESCRT": [
+   "0x3DB39EE0EB9FC29F",
+   "0x960587C486AD4437"
+  ],
+  "MNY_HOTEL": [
+   "0x08406376B91986A4",
+   "0xF002837E781D15F9"
+  ],
+  "MNY_KIDNP": [
+   "0x0646F1BCAA83A4DC",
+   "0x4D0119EE5B21585E"
+  ],
+  "MNY_PARTY": [
+   "0x9DF177AC3BFB6CAA",
+   "0xC56DC9BE26F556B5"
+  ],
+  "MTL_CONT": [
+   "0x69986FBDD4EA007D",
+   "0x7DC8A0796A68CCB7",
+   "0xD6DA4FF46709E305"
+  ],
+  "MTL_DRIVE": [
+   "0x993E7006AFB1864E",
+   "0xAAA45BAFE76F86FB"
+  ],
+  "MTL_MONT": [
+   "0x1B2472EF340C552A",
+   "0x9636C2A9A3CA8011"
+  ],
+  "MTL_MUD": [
+   "0x2CC10383B818622E",
+   "0x89E363CE571D367C",
+   "0xE67EA23D19CDCEE5"
+  ],
+  "MTL_PAIN": [
+   "0x38675991245DB9EA",
+   "0x6A00703E75733E00",
+   "0xCEC98E1E77B8DB5E"
+  ],
+  "MTL_WAKE": [
+   "0x873A45F9DE932367"
+  ],
+  "ROB_BANK": [
+   "0x0E4E96800BFFBED7",
+   "0xB99B21FBAD7423DC"
+  ],
+  "ROB_BOAT_J": [
+   "0x3A06D540DBC8183A"
+  ],
+  "ROB_BOAT_J_JASON": [
+   "0x35A38A0C3CB6F988"
+  ],
+  "ROB_BOAT_L_LUCIA": [
+   "0x35A38A0C3CB6F988"
+  ],
+  "ROB_DEATH": [
+   "0x0DB39FF3A1962F0D",
+   "0xA4C56906E50F676B"
+  ],
+  "ROB_DRIVE": [
+   "0xEB1495D90A45DE03",
+   "0xFCF09315830C7B90"
+  ],
+  "ROB_VEH": [
+   "0x3B84B1C0A58B2CBF",
+   "0xB3387A9F91B92948"
+  ],
+  "RecoverDropTipShackDonnieAlive": [
+   "0xC17DE3C4FAC91348"
+  ],
+  "RecoverDropTipShackDonnieDeadUnknown": [
+   "0x53994764DDC06BB5",
+   "0xC17DE3C4FAC91348"
+  ],
+  "SFH_TAXI": [
+   "0x6CA297878C5BB5AB"
+  ],
+  "UP_MLSPM": [
+   "0x893F6F2845801B14",
+   "0xCBB412F4549E13F9"
+  ],
+  "robbergetawaydriverprep": [
+   "0x4C79572EA44F9250",
+   "0x6E7119D7F1831018",
+   "robbergetawaydriverprep"
+  ]
+ }
+}

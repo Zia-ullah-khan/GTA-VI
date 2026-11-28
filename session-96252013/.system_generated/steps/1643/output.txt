@@ -1,0 +1,183 @@
+Created At: 2026-11-25T18:21:00-05:00
+Completed At: 2026-11-25T18:21:02-05:00
+Command exited with code 0.
+
+Command output:
+=== cipher_wrapper @ 0x1458dd360 ===
+  0x1458dd360: sub rsp, 0x48
+  0x1458dd364: vmovups xmm0, xmmword ptr [rsp + 0x78]
+  0x1458dd36a: mov rax, qword ptr [rsp + 0x70]
+  0x1458dd36f: vmovups xmmword ptr [rsp + 0x38], xmm0
+  0x1458dd375: mov qword ptr [rsp + 0x30], rax
+  0x1458dd37a: mov qword ptr [rsp + 0x28], r9
+  0x1458dd37f: mov qword ptr [rsp + 0x20], rax
+  0x1458dd384: call 0x1458dd390
+  0x1458dd389: nop 
+  0x1458dd38a: add rsp, 0x48
+  0x1458dd38e: ret 
+  0x1458dd38f: int3 
+  0x1458dd390: push r15
+  0x1458dd392: push r14
+  0x1458dd394: push rsi
+  0x1458dd395: push rdi
+  0x1458dd396: push rbx
+  0x1458dd397: sub rsp, 0x30
+  0x1458dd39b: vmovups xmm0, xmmword ptr [rsp + 0x98]
+  0x1458dd3a4: mov r15, qword ptr [rsp + 0x90]
+  0x1458dd3ac: mov rbx, qword ptr [rsp + 0x88]
+  0x1458dd3b4: mov r14, qword ptr [rsp + 0x80]
+  0x1458dd3bc: mov rdi, r9
+  0x1458dd3bf: mov r9d, r8d
+  0x1458dd3c2: mov r8d, edx
+  0x1458dd3c5: xor edx, edx
+  0x1458dd3c7: mov rsi, rcx
+  0x1458dd3ca: vmovups xmmword ptr [rsp + 0x20], xmm0
+  0x1458dd3d0: call 0x140613880
+  0x1458dd3d5: test al, al
+  0x1458dd3d7: je 0x1458dd408
+  0x1458dd3d9: mov rcx, qword ptr [rsi + 8]
+  0x1458dd3dd: mov rdx, rdi
+  0x1458dd3e0: mov r8, r14
+  0x1458dd3e3: mov r9, rbx
+  0x1458dd3e6: mov qword ptr [rsp + 0x20], r15
+  0x1458dd3eb: call 0x140613720
+  0x1458dd3f0: test al, al
+  0x1458dd3f2: je 0x1458dd408
+  0x1458dd3f4: mov rcx, qword ptr [rsi + 8]
+  0x1458dd3f8: add rsp, 0x30
+  0x1458dd3fc: pop rbx
+  0x1458dd3fd: pop rdi
+  0x1458dd3fe: pop rsi
+  0x1458dd3ff: pop r14
+  0x1458dd401: pop r15
+  0x1458dd403: jmp 0x140613740
+  0x1458dd408: xor eax, eax
+  0x1458dd40a: add rsp, 0x30
+  0x1458dd40e: pop rbx
+  0x1458dd40f: pop rdi
+  0x1458dd410: pop rsi
+  0x1458dd411: pop r14
+  0x1458dd413: pop r15
+  0x1458dd415: ret 
+  0x1458dd416: int3 
+  0x1458dd417: int3 
+  0x1458dd418: int3 
+  0x1458dd419: int3 
+  0x1458dd41a: int3 
+  0x1458dd41b: int3 
+  0x1458dd41c: int3 
+  0x1458dd41d: int3 
+  0x1458dd41e: int3 
+  0x1458dd41f: int3 
+  0x1458dd420: push rsi
+  0x1458dd421: push rdi
+  0x1458dd422: sub rsp, 0x28
+  0x1458dd426: mov rdi, rdx
+  0x1458dd429: mov rsi, rcx
+  0x1458dd42c: call 0x1409a1720
+  0x1458dd431: mov rdx, qword ptr [rdi]
+  0x1458dd434: lea rcx, [rsi + 0x410]
+  0x1458dd43b: call 0x141bf4be0
+  0x1458dd440: lea rdx, [rdi + 0x30]
+  0x1458dd444: lea rcx, [rsi + 0x420]
+  0x1458dd44b: call 0x14012ae30
+  0x1458dd450: vmovss xmm0, dword ptr [rdi + 0x188]
+  0x1458dd458: lea rax, [rdi + 0x20]
+  0x1458dd45c: lea rcx, [rsi + 0x418]
+=== Around 2a09a6fd in table_0019be000.json ===
+  2a045c5a: 'Target Deck: Boar Meat and Bear Meat'
+  2a083060: "'90 Lasso"
+  2a08f9dc: 'Set Destination'
+  2a09a6fd: 'Complete ~b~Gone Fishing~b~ to unlock.'
+  2a0a042f: "I'm on it."
+  2a0bcc4a: 'Draper Island Terminal'
+  2a0ebcdf: 'NINE1NINE~n~~n~LAVINIA'
+=== All unlock strings ===
+  04d16e0d: 'Spawns an Interstate Ambulance.~n~~n~~b~To unlock:~b~ Discover the Interstate Ambulance in the Progress menu.'
+  08152889: 'Buy 1 more gun to unlock'
+  09c215a1: 'One-time fee to unlock~n~3 free deliveries a day.'
+  174ce491: 'Focus never runs out.~n~~n~~b~To unlock:~b~ Get 100 headshot kills on enemies.'
+  17aeef01: 'Improve your stamina to unlock harder programs.'
+  17db1f32: 'Scan certain magazines with ~b~WAiNK ~BLIP_APP_AI_ASSISTANT~~b~ to unlock new styles at selected stores.'
+  1a070909: 'Adds a Hauners H-AT to your loadout.~n~~n~~b~To unlock:~b~ Blow up 100 vehicles.'
+  1d98183c: 'Spawns a Progen Emerus.~n~~n~~b~To unlock:~b~ Complete all vehicle challenges.'
+  226454a5: 'Applies neon highlights to the world.~n~~n~~b~To unlock:~b~ Discover all 16 Girlypop Vehicles.'
+  22eae46d: 'Spawns a Vapid Stanier G2 Taxi.~n~~n~~b~To unlock:~b~ Complete 5 sports challenges.'
+  23b3bbfb: 'Flips the world upside down and turns it black.~n~~n~~b~To unlock:~b~ Make $500,000 selling vehicles.'
+  29d7bf23: "Finish Jason and Lucia's story to unlock 100% Completion."
+  2a09a6fd: 'Complete ~b~Gone Fishing~b~ to unlock.'
+  2de9122e: 'Pay the entry fee to unlock Top Fun Drones ~BLIP_STYLE_ACT_RACING_DRONE~ at this location.'
+  2e20a348: 'Turns the world red and orange with a heat haze.~n~~n~~b~To unlock:~b~ Steal 100 cop vehicles.'
+  2f504bd7: 'Adds a Mason & Keen Shortstraw to your loadout that fires explosive shells.~n~~n~~b~To unlock:~b~ Hit 100 enemies with explosive damage.'
+  302be809: 'Spawns a Western Zombie Bobber.~n~~n~~b~To unlock:~b~ Complete all criminal challenges.'
+  35b00830: 'Improve your strength to unlock heavier kettlebells.'
+  3835d275: 'Spawns a Bravado Banshee.~n~~n~~b~To unlock:~b~ Complete all combat challenges.'
+  3f3895d3: 'Find the code to unlock this safe or plant a sticky bomb.'
+  3fe2e7e2: 'Raises your wanted level across the map.~n~~n~~b~To unlock:~b~ Lose a 3-star wanted level 50 times.'
+  41f71753: 'Spawns a Nagasaki Sea Sparrow.~n~~n~~b~To unlock:~b~ Complete 5 exploration challenges.'
+  449de43c: 'Bullets and melee attacks launch targets on impact.~n~~n~~b~To unlock:~b~ Kill or knock out 100 enemies with melee attacks.'
+  4b8890d6: 'Spawns a Nagasaki Carbon RS.~n~~n~~b~To unlock:~b~ Complete all exploration challenges.'
+  53cf28f9: 'Pauses the current time of day.~n~~n~~b~To unlock:~b~ Find 20 collectible watches.'
+  540c4ac1: 'Turns the world white with sparkling highlights.~n~~n~~b~To unlock:~b~ Scan all space debris with WAiNK.'
+  57acec59: 'Complete available race routes to unlock new ones.'
+  5c5f18e7: 'Find promotional flyers and posters to unlock unique music playlists.'
+  60fa78cc: 'Increases the height of your jump by 10x with no fall damage.~n~~n~~b~To unlock:~b~ Jump a vehicle 50 feet or more over a drawbridge 50 times.'
+  63a2eaba: 'Spawns an MTL Pumper.~n~~n~~b~To unlock:~b~ Discover the MTL Pumper in the Progress menu.'
+  65cc6c93: 'Scan the QR code on the Top Fun van ~BLIP_STYLE_ACT_RACING_DRONE~ to unlock the activity at this location.'
+  6925f96a: 'Find the code to unlock this reinforced safe.'
+  72241db6: 'Applies a videotape-style filter.~n~~n~~b~To unlock:~b~ Complete 50 activities with your partner.'
+  73e9fcd2: 'Adds all explosive weapons to your loadout with full ammo.~n~~n~~b~To unlock:~b~ Throw 100 grenades.'
+  79ac36cd: 'Ammo never runs out.~n~~n~~b~To unlock:~b~ Win 25 silver medals or higher at shooting ranges.'
+  79c28cc1: 'Spawns a Maibatsu Sanchez.~n~~n~~b~To unlock:~b~ Complete 5 criminal challenges.'
+  7df48e5d: 'You are immune to fall damage.~n~~n~~b~To unlock:~b~ Survive a freefall from 12 meters 20 times.'
+  7e7318a8: 'Fills all ammo to maximum.~n~~n~~b~To unlock:~b~ Win 25 bronze medals or higher at shooting ranges.'
+  7fa5364f: 'Street art by ~b~Ahol Sniffs Glue~b~ can be found around Leonida. Scan all of them to unlock a reward.'
+  837ee82d: 'Sports balls explode on impact.~n~~n~~b~To unlock:~b~ Hit 20 enemies with explosive damage.'
+  84d7f23c: 'Applies a black & white CRT TV filter.~n~~n~~b~To unlock:~b~ Discover the Ridgway.'
+  852c4a41: 'Spawns an Airboat 09.~n~~n~~b~To unlock:~b~ Complete 5 survival challenges.'
+  89e324e4: 'Adds a parachute to your loadout.~n~~n~~b~To unlock:~b~ Complete 50 skydives or base jumps from 91.5 meters or higher.'
+  8abfe2ed: 'Applies a pinhole camera filter.~n~~n~~b~To unlock:~b~ Clear 25 gang operations with your partner.'
+  8e10ffd5: 'Find the code to unlock this door.'
+  8edaa56c: 'Ammo never runs out with no need to reload.~n~~n~~b~To unlock:~b~ Win 25 gold medals at shooting ranges.'
+  905b66e9: 'Spawns an HVY Bulldozer.~n~~n~~b~To unlock:~b~ Discover the HVY Bulldozer in the Progress menu.'
+  9a7154ab: 'All bottles explode when damaged.~n~~n~~b~To unlock:~b~ Throw 100 molotovs.'
+  9bbeb63c: "Some businesses and contacts will register an unowned vehicle as your personal vehicle ~BLIP_STYLE_PERSONAL_VEHICLE~ for a fee.~n~~n~Once unlocked, Pay 'n' Sprays ~BLIP_STYLE_STORE_PAYNSPRAY~ will register vehicles for a fee. However, if it has a ~b~standard tracker ~BLIP_STYLE_VEHICLE_STAT_TRK_INT~~b~ or ~b~advanced tracker ~BLIP_STYLE_VEHICLE_STAT_TRK_ADV~~b~ they may not be able to register it as yours until additional services are available.~n~~n~Jason and Lucia each have their own personal vehicle, but can register other vehicles if they have enough garage space ~BLIP_STYLE_GARAGE~~n~~n~~b~Tip:~b~ Buy garages ~BLIP_STYLE_GARAGE~ to unlock more storage for registered vehicles. If you run out of space you'll need to sell a vehicle to make room."
+  9bdb26a5: 'Buy ~1~ more guns to unlock'
+  9c6ff63d: 'Adds a parachute to your loadout.~n~~n~~b~To unlock:~b~ Complete 50 skydives or base jumps from 300 feet or higher.'
+  9f1799e6: 'Spawns an Inflatable Flamingo.~n~~n~~b~To unlock:~b~ Destroy 50 cocaine flamingos.'
+  9fa509cb: 'Nitrous and fuel never runs out on vehicles.~n~~n~~b~To unlock:~b~ Complete 50 stunt jumps.'
+  a374c99e: 'Spawns a Speeder 700 GT.~n~~n~~b~To unlock:~b~ Complete 5 combat challenges.'
+  a6505328: 'Vehicle collisions launch targets.~n~~n~~b~To unlock:~b~ Kill 25 enemies with a vehicle.'
+  ab069f65: 'Complete more workouts to unlock heavier weights.'
+  ad2cb83c: 'One-time fee to unlock~n~5 free deliveries a day.'
+  adb2367b: 'Adds body armor to your loadout.~n~~n~~b~To unlock:~b~ Complete 100 workouts.'
+  b23fb855: 'Applies a fisheye filter.~n~~n~~b~To unlock:~b~ Catch 100 fish.'
+  b8a7a060: 'Applies a blurred, distorted filter.~n~~n~~b~To unlock:~b~ Survive 6 minutes with a 6-star wanted level.'
+  b9ab9f5d: 'Spawns a Brimstone Golfer.~n~~n~~b~To unlock:~b~ Complete all sports challenges.'
+  bedde954: 'Instantly gives you $250,000.~n~~n~~b~To unlock:~b~ Make $250,000 from fenced goods.'
+  bf24deb5: 'Spawns a Truffade Thrax.~n~~n~~b~To unlock:~b~ Complete all shopping challenges.'
+  bf3c6e25: 'Complete more events to unlock this one.'
+  bfb0c8cb: 'Spawns a Maibatsu Boomazoom.~n~~n~~b~To unlock:~b~ Complete 5 shopping challenges.'
+  bff60637: 'Spawns a Hauners Rhino Tank.~n~~n~~b~To unlock:~b~ Complete all survival challenges.'
+  c0dfca33: 'All ammo is incendiary.~n~~n~~b~To unlock:~b~ Burn 100 enemies with fire damage.'
+  c524a33f: 'Complete target deck ~1~ to unlock'
+  cbffb3fc: 'Applies a golden filter with a widescreen aspect ratio.~n~~n~~b~To unlock:~b~ Spend 4 hours holding hands.'
+  cf5325c7: 'Spawns a Hauners P-996 LAZER.~n~~n~~b~To unlock:~b~ Complete all challenges.'
+  d450d21c: 'Applies a pixelated filter.~n~~n~~b~To unlock:~b~ Make $250,000 selling collectibles.'
+  d468b398: 'You are immune to fall damage.~n~~n~~b~To unlock:~b~ Survive a freefall from 40 feet 20 times.'
+  d5f99df5: 'Turns the world purple and yellow with sparkling highlights.~n~~n~~b~To unlock:~b~ Find all 24 collectible cards for the Vice City Flamingos.'
+  de4aaa34: 'Spawns a Lapwing Mallard.~n~~n~~b~To unlock:~b~ Complete 5 vehicle challenges.'
+  de507cd7: 'Adjusts the weather conditions.~n~~n~~b~To unlock:~b~ Reveal the entire map.'
+  e184229b: 'Instantly makes you and your partner drunk.~n~~n~~b~To unlock:~b~ Spend $2,500 on alcohol.'
+  e1c14d7a: "Spawns a '65 Vapid Dominator.~n~~n~~b~To unlock:~b~ Complete all fitness challenges."
+  e225291d: 'Moves the time of day forward.~n~~n~~b~To unlock:~b~ Find 10 collectible watches.'
+  ecb04523: 'Raises your level of heat across the map.~n~~n~~b~To unlock:~b~ Lose a 3-star wanted level 25 times.'
+  ef64e86f: 'Complete more shooting ranges to unlock this one.'
+  f2539159: 'Applies a color CRT TV filter.~n~~n~~b~To unlock:~b~ Rob 50 stores with your partner.'
+  f2790338: 'Applies a vivid filter with a narrow aspect ratio.~n~~n~~b~To unlock:~b~ Spend 8 hours with your partner.'
+  f66e51a9: 'Applies a motion blur and accelerates cloud movements.~n~~n~~b~To unlock:~b~ Complete 50 meditations.'
+  f70b382e: 'By Ted Ramos~n~~n~Billionaires beware as it appears a hot new trend is turning luxury cars into easy steals for car jackers.~n~~n~Police say thieves are using "key scanners" to clone or intercept car key signals, allowing them to unlock and steal high-end vehicles with ease. Authorities report an increase in targeted thefts involving prestige cars parked outside luxury boutiques, upscale restaurants and valet stands where common people are usually told not to linger.~n~~n~City officials are urging residents to use signal-blocking pouches, steering locks, and, where possible, humility. Weazel News extends its sympathies to all those affected by this deeply inconvenient attack on automotive privilege.'
+  f8a8a130: 'Spawns a Tuff BMX.~n~~n~~b~To unlock:~b~ Complete 5 fitness challenges.'
+  f8d440a2: 'Fully repairs your current vehicle.~n~~n~~b~To unlock:~b~ Get 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club, and Boone Speedway.'
+  fd0e7b41: "Fills the world with murky smoke.~n~~n~~b~To unlock:~b~ Discover Martha's Vamos in the Progress menu."
+  ffb00040: 'Increases the height of your jump by 10x with no fall damage.~n~~n~~b~To unlock:~b~ Jump a vehicle 15 meters or more over a drawbridge 50 times.'

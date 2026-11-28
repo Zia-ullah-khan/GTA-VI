@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CPlayerFocusSpecialAbility__Experimental__Tunables">
+      <Name>CPlayerFocusSpecialAbility</Name>
+      <EntityMaskConfig>
+        <EntityMaskProfiles>
+          <Item key="Focus_None">
+            <MaskValue x="0.0" y="0.0" z="0.0" w="0.0"/>
+          </Item>
+          <Item key="Focus_Default">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Interactable">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Discoverable">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Studied">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.75" y="0.0"/>
+            <BlendOutCurveType>TYPE_SINE_INOUT</BlendOutCurveType>
+          </Item>
+          <Item key="Focus_Enemy">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_ILO">
+            <MaskValue x="0.0" y="0.0" z="0.0" w="0.0"/>
+            <BlendInCurveType>TYPE_QUADRATIC_IN</BlendInCurveType>
+            <BlendOutCurveType>TYPE_SLOW_OUT</BlendOutCurveType>
+          </Item>
+          <Item key="Focus_Tracked">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.75" y="0.0"/>
+          </Item>
+          <Item key="Focus_Projectile">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_VehicleTarget">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_AlarmedVehicle">
+            <MaskValue x="0.75" y="0.0" z="0.4" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Smell">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_BulletTimeDefault">
+            <MaskValue x="0.0" y="0.0" z="0.0" w="0.0"/>
+          </Item>
+          <Item key="Focus_BulletTimeTagged">
+            <MaskValue x="0.0" y="0.0" z="0.4" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_BulletTimeExplosive">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+		      <Item key="Focus_Explosive">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Player">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_LowInterestPed">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_HighInterestPed">
+            <MaskValue x="0.75" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Threat">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Cop">
+            <MaskValue x="0.75" y="0.35" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+		      <Item key="Focus_Sonar">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.75" y="0.0"/>
+          </Item>
+          <Item key="Focus_Muted">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Buddy">
+            <MaskValue x="0.75" y="0.55" z="0.0" w="0.4"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_KeyCode">
+            <MaskValue x="0.75" y="0.0" z="0.0" w="0.25"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_Ping">
+            <MaskValue x="0.0" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.5" y="0.0"/>
+            <BlendInCurveType>TYPE_SLOW_OUT</BlendInCurveType>
+            <BlendOutCurveType>TYPE_SLOW_OUT</BlendOutCurveType>
+          </Item>
+          <Item key="Focus_Ping_Start">
+            <MaskValue x="0.0" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.75" y="0.0"/>
+          </Item>
+          <Item key="Focus_HVT_Money">
+            <MaskValue x="0.75" y="0.0" z="0.0" w="0.25"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_HVT_Drugs">
+            <MaskValue x="0.75" y="0.25" z="0.1" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_HVT_Weapon">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_HVT_Improvised_Weapon">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.0"/>
+          </Item>
+          <Item key="Focus_HVT_Collectible_Weapon">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.35"/>
+          </Item>
+          <Item key="Focus_HVT_Collectible">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.35"/>
+          </Item>
+		      <Item key="Focus_HVT_Treasure">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.35"/>
+          </Item>
+          <Item key="Focus_HVT_Jewelry">
+            <MaskValue x="0.75" y="0.0" z="0.35" w="0.0"/>
+            <MaskValueExtras x="0.0" y="0.4"/>
+          </Item>
+          <Item key="Focus_Tag_Target">
+            <MaskValue x="0.5" y="0.0" z="0.0" w="0.0"/>
+            <MaskValueExtras x="0.75" y="0.0"/>
+            <BlendOutCurveType>TYPE_SINE_INOUT</BlendOutCurveType>
+          </Item>
+        </EntityMaskProfiles>
+        <DefaultMaskProfile>Focus_Default</DefaultMaskProfile>
+        <InteractableMaskProfile>Focus_Interactable</InteractableMaskProfile>
+        <DiscoverableMaskProfile>Focus_Discoverable</DiscoverableMaskProfile>
+        <StudiedMaskProfile>Focus_Studied</StudiedMaskProfile>
+        <EnemyMaskProfile>Focus_Enemy</EnemyMaskProfile>
+        <ILOMaskProfile>Focus_ILO</ILOMaskProfile>
+        <TrackedMaskProfile>Focus_Tracked</TrackedMaskProfile>
+        <VehicleTargetMaskProfile>Focus_VehicleTarget</VehicleTargetMaskProfile>
+        <AlarmedVehicleMaskProfile>Focus_AlarmedVehicle</AlarmedVehicleMaskProfile>
+        <BulletTimeDefaultTaggingMask>Focus_BulletTimeDefault</BulletTimeDefaultTaggingMask>
+        <BulletTimeHighlightTaggingMask>Focus_BulletTimeTagged</BulletTimeHighlightTaggingMask>
+        <BulletTimeHighlightExplosiveMask>Focus_BulletTimeExplosive</BulletTimeHighlightExplosiveMask>
+		    <FocusModeHighlightExplosiveMask>Focus_Explosive</FocusModeHighlightExplosiveMask>
+        <PlayerFocusMaskProfile>Focus_Player</PlayerFocusMaskProfile>
+        <LowInterestPedMaskProfile>Focus_LowInterestPed</LowInterestPedMaskProfile>
+        <HighInterestPedMaskProfile>Focus_HighInterestPed</HighInterestPedMaskProfile>
+        <ThreatPedMaskProfile>Focus_Threat</ThreatPedMaskProfile>
+        <TagThreatMaskProfile>Focus_Tag_Target</TagThreatMaskProfile>
+        <CopPedMaskProfile>Focus_Cop</CopPedMaskProfile>
+        <MutedMaskProfile>Focus_Muted</MutedMaskProfile>
+        <BuddyMaskProfile>Focus_Buddy</BuddyMaskProfile>
+        <KeyCodeMaskProfile>Focus_KeyCode</KeyCodeMaskProfile>
+        <vFadeOutDistancesObjects x="15.0" y="20.0" z="60.0" w="70.0"/>
+        <vFadeOutDistancesVehicles x="15.0" y="20.0" z="15.0" w="20.0"/>
+        <vFadeOutDistancesVehiclesExtended x="75.0" y="80.0" z="75.0" w="80.0"/>
+        <vFadeOutDistancesPeds x="10.0" y="15.0" z="10.0" w="15.0"/>
+        <vFadeOutDistancesAnimals x="15.0" y="20.0" z="60.0" w="70.0"/>
+		<vFadeOutDistancesFish x="10.0" y="15.0" z="10.0" w="15.0"/>
+		<vFadeOutDistancesCops x="30.0" y="40.0" z="70.0" w="80.0"/>
+        <vFadeOutDistancesRegistered x="15.0" y="20.0" z="30.0" w="40.0"/>
+      </EntityMaskConfig>
+      <EntityVFXConfig>
+        <EntityVFXProfiles>
+          <Item key="Default">
+            <MaskValues x="1.0" y="0.0" z="1.0" w="1.0"/> <!-- Mask values for vfx -->
+            <Offset x="0.0" y="0.0" z="0.0"/>			<!-- Offset from entity position -->
+            <BaseScale value="1.00000" /> 				<!-- Base scale override -->
+            <EntityRadiusMin value="-1.00000" /> 		<!-- Min entity bounds radius; used by ScaleModifierMin/ScaleModifierMax (-1 = unused) -->
+            <EntityRadiusMax value="-1.00000" /> 		<!-- Max max entity bounds radius; used to apply scaling modifier (-1 = unused) -->
+            <ScaleModifierMin value="1.00000" />		<!-- Min modifier for VFX scale based on entity radius -->
+            <ScaleModifierMax value="1.00000" />		<!-- Max modifier for VFX scale based on entity radius -->
+            <MaxAlpha value="0.25000" />				<!-- Max alpha for the VFX -->
+            <VisibilityRangeNear value="5.00000" /> 	<!-- Within this range VFX will use max alpha. Will blend out to 0 alpha between this and Far range -->
+            <VisibilityRangeFar value="10.00000" />		<!-- Outside this range VFX will not be rendered. -->
+          </Item>  
+        </EntityVFXProfiles>
+        <DefaultFXProfile>Default</DefaultFXProfile>
+      </EntityVFXConfig>
+      <FishSchoolVFXConfig>
+        <MaskValues x="1.0" y="0.0" z="0.0" w="0.0"/> <!-- Mask values for vfx -->
+        <ColorTint x="1.0" y="1.0" z="1.0" w="1.0"/>  <!-- Color to tint the vfx with -->
+      </FishSchoolVFXConfig>
+      <fInitialTrackingTime value="15.000000"/>
+      <fTrackingTimeRecoveryRate value="5.000000"/>
+      <fDepletionRateStill value="0.500000"/>
+      <fDepletionRateWalk value="1.000000"/>
+      <fDepletionRateRun value="2.000000"/>
+      <fDepletionRateSprint value="5.000000"/>
+      <fDepletionCrouchModifier value="0.500000"/>
+      <fAircraftProximityMultiplier value="0.250000"/>
+      <fProximityModifierStart value="0.750000"/>
+      <fProximityModifierEnd value="2.000000"/>
+      <fProximityDistanceLerpStart value="5.000000"/>
+      <fProximityDistanceLerpEnd value="20.000000"/>
+      <fAngleModifierStart value="0.750000"/>
+      <fAngleModifierEnd value="2.000000"/>
+      <fAngleDotProductLerpStart value="0.950000"/>
+      <fAngleDotProductLerpEnd value="0.500000"/>
+      <fVehicleSpeedSlowModifier value="0.500000"/>
+      <fVehicleSpeedAverageModifier value="1.250000"/>
+      <fVehicleSpeedFastModifier value="1.500000"/>
+      <fVehicleSpeedSlowThreshold value="1.000000"/>
+      <fVehicleSpeedAverageThreshold value="7.000000"/>
+      <fVehicleSpeedFastThreshold value="20.000000"/>
+      <StudyAbilityUnlockRank value="1"/>
+      <TrackAbilityUnlockRank value="2"/>
+      <AnimalFatalRegionsUnlockRank value="0"/>
+      <AnimalCriticalRegionsUnlockRank value="1"/>
+	  <bUseTrailDistanceToDeactivateTracking value="true"/>
+    </Item>
+  </Tunables>
+</CTuningFile>

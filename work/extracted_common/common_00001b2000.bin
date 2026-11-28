@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OceanSimPresets>
+  <Presets>
+    <Item>
+      <Name>Open Ocean</Name>
+      <Id value="1.000000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.639344
+            0.232510	0.627049
+            0.617284	0.581967
+            1.000000	0.897541
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	1.000000
+            0.271186	1.000000
+            0.635593	1.000000
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	1.000000
+            0.271186	1.000000
+            0.635593	1.000000
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="3183.466797" y="551.543762" z="28.358160" />
+      <Direction x="-21.900000" y="-0.000000" z="132.199997" />
+    </Item>
+    <Item>
+      <Name>Gulf</Name>
+      <Id value="0.888000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.479508
+            0.355967	0.430328
+            0.707819	0.536885
+            1.000000	0.713115
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.930328
+            0.335391	0.934426
+            0.827161	0.950820
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	1.000000
+            0.234568	1.000000
+            0.676955	1.000000
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-7995.459961" y="-3968.790039" z="65.339996" />
+      <Direction x="-23.016176" y="-0.000000" z="-61.706867" />
+    </Item>
+    <Item>
+      <Name>Northern Bay</Name>
+      <Id value="0.777000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.331967
+            0.327161	0.323770
+            0.767490	0.336066
+            1.000000	0.348361
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.905738
+            0.298354	0.913934
+            0.783951	0.934426
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	1.000000
+            0.277778	1.000000
+            0.763375	1.000000
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-3786.620850" y="8644.565430" z="48.345360" />
+      <Direction x="-21.402729" y="-0.000000" z="80.497131" />
+    </Item>
+    <Item>
+      <Name>Southern Bay</Name>
+      <Id value="0.666000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.442623
+            0.314815	0.405738
+            0.685185	0.348361
+            1.000000	0.340164
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.848361
+            0.251029	0.856557
+            0.753086	0.897541
+            1.000000	0.991803
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	1.000000
+            0.279835	1.000000
+            0.742798	1.000000
+            1.000000	1.000000
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-4775.200195" y="-4303.000000" z="63.099998" />
+      <Direction x="-21.954573" y="-0.000000" z="134.068481" />
+    </Item>
+    <Item>
+      <Name>Enclosed Bay</Name>
+      <Id value="0.555000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.266393
+            0.345679	0.217213
+            0.644033	0.196721
+            1.000000	0.184426
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.631148
+            0.248971	0.627049
+            0.722222	0.745902
+            1.000000	0.844262
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.864754
+            0.302469	0.877049
+            0.757202	0.872951
+            1.000000	0.877049
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="48.606705" y="183.446503" z="22.329988" />
+      <Direction x="-24.198408" y="-0.000000" z="-128.000000" />
+    </Item>
+    <Item>
+      <Name>Inland Lake</Name>
+      <Id value="0.444000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.540984
+            0.370370	0.561475
+            0.839506	0.610656
+            1.000000	0.725410
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.639344
+            0.294239	0.663934
+            0.740741	0.676230
+            1.000000	0.684426
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-1396.775513" y="4813.019531" z="32.385567" />
+      <Direction x="-21.206903" y="-0.000000" z="135.553726" />
+    </Item>
+    <Item>
+      <Name>Inland River</Name>
+      <Id value="0.333000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.295082
+            0.314815	0.295082
+            0.695473	0.336066
+            1.000000	0.471311
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.581967
+            0.271605	0.586066
+            0.658436	0.594262
+            1.000000	0.647541
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-788.205322" y="-748.540710" z="7.471006" />
+      <Direction x="-19.093678" y="-0.000000" z="77.969826" />
+    </Item>
+    <Item>
+      <Name>Everglades</Name>
+      <Id value="0.222000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.196721
+            0.312757	0.184426
+            0.639918	0.278689
+            1.000000	0.479508
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.229508
+            0.292181	0.229508
+            0.635802	0.340164
+            1.000000	0.651639
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-3721.666016" y="-3761.363525" z="14.205345" />
+      <Direction x="-22.035547" y="-0.000000" z="-154.084991" />
+    </Item>
+    <Item>
+      <Name>swamp</Name>
+      <Id value="0.111000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.045082
+            0.300412	0.065574
+            0.648148	0.077869
+            1.000000	0.114754
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.045082
+            0.304527	0.073770
+            0.635802	0.118852
+            1.000000	0.163934
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-3786.000000" y="1610.000000" z="5.200000" />
+      <Direction x="-1.500000" y="-0.000000" z="113.000000" />
+    </Item>
+    <Item>
+      <Name>Puddles</Name>
+      <Id value="0.000000" />
+      <Octaves>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.300000	0.000000
+            0.600000	0.000000
+            1.000000	0.000000
+          </ControlPoints>
+        </Item>
+        <Item>
+          <ControlPoints content="vector2_array">
+            0.000000	0.000000
+            0.296296	0.020492
+            0.668724	0.069672
+            1.000000	0.155738
+          </ControlPoints>
+        </Item>
+      </Octaves>
+      <Location x="-2983.739258" y="-4572.064941" z="9.632671" />
+      <Direction x="-23.016176" y="-0.000000" z="-61.706867" />
+    </Item>
+  </Presets>
+  <WavefrontShapeR>
+    <Item>
+      <ControlPoints content="vector2_array">
+        0.000000	0.889344
+        0.047792	0.774590
+        0.087719	0.688525
+        0.147610	0.836066
+        0.189353	0.192623
+        0.234120	0.102459
+        0.277677	0.221311
+        0.333333	0.196721
+        0.370841	0.565574
+        0.427707	0.565574
+        0.480944	0.500000
+        0.535995	0.331967
+        0.564428	0.868852
+        0.624319	0.762295
+        0.667272	0.196721
+        0.782819	0.450820
+        0.837871	0.303279
+        0.870538	0.401639
+        0.928010	0.303279
+        0.976407	0.327869
+      </ControlPoints>
+    </Item>
+  </WavefrontShapeR>
+  <WavefrontShapeG>
+    <Item>
+      <ControlPoints content="vector2_array">
+        0.000000	1.000000
+        0.050000	1.000000
+        0.100000	1.000000
+        0.150000	1.000000
+        0.200000	1.000000
+        0.245009	1.000000
+        0.300000	1.000000
+        0.350000	1.000000
+        0.400000	1.000000
+        0.450000	1.000000
+        0.500000	1.000000
+        0.550000	1.000000
+        0.600000	1.000000
+        0.650000	1.000000
+        0.700000	1.000000
+        0.750000	1.000000
+        0.800000	1.000000
+        0.850000	1.000000
+        0.900000	1.000000
+        0.950000	1.000000
+      </ControlPoints>
+    </Item>
+  </WavefrontShapeG>
+  <WavefrontShapeB>
+    <Item>
+      <ControlPoints content="vector2_array">
+        0.000000	0.000000
+        0.026618	1.000000
+        0.130672	1.000000
+        0.156685	0.000000
+        0.184513	0.000000
+        0.203872	1.000000
+        0.312765	1.000000
+        0.346642	0.000000
+        0.376286	1.000000
+        0.523896	1.000000
+        0.555354	0.000000
+        0.575923	1.000000
+        0.618270	1.000000
+        0.644283	0.000000
+        0.666667	1.000000
+        0.761041	1.000000
+        0.782214	0.000000
+        0.811857	1.000000
+        0.975802	1.000000
+        0.993345	0.000000
+      </ControlPoints>
+    </Item>
+  </WavefrontShapeB>
+  <WavefrontShapeA>
+    <Item>
+      <ControlPoints content="vector2_array">
+        0.000000	0.000000
+        0.026618	1.000000
+        0.130672	1.000000
+        0.156685	0.000000
+        0.184513	0.000000
+        0.203872	1.000000
+        0.312765	1.000000
+        0.346642	0.000000
+        0.376286	1.000000
+        0.523896	1.000000
+        0.555354	0.000000
+        0.575923	1.000000
+        0.618270	1.000000
+        0.644283	0.000000
+        0.666667	1.000000
+        0.761041	1.000000
+        0.782214	0.000000
+        0.811857	1.000000
+        0.975802	1.000000
+        0.993345	0.000000
+      </ControlPoints>
+    </Item>
+  </WavefrontShapeA>
+</OceanSimPresets>

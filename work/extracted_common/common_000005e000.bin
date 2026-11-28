@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WeaponAnimations__ConfigData>
+  <AIHandPoseRules type="WeaponAnimations__HandPoseRules">
+    <PosePrefOverrides type="WeaponAnimations__HandPosePrefOverrides">
+      <ForceTwoHanded type="CAIConditionOr">
+        <Conditions>
+          <Item type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionBlackboardBool">
+                <Name>inCombatAnim</Name>
+                <Section>Animation</Section>
+              </Item>
+              <Item type="CAIConditionBlackboardBool">
+                <Name>loco_ambient_ped_archetype</Name>
+                <Section>Animation</Section>
+              </Item>
+              <Item type="CAIConditionOr">
+                <Conditions>
+                  <Item type="CAIConditionBlackboardBool">
+                    <Name>PersonalityAggro</Name>
+                  </Item>
+                  <Item type="CAIConditionBlackboardBool">
+                    <Name>PersonalityShover</Name>
+                  </Item>
+                  <Item type="CAIConditionBlackboardBool">
+                    <Name>PersonalityShouter</Name>
+                  </Item>
+                  <Item type="CAIConditionBlackboardBool">
+                    <Name>PersonalityTimid</Name>
+                  </Item>
+                </Conditions>
+              </Item>
+            </Conditions>
+          </Item>
+        </Conditions>
+      </ForceTwoHanded>
+    </PosePrefOverrides>
+    <HandReservedReasonsForOneHanded>CarryingItem UsingLadder</HandReservedReasonsForOneHanded>
+  </AIHandPoseRules>
+  <BuddyHandPoseRules type="WeaponAnimations__HandPoseRules">
+  </BuddyHandPoseRules>
+</WeaponAnimations__ConfigData>

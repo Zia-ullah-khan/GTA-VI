@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTyreDataSet>
+	<TyreDataEntries>
+		<Item key="default">
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.75" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.7" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="PlaneTyre">
+			<roadPerformance>			
+				<fPeakSlipAngle value="12.5" />
+				<fAdhesionLimitAngle value="56.25" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.85" />
+				<fSlidingForceCoefficient value="1.82" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="12.5" />
+				<fAdhesionLimitAngle value="56.25" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.85" />
+				<fSlidingForceCoefficient value="1.82" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.35" />
+				<fWetDragGain value="0.35" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.1" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.45" />
+			</offRoadPenalties>			
+			<fLoadShapeVarianceScale value="1.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.050000" />
+		</Item>
+		<Item key="RoadBicycle">
+			<roadPerformance>			
+				<fPeakSlipAngle value="15.0" />
+				<fAdhesionLimitAngle value="34.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.1"/>
+				<fAdhesionLimitRatio value="0.56" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.8" />
+				<fSlidingForceCoefficient value="1.78" />
+			</roadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.6" />
+				<fMaterialRollingDragGain value="0.73" />
+				<fMaterialSinkDragGain value="0.87" />
+				<fMaterialSurfaceDragGain value="1.78" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadShapeVarianceScale value="1.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.07" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AverageBicycle">
+			<roadPerformance>			
+				<fPeakSlipAngle value="15.0" />
+				<fAdhesionLimitAngle value="34.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.1"/>
+				<fAdhesionLimitRatio value="0.56" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.8" />
+				<fSlidingForceCoefficient value="1.78" />
+			</roadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.15" />
+				<fMaterialRollingDragGain value="0.15" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.55" />
+				<fMaterialRollingDragGain value="0.6" />
+				<fMaterialSinkDragGain value="0.6" />
+				<fMaterialSurfaceDragGain value="0.95" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadShapeVarianceScale value="1.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.07" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="OffroadBicycle">
+			<roadPerformance>
+				<fPeakSlipAngle value="15.0" />
+				<fAdhesionLimitAngle value="34.0" />
+				<fLateralFrictionMult value = "1.035"/>
+				<fPeakSlipRatio value="0.1"/>
+				<fAdhesionLimitRatio value="0.56" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.88" />
+				<fSlidingForceCoefficient value="1.86" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="15.0" />
+				<fAdhesionLimitAngle value="34.0" />
+				<fLateralFrictionMult value = "1.035"/>
+				<fPeakSlipRatio value="0.1"/>
+				<fAdhesionLimitRatio value="0.56" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.59" />
+			</offRoadPerformance>			
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.5" />
+				<fMaterialRollingDragGain value="0.35" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.65" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.20" />
+				<fMaterialSinkDragGain value="0.10" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>			
+			<fLoadShapeVarianceScale value="0.1" />
+			<fLoadSensitivity value = "0.2" />
+			<fLoadStability value = "0.18" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.07" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="SuperBike">
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="64.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.7" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.98" />
+				<fSlidingForceCoefficient value="1.84" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="15.75" />
+				<fAdhesionLimitAngle value="33.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.37"/>
+				<fAdhesionLimitRatio value="1.15" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.38" />
+				<fSlidingForceCoefficient value="1.49" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="1.3" />
+				<fMaterialSinkDragGain value="1.3" />
+				<fMaterialSurfaceDragGain value="1.85" />
+				<fWetTractionLoss value="0.9" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>		
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="RoadBike">
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="64.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.7" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.88" />
+				<fSlidingForceCoefficient value="1.84" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="15.75" />
+				<fAdhesionLimitAngle value="33.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.37"/>
+				<fAdhesionLimitRatio value="1.15" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.38" />
+				<fSlidingForceCoefficient value="1.49" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.35" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.85" />
+				<fMaterialSinkDragGain value="0.85" />
+				<fMaterialSurfaceDragGain value="1.35" />
+				<fWetTractionLoss value="0.55" />
+				<fWetDragGain value="0.55" />
+			</offRoadPenalties>		
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrainBike">
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="64.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.7" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.38" />
+				<fSlidingForceCoefficient value="1.49" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.35" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.03" />
+				<fMaterialRollingDragGain value="0.4" />
+				<fMaterialSinkDragGain value="0.4" />
+				<fMaterialSurfaceDragGain value="0.75" />
+				<fWetTractionLoss value="0.2" />
+				<fWetDragGain value="0.25" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="MotocrossBike">
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="64.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.7" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.38" />
+				<fSlidingForceCoefficient value="1.49" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.35" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.1" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="ScooterBike">
+			<roadPerformance>
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="64.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.7" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="15.75" />
+				<fAdhesionLimitAngle value="33.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.37"/>
+				<fAdhesionLimitRatio value="1.15" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.79" />
+				<fSlidingForceCoefficient value="2.09" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.4" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.65" />
+				<fMaterialSinkDragGain value="1.25" />
+				<fMaterialSurfaceDragGain value="2.0" />
+				<fWetTractionLoss value="0.4" />
+				<fWetDragGain value="0.4" />
+			</offRoadPenalties>		
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="DiggerTracks">
+			<roadPerformance>			
+				<fPeakSlipAngle value= "25.5" />
+				<fAdhesionLimitAngle value="73.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="1.0"/>
+				<fAdhesionLimitRatio value="1.5" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.39" />
+				<fSlidingForceCoefficient value="1.69" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value= "25.5" />
+				<fAdhesionLimitAngle value="73.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="1.0"/>
+				<fAdhesionLimitRatio value="1.5" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.39" />
+				<fSlidingForceCoefficient value="1.69" />
+			</offRoadPerformance>			
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.1" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.1" />
+				<fWetTractionLoss value="0.5" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadShapeVarianceScale value="0.1" />
+			<fLoadStability value = "0.22" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="0.7" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.0" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain3A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.67" />
+				<fSlidingForceCoefficient value="1.35" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.105" />
+				<fMaterialSinkDragGain value="0.105" />
+				<fMaterialSurfaceDragGain value="0.125" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.1" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain2A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.7" />
+				<fMaterialSinkDragGain value="0.7" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.6" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.25" />
+				<fMaterialRollingDragGain value="0.165" />
+				<fMaterialSinkDragGain value="0.165" />
+				<fMaterialSurfaceDragGain value="0.25" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.2" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain1A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.5" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.45" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.4" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AverageA">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.75" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.7" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track1A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.9" />
+				<fMaterialRollingDragGain value="0.75" />
+				<fMaterialSinkDragGain value="0.75" />
+				<fMaterialSurfaceDragGain value="0.9" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track2A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="1.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track3A">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.3" />
+				<fMaterialRollingDragGain value="1.3" />
+				<fMaterialSinkDragGain value="1.3" />
+				<fMaterialSurfaceDragGain value="1.3" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain3B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.67" />
+				<fSlidingForceCoefficient value="1.35" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.3" />
+				<fMaterialSinkDragGain value="0.3" />
+				<fMaterialSurfaceDragGain value="0.3" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.1" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain2B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.7" />
+				<fMaterialSinkDragGain value="0.7" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.6" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.35" />
+				<fMaterialRollingDragGain value="0.35" />
+				<fMaterialSinkDragGain value="0.4" />
+				<fMaterialSurfaceDragGain value="0.4" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.2" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain1B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.5" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.65" />
+				<fMaterialRollingDragGain value="0.45" />
+				<fMaterialSinkDragGain value="0.45" />
+				<fMaterialSurfaceDragGain value="0.65" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AverageB">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.8" />
+				<fMaterialRollingDragGain value="0.6" />
+				<fMaterialSinkDragGain value="0.6" />
+				<fMaterialSurfaceDragGain value="0.8" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track1B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.9" />
+				<fMaterialRollingDragGain value="0.85" />
+				<fMaterialSinkDragGain value="0.85" />
+				<fMaterialSurfaceDragGain value="1.0" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track2B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.1" />
+				<fMaterialSinkDragGain value="1.1" />
+				<fMaterialSurfaceDragGain value="1.1" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track3B">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.3" />
+				<fMaterialRollingDragGain value="1.4" />
+				<fMaterialSinkDragGain value="1.4" />
+				<fMaterialSurfaceDragGain value="1.4" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain3C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.67" />
+				<fSlidingForceCoefficient value="1.35" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.1" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain2C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.7" />
+				<fMaterialSinkDragGain value="0.7" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.6" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.15" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.1" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.2" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain1C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.5" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.35" />
+				<fMaterialRollingDragGain value="0.15" />
+				<fMaterialSinkDragGain value="0.15" />
+				<fMaterialSurfaceDragGain value="0.3" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AverageC">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.55" />
+				<fMaterialRollingDragGain value="0.35" />
+				<fMaterialSinkDragGain value="0.35" />
+				<fMaterialSurfaceDragGain value="0.55" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track1C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.55" />
+				<fMaterialSinkDragGain value="0.55" />
+				<fMaterialSurfaceDragGain value="0.7" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track2C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.85" />
+				<fMaterialRollingDragGain value="0.8" />
+				<fMaterialSinkDragGain value="0.8" />
+				<fMaterialSurfaceDragGain value="0.85" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track3C">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.1" />
+				<fMaterialRollingDragGain value="1.05" />
+				<fMaterialSinkDragGain value="1.05" />
+				<fMaterialSurfaceDragGain value="1.05" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain3D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.67" />
+				<fSlidingForceCoefficient value="1.35" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.05" />
+				<fWetDragGain value="0.1" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain2D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.7" />
+				<fMaterialSinkDragGain value="0.7" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.6" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.15" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.1" />
+				<fWetTractionLoss value="0.10" />
+				<fWetDragGain value="0.2" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AllTerrain1D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.5" />
+				<fMaterialRollingDragGain value="0.5" />
+				<fMaterialSinkDragGain value="0.5" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.35" />
+				<fMaterialRollingDragGain value="0.15" />
+				<fMaterialSinkDragGain value="0.15" />
+				<fMaterialSurfaceDragGain value="0.3" />
+				<fWetTractionLoss value="0.18" />
+				<fWetDragGain value="0.4" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="AverageD">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.2" />
+				<fMaterialRollingDragGain value="0.2" />
+				<fMaterialSinkDragGain value="0.2" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.55" />
+				<fMaterialRollingDragGain value="0.35" />
+				<fMaterialSinkDragGain value="0.35" />
+				<fMaterialSurfaceDragGain value="0.55" />
+				<fWetTractionLoss value="0.25" />
+				<fWetDragGain value="0.5" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track1D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.1" />
+				<fMaterialRollingDragGain value="0.1" />
+				<fMaterialSinkDragGain value="0.1" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.7" />
+				<fMaterialRollingDragGain value="0.55" />
+				<fMaterialSinkDragGain value="0.55" />
+				<fMaterialSurfaceDragGain value="0.7" />
+				<fWetTractionLoss value="0.50" />
+				<fWetDragGain value="0.8" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track2D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="0.85" />
+				<fMaterialRollingDragGain value="0.8" />
+				<fMaterialSinkDragGain value="0.8" />
+				<fMaterialSurfaceDragGain value="0.85" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key="Track3D">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="6.75" />
+				<fAdhesionLimitAngle value="70.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.3"/>
+				<fAdhesionLimitRatio value="1.77" />
+				<fLongitudinalFrictionMult value = "1.0"/>
+				<fPeakForceCoefficient value="1.78" />
+				<fSlidingForceCoefficient value="1.74" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="8.0" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.4"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "1.1"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.39" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.0" />
+				<fMaterialRollingDragGain value="0.0" />
+				<fMaterialSinkDragGain value="0.0" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.1" />
+				<fMaterialRollingDragGain value="1.05" />
+				<fMaterialSinkDragGain value="1.05" />
+				<fMaterialSurfaceDragGain value="1.05" />
+				<fWetTractionLoss value="1.0" />
+				<fWetDragGain value="1.0" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.10" />
+			<fLoadStability value="0.03" />
+			<fLoadShapeVarianceScale value="0.0" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+		<Item key = "Bison">		
+			<roadPerformance>			
+				<fPeakSlipAngle value="9.0" />
+				<fAdhesionLimitAngle value="36.5" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.16"/>
+				<fAdhesionLimitRatio value="1.0" />
+				<fLongitudinalFrictionMult value = "0.0"/>
+				<fPeakForceCoefficient value="0.0" />
+				<fSlidingForceCoefficient value="0.0" />
+			</roadPerformance>
+			<offRoadPerformance>
+				<fPeakSlipAngle value="9.5" />
+				<fAdhesionLimitAngle value="42.0" />
+				<fLateralFrictionMult value = "1.0"/>
+				<fPeakSlipRatio value="0.17"/>
+				<fAdhesionLimitRatio value="1.05" />
+				<fLongitudinalFrictionMult value = "1.05"/>
+				<fPeakForceCoefficient value="1.29" />
+				<fSlidingForceCoefficient value="1.59" />
+			</offRoadPerformance>
+			<roadPenalties>
+				<fMaterialTractionLoss value="0.05" />
+				<fMaterialRollingDragGain value="0.05" />
+				<fMaterialSinkDragGain value="0.05" />
+				<fMaterialSurfaceDragGain value="0.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</roadPenalties>
+			<offRoadPenalties>
+				<fMaterialTractionLoss value="1.0" />
+				<fMaterialRollingDragGain value="1.0" />
+				<fMaterialSinkDragGain value="1.0" />
+				<fMaterialSurfaceDragGain value="1.0" />
+				<fWetTractionLoss value="0.75" />
+				<fWetDragGain value="0.9" />
+			</offRoadPenalties>
+			<fLoadSensitivity value = "0.28" />
+			<fLoadStability value="0.15" />
+			<fLoadShapeVarianceScale value="0.5" />
+			<fDamageShapeVarianceScale value="1.0" />
+			<fDamageCoefficientScale value="1.0" />
+			<fPuncturedTyreGripReduction value= "0.3" />
+			<fBurstTyreGripReduction value= "0.5" />
+			<fOptimumTyreTemp value="100.000000" />
+			<fOptimumTyreTempRange value="100.000000" />
+			<fGripDropOffWithTemp value="0.010000" />
+			<fTractionStiffnessSpeedMult value="0.00" />
+			<fTractionStiffnessSpeedCap value= "5.0" />
+		</Item>
+	</TyreDataEntries>
+</CTyreDataSet>

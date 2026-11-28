@@ -1,0 +1,33 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\render_classic_design_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -150,7 +150,26 @@
+     ]
+     for dst in targets:
+         os.makedirs(os.path.dirname(dst), exist_ok=True)
+-        shutil.copyfile(src, dst)
++        copied = False
++        for attempt in range(3):
++            try:
++                shutil.copyfile(src, dst)
++                copied = True
++                break
++            except Exception as e:
++                import time
++                time.sleep(0.3)
++        if not copied:
++            try:
++                with open(src, "rb") as fsrc:
++                    data = fsrc.read()
++                tmp_dst = dst + ".new"
++                with open(tmp_dst, "wb") as ftmp:
++                    ftmp.write(data)
++                os.replace(tmp_dst, dst)
++                copied = True
++            except Exception as ex:
++                print(f"Warning: Could not copy {filename} to {dst}: {ex}")
+     print(f"Propagated {filename} to all locations.")
+ 
+ def setup_header(ax, title, subtitle, max_x, y_top):
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

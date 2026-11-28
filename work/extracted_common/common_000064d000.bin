@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SSetupData>
+  <deviceName>core</deviceName>
+  <datFile>content.xml</datFile>
+  <timeStamp />
+  <nameHash>core</nameHash>
+  <contentChangeSets />
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_DEFAULT</NameHash>
+      <ContentChangeSets>
+        <Item>core_language</Item>
+        <Item>ccs_core_ttdb</Item>
+        <Item>core_misc</Item>
+        <Item>core_credits</Item>
+      </ContentChangeSets>
+    </Item>
+    
+    <Item>
+      <NameHash>GROUP_EARLY</NameHash>
+      <ContentChangeSets>
+        <Item>core_early</Item>
+        <Item>core_early_default</Item>
+        <Item>core_anim_early</Item>
+        <Item>core_anim_behaviors</Item>
+        <Item>core_anim_behaviors_final</Item>
+        <Item>core_stinger_binks</Item>
+        <Item>core_vfx</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>INIT_LEVEL_WITH_MAP_UNLOADED_PRE</NameHash>
+      <ContentChangeSets>
+        <Item>core_metaped</Item>
+        <Item>core_vehicle</Item>
+        <Item>core_weapon</Item>
+        <Item>core_anim</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>INIT_LEVEL_WITH_MAP_UNLOADED</NameHash>
+      <ContentChangeSets>
+        <Item>core_anim_behaviors_nonrpf</Item>
+        <Item>core_metaped_nonrpf</Item>
+        <Item>core_vehicle_nonrpf</Item>
+        <Item>core_movie</Item>
+        <Item>core_credits_movie</Item>
+        <Item>core_binks</Item>
+        <Item>core_renderTargetPreset</Item>
+        <Item>core_buildingMoviePreset</Item>
+        <Item>core_presets</Item>
+        <Item>core_init_level_with_map_unloaded_misc</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>INIT_SESSION</NameHash>
+      <ContentChangeSets>
+        <Item>core_parseddata_default_shared</Item>
+        <Item>core_weapon_nonrpf</Item>
+        <Item>GAMESHAPES_BASE</Item>
+        <Item>GAMESHAPES_VAULT_BASE</Item>
+        <Item>SCENARIO_BASE</Item>
+      </ContentChangeSets>
+    </Item>
+    
+    <Item>
+      <NameHash>GROUP_SCRIPT_BASIC</NameHash>
+      <ContentChangeSets>
+        <Item>core_script_basic</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>GROUP_GAMEMODE_BASIC</NameHash>
+      <ContentChangeSets>
+        <Item>ELEVATORS_AMERICAS</Item>
+      </ContentChangeSets>
+    </Item>
+    <Item>
+      <NameHash>GROUP_GAMEMODE_STORY000</NameHash>
+      <ContentChangeSets>
+        <Item>ELEVATORS_AMERICAS</Item>
+        <Item>LICENSE_AWARDS</Item>
+      </ContentChangeSets>
+    </Item>
+  </contentChangeSetGroups>
+  
+  <startupScript />
+  <type>EXTRACONTENT_LEVEL_PACK</type>
+  <order value="1" />
+  <minorOrder value="0" />
+  <dependencyPackHash />
+  <requiredVersion />
+  <subPackCount value="0" />
+  <platformDataUnderRoot value="false" />
+</SSetupData>

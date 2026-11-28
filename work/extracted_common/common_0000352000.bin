@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="MISSION_Club_Scuffle_ptHouse_opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+  </modifier>
+  <modifier
+    name="Interior_Deep"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="Interior_WaterOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="Interior_RefleOptimiseDONOTUSE"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Interior_RefleRayOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="Interior_AlphaOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="Interior_WatReflOptimiseDONOTUSE"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="Interior_WatRefAlphOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="Interior_WatReflRayOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="AIWE_Interior_RefleOptimise"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+   />
+  <modifier
+    name="AIWE_Interior_RefleRayOptimise"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+  </modifier>
+  <modifier
+    name="Airport_Prep_Recruit_FindArlo_Optimise"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+  </modifier>
+  <modifier
+    name="Interior_RefleRayCasQ2Optimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="Interior_CasQ2Optimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="Interior_WatReflRayCas2Optimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="Mod_Shop_Headlights_Falloff"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <light_vehicle_falloff_mult>1.000000 0.000000</light_vehicle_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.400000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>1.000000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>1.000000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>1.000000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>1.000000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.400000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>1.000000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>1.000000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>1.000000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>1.000000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_override_vehicle_intensity>1.000000 0.000000</light_override_vehicle_intensity>
+  </modifier>
+  <modifier
+    name="Sub_No_Direct_Light"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+    <indirect_light_sky_global_multiplier>0.000000 0.000000</indirect_light_sky_global_multiplier>
+  </modifier>
+  <modifier
+    name="Interior_RefleRayAlphaOptimise"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="OPTI_light_range_scale_ext"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.250000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_falloff_exterior_scale>1.000000 1.000000 0.250000 0.250000 1.000000 1.000000</light_falloff_exterior_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_light_range_scale_int"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.250000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_falloff_interior_scale>1.000000 1.000000 0.500000 0.500000 1.000000 1.000000</light_falloff_interior_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_light_range_scale_inverse_ext"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.255000 0.745000 0.750000 1.000000</keyframe_t_value>
+      <light_falloff_inverse_exterior_scale>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</light_falloff_inverse_exterior_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_light_range_scale_inverse_int"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.250000 0.255000 0.745000 0.750000 1.000000</keyframe_t_value>
+      <light_falloff_inverse_interior_scale>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</light_falloff_inverse_interior_scale>
+    </axis>
+  </modifier>
+  <modifier
+    name="Interior_Anim_AlpRefOffDay"
+    description=""
+    groupApplyTag="interior_volume"
+    localApplyIndex="1"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.223094 0.246126 0.726105 0.764428 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>0.000000 0.000000 1.000000 1.000000 0.000000 0.000000</keyframe_alpha_value>
+      <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>-1.000000 0.000000 0.000000 0.000000 0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+      <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_DirectLight_OFF"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_mult>0.000000 1.000000</light_dir_mult>
+  </modifier>
+  <modifier
+    name="OPTI_MoonLight_OFF"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="OPTI_nightLightingMap_DL_OFF"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="7"
+    userFlags="8"
+    numAxes="2"
+    numKeyframes="2"
+  >
+    <axis controlValue="nightLighting.r" input_min="0.800000" input_max="0.900000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_dir_moon_mult>1.000000 0.000000</light_dir_moon_mult>
+    </axis>
+    <axis controlValue="heightFromGround" input_min="0.006000" input_max="0.010000">
+      <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_nightLightingMap_DL_OFF_driving"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="8"
+    userFlags="0"
+    numAxes="2"
+    numKeyframes="2"
+  >
+    <submodifiers>
+      <item>OPTI_Sub_KillLocalCascades_Drive</item>
+    </submodifiers>
+    <axis controlValue="nightLighting.r" input_min="0.550000" input_max="0.700000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_dir_moon_mult>1.000000 0.000000</light_dir_moon_mult>
+    </axis>
+    <axis controlValue="heightFromGround" input_min="0.006000" input_max="0.010000">
+      <light_dir_moon_mult>1.000000 1.000000</light_dir_moon_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="Sub_Int_RoughnessCut_Hard"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Int_RoughnessCut_Mid"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+  </modifier>
+  <modifier
+    name="Sub_Int_RoughnessCut_Low"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.600000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+  </modifier>
+  <modifier
+    name="AIWE_WaterDisabled"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+  </modifier>
+  <modifier
+    name="Opt_MoonDMulti_Off"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="Sub_Int_Fog_Hard"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_falloff_radius_multiplier>0.200000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Int_Fog_Mid"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.300000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_Int_Fog_Low"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_quality_multiplier>0.500000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="Sub_AlphaRough_Cut_Hard"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="Sub_AlphaRough_Cut_Mid"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.400000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+  </modifier>
+  <modifier
+    name="Sub_AlphaRough_Cut_Low"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.600000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+  </modifier>
+  <modifier
+    name="OPTI_LocalLight_Settings_LOW"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="0"
+  >
+    <light_falloff_map_exterior_mult>0.750000 0.000000</light_falloff_map_exterior_mult>
+  </modifier>
+  <modifier
+    name="Sub_Int_RefBudget_Opaque"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+  </modifier>
+  <modifier
+    name="Sub_Int_RefBudget_Opaque_Alpha"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget>0.500000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.500000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="Sub_Int_RefBudget_Alpha"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.500000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+  </modifier>
+  <modifier
+    name="OPTI_light_range_wetness_mod"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="temporal_wetness" input_min="0.500000" input_max="1.000000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_falloff_map_exterior_mult>1.000000 0.750000</light_falloff_map_exterior_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="sub_dn02b_clb_lights_LOW"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_map_interior_mult>0.750000 0.000000</light_falloff_map_interior_mult>
+  </modifier>
+  <modifier
+    name="sub_dn03b_clb_lights_LOW"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_interior_scale>0.500000 0.000000</light_falloff_interior_scale>
+  </modifier>
+  <modifier
+    name="sub_sb01_clb_lights_LOW"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_map_interior_mult>0.750000 0.000000</light_falloff_map_interior_mult>
+  </modifier>
+  <modifier
+    name="sub_nm19_clb_lights_LOW"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_map_interior_mult>0.750000 0.000000</light_falloff_map_interior_mult>
+  </modifier>
+  <modifier
+    name="Int_Opt_TW2_20_Pol_LOD_Water"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_disabled>1.000000 0.000000</water_rendering_disabled>
+    <lod_mult_terrain_hd>0.300000 0.000000</lod_mult_terrain_hd>
+    <lod_mult_terrain_lod>0.300000 0.000000</lod_mult_terrain_lod>
+    <lod_mult_terrain_slod1>0.300000 0.000000</lod_mult_terrain_slod1>
+    <lod_mult_terrain_slod2>0.300000 0.000000</lod_mult_terrain_slod2>
+    <lod_mult_terrain_slod3>0.300000 0.000000</lod_mult_terrain_slod3>
+    <lod_mult_environment_orphanhd>0.500000 0.000000</lod_mult_environment_orphanhd>
+    <lod_mult_terrain_orphanhd>0.300000 0.000000</lod_mult_terrain_orphanhd>
+    <lod_mult_environment_hd>0.500000 0.000000</lod_mult_environment_hd>
+    <lod_mult_environment_lod>0.500000 0.000000</lod_mult_environment_lod>
+    <lod_mult_environment_slod1>0.100000 0.000000</lod_mult_environment_slod1>
+    <lod_mult_environment_slod2>0.100000 0.000000</lod_mult_environment_slod2>
+    <lod_mult_environment_slod3>0.100000 0.000000</lod_mult_environment_slod3>
+    <lod_mult_environment_slod4>0.100000 0.000000</lod_mult_environment_slod4>
+    <lod_mult_batch_lod>0.600000 0.000000</lod_mult_batch_lod>
+    <lod_mult_batch_slod>0.150000 0.000000</lod_mult_batch_slod>
+    <lod_mult_vehicle>0.300000 0.000000</lod_mult_vehicle>
+    <lod_mult_grass>0.100000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="Interior_WaterRayBudgetZero"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+  </modifier>
+  <modifier
+    name="OPTI_weathermap_gi_optimization"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="tcOptimizationMap.r">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_bilPenthouse_Attack_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.023399 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget>0.000000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_roughness_cutoff_int_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_int_max>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_int_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_int_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_v_bias_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>0.200000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_int_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_ext_min>0.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_ext_max>0.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_ext_max>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_falloff_075"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_interior_scale>0.750000 0.000000</light_falloff_interior_scale>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_falloff_050"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_interior_scale>0.500000 0.000000</light_falloff_interior_scale>
+  </modifier>
+  <modifier
+    name="MISSION_BankHeist_Aqu_CarEsc_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Opt_MoonDMulti_Off</item>
+    </submodifiers>
+    <light_vehicle_secondary_falloff_mult>0.200000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.200000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.200000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.350000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+    <light_vehicle_primary_falloff_mult>0.350000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult_player>0.200000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.200000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.200000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.350000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_primary_falloff_mult_player>0.350000 0.000000</light_vehicle_primary_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_Club_TB_GF_Escape_Opt"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.350000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.200000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.200000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.200000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.350000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+    <light_vehicle_primary_falloff_mult_player>0.350000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.200000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.200000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.200000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.350000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_CargoShip_OnShip_Opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_map_exterior_mult>1.000000 0.000000</light_falloff_map_exterior_mult>
+  </modifier>
+  <modifier
+    name="MISSION_Intro_BC_DriveCal_Opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Opt_MoonDMulti_Off</item>
+    </submodifiers>
+    <light_vehicle_secondary_falloff_mult>0.300000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.300000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.500000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.500000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_secondary_falloff_mult_player>0.300000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.300000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_primary_falloff_mult_player>0.500000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.500000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_stealHelis_HngrFight_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_secondary_falloff_mult>0.500000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.500000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.500000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_secondary_falloff_mult_player>0.500000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.500000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.500000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <fog_local_lights_interior_quality_multiplier>1.000000 0.000000</fog_local_lights_interior_quality_multiplier>
+    <fog_local_lights_quality_multiplier>0.500000 0.000000</fog_local_lights_quality_multiplier>
+    <fog_local_lights_falloff_radius_multiplier>1.000000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <fog_local_lights_interior_falloff_radius_multiplier>0.250000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <light_vehicle_primary_falloff_mult>0.500000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.500000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult>0.500000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_cluster_falloff_mult_player>0.500000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <light_vehicle_rt_dynamic_shadow_scale_non_player>0.200000 0.000000</light_vehicle_rt_dynamic_shadow_scale_non_player>
+  </modifier>
+  <modifier
+    name="OPTI_CascadeQuality_Day"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="tcOptimizationMap.g">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <dir_shadow_quality_override>1.000000 1.000000</dir_shadow_quality_override>
+      <dir_shadow_quality>4.000000 2.000000</dir_shadow_quality>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_billPent_noDirectLight"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MISSION_BankFinal_EscapeBus_Op"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_tertiary_falloff_mult>0.010000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.010000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.010000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.010000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.010000 0.000000</light_vehicle_cluster_falloff_mult>
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <light_vehicle_tertiary_falloff_mult_player>0.010000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.010000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_primary_falloff_mult_player>0.010000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.010000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.010000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_Yago_streetracer_meet_opt"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.300000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.100000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.300000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.100000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.300000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.100000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.300000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.100000 0.000000</light_vehicle_siren_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_Precinct_Assault_Armoury_opt"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.300000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.100000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.300000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.100000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_weapon_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_weapon_fog_volumetric_falloff_radius_multiplier>
+    <fog_local_lights_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <fog_local_lights_quality_multiplier>0.500000 0.000000</fog_local_lights_quality_multiplier>
+    <light_weapon_fog_volumetric_intensity_multiplier>0.500000 0.000000</light_weapon_fog_volumetric_intensity_multiplier>
+    <light_vehicle_primary_falloff_mult_player>0.300000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.100000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.300000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.100000 0.000000</light_vehicle_siren_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_CLB_Tower_Block_Escape_opt"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>Opt_MoonDMulti_Off</item>
+    </submodifiers>
+    <light_vehicle_cluster_falloff_mult>0.100000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.400000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.300000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.300000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_fog_volumetric_intensity_multiplier>0.600000 0.000000</light_vehicle_fog_volumetric_intensity_multiplier>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_override_vehicle_intensity>0.200000 0.000000</light_override_vehicle_intensity>
+    <light_vehicle_cluster_falloff_mult_player>0.100000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_primary_falloff_mult_player>0.400000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.300000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.300000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_House_Attack_WakeUp_opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.300000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.100000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.300000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.100000 0.000000</light_vehicle_siren_falloff_mult>
+    <fog_local_lights_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <fog_local_lights_quality_multiplier>0.500000 0.000000</fog_local_lights_quality_multiplier>
+    <light_weapon_fog_volumetric_intensity_multiplier>0.500000 0.000000</light_weapon_fog_volumetric_intensity_multiplier>
+    <light_weapon_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_weapon_fog_volumetric_falloff_radius_multiplier>
+    <light_vehicle_primary_falloff_mult_player>0.300000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.100000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.300000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.100000 0.000000</light_vehicle_siren_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_Club_Deal_loosecops_opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.400000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.100000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.300000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.500000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.100000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.400000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.100000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.300000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.500000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.100000 0.000000</light_vehicle_siren_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="OPTI_light_hemisphere_cutoff"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+  >
+    <light_shadow_hemisphere_cutoff_angle>68.000000 0.000000</light_shadow_hemisphere_cutoff_angle>
+  </modifier>
+  <modifier
+    name="OPTI_cascades_low_resolution"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="nightLighting.g">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_Bil_Wheel_AmbChase_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_primary_falloff_mult>0.400000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.050000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.090000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.400000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.400000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.050000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.090000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.400000 0.000000</light_vehicle_cluster_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_BIL_PENT_MCS18_PREPARE_J"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_ray_budget_alpha>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>-1.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_ext_min>-1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_alpha_ext_max>-1.000000 0.000000</indirect_light_opt_reflection_roughness_v_bias_alpha_ext_max>
+  </modifier>
+  <modifier
+    name="OPTI_race_CascadeLowRes"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+  </modifier>
+  <modifier
+    name="OPTI_race_primaryHeadLight"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.240000 0.250000 0.740000 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_primary_falloff_mult>0.250000 0.250000 0.030000 0.030000 0.250000 0.250000</light_vehicle_primary_falloff_mult>
+      <light_vehicle_cluster_falloff_mult>0.250000 0.250000 0.030000 0.030000 0.250000 0.250000</light_vehicle_cluster_falloff_mult>
+      <light_vehicle_primary_falloff_mult_player>0.250000 0.250000 0.030000 0.030000 0.250000 0.250000</light_vehicle_primary_falloff_mult_player>
+      <light_vehicle_cluster_falloff_mult_player>0.250000 0.250000 0.030000 0.030000 0.250000 0.250000</light_vehicle_cluster_falloff_mult_player>
+      <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+      <light_shadow_num_local_cascades>0.000000 0.000000 0.000000 0.000000 0.000000 0.000000</light_shadow_num_local_cascades>
+      <light_vehicle_rt_dynamic_shadow_scale_non_player>0.800000 0.000000 0.000000 0.000000 0.000000 0.800000</light_vehicle_rt_dynamic_shadow_scale_non_player>
+      <light_vehicle_headlight_shadow_scale_player>0.800000 0.000000 0.000000 0.000000 0.000000 0.800000</light_vehicle_headlight_shadow_scale_player>
+      <light_vehicle_headlight_shadow_scale_non_player>0.800000 0.000000 0.000000 0.000000 0.000000 0.800000</light_vehicle_headlight_shadow_scale_non_player>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_bilPent_Attack_Int_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_min>0.400000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_max>
+    <fog_local_lights_quality_multiplier>0.750000 0.000000</fog_local_lights_quality_multiplier>
+    <fog_local_lights_falloff_radius_multiplier>0.800000 0.000000</fog_local_lights_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="OPTI_terrainGlints_OFF_Anim"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="6"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="nightLighting.r" input_min="0.000000" input_max="0.800000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>0.000000 1.000000</keyframe_alpha_value>
+      <glints_high_quality_lights_distance_fade_blend>1.000000 1.000000</glints_high_quality_lights_distance_fade_blend>
+      <glints_low_quality_lights_distance_fade_blend>1.000000 1.000000</glints_low_quality_lights_distance_fade_blend>
+      <glints_low_quality_lights_distance_fade>0.200000 0.200000</glints_low_quality_lights_distance_fade>
+      <glints_high_quality_lights_distance_fade>0.250000 0.250000</glints_high_quality_lights_distance_fade>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_IntPrison_Fight_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <local_atmosphere_cloud_raymarch_step_exponent_bias>-15.000000 0.000000</local_atmosphere_cloud_raymarch_step_exponent_bias>
+  </modifier>
+  <modifier
+    name="MISSION_Coa_Raid_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="OPTI_veh_LightFalloffAll"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.240000 0.250000 0.740000 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_cluster_falloff_mult>0.500000 0.500000 0.030000 0.030000 0.500000 0.500000</light_vehicle_cluster_falloff_mult>
+      <light_vehicle_primary_falloff_mult>0.200000 0.200000 0.030000 0.030000 0.200000 0.200000</light_vehicle_primary_falloff_mult>
+      <light_vehicle_secondary_falloff_mult>0.200000 0.200000 0.200000 0.200000 0.200000 0.200000</light_vehicle_secondary_falloff_mult>
+      <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.500000 0.500000 0.500000 0.500000 0.500000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+      <light_vehicle_cluster_falloff_mult_player>0.500000 0.500000 0.030000 0.030000 0.500000 0.500000</light_vehicle_cluster_falloff_mult_player>
+      <light_vehicle_primary_falloff_mult_player>0.200000 0.200000 0.030000 0.030000 0.200000 0.200000</light_vehicle_primary_falloff_mult_player>
+      <light_vehicle_secondary_falloff_mult_player>0.200000 0.200000 0.200000 0.200000 0.200000 0.200000</light_vehicle_secondary_falloff_mult_player>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_VehLightFalloff_CascadesOff"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_veh_LightFalloffAll</item>
+    </submodifiers>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MISSION_circHellDrugTrip_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality>1.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <fog_local_lights_falloff_radius_multiplier>0.750000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <fog_local_lights_quality_multiplier>0.500000 0.000000</fog_local_lights_quality_multiplier>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.050000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+  </modifier>
+  <modifier
+    name="MISSION_Rob_Death_Shootout_Opt"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MISSION_Billy_Domingo_Convoy_Robbery_opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="16"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <submodifiers>
+      <item>Opt_MoonDMulti_Off</item>
+    </submodifiers>
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.240000 0.250000 0.740000 0.750000 1.000000</keyframe_t_value>
+      <light_vehicle_primary_falloff_mult>0.440000 0.440000 0.030000 0.030000 0.440000 0.440000</light_vehicle_primary_falloff_mult>
+      <light_vehicle_cluster_falloff_mult>0.100000 0.100000 0.030000 0.030000 0.100000 0.100000</light_vehicle_cluster_falloff_mult>
+      <light_vehicle_secondary_falloff_mult>0.600000 0.600000 0.050000 0.050000 0.600000 0.600000</light_vehicle_secondary_falloff_mult>
+      <light_vehicle_primary_falloff_mult_player>0.440000 0.440000 0.030000 0.030000 0.440000 0.440000</light_vehicle_primary_falloff_mult_player>
+      <light_vehicle_cluster_falloff_mult_player>0.000000 0.000000 0.030000 0.030000 0.000000 0.000000</light_vehicle_cluster_falloff_mult_player>
+      <light_vehicle_secondary_falloff_mult_player>0.100000 0.100000 0.030000 0.030000 0.100000 0.100000</light_vehicle_secondary_falloff_mult_player>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_APHeist_Drone_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality>2.000000 1.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 1.000000</dir_shadow_quality_override>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="OPTI_terrainGlints_OFF"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+  </modifier>
+  <modifier
+    name="MISSION_AirFinal_DefendTruck_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_falloff_mult>0.010000 0.000000</light_vehicle_falloff_mult>
+    <light_vehicle_primary_falloff_mult>0.010000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.010000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.010000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.010000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.010000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_search_falloff_mult>0.010000 0.000000</light_vehicle_search_falloff_mult>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="RaceHub_OPT"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+      <item>OPTI_terrainGlints_OFF</item>
+    </submodifiers>
+  </modifier>
+  <modifier
+    name="OPTI_wetnessCutouffs"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.250000 0.750000 0.800000 1.000000</keyframe_t_value>
+      <indirect_light_opt_reflection_roughness_v_bias_wetness_ext_max>0.200000 0.200000 0.500000 0.500000 0.200000 0.200000</indirect_light_opt_reflection_roughness_v_bias_wetness_ext_max>
+      <indirect_light_opt_reflection_roughness_v_bias_wetness_ext_min>0.100000 0.100000 0.300000 0.300000 0.100000 0.100000</indirect_light_opt_reflection_roughness_v_bias_wetness_ext_min>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_BkHeist_Finale_Chase_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <light_vehicle_primary_falloff_mult>0.400000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.400000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.400000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_search_falloff_mult>0.400000 0.000000</light_vehicle_search_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.400000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.400000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.400000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.400000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.400000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <light_vehicle_tertiary_falloff_mult>0.400000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_search_falloff_mult_player>0.400000 0.000000</light_vehicle_search_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult>1.000000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_primary_shadow_fade_mult>0.000000 0.000000</light_vehicle_primary_shadow_fade_mult>
+  </modifier>
+  <modifier
+    name="MISSION_Robber_BoatChase_Getaway_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MISSION_AirTruck_MotorWay_OPT"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_veh_LightFalloffAll</item>
+    </submodifiers>
+    <dir_shadow_quality>1.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <indirect_light_opt_reflection_ray_budget>0.200000 0.000000</indirect_light_opt_reflection_ray_budget>
+    <indirect_light_opt_reflection_ray_budget_alpha>0.200000 0.000000</indirect_light_opt_reflection_ray_budget_alpha>
+    <indirect_light_opt_reflection_ray_budget_water>0.000000 0.000000</indirect_light_opt_reflection_ray_budget_water>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>0.000000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_min>
+    <indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>0.150000 0.000000</indirect_light_opt_reflection_roughness_cutoff_alpha_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_max>0.600000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_max>
+    <light_falloff_exterior_scale>0.750000 0.000000</light_falloff_exterior_scale>
+    <fog_local_lights_falloff_radius_multiplier>0.700000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <light_shadow_fade_distance_mult>0.200000 0.000000</light_shadow_fade_distance_mult>
+  </modifier>
+  <modifier
+    name="MISSION_DrugTrip_LoggingSite_OPT"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+    </submodifiers>
+    <fog_local_lights_quality_multiplier>0.400000 0.000000</fog_local_lights_quality_multiplier>
+    <fog_local_lights_falloff_radius_multiplier>0.700000 0.000000</fog_local_lights_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="MISSION_MoneyKidnap_Quarry_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+  </modifier>
+  <modifier
+    name="MISSION_BillHouseAttack_House_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+  </modifier>
+  <modifier
+    name="MISSION_BillFun_DriveToClub_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <light_vehicle_headlight_shadow_scale_player>0.500000 0.000000</light_vehicle_headlight_shadow_scale_player>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.300000 0.000000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+    <fog_local_lights_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_falloff_radius_multiplier>
+  </modifier>
+  <modifier
+    name="MISSION_BankHeist_Acquire_Weapons_opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+    </submodifiers>
+    <light_vehicle_cluster_falloff_mult>0.100000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.600000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_fog_volumetric_intensity_multiplier>0.400000 0.000000</light_vehicle_fog_volumetric_intensity_multiplier>
+    <light_weapon_fog_volumetric_intensity_multiplier>0.400000 0.000000</light_weapon_fog_volumetric_intensity_multiplier>
+  </modifier>
+  <modifier
+    name="OPTI_Breeding_Camp_MA_MAR_03"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+    </submodifiers>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="OPTI_Cascades_ForceLow"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="OPTI_Cascade_MaxMedium"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="nightLighting.g" input_min="0.000000" input_max="0.500000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <dir_shadow_quality_override>1.000000 1.000000</dir_shadow_quality_override>
+      <dir_shadow_quality>3.000000 4.000000</dir_shadow_quality>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_BkHeistFinale_LvBank_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>2.000000 0.000000</dir_shadow_quality>
+    <light_vehicle_primary_falloff_mult>0.010000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_secondary_falloff_mult>0.010000 0.000000</light_vehicle_secondary_falloff_mult>
+    <light_vehicle_tertiary_falloff_mult>0.010000 0.000000</light_vehicle_tertiary_falloff_mult>
+    <light_vehicle_cluster_falloff_mult>0.010000 0.000000</light_vehicle_cluster_falloff_mult>
+    <light_vehicle_siren_falloff_mult>0.010000 0.000000</light_vehicle_siren_falloff_mult>
+    <light_vehicle_search_falloff_mult>0.010000 0.000000</light_vehicle_search_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.010000 0.000000</light_vehicle_primary_falloff_mult_player>
+    <light_vehicle_secondary_falloff_mult_player>0.010000 0.000000</light_vehicle_secondary_falloff_mult_player>
+    <light_vehicle_search_falloff_mult_player>0.010000 0.000000</light_vehicle_search_falloff_mult_player>
+    <light_vehicle_siren_falloff_mult_player>0.010000 0.000000</light_vehicle_siren_falloff_mult_player>
+    <light_vehicle_cluster_falloff_mult_player>0.010000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_tertiary_falloff_mult_player>0.010000 0.000000</light_vehicle_tertiary_falloff_mult_player>
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+  </modifier>
+  <modifier
+    name="RaceHub_Grayson_OPT"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>OPTI_MoonLight_OFF</item>
+      <item>OPTI_terrainGlints_OFF</item>
+    </submodifiers>
+    <light_vehicle_primary_falloff_mult>0.500000 0.000000</light_vehicle_primary_falloff_mult>
+    <light_vehicle_primary_falloff_mult_player>0.500000 0.000000</light_vehicle_primary_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_Air_Truck_Opt"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 1.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>3.000000 1.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="OPTI_Cascades_ForceMed"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>3.000000 0.000000</dir_shadow_quality>
+  </modifier>
+  <modifier
+    name="OPTI_Cascades_LowRes"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+  </modifier>
+  <modifier
+    name="OPTI_Cascade_LowRes_MedQual_CSM"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>3.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+  </modifier>
+  <modifier
+    name="OPTI_Cascade_ForceHighRes"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <dir_shadow_use_low_resolution>0.000000 0.000000</dir_shadow_use_low_resolution>
+  </modifier>
+  <modifier
+    name="OPTI_VCIA_DownstairsRoad"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="4"
+  >
+    <submodifiers>
+      <item>OPTI_VCIA_VehicleLights_ANIMATED</item>
+      <item>EXP_EXT_Generic_Mid</item>
+    </submodifiers>
+    <fog_local_lights_falloff_radius_multiplier>0.500000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <dir_shadow_quality_override>1.000000 0.000000</dir_shadow_quality_override>
+    <dir_shadow_quality>3.000000 0.000000</dir_shadow_quality>
+    <dir_shadow_use_low_resolution>1.000000 0.000000</dir_shadow_use_low_resolution>
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <light_shadow_static_fade_scsize_mult>0.900000 0.000000</light_shadow_static_fade_scsize_mult>
+  </modifier>
+  <modifier
+    name="OPTI_VCIA_VehicleLights_ANIMATED"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="1"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.255000 0.745000 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_primary_falloff_mult>0.300000 0.300000 0.030000 0.030000 0.300000 0.300000</light_vehicle_primary_falloff_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="UFO_Stage1_Opti"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_vehicle_cluster_falloff_mult_player>0.250000 0.000000</light_vehicle_cluster_falloff_mult_player>
+    <light_vehicle_fog_volumetric_falloff_radius_multiplier>0.500000 0.000000</light_vehicle_fog_volumetric_falloff_radius_multiplier>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_max>0.200000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_max>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_min>0.300000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_min>
+    <indirect_light_opt_reflection_roughness_v_bias_ext_max>0.800000 0.000000</indirect_light_opt_reflection_roughness_v_bias_ext_max>
+    <indirect_light_opt_reflection_roughness_cutoff_ext_min>0.100000 0.000000</indirect_light_opt_reflection_roughness_cutoff_ext_min>
+    <light_vehicle_primary_falloff_mult_player>0.250000 0.000000</light_vehicle_primary_falloff_mult_player>
+  </modifier>
+  <modifier
+    name="MISSION_boatChase_DL_OPT"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="8"
+    userFlags="0"
+  >
+    <light_dir_sun_mult>0.000000 1.000000</light_dir_sun_mult>
+  </modifier>
+  <modifier
+    name="OPTI_veh_shadow_range"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="1"
+    numKeyframes="6"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.245000 0.250000 0.747500 0.755000 1.000000</keyframe_t_value>
+      <light_vehicle_search_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_search_shadow_fade_mult_player>
+      <light_vehicle_siren_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_siren_shadow_fade_mult_player>
+      <light_vehicle_cluster_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_cluster_shadow_fade_mult_player>
+      <light_vehicle_tertiary_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_tertiary_shadow_fade_mult_player>
+      <light_vehicle_secondary_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_secondary_shadow_fade_mult_player>
+      <light_vehicle_primary_shadow_fade_mult_player>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_primary_shadow_fade_mult_player>
+      <light_vehicle_search_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_search_shadow_fade_mult>
+      <light_vehicle_siren_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_siren_shadow_fade_mult>
+      <light_vehicle_cluster_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_cluster_shadow_fade_mult>
+      <light_vehicle_tertiary_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_tertiary_shadow_fade_mult>
+      <light_vehicle_secondary_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_secondary_shadow_fade_mult>
+      <light_vehicle_primary_shadow_fade_mult>1.000000 1.000000 0.000000 0.000000 1.000000 1.000000</light_vehicle_primary_shadow_fade_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="MISSION_TakenDealFundedOutro07CS"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_opt_vehicle_bvh_lod_mult>2.000000 0.000000</indirect_light_opt_vehicle_bvh_lod_mult>
+  </modifier>
+  <modifier
+    name="OPTI_Sub_KillLocalCascades_Drive"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="player_speed" input_min="0.080000" input_max="0.100000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_shadow_num_local_cascades>2.000000 0.000000</light_shadow_num_local_cascades>
+    </axis>
+  </modifier>
+  <modifier
+    name="sub_sb01_clb_lights_LOW_preshow"
+    description=""
+    groupApplyTag="interior_volume"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_falloff_map_interior_mult>0.850000 0.000000</light_falloff_map_interior_mult>
+  </modifier>
+  <modifier
+    name="OPTI_action_performance_mode"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <light_action_performance_light_falloff_scale>0.900000 0.000000</light_action_performance_light_falloff_scale>
+    <light_action_performance_highbeam_falloff_scale>0.500000 0.000000</light_action_performance_highbeam_falloff_scale>
+    <light_action_performance_shadow_scale>0.650000 0.000000</light_action_performance_shadow_scale>
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <light_vehicle_headlight_shadow_scale_player>0.500000 0.000000</light_vehicle_headlight_shadow_scale_player>
+    <fog_local_lights_falloff_radius_multiplier>0.750000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <dir_shadow_cascade2_scale>0.000000 0.000000</dir_shadow_cascade2_scale>
+  </modifier>
+  <modifier
+    name="OPTI_action_performance_mode_high_cost"
+    description=""
+    groupApplyTag="script"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <light_action_performance_light_falloff_scale>0.900000 0.000000</light_action_performance_light_falloff_scale>
+    <light_action_performance_highbeam_falloff_scale>0.500000 0.000000</light_action_performance_highbeam_falloff_scale>
+    <light_action_performance_shadow_scale>0.650000 0.000000</light_action_performance_shadow_scale>
+    <light_shadow_num_local_cascades>0.000000 0.000000</light_shadow_num_local_cascades>
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+    <glints_high_quality_lights_distance_fade>0.000000 0.000000</glints_high_quality_lights_distance_fade>
+    <glints_high_quality_lights_distance_fade_blend>1.000000 0.000000</glints_high_quality_lights_distance_fade_blend>
+    <glints_low_quality_lights_distance_fade>0.000000 0.000000</glints_low_quality_lights_distance_fade>
+    <glints_low_quality_lights_distance_fade_blend>1.000000 0.000000</glints_low_quality_lights_distance_fade_blend>
+    <light_dir_moon_mult>0.000000 1.000000</light_dir_moon_mult>
+    <light_vehicle_headlight_shadow_scale_player>0.500000 0.000000</light_vehicle_headlight_shadow_scale_player>
+    <fog_local_lights_falloff_radius_multiplier>0.750000 0.000000</fog_local_lights_falloff_radius_multiplier>
+    <dir_shadow_cascade2_scale>0.000000 0.000000</dir_shadow_cascade2_scale>
+  </modifier>
+  <modifier
+    name="OPTI_anti_wetness_mod"
+    description=""
+    groupApplyTag="base"
+    localApplyIndex="7"
+    userFlags="4"
+    numAxes="1"
+    numKeyframes="2"
+  >
+    <axis controlValue="temporal_wetness" input_min="0.500000" input_max="1.000000">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <light_falloff_map_exterior_mult>1.000000 1.000000</light_falloff_map_exterior_mult>
+      <light_shadow_num_local_cascades>2.000000 0.000000</light_shadow_num_local_cascades>
+    </axis>
+  </modifier>
+  <modifier
+    name="OPTI_fbk_stry000_intro_grass"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass_override>1.000000 0.000000</lod_mult_grass_override>
+    <lod_mult_override_blend>1.000000 0.000000</lod_mult_override_blend>
+  </modifier>
+  <modifier
+    name="OPTI_bil_pent_int_marinashot_propscale"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_prop_override>2.250000 0.000000</lod_mult_prop_override>
+    <lod_mult_override_blend>1.000000 0.000000</lod_mult_override_blend>
+  </modifier>
+  <modifier
+    name="MISSION_LaunchP_DimezPerf_OPT"
+    description=""
+    groupApplyTag="animscene"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <fog_local_lights_interior_falloff_radius_multiplier>0.750000 0.000000</fog_local_lights_interior_falloff_radius_multiplier>
+    <fog_local_lights_interior_quality_multiplier>0.700000 0.000000</fog_local_lights_interior_quality_multiplier>
+  </modifier>
+  <modifier
+    name="Interior_WaterCheap"
+    description=""
+    groupApplyTag="interior"
+    localApplyIndex="0"
+    userFlags="256"
+  >
+    <water_rendering_low_quality>1.000000 0.000000</water_rendering_low_quality>
+  </modifier>
+</timecycle_modifier_data>

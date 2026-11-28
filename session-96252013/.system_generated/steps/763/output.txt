@@ -1,0 +1,4 @@
+{"File":"C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\work\\decomp_evidence.json","LineNumber":381,"LineContent":" \"scripts_referencing_mission_id\": {"}
+{"File":"C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\work\\build_outputs.py","LineNumber":132,"LineContent":"    references = script_evidence[\"scripts_referencing_mission_id\"]"}
+{"File":"C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\work\\build_final.py","LineNumber":343,"LineContent":"    add_script_links(catalog, script_links, evidence[\"scripts_referencing_mission_id\"])"}
+{"File":"C:\\Users\\<user>\\Downloads\\GTA6.Xbox.v1.0.2.1-CYBERLEEK\\work\\decomp_flow_facts.py","LineNumber":175,"LineContent":"    document = {\"source_dir\": str(args.source_dir), \"facts\": facts, \"scripts_referencing_mission_id\": references}"}

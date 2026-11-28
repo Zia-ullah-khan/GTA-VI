@@ -1,0 +1,86 @@
+Created At: 2026-11-25T18:17:23-05:00
+Completed At: 2026-11-25T18:17:27-05:00
+Command exited with code 0.
+
+Command output:
+exe b'container_crate': 0 -> []
+exe b'KMODSHP': 0 -> []
+exe b'AMUCO': 0 -> []
+exe b'INT_CHASE': 0 -> []
+exe b'coastal': 0 -> []
+exe b'0DRP': 1 -> [('0x787997', b'\xc0H\x89\xf0\xc5\xfc\x11F(\xc5\xf8W\xc0\xc7F\x100DRP\xc7F\x18\x00\x00\x00\x00\xc5\xf8\x11FH\xc6F\x14zH\xc7F \x00\x00\x00\x00H\x83\xc4 ^\xc5\xf8w\xc3\xcc\xcc\xcc\xccVWSH\x83\xec ')]
+exe b'STNS': 0 -> []
+exe b'LSNS': 1 -> [('0x40829ea', b'$0@\x8al$/\xe9\x9a\x00\x00\x00A\xc7\x04$LSNSH\x8b\\$8H\x8bt$0M\x8d|$\x08L\x8bh@M\x85\xedt,H\x8dl$DL\x8dD$@L\x89\xe9H\x89\xea\xe8E\xd9\xff')]
+=== 0x143c16430 ===
+  0x143c16430: push rsi
+  0x143c16431: push rdi
+  0x143c16432: sub rsp, 0x28
+  0x143c16436: cmp dword ptr [rcx + 0x10], 0
+  0x143c1643a: mov rsi, rcx
+  0x143c1643d: js 0x143c16471
+  0x143c1643f: lea rdi, [rip + 0x6ebe09a]
+  0x143c16446: mov rcx, rdi
+  0x143c16449: call 0x140004b40
+  0x143c1644e: mov rax, qword ptr [rsi]
+  0x143c16451: cmp dword ptr [rax + 0x10], 0
+  0x143c16455: mov ecx, dword ptr [rax]
+  0x143c16457: mov edx, dword ptr [rax + 8]
+  0x143c1645a: setne r8b
+  0x143c1645e: call 0x143c23710
+  0x143c16463: mov rcx, rdi
+  0x143c16466: add rsp, 0x28
+  0x143c1646a: pop rdi
+  0x143c1646b: pop rsi
+  0x143c1646c: jmp 0x144d9dab0
+=== 0x143ccf5a0 ===
+  0x143ccf5a0: push rsi
+  0x143ccf5a1: push rdi
+  0x143ccf5a2: sub rsp, 0x28
+  0x143ccf5a6: cmp dword ptr [rcx + 0x10], 0
+  0x143ccf5aa: mov rsi, rcx
+  0x143ccf5ad: js 0x143ccf5e0
+  0x143ccf5af: lea rdi, [rip + 0x6e04f2a]
+  0x143ccf5b6: mov rcx, rdi
+  0x143ccf5b9: call 0x140004b40
+  0x143ccf5be: mov rax, qword ptr [rsi]
+  0x143ccf5c1: mov rcx, qword ptr [rax]
+  0x143ccf5c4: call 0x145a92eb0
+  0x143ccf5c9: mov rcx, qword ptr [rsi + 8]
+  0x143ccf5cd: mov eax, eax
+  0x143ccf5cf: mov qword ptr [rcx], rax
+  0x143ccf5d2: mov rcx, rdi
+  0x143ccf5d5: add rsp, 0x28
+  0x143ccf5d9: pop rdi
+  0x143ccf5da: pop rsi
+  0x143ccf5db: jmp 0x144d9dab0
+=== 0x143cd38f0 ===
+  0x143cd38f0: push rsi
+  0x143cd38f1: push rdi
+  0x143cd38f2: sub rsp, 0x48
+  0x143cd38f6: cmp dword ptr [rcx + 0x10], 0
+  0x143cd38fa: mov rsi, rcx
+  0x143cd38fd: js 0x143cd3953
+  0x143cd38ff: lea rdi, [rip + 0x6e00bda]
+  0x143cd3906: mov rcx, rdi
+  0x143cd3909: call 0x140004b40
+  0x143cd390e: mov rax, qword ptr [rsi]
+  0x143cd3911: cmp dword ptr [rax + 0x28], 0
+  0x143cd3915: mov r10d, dword ptr [rax + 0x38]
+  0x143cd3919: mov r11d, dword ptr [rax + 0x30]
+  0x143cd391d: mov esi, dword ptr [rax + 0x20]
+  0x143cd3920: mov r9d, dword ptr [rax + 0x18]
+  0x143cd3924: mov r8d, dword ptr [rax + 0x10]
+  0x143cd3928: mov ecx, dword ptr [rax]
+  0x143cd392a: mov edx, dword ptr [rax + 8]
+  0x143cd392d: mov dword ptr [rsp + 0x38], r10d
+  0x143cd3932: mov dword ptr [rsp + 0x30], r11d
+  0x143cd3937: mov dword ptr [rsp + 0x20], esi
+  0x143cd393b: setne byte ptr [rsp + 0x28]
+  0x143cd3940: call 0x143ce15f0
+  0x143cd3945: mov rcx, rdi
+  0x143cd3948: add rsp, 0x48
+  0x143cd394c: pop rdi
+  0x143cd394d: pop rsi
+  0x143cd394e: jmp 0x144d9dab0
+text file: mission_text.json keys=['missions', 'other_keys'] type=<class 'dict'>
+text file: table_0019be000.json keys=['0001768b', '000264b4', '0002c0ad', '00052e3a', '00061c8d'] type=<class 'dict'>

@@ -1,0 +1,47 @@
+Created At: 2026-11-25T17:55:54-05:00
+Completed At: 2026-11-25T17:55:59-05:00
+Command exited with code 0.
+
+Command output:
+0x14678d470: b'--\r\n\x00\x00\x00\x00"\r\n\x00"\r\n\r\n\x00\x00\x00\r\n\x00\x00%\x00s\x00\x00\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00multiplayeractivity\x00\x00\x00\x00\x00activity\x00\x00\x00\x00\x00\x00\x00\x00GetPackagesByPackageFamily\x00\x00\x00\x00\x00\x00stringsToVerify\x00privacy\x00orderBy\x00ModernGamertagSuffix\x00\x00\x00\x00InitializeApiImplEx\x00\x00\x00\x00\x00timeWindow\x00\x00\x00\x00\x00\x00AppDisplayPicRaw\x00\x00\x00\x00\x00\x00\x00\x00GameDisplayPicRaw\x00\x00\x00\x00\x00\x00\x00broadcast\x00\x00\x00\x00\x00\x00\x00bad cast\x00\x00\x00\x00\x00\x00\x00\x00XErrorReport\x00\x00\x00\x00invalid vector<T'
+=== 0x1409dfb4a ===
+  0x1409dfb4a: mov      ecx, dword ptr [rip + 0x6428fdc]
+  0x1409dfb50: mov      rdx, qword ptr gs:[0x58]
+  0x1409dfb59: mov      r12, rax
+  0x1409dfb5c: mov      rcx, qword ptr [rdx + rcx*8]
+  0x1409dfb60: cmp      byte ptr [rcx + 8], 0
+  0x1409dfb67: jne      0x1409dfa40
+  0x1409dfb6d: call     0x1455db994
+  0x1409dfb72: mov      rax, qword ptr [r13]
+  0x1409dfb76: mov      r12, rax
+  0x1409dfb79: jmp      0x1409dfa40
+  0x1409dfb7e: call     0x1455db994
+  0x1409dfb83: jmp      0x1409dfa1a
+  0x1409dfb88: call     0x1455db994
+  0x1409dfb8d: mov      eax, dword ptr [rip + 0x6428f99]
+  0x1409dfb93: mov      rcx, qword ptr gs:[0x58]
+  0x1409dfb9c: mov      rax, qword ptr [rcx + rax*8]
+  0x1409dfba0: mov      rcx, qword ptr [r13]
+  0x1409dfba4: cmp      byte ptr [rax + 8], 0
+  0x1409dfbab: mov      qword ptr [rsp + 0x48], rcx
+  0x1409dfbb0: jne      0x1409dfa88
+  0x1409dfbb6: call     0x1455db994
+  0x1409dfbbb: mov      eax, dword ptr [rip + 0x6428f6b]
+  0x1409dfbc1: mov      rcx, qword ptr gs:[0x58]
+  0x1409dfbca: mov      rax, qword ptr [rcx + rax*8]
+  0x1409dfbce: lea      rcx, [rsp + 0x30]
+  0x1409dfbd3: or       qword ptr [rcx + 0x10], r15
+  0x1409dfbd7: mov      qword ptr [r13], rcx
+  0x1409dfbdb: mov      al, byte ptr [rax + 8]
+  0x1409dfbe1: test     al, al
+  0x1409dfbe3: jne      0x1409dfa95
+  0x1409dfbe9: call     0x1455db994
+  0x1409dfbee: mov      eax, dword ptr [rip + 0x6428f38]
+  0x1409dfbf4: mov      rcx, qword ptr gs:[0x58]
+  0x1409dfbfd: mov      rax, qword ptr [rcx + rax*8]
+  0x1409dfc01: cmp      byte ptr [rax + 8], 0
+  0x1409dfc08: jne      0x1409dfa95
+  0x1409dfc0e: call     0x1455db994
+  0x1409dfc13: jmp      0x1409dfa95
+  0x1409dfc18: int3     
+  0x1409dfc19: jmp      0x1409dfad5

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Respawn__MetaData>
+  <AnimSceneCollections>
+    <Item key="RSP_LEAN_CAR">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@General@RSP_Leancar@RSP_Leancar</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@car_lean@rsp_openworld_paired_respawn_car_lean</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+        </Item>			
+      </Scenes>
+    </Item>
+    <Item key="RSP_INCAR">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@General@RSP_INCAR@RSP_INCAR</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionOr">
+			<Conditions>		  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>RAGE_RESPAWN</Name>
+				</Condition>
+			  </Condition>
+			  <Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>			  
+			</Conditions>
+		   </Condition>	
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_LEAN_WALL_BACK">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@General@RSP_LEAN_WALL_BACK@RSP_LEAN_WALL_BACK_CELLPHONE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>	  
+        </Item>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@General@RSP_LEAN_WALL_BACK@RSP_LEAN_WALL_BACK_GANGVIBE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />			
+          </Camera>	  
+        </Item>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@General@RSP_LEAN_WALL_BACK@RSP_LEAN_WALL_BACK_INTERESTED</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_SIT_GROUND">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_GROUND@RSP_SIT_GROUND_GENERIC</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>IS_NIGHT</Name>
+				</Condition>
+			  </Condition>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>	
+			</Conditions>
+		   </Condition>			  
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_GROUND@RSP_SIT_GROUND_CELLPHONE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>		  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>IS_NIGHT</Name>
+				</Condition>
+			  </Condition>	
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>				  
+			</Conditions>
+		   </Condition>				  
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_SIT_GROUND_BACK_ON_WALL">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_GROUND_BACK_ON_WALL@RSP_SIT_GROUND_BACK_ON_WALL</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>		  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>IS_NIGHT</Name>
+				</Condition>
+			  </Condition>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>	
+			</Conditions>
+		   </Condition>				  
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@ground@rsp_openworld_paired_respawn_ground</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>		  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>IS_NIGHT</Name>
+				</Condition>
+			  </Condition> 			  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>				  
+			</Conditions>		
+		   </Condition>		     
+        </Item>			
+      </Scenes>
+    </Item>
+    <Item key="RSP_STAND">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_STAND@RSP_STAND_ARMSCROSSED</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_STAND@RSP_STAND_GENERIC_GANGVIBE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>			  	  
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_STAND@RSP_STAND_CELLPHONE_GANGVIBE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>		  
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_STAND@RSP_STAND_WAIT</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@stand@rsp_openworld_paired_respawn_stand</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>    
+        </Item>		
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@stand_hug@rsp_openworld_paired_respawn_stand_hug</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>    
+        </Item>			
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@stand_lean_shoulder@rsp_openworld_paired_respawn_stand_lean_shoulder</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>    
+        </Item>					
+      </Scenes>
+    </Item>
+    <Item key="RSP_SIT_BENCH">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_BENCH@RSP_SIT_BENCH</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionNot">
+			<Condition type="CAIConditionReferenced">
+				<Name>BAD_RESPAWN_WEATHER</Name>
+			</Condition>
+		  </Condition>
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_BENCH@RSP_SIT_BENCH_NO_BACK_HUNCH</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>		  
+			  <Condition type="CAIConditionReferenced">
+				<Name>RAGE_RESPAWN</Name>
+			  </Condition>			  
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>				  
+			</Conditions>
+		   </Condition>		  
+        </Item>
+        <Item>
+          <AnimScene>scripted@respawns@player@general@RSP_SIT_BENCH@RSP_SIT_BENCH_NO_BACK_WAKE</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>		  
+			  <Condition type="CAIConditionReferenced">
+				<Name>RAGE_RESPAWN</Name>
+			  </Condition>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>	
+			</Conditions>
+		   </Condition>	
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_PAIRED_GROUND_LIE_DOWN">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@Paired@Ground_Lie_Down@RSP_OPENWORLD_PAIRED_RESPAWN_GROUND_LIE_DOWN</AnimScene>   
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>				  
+			</Conditions>
+		   </Condition>				  
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_PAIRED_BENCH">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@Paired@Bench@RSP_OPENWORLD_PAIRED_RESPAWN_BENCH</AnimScene>   
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>
+		  <Condition type="CAIConditionAnd">
+			<Conditions>
+			  <Condition type="CAIConditionNot">
+				<Condition type="CAIConditionReferenced">
+				  <Name>BAD_RESPAWN_WEATHER</Name>
+				</Condition>
+			  </Condition>				  
+			</Conditions>
+		   </Condition>	   	  
+        </Item>
+      </Scenes>
+    </Item>
+    <Item key="RSP_PAIRED_CAR">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@car@rsp_openworld_paired_respawn_car</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>    
+        </Item>	
+      </Scenes>
+    </Item>
+    <Item key="RSP_PAIRED_CAR_LEAN">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@respawns@player@paired@car_lean@rsp_openworld_paired_respawn_car_lean</AnimScene>
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>    
+        </Item>	
+      </Scenes>
+    </Item>	
+    <Item key="RSP_PAIRED_LEAN_WALL">
+      <Scenes>
+        <Item>
+          <AnimScene>scripted@Respawns@Player@Paired@Wall_Lean@RSP_OPENWORLD_PAIRED_RESPAWN_WALL_LEAN</AnimScene>		             
+          <Camera>
+            <Pos x="0.000000" y="0.000000" z="0.000000" />
+            <Rot x="0.000000" y="0.000000" z="0.000000" />
+            <FOV value="1.400000" />
+          </Camera>	  
+        </Item>
+      </Scenes>
+    </Item>
+  </AnimSceneCollections>
+</Respawn__MetaData>

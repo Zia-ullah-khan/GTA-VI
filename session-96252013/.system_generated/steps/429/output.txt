@@ -1,0 +1,41 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_all_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -540,10 +540,17 @@
+     draw_card(ax, t3_x, 8.6, pw, 1.05, "67. Ride or Die", "Armored Extraction Van", "Track 3", "heist", fontsize=8.2)
+     draw_arrow(ax, (t3_x + pw/2, 10.3), (t3_x + pw/2, 9.65), color="#fde047")
+     
+-    # Arrows from 61. Sinfrontera Scope Out into 62, 63, and 64 simultaneously!
+-    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.9), (t1_x, 10.8), color="#fbbf24", rad=-0.15)
+-    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.9), (t2_x, 10.8), color="#fbbf24", rad=-0.25)
+-    draw_arrow(ax, (s1_x2 + w, heist_scope_y + 0.9), (t3_x, 10.8), color="#fbbf24", rad=-0.35)
++    # Top Distribution Bus Bar from 61. Sinfrontera Scope Out to Tracks 1, 2, 3
++    y_bus = 11.65
++    gx_bus = 11.4
++    m61_exit_y = heist_scope_y + 0.7
++    ax.plot([s1_x2 + w, gx_bus, gx_bus, t3_x + pw/2], [m61_exit_y, m61_exit_y, y_bus, y_bus], color="#fbbf24", lw=2.0, zorder=2)
++    
++    # Drop vertical arrows into tops of 62, 63, and 64
++    top_card_y = 10.3 + 1.05
++    draw_arrow(ax, (t1_x + pw/2, y_bus), (t1_x + pw/2, top_card_y), color="#fbbf24")
++    draw_arrow(ax, (t2_x + pw/2, y_bus), (t2_x + pw/2, top_card_y), color="#fbbf24")
++    draw_arrow(ax, (t3_x + pw/2, y_bus), (t3_x + pw/2, top_card_y), color="#fbbf24")
+     
+     # 70. THE CARTEL HEIST CLIMAX
+     heist_fin_y = 3.6
+@@ -550,8 +550,9 @@
+     
+-    # 3 Arrows from Track 1 (68), Track 2 (69), Track 3 (67) converge into 70!
+-    draw_arrow(ax, (t1_x + pw/2, 6.9), (14.5, heist_fin_y + 1.35), color="#ef4444")
+-    draw_arrow(ax, (t2_x + pw/2, 6.9), (17.6, heist_fin_y + 1.35), color="#ef4444")
+-    draw_arrow(ax, (t3_x + pw/2, 8.6), (20.5, heist_fin_y + 1.35), color="#ef4444")
++    # Clean non-crossing convergence into 70
++    draw_arrow(ax, (t1_x + pw/2, 6.9), (t1_x + pw/2, heist_fin_y + 1.35), color="#ef4444", lw=1.8)
++    draw_arrow(ax, (t2_x + pw/2, 6.9), (t2_x + pw/2, heist_fin_y + 1.35), color="#ef4444", lw=1.8)
++    ax.plot([t3_x + pw/2, t3_x + pw/2, 21.0], [8.6, 5.8, 5.8], color="#ef4444", lw=1.8, zorder=2)
++    draw_arrow(ax, (21.0, 5.8), (21.0, heist_fin_y + 1.35), color="#ef4444", lw=1.8)
+     
+     # Transition to Chapter 4
+     trans_x = 13.5 + 4.1 - w/2
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

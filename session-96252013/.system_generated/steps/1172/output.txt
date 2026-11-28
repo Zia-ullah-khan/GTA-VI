@@ -1,0 +1,109 @@
+Created At: 2026-11-25T17:52:46-05:00
+Completed At: 2026-11-25T17:53:00-05:00
+Command exited with code 0.
+
+Command output:
+=== PSIN_1 RVA=0x9df92f ===
+  0x1409df90f: int3     
+  0x1409df910: mov      rax, r8
+  0x1409df913: test     r9d, r9d
+  0x1409df916: jle      0x1409df91b
+  0x1409df918: mov      byte ptr [rax], 0
+  0x1409df91b: ret      
+  0x1409df91c: int3     
+  0x1409df91d: int3     
+  0x1409df91e: int3     
+  0x1409df91f: int3     
+  0x1409df920: push     r14
+  0x1409df922: push     rsi
+  0x1409df923: push     rdi
+  0x1409df924: push     rbx
+  0x1409df925: sub      rsp, 0x138
+  0x1409df92c: cmp      dword ptr [r8], 0x4e495350
+  0x1409df933: mov      rsi, qword ptr [rsp + 0x188]
+  0x1409df93b: mov      qword ptr [rdx], 0
+  0x1409df942: jne      0x1409df95c
+  0x1409df944: mov      qword ptr [rsp + 0x20], rsi
+  0x1409df949: call     0x1409df9d0
+  0x1409df94e: nop      
+  0x1409df94f: add      rsp, 0x138
+  0x1409df956: pop      rbx
+  0x1409df957: pop      rdi
+=== PSIN_2 RVA=0x4065972 ===
+  0x144065952: add      byte ptr [rax], al
+  0x144065954: call     qword ptr [rax]
+  0x144065956: mov      al, 1
+  0x144065958: add      rsp, 0x28
+  0x14406595c: pop      rbx
+  0x14406595d: pop      rdi
+  0x14406595e: pop      rsi
+  0x14406595f: pop      r14
+  0x144065961: ret      
+  0x144065962: int3     
+  0x144065963: int3     
+  0x144065964: int3     
+  0x144065965: int3     
+  0x144065966: int3     
+  0x144065967: int3     
+  0x144065968: int3     
+  0x144065969: int3     
+  0x14406596a: int3     
+  0x14406596b: int3     
+  0x14406596c: int3     
+  0x14406596d: int3     
+  0x14406596e: int3     
+  0x14406596f: int3     
+  0x144065970: cmp      ecx, 0x4e495350
+  0x144065976: sete     al
+=== _0x9F423A432B425A7F RVA=0x3cd33e0 ===
+  0x143cd33c0: mov      eax, dword ptr [rsi]
+  0x143cd33c2: movabs   rcx, 0xf3d1e646c85d1103
+  0x143cd33cc: mov      qword ptr [rax], rcx
+  0x143cd33cf: jmp      0x143cd338f
+  0x143cd33d1: int3     
+  0x143cd33d2: int3     
+  0x143cd33d3: int3     
+  0x143cd33d4: int3     
+  0x143cd33d5: int3     
+  0x143cd33d6: int3     
+  0x143cd33d7: int3     
+  0x143cd33d8: int3     
+  0x143cd33d9: int3     
+  0x143cd33da: int3     
+  0x143cd33db: int3     
+  0x143cd33dc: int3     
+  0x143cd33dd: int3     
+  0x143cd33de: int3     
+  0x143cd33df: int3     
+  0x143cd33e0: push     rsi
+  0x143cd33e1: push     rdi
+  0x143cd33e2: sub      rsp, 0x28
+  0x143cd33e6: cmp      dword ptr [rcx + 0x10], 0
+  0x143cd33ea: mov      rsi, rcx
+  0x143cd33ed: js       0x143cd341f
+=== _0x480014E54CD33903 RVA=0x3cd6c10 ===
+  0x143cd6bf0: jmp      0x144d9dab0
+  0x143cd6bf5: mov      rax, qword ptr [rsi]
+  0x143cd6bf8: movabs   rcx, 0x86627fef930149fe
+  0x143cd6c02: mov      qword ptr [rax], rcx
+  0x143cd6c05: jmp      0x143cd6bbf
+  0x143cd6c07: int3     
+  0x143cd6c08: int3     
+  0x143cd6c09: int3     
+  0x143cd6c0a: int3     
+  0x143cd6c0b: int3     
+  0x143cd6c0c: int3     
+  0x143cd6c0d: int3     
+  0x143cd6c0e: int3     
+  0x143cd6c0f: int3     
+  0x143cd6c10: push     rsi
+  0x143cd6c11: push     rdi
+  0x143cd6c12: sub      rsp, 0x28
+  0x143cd6c16: cmp      dword ptr [rcx + 0x10], 0
+  0x143cd6c1a: mov      rsi, rcx
+  0x143cd6c1d: js       0x143cd6c4d
+  0x143cd6c1f: lea      rdi, [rip + 0x6dfd8ba]
+  0x143cd6c26: mov      rcx, rdi
+  0x143cd6c29: call     0x140004b40
+  0x143cd6c2e: mov      rax, qword ptr [rsi]
+  0x143cd6c31: cmp      dword ptr [rax + 8], 0

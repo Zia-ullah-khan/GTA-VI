@@ -1,0 +1,696 @@
+Created At: 2026-11-25T18:15:48-05:00
+Completed At: 2026-11-25T18:15:52-05:00
+Command exited with code 0.
+
+Command output:
+--- Cases in func_0027E5 (4835-4900) ---
+4835:         v_0028CA_0 = load_i32(p0, 0x10);
+4836:         local_1 = load_i32(p0, 0x10);
+4837:         switch (as_i32(v_0028CA_0))
+4838:         {
+4839:         case 0:
+4840:         goto label_0028D9;
+4841:         case 1:
+4842:         goto label_002BB5;
+4843:         case 2:
+4844:         goto label_002CEE;
+4845:         case 3:
+4846:         goto label_003254;
+4847:         case 4:
+4848:         goto label_003334;
+4849:         case 5:
+4850:         goto label_003441;
+4851:         case 6:
+4852:         goto label_00368A;
+4853:         case 7:
+4854:         goto label_003B11;
+4855:         case 8:
+4856:         goto label_003AD7;
+4857:         case 9:
+4858:         goto label_003B9E;
+4859:         case 10:
+4860:         goto label_003C47;
+4861:         case 11:
+4862:         goto label_003C90;
+4863:         default:
+4864:         goto label_0028D7;
+4865:         }
+4866:         label_0028D7: ;
+4867:         return;
+4868:         label_0028D9: ;
+4869:         v_0028DE_0 = load_bytes(byte_offset(p0, 0x20), 0x0, 4);
+4870:         zero_bytes(Vm.Address(locals, 9), 4);
+4871:         if (((as_u32(((as_i32(v_0028DE_0[0]) == as_i32(local_9)))) == 0)))
+4872:         {
+4873:         goto label_0028F4;
+4874:         }
+4875:         else
+4876:         {
+4877:         goto label_0028F1;
+4878:         }
+4879:         label_0028F1: ;
+4880:         goto label_00294A;
+4881:         label_0028F4: ;
+4882:         if (((as_u64(as_u64(Vm.Globals(0x48391B87U)[0x1D8])) != 0)))
+4883:         {
+4884:         goto label_002904;
+4885:         }
+4886:         else
+4887:         {
+4888:         goto label_002901;
+4889:         }
+4890:         label_002901: ;
+4891:         goto label_00294A;
+4892:         label_002904: ;
+4893:         local_10 = 0;
+4894:         goto label_00293F;
+4895:         label_00290C: ;
+4896:         v_002920_0 = load_bytes(byte_offset(p0, 0x20), 0x0, 4);
+4897:         if (((as_u32(((as_i32(load_i32(Operations.array_element_address(as_u64(Vm.Globals(0x48391B87U)[0x1D8]), local_10), 0x0)) == as_i32(v_002920_0[0])))) == 0)))
+4898:         {
+4899:         goto label_00293C;
+4900:         }
+4901:         else
+4902:         {
+4903:         goto label_002929;
+4904:         }
+4905:         label_002929: ;
+4906:         zero_bytes(Operations.array_element_address(as_u64(Vm.Globals(0x48391B87U)[0x1D8]), local_10), 8);
+4907:         goto label_00294A;
+4908:         label_00293C: ;
+4909:         local_10++;
+4910:         goto label_00293F;
+--- Key calls in 4911-6079 ---
+4911: label_00293F: ;
+4914: goto label_00290C;
+4918: goto label_00294A;
+4920: label_00294A: ;
+4921: v_00294F_0 = load_bytes(byte_offset(p0, 0x20), 0x0, 4);
+4922: v_002957_1 = Native.AUDIO.STOP_SCRIPTED_CONVERSATION(v_00294F_0[0], 0, 0); // RVA: 0x04BF06D0
+4923: zero_bytes(byte_offset(p0, 0x20), 4);
+4924: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D7)) == 0)))
+4926: goto label_002A41;
+4930: goto label_002977;
+4932: label_002977: ;
+4933: local_11 = load_u64(p0, 0x8);
+4935: if (((as_u32(((as_i32(((as_u32(load_i32(local_11, 0x27C)) & as_u32(local_12)))) == as_i32(local_12)))) != 0)))
+4937: goto label_0029AE;
+4941: goto label_002997;
+4943: label_002997: ;
+4944: store_i32(byte_offset(local_11, 0x27C), 0x0, ((as_u32(load_i32(byte_offset(local_11, 0x27C), 0x0)) | as_u32(((1UL << unchecked((int)(17))))))));
+4945: goto label_0029AE;
+4946: label_0029AE: ;
+4948: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_13))))
+4950: goto label_0029C1;
+4954: goto label_0029BF;
+4956: label_0029BF: ;
+4958: label_0029C1: ;
+4959: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+4961: goto label_002A20;
+4965: goto label_0029D0;
+4967: label_0029D0: ;
+4969: local_15 = 0xFFFFFFFFBEF72BB6;
+4971: store_i32(local_14, 0x0, local_15);
+4972: v_0029F4_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+4974: v_002A00_2 = load_i32(p0, 0x10);
+4975: v_002A00_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+4976: v_002A08_4 = Native._0x6FBAC3921B05138F(v_002A00_3); // RVA: 0x0445F2C0
+4977: Native._0xE16D7CEF323886E4(v_0029D6_0[0], (-1), v_0029F4_1, v_002A00_2, v_002A08_4[0], v_002A08_4[1]); // RVA: 0x044BDFC0
+4978: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+4979: goto label_002A20;
+4980: label_002A20: ;
+4981: store_i32(p0, 0x10, local_13);
+4982: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+4984: goto label_002A3F;
+4988: goto label_002A37;
+4990: label_002A37: ;
+4991: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+4992: goto label_002A3F;
+4993: label_002A3F: ;
+4995: label_002A41: ;
+4996: if (((as_u32(load_i32(load_u64(p0, 0x8), 0x238)) == 0)))
+4998: goto label_002AB9;
+5002: goto label_002A4B;
+5004: label_002A4B: ;
+5006: if (((as_u32(((as_i32(((as_u32(load_i32(load_u64(p0, 0x8), 0x27C)) & as_u32(local_17)))) == as_i32(local_17)))) != 0)))
+5008: goto label_002AB9;
+5012: goto label_002A64;
+5014: label_002A64: ;
+5015: local_18 = load_u64(p0, 0x8);
+5016: v_002A6A_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5017: v_002A75_1 = load_bytes(load_u64(p0, 0x8), 0x268, 16);
+5018: v_002A81_2 = Native.PED.IS_PED_IN_VEHICLE(v_002A6A_0[0], v_002A6A_0[1], v_002A75_1[0], v_002A75_1[1], 0, 0, 1); // RVA: 0x04BF5FA0
+5021: goto label_002A9A;
+5025: goto label_002A8C;
+5027: label_002A8C: ;
+5028: Imports.module_0xF3A7D3E23A9D193E.func_00F91D(load_u64(p0, 0x8), 1, 0);
+5030: label_002A9A: ;
+5031: v_002A9D_0 = func_000973(load_u64(p0, 0x8));
+5034: goto label_003CC3;
+5038: goto label_002AA8;
+5040: label_002AA8: ;
+5041: v_002AAE_0 = load_bytes(load_u64(p0, 0x8), 0x268, 16);
+5042: func_00086B(load_u64(p0, 0x8), v_002AAE_0[0], v_002AAE_0[1]);
+5043: goto label_002AB9;
+5044: label_002AB9: ;
+5045: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D6)) == 0)))
+5047: goto label_002AEB;
+5051: goto label_002AC3;
+5053: label_002AC3: ;
+5055: if (((as_u32(((as_i32(((as_u32(load_i32(load_u64(p0, 0x8), 0x27C)) & as_u32(local_19)))) == as_i32(local_19)))) != 0)))
+5057: goto label_002AEB;
+5061: goto label_002ADD;
+5063: label_002ADD: ;
+5064: Imports.module_0xF3A7D3E23A9D193E.func_00F91D(load_u64(p0, 0x8), 1, 0);
+5066: label_002AEB: ;
+5067: local_20 = load_u64(p0, 0x8);
+5069: if (((as_u32(((as_i32(((as_u32(load_i32(local_20, 0x27C)) & as_u32(local_21)))) == as_i32(local_21)))) != 0)))
+5071: goto label_002B22;
+5075: goto label_002B0B;
+5077: label_002B0B: ;
+5078: store_i32(byte_offset(local_20, 0x27C), 0x0, ((as_u32(load_i32(byte_offset(local_20, 0x27C), 0x0)) | as_u32(((1UL << unchecked((int)(17))))))));
+5079: goto label_002B22;
+5080: label_002B22: ;
+5082: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_22))))
+5084: goto label_002B35;
+5088: goto label_002B33;
+5090: label_002B33: ;
+5092: label_002B35: ;
+5093: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5095: goto label_002B94;
+5099: goto label_002B44;
+5101: label_002B44: ;
+5103: local_24 = 0xFFFFFFFFBEF72BB6;
+5105: store_i32(local_23, 0x0, local_24);
+5106: v_002B68_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5108: v_002B74_2 = load_i32(p0, 0x10);
+5109: v_002B74_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5110: v_002B7C_4 = Native._0x6FBAC3921B05138F(v_002B74_3); // RVA: 0x0445F2C0
+5111: Native._0xE16D7CEF323886E4(v_002B4A_0[0], (-1), v_002B68_1, v_002B74_2, v_002B7C_4[0], v_002B7C_4[1]); // RVA: 0x044BDFC0
+5112: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5113: goto label_002B94;
+5114: label_002B94: ;
+5115: store_i32(p0, 0x10, local_22);
+5116: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5118: goto label_002BB3;
+5122: goto label_002BAB;
+5124: label_002BAB: ;
+5125: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5126: goto label_002BB3;
+5127: label_002BB3: ;
+5129: label_002BB5: ;
+5130: local_26 = load_u64(p0, 0x8);
+5131: v_002BBB_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5132: v_002BC3_1 = Native.PED.IS_PED_SWIMMING_UNDER_WATER(v_002BBB_0[0], v_002BBB_0[1]); // RVA: 0x04BD1A30
+5135: goto label_003CC3;
+5139: goto label_002BD1;
+5141: label_002BD1: ;
+5142: local_27 = load_u64(p0, 0x8);
+5143: v_002BD7_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5144: v_002BDF_1 = Native.ENTITY.IS_ENTITY_IN_WATER(v_002BD7_0[0], v_002BD7_0[1]); // RVA: 0x03C0E0A0
+5147: goto label_003CC3;
+5151: goto label_002BED;
+5153: label_002BED: ;
+5155: if (((as_u32(((as_i32(((as_u32(load_i32(load_u64(p0, 0x8), 0x27C)) & as_u32(local_28)))) == as_i32(local_28)))) == 0)))
+5157: goto label_002C46;
+5161: goto label_002C06;
+5163: label_002C06: ;
+5165: if (((as_u32(((as_i32(((as_u32(load_i32(load_u64(p0, 0x8), 0x27C)) & as_u32(local_29)))) == as_i32(local_29)))) != 0)))
+5167: goto label_002C2E;
+5171: goto label_002C20;
+5173: label_002C20: ;
+5174: Imports.module_0xF3A7D3E23A9D193E.func_00F91D(load_u64(p0, 0x8), 1, 0);
+5176: label_002C2E: ;
+5178: v_002C3B_1 = func_001AF1(load_u64(p0, 0x8), 0x4D195F1, 1);
+5179: store_i32(v_002C3B_0, 0x20, v_002C3B_1);
+5180: goto label_002C5B;
+5181: label_002C46: ;
+5183: v_002C53_1 = func_001AF1(load_u64(p0, 0x8), 0x7A07A898, 1);
+5184: store_i32(v_002C53_0, 0x20, v_002C53_1);
+5185: goto label_002C5B;
+5186: label_002C5B: ;
+5188: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_30))))
+5190: goto label_002C6E;
+5194: goto label_002C6C;
+5196: label_002C6C: ;
+5198: label_002C6E: ;
+5199: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5201: goto label_002CCD;
+5205: goto label_002C7D;
+5207: label_002C7D: ;
+5209: local_32 = 0xFFFFFFFFBEF72BB6;
+5211: store_i32(local_31, 0x0, local_32);
+5212: v_002CA1_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5214: v_002CAD_2 = load_i32(p0, 0x10);
+5215: v_002CAD_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5216: v_002CB5_4 = Native._0x6FBAC3921B05138F(v_002CAD_3); // RVA: 0x0445F2C0
+5217: Native._0xE16D7CEF323886E4(v_002C83_0[0], (-1), v_002CA1_1, v_002CAD_2, v_002CB5_4[0], v_002CB5_4[1]); // RVA: 0x044BDFC0
+5218: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5219: goto label_002CCD;
+5220: label_002CCD: ;
+5221: store_i32(p0, 0x10, local_30);
+5222: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5224: goto label_002CEC;
+5228: goto label_002CE4;
+5230: label_002CE4: ;
+5231: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5232: goto label_002CEC;
+5233: label_002CEC: ;
+5235: label_002CEE: ;
+5237: v_002CFF_0 = Native._0xFCF521ABE199E7EF(0x78088E3A, 1, local_2); // RVA: 0x04BC6130
+5238: v_002D0F_1 = load_i32(p0, 0x20);
+5242: goto label_002D20;
+5246: goto label_002D1B;
+5248: label_002D1B: ;
+5250: goto label_002D66;
+5251: label_002D20: ;
+5252: if (((as_u64(as_u64(Vm.Globals(0x48391B87U)[0x1D8])) != 0)))
+5254: goto label_002D32;
+5258: goto label_002D2D;
+5260: label_002D2D: ;
+5262: goto label_002D66;
+5263: label_002D32: ;
+5265: goto label_002D59;
+5266: label_002D3A: ;
+5267: if (((as_u32(((as_i32(load_i32(Operations.array_element_address(as_u64(Vm.Globals(0x48391B87U)[0x1D8]), local_35), 0x0)) == as_i32(load_i32(p0, 0x20))
+5269: goto label_002D56;
+5273: goto label_002D51;
+5275: label_002D51: ;
+5277: goto label_002D66;
+5278: label_002D56: ;
+5280: goto label_002D59;
+5281: label_002D59: ;
+5284: goto label_002D3A;
+5288: goto label_002D64;
+5290: label_002D64: ;
+5292: goto label_002D66;
+5293: label_002D66: ;
+5296: goto label_002D6E;
+5300: goto label_002D69;
+5302: label_002D69: ;
+5304: goto label_002D7D;
+5305: label_002D6E: ;
+5306: v_002D71_0 = Native._0x61728345F34C2E6E(load_i32(p0, 0x20)); // RVA: 0x04BF4C90
+5308: goto label_002D7D;
+5309: label_002D7D: ;
+5312: goto label_003CC3;
+5316: goto label_002D83;
+5318: label_002D83: ;
+5319: local_36 = load_u64(p0, 0x8);
+5320: v_002D89_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5321: v_002D97_1 = Native._0x2C024B662D58A645(0x7BC5CC68); // RVA: 0x04466560
+5322: v_002DA1_2 = Native._0xAEB48D53CC973E22(v_002D89_0[0], v_002D89_0[1], v_002D97_1, 0); // RVA: 0x03C0E100
+5325: goto label_002E86;
+5329: goto label_002DAF;
+5331: label_002DAF: ;
+5332: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D6)) != 0)))
+5334: goto label_002E86;
+5338: goto label_002DBC;
+5340: label_002DBC: ;
+5341: local_37 = load_u64(p0, 0x8);
+5343: if (((as_u32(((as_i32(((as_u32(load_i32(local_37, 0x27C)) & as_u32(local_38)))) == as_i32(local_38)))) != 0)))
+5345: goto label_002DF3;
+5349: goto label_002DDC;
+5351: label_002DDC: ;
+5352: store_i32(byte_offset(local_37, 0x27C), 0x0, ((as_u32(load_i32(byte_offset(local_37, 0x27C), 0x0)) | as_u32(((1UL << unchecked((int)(14))))))));
+5353: goto label_002DF3;
+5354: label_002DF3: ;
+5356: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_39))))
+5358: goto label_002E06;
+5362: goto label_002E04;
+5364: label_002E04: ;
+5366: label_002E06: ;
+5367: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5369: goto label_002E65;
+5373: goto label_002E15;
+5375: label_002E15: ;
+5377: local_41 = 0xFFFFFFFFBEF72BB6;
+5379: store_i32(local_40, 0x0, local_41);
+5380: v_002E39_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5382: v_002E45_2 = load_i32(p0, 0x10);
+5383: v_002E45_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5384: v_002E4D_4 = Native._0x6FBAC3921B05138F(v_002E45_3); // RVA: 0x0445F2C0
+5385: Native._0xE16D7CEF323886E4(v_002E1B_0[0], (-1), v_002E39_1, v_002E45_2, v_002E4D_4[0], v_002E4D_4[1]); // RVA: 0x044BDFC0
+5386: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5387: goto label_002E65;
+5388: label_002E65: ;
+5389: store_i32(p0, 0x10, local_39);
+5390: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5392: goto label_002E84;
+5396: goto label_002E7C;
+5398: label_002E7C: ;
+5399: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5400: goto label_002E84;
+5401: label_002E84: ;
+5403: label_002E86: ;
+5405: v_002E98_1 = load_i32(byte_offset(p0, 0x20), 0x0);
+5406: store_i32(Vm.Address(v_002E94_0, 0), 0x0, 0x4D195F1);
+5411: goto label_003121;
+5415: goto label_002EAD;
+5417: label_002EAD: ;
+5418: v_002EB0_0 = func_000973(load_u64(p0, 0x8));
+5421: goto label_002F4E;
+5425: goto label_002EBB;
+5427: label_002EBB: ;
+5429: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_45))))
+5431: goto label_002ECE;
+5435: goto label_002ECC;
+5437: label_002ECC: ;
+5439: label_002ECE: ;
+5440: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5442: goto label_002F2D;
+5446: goto label_002EDD;
+5448: label_002EDD: ;
+5450: local_47 = 0xFFFFFFFFBEF72BB6;
+5452: store_i32(local_46, 0x0, local_47);
+5453: v_002F01_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5455: v_002F0D_2 = load_i32(p0, 0x10);
+5456: v_002F0D_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5457: v_002F15_4 = Native._0x6FBAC3921B05138F(v_002F0D_3); // RVA: 0x0445F2C0
+5458: Native._0xE16D7CEF323886E4(v_002EE3_0[0], (-1), v_002F01_1, v_002F0D_2, v_002F15_4[0], v_002F15_4[1]); // RVA: 0x044BDFC0
+5459: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5460: goto label_002F2D;
+5461: label_002F2D: ;
+5462: store_i32(p0, 0x10, local_45);
+5463: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5465: goto label_002F4C;
+5469: goto label_002F44;
+5471: label_002F44: ;
+5472: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5473: goto label_002F4C;
+5474: label_002F4C: ;
+5476: label_002F4E: ;
+5477: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D6)) == 0)))
+5479: goto label_002FEE;
+5483: goto label_002F5B;
+5485: label_002F5B: ;
+5487: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_49))))
+5489: goto label_002F6E;
+5493: goto label_002F6C;
+5495: label_002F6C: ;
+5497: label_002F6E: ;
+5498: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5500: goto label_002FCD;
+5504: goto label_002F7D;
+5506: label_002F7D: ;
+5508: local_51 = 0xFFFFFFFFBEF72BB6;
+5510: store_i32(local_50, 0x0, local_51);
+5511: v_002FA1_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5513: v_002FAD_2 = load_i32(p0, 0x10);
+5514: v_002FAD_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5515: v_002FB5_4 = Native._0x6FBAC3921B05138F(v_002FAD_3); // RVA: 0x0445F2C0
+5516: Native._0xE16D7CEF323886E4(v_002F83_0[0], (-1), v_002FA1_1, v_002FAD_2, v_002FB5_4[0], v_002FB5_4[1]); // RVA: 0x044BDFC0
+5517: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5518: goto label_002FCD;
+5519: label_002FCD: ;
+5520: store_i32(p0, 0x10, local_49);
+5521: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5523: goto label_002FEC;
+5527: goto label_002FE4;
+5529: label_002FE4: ;
+5530: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5531: goto label_002FEC;
+5532: label_002FEC: ;
+5534: label_002FEE: ;
+5535: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D5)) == 0)))
+5537: goto label_00308E;
+5541: goto label_002FFB;
+5543: label_002FFB: ;
+5545: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_53))))
+5547: goto label_00300E;
+5551: goto label_00300C;
+5553: label_00300C: ;
+5555: label_00300E: ;
+5556: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5558: goto label_00306D;
+5562: goto label_00301D;
+5564: label_00301D: ;
+5566: local_55 = 0xFFFFFFFFBEF72BB6;
+5568: store_i32(local_54, 0x0, local_55);
+5569: v_003041_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5571: v_00304D_2 = load_i32(p0, 0x10);
+5572: v_00304D_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5573: v_003055_4 = Native._0x6FBAC3921B05138F(v_00304D_3); // RVA: 0x0445F2C0
+5574: Native._0xE16D7CEF323886E4(v_003023_0[0], (-1), v_003041_1, v_00304D_2, v_003055_4[0], v_003055_4[1]); // RVA: 0x044BDFC0
+5575: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5576: goto label_00306D;
+5577: label_00306D: ;
+5578: store_i32(p0, 0x10, local_53);
+5579: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5581: goto label_00308C;
+5585: goto label_003084;
+5587: label_003084: ;
+5588: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5589: goto label_00308C;
+5590: label_00308C: ;
+5592: label_00308E: ;
+5594: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_57))))
+5596: goto label_0030A1;
+5600: goto label_00309F;
+5602: label_00309F: ;
+5604: label_0030A1: ;
+5605: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5607: goto label_003100;
+5611: goto label_0030B0;
+5613: label_0030B0: ;
+5615: local_59 = 0xFFFFFFFFBEF72BB6;
+5617: store_i32(local_58, 0x0, local_59);
+5618: v_0030D4_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5620: v_0030E0_2 = load_i32(p0, 0x10);
+5621: v_0030E0_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5622: v_0030E8_4 = Native._0x6FBAC3921B05138F(v_0030E0_3); // RVA: 0x0445F2C0
+5623: Native._0xE16D7CEF323886E4(v_0030B6_0[0], (-1), v_0030D4_1, v_0030E0_2, v_0030E8_4[0], v_0030E8_4[1]); // RVA: 0x044BDFC0
+5624: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5625: goto label_003100;
+5626: label_003100: ;
+5627: store_i32(p0, 0x10, local_57);
+5628: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5630: goto label_00311F;
+5634: goto label_003117;
+5636: label_003117: ;
+5637: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5638: goto label_00311F;
+5639: label_00311F: ;
+5641: label_003121: ;
+5642: if (((as_u32(load_u8(load_u64(p0, 0x8), 0x2D5)) == 0)))
+5644: goto label_0031C1;
+5648: goto label_00312E;
+5650: label_00312E: ;
+5652: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_61))))
+5654: goto label_003141;
+5658: goto label_00313F;
+5660: label_00313F: ;
+5662: label_003141: ;
+5663: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5665: goto label_0031A0;
+5669: goto label_003150;
+5671: label_003150: ;
+5673: local_63 = 0xFFFFFFFFBEF72BB6;
+5675: store_i32(local_62, 0x0, local_63);
+5676: v_003174_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5678: v_003180_2 = load_i32(p0, 0x10);
+5679: v_003180_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5680: v_003188_4 = Native._0x6FBAC3921B05138F(v_003180_3); // RVA: 0x0445F2C0
+5681: Native._0xE16D7CEF323886E4(v_003156_0[0], (-1), v_003174_1, v_003180_2, v_003188_4[0], v_003188_4[1]); // RVA: 0x044BDFC0
+5682: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5683: goto label_0031A0;
+5684: label_0031A0: ;
+5685: store_i32(p0, 0x10, local_61);
+5686: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5688: goto label_0031BF;
+5692: goto label_0031B7;
+5694: label_0031B7: ;
+5695: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5696: goto label_0031BF;
+5697: label_0031BF: ;
+5699: label_0031C1: ;
+5701: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_65))))
+5703: goto label_0031D4;
+5707: goto label_0031D2;
+5709: label_0031D2: ;
+5711: label_0031D4: ;
+5712: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5714: goto label_003233;
+5718: goto label_0031E3;
+5720: label_0031E3: ;
+5722: local_67 = 0xFFFFFFFFBEF72BB6;
+5724: store_i32(local_66, 0x0, local_67);
+5725: v_003207_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5727: v_003213_2 = load_i32(p0, 0x10);
+5728: v_003213_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5729: v_00321B_4 = Native._0x6FBAC3921B05138F(v_003213_3); // RVA: 0x0445F2C0
+5730: Native._0xE16D7CEF323886E4(v_0031E9_0[0], (-1), v_003207_1, v_003213_2, v_00321B_4[0], v_00321B_4[1]); // RVA: 0x044BDFC0
+5731: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5732: goto label_003233;
+5733: label_003233: ;
+5734: store_i32(p0, 0x10, local_65);
+5735: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5737: goto label_003252;
+5741: goto label_00324A;
+5743: label_00324A: ;
+5744: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5745: goto label_003252;
+5746: label_003252: ;
+5748: label_003254: ;
+5749: local_69 = load_u64(p0, 0x8);
+5750: v_00325A_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5751: v_003262_1 = Native.PED.IS_PED_SWIMMING_UNDER_WATER(v_00325A_0[0], v_00325A_0[1]); // RVA: 0x04BD1A30
+5754: goto label_003CC3;
+5758: goto label_003270;
+5760: label_003270: ;
+5761: local_70 = load_u64(p0, 0x8);
+5762: v_003276_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5763: v_00327E_1 = Native.ENTITY.IS_ENTITY_IN_WATER(v_003276_0[0], v_003276_0[1]); // RVA: 0x03C0E0A0
+5766: goto label_003CC3;
+5770: goto label_00328C;
+5772: label_00328C: ;
+5774: v_003299_1 = func_001AF1(load_u64(p0, 0x8), 0xFFFFFFFF810FE01D, 1);
+5775: store_i32(v_003299_0, 0x24, v_003299_1);
+5777: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_71))))
+5779: goto label_0032B4;
+5783: goto label_0032B2;
+5785: label_0032B2: ;
+5787: label_0032B4: ;
+5788: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5790: goto label_003313;
+5794: goto label_0032C3;
+5796: label_0032C3: ;
+5798: local_73 = 0xFFFFFFFFBEF72BB6;
+5800: store_i32(local_72, 0x0, local_73);
+5801: v_0032E7_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5803: v_0032F3_2 = load_i32(p0, 0x10);
+5804: v_0032F3_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5805: v_0032FB_4 = Native._0x6FBAC3921B05138F(v_0032F3_3); // RVA: 0x0445F2C0
+5806: Native._0xE16D7CEF323886E4(v_0032C9_0[0], (-1), v_0032E7_1, v_0032F3_2, v_0032FB_4[0], v_0032FB_4[1]); // RVA: 0x044BDFC0
+5807: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5808: goto label_003313;
+5809: label_003313: ;
+5810: store_i32(p0, 0x10, local_71);
+5811: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5813: goto label_003332;
+5817: goto label_00332A;
+5819: label_00332A: ;
+5820: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5821: goto label_003332;
+5822: label_003332: ;
+5824: label_003334: ;
+5825: v_00333A_0 = load_i32(p0, 0x24);
+5829: goto label_00334B;
+5833: goto label_003346;
+5835: label_003346: ;
+5837: goto label_003391;
+5838: label_00334B: ;
+5839: if (((as_u64(as_u64(Vm.Globals(0x48391B87U)[0x1D8])) != 0)))
+5841: goto label_00335D;
+5845: goto label_003358;
+5847: label_003358: ;
+5849: goto label_003391;
+5850: label_00335D: ;
+5852: goto label_003384;
+5853: label_003365: ;
+5854: if (((as_u32(((as_i32(load_i32(Operations.array_element_address(as_u64(Vm.Globals(0x48391B87U)[0x1D8]), local_76), 0x0)) == as_i32(load_i32(p0, 0x24))
+5856: goto label_003381;
+5860: goto label_00337C;
+5862: label_00337C: ;
+5864: goto label_003391;
+5865: label_003381: ;
+5867: goto label_003384;
+5868: label_003384: ;
+5871: goto label_003365;
+5875: goto label_00338F;
+5877: label_00338F: ;
+5879: goto label_003391;
+5880: label_003391: ;
+5883: goto label_003399;
+5887: goto label_003394;
+5889: label_003394: ;
+5891: goto label_0033A8;
+5892: label_003399: ;
+5893: v_00339C_0 = Native._0x61728345F34C2E6E(load_i32(p0, 0x24)); // RVA: 0x04BF4C90
+5895: goto label_0033A8;
+5896: label_0033A8: ;
+5899: goto label_003CC3;
+5903: goto label_0033AE;
+5905: label_0033AE: ;
+5907: if (((as_i32(load_i32(p0, 0x10)) != as_i32(local_77))))
+5909: goto label_0033C1;
+5913: goto label_0033BF;
+5915: label_0033BF: ;
+5917: label_0033C1: ;
+5918: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5920: goto label_003420;
+5924: goto label_0033D0;
+5926: label_0033D0: ;
+5928: local_79 = 0xFFFFFFFFBEF72BB6;
+5930: store_i32(local_78, 0x0, local_79);
+5931: v_0033F4_1 = Virtual.type_F9AA8E6F29119387.Method_0(load_u64(load_u64(p0, 0x8), 0x178));
+5933: v_003400_2 = load_i32(p0, 0x10);
+5934: v_003400_3 = Native.SCRIPT.GET_ID_OF_THIS_THREAD(); // RVA: 0x04468FF0
+5935: v_003408_4 = Native._0x6FBAC3921B05138F(v_003400_3); // RVA: 0x0445F2C0
+5936: Native._0xE16D7CEF323886E4(v_0033D6_0[0], (-1), v_0033F4_1, v_003400_2, v_003408_4[0], v_003408_4[1]); // RVA: 0x044BDFC0
+5937: Virtual.type_B50CCAD2C5C5DBCA.Method_13(p0);
+5938: goto label_003420;
+5939: label_003420: ;
+5940: store_i32(p0, 0x10, local_77);
+5941: if (((as_i32(load_i32(p0, 0x10)) == as_i32((-1)))))
+5943: goto label_00343F;
+5947: goto label_003437;
+5949: label_003437: ;
+5950: Virtual.type_B50CCAD2C5C5DBCA.Method_12(p0);
+5951: goto label_00343F;
+5952: label_00343F: ;
+5954: label_003441: ;
+5955: local_81 = load_u64(p0, 0x8);
+5956: v_003447_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5957: v_00344F_1 = Native.PED.IS_PED_SWIMMING_UNDER_WATER(v_003447_0[0], v_003447_0[1]); // RVA: 0x04BD1A30
+5960: goto label_003CC3;
+5964: goto label_00345D;
+5966: label_00345D: ;
+5967: local_82 = load_u64(p0, 0x8);
+5968: v_003463_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5969: v_00346B_1 = Native.ENTITY.IS_ENTITY_IN_WATER(v_003463_0[0], v_003463_0[1]); // RVA: 0x03C0E0A0
+5972: goto label_003CC3;
+5976: goto label_003479;
+5978: label_003479: ;
+5979: local_83 = load_u64(p0, 0x8);
+5980: v_00347F_0 = Native.PLAYER.PLAYER_PED_ID(); // RVA: 0x04504480
+5983: v_00348F_1 = Native.PLAYER.GET_PLAYER_WANTED_LEVEL(local_84, local_85); // RVA: 0x03E885A0
+5986: goto label_003CC3;
+5990: goto label_0034A1;
+5992: label_0034A1: ;
+5994: v_0034B3_1 = load_i32(byte_offset(p0, 0x20), 0x0);
+5995: store_i32(Vm.Address(v_0034AF_0, 0), 0x0, 0x4D195F1);
+6000: goto label_0034D3;
+6004: goto label_0034C5;
+6006: label_0034C5: ;
+6007: v_0034C8_0 = func_000973(load_u64(p0, 0x8));
+6010: goto label_003CC3;
+6014: goto label_0034D3;
+6016: label_0034D3: ;
+6018: if (((as_u32(((as_i32(((as_u32(load_i32(load_u64(p0, 0x8), 0x27C)) & as_u32(local_88)))) == as_i32(local_88)))) == 0)))
+6020: goto label_00350F;
+6024: goto label_0034EC;
+6026: label_0034EC: ;
+6027: v_0034F8_0 = Virtual.type_42326796F51F37E3.Method_14(load_u64(load_u64(p0, 0x8), 0xE8), 0x437C95CC);
+6030: goto label_00350F;
+6034: goto label_003501;
+6036: label_003501: ;
+6037: Imports.module_0xF3A7D3E23A9D193E.func_00F91D(load_u64(p0, 0x8), 1, 0);
+6039: label_00350F: ;
+6041: local_89 = load_u64(p0, 0x8);
+6044: if (((as_u32(((as_i32(((as_u32(load_i32(local_89, 0x27C)) & as_u32(local_91)))) == as_i32(local_91)))) == 0)))
+6047: goto label_003557;
+6052: goto label_003535;
+6054: label_003535: ;
+6055: if (((as_u32(load_u8(local_89, 0x2D4)) == 0)))
+6058: goto label_00354B;
+6063: goto label_00353F;
+6065: label_00353F: ;
+6066: local_90 = 0xFFFFFFFFA9EBD5C0;
+6068: goto label_003576;
+6069: label_00354B: ;
+6070: local_90 = 0x1E4C3E7F;
+6072: goto label_003576;
+6073: label_003557: ;
+6074: if (((as_u32(load_u8(local_89, 0x2D4)) == 0)))
+6077: goto label_00356D;

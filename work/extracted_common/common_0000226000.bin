@@ -1,0 +1,2534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CPedVariationBodyTypeManager>
+  <HeightPresets>
+    <Item key="HUMAN_HEIGHT_PRESETS">
+      <HeightsInMeters content="float_array"> 
+		1.52
+		1.57
+        1.62
+        1.67
+        1.72
+        1.77
+        1.82
+        1.87
+        1.92
+        1.97
+        2.02 
+      </HeightsInMeters>
+    </Item>
+  </HeightPresets>
+  <ScaleProfiles>
+    <Item key="HUMAN_MALE_DEFAULT">
+      <HeightPresets>HUMAN_HEIGHT_PRESETS</HeightPresets>
+      <DefaultHeightMeters value="1.82" />
+    </Item>
+    <Item key="HUMAN_FEMALE_DEFAULT">
+      <HeightPresets>HUMAN_HEIGHT_PRESETS</HeightPresets>
+      <DefaultHeightMeters value="1.72" />
+    </Item>
+  </ScaleProfiles>
+  <DefaultHumanHeightPresets>HUMAN_HEIGHT_PRESETS</DefaultHumanHeightPresets>
+  <DefaultHumanMaleScaleProfile>HUMAN_MALE_DEFAULT</DefaultHumanMaleScaleProfile>
+  <DefaultHumanFemaleScaleProfile>HUMAN_FEMALE_DEFAULT</DefaultHumanFemaleScaleProfile>
+  <BodyShapePresets>
+    <Item key="PED_BODYSHAPE_THIN">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.8" />
+        <StaminaScoreMax value="1.0" />
+        <SpeedScoreMin value="0.8" />
+        <SpeedScoreMax value="1.0" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_HALFTHIN">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">-0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.6" />
+        <StaminaScoreMax value="0.8" />
+        <SpeedScoreMin value="0.6" />
+        <SpeedScoreMax value="0.8" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_REGULAR">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.5" />
+        <StaminaScoreMax value="0.7" />
+        <SpeedScoreMin value="0.5" />
+        <SpeedScoreMax value="0.7" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_HALFHEAVY">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.3" />
+        <StaminaScoreMax value="0.5" />
+        <SpeedScoreMin value="0.3" />
+        <SpeedScoreMax value="0.5" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_HEAVY">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.15" />
+        <StaminaScoreMax value="0.3" />
+        <SpeedScoreMin value="0.15" />
+        <SpeedScoreMax value="0.3" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_MUSCLETHIN">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.9" />
+        <StaminaScoreMax value="1.0" />
+        <SpeedScoreMin value="0.9" />
+        <SpeedScoreMax value="1.0" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_MUSCLE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.7" />
+        <StaminaScoreMax value="0.9" />
+        <SpeedScoreMin value="0.7" />
+        <SpeedScoreMax value="0.9" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_MUSCLEHEAVY">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.6" />
+        <StaminaScoreMax value="0.8" />
+        <SpeedScoreMin value="0.6" />
+        <SpeedScoreMax value="0.8" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_BELLYTHIN">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.5 0.75 1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">-1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.3" />
+        <StaminaScoreMax value="0.5" />
+        <SpeedScoreMin value="0.3" />
+        <SpeedScoreMax value="0.5" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_BELLY">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.5 0.75 1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.15" />
+        <StaminaScoreMax value="0.3" />
+        <SpeedScoreMin value="0.15" />
+        <SpeedScoreMax value="0.3" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_BELLYMUSCLE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.5 0.75 1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.15" />
+        <StaminaScoreMax value="0.3" />
+        <SpeedScoreMin value="0.13" />
+        <SpeedScoreMax value="0.3" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_BEACHBELLYHEAVYMALE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.15" />
+        <StaminaScoreMax value="0.3" />
+        <SpeedScoreMin value="0.15" />
+        <SpeedScoreMax value="0.3" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_DANCERFEMALE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">-0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.8" />
+        <StaminaScoreMax value="1.0" />
+        <SpeedScoreMin value="0.8" />
+        <SpeedScoreMax value="1.0" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_LINEBACKERMALE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">-0.75</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.25</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.75</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.15" />
+        <StaminaScoreMax value="0.3" />
+        <SpeedScoreMin value="0.15" />
+        <SpeedScoreMax value="0.3" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_MIDMUSCLE">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.5</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.5" />
+        <StaminaScoreMax value="0.7" />
+        <SpeedScoreMin value="0.5" />
+        <SpeedScoreMax value="0.7" />
+      </Attributes>
+    </Item>
+    <Item key="PED_BODYSHAPE_HEAVY_EXTREME">
+      <Expressions>
+        <Item>
+          <Id>GCBreasts</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCCleavage</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>GCButt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightback</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbelly</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightbutt</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightcalf</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightchest</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightforearm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweighthip</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightmuffin</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightshoulder</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightthigh</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightupperarm</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcweightneck</Id>
+          <Values content="float_array">1.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleback</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebelly</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclebutt</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclecalf</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclechest</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleforearm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclehip</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclemuffin</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleshoulder</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmusclethigh</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleupperarm</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+        <Item>
+          <Id>gcmuscleneck</Id>
+          <Values content="float_array">0.0</Values>
+        </Item>
+      </Expressions>
+      <Attributes>
+        <StaminaScoreMin value="0.0" />
+        <StaminaScoreMax value="0.15" />
+        <SpeedScoreMin value="0.0" />
+        <SpeedScoreMax value="0.15" />
+      </Attributes>
+    </Item>
+  </BodyShapePresets>
+  <ScaleVariationProfiles>
+    <Item key="SCALE_HUMAN_ANY">
+      <ScaleVariations>
+        <Item>
+          <Min value="-1" />
+          <Max value="-1" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_NORMAL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.77" />
+          <SelectionWeight value="0.1" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.77" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.7" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.87" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.2" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_EXTREMES">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.77" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.3" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.67" />
+          <Max value="1.77" />
+          <SelectionWeight value="0.4" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.87" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.3" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_VERYSHORT">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.62" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_SHORT">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.67" />
+          <Max value="1.72" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_MEDIUM">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.82" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_TALL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.82" />
+          <Max value="1.87" />
+          <SelectionWeight value="0.9" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.87" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.1" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_MALE_VERYTALL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.92" />
+          <Max value="2.02" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_NORMAL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.72" />
+          <SelectionWeight value="0.7" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.62" />
+          <SelectionWeight value="0.1" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.82" />
+          <SelectionWeight value="0.2" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_EXTREMES">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.72" />
+          <SelectionWeight value="0.7" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.82" />
+          <SelectionWeight value="0.25" />
+        </Item>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.82" />
+          <Max value="1.92" />
+          <SelectionWeight value="0.05" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_VERYSHORT">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.62" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_SHORT">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.67" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_MEDIUM">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.67" />
+          <Max value="1.72" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_TALL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.82" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_FEMALE_VERYTALL">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.82" />
+          <Max value="1.92" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_PLAYER_STORY000_00">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.62" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_DEFAULT">
+      <ScaleVariations />
+    </Item>
+    <Item key="SCALE_EXACT_202">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="2.02" />
+          <Max value="2.02" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_197">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.97" />
+          <Max value="1.97" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_192">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.92" />
+          <Max value="1.92" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_187">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.87" />
+          <Max value="1.87" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_182">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.82" />
+          <Max value="1.82" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_177">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.77" />
+          <Max value="1.77" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_172">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.72" />
+          <Max value="1.72" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_167">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.67" />
+          <Max value="1.67" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+    <Item key="SCALE_EXACT_162">
+      <ScaleVariations>
+        <Item>
+          <ValueType>PSVT_HeightMeters</ValueType>
+          <Min value="1.62" />
+          <Max value="1.62" />
+          <SelectionWeight value="1.0" />
+        </Item>
+      </ScaleVariations>
+    </Item>
+  </ScaleVariationProfiles>
+  <BodyShapeVariationProfiles>
+    <Item key="BODYSHAPE_HUMAN_ANY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLETHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLEHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_DEFAULT">
+      <Item>
+        <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+      </Item>
+    </Item>
+    <Item key="BODYSHAPE_EXTREMES">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="0.1" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="0.1" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="0.15" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="0.35" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="0.1" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_THIN">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_ATHLETIC">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLETHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_AVERAGE">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_NORMALHEAVY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_HEAVY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_NORMALMUSCLY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLEHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_THIN_EXTREME">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_HEAVY_EXTREME">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY_EXTREME</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_HALFHEAVY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_BEACHBELLIES">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_BELLYTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_BEACHBELLYHEAVYMALE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_DANCERFEMALE">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_DANCERFEMALE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_LINEBACKERMALE">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_LINEBACKERMALE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_FEMALE_ANY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLETHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLEHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_MALE_ANY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_THIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_REGULAR</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLETHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLEHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_MUSCLEHEAVY">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLEHEAVY</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_HALFTHIN">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_HALFTHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_MUSCLE">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_MIDMUSCLE">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MIDMUSCLE</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+    <Item key="BODYSHAPE_MUSCLETHIN">
+      <BodyShapeVariations>
+        <Item>
+          <BodyShapePreset>PED_BODYSHAPE_MUSCLETHIN</BodyShapePreset>
+          <SelectionWeight value="1.0" />
+        </Item>
+      </BodyShapeVariations>
+    </Item>
+  </BodyShapeVariationProfiles>
+</CPedVariationBodyTypeManager>

@@ -1,0 +1,29 @@
+
+The command exited with code 0.
+Output:
+Total missions found: 204
+[INT_PROLO      ] title: Prologue (Counselor Interview)   | prot: None     | hours: []                     | replay: 0   | story: 0   | auto: []
+[INT_CHASE      ] title: Gone Fishing (Boat Drop)         | prot: None     | hours: []                     | replay: 1   | story: 1   | auto: []
+[FT_AMUCO       ] title: Gear Up                          | prot: Jason    | hours: []                     | replay: 2   | story: 2   | auto: []
+[FT_KMODSHP     ] title: Just a Scratch                   | prot: Jason    | hours: []                     | replay: 3   | story: 3   | auto: []
+[COM_KBOS_SHOP  ] title: Lab Fees                         | prot: Jason    | hours: []                     | replay: 4   | story: 4   | auto: [{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572979 (0x2D7D2164 = joaat('com_kbos_shop'))"]}]
+[COM_KMODSHP    ] title: None                             | prot: None     | hours: []                     | replay: None | story: 5   | auto: []
+[COM_KBOS_COLAT ] title: Unwanted Attention               | prot: Jason    | hours: []                     | replay: 5   | story: 6   | auto: [{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572983 (0x5AE70594 = joaat('com_kbos_colat'))"]}]
+[COM_KBOS_RADR  ] title: Hey Arnold!                      | prot: Jason    | hours: [{'hour_property_0x1FD5BB99': 8, 'hour_property_0xB376AD2B': 16, 'source': 'levels.rpf @ 0x11bb116000 (PSO, 1,498,864 bytes inflated)'}] | replay: 7   | story: 7   | auto: [{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572987 (0x21D03E4F = joaat('com_kbos_radr'))"]}]
+[COM_SFH_MVFN   ] title: Feng Shui                        | prot: Jason    | hours: []                     | replay: 9   | story: 8   | auto: []
+[CSC_TRH_CHART  ] title: Island Dreams                    | prot: Jason    | hours: []                     | replay: 8   | story: 9   | auto: []
+[CTI_PIL_RD_SH  ] title: Find Donnie's Package            | prot: None     | hours: []                     | replay: 12  | story: 10  | auto: []
+[INT_PRISO      ] title: Coming Home (Lucia Prison Release) | prot: Jason    | hours: []                     | replay: 10  | story: 11  | auto: []
+[INT_BANK       ] title: Buck Me (Banking App Setup)      | prot: Jason    | hours: []                     | replay: 11  | story: 12  | auto: []
+[COM_KBOS_PLNDATE] title: Down to Earth                    | prot: Jason    | hours: []                     | replay: 13  | story: 13  | auto: []
+[BIL_FUN        ] title: Clear Skies / Having Some Fun (Dirt Bike) | prot: Jason    | hours: [{'hour_property_0x1FD5BB99': 7, 'hour_property_0xB376AD2B': 17, 'source': 'pack/story000/story000.rpf @ 0x3e2372000 (PSO, 2,166,996 bytes inflated)'}] | replay: 15  | story: 14  | auto: []
+[INT_PLNSH      ] title: Down to Earth (Plane Crash Shoot) | prot: Jason    | hours: [{'hour_property_0x1FD5BB99': 7, 'hour_property_0xB376AD2B': 23, 'source': 'levels.rpf @ 0x11bb116000 (PSO, 1,498,864 bytes inflated)'}] | replay: 14  | story: 15  | auto: []
+[COM_SFH_FLTPK  ] title: Building a Life                  | prot: Jason    | hours: []                     | replay: None | story: 16  | auto: []
+[INT_AIR        ] title: Vice City Airstrip               | prot: Jason    | hours: []                     | replay: 16  | story: 17  | auto: []
+[COM_KBOS_CLEAN ] title: Don Gone                         | prot: Jason    | hours: []                     | replay: 17  | story: 18  | auto: [{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572995 (0x10BE4C94 = joaat('com_kbos_clean'))"]}]
+[HO_PAR_KEYCO   ] title: Recalibration                    | prot: Jason    | hours: []                     | replay: 18  | story: 19  | auto: [{'flag_added_for': ['MTL_WAKE'], 'unless_already_flagged': None, 'evidence': ["0xD2601E252151E04B.ysc.cs:572964 (0x3C9B93B4 = joaat('mtl_wake'))", "0xD2601E252151E04B.ysc.cs:572999 (0x420623AF = joaat('ho_par_keyco'))"]}]
+[BIL_PICK       ] title: Swamped (Kingfishers Smugglers Meet) | prot: Jason    | hours: []                     | replay: 19  | story: 20  | auto: []
+[BIL_HOUSE      ] title: Find Donnie's Package (Hamlet House) | prot: Lucia    | hours: []                     | replay: 20  | story: 21  | auto: []
+[BIL_WHEEL      ] title: Doin' Gone (Donnie's Trailer Climax) | prot: None     | hours: []                     | replay: 21  | story: 22  | auto: []
+[MTL_WAKE       ] title: What's in the Bag? (Starlet Motel Arrival) | prot: None     | hours: []                     | replay: 0   | story: 23  | auto: []
+

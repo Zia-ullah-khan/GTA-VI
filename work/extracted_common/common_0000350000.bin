@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="AIWE_Global_LOD_.6"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.600000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Global_LOD_.65"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.650000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Global_LOD_.7"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.700000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Global_LOD_.75"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.750000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Global_LOD_.8"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.800000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Global_LOD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.500000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_LOD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_lod>0.500000 0.000000</lod_mult_terrain_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_LOD_.6"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_lod>0.600000 0.000000</lod_mult_terrain_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Env_HD_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_hd>0.300000 0.000000</lod_mult_environment_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_HD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_hd>0.500000 0.000000</lod_mult_environment_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_SLOD3_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_slod3>0.300000 0.000000</lod_mult_environment_slod3>
+  </modifier>
+  <modifier
+    name="AIWE_Env_SLOD3_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_slod3>0.500000 0.000000</lod_mult_environment_slod3>
+  </modifier>
+  <modifier
+    name="AIWE_Env_OrphanHD_.2"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_orphanhd>0.200000 0.000000</lod_mult_environment_orphanhd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_OrphanHD_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_orphanhd>0.300000 0.000000</lod_mult_environment_orphanhd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_OrphanHD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_orphanhd>0.500000 0.000000</lod_mult_environment_orphanhd>
+  </modifier>
+  <modifier
+    name="AIWE_Mis_BilPent_LodScaleMix"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_lod>0.500000 0.000000</lod_mult_terrain_lod>
+    <lod_mult_environment_hd>0.600000 0.000000</lod_mult_environment_hd>
+    <lod_mult_environment_lod>0.300000 0.000000</lod_mult_environment_lod>
+    <lod_mult_environment_orphanhd>0.600000 0.000000</lod_mult_environment_orphanhd>
+    <lod_mult_environment_slod1>0.300000 0.000000</lod_mult_environment_slod1>
+    <lod_mult_environment_slod2>0.300000 0.000000</lod_mult_environment_slod2>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.1"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.100000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.6"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.600000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.7"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.700000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_Vehicle_LOD_.5"
+    description="Sets the Vehicle BatchLOD scale to 0.5"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle>0.500000 0.000000</lod_mult_vehicle>
+  </modifier>
+  <modifier
+    name="AIWE_Vehicle_LOD_.6"
+    description="Sets the Vehicle BatchLOD scale to 0.6"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle>0.600000 0.000000</lod_mult_vehicle>
+  </modifier>
+  <modifier
+    name="AIWE_VehDrawableLOD_.4"
+    description="Scale for vehicle drawable LODs - 0.4"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.400000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="AIWE_VehDrawableLOD_.5"
+    description="Scale for vehicle drawable LODs - 0.5"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.500000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="AIWE_VehDrawableLOD_.6"
+    description="Scale for vehicle drawable LODs - 0.6"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.600000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="AIWE_VehDrawableLOD_.7"
+    description="Scale for vehicle drawable LODs - 0.7"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.700000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="AIWE_VehDrawableLOD_.8"
+    description="Scale for vehicle drawable LODs - 0.8"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_vehicle_lod>0.800000 0.000000</lod_mult_vehicle_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Cutscene_LODscale_.9"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_slod4>0.900000 0.000000</lod_mult_slod4>
+    <lod_mult_slod3>0.900000 0.000000</lod_mult_slod3>
+    <lod_mult_slod2>0.900000 0.000000</lod_mult_slod2>
+    <lod_mult_slod1>0.900000 0.000000</lod_mult_slod1>
+    <lod_mult_lod>0.900000 0.000000</lod_mult_lod>
+    <lod_mult_orphanhd>0.900000 0.000000</lod_mult_orphanhd>
+    <lod_mult_hd>0.900000 0.000000</lod_mult_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Cutscene_LODscale_.8"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_slod4>0.800000 0.000000</lod_mult_slod4>
+    <lod_mult_slod3>0.800000 0.000000</lod_mult_slod3>
+    <lod_mult_slod2>0.800000 0.000000</lod_mult_slod2>
+    <lod_mult_slod1>0.800000 0.000000</lod_mult_slod1>
+    <lod_mult_lod>0.800000 0.000000</lod_mult_lod>
+    <lod_mult_orphanhd>0.800000 0.000000</lod_mult_orphanhd>
+    <lod_mult_hd>0.800000 0.000000</lod_mult_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Cutscene_LODscale_.7"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_slod4>0.700000 0.000000</lod_mult_slod4>
+    <lod_mult_slod3>0.700000 0.000000</lod_mult_slod3>
+    <lod_mult_slod2>0.700000 0.000000</lod_mult_slod2>
+    <lod_mult_slod1>0.700000 0.000000</lod_mult_slod1>
+    <lod_mult_lod>0.700000 0.000000</lod_mult_lod>
+    <lod_mult_orphanhd>0.700000 0.000000</lod_mult_orphanhd>
+    <lod_mult_hd>0.700000 0.000000</lod_mult_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Cutscene_LODscale_.6"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_orphanhd>0.600000 0.000000</lod_mult_orphanhd>
+    <lod_mult_hd>0.600000 0.000000</lod_mult_hd>
+    <lod_mult_lod>0.600000 0.000000</lod_mult_lod>
+    <lod_mult_slod1>0.600000 0.000000</lod_mult_slod1>
+    <lod_mult_slod2>0.600000 0.000000</lod_mult_slod2>
+    <lod_mult_slod3>0.600000 0.000000</lod_mult_slod3>
+    <lod_mult_slod4>0.600000 0.000000</lod_mult_slod4>
+  </modifier>
+  <modifier
+    name="AIWE_Disable_PuddleDetect"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <puddle_detect_disabled>1.000000 0.000000</puddle_detect_disabled>
+  </modifier>
+  <modifier
+    name="Sub_Opt_Int_Glob_LOD_Dist_07"
+    description=""
+    groupApplyTag="uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.700000 0.000000</lod_mult>
+  </modifier>
+  <modifier
+    name="AIWE_DTCHD_LodScaleMix"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult>0.500000 0.000000</lod_mult>
+    <lod_mult_slod1>0.100000 0.000000</lod_mult_slod1>
+    <lod_mult_slod2>0.100000 0.000000</lod_mult_slod2>
+    <lod_mult_slod3>0.100000 0.000000</lod_mult_slod3>
+    <lod_mult_slod4>0.100000 0.000000</lod_mult_slod4>
+  </modifier>
+  <modifier
+    name="AIWE_Cheap_Water"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_rendering_low_quality>1.000000 0.000000</water_rendering_low_quality>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.300000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.500000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_Grass_LOD_.8"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_grass>0.800000 0.000000</lod_mult_grass>
+  </modifier>
+  <modifier
+    name="AIWE_batchlod_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_lod>0.500000 0.000000</lod_mult_batch_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Batchslod_.1"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_slod>0.100000 0.000000</lod_mult_batch_slod>
+  </modifier>
+  <modifier
+    name="AIWE_Batchslod_.2"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_slod>0.200000 0.000000</lod_mult_batch_slod>
+  </modifier>
+  <modifier
+    name="AIWE_Batchslod_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_slod>0.300000 0.000000</lod_mult_batch_slod>
+  </modifier>
+  <modifier
+    name="AIWE_Batchslod_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_slod>0.500000 0.000000</lod_mult_batch_slod>
+  </modifier>
+  <modifier
+    name="AIWE_TerrainHD_.2"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_hd>0.200000 0.000000</lod_mult_terrain_hd>
+  </modifier>
+  <modifier
+    name="AIWE_TerrainSLOD1_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_slod1>0.500000 0.000000</lod_mult_terrain_slod1>
+  </modifier>
+  <modifier
+    name="AIWE_TerrainSLOD2_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_slod2>0.500000 0.000000</lod_mult_terrain_slod2>
+  </modifier>
+  <modifier
+    name="AIWE_TerrainSLOD3_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_slod3>0.500000 0.000000</lod_mult_terrain_slod3>
+  </modifier>
+  <modifier
+    name="AIWE_TerrainOprhan_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_orphanhd>0.300000 0.000000</lod_mult_terrain_orphanhd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_HD_.6"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_hd>0.600000 0.000000</lod_mult_environment_hd>
+  </modifier>
+  <modifier
+    name="AIWE_Env_LOD_.5"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_lod>0.500000 0.000000</lod_mult_environment_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Env_SLOD3_.1"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_slod3>0.100000 0.000000</lod_mult_environment_slod3>
+  </modifier>
+  <modifier
+    name="AIWE_Env_SLOD4_.1"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_slod4>0.100000 0.000000</lod_mult_environment_slod4>
+  </modifier>
+  <modifier
+    name="AIWE_batchlod_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_batch_lod>0.300000 0.000000</lod_mult_batch_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Terrain_LOD_.3"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_terrain_lod>0.300000 0.000000</lod_mult_terrain_lod>
+  </modifier>
+  <modifier
+    name="AIWE_Night_Global_LOD_.8"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="1"
+    userFlags="4"
+    numAxes="1"
+    numKeyframes="7"
+  >
+    <axis controlValue="season_adjusted_time">
+      <keyframe_t_value>0.000000 0.200000 0.230000 0.500000 0.760000 0.790000 1.000000</keyframe_t_value>
+      <keyframe_alpha_value>1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000</keyframe_alpha_value>
+      <lod_mult>0.800000 0.800000 1.000000 1.000000 1.000000 0.800000 0.800000</lod_mult>
+    </axis>
+  </modifier>
+  <modifier
+    name="AIWE_Lighting_TerrainGlints_Off"
+    description="Turns off Terrain Glints in Direct Lighting"
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <glints_directional_light_reduction>1.000000 0.000000</glints_directional_light_reduction>
+  </modifier>
+  <modifier
+    name="AIWE_Env_SLOD1_COA_Raid"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_environment_slod1>0.350000 0.000000</lod_mult_environment_slod1>
+  </modifier>
+  <modifier
+    name="AIWE_clb_meet_ext_cutscene_TCmod"
+    description=""
+    groupApplyTag="box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <lod_mult_prop_override>1.500000 0.000000</lod_mult_prop_override>
+    <lod_mult_override_blend>1.000000 0.000000</lod_mult_override_blend>
+  </modifier>
+</timecycle_modifier_data>

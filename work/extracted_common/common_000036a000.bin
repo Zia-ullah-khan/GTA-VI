@@ -1,0 +1,3321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier
+    name="WATER_beachSilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>45.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>95.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>265.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>185.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>87.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>60.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>190.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>155.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>145.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>4.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>19.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>120.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>77.500000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>65.500000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachHeavySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>225.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>180.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>125.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+  </modifier>
+  <modifier
+    name="WATER_NAT_beachSILT"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>30.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>80.000000 0.000000</water_clip_scattering_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>190.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>200.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NAT_BeachHeavySilt"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>115.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>100.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>70.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>125.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NAT_BeachMid"
+    description=""
+    groupApplyTag="Uncategorized"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>18.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>12.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>120.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NAT_BeachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>6.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>75.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>75.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_CAR_BeachHeavySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_extinction_r>52.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>55.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>60.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_r>50.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>50.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_CAR_BeachSilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>70.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>50.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>100.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_CAR_BeachMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>30.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>55.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>35.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_CAR_BeachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>10.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>15.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>70.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>40.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>40.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_CAR_BASE"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.059000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.220000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.300000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GraysonSound_HeavySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>240.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>170.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>120.010002 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>585.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>570.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>600.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GraysonSound_BeachSilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>17.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>4.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>125.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GraysonSound_BeachMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>2.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>120.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>105.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>120.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GraysonSound_BeachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.700000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.850000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>80.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>70.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>75.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GrayonSound_BASE"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.080000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.120000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.100000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>57.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>63.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>69.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_BeachHeavySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>180.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>120.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>125.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_BeachSilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>70.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>90.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>25.000000 0.000000</water_clip_scattering_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>180.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>150.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_BeachMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>15.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>50.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>22.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>115.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>100.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_BeachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>10.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>8.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>80.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>70.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>70.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_POL_BeachHeavySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>155.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>150.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>55.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>220.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>200.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_POL_BeachSilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>40.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>20.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.500000 0.000000</water_clip_scattering_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_r>180.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>200.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>250.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_POL_BeachMid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>250.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_POL_BeachDeep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_extinction_r>70.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>70.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>120.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>8.000000 0.000000</water_clip_scattering_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_GULF_BAY"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.150000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.300000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.250000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>12.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>9.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>12.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_mangroves_bay"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>30.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>72.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>130.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>80.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>75.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>140.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+  </modifier>
+  <modifier
+    name="WATER_mangroves"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>48.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>64.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>64.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>90.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_keyeLagoBay"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>7.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>23.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>22.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_keyeLagoBay_clear"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>11.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>70.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>15.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>30.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_keyeLagoBay_shadow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>11.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>420.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>420.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>420.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_mangroves_silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>48.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>64.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>64.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>90.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Swamp_everglades_silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>90.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>64.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>50.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>220.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>290.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Swamp_everglades_Vshallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>24.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>24.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>24.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>600.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>800.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Swamp_everglades_shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>12.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>12.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>300.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>400.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Everglades_Outflow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>130.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>220.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>400.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>180.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Everglades_Outflow_Deep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>150.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>225.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>125.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>260.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>275.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_KeyesBay_green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>4.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>4.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>18.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>18.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>21.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_KeyesBay_OLD"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.240000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.480000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.600000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>28.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>12.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>13.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_red"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.900000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>128.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>196.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>256.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_orange"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.300000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.200000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>64.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>100.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>128.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_turquiose"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>65.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>366.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>380.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_lightgreen"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>205.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>180.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>190.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>15.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>205.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>160.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>190.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_nuclearCooling"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>4.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>85.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_nuclear"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>6.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>6.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>4.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>128.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>128.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_industrial_nuclearHot"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.750000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.900000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>227.500000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>227.500000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_gulfOfMexico"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.100000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.100000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.300000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>11.188000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.700000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_atlantic"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.059000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.150000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.400000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_atlanticS_adjAlbedo"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.600000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>2.250000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ViceBay"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="3"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>2.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.200000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>52.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>28.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>30.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ViceBay_Shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>8.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>28.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>30.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>50.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ViceBay_green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>4.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>4.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.200000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>42.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>28.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>45.500000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ViceBay_port"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>6.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>8.200000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>60.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>28.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>34.500000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_TensOfIslands"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>65.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>75.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>12.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>200.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>220.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_TensOfIslands_Deep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>160.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>210.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_tensofislandsOutflow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>24.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>24.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>16.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>90.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_LO_RVR_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>80.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>180.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>300.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_extinction_scale>1.000000 0.000000</water_clip_extinction_scale>
+  </modifier>
+  <modifier
+    name="WATER_LO_RVR_03"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>220.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_LO_RVR_04"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>12.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>220.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>260.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>370.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_FH_RVR_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>45.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>50.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>330.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_FH_RVR_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>270.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>220.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>150.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_veryMuddy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>205.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>160.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>125.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>399.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>399.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>499.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_poolVclean"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.050000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.100000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.300000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>9.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>3.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_poolClean"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.100000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.100000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.300000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>15.188000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.700000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_poolNotClean"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.300000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.900000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>25.188000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>8.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_EmSprings_Deep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.250000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>3.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>50.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>10.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>10.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_EmSprings_Outer"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>3.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.250000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>60.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>40.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>50.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SwampSafari_Deep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>45.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>70.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>500.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>500.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SwampSafari_Shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>180.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>650.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>700.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Keys_Lagoon"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>65.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>55.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>38.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>60.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>52.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>65.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pond_GreenAlgae"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>15.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>320.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>300.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>340.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pond_BrownDirty"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>26.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>17.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>615.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>800.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_TreatmentWorks"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>36.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>27.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>365.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>530.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Limestone_Grey"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>75.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>349.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>600.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>700.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Limestone_LightGreen"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>180.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>270.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>325.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>500.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>475.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Limestone_LightYellow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>199.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>99.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>550.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>399.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>550.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Limestone_White"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>350.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>350.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>350.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>450.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>450.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_RawSewage_Heavy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>145.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>135.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>80.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>920.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>950.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>950.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Brackish_Pool"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>65.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>70.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SettlingPool_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>80.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>65.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>190.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>230.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SettlingPool_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>40.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>215.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SettlingPool_03"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>55.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>45.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>37.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>160.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>220.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="Water_generalWater"
+    description=""
+    groupApplyTag="Base"
+    localApplyIndex="0"
+    userFlags="0"
+    numAxes="4"
+    numKeyframes="2"
+  >
+    <axis controlValue="None">
+      <keyframe_t_value>0.000000 1.000000</keyframe_t_value>
+      <water_clip_scattering_r>0.100000 8.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.100000 12.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.300000 16.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>11.200000 112.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>6.700000 99.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>6.000000 99.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="None">
+      <water_clip_scattering_r>0.800000 8.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>1.600000 16.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>1.200000 12.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>9.000000 90.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>6.600000 66.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>11.200000 112.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="None">
+      <water_clip_scattering_r>1.600000 16.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.400000 4.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.300000 3.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>6.600000 66.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>7.000000 70.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>13.000000 130.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="none">
+      <water_clip_scattering_r>0.100000 1.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.100000 1.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.100000 1.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>13.000000 130.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>12.000000 112.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>12.000000 150.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+  </modifier>
+  <modifier
+    name="Water_generalWater2"
+    description=""
+    groupApplyTag="Base"
+    localApplyIndex="0"
+    userFlags="8"
+    numAxes="4"
+    numKeyframes="5"
+  >
+    <axis controlValue="underwaterFog.r">
+      <keyframe_t_value>0.000000 0.250000 0.500000 0.750000 1.000000</keyframe_t_value>
+      <water_clip_scattering_r>0.100000 0.150000 0.300000 1.000000 4.500000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.100000 0.200000 0.400000 1.500000 5.500000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.300000 0.300000 0.600000 2.000000 6.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>11.200000 11.200000 13.000000 26.000000 52.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>6.700000 8.000000 10.000000 24.000000 50.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>6.000000 7.000000 9.000000 22.000000 48.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000 0.720000 0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000 0.820000 0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000 0.920000 0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000 1.000000 1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="underwaterFog.g">
+      <water_clip_scattering_r>0.200000 0.300000 0.500000 1.000000 5.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.400000 0.600000 1.000000 2.000000 8.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.300000 0.300000 0.500000 1.000000 4.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>9.000000 11.000000 15.000000 30.000000 90.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>8.000000 10.000000 13.000000 26.000000 66.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>14.000000 16.000000 19.000000 40.000000 100.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000 0.720000 0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000 0.820000 0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000 0.920000 0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000 1.000000 1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="underwaterFog.b">
+      <water_clip_scattering_r>0.400000 1.600000 3.500000 6.600000 16.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.250000 0.800000 1.000000 1.700000 4.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.100000 0.300000 0.300000 1.000000 3.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>4.000000 5.000000 13.000000 26.000000 66.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>5.000000 7.000000 14.000000 28.000000 70.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>10.000000 13.000000 26.000000 48.000000 130.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000 0.720000 0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000 0.820000 0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000 0.920000 0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000 1.000000 1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+    <axis controlValue="none">
+      <water_clip_scattering_r>0.100000 0.140000 0.250000 0.300000 1.000000</water_clip_scattering_r>
+      <water_clip_scattering_g>0.100000 0.150000 0.250000 0.350000 1.000000</water_clip_scattering_g>
+      <water_clip_scattering_b>0.100000 0.120000 0.150000 0.200000 1.000000</water_clip_scattering_b>
+      <water_clip_extinction_r>7.000000 15.000000 25.000000 48.000000 130.000000</water_clip_extinction_r>
+      <water_clip_extinction_g>7.500000 15.000000 25.000000 49.000000 112.000000</water_clip_extinction_g>
+      <water_clip_extinction_b>9.000000 15.000000 25.000000 50.000000 150.000000</water_clip_extinction_b>
+      <water_clip_phase_r>0.720000 0.720000 0.720000 0.720000 0.720000</water_clip_phase_r>
+      <water_clip_phase_g>0.820000 0.820000 0.820000 0.820000 0.820000</water_clip_phase_g>
+      <water_clip_phase_b>0.920000 0.920000 0.920000 0.920000 0.920000</water_clip_phase_b>
+      <water_clip_bloom_mod>1.000000 1.000000 1.000000 1.000000 1.000000</water_clip_bloom_mod>
+    </axis>
+  </modifier>
+  <modifier
+    name="WATER_Limestone_LightRed"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>250.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>400.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>300.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>200.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_InkyBlack_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.100000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.050000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.050000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>850.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ocean_atlanticS"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.300000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>2.250000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ocean_atlanticN"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.300000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>0.750000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ocean_caribean"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="1"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.100000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>3.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>6.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_ocean_gulf"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>3.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>8.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>6.598000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>6.598000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Frack_Pollute_Orange"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>220.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>45.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>310.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>800.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>900.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Aggregate_Red_Tannin"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>100.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>65.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>600.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pond_GreenAlgae_Heavy"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>380.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>440.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>420.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>820.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>800.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>840.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SubmergedCar_Lagoon"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>6.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>10.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>60.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>65.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>120.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_RawSewage_ Light"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>150.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>175.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>650.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>400.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_PoolNotClean_Algae"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>22.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>15.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>400.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>400.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Vice_River_Churn"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>10.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>7.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>45.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>50.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>70.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Vice_River"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>4.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>5.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.050000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>30.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>35.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>40.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Capri_RIver_Churn"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>15.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>155.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>140.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>150.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Capri_River"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>16.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>20.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>15.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>60.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>65.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>120.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachSilt_old"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>40.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>90.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>275.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>180.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>175.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachMid_old"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>87.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>55.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>140.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachDeep_old"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>18.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>75.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>63.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_beachHeavySilt_old"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>225.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>170.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>90.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>125.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>125.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>125.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+  </modifier>
+  <modifier
+    name="WATER_MA_RVR_03"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>30.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>34.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>115.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>140.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>160.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_MA_RVR_03_Shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>115.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>130.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>110.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>220.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_FH_RVR_02_Churn"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>520.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>520.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>400.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>710.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>560.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>350.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_mangroves_bay_silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>48.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>64.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>128.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_lo_crk_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>418.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>180.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>120.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>420.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>300.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>400.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_nb_mill_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>180.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>85.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>280.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>330.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_KeyesBay"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.750000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>4.800000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>33.599998 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>14.400000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>15.600000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_KeyesBay_shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>6.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>5.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>7.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>35.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>12.500000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>25.500000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SA_BeachHeavySilt_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>28.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>26.000000 0.000000</water_clip_scattering_b>
+    <water_clip_scattering_scale>1.000000 0.000000</water_clip_scattering_scale>
+    <water_clip_extinction_r>30.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>30.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>30.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SA_BeachSilt_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>15.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>50.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>55.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>48.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_SA_BeachMId_02"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>10.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>60.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>120.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>70.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Swimming_Pool"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>0.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>4.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>8.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>50.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>15.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>10.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Blood_Pool_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Trash_Islands"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>3.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.250000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>17.500000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>17.500000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>30.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Brown_Dirty_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>26.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>17.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>615.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>800.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="Water_Pool_Brown_Dirty_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>7.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>255.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>350.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Clean_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>1.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.600000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>3.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>22.800000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>10.050000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>9.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Algae_Green_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>2.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>6.500000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>0.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>85.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>105.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Algae_Green_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>15.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>25.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>280.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>290.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Algae_Green_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>18.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>13.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>560.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>500.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>580.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Grey_Dirty_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>90.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>90.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>75.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>180.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>160.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>180.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pool_Grey_Dirty_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>50.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>50.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>150.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>150.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>150.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Urban_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>160.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>230.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Urban_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>130.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>160.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>180.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>650.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>650.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>650.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Urban_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>90.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>120.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>130.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>350.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Mud_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_extinction_r>700.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>700.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>700.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_r>170.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>155.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>99.000000 0.000000</water_clip_scattering_b>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Mud_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>160.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>150.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>499.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>499.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>499.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Mud_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>80.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>70.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>55.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>350.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Limestone_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>230.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>299.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>375.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>499.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>499.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>499.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Limestone_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>145.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>225.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>300.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>300.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_Limestone_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>100.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>133.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>165.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>250.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_RedClay_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>400.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>250.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>120.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>850.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>950.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_RedClay_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>240.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>60.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>485.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Puddle_RedClay_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>140.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>80.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>30.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>250.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>265.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>280.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Neutal_Dirty_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>800.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>800.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>670.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Neutal_Dirty_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>400.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>400.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>335.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>500.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>500.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Neutal_Dirty_D1"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>200.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>200.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>170.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>220.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>270.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Clean_D0"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="2"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>6.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>6.400000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>12.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>300.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Brown_Dirty_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>100.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>65.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>20.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>850.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>950.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Brown_Dirty_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>85.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>35.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>550.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>600.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSIm_Bloody_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>300.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>5.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>1000.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSIm_Bloody_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>250.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Green_Algae_D5"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>40.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>35.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>1000.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>700.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>700.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_NoSim_Green_Algae_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>35.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>35.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>700.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>550.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>550.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Formaldehyde_D3"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>7.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>10.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.500000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>120.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>80.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>96.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Pools_Marshy_01"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>80.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>100.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>40.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>700.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>750.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Pond_Orange"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>199.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>75.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>25.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>199.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>199.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Pond_Green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>20.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>99.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>22.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>199.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>400.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Pond_Light_Green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>70.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>90.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>25.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>200.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>180.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>150.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_b>200.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Limestone_Green"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>220.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>320.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>299.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>460.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>460.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>460.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_b>460.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Limestone_Blue"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>220.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>340.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>350.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>399.000000 0.000000</water_clip_extinction_b>
+    <water_clip_extinction_b>399.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Eco_Pool"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>324.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>144.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>104.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>900.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>900.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>900.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Mine_Pollutant"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>348.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>110.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>350.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>220.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Mangroves_INLAND"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>79.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>133.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>50.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>299.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>299.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>500.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Ochechobee_veg_silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>120.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>176.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>400.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>400.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Redneck_Mudpark"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_r>160.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>110.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>100.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>500.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>400.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>355.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Pond_Red"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>3.200000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>1.300000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>2.900000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>18.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>18.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>18.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="Water_Quarry_Pond_PURPLE
+"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_r>166.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>30.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>99.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>399.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>600.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Lake_Leonida"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>177.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>166.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>170.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>500.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>400.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Quarry_Pond_Orange_nosilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>64.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>67.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>50.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Light_Brown_Silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>233.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>225.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>233.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>599.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>599.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>599.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Dairy_Farm_Cowmuck"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>310.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>310.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>110.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>799.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>900.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>850.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_blood_pollutant"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>210.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>60.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>80.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>600.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>600.000000 0.000000</water_clip_extinction_b>
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+  </modifier>
+  <modifier
+    name="WATER_Golf Silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>188.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>199.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>11.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>450.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>500.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>850.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_RoanoakeFalls"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>11.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>13.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>82.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>111.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>133.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_RoanokeFallsChurn"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>22.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>32.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>38.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>93.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>118.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>175.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_EXCON_green_exctoplasm"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>47.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>5.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>300.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>199.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>1000.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_NB_SandySilt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_extinction_r>630.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>640.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>560.000000 0.000000</water_clip_extinction_b>
+    <water_clip_scattering_r>104.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>90.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>66.000000 0.000000</water_clip_scattering_b>
+  </modifier>
+  <modifier
+    name="WATER_Red_Tide_I"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>250.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>80.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>600.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>800.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>800.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Moreau_Estuary_Base"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_phase_r>0.720000 0.000000</water_clip_phase_r>
+    <water_clip_phase_g>0.820000 0.000000</water_clip_phase_g>
+    <water_clip_phase_b>0.920000 0.000000</water_clip_phase_b>
+    <water_clip_bloom_mod>1.000000 1.000000</water_clip_bloom_mod>
+    <water_clip_scattering_r>10.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>12.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>11.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>110.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>42.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>33.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Moreau_Estuary_Mid"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>51.310001 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>71.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>56.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>240.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>245.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>250.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Moreau_Estuary_Deep"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>9.500000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>11.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>10.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>100.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>36.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>26.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Moreau_Estuary_Silt"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>160.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>140.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>120.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>299.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>280.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>299.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_NB_Dark_Silty_Mud"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>104.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>90.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>66.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>630.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>640.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>560.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Vice_Bay_Shallow"
+    description=""
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <water_clip_scattering_r>5.000000 0.000000</water_clip_scattering_r>
+    <water_clip_scattering_g>9.000000 0.000000</water_clip_scattering_g>
+    <water_clip_scattering_b>1.000000 0.000000</water_clip_scattering_b>
+    <water_clip_extinction_r>52.000000 0.000000</water_clip_extinction_r>
+    <water_clip_extinction_g>28.000000 0.000000</water_clip_extinction_g>
+    <water_clip_extinction_b>30.000000 0.000000</water_clip_extinction_b>
+  </modifier>
+  <modifier
+    name="WATER_Set_Water_Level_0"
+    description="For use in tc mod boxes to fix graphical corruption beneath large ships"
+    groupApplyTag="Box"
+    localApplyIndex="0"
+    userFlags="0"
+  >
+    <indirect_light_override_water_level>0.000000 0.000000</indirect_light_override_water_level>
+  </modifier>
+</timecycle_modifier_data>

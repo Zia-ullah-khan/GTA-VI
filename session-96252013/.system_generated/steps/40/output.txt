@@ -1,0 +1,27 @@
+The search for ""RPF8" encryption OR "Encryption Type" rdr2 github" returned the following summary:
+In the context of Rockstar Games file formats (specifically *Red Dead Redemption 2* and the RAGE engine), **RPF8** is the archive version format used for game files (following RPF7 used in *GTA V*)[1]. 
+
+When looking into GitHub repositories handling RPF8 and RPF archive encryption types (such as `rpf-archive` libraries, community format docs, or toolkits like OpenIV/CodeWalker derivatives), the structure and encryption parameters typically break down as follows:
+
+### 1. Encryption Types Header Fields
+In RAGE RPF archives (including RPF7 and RPF8 formats), internal structure headers specify how individual entries or blocks are encrypted. Across open-source parsers on GitHub, these encryption types are generally grouped into four main constants[2]:
+* **`NONE`**: Unencrypted data blocks.
+* **`OPEN`**: Designated by the magic string `"OPEN"`. Modded files often ship as `OPEN` so that the game engine can read them without requiring proprietary re-encryption keys[2].
+* **`AES`**: Advanced Encryption Standard blocks (less commonly used for main asset files in later RAGE iterations)[3].
+* **`NG`**: Rockstar's custom "New Generation" encryption scheme utilized heavily in modern RAGE titles (*GTA V*, *RDR2*)[2][3]. 
+
+### 2. Key Differences in RPF8 (*RDR2*)
+While RPF7 (*GTA V*) keys and structures are extensively mapped out in open-source tooling, **RPF8** introduced structural alterations:
+* **Hash-based Entries:** Unlike older iterations where file paths or names were stored more explicitly within specific lookup tables, RPF8 entries are heavily indexed and keyed by hashes rather than plain text names. External nametables are typically required to map hashes back to readable asset paths[2].
+* **Read vs. Write limitations:** Open-source libraries can readily implement decryption routines for RPF8/NG formats because key constants or patterns can be extracted/scanned from the game executable (`RDR2.exe`)[3]. However, full re-encryption or creation of native-encrypted NG files remains an asymmetrical challenge ("read NG = easy, write NG = the wall") because the specific generation/encryption tables are not natively embedded in standard binaries[2].
+
+### Relevant GitHub Ecosystem Projects
+If you are looking for codebases dealing with these specifications, look into:
+* **`rpf-archive` / `rage-rpf` (Rust libraries):** Handles reading/writing across RPF0 through RPF8 formats, detailing format magic values and parsing structures[1][4].
+* **CodeWalker / gta-toolkit derivatives:** Contain historical implementations of key-Scanning (`GTAKeys.cs`) and RAGE architecture parsing logic that map over into RDR2 research[3].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_gnJLV2dUBChtCiD_Ev25vNZCH6m9zb0IC4CpiMIXzw0r7P7L19B-fOsr63W97EEPpkzZ1Tkb23R-lLB9-TdCy1ONREAP2A_r7vlQ5SRjY0kDK2WmBb5E)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDSVAlPYqwpkqpJ55Mnv3BstiutcehxDyGVUZm42PosdP_qbFaYh83OgjcN5ofT2mACh3U-jQtXQW48S6YBz0cD89bYhkoRgzGbsphpBTelR0g34vWZHoRw5RQnWDjSoqnVPUGHTwNzNVbU7y7i7ve2b8EsErKIWmwE2Kugjx7Ww8=)
+[3] [unknowncheats.me](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6yIUECHlbOLoK3V0CXCBnXBp4Nha98K8zzjUFdYwNDGRoKsqcojlNNns91kRc3g1GlMxWC0nOcCBfVmIATEC9mZPgdXiU5HoXxfuPYhfyXw_PFuAlgs_IKX7OXxmclPfWqg2gZTlanqotkrP6Dbyx4rNEGB3a9xry1lOjIPiQekSOmja_ig0hlYZ_hpIx-Y1PC8QMWPWDggxDL8SnpOBr-S4Wz7lZ5fBTQM2cb62KdwsS0z0HjbQ=)
+[4] [lib.rs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD7NGtqB5ZTZaue-u7rZYoCU6eYZj3fVZFAANBydlmsshIjqVJqiouJDqNNjB7ekOvfXeI2lVKbL0dmhy24tLxxV6XvMPkwqAUBK5PeMqGIm98reo=)

@@ -1,0 +1,37 @@
+The following changes were made by the replace_file_content tool to: C:\Users\<user>\.gemini\antigravity-cli\brain\96252013-4633-45e8-b6a2-59b18be9e68c\scratch\build_speedrun_flowcharts.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -481,10 +481,10 @@
+         else:
+             draw_mission(ax, c5_x, cy, mw, 1.15, t, s, is_climax=(ct=="climax"))
+             
+-    out_path = os.path.join(WORKSPACE_DIR, "GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png")
+-    plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
+-    plt.close()
+-    print("Saved:", out_path)
++    out_path = os.path.join(ARTIFACT_DIR, "GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png")
++    plt.savefig(out_path, bbox_inches="tight", facecolor=BG_COLOR)
++    plt.close()
++    print("Saved to artifact dir:", out_path)
+ 
+ if __name__ == "__main__":
+     print("Generating GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png...")
+@@ -492,10 +492,12 @@
+     render_speedrun_master_campaign()
+     
+     for fn in ["GTAVI_SPEEDRUN_CHAPTER1_COMPLETE.png", "GTAVI_SPEEDRUN_CAMPAIGN_MASTER.png"]:
+-        src = os.path.join(WORKSPACE_DIR, fn)
+-        dst = os.path.join(ARTIFACT_DIR, fn)
++        src = os.path.join(ARTIFACT_DIR, fn)
++        dst_ws = os.path.join(WORKSPACE_DIR, fn)
++        dst_dl = os.path.join(r"C:\Users\<user>\Downloads", fn)
+         if os.path.exists(src):
+-            shutil.copyfile(src, dst)
+-            print(f"Copied {fn} to artifact directory.")
++            shutil.copyfile(src, dst_ws)
++            shutil.copyfile(src, dst_dl)
++            print(f"Copied {fn} to workspace and Downloads.")
+     print("SPEEDRUN FLOWCHARTS COMPLETE!")
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

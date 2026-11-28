@@ -1,0 +1,62 @@
+Command exited with code 0.
+
+Command output:
+=== 0x23EB42804F0887FA.ysc.cs (2) ===
+  13129: if (((as_i32(local_0) > as_i32(0xFFFFFFFFA5D2A9D0))))
+  13147: if (((as_i32(local_0) == as_i32(0xFFFFFFFFA5D2A9D0))))
+=== 0x473489E898504D8B.ysc.cs (112) ===
+  37904: store_i32(Vm.Address(v_016A68_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  37921: store_i32(Vm.Address(v_016A97_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  37957: store_i32(Vm.Address(v_016B24_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  37974: store_i32(Vm.Address(v_016B53_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  38022: store_i32(Vm.Address(v_016BF4_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  38039: store_i32(Vm.Address(v_016C23_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  99447: store_i32(Vm.Address(v_03901C_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  99461: store_i32(Vm.Address(v_039049_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  100605: v_039C52_0 = Native._0x622C67FF3C2BDB16(0x42EE1DA9); // RVA: 0x03CCF6A0
+  101254: store_i32(Vm.Address(v_03A3A0_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  101268: store_i32(Vm.Address(v_03A3CC_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  101287: local_9 = 0xFFFFFFFF8BFE1E9B;
+  106348: local_26 = 0xFFFFFFFF8BFE1E9B;
+  106751: store_i32(Vm.Address(v_03DBF4_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+  106768: store_i32(Vm.Address(v_03DC23_0, 0), 0x0, 0xFFFFFFFFEA88451F);
+=== 0x4752280DAB1978C7.ysc.cs (1) ===
+  5331: local_1 = 0xFFFFFFFFA5D2A9D0;
+=== 0x4F39E934537044E7.ysc.cs (1) ===
+  241507: if (((as_i32(local_107) != as_i32(0x4FDF20E8))))
+=== 0x632960B12A2FA567.ysc.cs (1) ===
+  1028: if (((as_i32(local_0) != as_i32(0x4FDF20E8))))
+=== 0x7CCF416188A4BC1F.ysc.cs (1) ===
+  608065: if (((as_i32(load_i32(Operations.array_element_address(local_100, local_101), 0x0)) != as_i32(0x4FDF20E8))))
+=== 0x94454F7093653CE9.ysc.cs (6) ===
+  67671: local_38 = 0x4FDF20E8;
+  67783: local_61 = 0x4FDF20E8;
+  69269: local_5 = 0x4FDF20E8;
+  69394: local_29 = 0x4FDF20E8;
+  95632: local_40 = 0x4FDF20E8;
+  127475: local_15 = 0x4FDF20E8;
+=== 0x947D998BD81F7AC1.ysc.cs (2) ===
+  882633: local_10 = 0x4FDF20E8;
+  882644: local_12 = 0x4FDF20E8;
+=== 0xB27420D7168C6FF5.ysc.cs (1) ===
+  27534: if (((as_i32(load_i32(Operations.array_element_address(local_26, local_27), 0x0)) != as_i32(0x4FDF20E8))))
+=== 0xCB466D0841607AEC.ysc.cs (2) ===
+  11851: if (((as_i32(p1) != as_i32(0x4FDF20E8))))
+  189528: if (((as_i32(p1) != as_i32(0x4FDF20E8))))
+=== 0xCDDE40BD045A305B.ysc.cs (1) ===
+  7332: Imports.native.func_02B015(Vm.Address(v_004EE9_3, 0), 0x4FDF20E8);
+=== 0xD2601E252151E04B.ysc.cs (6) ===
+  100687: local_31 = 0xFFFFFFFFA5D2A9D0;
+  178174: if (((as_i32(p1) != as_i32(0x4FDF20E8))))
+  667038: v_137CE2_0 = Native._0xD0D3FDB70A5FEE95(0x42EE1DA9); // RVA: 0x03CCF7C0
+  1032724: if (((as_i32(as_i32(v_1E115E_0)) == as_i32(0x4FDF20E8))))
+  1293653: if (((as_i32(local_3) != as_i32(0x4FDF20E8))))
+  1293720: if (((as_i32(local_3) != as_i32(0x4FDF20E8))))
+=== 0xDAD91F42781F7BDE.ysc.cs (1) ===
+  2496: Imports.native.func_02B015(Vm.Address(locals, 35), 0x4FDF20E8);
+=== 0xED879E82B50285AA.ysc.cs (1) ===
+  89254: return 0x4FDF20E8;
+=== 0xFE2C49933556469C.ysc.cs (3) ===
+  50150: v_01CA07_0 = Native._0x622C67FF3C2BDB16(0x42EE1DA9); // RVA: 0x03CCF6A0
+  105508: v_03D570_0 = Native._0xD0D3FDB70A5FEE95(0x42EE1DA9); // RVA: 0x03CCF7C0
+  105522: store_i32(Vm.Address(locals, 12), 0x0, 0x42EE1DA9);

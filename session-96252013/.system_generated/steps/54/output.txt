@@ -1,0 +1,34 @@
+The search for ""struct RpfHeader" OR "struct rpf_header" OR "RPF8" header struct github" returned the following summary:
+If you are looking for GitHub repositories, documentation, or code snippets defining the **RAGE Package File (RPF)** header structure (used across Rockstar Games titles like *GTA V*, *Red Dead Redemption 2*, etc.)[1][2], implementations typically look like this:
+
+### 1. Typical C / C++ or Rust Header Layout (`RPF7` / `RPF8`)
+
+In open-source tooling (such as CodeWalker[3], community documentation[2], or Rust libraries like `rpf-archive`[1]), the root header layout maps conceptually to a structure like the following:
+
+```c
+struct RpfHeader {
+    uint32_t magic;           // "RPF7" (0x37465052) or "RPF8" (0x38465052)
+    uint32_t entryCount;      // Total number of file and directory entries
+    uint32_t namesLength;     // Size of the string blob for file/dir names (absent/0 in some RPF8 implementations)
+    uint32_t encryptionType;  // 0 = None, OPEN (0x4E45504F), AES, or NG
+};
+```[4][2]
+
+---
+
+### 2. Key GitHub Repositories & References
+
+To inspect exact struct definitions, parsing routines, and decryption logic on GitHub, look into these prominent open-source projects:
+
+* **[Bobrokus/rpf7-docs](https://github.com/Bobrokus/rpf7-docs)** – Clean, breakdown documentation mapping out the exact header offsets, entry counts, and encryption type enums for `RPF7`[2].
+* **[dexyfex/CodeWalker](https://github.com/dexyfex/CodeWalker)** – The primary C# open-source reference for Rockstar's RAGE engine files. Check its `RpfFile.cs` implementation for the most authoritative parsing of header blocks across `RPF2` through `RPF8`[3].
+* **[wjy000/gtav-enhanced-rpf](https://github.com/wjy000/gtav-enhanced-rpf)** – Python tooling focusing on newer Gen9/Enhanced RPF structures and block ciphers[5].
+* **[zeozeozeo/rpf7](https://github.com/zeozeozeo/rpf7)** or similar crates under the **`rpf-archive`** ecosystem – Rust implementations parsing RPF headers, TOC entries, and resource flags (`RSC7`)[1][6].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnNYDyk56IPpGPtgDbctAWjMXUo00jzVHkPLWB3Pw5hU63oMawtCbm2hkiytBJP1y-cR3KIXhNGLghCXWq7VyAlOEIsCwM28oMH6ZYtvLunH5GF5Z0MjYj)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE89-WdumCTF83P8xtRQgi_uwEXWgGhYtHa_NFv1Bgz3XE2wyFi1EJFIACJ5l86B8K08_iqrjXt1yIGeHb8KGJ4IiBSIf31EKVNjiRlJdHutxut7p3EFW5lIhW4)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnkOrVnu3RwbLiqZ9WIj8n6ZqIv0mrHgZ81UyIe7hrEVZcb9yCEJLLcWAnmNl-C1m4GWnfxXeqc7oVDM8dxOLnbfybLnz_nHEAhbdEvJhIwpMICoeA6vtNurF_mmGcerhvNWbgxPC3h9Slrf1aP2BG0OpRLZrENuJiBjc-lxzRX4I=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnkOrVnu3RwbLiqZ9WIj8n6ZqIv0mrHgZ81UyIe7hrEVZcb9yCEJLLcWAnmNl-C1m4GWnfxXeqc7oVDM8dxOLnbfybLnz_nHEAhbdEvJhIwpMICoeA6vtNurF_mmGcerhvNWbgxPC3h9Slrf1aP2BG0OpRLZrENuJiBjc-lxzRX4I=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYXkK5EJKB8Q2t_-FPgeVrLH57Q1sZILB403o5MpNiQPa2ZTiMsXPOOuJB-4khDGHuplAhTlcZtMEm4z3_omeR_-LKE__TLkTkZzMppBx07-t3tHADQINBsEnD8WK7LqiX)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrTeUZKOkyUCn7s4ltXmhMSKn2b5ylu-H8uePvusF6R72ED4OxkcNAXlLUZueVdv7vRnqv4YfPJdMGc__T0Dl_TPB2z3x1dGLjcvV3afF8WyyMvc9lb5o=)

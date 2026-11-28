@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CUpperBodyIdleSettingsManager>
+	<Options>
+		<Item>
+			<Anims>
+				<Item>
+					<pCondition ref="SCENARIO_EMOTION_ANGRY" />
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@angry@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@angry</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+				<Item>
+					<pCondition ref="SCENARIO_EMOTION_CURIOUS" />
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@curious@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@curious</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+				<Item>
+					<pCondition ref="SCENARIO_EMOTION_DRUNK" />
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@drunk@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@drunk</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+				<Item>
+					<pCondition ref="SCENARIO_EMOTION_NERVOUS" />
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@nervous@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@nervous</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+				<Item>
+					<pCondition ref="SCENARIO_EMOTION_SAD" />
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@sad@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@sad</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+			</Anims>
+		</Item>
+	</Options>
+	<FallbackOptions>
+		<Item>
+			<Anims>
+				<Item>
+					<ClipSetId>ambient@scenarios@shared@layered_base@stand@curious@male@male_a</ClipSetId>
+					<BodyBlendReferenceClipData type="UpperBodyIdleBodyBlendReferenceClipData">
+						<ClipSetId>ambient@scenarios@shared@layered_ref@male@stand@curious</ClipSetId>
+						<ClipId>LAYERED_REF</ClipId>
+						<Phase value="0.000000" />
+						<Rate value="0.000000" />
+					</BodyBlendReferenceClipData>
+					<Weight value="0.5" />
+				</Item>
+			</Anims>
+		</Item>
+	</FallbackOptions>
+	<ConditionalBodyBlendTemplates>
+		<Item>
+			<pCondition ref="DEFAULT" />
+			<BodyBlendTemplateId>Template_UBL_BodyPartConstraintInfoFilter</BodyBlendTemplateId>
+		</Item>
+	</ConditionalBodyBlendTemplates>
+</CUpperBodyIdleSettingsManager>

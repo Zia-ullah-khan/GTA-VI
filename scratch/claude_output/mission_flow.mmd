@@ -1,0 +1,132 @@
+%% Replay-menu mission listing recovered from uiProgressDataset and CMissions.
+%% NO mission prerequisite edges were recovered.
+%% Dashed 'replay entry UnlockId' links: the target's menu entry carries the source as UnlockId.
+%% Dashed 'handler sets flag' links: decompiled func_10AA55 sets the target's flag when called with the
+%% source ID. Neither link type is an unlock prerequisite.
+%% Order inside each chapter is progress-menu display order, not unlock order.
+flowchart TD
+    notice{{"No unlock prerequisites recovered. Listing only, in replay-menu display order"}}
+    subgraph Chapter_1["Chapter 1 (replay-menu filter)"]
+        direction TB
+        m_INT_PROLO["INT_PROLO"]:::unverified
+        m_INT_CHASE["INT_CHASE"]:::unverified
+        m_FT_AMUCO["FT_AMUCO"]:::unverified
+        m_FT_KMODSHP["FT_KMODSHP"]:::unverified
+        m_COM_KBOS_SHOP["COM_KBOS_SHOP"]:::unverified
+        m_COM_KBOS_COLAT["COM_KBOS_COLAT"]:::unverified
+        m_COM_KBOS_NEIGHB["COM_KBOS_NEIGHB"]:::unverified
+        m_COM_KBOS_RADR["COM_KBOS_RADR"]:::unverified
+        m_CSC_TRH_CHART["CSC_TRH_CHART"]:::unverified
+        m_COM_SFH_MVFN["COM_SFH_MVFN"]:::unverified
+        m_INT_PRISO["INT_PRISO"]:::unverified
+        m_INT_BANK["INT_BANK"]:::unverified
+        m_CTI_PIL_RD_SH["CTI_PIL_RD_SH"]:::unverified
+        m_COM_KBOS_PLNDATE["COM_KBOS_PLNDATE"]:::unverified
+        m_INT_PLNSH["INT_PLNSH"]:::unverified
+        m_BIL_FUN["BIL_FUN"]:::unverified
+        m_INT_AIR["INT_AIR"]:::unverified
+        m_COM_KBOS_CLEAN["COM_KBOS_CLEAN"]:::unverified
+        m_HO_PAR_KEYCO["HO_PAR_KEYCO"]:::unverified
+        m_BIL_PICK["BIL_PICK"]:::unverified
+        m_BIL_HOUSE["BIL_HOUSE"]:::unverified
+        m_BIL_WHEEL["BIL_WHEEL"]:::unverified
+    end
+    subgraph Chapter_2["Chapter 2 (replay-menu filter)"]
+        direction TB
+        m_MTL_WAKE["MTL_WAKE"]:::unverified
+        m_MTL_AMBUL["MTL_AMBUL"]:::unverified
+        m_FT_MOTEL_SHOP["FT_MOTEL_SHOP"]:::unverified
+        m_MTL_DRIVE["MTL_DRIVE"]:::unverified
+        m_COM_MECH_INTR["COM_MECH_INTR"]:::unverified
+        m_CTI_MECH_STFC["CTI_MECH_STFC"]:::unverified
+        m_MTL_PAIN["MTL_PAIN"]:::unverified
+        m_MTL_MONT["MTL_MONT"]:::unverified
+        m_HO_PAR_FRINT["HO_PAR_FRINT"]:::unverified
+        m_MTL_CONT["MTL_CONT"]:::unverified
+        m_MTL_MUD["MTL_MUD"]:::unverified
+        m_CSC_DRT_CNVY["CSC_DRT_CNVY"]:::unverified
+        m_BIL_MOTEL["BIL_MOTEL"]:::unverified
+    end
+    subgraph Chapter_3["Chapter 3 (replay-menu filter)"]
+        direction TB
+        m_CLB_MEET["CLB_MEET"]:::disputed
+        m_CLB_DEAL["CLB_DEAL"]:::unverified
+        m_ROB_VEH["ROB_VEH"]:::unverified
+        m_ANT_INTRO["ANT_INTRO"]:::unverified
+        m_CSC_MOM_FLIP["CSC_MOM_FLIP"]:::unverified
+        m_CSC_MOM_MSEVN["CSC_MOM_MSEVN"]:::unverified
+        m_COM_DEAL_INTR["COM_DEAL_INTR"]:::unverified
+        m_COM_DLR_MISS["COM_DLR_MISS"]:::unverified
+        m_AO_DEAL_T_SYNTH["AO_DEAL_T_SYNTH"]:::unverified
+        m_COM_DLR_COOK["COM_DLR_COOK"]:::unverified
+        m_COM_ROB_DRIVEPREP["COM_ROB_DRIVEPREP"]:::unverified
+        m_CLB_SCUFF["CLB_SCUFF"]:::unverified
+        m_COM_CBO_CBINT["COM_CBO_CBINT"]:::unverified
+        m_ROB_DRIVE["ROB_DRIVE"]:::unverified
+        m_BIL_RED["BIL_RED"]:::unverified
+        m_ROB_BOAT_J["ROB_BOAT_J"]:::unverified
+        m_ROB_BANK["ROB_BANK"]:::unverified
+        m_CTI_SHOW_HATH["CTI_SHOW_HATH"]:::unverified
+        m_BAN_SETUP["BAN_SETUP"]:::unverified
+        m_BAN_RESCU["BAN_RESCU"]:::unverified
+        m_CLB_STEAL["CLB_STEAL"]:::unverified
+        m_BAN_EXPLO["BAN_EXPLO"]:::unverified
+        m_BAN_CARTE["BAN_CARTE"]:::unverified
+        m_BAN_SAFE["BAN_SAFE"]:::unverified
+        m_CLB_VIDEO["CLB_VIDEO"]:::unverified
+        m_CLB_TOWER["CLB_TOWER"]:::unverified
+        m_BAN_PKBMB["BAN_PKBMB"]:::unverified
+        m_BAN_FINAL["BAN_FINAL"]:::unverified
+    end
+    subgraph Chapter_4["Chapter 4 (replay-menu filter)"]
+        direction TB
+        m_MNY_HOTEL["MNY_HOTEL"]:::unverified
+        m_SFH_TAXI["SFH_TAXI"]:::disputed
+        m_MNY_CAR["MNY_CAR"]:::unverified
+        m_CSC_DIG_DATA["CSC_DIG_DATA"]:::unverified
+        m_MNY_PARTY["MNY_PARTY"]:::unverified
+        m_AIR_TAIL["AIR_TAIL"]:::unverified
+        m_CLB_HELI["CLB_HELI"]:::unverified
+        m_AO_SHOW_L_EXP["AO_SHOW_L_EXP"]:::disputed
+        m_COM_SHOW_TRAILER["COM_SHOW_TRAILER"]:::unverified
+        m_AIR_TRAIN["AIR_TRAIN"]:::unverified
+        m_CLB_PROMO["CLB_PROMO"]:::unverified
+        m_AIR_BEACH["AIR_BEACH"]:::unverified
+        m_AIR_BUS["AIR_BUS"]:::unverified
+        m_AIR_GANG["AIR_GANG"]:::unverified
+        m_AIR_SCOPE["AIR_SCOPE"]:::unverified
+        m_MNY_ESCRT["MNY_ESCRT"]:::unverified
+        m_CLB_EVI["CLB_EVI"]:::unverified
+        m_AIR_TRUCK["AIR_TRUCK"]:::unverified
+        m_MNY_KIDNP["MNY_KIDNP"]:::unverified
+        m_CLB_PARTY["CLB_PARTY"]:::unverified
+        m_AIR_DRONE["AIR_DRONE"]:::unverified
+        m_AIR_HACK["AIR_HACK"]:::unverified
+        m_AIR_RECRU["AIR_RECRU"]:::unverified
+        m_AIR_CATER["AIR_CATER"]:::unverified
+        m_AIR_FINAL["AIR_FINAL"]:::unverified
+        m_ROB_DEATH["ROB_DEATH"]:::disputed
+        m_BIL_CONFR["BIL_CONFR"]:::disputed
+    end
+    subgraph Chapter_5["Chapter 5 (replay-menu filter)"]
+        direction TB
+        m_COA_HELIS["COA_HELIS"]:::unverified
+        m_BIL_BOSS["BIL_BOSS"]:::unverified
+        m_BIL_PREG["BIL_PREG"]:::unverified
+        m_COA_DOG["COA_DOG"]:::unverified
+        m_BIL_LAW["BIL_LAW"]:::unverified
+        m_BIL_PRECI["BIL_PRECI"]:::unverified
+        m_BIL_PENT["BIL_PENT"]:::unverified
+    end
+    m_BIL_WHEEL -.->|replay entry UnlockId| m_BIL_PICK
+    m_BIL_WHEEL -.->|replay entry UnlockId| m_BIL_HOUSE
+    m_BAN_RESCU -.->|replay entry UnlockId| m_BAN_SETUP
+    m_SFH_TAXI -.->|replay entry UnlockId| m_MNY_HOTEL
+    m_MTL_WAKE -.->|handler sets flag| m_COM_KBOS_SHOP
+    m_MTL_WAKE -.->|handler sets flag| m_COM_KBOS_COLAT
+    m_MTL_WAKE -.->|handler sets flag| m_COM_KBOS_RADR
+    m_MTL_WAKE -.->|handler sets flag| m_COM_KBOS_NEIGHB
+    m_MTL_WAKE -.->|handler sets flag| m_COM_KBOS_CLEAN
+    m_MTL_WAKE -.->|handler sets flag| m_HO_PAR_KEYCO
+    classDef unverified fill:#f4f4f4,stroke:#888,color:#222
+    classDef disputed fill:#fff3cd,stroke:#b58900,color:#222

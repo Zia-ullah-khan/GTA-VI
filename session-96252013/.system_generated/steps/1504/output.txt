@@ -1,0 +1,124 @@
+Created At: 2026-11-25T18:10:17-05:00
+Completed At: 2026-11-25T18:10:23-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x1455dc410 ===
+  0x1455dc410: mov qword ptr [rsp + 0x10], rbp
+  0x1455dc415: mov qword ptr [rsp + 0x18], rsi
+  0x1455dc41a: push rdi
+  0x1455dc41b: sub rsp, 0x20
+  0x1455dc41f: mov rsi, r8
+  0x1455dc422: mov rbp, rdx
+  0x1455dc425: mov rdi, rcx
+  0x1455dc428: call 0x145643e40
+  0x1455dc42d: cmp eax, 0x3f1ba1a4
+  0x1455dc432: jne 0x1455dc594
+  0x1455dc438: test rbp, rbp
+  0x1455dc43b: jne 0x1455dc452
+  0x1455dc43d: mov eax, 0x5d3b8edc
+  0x1455dc442: mov rbp, qword ptr [rsp + 0x38]
+  0x1455dc447: mov rsi, qword ptr [rsp + 0x40]
+  0x1455dc44c: add rsp, 0x20
+  0x1455dc450: pop rdi
+  0x1455dc451: ret 
+=== 0x1455dbaa0 ===
+  0x1455dbaa0: push rbp
+  0x1455dbaa2: push rsi
+  0x1455dbaa3: push rdi
+  0x1455dbaa4: push r12
+  0x1455dbaa6: mov eax, 0x4088
+  0x1455dbaab: call 0x145647140
+  0x1455dbab0: sub rsp, rax
+  0x1455dbab3: mov rax, qword ptr [rip + 0x120657e]
+  0x1455dbaba: xor rax, rsp
+  0x1455dbabd: mov qword ptr [rsp + 0x4050], rax
+  0x1455dbac5: mov r12, r9
+  0x1455dbac8: mov rdi, r8
+  0x1455dbacb: mov rbp, rdx
+  0x1455dbace: mov rsi, rcx
+  0x1455dbad1: call 0x145643e40
+  0x1455dbad6: cmp eax, 0x3f1ba1a4
+  0x1455dbadb: jne 0x1455dbcc4
+  0x1455dbae1: test rsi, rsi
+  0x1455dbae4: jne 0x1455dbaf0
+  0x1455dbae6: mov eax, 0x425ead7a
+  0x1455dbaeb: jmp 0x1455dbcc4
+  0x1455dbaf0: test rdi, rdi
+  0x1455dbaf3: je 0x1455dbb13
+  0x1455dbaf5: test rbp, rbp
+  0x1455dbaf8: jne 0x1455dbb04
+  0x1455dbafa: mov eax, 0x55df922
+  0x1455dbaff: jmp 0x1455dbcc4
+  0x1455dbb04: test r12, r12
+  0x1455dbb07: jne 0x1455dbb13
+  0x1455dbb09: mov eax, 0x409ffb5b
+  0x1455dbb0e: jmp 0x1455dbcc4
+  0x1455dbb13: test dil, 0xf
+  0x1455dbb17: je 0x1455dbb23
+  0x1455dbb19: mov eax, 0x7964ef24
+  0x1455dbb1e: jmp 0x1455dbcc4
+  0x1455dbb23: mov qword ptr [rsp + 0x4080], rbx
+  0x1455dbb2b: lea rcx, [rsp + 0x40]
+  0x1455dbb30: mov qword ptr [rsp + 0x4078], r13
+  0x1455dbb38: lea rbx, [rsi + 0x10f0]
+  0x1455dbb3f: mov qword ptr [rsp + 0x4070], r14
+  0x1455dbb47: mov r8d, 0x10
+  0x1455dbb4d: mov qword ptr [rsp + 0x4068], r15
+  0x1455dbb55: mov rdx, rbx
+  0x1455dbb58: mov r15, rdi
+  0x1455dbb5b: shr r15, 4
+  0x1455dbb5f: mov r13, r15
+  0x1455dbb62: shr r13, 0xa
+  0x1455dbb66: mov rax, r13
+  0x1455dbb69: shl rax, 0xa
+  0x1455dbb6d: sub r15, rax
+  0x1455dbb70: call 0x144e586f0
+  0x1455dbb75: test r13, r13
+  0x1455dbb78: je 0x1455dbc35
+  0x1455dbb7e: imul rax, r13, -0x4000
+  0x1455dbb85: lea r14, [rsp + 0x50]
+  0x1455dbb8a: sub r14, rbp
+  0x1455dbb8d: add rax, rdi
+  0x1455dbb90: mov qword ptr [rsp + 0x38], rax
+  0x1455dbb95: nop word ptr [rax + rax]
+  0x1455dbba0: lea rdx, [rbp + 0x3ff0]
+  0x1455dbba7: mov r8d, 0x10
+  0x1455dbbad: lea rcx, [rsi + 0x10f0]
+  0x1455dbbb4: call 0x144e586f0
+  0x1455dbbb9: mov rbx, rbp
+  0x1455dbbbc: mov edi, 0x400
+  0x1455dbbc1: lea rdx, [r14 + rbx]
+  0x1455dbbc5: mov r8, rsi
+  0x1455dbbc8: mov rcx, rbx
+  0x1455dbbcb: call 0x145646730
+  0x1455dbbd0: add rbx, 0x10
+  0x1455dbbd4: sub rdi, 1
+  0x1455dbbd8: jne 0x1455dbbc1
+  0x1455dbbda: lea r9, [rsp + 0x50]
+  0x1455dbbdf: mov qword ptr [rsp + 0x20], r12
+  0x1455dbbe4: mov r8d, 0x4000
+  0x1455dbbea: lea rcx, [rsp + 0x40]
+  0x1455dbbef: mov rdx, rbp
+  0x1455dbbf2: call 0x145643140
+  0x1455dbbf7: mov r8d, 0x10
+  0x1455dbbfd: lea rdx, [rsi + 0x10f0]
+  0x1455dbc04: lea rcx, [rsp + 0x40]
+  0x1455dbc09: mov rbp, rbx
+  0x1455dbc0c: sub r14, 0x4000
+  0x1455dbc13: add r12, 0x4000
+  0x1455dbc1a: call 0x144e586f0
+  0x1455dbc1f: sub r13, 1
+  0x1455dbc23: jne 0x1455dbba0
+  0x1455dbc29: mov rdi, qword ptr [rsp + 0x38]
+  0x1455dbc2e: lea rbx, [rsi + 0x10f0]
+  0x1455dbc35: mov r13, qword ptr [rsp + 0x4078]
+  0x1455dbc3d: test r15, r15
+  0x1455dbc40: je 0x1455dbca7
+  0x1455dbc42: lea rdx, [rdi - 0x10]
+  0x1455dbc46: mov r8d, 0x10
+  0x1455dbc4c: add rdx, rbp
+  0x1455dbc4f: mov rcx, rbx
+  0x1455dbc52: call 0x144e586f0
+  0x1455dbc57: lea r14, [rsp + 0x50]
+  0x1455dbc5c: mov rbx, rbp

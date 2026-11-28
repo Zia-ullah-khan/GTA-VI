@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 10
+    print(f'{k}: {type(d[k])} (len={len(d[k]) if hasattr(d[k], " __len__\)
+                                                               ^
+SyntaxError: unterminated string literal (detected at line 10)
+

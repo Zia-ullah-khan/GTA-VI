@@ -1,0 +1,71 @@
+Created At: 2026-11-25T18:07:04-05:00
+Completed At: 2026-11-25T18:07:10-05:00
+Command exited with code 0.
+
+Command output:
+=== 0x224CF31C94E0534D.ysc.cs (31 hits) ===
+  493: local_1 = 0x6477BE;
+  502: local_5 = 0x72EB1F8F;
+  511: local_9 = 0x29E26420;
+  2317: public static void func_00170E(VmValue arg0, VmValue arg1) // 0x00170E
+  2844: if (((as_i32(p1) == as_i32(0xFFFFFFFFA9EBD5C0))))
+  2893: if (((as_i32(p1) == as_i32(0x1E4C3E7F))))
+  3363: local_32 = 0xFFFFFFFFFAB575E7;
+  3369: local_34 = 0xFFFFFFFFD244CB70;
+  4177: public static void func_0025E6(VmValue arg0, VmValue arg1) // 0x0025E6
+  6066: local_90 = 0xFFFFFFFFA9EBD5C0;
+  6070: local_90 = 0x1E4C3E7F;
+  6239: func_00170E(v_00371E_0, v_00371E_1);
+  6341: func_00170E(v_0038A0_0, v_0038A0_1);
+  6431: if (((as_i32(load_i32(p0, 0x2C)) == as_i32(0x1E4C3E7F))))
+  6440: if (((as_i32(load_i32(p0, 0x2C)) != as_i32(0xFFFFFFFFA9EBD5C0))))
+  6497: func_0025E6(p0, 10);
+  6512: func_00170E(v_003AEB_0, v_003AEB_1);
+  6516: func_0025E6(p0, 10);
+  6551: func_00170E(v_003B41_0, v_003B41_1);
+  6570: func_0025E6(p0, 10);
+  6585: func_00170E(v_003BB2_0, v_003BB2_1);
+  6603: func_0025E6(p0, 10);
+  6627: func_0025E6(p0, 12);
+  6651: func_0025E6(p0, 12);
+  7595: local_1 = 0x6477BE;
+  7607: Imports.module_0x0468EC077B536C3C.func_0E7678(v_004610_5);
+  7635: local_1 = 0x72EB1F8F;
+  7647: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00467C_5);
+  7675: local_1 = 0x29E26420;
+  7687: Imports.module_0x0468EC077B536C3C.func_0E7678(v_0046E8_5);
+  7775: public static void func_0E7678(VmValue p0) => Vm.Script(0xE435BF6CU, 0x0E7678, 0, p0);
+=== 0xF3A7D3E23A9D193E.ysc.cs (0 hits) ===
+=== 0x0CB4AD0F8360F51B.ysc.cs (0 hits) ===
+=== 0x0468EC077B536C3C.ysc.cs (1 hits) ===
+  503592: public static void func_0E7678(VmValue arg0) // 0x0E7678
+=== 0x4B2597A83EC83FE0.ysc.cs (4 hits) ===
+  2020: local_11 = 0xFFFFFFFFCC31EF42;
+  13956: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00801C_9);
+  14012: Imports.module_0x0468EC077B536C3C.func_0E7678(v_0080D4_9);
+  26426: public static void func_0E7678(VmValue p0) => Vm.Script(0xE435BF6CU, 0x0E7678, 0, p0);
+=== 0x5B908217D52280D3.ysc.cs (24 hits) ===
+  28343: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00EBBF_10);
+  28403: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00EC8A_10);
+  28463: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00ED55_10);
+  28523: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00EE20_10);
+  28583: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00EEEB_10);
+  28643: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00EFB6_10);
+  28703: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F081_10);
+  28763: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F14C_10);
+  28823: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F217_10);
+  28883: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F2E2_10);
+  28943: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F3AD_10);
+  29003: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F478_10);
+  29063: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F543_10);
+  29123: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F60E_10);
+  29183: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F6D9_10);
+  29243: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F7A4_10);
+  29303: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F86F_10);
+  29363: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00F93A_10);
+  29423: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00FA05_10);
+  29483: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00FAD0_10);
+  29543: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00FB9B_10);
+  29603: Imports.module_0x0468EC077B536C3C.func_0E7678(v_00FC66_10);
+  43760: local_77 = 0xFFFFFFFFCC31EF42;
+  53623: public static void func_0E7678(VmValue p0) => Vm.Script(0xE435BF6CU, 0x0E7678, 0, p0);

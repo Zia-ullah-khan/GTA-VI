@@ -1,0 +1,158 @@
+Created At: 2026-11-24T20:37:39-05:00
+Completed At: 2026-11-24T20:37:39-05:00
+File Path: `file:///C:/Users/<user>/Downloads/GTA6.Xbox.v1.0.2.1-CYBERLEEK/output/SPEEDRUN_ROUTING_NOTES.md`
+Total Lines: 180
+Total Bytes: 12275
+Showing lines 1 to 150
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: # Speedrun routing notes: build 1.0.2.1 (Xbox Series)
+2: 
+3: ## Status
+4: 
+5: **The mission progression graph has not been reconstructed.** No mission prerequisite, trigger, or protagonist
+6: requirement was recovered. What was recovered is a verified mission inventory, a chapter grouping from two
+7: independent sources, the progress-menu display order, four replay-entry links, and a small set of flow facts
+8: read from a separately supplied folder of decompiled scripts.
+9: 
+10: Do not route from these files as if they described unlock order. In `mission_order.json`, `null` means unknown.
+11: 
+12: **Readable mission titles are not available.** Neither the dump nor the decompiled scripts contain display text.
+13: The names in these files are the game's internal mission IDs.
+14: 
+15: ## What was recovered
+16: 
+17: | Finding | Source | Confidence |
+18: |---|---|---|
+19: | 145 mission table entries (ID, replay text key, grid texture) | `common.rpf` @ `0x219000`, XML root `CMissions` | Observed |
+20: | 97 replay-menu entries under five chapter filters | `data.rpf` @ `0x12010000`, RBF0 root `uiProgressDataset`, category `missions_card` | Observed |
+21: | Chapter grouping: 22 / 13 / 28 / 27 / 7 entries for chapters 1 to 5 | Menu filters `missions_chapter_1` to `_5` | Observed |
+22: | Second chapter source: `CH1` to `CH5` tag in each grid texture name | `CMissions` `TextureName` | Observed, agrees for 87 of 92 comparable entries |
+23: | Four replay entries keyed to another mission | Menu item `ID` differs from `UnlockId` | Observed, meaning inferred |
+24: | Build version 1.0.2.1 | `appxmanifest.xml`, `MicrosoftGame.Config` | Observed |
+25: 
+26: The 97 menu entries and the 145 table rows overlap on 95 IDs. Two menu entries have no table row
+27: (`CTI_PIL_RD_SH`, `MTL_AMBUL`) and 50 table rows have no menu entry.
+28: 
+29: ## Decompiled script evidence
+30: 
+31: Source: `C:\Users\<user>\Downloads\americas_scripts_23_11_2026` (746 `.ysc.cs` files, 52.3 million lines, read
+32: only). This folder is not part of the dump. Its link to this build is that the joaat hashes of 144 of the 145
+33: `CMissions` IDs occur in it as constants, against 0 hits for 145 control strings.
+34: 
+35: | Finding | Where | Confidence |
+36: |---|---|---|
+37: | No display text. Strings appear only as `Vm.StringConstant(program, heapOffset)` (55 lines) and the heap is not in the folder; every quoted literal is decompiler vocabulary | All files, `Runtime\Vm.cs` | Observed |
+38: | 196 scripts reference a mission ID; 177 of them reference exactly one | `work\decomp_mission_refs.json` | Observed |
+39: | 95 of 97 replay-menu missions have at least one such script (not checked: `CTI_PIL_RD_SH`, `MTL_AMBUL`, which have no `CMissions` row) | `decompiled_mission_scripts_referencing_id` in the JSON | Observed |
+40: | `func_109E09` returns 1 for 131 mission IDs. The 14 left out are mostly IDs that have variant rows (`AIR_CATER`, `AIR_FINAL`, `BIL_MOTEL`, `BIL_PENT`, `BIL_PICK`, `INT_PRISO`, `ROB_BOAT_J`, `FT_UP_MMRENT`, `ANT_INTRO`, `FT_AMUCO`, `FT_KMODSHP`, `COM_KBOS_PLNDATE`) plus `ANT_GIVE` and `CTI_PIL_RD_BC_PARENT` | `0xD2601E252151E04B.ysc.cs` lines 570880 to 572796 | Observed |
+41: | `func_10AD05` returns true if the flag for `BIL_FINALE_M` **or** `BIL_FINAL_B` is set | Same file, lines 573115 and 573127 | Observed |
+42: | `func_10AA55(id)` called with `MTL_WAKE` sets the flags of `FT_KMODSHP_SECOND`, `COM_KBOS_SHOP`, `COM_KBOS_COLAT`, `COM_KBOS_RADR`, `COM_KBOS_NEIGHB`, `COM_KBOS_CLEAN`, `HO_PAR_KEYCO`, `RecoverDropTipShackDonnieAlive`, `RecoverDropTipShackDonnieDeadUnknown` | Same file, lines 572964 to 573008 | Observed |
+43: | `func_10AA55(id)` called with `MNY_HOTEL` or `MNY_HOTEL_AUTOLAUNCH` sets `ANT_SRCH` and `ANT_RECOV`; sets `ANT_CHASE` unless `ANT_CHASE_AUTOLAUNCH` or `ANT_CHASE` is already set; sets `ANT_INTRO_APARTMENT` unless `ANT_INTRO_APARTMENT` or `ANT_INTRO_STORAGE` is already set | Same file, lines 572946 to 573082 | Observed |
+44: | `BIL_PICK_NIGHT_TIME_START` and `BIL_PICK_DAY_TIME_START` are passed to the same native with a boolean and its negation; the boolean includes a `< 17` comparison | `story000.ysc.cs` lines 116320 to 116328 | Observed |
+45: 
+46: "Flag" means the per-ID value written by `Virtual.type_37658EE3464E5234.Method_0(store, id, 1)` and read by
+47: `Method_1`. The methods are unnamed. Reading the flag as "mission completed" is an **inference** from the ID names
+48: and from `func_10AD05`; it is not proven. Whether `func_10AA55` runs at mission start or mission pass is unknown:
+49: no direct call to it was found in the decompiled code, so it is presumably dispatched indirectly.
+50: 
+51: If that inference holds, it would mean the listed chapter 1 entries are closed out when `MTL_WAKE` (first entry of
+52: the chapter 2 filter) is processed, the `ANT_*` entries are closed out when `MNY_HOTEL` (first entry of the
+53: chapter 4 filter) is processed, and the story has two alternative final missions. Treat all three as leads to test,
+54: not as routing facts.
+55: 
+56: Eight scripts reference IDs of more than one mission family. What each reference does was not determined:
+57: `0x2CC10383B818622E` (`HO_PAR_FRINT`, `MTL_MUD`), `0x4C79572EA44F9250` (`AO_SHOW_L_EXP`,
+58: `robbergetawaydriverprep`), `0x69B5F3FBB0807F99` (`COM_KBOS_COLAT`, `CTI_MECH_STFC`, `CTI_SHOW_HATH`),
+59: `0x947D998BD81F7AC1` (`AIR_TAIL`, `CLB_EVI`, `FT_KMODSHP_FIRST`, `FT_KMODSHP_SECOND`), `0x96FAE5BE63A12676`
+60: (`BIL_BOSS`, `COA_HELIS`), `0xCB466D0841607AEC` (`COM_MECH_INTR`, `COM_SFH_MVFN`), `0xCBB412F4549E13F9`
+61: (`FT_MOTEL_SHOP`, `FT_UP_MMRENT_MANAGER_*`, `UP_MLSPM`), `0xD6DA4FF46709E305` (`INT_PLNSH`, `MTL_CONT`).
+62: 
+63: Not analysed: `func_12EB6F` (maps unnamed hashes to 17 mission IDs), `func_24BCE4` (registers a record for each
+64: of 31 mission IDs), and the natives that take a mission ID (`_0x65F45909812A5248`, `_0x7191C011FD1040FD`,
+65: `_0xB0584804833510A0`, `_0x480014E54CD33903`, `_0xC663AE0D5D968A80`), whose names are not in the decompilation.
+66: 
+67: ## Structural topology summary
+68: 
+69: Unknown. The readable data contains no linear-versus-parallel information. The only structural hint is the pair
+70: of alternative final-mission flags above.
+71: 
+72: - Menu order inside a chapter is a display order. `UniqueMissionIndex` is not chronological either: index 23 is
+73:   tagged `CH3`, index 67 is `CH5`, and indices 98 and 99 are `CH3`.
+74: - Mission entries use `uiUnlockEvaluatorMission` with no parameters, so the menu holds no condition expressions.
+75: 
+76: ## Hard synchronization bottlenecks
+77: 
+78: None determinable. No mission could be shown to gate another.
+79: 
+80: ## Speedrun-critical mechanics found in scripts
+81: 
+82: None confirmed. The dump's own script archives were not readable. The decompiled folder gave the flag facts in
+83: the section above and nothing about phone-call delays, timers, fail-skip thresholds, or stat and cash gates.
+84: 
+85: The following are **names only**, taken from table rows that share a listed mission's ID as a prefix. They show
+86: that variants exist. They do not show what triggers them or what they change.
+87: 
+88: | Listed mission | Variant table entries |
+89: |---|---|
+90: | `INT_PRISO` | `_TRIGGER_EARLY`, `_TRIGGER_LATE` |
+91: | `BIL_PICK` | `_DAY_TIME_START`, `_NIGHT_TIME_START` |
+92: | `MNY_HOTEL` | `_AUTOLAUNCH` |
+93: | `MNY_KIDNP` | `_AUTO-LAUNCH` |
+94: | `BIL_MOTEL` | `_NON_VIOLENT`, `_VIOLENT` |
+95: | `AIR_FINAL` | `_DATA_HACK_FAILED`, `_DATA_HACK_PASSED` |
+96: | `AIR_CATER` | `_DHF`, `_DHP`, `_DHS` |
+97: | `BIL_PENT` | `_B_BRIAN`, `_M_MENDEZ` |
+98: | `ROB_BOAT_J` | `_JASON` (a separate row `ROB_BOAT_L_LUCIA` also exists) |
+99: | `FT_AMUCO` | `_FIRST_INTERACTION`, `_SECOND_INTERACTION` |
+100: | `FT_KMODSHP` | `_FIRST`, `_SECOND` |
+101: | `ANT_INTRO` | `_APARTMENT`, `_STORAGE` |
+102: | `COM_KBOS_PLNDATE` | `_PLANE_N_DINNER_DATE` |
+103: 
+104: A further 27 table rows match no listed mission by prefix, including `ANT_CHASE_AUTOLAUNCH`, `BIL_FINALE_M`,
+105: `BIL_FINAL_B`, `FIN_CONT`, `INT_CRED`, and four `FT_UP_MMRENT_MANAGER_*` rows. The full list is in
+106: `cmissions_entries_not_in_replay_menu`.
+107: 
+108: ## Replay-entry links
+109: 
+110: These are the only cross-mission relations in the readable data. In each case the menu entry's `UnlockId` names a
+111: different mission than its own `ID`.
+112: 
+113: | Replay entry | `UnlockId` |
+114: |---|---|
+115: | `BIL_PICK` | `BIL_WHEEL` |
+116: | `BIL_HOUSE` | `BIL_WHEEL` |
+117: | `BAN_SETUP` | `BAN_RESCU` |
+118: | `MNY_HOTEL` | `SFH_TAXI` |
+119: 
+120: This says which mission's state reveals a progress-menu entry. It is not evidence that one mission must be
+121: completed before the other can start, and the direction of any in-game dependency is not established.
+122: 
+123: ## Unresolved and ambiguous nodes
+124: 
+125: Every edge is unresolved. Specific ambiguities in the nodes themselves:
+126: 
+127: - **Chapter disagreements (5):** `CLB_MEET` (menu chapter 3, texture `CH2`), `SFH_TAXI` (4, `CH5`),
+128:   `AO_SHOW_L_EXP` (4, `CH3`), `ROB_DEATH` (4, `CH5`), `BIL_CONFR` (4, `CH5`). The JSON uses the menu chapter.
+129:   Three more menu entries have no `CH` tag to compare (`CSC_MOM_MSEVN`, `COM_DLR_COOK`, `COM_SHOW_TRAILER`).
+130: - **Label names a different table ID (3):** `CTI_PIL_RD_SH` is labelled `CTI_PIL_RD_BC_PARENT`, `BAN_PKBMB` is
+131:   labelled `FT_BAN_DISTR`, and `BIL_LAW` is labelled `COA_SHIP`.
+132: - **Main story versus side content:** not classifiable. ID prefixes such as `COM_`, `CTI_`, `CSC_`, `FT_`, `HO_`,
+133:   `AO_`, and `UP_` are unexplained, so no Any% mandatory count is given.
+134: - **Display titles:** unavailable. Only text keys were found (for example `PROG_INT_CHASE_DESC_REPLAY`); no
+135:   localized text table was readable, and the decompiled scripts carry no string heap. Titles in
+136:   `gta 6 mission workflow charts\gta6_mission_flow_chart.md` and `GTAVI_MISSION_FLOW1.jpg` were checked against
+137:   the dump: 3 of 145 candidate titles occur at all, and only as business or district names in location lists.
+138: 
+139: ## Why the graph is not recoverable from this dump
+140: 
+141: | Blocker | Measured fact |
+142: |---|---|
+143: | No executable | `game_scarlett_master.exe` is named in the manifests but absent, so there is no key material or native table |
+144: | Encrypted name tables | Every RPF9 table of contents is high-entropy; extracted files have offsets, not names |
+145: | Hashed script identifiers | All 3,010 script PSO files use 32-bit hashes for every struct and member name |
+146: | Encrypted script strings | All 2,971 `LSNS` blocks are exact multiples of 16 bytes and repeat across files, the signature of a fixed-key block cipher |
+147: | Opaque script data | 52.2 MB of `story000_script.rpf` (67%, 31 regions) is neither zlib nor plaintext |
+148: | No mission anchor in scripts | Hashes of the mission IDs hit 1,263 times in `data.rpf` (control: 2) but only 12 times in the script archives (chance: about 3) |
+149: 
+150: Two families of script object were identified but not interpreted: 701 small node-sequence graphs in `script.rpf`
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CDataFileMgr__ContentChangeSetDef>
+  <!--Auto-Generated. Do not manually edit! Please contact Tools for assistance.-->
+  <id>story000_restofworld_audio_rpf</id>
+  <registrationGroup />
+  <fileList>
+    <Item>
+      <filename>$(target)/audio/sfx/story000_restofworld.cutscenes.rpf</filename>
+      <fileType>AUDIO_RPF_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_AUDIO_WAVEDATA</contents>
+    </Item>
+    <Item>
+      <filename>$(target)/audio/sfx/story000_restofworld.speech.scripted.rpf</filename>
+      <fileType>AUDIO_RPF_FILE</fileType>
+      <flags>Persistent</flags>
+      <contents>CONTENTS_AUDIO_WAVEDATA</contents>
+    </Item>
+  </fileList>
+  <flags>Default</flags>
+  <changesetIncludeFlags />
+  <mapAddAtPhase value="0" />
+  <mapRemoveAtPhase value="0" />
+  <executionConditions>
+    <activeChangesetConditions />
+    <genericConditions />
+  </executionConditions>
+</CDataFileMgr__ContentChangeSetDef>

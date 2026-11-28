@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LostTargetSearch__Tunables>
+	<AssignmentPresetInfo>
+		<Presets>
+			
+			<Item key="Default">
+				<Defaults>
+					<RoadVehicle>RoadVehicleExplorer</RoadVehicle>
+				</Defaults>
+			</Item>
+			
+			<Item key="ViceCity">
+				<Defaults>
+					<RoadVehicle>RoadVehicleExplorer</RoadVehicle>
+				</Defaults>
+			</Item>
+		</Presets>
+		<DefaultPreset>Default</DefaultPreset>
+	</AssignmentPresetInfo>
+	<RoadVehicleInfo>
+		<RoadSpeeds>
+			<Item key="RoadVehicleExplorer">
+				<RoadClassSpeeds>
+					<Item key="RC_Highway" value="25.034240" />		
+					<Item key="RC_Expressway" value="21.457920" />	
+					<Item key="RC_A" value="14.305280" />			
+					<Item key="RC_B" value="10.728960" />			
+				</RoadClassSpeeds>
+			</Item>
+		</RoadSpeeds>
+	</RoadVehicleInfo>
+</LostTargetSearch__Tunables>

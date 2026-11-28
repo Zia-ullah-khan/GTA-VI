@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CClimbTuneMgr>
+  <TraversalData>
+    <fGravity value="-9.800000" />
+    <fAltGravity value="-13.500000" />
+    <DrunkRagdollParams>
+      <SmashedBonusChance value="0.200000" />
+      <StepUp>
+        <Chance value="0.200000" />
+        <BlendIn value="-1.000000" />
+        <StartPhase value="0.475000" />
+      </StepUp>
+      <LowClimbOver>
+        <Chance value="0.200000" />
+        <BlendIn value="0.250000" />
+      </LowClimbOver>
+      <HighClimbOverJump>
+        <Chance value="0.100000" />
+        <BlendIn value="-1.000000" />
+      </HighClimbOverJump>
+      <ClimbUp>
+        <Chance value="0.200000" />
+        <BlendIn value="-1.000000" />
+      </ClimbUp>
+      <LadderMount>
+        <Chance value="0.200000" />
+        <BlendIn value="0.500000" />
+        <Delay value="0.700000" />
+      </LadderMount>
+      <LadderSlide>
+        <Chance value="0.050000" />
+        <BlendIn value="1.000000" />
+        <Interval value="0.700000" />
+      </LadderSlide>
+      <LadderClimb>
+        <Chance value="-0.150000" />
+        <BlendIn value="1.000000" />
+      </LadderClimb>
+      <LadderDismount>
+        <Chance value="0.200000" />
+        <BlendIn value="-1.000000" />
+        <Delay value="0.250000" />
+      </LadderDismount>
+      <Dropdown>
+        <Chance value="0.100000" />
+        <BlendIn value="1.000000" />
+      </Dropdown>
+      <Jump>
+        <Chance value="0.200000" />
+        <BlendIn value="-1.000000" />
+      </Jump>
+      <Landing>
+        <Chance value="0.200000" />
+        <BlendIn value="-1.000000" />
+      </Landing>
+    </DrunkRagdollParams>
+  </TraversalData>
+  <LandData>
+    <MinWaterDepthLucia value="1.000000" />
+    <MinWaterDepthJason value="1.000000" />
+  </LandData>
+  <PlayerClimbData>
+    <fJumpVaultSubmergeLevelThreshold value="0.200000" />
+    <fAutoVaultDistMBRMin value="1.000000" />
+    <fAutoVaultDistMBRMax value="2.000000" />
+    <fVaultDistanceManual value="4.200000" />
+    <fVaultMinDistanceManual value="1.500000" />
+    <fVaultMaxDistanceManual value="6.000000" />
+    <fVaultDistanceStanding value="1.500000" />
+    <fVaultDistanceStandingVehicle value="1.500000" />
+    <fVaultDistanceInWater value="1.500000" />
+    <fInAirVaultDistance value="1.000000" />
+    <fInAirVaultHeightMin value="-0.900000" />
+    <fInAirVaultHeightMax value="2.000000" />
+    <fInAirHorizontalTestGroundOffset value="-2.500000" />
+    <fAlignDirectionRatio value="0.600000" />
+    <fChainedClimbSingleStepMaxDistance value="0.500000" />
+    <fMinFailClimbHeight value="2.000000" />
+    <fMinDepthForDynamicEndStage value="0.300000" />
+    <uGaitReducedTimeForAutoVault value="250" />
+    <bEnableFailClimbs value="true" />
+    <fFailClimbMaxDist value="0.700000" />
+  </PlayerClimbData>
+  <PlayerStepUpData>
+    <fStepUpDistanceCutoffClose value="0.150000" />
+    <fStepUpDistanceCutoff value="0.175000" />
+    <fStealthStepUpDistanceCutoffClose value="0.150000" />
+    <fStealthStepUpDistanceCutoff value="0.325000" />
+    <fAutoStepUpHeight value="0.250000" />
+    <fAutoStepUpPedHeight value="0.140000" />
+    <fStepUpIdleDistanceManual value="1.100000" />
+    <fStepUpWalkDistanceManual value="3.200000" />
+    <fStepUpRunDistanceManual value="3.200000" />
+    <fStepUpIdleDistanceAuto value="0.200000" />
+    <fStepUpWalkDistanceAuto value="1.000000" />
+    <fStepUpRunDistanceAuto value="1.600000" />
+    <OverShootDistanceToHandhold value="3.000000" />
+    <OverShootOffsetPastHandhold value="0.200000" />
+    <uStepUpReduceGaitTime value="0" />
+  </PlayerStepUpData>
+  <aClimbParams>
+    <Item type="CClimbParams">
+      <Name>STANDARD_PED</Name>
+      <ComputeMatrix>
+        <fManualHeadingDiffMin value="1.000000" />
+        <fManualHeadingDiffMax value="5.000000" />
+        <fManualHeadingCoverDiffMin value="1.000000" />
+        <fManualHeadingCoverDiffMax value="90.000000" />
+        <fManualHeadingCapsuleRadius value="0.250000" />
+        <fManualHeadingCapsuleLength value="0.800000" />
+      </ComputeMatrix>
+      <DynamicHeadingDataV2>
+        <MaxHeadingDetectionDist value="6.000000" />
+        <MinForwardShootingDist value="0.200000" />
+        <MaxForwardShootingDist value="0.800000" />
+        <StartAngleLerpDist value="3.000000" />
+        <MaxAngleNear value="75.000000" />
+        <MaxAngleFar value="35.000000" />
+        <InvertAngleSystem value="false" />
+        <MinFwAngleBoundLimit value="0.500000" />
+        <MaxFwAngleBoundLimit value="1.500000" />
+        <MaxNavPredValidDeltaAngle value="10.000000" />
+      </DynamicHeadingDataV2>
+      <DynamicHeadingDataV3>
+        <GaitSpeeds>
+          <Walk value="1.200000" />
+          <Run value="3.500000" />
+          <Sprint value="6.000000" />
+        </GaitSpeeds>
+        <Idle>
+          <NearDetection>
+            <MaxDistance value="1.000000" />
+            <MaxAngle value="80.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="1.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Idle>
+        <Walk>
+          <NearDetection>
+            <MaxDistance value="0.500000" />
+            <MaxAngle value="70.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="2.500000" />
+            <MaxAngle value="2.000000" />
+          </FarDetection>
+        </Walk>
+        <Run>
+          <NearDetection>
+            <MaxDistance value="3.000000" />
+            <MaxAngle value="20.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="4.500000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Run>
+        <Sprint>
+          <NearDetection>
+            <MaxDistance value="3.500000" />
+            <MaxAngle value="5.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="6.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Sprint>
+        <ConnectNearAndFar value="false" />
+      </DynamicHeadingDataV3>
+      <HorizontalTest>
+        <fDefaultTestDistance value="6.000000" />
+        <fTestGroundOffset value="0.000000" />
+        <fIntersectionNormalMaxZ value="0.900000" />
+      </HorizontalTest>
+      <EdgeDetection>
+        <fDistanceFactor value="5.000000" />
+        <fHeadingFactor value="1.000000" />
+        <fHeightFactor value="1.000000" />
+        <fStepUpHeightFactor value="1.000000" />
+        <fViewportFactor value="5.000000" />
+        <fOutOfViewportPenalty value="2.000000" />
+        <fNormalZFactor value="0.500000" />
+        <fNormalZDot value="0.400000" />
+        <fDotToMerge value="0.900000" />
+        <fDotToMergeContiguousSegments value="0.700000" />
+        <fDotToMergeContiguousSmallSegments value="0.500000" />
+        <fContiguousDistance value="0.100000" />
+        <fSmallSegmentLength value="0.100000" />
+        <fGapHeightTolerance value="0.500000" />
+        <fDistanceTolerance value="0.150000" />
+        <fVehicleDistanceTolerance value="0.030000" />
+        <fInvalidHorizontalIntersectionDot value="1.000000" />
+        <fBehindScorePenalty value="0.250000" />
+        <fBehindScoreMinDistance value="-0.200000" />
+        <fMinStepUpPenalty value="0.300000" />
+        <MaxDistanceForVehicleStairs value="1.000000" />
+        <EdgeMinBottomMargin_InAir value="1.500000" />
+      </EdgeDetection>
+      <ComputeHandholdTest>
+        <fTestRadius value="0.080000" />
+        <fHeightTolerance value="0.200000" />
+        <fVehicleHeightTolerance value="0.200000" />
+        <fMinDot value="0.100000" />
+        <fStartDistance value="0.650000" />
+        <fEndDistance value="0.860000" />
+      </ComputeHandholdTest>
+      <ValidateHandhold>
+        <fDistFromHandholdToTestForNearIntersections value="0.750000" />
+        <fIntersectionDistFromHandholdToReject value="0.500000" />
+        <fClearanceToHandholdZOffset value="0.200000" />
+        <fClearanceToHandholdCloseZOffset value="0.300000" />
+        <fClearanceToHandholdMaxDistForOffset value="0.750000" />
+        <fSwimClearanceToHandholdMaxDistForOffset value="0.500000" />
+        <fClearanceToHandholdDirectionOffset value="0.335000" />
+        <fClearTestRadius value="0.175000" />
+        <fVerticalClearTestOffset value="0.300000" />
+        <fClearTestBaseHeight value="0.800000" />
+        <fClearBackFromHandhold value="0.300000" />
+        <fClearForward value="3.200000" />
+        <fDepthTestLength value="7.000000" />
+        <fVaultClearanceMinDepth value="0.180000" />
+        <fMaxAutoVaultDepth value="1.000000" />
+        <fMaxAutoVaultDropHeight value="2.250000" />
+        <fMaxAutoVaultDropHeightWater value="0.500000" />
+        <fMaxAutoStepUpDepth value="1.000000" />
+        <fMaxAutoStepUpDropHeight value="2.250000" />
+        <fMaxAutoStepUpDropHeightVehicle value="2.500000" />
+        <fMaxAutoStepUpDropHeightWater value="0.750000" />
+        <fAutoStepUpLadderTopDistance value="2.000000" />
+        <fHeightClearanceTestRadius value="0.180000" />
+        <fPhysicalClearOffset value="0.000000" />
+        <fLedgeGrabObstructionTestAdditionalDistance value="0.350000" />
+        <fLedgeGrabObstructionTestAdditionalHeight value="0.000000" />
+        <fMinLedgeGrabDepth value="0.000000" />
+        <fDistanceForBreakableGlass value="0.500000" />
+        <fMaxClimbHeightThroughGlass value="1.750000" />
+        <fMaxHandholdNormalAndStickAngle value="80.000000" />
+        <uNumHeightClearanceTests value="1" />
+        <uNumClearTests value="2" />
+        <bDepthThresholdTestInsideRange value="true" />
+      </ValidateHandhold>
+      <ValidIntersection>
+        <fAngularVelThreshold value="1.000000" />
+        <fHeliRotorSpeed value="0.100000" />
+        <fVehicleVelocityThreshold value="5.000000" />
+        <fUnderwaterVaultThreshold value="-0.500000" />
+        <fUnderwaterVaultThresholdBoat value="-1.000000" />
+        <fUnderwaterVaultThresholdStairs value="0.100000" />
+        <fMassCanPush value="50.000000" />
+        <fFragMassCanPush value="25.000000" />
+        <fMaxBoundsXZSize value="0.500000" />
+        <fDynamicObjectVelocityThresholdSq value="1.000000" />
+        <uAutoVaultVehicleDelay value="50" />
+        <bDisableAutoVaultOnUnFixedObjects value="true" />
+      </ValidIntersection>
+      <Stairs>
+        <fEdgeDiscardAllHeight value="0.225000" />
+        <fEdgeDiscardAllHeightStairEdge value="0.500000" />
+        <fMaxStairEdge value="0.400000" />
+        <fIntersectionTolerance value="0.100000" />
+        <uOffStairsAutoVaultCooldown value="2000" />
+        <uOffStairsAutoVaultDelay value="500" />
+      </Stairs>
+      <SlopeDetection>
+        <fVaultSlopeCheckHeight value="1.250000" />
+        <fVaultSlopeDotDiff value="0.250000" />
+        <fVaultSlopeDist value="2.000000" />
+        <fVaultSlopeMinZ value="0.650000" />
+        <fSlopeTestMinZ value="0.550000" />
+        <fBaseCapsuleOffset value="0.250000" />
+        <fDistanceToIntersectionZ value="0.000000" />
+        <fDistToLineThreshold value="0.135000" />
+      </SlopeDetection>
+      <BlockJump>
+        <fTestHeightMin value="0.300000" />
+        <fTestHeightMax value="3.500000" />
+        <fTestDistOffsetWalking value="2.000000" />
+        <fTestDistOffsetRunning value="3.000000" />
+        <fRequiredIntersectionDistAbovePed value="0.200000" />
+        <fCloseDistanceToAllowIdleJump value="1.000000" />
+        <fMinHeightToIgnoreBlockJump value="1.500000" />
+      </BlockJump>
+      <JumpVault>
+        <fJumpVaultDepthThresholdMin value="0.000000" />
+        <fJumpVaultDepthThresholdMax value="1000.000000" />
+        <fJumpVaultForceValidInputMinHeight value="1.750000" />
+        <fJumpVaultForceValidInputMaxDist value="0.850000" />
+        <MaxJumpOffDistanceIdle value="1.300000" />
+        <MaxJumpOffDistanceWalk value="1.300000" />
+        <MaxJumpOffDistanceRun value="2.000000" />
+      </JumpVault>
+      <DetermineVolume>
+        <fMinHeightForObstacle value="0.150000" />
+        <fMinAngleForObstacle value="45.000000" />
+        <fClimbHeightForDrop value="0.300000" />
+        <fMinAngleForDrop value="-15.000000" />
+        <fDropValidationDistance value="0.600000" />
+        <fDropValidationDistanceBoat value="0.200000" />
+        <fDropValidationMargin value="0.100000" />
+        <fDropForceSafetyAfterHeight value="0.500000" />
+        <MinDistForClimbUp value="0.200000" />
+        <RunGapUnsafeClimb value="1.600000" />
+        <DefaultGapUnsafeClimb value="1.600000" />
+      </DetermineVolume>
+      <ClimbAngle>
+        <fMinEdgeLengthForMaxClimbAngle value="0.150000" />
+        <fHighClimbHeightThreshold value="1.250000" />
+        <fLowClimbMaxAngle value="60.000000" />
+        <fHighClimbMaxAngle value="40.000000" />
+        <fVehicleLowClimbMaxAngle value="60.000000" />
+        <fVehicleHighClimbMaxAngle value="45.000000" />
+      </ClimbAngle>
+      <Overhang>
+        <fTestRadius value="0.250000" />
+        <fMinHeight value="1.500000" />
+        <fMinClearanceDistance value="0.150000" />
+        <fMaxClearanceDistance value="0.500000" />
+        <fMaxHandholdThickness value="0.550000" />
+        <fDistanceUnderMaxThickness value="1.000000" />
+      </Overhang>
+      <SideClearance>
+        <fDistAboveHandhold value="0.400000" />
+        <fLength value="0.300000" />
+        <fLengthVehicle value="0.200000" />
+        <fRadius value="0.250000" />
+        <fStepRadius value="0.050000" />
+        <fMaxAdjustDistance value="0.250000" />
+      </SideClearance>
+      <DropClearance>
+        <PreventWhenNoDrop value="true" />
+        <MaxHeightDeltaToSkip value="-0.200000" />
+        <HorizontalOffset_Step>
+          <Idle value="0.200000" />
+          <Walk value="0.300000" />
+          <Run value="0.400000" />
+        </HorizontalOffset_Step>
+        <HorizontalOffset_Climb>
+          <Idle value="0.350000" />
+          <Walk value="0.600000" />
+          <Run value="0.750000" />
+        </HorizontalOffset_Climb>
+        <VerticalOffset value="2.000000" />
+        <ZDistMin value="30.000000" />
+        <SafetyEndZOffset value="0.100000" />
+      </DropClearance>
+      <DropTrajectory>
+        <vNearDropInitialVelocity x="1.500000" y="0.000000" z="0.000000" />
+        <vFarDropInitialVelocity x="2.500000" y="0.000000" z="0.000000" />
+      </DropTrajectory>
+      <BonnetSlide>
+        <AlignedClearanceZOffset value="0.125000" />
+      </BonnetSlide>
+      <fParallelDot value="0.250000" />
+      <fForwardDot value="0.300000" />
+      <fStickDot value="0.300000" />
+      <fAutoParallelDot value="0.600000" />
+      <fAutoForwardDot value="0.700000" />
+      <fAutoStickDot value="0.550000" />
+      <fMaxClimbHeight value="3.500000" />
+      <fMinClimbHeight value="0.250000" />
+      <fMaxOverhangClimbHeight value="2.800000" />
+      <fMaxHeightDropAllowance value="0.050000" />
+      <fMaxAutoVaultHeight value="0.550000" />
+      <fMaxAutoVaultHeightForPierTraversal value="0.800000" />
+      <fMinAutoVaultClimbAngle value="20.000000" />
+      <fMaxFailClimbAngle value="5.000000" />
+      <fStepUpSlopeDotLimit value="0.900000" />
+      <fEdgeCalculationDistScoreRangeMax value="3.000000" />
+      <fOverHeadSegmentCastStartOffset value="0.000000" />
+      <fOverHeadSegmentCastEndOffset value="-0.800000" />
+      <fOverHeadSegmentCastEndOffsetOnTrains value="-0.400000" />
+      <fUseTestOrientationHeight value="0.750000" />
+      <fMaxHandholdGroundAngle value="65.000000" />
+      <fGroundAngleMinDepth value="0.200000" />
+      <fReducedClimbingMaxHeight value="1.750000" />
+      <fReducedClimbingMaxDepth value="0.350000" />
+      <MinHedgeRatio value="0.350000" />
+      <bShowStickIntent value="true" />
+      <bDoAutoVaultAsyncTests value="true" />
+    </Item>
+    <Item type="CClimbParams">
+      <Name>HORSE</Name>
+      <ComputeMatrix>
+        <fManualHeadingDiffMin value="0.000000" />
+        <fManualHeadingDiffMax value="0.000000" />
+        <fManualHeadingCoverDiffMin value="0.000000" />
+        <fManualHeadingCoverDiffMax value="0.000000" />
+        <fManualHeadingCapsuleRadius value="0.250000" />
+        <fManualHeadingCapsuleLength value="0.800000" />
+      </ComputeMatrix>
+      <DynamicHeadingDataV2>
+        <MaxHeadingDetectionDist value="6.000000" />
+        <MinForwardShootingDist value="0.200000" />
+        <MaxForwardShootingDist value="0.800000" />
+        <StartAngleLerpDist value="3.000000" />
+        <MaxAngleNear value="45.000000" />
+        <MaxAngleFar value="0.000000" />
+        <InvertAngleSystem value="false" />
+        <MinFwAngleBoundLimit value="0.500000" />
+        <MaxFwAngleBoundLimit value="1.500000" />
+        <MaxNavPredValidDeltaAngle value="10.000000" />
+      </DynamicHeadingDataV2>
+      <DynamicHeadingDataV3>
+        <GaitSpeeds>
+          <Walk value="1.800000" />
+          <Run value="5.700000" />
+          <Sprint value="7.200000" />
+        </GaitSpeeds>
+        <Idle>
+          <NearDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Idle>
+        <Walk>
+          <NearDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Walk>
+        <Run>
+          <NearDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Run>
+        <Sprint>
+          <NearDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </NearDetection>
+          <FarDetection>
+            <MaxDistance value="5.000000" />
+            <MaxAngle value="0.000000" />
+          </FarDetection>
+        </Sprint>
+        <ConnectNearAndFar value="false" />
+      </DynamicHeadingDataV3>
+      <HorizontalTest>
+        <fDefaultTestDistance value="15.000000" />
+        <fTestGroundOffset value="0.250000" />
+        <fIntersectionNormalMaxZ value="0.900000" />
+      </HorizontalTest>
+      <EdgeDetection>
+        <fDistanceFactor value="5.000000" />
+        <fHeadingFactor value="1.000000" />
+        <fHeightFactor value="0.000000" />
+        <fStepUpHeightFactor value="0.000000" />
+        <fViewportFactor value="5.000000" />
+        <fOutOfViewportPenalty value="2.000000" />
+        <fNormalZFactor value="0.500000" />
+        <fNormalZDot value="0.400000" />
+        <fDotToMerge value="0.900000" />
+        <fDotToMergeContiguousSegments value="0.700000" />
+        <fDotToMergeContiguousSmallSegments value="0.500000" />
+        <fContiguousDistance value="0.100000" />
+        <fSmallSegmentLength value="0.150000" />
+        <fGapHeightTolerance value="0.500000" />
+        <fDistanceTolerance value="0.150000" />
+        <fVehicleDistanceTolerance value="0.030000" />
+        <fInvalidHorizontalIntersectionDot value="0.850000" />
+        <fBehindScorePenalty value="0.250000" />
+        <fBehindScoreMinDistance value="-0.200000" />
+        <fMinStepUpPenalty value="0.300000" />
+        <MaxDistanceForVehicleStairs value="1.000000" />
+        <EdgeMinBottomMargin_InAir value="1.500000" />
+      </EdgeDetection>
+      <ComputeHandholdTest>
+        <fTestRadius value="0.250000" />
+        <fHeightTolerance value="0.650000" />
+        <fVehicleHeightTolerance value="0.100000" />
+        <fMinDot value="0.100000" />
+        <fStartDistance value="1.150000" />
+        <fEndDistance value="1.360000" />
+      </ComputeHandholdTest>
+      <ValidateHandhold>
+        <fDistFromHandholdToTestForNearIntersections value="0.750000" />
+        <fIntersectionDistFromHandholdToReject value="0.500000" />
+        <fClearanceToHandholdZOffset value="0.200000" />
+        <fClearanceToHandholdCloseZOffset value="0.300000" />
+        <fClearanceToHandholdMaxDistForOffset value="0.750000" />
+        <fSwimClearanceToHandholdMaxDistForOffset value="0.500000" />
+        <fClearanceToHandholdDirectionOffset value="0.335000" />
+        <fClearTestRadius value="0.400000" />
+        <fVerticalClearTestOffset value="0.300000" />
+        <fClearTestBaseHeight value="0.990000" />
+        <fClearBackFromHandhold value="0.250000" />
+        <fClearForward value="6.500000" />
+        <fDepthTestLength value="7.000000" />
+        <fVaultClearanceMinDepth value="1.800000" />
+        <fMaxAutoVaultDepth value="1.000000" />
+        <fMaxAutoVaultDropHeight value="3.000000" />
+        <fMaxAutoVaultDropHeightWater value="4.000000" />
+        <fMaxAutoStepUpDepth value="1.000000" />
+        <fMaxAutoStepUpDropHeight value="3.000000" />
+        <fMaxAutoStepUpDropHeightVehicle value="3.000000" />
+        <fMaxAutoStepUpDropHeightWater value="4.000000" />
+        <fAutoStepUpLadderTopDistance value="0.000000" />
+        <fHeightClearanceTestRadius value="0.200000" />
+        <fPhysicalClearOffset value="0.500000" />
+        <fLedgeGrabObstructionTestAdditionalDistance value="0.000000" />
+        <fLedgeGrabObstructionTestAdditionalHeight value="0.000000" />
+        <fMinLedgeGrabDepth value="0.050000" />
+        <fDistanceForBreakableGlass value="0.500000" />
+        <fMaxClimbHeightThroughGlass value="1.750000" />
+        <fMaxHandholdNormalAndStickAngle value="80.000000" />
+        <uNumHeightClearanceTests value="1" />
+        <uNumClearTests value="2" />
+        <bDepthThresholdTestInsideRange value="true" />
+      </ValidateHandhold>
+      <ValidIntersection>
+        <fAngularVelThreshold value="1.500000" />
+        <fHeliRotorSpeed value="0.100000" />
+        <fVehicleVelocityThreshold value="5.000000" />
+        <fUnderwaterVaultThreshold value="-0.200000" />
+        <fUnderwaterVaultThresholdBoat value="-1.000000" />
+        <fUnderwaterVaultThresholdStairs value="0.100000" />
+        <fMassCanPush value="800.000000" />
+        <fFragMassCanPush value="30.000000" />
+        <fMaxBoundsXZSize value="1.000000" />
+        <fDynamicObjectVelocityThresholdSq value="1.000000" />
+        <uAutoVaultVehicleDelay value="500" />
+        <bDisableAutoVaultOnUnFixedObjects value="true" />
+      </ValidIntersection>
+      <Stairs>
+        <fEdgeDiscardAllHeight value="0.225000" />
+        <fEdgeDiscardAllHeightStairEdge value="0.500000" />
+        <fMaxStairEdge value="0.400000" />
+        <fIntersectionTolerance value="0.100000" />
+        <uOffStairsAutoVaultCooldown value="2000" />
+        <uOffStairsAutoVaultDelay value="500" />
+      </Stairs>
+      <SlopeDetection>
+        <fVaultSlopeCheckHeight value="1.000000" />
+        <fVaultSlopeDotDiff value="0.250000" />
+        <fVaultSlopeDist value="2.000000" />
+        <fVaultSlopeMinZ value="0.650000" />
+        <fSlopeTestMinZ value="0.550000" />
+        <fBaseCapsuleOffset value="0.250000" />
+        <fDistanceToIntersectionZ value="0.000000" />
+        <fDistToLineThreshold value="0.135000" />
+      </SlopeDetection>
+      <BlockJump>
+        <fTestHeightMin value="0.500000" />
+        <fTestHeightMax value="2.000000" />
+        <fTestDistOffsetWalking value="1.000000" />
+        <fTestDistOffsetRunning value="1.200000" />
+        <fRequiredIntersectionDistAbovePed value="0.200000" />
+        <fCloseDistanceToAllowIdleJump value="1.000000" />
+        <fMinHeightToIgnoreBlockJump value="1.500000" />
+      </BlockJump>
+      <JumpVault>
+        <fJumpVaultDepthThresholdMin value="0.000000" />
+        <fJumpVaultDepthThresholdMax value="1.750000" />
+        <fJumpVaultForceValidInputMinHeight value="1.750000" />
+        <fJumpVaultForceValidInputMaxDist value="0.850000" />
+        <MaxJumpOffDistanceIdle value="1.300000" />
+        <MaxJumpOffDistanceWalk value="1.300000" />
+        <MaxJumpOffDistanceRun value="1.300000" />
+      </JumpVault>
+      <DetermineVolume>
+        <fMinHeightForObstacle value="0.350000" />
+        <fMinAngleForObstacle value="60.000000" />
+        <fClimbHeightForDrop value="0.300000" />
+        <fMinAngleForDrop value="-15.000000" />
+        <fDropValidationDistance value="0.300000" />
+        <fDropValidationDistanceBoat value="0.300000" />
+        <fDropValidationMargin value="0.100000" />
+        <fDropForceSafetyAfterHeight value="0.500000" />
+        <MinDistForClimbUp value="0.200000" />
+        <RunGapUnsafeClimb value="1.000000" />
+        <DefaultGapUnsafeClimb value="0.500000" />
+      </DetermineVolume>
+      <ClimbAngle>
+        <fMinEdgeLengthForMaxClimbAngle value="0.100000" />
+        <fHighClimbHeightThreshold value="1.500000" />
+        <fLowClimbMaxAngle value="60.000000" />
+        <fHighClimbMaxAngle value="40.000000" />
+        <fVehicleLowClimbMaxAngle value="60.000000" />
+        <fVehicleHighClimbMaxAngle value="45.000000" />
+      </ClimbAngle>
+      <Overhang>
+        <fTestRadius value="0.250000" />
+        <fMinHeight value="1.500000" />
+        <fMinClearanceDistance value="0.150000" />
+        <fMaxClearanceDistance value="0.500000" />
+        <fMaxHandholdThickness value="0.550000" />
+        <fDistanceUnderMaxThickness value="1.000000" />
+      </Overhang>
+      <SideClearance>
+        <fDistAboveHandhold value="0.400000" />
+        <fLength value="0.300000" />
+        <fLengthVehicle value="0.200000" />
+        <fRadius value="0.100000" />
+        <fStepRadius value="0.050000" />
+        <fMaxAdjustDistance value="0.250000" />
+      </SideClearance>
+      <DropClearance>
+        <PreventWhenNoDrop value="true" />
+        <MaxHeightDeltaToSkip value="-0.200000" />
+        <HorizontalOffset_Step>
+          <Idle value="0.200000" />
+          <Walk value="0.300000" />
+          <Run value="0.400000" />
+        </HorizontalOffset_Step>
+        <HorizontalOffset_Climb>
+          <Idle value="0.350000" />
+          <Walk value="0.600000" />
+          <Run value="0.750000" />
+        </HorizontalOffset_Climb>
+        <VerticalOffset value="2.000000" />
+        <ZDistMin value="30.000000" />
+        <SafetyEndZOffset value="0.100000" />
+      </DropClearance>
+      <DropTrajectory>
+        <vNearDropInitialVelocity x="1.500000" y="0.000000" z="0.000000" />
+        <vFarDropInitialVelocity x="2.500000" y="0.000000" z="0.000000" />
+      </DropTrajectory>
+      <BonnetSlide>
+        <AlignedClearanceZOffset value="0.125000" />
+      </BonnetSlide>
+      <fParallelDot value="0.400000" />
+      <fForwardDot value="0.750000" />
+      <fStickDot value="0.750000" />
+      <fAutoParallelDot value="0.400000" />
+      <fAutoForwardDot value="0.650000" />
+      <fAutoStickDot value="0.100000" />
+      <fMaxClimbHeight value="2.000000" />
+      <fMinClimbHeight value="0.325000" />
+      <fMaxOverhangClimbHeight value="2.800000" />
+      <fMaxHeightDropAllowance value="0.000000" />
+      <fMaxAutoVaultHeight value="0.750000" />
+      <fMaxAutoVaultHeightForPierTraversal value="0.550000" />
+      <fMinAutoVaultClimbAngle value="15.000000" />
+      <fMaxFailClimbAngle value="5.000000" />
+      <fStepUpSlopeDotLimit value="0.900000" />
+      <fEdgeCalculationDistScoreRangeMax value="3.000000" />
+      <fOverHeadSegmentCastStartOffset value="0.000000" />
+      <fOverHeadSegmentCastEndOffset value="-0.800000" />
+      <fOverHeadSegmentCastEndOffsetOnTrains value="-0.400000" />
+      <fUseTestOrientationHeight value="2.000000" />
+      <fMaxHandholdGroundAngle value="50.000000" />
+      <fGroundAngleMinDepth value="0.200000" />
+      <fReducedClimbingMaxHeight value="1.750000" />
+      <fReducedClimbingMaxDepth value="0.350000" />
+      <MinHedgeRatio value="0.650000" />
+      <bShowStickIntent value="true" />
+      <bDoAutoVaultAsyncTests value="true" />
+    </Item>
+  </aClimbParams>
+  <DefaultClimbParams ref="STANDARD_PED" />
+  <aDropdownDetectorParams>
+    <Item type="CDropDownDetectorParams">
+      <Name>STANDARD_PED</Name>
+      <matOverride content="matrix34">
+0.000000 0.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 0.000000
+      </matOverride>
+      <fDropDownMinHeight value="0.450000" />
+      <fDropDownMinHeightForWading value="1.000000" />
+      <fDropDownMinHeightForPierTraversal value="0.150000" />
+      <fWadingMinDepth value="0.100000" />
+      <fDropDownAutoJumpCollisionMaxHeightOffset value="1.000000" />
+      <fDropDetectionDepth value="0.300000" />
+      <fSlopeNormalDotMin value="0.400000" />
+      <fPedToEdgeDotMax value="0.900000" />
+      <bAllowOnMovingEntity value="true" />
+      <fSegmentCastPreDropOffset value="0.100000" />
+      <fSegmentCastMinSweepDistance value="0.500000" />
+      <fSegmentCastSweepDistanceOffset value="1.000000" />
+      <fSegmentCastInitialCapsuleRadius value="0.150000" />
+      <fSearchDistanceMin value="5.500000" />
+      <fSearchDistancePostLandWalk value="0.500000" />
+      <fSearchDistancePostLandRun value="1.000000" />
+      <fShortJumpLandingSearchDistance value="6.000000" />
+      <fDropSearchDistance value="1.500000" />
+      <fPostDropSearchDistance value="2.500000" />
+      <fLedgeNormalCastZOffset value="-0.050000" />
+      <fLedgeNormalCastForwardOffset value="0.200000" />
+      <fLedgeNormalCastTestWidth value="0.400000" />
+      <fLedgeNormalCastTestDepth value="0.400000" />
+      <fMaxDropAngle value="45.000000" />
+      <fSteepEdgeSlopeMax value="0.750000" />
+      <fMotionPredictionDirectionDiffDotMax value="0.000000" />
+      <fMotionPredictionDropPointHeightDiffMax value="0.150000" />
+      <bPerformDropBehindTest value="true" />
+      <bPerformInitialSphereTest value="true" />
+      <bPerformLandingClearanceTest value="true" />
+      <bPerformClearanceToDropLedgeTest value="true" />
+      <fGetMatrixHeadingDiffMax value="15.000000" />
+      <fGetMatrixHeadingDiffMin value="5.000000" />
+      <fFindDropHeightDif value="0.100000" />
+      <fFindDropNormalZMax value="0.750000" />
+      <fDiscardDropDistMin value="0.150000" />
+      <fDiscardDropDistMax value="0.750000" />
+      <MinSlopeAngle value="50.000000" />
+      <vOverrideLanding x="0.000000" y="0.000000" z="0.000000" />
+      <fLandingSlopeDotMax value="0.150000" />
+      <fLandingSlopeNormalZMin value="0.550000" />
+      <fLandingDistanceFromDropMin value="0.100000" />
+      <bPerformControlTest value="true" />
+      <fStickInputDotMin value="0.500000" />
+      <bIgnoreSlopeTests value="false" />
+      <fParachuteJumpTestDistance value="2.250000" />
+      <fParachuteJumpTestZOffset value="0.750000" />
+      <fDiveJumpTestDistance1 value="1.500000" />
+      <fDiveJumpTestDistance2 value="2.250000" />
+      <fDiveJumpTestZOffset value="0.750000" />
+      <WalkParams>
+        <MinDropDownDistanceAsync value="0.150000" />
+        <MaxDropDownDistanceAsync value="0.350000" />
+        <MinDropDownDistance value="0.150000" />
+        <MaxDropDownDistance value="0.300000" />
+        <InitialVelocityDropDown x="1.750000" y="0.000000" />
+        <InitialVelocityGapJump x="2.800000" y="2.700000" />
+      </WalkParams>
+      <RunParams>
+        <MinDropDownDistanceAsync value="0.800000" />
+        <MaxDropDownDistanceAsync value="1.600000" />
+        <MinDropDownDistance value="0.500000" />
+        <MaxDropDownDistance value="1.000000" />
+        <InitialVelocityDropDown x="2.800000" y="0.000000" />
+        <InitialVelocityGapJump x="3.800000" y="2.700000" />
+      </RunParams>
+      <GapDetection>
+        <StartHeightOffset value="1.500000" />
+        <MinDepth value="0.250000" />
+        <MinLength value="0.250000" />
+        <EdgeMinDeltaZ value="-3.000000" />
+        <EdgeMaxDeltaZ value="3.000000" />
+        <MinAutoGapJumpLength value="0.000000" />
+        <MaxAutoGapJumpLength value="3.500000" />
+        <MinAutoGapJumpDeltaZ value="-10.000000" />
+        <MaxAutoGapJumpDeltaZ value="1.200000" />
+      </GapDetection>
+      <AutoJump>
+        <MaxBoatToBoatJumpDistance value="3.000000" />
+      </AutoJump>
+      <Clearance>
+        <ClearanceToDropLedgeMinHeight value="0.250000" />
+        <ClearanceToDropLedgeRadius value="0.150000" />
+        <LandClearanceExtraOffset value="0.250000" />
+        <ProbeAngle value="45.000000" />
+        <ProbeAdditionalLength value="-0.500000" />
+        <ProbeForwardOffset value="0.050000" />
+        <ProbeZOffset value="0.250000" />
+        <ProbeRadiusMultiplier value="0.250000" />
+      </Clearance>
+      <SpeedData>
+        <Default>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="0.350000" />
+        </Default>
+        <FromClimb>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="1.000000" />
+        </FromClimb>
+        <FromJump>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="1.000000" />
+        </FromJump>
+      </SpeedData>
+    </Item>
+    <Item type="CDropDownDetectorParams">
+      <Name>PierTraversal</Name>
+      <matOverride content="matrix34">
+0.000000 0.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 0.000000
+0.000000 0.000000 0.000000 0.000000
+      </matOverride>
+      <fDropDownMinHeight value="0.450000" />
+      <fDropDownMinHeightForWading value="1.000000" />
+      <fDropDownMinHeightForPierTraversal value="0.150000" />
+      <fWadingMinDepth value="0.100000" />
+      <fDropDownAutoJumpCollisionMaxHeightOffset value="1.000000" />
+      <fDropDetectionDepth value="0.300000" />
+      <fSlopeNormalDotMin value="0.400000" />
+      <fPedToEdgeDotMax value="0.900000" />
+      <bAllowOnMovingEntity value="true" />
+      <fSegmentCastPreDropOffset value="0.100000" />
+      <fSegmentCastMinSweepDistance value="0.500000" />
+      <fSegmentCastSweepDistanceOffset value="1.000000" />
+      <fSegmentCastInitialCapsuleRadius value="0.150000" />
+      <fSearchDistanceMin value="5.500000" />
+      <fSearchDistancePostLandWalk value="0.500000" />
+      <fSearchDistancePostLandRun value="1.000000" />
+      <fShortJumpLandingSearchDistance value="6.000000" />
+      <fDropSearchDistance value="1.500000" />
+      <fPostDropSearchDistance value="2.500000" />
+      <fLedgeNormalCastZOffset value="-0.050000" />
+      <fLedgeNormalCastForwardOffset value="0.200000" />
+      <fLedgeNormalCastTestWidth value="0.400000" />
+      <fLedgeNormalCastTestDepth value="0.400000" />
+      <fMaxDropAngle value="45.000000" />
+      <fSteepEdgeSlopeMax value="0.850000" />
+      <fMotionPredictionDirectionDiffDotMax value="0.000000" />
+      <fMotionPredictionDropPointHeightDiffMax value="0.150000" />
+      <bPerformDropBehindTest value="true" />
+      <bPerformInitialSphereTest value="true" />
+      <bPerformLandingClearanceTest value="true" />
+      <bPerformClearanceToDropLedgeTest value="false" />
+      <fGetMatrixHeadingDiffMax value="15.000000" />
+      <fGetMatrixHeadingDiffMin value="5.000000" />
+      <fFindDropHeightDif value="0.100000" />
+      <fFindDropNormalZMax value="0.750000" />
+      <fDiscardDropDistMin value="0.150000" />
+      <fDiscardDropDistMax value="0.750000" />
+      <MinSlopeAngle value="50.000000" />
+      <vOverrideLanding x="0.000000" y="0.000000" z="0.000000" />
+      <fLandingSlopeDotMax value="0.150000" />
+      <fLandingSlopeNormalZMin value="0.550000" />
+      <fLandingDistanceFromDropMin value="0.100000" />
+      <bPerformControlTest value="false" />
+      <fStickInputDotMin value="0.500000" />
+      <bIgnoreSlopeTests value="false" />
+      <fParachuteJumpTestDistance value="2.250000" />
+      <fParachuteJumpTestZOffset value="0.750000" />
+      <fDiveJumpTestDistance1 value="1.500000" />
+      <fDiveJumpTestDistance2 value="2.250000" />
+      <fDiveJumpTestZOffset value="0.750000" />
+      <WalkParams>
+        <MinDropDownDistanceAsync value="0.150000" />
+        <MaxDropDownDistanceAsync value="0.350000" />
+        <MinDropDownDistance value="0.150000" />
+        <MaxDropDownDistance value="0.300000" />
+        <InitialVelocityDropDown x="1.750000" y="0.000000" />
+        <InitialVelocityGapJump x="2.400000" y="2.700000" />
+      </WalkParams>
+      <RunParams>
+        <MinDropDownDistanceAsync value="0.800000" />
+        <MaxDropDownDistanceAsync value="1.600000" />
+        <MinDropDownDistance value="0.500000" />
+        <MaxDropDownDistance value="1.000000" />
+        <InitialVelocityDropDown x="2.800000" y="0.000000" />
+        <InitialVelocityGapJump x="3.500000" y="2.700000" />
+      </RunParams>
+      <GapDetection>
+        <StartHeightOffset value="1.500000" />
+        <MinDepth value="0.250000" />
+        <MinLength value="0.500000" />
+        <EdgeMinDeltaZ value="-3.000000" />
+        <EdgeMaxDeltaZ value="3.000000" />
+        <MinAutoGapJumpLength value="0.000000" />
+        <MaxAutoGapJumpLength value="3.500000" />
+        <MinAutoGapJumpDeltaZ value="-10.000000" />
+        <MaxAutoGapJumpDeltaZ value="1.200000" />
+      </GapDetection>
+      <AutoJump>
+        <MaxBoatToBoatJumpDistance value="3.000000" />
+      </AutoJump>
+      <Clearance>
+        <ClearanceToDropLedgeMinHeight value="0.250000" />
+        <ClearanceToDropLedgeRadius value="0.150000" />
+        <LandClearanceExtraOffset value="0.250000" />
+        <ProbeAngle value="5.000000" />
+        <ProbeAdditionalLength value="-0.200000" />
+        <ProbeForwardOffset value="0.050000" />
+        <ProbeZOffset value="0.250000" />
+        <ProbeRadiusMultiplier value="1.000000" />
+      </Clearance>
+      <SpeedData>
+        <Default>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="0.500000" />
+        </Default>
+        <FromClimb>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="0.500000" />
+        </FromClimb>
+        <FromJump>
+          <MaxIdleVelocity value="0.600000" />
+          <MaxWalkVelocity value="4.700000" />
+          <MaxRunVelocity value="5.700000" />
+          <MaxCrouchIdleVelocity value="0.400000" />
+          <MaxCrouchWalkVelocity value="2.900000" />
+          <MaxCrouchRunVelocity value="3.500000" />
+          <DesiredVelocityEffectFactor value="0.500000" />
+        </FromJump>
+      </SpeedData>
+    </Item>
+  </aDropdownDetectorParams>
+  <DefaultDropDownParams ref="STANDARD_PED" />
+  <PlayerLedgeGrabData>
+    <fDistMax value="2.000000" />
+    <fDistMaxShin value="0.800000" />
+    <DistancesFromJump>
+      <fDistMaxSlow value="2.000000" />
+      <fDistMaxFast value="5.000000" />
+      <fDistMaxLowGroundSlow value="0.600000" />
+      <fDistMaxLowGroundFast value="1.000000" />
+      <fDistMaxShinSlow value="0.800000" />
+      <fDistMaxShinFast value="1.200000" />
+    </DistancesFromJump>
+    <PredictedHeightData>
+      <fShinMinCurrentMoverHeight value="-0.500000" />
+      <fShinImpactHeight value="-0.200000" />
+      <fHipsImpactHeight value="0.100000" />
+      <fChestImpactHeight value="1.450000" />
+      <fOverheadImpactHeight value="2.450000" />
+      <fShinImpactDist value="-0.100000" />
+      <fHipsImpactDist value="0.200000" />
+      <fChestImpactDist value="0.250000" />
+      <fOverheadImpactDist value="0.600000" />
+      <fGravity value="-9.800000" />
+      <fMinForwardSpeed value="1.600000" />
+      <fMinVerticalSpeed value="-5.500000" />
+      <bBlockShinIfLedgeGrabJump value="true" />
+    </PredictedHeightData>
+    <Heights>
+      <fShin value="-0.200000" />
+      <fHips value="0.100000" />
+      <fChest value="0.720000" />
+      <fOverhead value="4.000000" />
+    </Heights>
+    <MinGroundHeights>
+      <fShin value="0.300000" />
+      <fHips value="1.100000" />
+      <fChest value="1.800000" />
+      <fOverhead value="2.400000" />
+    </MinGroundHeights>
+    <ImpactMoverToHandholdHeights>
+      <fShin value="0.000000" />
+      <fHips value="0.000000" />
+      <fChest value="0.480000" />
+      <fOverhead value="1.050000" />
+    </ImpactMoverToHandholdHeights>
+    <ApproachData>
+      <fBlendOut value="0.180000" />
+      <fTransitionDistSlow value="0.800000" />
+      <fTransitionDistFast value="1.200000" />
+      <fTransitionDistOverheadSlow value="1.200000" />
+      <fTransitionDistOverheadFast value="1.600000" />
+      <fMinTime value="0.150000" />
+    </ApproachData>
+    <fIntenseImpactMinVerticalVelocity value="7.500000" />
+    <fCloseBlend value="0.100000" />
+    <fFarBlend value="0.800000" />
+    <fCloseBlendDistance value="0.500000" />
+    <fFarBlendDistance value="2.000000" />
+    <fSpeedSlow value="1.780000" />
+    <fSpeedFast value="6.700000" />
+    <bUseXYForToGoalZ value="true" />
+  </PlayerLedgeGrabData>
+  <PlayerJumpData>
+    <Detection>
+      <DefaultLaunchSpeeds>
+        <Walk>
+          <fDefaultUpwardSpeed value="1.820000" />
+          <fUphillUpwardSpeed value="3.500000" />
+        </Walk>
+        <Run>
+          <fDefaultUpwardSpeed value="1.950000" />
+          <fUphillUpwardSpeed value="3.750000" />
+        </Run>
+        <Sprint>
+          <fDefaultUpwardSpeed value="2.690000" />
+          <fUphillUpwardSpeed value="4.000000" />
+        </Sprint>
+        <fDefaultMinForwardSpeed value="3.000000" />
+        <fUphillMinForwardSpeed value="2.000000" />
+      </DefaultLaunchSpeeds>
+      <GapLaunchRanges>
+        <Walk>
+          <fMinForwardSpeed value="1.600000" />
+          <fMaxForwardSpeed value="5.200000" />
+          <fMinVerticalSpeed value="0.500000" />
+          <fMaxVerticalSpeed value="1.900000" />
+        </Walk>
+        <Run>
+          <fMinForwardSpeed value="4.800000" />
+          <fMaxForwardSpeed value="8.000000" />
+          <fMinVerticalSpeed value="0.500000" />
+          <fMaxVerticalSpeed value="2.600000" />
+        </Run>
+        <Sprint>
+          <fMinForwardSpeed value="6.000000" />
+          <fMaxForwardSpeed value="8.000000" />
+          <fMinVerticalSpeed value="1.300000" />
+          <fMaxVerticalSpeed value="2.800000" />
+        </Sprint>
+        <fRangeToleranceScale value="1.000000" />
+      </GapLaunchRanges>
+      <GlobalLaunchRanges>
+        <fMinForwardSpeed value="1.250000" />
+        <fMaxForwardSpeed value="10.000000" />
+        <fMinVerticalSpeed value="0.250000" />
+        <fMaxVerticalSpeed value="6.000000" />
+      </GlobalLaunchRanges>
+      <Launch>
+        <fMaxDeltaZ value="1.200000" />
+        <fMaxSlope value="0.600000" />
+        <fMinSlope value="-0.250000" />
+        <fNextFootStrikeToleranceDefault value="0.000000" />
+        <fNextFootStrikeToleranceCloseEdge value="0.500000" />
+        <fCloseEdgeMinDist value="1.500000" />
+        <fEdgeLaunchDistMaxWalk value="2.500000" />
+        <fEdgeLaunchDistMaxRun value="4.250000" />
+        <fEdgeLaunchDistMaxSprint value="4.600000" />
+        <fEdgeLaunchOffset value="0.600000" />
+      </Launch>
+      <Gap>
+        <fBehindEdgeTolerance value="0.400000" />
+        <fWalkFarEdgeXYDistMax value="3.000000" />
+        <fRunFarEdgeXYDistMax value="3.750000" />
+      </Gap>
+      <LedgeGrab>
+        <fMinLaunchToLedgeHeight value="-1.000000" />
+        <fCurveMargin value="2.800000" />
+        <fCurveMarginBoat value="1.750000" />
+        <fUnsafeDistToTop value="0.700000" />
+        <fSprintUnsafeHeightOffset value="-0.300000" />
+        <fCurveMinHeightAboveFeet value="0.800000" />
+      </LedgeGrab>
+      <SegmentTest>
+        <fLength value="6.500000" />
+        <fHeightAboveStart value="2.950000" />
+        <fHeightBelowStart value="5.500000" />
+      </SegmentTest>
+      <Gait>
+        <fMinDistToObstacleToIdleFromRun value="1.500000" />
+        <fMaxDistToObstacleToIdleFromRun value="4.000000" />
+        <fMinDistToObstacleToIdleFromWalk value="0.750000" />
+        <fMaxDistToObstacleToIdleFromWalk value="2.500000" />
+      </Gait>
+      <fHeadingDeltaMaxDEG value="0.000000" />
+      <fCloseEdgeMaxDist value="0.500000" />
+      <fCloseEdgeMaxDistWaterCraft value="1.000000" />
+      <bRestrictGapLandingToMaxCurve value="true" />
+      <bUseTraversalGravity value="false" />
+    </Detection>
+    <Scaling>
+      <PhysicalMetrics>
+        <Default>
+          <Walk>
+            <ForwardSpeedRatioMin value="1.000000" />
+            <ForwardSpeedRatioMax value="1.000000" />
+            <VerticalSpeedRatioMin value="1.000000" />
+            <VerticalSpeedRatioMax value="1.000000" />
+          </Walk>
+          <Run>
+            <ForwardSpeedRatioMin value="1.000000" />
+            <ForwardSpeedRatioMax value="1.000000" />
+            <VerticalSpeedRatioMin value="1.000000" />
+            <VerticalSpeedRatioMax value="1.000000" />
+          </Run>
+          <Sprint>
+            <ForwardSpeedRatioMin value="1.000000" />
+            <ForwardSpeedRatioMax value="1.000000" />
+            <VerticalSpeedRatioMin value="1.000000" />
+            <VerticalSpeedRatioMax value="1.000000" />
+          </Sprint>
+        </Default>
+        <Gap>
+          <Walk>
+            <ForwardSpeedRatioMin value="0.800000" />
+            <ForwardSpeedRatioMax value="1.200000" />
+            <VerticalSpeedRatioMin value="0.900000" />
+            <VerticalSpeedRatioMax value="1.100000" />
+          </Walk>
+          <Run>
+            <ForwardSpeedRatioMin value="0.900000" />
+            <ForwardSpeedRatioMax value="1.200000" />
+            <VerticalSpeedRatioMin value="0.900000" />
+            <VerticalSpeedRatioMax value="1.100000" />
+          </Run>
+          <Sprint>
+            <ForwardSpeedRatioMin value="0.900000" />
+            <ForwardSpeedRatioMax value="1.100000" />
+            <VerticalSpeedRatioMin value="0.900000" />
+            <VerticalSpeedRatioMax value="1.000000" />
+          </Sprint>
+        </Gap>
+        <Pier>
+          <Walk>
+            <ForwardSpeedRatioMin value="0.000100" />
+            <ForwardSpeedRatioMax value="1.500000" />
+            <VerticalSpeedRatioMin value="0.000100" />
+            <VerticalSpeedRatioMax value="1.500000" />
+          </Walk>
+          <Run>
+            <ForwardSpeedRatioMin value="0.000100" />
+            <ForwardSpeedRatioMax value="1.500000" />
+            <VerticalSpeedRatioMin value="0.000100" />
+            <VerticalSpeedRatioMax value="1.500000" />
+          </Run>
+          <Sprint>
+            <ForwardSpeedRatioMin value="0.000100" />
+            <ForwardSpeedRatioMax value="1.500000" />
+            <VerticalSpeedRatioMin value="0.000100" />
+            <VerticalSpeedRatioMax value="1.500000" />
+          </Sprint>
+        </Pier>
+        <Max>
+          <ForwardSpeedRatioMin value="0.200000" />
+          <ForwardSpeedRatioMax value="5.000000" />
+          <VerticalSpeedRatioMin value="0.500000" />
+          <VerticalSpeedRatioMax value="2.000000" />
+        </Max>
+      </PhysicalMetrics>
+      <LegacyMetrics>
+        <Default>
+          <Walk>
+            <XYMax value="0.600000" />
+            <XYMin value="0.000000" />
+            <ZMax value="0.250000" />
+            <ZMin value="-0.250000" />
+          </Walk>
+          <Run>
+            <XYMax value="0.300000" />
+            <XYMin value="0.000000" />
+            <ZMax value="0.250000" />
+            <ZMin value="-0.250000" />
+          </Run>
+        </Default>
+        <Gap>
+          <Walk>
+            <XYMax value="0.600000" />
+            <XYMin value="0.000000" />
+            <ZMax value="0.250000" />
+            <ZMin value="-0.250000" />
+          </Walk>
+          <Run>
+            <XYMax value="0.300000" />
+            <XYMin value="0.000000" />
+            <ZMax value="0.250000" />
+            <ZMin value="-0.250000" />
+          </Run>
+        </Gap>
+        <Max>
+          <XYMax value="10.000000" />
+          <XYMin value="-10.000000" />
+          <ZMax value="10.000000" />
+          <ZMin value="-10.000000" />
+        </Max>
+      </LegacyMetrics>
+      <fApexHeightTolerance value="0.040000" />
+      <fForwardVelocityBlendTime value="0.200000" />
+      <fForwardVelocityBlendTimeLandExacly value="0.100000" />
+    </Scaling>
+    <WaterDive>
+      <fDistanceVault value="1.400000" />
+      <fDistanceIdle value="1.600000" />
+      <fDistanceWalk value="2.000000" />
+      <fDistanceRun value="2.500000" />
+      <fMidAngleVault value="45.000000" />
+      <fMidAngleWalk value="45.000000" />
+      <fMidAngleRun value="55.000000" />
+      <fMidLengthVault value="2.000000" />
+      <fMidLengthWalk value="2.000000" />
+      <fMidLengthRun value="2.700000" />
+      <fLateAngleVault value="25.000000" />
+      <fLateAngleWalk value="25.000000" />
+      <fLateAngleRun value="25.000000" />
+      <fLateLengthVault value="2.000000" />
+      <fLateLengthWalk value="2.000000" />
+      <fLateLengthRun value="2.700000" />
+      <fEndHeightBelowWater value="3.000000" />
+      <fEndAngleWalk value="7.000000" />
+      <fEndAngleRun value="7.000000" />
+    </WaterDive>
+    <GaitSpeeds>
+      <Walk value="1.800000" />
+      <Run value="5.700000" />
+      <Sprint value="6.200000" />
+    </GaitSpeeds>
+    <Landing>
+      <fMinDistToGround value="0.200000" />
+      <fMinDistToWater value="0.150000" />
+      <Lucia>
+        <MinWaterDepthForHeadFirst value="1.000000" />
+        <MinWaterDepthForTricks value="0.600000" />
+        <MinDropForFlips value="0.000000" />
+      </Lucia>
+      <Jason>
+        <MinWaterDepthForHeadFirst value="1.000000" />
+        <MinWaterDepthForTricks value="0.600000" />
+        <MinDropForFlips value="0.000000" />
+      </Jason>
+    </Landing>
+    <Control>
+      <Heading>
+        <bControlHeading value="true" />
+        <fLerpJump value="1.000000" />
+        <fLerpIdle value="4.500000" />
+        <fLerpDive value="0.500000" />
+        <fLerpLedgeGrab value="0.000000" />
+        <fLerpChainJump value="1.000000" />
+        <fLerpLandExactly value="2.000000" />
+      </Heading>
+      <InAir>
+        <Default>
+          <fMisalignedPenalty value="0.000000" />
+          <fStrength value="10.000000" />
+          <fMaxSpeed value="2.000000" />
+          <fAngularStrength value="10.000000" />
+          <fAngularMaxSpeed value="220.000000" />
+          <fAngularMaxAcceleration value="540.000000" />
+          <fAngularMaxAccelerationPreTakeOff value="270.000000" />
+        </Default>
+        <IdleGroundJump>
+          <fMisalignedPenalty value="0.800000" />
+          <fStrength value="3.000000" />
+          <fMaxSpeed value="2.000000" />
+          <fAngularStrength value="5.000000" />
+          <fAngularMaxSpeed value="150.000000" />
+          <fAngularMaxAcceleration value="575.000000" />
+          <fAngularMaxAccelerationPreTakeOff value="360.000000" />
+        </IdleGroundJump>
+      </InAir>
+    </Control>
+    <BlendTimes>
+      <fBranch value="0.250000" />
+      <fBranchToFeetFirst value="0.500000" />
+    </BlendTimes>
+    <EnableForceChainJumpPhaseFromDrop value="true" />
+    <ForceChainJumpPhaseMinFootRelHeight value="0.501000" />
+    <ForceChainJumpMinPhase value="0.000000" />
+    <ForceChainJumpMaxPhase value="0.112000" />
+  </PlayerJumpData>
+  <AnimalJumpData>
+    <TimeToMaxJump value="0.500000" />
+    <MinVelocity value="0.000000" />
+    <MaxVelocity value="1.000000" />
+    <HeadingModifier value="1.000000" />
+    <VerticalScale value="1.000000" />
+    <HorizontalScale value="2.000000" />
+    <EnableSmoothing value="true" />
+    <SmoothingApproachTime value="0.100000" />
+    <RateFallOff value="0.200000" />
+    <MinRate value="0.500000" />
+    <MaxRate value="1.000000" />
+  </AnimalJumpData>
+  <InputControlData>
+    <CachedInputTime value="500" />
+    <CachedChainedInputTime value="250" />
+    <MaxJumpDelayTime value="300" />
+    <ForceResetJumpDelayTime value="500" />
+  </InputControlData>
+</CClimbTuneMgr>
